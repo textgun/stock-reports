@@ -43,5 +43,14 @@
     "score": 70,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-05-13",
+    "filename": "2026-05-13_포스코인터내셔널_047050.html",
+    "company": "포스코인터내셔널",
+    "ticker": "047050",
+    "score": 57,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
   }
 ]
