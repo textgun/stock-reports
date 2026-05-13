@@ -52,5 +52,86 @@
     "score": 57,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
+  },
+  {
+    "date": "2026-05-13",
+    "filename": "2026-05-13_삼성중공업_010140.html",
+    "company": "삼성중공업",
+    "ticker": "010140",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-05-13",
+    "filename": "2026-05-13_디앤디파마텍_347850.html",
+    "company": "디앤디파마텍",
+    "ticker": "347850",
+    "score": 36,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗"
+  },
+  {
+    "date": "2026-05-12",
+    "filename": "2026-05-12_슈프리마_236200.html",
+    "company": "슈프리마",
+    "ticker": "236200",
+    "score": 82,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★"
+  },
+  {
+    "date": "2026-05-13",
+    "filename": "2026-05-13_슈프리마_236200.html",
+    "company": "슈프리마",
+    "ticker": "236200",
+    "score": 82,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★"
+  },
+  {
+    "date": "2026-05-13",
+    "filename": "2026-05-13_HD현대중공업_329180.html",
+    "company": "HD현대중공업",
+    "ticker": "329180",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-05-13",
+    "filename": "2026-05-13_현대모비스_012330.html",
+    "company": "현대모비스",
+    "ticker": "012330",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-05-13",
+    "filename": "2026-05-13_한화오션_042660.html",
+    "company": "한화오션",
+    "ticker": "042660",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗"
+  },
+  {
+    "date": "2026-05-13",
+    "filename": "2026-05-13_ISC_095340.html",
+    "company": "ISC",
+    "ticker": "095340",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-05-13",
+    "filename": "2026-05-13_HD한국조선해양_009540.html",
+    "company": "HD한국조선해양",
+    "ticker": "009540",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
