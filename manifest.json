@@ -34,5 +34,14 @@
     "score": 62,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-05-13",
+    "filename": "2026-05-13_삼양식품_003230.html",
+    "company": "삼양식품",
+    "ticker": "003230",
+    "score": 70,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
