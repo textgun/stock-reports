@@ -133,5 +133,14 @@
     "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-05-14",
+    "filename": "009450_경동나비엔/2026-05-14_경동나비엔_009450.html",
+    "company": "경동나비엔",
+    "ticker": "009450",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
