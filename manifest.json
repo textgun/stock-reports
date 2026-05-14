@@ -160,5 +160,14 @@
     "score": 70,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-05-14",
+    "filename": "067310_하나마이크론/2026-05-14_하나마이크론_067310.html",
+    "company": "하나마이크론",
+    "ticker": "067310",
+    "score": 48,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
   }
 ]
