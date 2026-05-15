@@ -178,5 +178,14 @@
     "score": 79,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-05-15",
+    "filename": "425420_티에프이/2026-05-15_티에프이_425420.html",
+    "company": "티에프이",
+    "ticker": "425420",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
