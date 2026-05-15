@@ -187,5 +187,14 @@
     "score": 64,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-05-15",
+    "filename": "131290_티에스이/2026-05-15_티에스이_131290.html",
+    "company": "티에스이",
+    "ticker": "131290",
+    "score": 53,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
   }
 ]
