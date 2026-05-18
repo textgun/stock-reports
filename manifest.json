@@ -241,5 +241,14 @@
     "score": 63,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-05-18",
+    "filename": "005930_삼성전자/2026-05-18_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
