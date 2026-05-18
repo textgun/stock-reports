@@ -244,15 +244,6 @@
   },
   {
     "date": "2026-05-18",
-    "filename": "005930_삼성전자/2026-05-18_삼성전자_005930.html",
-    "company": "삼성전자",
-    "ticker": "005930",
-    "score": 68,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-05-18",
     "filename": "196170_알테오젠/2026-05-18_알테오젠_196170.html",
     "company": "알테오젠",
     "ticker": "196170",
@@ -266,6 +257,15 @@
     "company": "슈프리마",
     "ticker": "236200",
     "score": 78,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-05-18",
+    "filename": "005930_삼성전자/2026-05-18_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 68,
     "rating": "BUY",
     "rating_label": "매수 ★★"
   }
