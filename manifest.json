@@ -304,5 +304,14 @@
     "score": 80,
     "rating": "STRONG_BUY",
     "rating_label": "적극 매수 ★★★"
+  },
+  {
+    "date": "2026-05-19",
+    "filename": "000250_삼천당제약/2026-05-19_삼천당제약_000250.html",
+    "company": "삼천당제약",
+    "ticker": "000250",
+    "score": 42,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
