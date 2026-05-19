@@ -322,5 +322,14 @@
     "score": 49,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-05-19",
+    "filename": "012330_현대모비스/2026-05-19_현대모비스_012330.html",
+    "company": "현대모비스",
+    "ticker": "012330",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
