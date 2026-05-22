@@ -358,5 +358,14 @@
     "score": 30,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 5/30)"
+  },
+  {
+    "date": "2026-05-22",
+    "filename": "475150_SK이터닉스/2026-05-22_SK이터닉스_475150.html",
+    "company": "SK이터닉스",
+    "ticker": "475150",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
