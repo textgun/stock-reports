@@ -403,5 +403,14 @@
     "score": 77,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-05-23",
+    "filename": "131290_티에스이/2026-05-23_티에스이_131290.html",
+    "company": "티에스이",
+    "ticker": "131290",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
