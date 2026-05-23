@@ -385,5 +385,14 @@
     "score": 53,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-05-23",
+    "filename": "315640_딥노이드/2026-05-23_딥노이드_315640.html",
+    "company": "딥노이드",
+    "ticker": "315640",
+    "score": 26,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 6/22)"
   }
 ]
