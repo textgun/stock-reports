@@ -538,5 +538,14 @@
     "score": 64,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-05-26",
+    "filename": "010060_OCI홀딩스/2026-05-26_OCI홀딩스_010060.html",
+    "company": "OCI홀딩스",
+    "ticker": "010060",
+    "score": 47,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 16/30)"
   }
 ]
