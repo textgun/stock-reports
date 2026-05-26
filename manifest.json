@@ -475,5 +475,14 @@
     "score": 54,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 14/20)"
+  },
+  {
+    "date": "2026-05-26",
+    "filename": "236200_슈프리마/2026-05-26_슈프리마_236200.html",
+    "company": "슈프리마",
+    "ticker": "236200",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
