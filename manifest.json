@@ -592,5 +592,14 @@
     "score": 49,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
+  },
+  {
+    "date": "2026-05-27",
+    "filename": "005930_삼성전자/2026-05-27_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 72,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
