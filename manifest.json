@@ -655,5 +655,14 @@
     "score": 25,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 8/30)"
+  },
+  {
+    "date": "2026-05-29",
+    "filename": "009150_삼성전기/2026-05-29_삼성전기_009150.html",
+    "company": "삼성전기",
+    "ticker": "009150",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
   }
 ]
