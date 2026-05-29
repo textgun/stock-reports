@@ -691,5 +691,14 @@
     "score": 40,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 16/30)"
+  },
+  {
+    "date": "2026-05-29",
+    "filename": "007660_이수페타시스/2026-05-29_이수페타시스_007660.html",
+    "company": "이수페타시스",
+    "ticker": "007660",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
