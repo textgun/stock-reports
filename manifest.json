@@ -682,5 +682,14 @@
     "score": 54,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 20/22)"
+  },
+  {
+    "date": "2026-05-29",
+    "filename": "047050_포스코인터내셔널/2026-05-29_포스코인터내셔널_047050.html",
+    "company": "포스코인터내셔널",
+    "ticker": "047050",
+    "score": 40,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 16/30)"
   }
 ]
