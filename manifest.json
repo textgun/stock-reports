@@ -772,5 +772,14 @@
     "score": 51,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 27/32)"
+  },
+  {
+    "date": "2026-05-31",
+    "filename": "003230_삼양식품/2026-05-31_삼양식품_003230.html",
+    "company": "삼양식품",
+    "ticker": "003230",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
