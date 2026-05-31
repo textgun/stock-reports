@@ -781,5 +781,14 @@
     "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-05-31",
+    "filename": "086280_현대글로비스/2026-05-31_현대글로비스_086280.html",
+    "company": "현대글로비스",
+    "ticker": "086280",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
   }
 ]
