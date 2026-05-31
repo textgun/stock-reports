@@ -763,5 +763,14 @@
     "score": 58,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+  },
+  {
+    "date": "2026-05-31",
+    "filename": "000270_기아/2026-05-31_기아_000270.html",
+    "company": "기아",
+    "ticker": "000270",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/32)"
   }
 ]
