@@ -808,5 +808,14 @@
     "score": 52,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/32)"
+  },
+  {
+    "date": "2026-06-01",
+    "filename": "357780_솔브레인/2026-06-01_솔브레인_357780.html",
+    "company": "솔브레인",
+    "ticker": "357780",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
   }
 ]
