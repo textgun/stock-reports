@@ -889,5 +889,14 @@
     "score": 51,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-06-02",
+    "filename": "012330_현대모비스/2026-06-02_현대모비스_012330.html",
+    "company": "현대모비스",
+    "ticker": "012330",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/32)"
   }
 ]
