@@ -853,5 +853,14 @@
     "score": 49,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-06-01",
+    "filename": "009540_HD한국조선해양/2026-06-01_HD한국조선해양_009540.html",
+    "company": "HD한국조선해양",
+    "ticker": "009540",
+    "score": 47,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
   }
 ]
