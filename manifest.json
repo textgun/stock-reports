@@ -838,20 +838,20 @@
   },
   {
     "date": "2026-06-01",
-    "filename": "186230_그린플러스/2026-06-01_그린플러스_186230.html",
-    "company": "그린플러스",
-    "ticker": "186230",
-    "score": 49,
-    "rating": "WATCH",
-    "rating_label": "관찰"
-  },
-  {
-    "date": "2026-06-01",
     "filename": "2026-06-01_슈프리마_236200.html",
     "company": "슈프리마",
     "ticker": "236200",
     "score": 56,
     "rating": "HOLD",
     "rating_label": "보유/중립"
+  },
+  {
+    "date": "2026-06-01",
+    "filename": "2026-06-01_그린플러스_186230.html",
+    "company": "그린플러스",
+    "ticker": "186230",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
