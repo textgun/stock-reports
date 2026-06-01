@@ -862,5 +862,14 @@
     "score": 47,
     "rating": "AVOID",
     "rating_label": "회피"
+  },
+  {
+    "date": "2026-06-01",
+    "filename": "062040_산일전기/2026-06-01_산일전기_062040.html",
+    "company": "산일전기",
+    "ticker": "062040",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
