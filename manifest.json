@@ -907,5 +907,14 @@
     "score": 56,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-06-02",
+    "filename": "267260_HD현대일렉트릭/2026-06-02_HD현대일렉트릭_267260.html",
+    "company": "HD현대일렉트릭",
+    "ticker": "267260",
+    "score": 49,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
   }
 ]
