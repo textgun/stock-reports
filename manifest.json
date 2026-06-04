@@ -952,5 +952,14 @@
     "score": 44,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 19/20)"
+  },
+  {
+    "date": "2026-06-04",
+    "filename": "077360_덕산하이메탈/2026-06-04_덕산하이메탈_077360.html",
+    "company": "덕산하이메탈",
+    "ticker": "077360",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
   }
 ]
