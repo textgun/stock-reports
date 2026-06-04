@@ -970,5 +970,14 @@
     "score": 69,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-06-04",
+    "filename": "236200_슈프리마/2026-06-04_슈프리마_236200.html",
+    "company": "슈프리마",
+    "ticker": "236200",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
