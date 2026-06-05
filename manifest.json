@@ -1078,5 +1078,14 @@
     "score": 44,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 18/20)"
+  },
+  {
+    "date": "2026-06-05",
+    "filename": "259960_크래프톤/2026-06-05_크래프톤_259960.html",
+    "company": "크래프톤",
+    "ticker": "259960",
+    "score": 70,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
