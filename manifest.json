@@ -1081,15 +1081,6 @@
   },
   {
     "date": "2026-06-05",
-    "filename": "005930_삼성전자/2026-06-05_삼성전자_005930.html",
-    "company": "삼성전자",
-    "ticker": "005930",
-    "score": 70,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-06-05",
     "filename": "062040_산일전기/2026-06-05_산일전기_062040.html",
     "company": "산일전기",
     "ticker": "062040",
@@ -1159,5 +1150,14 @@
     "score": 64,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-06-05",
+    "filename": "005930_삼성전자/2026-06-05_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 70,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
