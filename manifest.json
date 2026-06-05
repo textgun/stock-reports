@@ -1105,5 +1105,14 @@
     "score": 55,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-06-05",
+    "filename": "402340_SK스퀘어/2026-06-05_SK스퀘어_402340.html",
+    "company": "SK스퀘어",
+    "ticker": "402340",
+    "score": 73,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
