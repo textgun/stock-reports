@@ -1009,15 +1009,6 @@
   },
   {
     "date": "2026-06-05",
-    "filename": "reports/2026-06-05_테스_095610.html",
-    "company": "테스",
-    "ticker": "095610",
-    "score": 63,
-    "rating": "HOLD",
-    "rating_label": "보유/중립"
-  },
-  {
-    "date": "2026-06-05",
     "filename": "reports/2026-06-05_피에스케이홀딩스_031980.html",
     "company": "피에스케이홀딩스",
     "ticker": "031980",
@@ -1051,5 +1042,14 @@
     "score": 66,
     "rating": "BUY",
     "rating_label": "매수"
+  },
+  {
+    "date": "2026-06-05",
+    "filename": "2026-06-05_테스_095610.html",
+    "company": "테스",
+    "ticker": "095610",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유/중립"
   }
 ]
