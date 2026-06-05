@@ -1060,5 +1060,14 @@
     "score": 44,
     "rating": "AVOID",
     "rating_label": "회피"
+  },
+  {
+    "date": "2026-06-05",
+    "filename": "329180_HD현대중공업/2026-06-05_HD현대중공업_329180.html",
+    "company": "HD현대중공업",
+    "ticker": "329180",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
