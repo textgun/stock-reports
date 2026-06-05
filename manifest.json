@@ -1033,5 +1033,14 @@
     "score": 66,
     "rating": "BUY",
     "rating_label": "매수"
+  },
+  {
+    "date": "2026-06-05",
+    "filename": "213420_덕산네오룩스/2026-06-05_덕산네오룩스_213420.html",
+    "company": "덕산네오룩스",
+    "ticker": "213420",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
