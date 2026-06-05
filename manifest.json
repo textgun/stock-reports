@@ -1000,15 +1000,6 @@
   },
   {
     "date": "2026-06-05",
-    "filename": "236200_슈프리마/2026-06-05_슈프리마_236200.html",
-    "company": "슈프리마",
-    "ticker": "236200",
-    "score": 54,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-06-05",
     "filename": "2026-06-05_덕산네오룩스_213420.html",
     "company": "덕산네오룩스",
     "ticker": "213420",
@@ -1105,5 +1096,14 @@
     "score": 70,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-06-05",
+    "filename": "236200_슈프리마/2026-06-05_슈프리마_236200.html",
+    "company": "슈프리마",
+    "ticker": "236200",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
