@@ -1027,11 +1027,11 @@
   },
   {
     "date": "2026-06-05",
-    "filename": "095610_테스/2026-06-05_테스_095610.html",
+    "filename": "reports/2026-06-05_테스_095610.html",
     "company": "테스",
     "ticker": "095610",
     "score": 63,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유/중립"
   }
 ]
