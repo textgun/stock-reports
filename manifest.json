@@ -1054,15 +1054,6 @@
   },
   {
     "date": "2026-06-05",
-    "filename": "329180_HD현대중공업/2026-06-05_HD현대중공업_329180.html",
-    "company": "HD현대중공업",
-    "ticker": "329180",
-    "score": 62,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-06-05",
     "filename": "042660_한화오션/2026-06-05_한화오션_042660.html",
     "company": "한화오션",
     "ticker": "042660",
@@ -1087,5 +1078,14 @@
     "score": 70,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-06-05",
+    "filename": "329180_HD현대중공업/2026-06-05_HD현대중공업_329180.html",
+    "company": "HD현대중공업",
+    "ticker": "329180",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
