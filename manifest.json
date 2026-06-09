@@ -1375,5 +1375,14 @@
     "score": 53,
     "rating": "AVOID",
     "rating_label": "회피"
+  },
+  {
+    "date": "2026-06-09",
+    "filename": "007660_이수페타시스/2026-06-09_이수페타시스_007660.html",
+    "company": "이수페타시스",
+    "ticker": "007660",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
