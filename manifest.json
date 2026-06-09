@@ -1297,15 +1297,6 @@
   },
   {
     "date": "2026-06-09",
-    "filename": "068270_셀트리온/2026-06-09_셀트리온_068270.html",
-    "company": "셀트리온",
-    "ticker": "068270",
-    "score": 45,
-    "rating": "WATCH",
-    "rating_label": "관찰"
-  },
-  {
-    "date": "2026-06-09",
     "filename": "278470_에이피알/2026-06-09_에이피알_278470.html",
     "company": "에이피알",
     "ticker": "278470",
@@ -1321,5 +1312,14 @@
     "score": 53,
     "rating": "BUY",
     "rating_label": "보유/중립"
+  },
+  {
+    "date": "2026-06-09",
+    "filename": "068270_셀트리온_20260609.html",
+    "company": "셀트리온",
+    "ticker": "068270",
+    "score": 45,
+    "rating": "HOLD",
+    "rating_label": "관찰"
   }
 ]
