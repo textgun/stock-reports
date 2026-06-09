@@ -1303,5 +1303,14 @@
     "score": 53,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-06-09",
+    "filename": "068270_셀트리온/2026-06-09_셀트리온_068270.html",
+    "company": "셀트리온",
+    "ticker": "068270",
+    "score": 45,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
