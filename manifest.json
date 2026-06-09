@@ -1297,15 +1297,6 @@
   },
   {
     "date": "2026-06-09",
-    "filename": "278470_에이피알/2026-06-09_에이피알_278470.html",
-    "company": "에이피알",
-    "ticker": "278470",
-    "score": 68,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-06-09",
     "filename": "196170_알테오젠_20260609.html",
     "company": "알테오젠",
     "ticker": "196170",
@@ -1321,5 +1312,14 @@
     "score": 45,
     "rating": "HOLD",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-06-09",
+    "filename": "278470_에이피알_20260609.html",
+    "company": "에이피알",
+    "ticker": "278470",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수"
   }
 ]
