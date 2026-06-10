@@ -1393,5 +1393,14 @@
     "score": 53,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
+  },
+  {
+    "date": "2026-06-10",
+    "filename": "095610_테스/2026-06-10_테스_095610.html",
+    "company": "테스",
+    "ticker": "095610",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
