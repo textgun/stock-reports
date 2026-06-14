@@ -1474,5 +1474,14 @@
     "score": 42,
     "rating": "AVOID",
     "rating_label": "회피"
+  },
+  {
+    "date": "2026-06-14",
+    "filename": "005930_삼성전자/2026-06-14_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
