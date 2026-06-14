@@ -1468,15 +1468,6 @@
   },
   {
     "date": "2026-06-14",
-    "filename": "000150_두산_2026-06-14.html",
-    "company": "두산",
-    "ticker": "000150",
-    "score": 42,
-    "rating": "AVOID",
-    "rating_label": "회피"
-  },
-  {
-    "date": "2026-06-14",
     "filename": "005930_삼성전자/2026-06-14_삼성전자_005930.html",
     "company": "삼성전자",
     "ticker": "005930",
@@ -1501,5 +1492,14 @@
     "score": 68,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-06-14",
+    "filename": "000150_두산/2026-06-14_두산_000150.html",
+    "company": "두산",
+    "ticker": "000150",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 18/30)"
   }
 ]
