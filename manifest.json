@@ -1486,20 +1486,20 @@
   },
   {
     "date": "2026-06-14",
-    "filename": "062040_산일전기/2026-06-14_산일전기_062040.html",
-    "company": "산일전기",
-    "ticker": "062040",
-    "score": 62,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-06-14",
     "filename": "071050_한국금융지주/2026-06-14_한국금융지주_071050.html",
     "company": "한국금융지주",
     "ticker": "071050",
     "score": 68,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-06-14",
+    "filename": "062040_산일전기/2026-06-14_산일전기_062040.html",
+    "company": "산일전기",
+    "ticker": "062040",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
