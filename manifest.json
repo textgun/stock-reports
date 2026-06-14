@@ -1465,5 +1465,14 @@
     "score": 65,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
+  },
+  {
+    "date": "2026-06-14",
+    "filename": "000150_두산/2026-06-14_두산_000150.html",
+    "company": "두산",
+    "ticker": "000150",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 18/30)"
   }
 ]
