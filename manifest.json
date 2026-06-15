@@ -1564,5 +1564,14 @@
     "score": 46,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
+  },
+  {
+    "date": "2026-06-15",
+    "filename": "034020_두산에너빌리티/2026-06-15_두산에너빌리티_034020.html",
+    "company": "두산에너빌리티",
+    "ticker": "034020",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
   }
 ]
