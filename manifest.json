@@ -1555,5 +1555,14 @@
     "score": 59,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-06-15",
+    "filename": "140860_파크시스템스/2026-06-15_파크시스템스_140860.html",
+    "company": "파크시스템스",
+    "ticker": "140860",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
   }
 ]
