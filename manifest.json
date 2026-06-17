@@ -1636,5 +1636,14 @@
     "score": 56,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+  },
+  {
+    "date": "2026-06-17",
+    "filename": "196170_알테오젠/2026-06-17_알테오젠_196170.html",
+    "company": "알테오젠",
+    "ticker": "196170",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
