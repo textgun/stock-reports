@@ -1618,5 +1618,14 @@
     "score": 47,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
+  },
+  {
+    "date": "2026-06-17",
+    "filename": "230360_에코마케팅/2026-06-17_에코마케팅_230360.html",
+    "company": "에코마케팅",
+    "ticker": "230360",
+    "score": 39,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)"
   }
 ]
