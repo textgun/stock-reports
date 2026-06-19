@@ -1681,5 +1681,14 @@
     "score": 38,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 19/30)"
+  },
+  {
+    "date": "2026-06-19",
+    "filename": "263750_펄어비스/2026-06-19_펄어비스_263750.html",
+    "company": "펄어비스",
+    "ticker": "263750",
+    "score": 78,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
