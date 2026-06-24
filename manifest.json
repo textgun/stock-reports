@@ -1843,5 +1843,14 @@
     "score": 49,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-06-24",
+    "filename": "315640_딥노이드/2026-06-24_딥노이드_315640.html",
+    "company": "딥노이드",
+    "ticker": "315640",
+    "score": 22,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 7/22)"
   }
 ]
