@@ -1834,5 +1834,14 @@
     "score": 47,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 19/22)"
+  },
+  {
+    "date": "2026-06-24",
+    "filename": "186230_그린플러스/2026-06-24_그린플러스_186230.html",
+    "company": "그린플러스",
+    "ticker": "186230",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
