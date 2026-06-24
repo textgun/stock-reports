@@ -1852,5 +1852,14 @@
     "score": 22,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 7/22)"
+  },
+  {
+    "date": "2026-06-24",
+    "filename": "089010_켐트로닉스/2026-06-24_켐트로닉스_089010.html",
+    "company": "켐트로닉스",
+    "ticker": "089010",
+    "score": 43,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
   }
 ]
