@@ -1972,15 +1972,6 @@
   },
   {
     "date": "2026-06-25",
-    "filename": "005930_삼성전자/2026-06-25_삼성전자_005930.html",
-    "company": "삼성전자",
-    "ticker": "005930",
-    "score": 68,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-06-25",
     "filename": "071050_한국금융지주/2026-06-25_한국금융지주_071050.html",
     "company": "한국금융지주",
     "ticker": "071050",
@@ -1993,6 +1984,15 @@
     "filename": "000660_SK하이닉스/2026-06-25_SK하이닉스_000660.html",
     "company": "SK하이닉스",
     "ticker": "000660",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-06-25",
+    "filename": "005930_삼성전자/2026-06-25_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
     "score": 68,
     "rating": "BUY",
     "rating_label": "매수 ★★"
