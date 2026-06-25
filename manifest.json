@@ -1897,5 +1897,14 @@
     "score": 26,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 8/22)"
+  },
+  {
+    "date": "2026-06-25",
+    "filename": "203650_드림시큐리티/2026-06-25_드림시큐리티_203650.html",
+    "company": "드림시큐리티",
+    "ticker": "203650",
+    "score": 47,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
   }
 ]
