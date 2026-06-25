@@ -1906,5 +1906,14 @@
     "score": 47,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
+  },
+  {
+    "date": "2026-06-25",
+    "filename": "046970_우리로/2026-06-25_우리로_046970.html",
+    "company": "우리로",
+    "ticker": "046970",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
