@@ -1942,5 +1942,14 @@
     "score": 34,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 18/30)"
+  },
+  {
+    "date": "2026-06-25",
+    "filename": "126700_하이비젼시스템/2026-06-25_하이비젼시스템_126700.html",
+    "company": "하이비젼시스템",
+    "ticker": "126700",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
   }
 ]
