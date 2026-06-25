@@ -1888,5 +1888,14 @@
     "score": 68,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-06-25",
+    "filename": "047560_이스트소프트/2026-06-25_이스트소프트_047560.html",
+    "company": "이스트소프트",
+    "ticker": "047560",
+    "score": 26,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 8/22)"
   }
 ]
