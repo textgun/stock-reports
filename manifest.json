@@ -1933,5 +1933,14 @@
     "score": 31,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 14/22)"
+  },
+  {
+    "date": "2026-06-25",
+    "filename": "208710_포톤/2026-06-25_포톤_208710.html",
+    "company": "포톤",
+    "ticker": "208710",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 18/30)"
   }
 ]
