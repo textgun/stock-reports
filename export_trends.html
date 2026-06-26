@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>수출 품목별 추이 — 전체 보기</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0f0e1a;
+    color: #e2e8f0;
+    font-family: 'Segoe UI', 'Apple SD Gothic Neo', sans-serif;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #e2e8f0;
+    margin-bottom: 4px;
+  }
+  .group-header {
+    font-size: 13px;
+    font-weight: 700;
+    color: #f59e0b;
+    padding: 8px 4px 4px;
+    border-bottom: 1px solid #2d2b55;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    letter-spacing: 0.05em;
+  }
+  .subtitle {
+    font-size: 12px;
+    color: #64748b;
+    margin-bottom: 24px;
+  }
+  .card {
+    background: #1a1830;
+    border: 1px solid #2d2b55;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .card-header {
+    padding: 12px 16px;
+    border-left: 4px solid #f59e0b;
+    display: flex;
+    align-items: center;
+    background: #1e1c3a;
+  }
+  .card-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #f59e0b;
+  }
+  .card-body {
+    display: flex;
+    gap: 0;
+  }
+  .chart-col {
+    flex: 1;
+    padding: 12px 16px 8px;
+    border-right: 1px solid #2d2b55;
+    min-width: 0;
+  }
+  .chart-label {
+    font-size: 11px;
+    color: #94a3b8;
+    margin-bottom: 4px;
+  }
+  .stock-col {
+    width: 320px;
+    padding: 8px 16px;
+    flex-shrink: 0;
+  }
+  @media (max-width: 780px) {
+    .card-body { flex-direction: column; }
+    .stock-col { width: 100%; border-top: 1px solid #2d2b55; }
+    .chart-col { border-right: none; }
+  }
+  .legend-note {
+    font-size: 10px;
+    color: #475569;
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;">
+  <h1>수출 품목별 추이 — 전체</h1>
+  <a href="index.html" style="font-size:12px;color:#48d1cc;text-decoration:none;border:1px solid #2d2b55;padding:5px 12px;border-radius:6px;">← 대시보드</a>
+</div>
+<p class="subtitle">
+  출처: 공공데이터포털 관세청_품목별 국가별 수출입실적 &nbsp;|&nbsp;
+  기준: 월별 확정치(다음달 16일 이후) / 잠정치(투명 막대) &nbsp;|&nbsp;
+  갱신: 2026-06-26
+</p>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">DRAM</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $25.0B  단가 $76,312/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_0" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_0",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [4765687.5, 4725936.7, 6694283.6, 5761054.1, 7337463.9, 8230251.1, 7560781.2, 8504645.0, 9345974.8, 8886616.3, 10163661.4, 12636909.8, 12111963.0, 15810749.9, 20759011.4, 20829752.3, 24950563.2], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [20790.8, 18627.39, 20065.35, 20369.32, 21494.36, 21754.39, 22804.42, 26164.92, 25282.42, 28636.67, 33193.75, 35162.69, 40021.42, 54915.6, 55299.56, 65225.67, 76312.15], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 76312.15, "yref": "y2", "text": "$76,312", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">SK하이닉스</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-3.60%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">2,812,000</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">삼성전자</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-3.07%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">347,500</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">NAND 플래시</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $0.9B  단가 $3,111/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_1" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_1",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [761673.5, 726739.7, 1004813.1, 874984.4, 959481.5, 999588.8, 867914.1, 844240.6, 1028578.3, 848887.9, 862688.2, 1214098.9, 837117.3, 697189.0, 940748.8, 817651.5, 912549.3], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [2825.89, 2770.91, 3396.99, 3073.09, 3330.6, 3466.02, 2894.28, 3097.14, 3303.43, 2970.28, 3270.57, 4045.54, 2713.92, 2559.7, 2878.62, 2715.18, 3110.69], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 3110.69, "yref": "y2", "text": "$3,111", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">SK하이닉스</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-3.60%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">2,812,000</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">삼성전자</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-3.07%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">347,500</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">반도체 제조장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $0.8B  단가 $157/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_2" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_2",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [599463.9, 686373.2, 810112.8, 823493.3, 766799.5, 888902.2, 954897.9, 688896.8, 737072.7, 699134.9, 684013.8, 884624.4, 649038.3, 697093.6, 915916.0, 936408.7, 836678.2], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [142.96, 122.34, 134.81, 88.73, 122.53, 145.57, 205.53, 174.36, 165.61, 119.8, 137.23, 114.6, 126.24, 157.63, 159.71, 159.37, 157.42], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 157.42, "yref": "y2", "text": "$157", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">한미반도체</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-4.49%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">260,750</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">피에스케이</td>
+            <td style="padding:8px 6px;color:#ef4444;font-weight:600;text-align:right;">+3.58%</td>
+            <td style="padding:8px 6px;color:#ef4444;font-weight:700;text-align:right;font-size:15px;">176,700</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">원익IPS</td>
+            <td style="padding:8px 6px;color:#ef4444;font-weight:600;text-align:right;">+3.88%</td>
+            <td style="padding:8px 6px;color:#ef4444;font-weight:700;text-align:right;font-size:15px;">160,700</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">승용차</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $5.5B  단가 $12/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_3" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_3",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [4828883.1, 5848945.3, 6011597.5, 6298092.1, 5939575.2, 5995652.4, 5492658.4, 5212759.4, 6042273.4, 5246367.1, 6043663.0, 5587815.0, 5743764.6, 4503110.3, 6078469.7, 5843132.2, 5492266.2], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [12.14, 12.24, 12.27, 12.4, 12.14, 12.5, 11.56, 12.24, 12.3, 12.2, 12.48, 12.07, 12.46, 12.35, 12.41, 12.18, 12.46], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 12.46, "yref": "y2", "text": "$12", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">현대자동차</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-3.18%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">487,000</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">기아</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-2.22%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">136,400</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">자동차부품</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $1.3B  단가 $7/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_4" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_4",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [1301972.3, 1567416.8, 1552955.6, 1708272.4, 1404162.5, 1520443.2, 1607760.7, 1403690.9, 1628200.3, 1267387.5, 1307094.6, 1541096.2, 1366963.2, 1206196.5, 1505450.5, 1590160.0, 1307228.0], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [7.99, 7.99, 7.98, 8.01, 7.83, 7.86, 7.61, 7.6, 7.58, 7.52, 7.6, 7.48, 7.37, 7.43, 7.7, 7.53, 7.37], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 7.37, "yref": "y2", "text": "$7", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">현대모비스</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-4.58%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">489,500</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">HL만도</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-4.19%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">46,900</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">선박</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $2.5B  단가 $4/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_5" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_5",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [2012617.0, 1426040.1, 2772861.7, 1593980.8, 2121014.6, 2272274.2, 2051956.0, 2940606.7, 2474103.4, 2116298.7, 1355906.6, 2833789.4, 2214926.1, 2101451.0, 2595347.6, 2614393.8, 2456481.0], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [2.95, 2.01, 2.42, 2.07, 2.08, 2.31, 2.52, 2.58, 2.36, 2.56, 3.23, 2.99, 3.14, 3.33, 3.36, 2.5, 4.15], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 4.15, "yref": "y2", "text": "$4", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">HD현대중공업</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-3.44%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">562,000</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">삼성중공업</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-3.15%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">23,050</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">항공기·우주선부품</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div style="color:#aaa;padding:20px;">데이터 없음 (항공기·우주선부품)</div>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">한화에어로스페이스</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-4.68%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">1,019,000</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">한국항공우주</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-2.11%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">139,200</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">석유제품</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $5.3B  단가 $1/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_7" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_7",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [3367494.3, 3801113.4, 3237829.3, 3566088.2, 3483211.3, 3665374.2, 4143249.3, 4082451.1, 4130510.2, 3767552.7, 3206168.1, 4112031.3, 3680083.7, 4016779.9, 6144472.8, 5010081.2, 5333380.3], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [0.73, 0.73, 0.7, 0.66, 0.64, 0.68, 0.7, 0.68, 0.69, 0.69, 0.71, 0.67, 0.66, 0.74, 1.24, 1.44, 1.26], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 1.26, "yref": "y2", "text": "$1", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">S-Oil</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-0.81%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">97,400</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">GS</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-1.71%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">63,100</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">합성수지·플라스틱</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $0.4B  단가 $2/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_8" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_8",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [394541.1, 457119.9, 420174.6, 470866.2, 391267.5, 384517.9, 448495.8, 399505.7, 461203.7, 361578.0, 335430.5, 420211.5, 403346.5, 421639.8, 406090.8, 481420.1, 423440.4], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [1.17, 1.18, 1.2, 1.22, 1.2, 1.16, 1.15, 1.15, 1.14, 1.13, 1.12, 1.1, 1.11, 1.11, 1.22, 1.59, 1.7], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 1.7, "yref": "y2", "text": "$2", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">LG화학</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-2.10%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">279,500</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">롯데케미칼</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-5.04%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">64,000</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">리튬이온배터리</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $0.7B  단가 $8/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_9" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_9",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [519564.2, 628637.9, 637204.0, 698678.3, 523825.4, 594381.0, 582845.3, 485216.3, 634630.9, 535364.9, 672449.5, 714703.7, 549515.6, 592391.9, 819233.2, 653328.3, 687989.1], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [6.2, 6.5, 6.36, 6.2, 5.94, 6.3, 5.98, 6.11, 6.0, 6.57, 7.12, 7.17, 5.97, 6.98, 7.82, 6.55, 7.91], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 7.91, "yref": "y2", "text": "$8", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">LG에너지솔루션</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-2.41%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">343,500</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">삼성SDI</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-1.56%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">473,500</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">무선통신기기</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $0.7B  단가 $780/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_10" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_10",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [416616.2, 503339.5, 536743.0, 707419.2, 666126.9, 474665.6, 527237.8, 587102.5, 697301.4, 630423.5, 649448.4, 712936.8, 1104273.7, 716990.7, 818473.9, 802083.5, 717624.7], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [565.89, 563.03, 589.61, 706.04, 647.5, 447.02, 553.52, 561.76, 583.12, 674.41, 606.06, 609.77, 972.57, 891.02, 770.53, 665.45, 779.63], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 779.63, "yref": "y2", "text": "$780", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">삼성전자</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-3.07%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">347,500</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">LG전자</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-4.24%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">194,400</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">변압기·전력기기</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $0.4B  단가 $19/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_11" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_11",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [313218.8, 377488.1, 352467.1, 409219.3, 383358.4, 482450.5, 401990.6, 348394.8, 379420.3, 292754.8, 382443.5, 408051.5, 366731.2, 319540.6, 405881.5, 405409.3, 355955.1], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [18.17, 17.2, 17.9, 16.9, 17.14, 17.82, 15.89, 18.2, 16.48, 18.1, 16.63, 15.05, 18.14, 18.23, 18.54, 17.12, 18.73], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 18.73, "yref": "y2", "text": "$19", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">LS일렉트릭</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-5.02%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">208,000</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">효성중공업</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-2.90%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">3,185,000</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">전선·케이블</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $0.4B  단가 $12/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_12" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_12",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [298946.1, 421878.0, 440037.1, 416990.2, 336024.1, 409417.6, 446868.1, 376535.0, 406151.1, 331219.5, 341835.1, 378512.6, 378662.1, 332073.5, 442397.6, 401125.0, 351703.0], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [12.14, 10.62, 10.54, 11.56, 11.82, 11.61, 11.6, 12.25, 11.6, 12.14, 11.99, 12.15, 12.18, 11.85, 12.05, 12.46, 12.23], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 12.23, "yref": "y2", "text": "$12", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">LS</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-5.98%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">338,000</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">LS에코에너지</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-5.88%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">48,850</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">컴퓨터·저장장치</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $0.1B  단가 $210/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_13" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_13",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [41682.6, 59078.8, 57442.1, 67295.4, 62823.2, 78640.9, 70614.9, 62626.7, 89377.4, 63231.5, 72680.2, 90219.1, 56696.5, 46919.8, 78669.6, 116434.2, 84583.0], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [106.66, 162.88, 185.11, 142.96, 135.66, 235.88, 158.87, 153.11, 200.54, 192.08, 146.03, 179.62, 156.4, 132.7, 158.17, 210.14, 209.98], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 209.98, "yref": "y2", "text": "$210", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">삼성전자</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-3.07%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">347,500</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">냉연강판</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $0.2B  단가 $1/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_14" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_14",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [197601.2, 178416.1, 170247.8, 209344.4, 203972.8, 173194.6, 180816.5, 180369.5, 193456.7, 171235.9, 142345.9, 144179.9, 168839.6, 175084.8, 162335.7, 181312.8, 172136.8], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [0.67, 0.68, 0.66, 0.66, 0.67, 0.65, 0.64, 0.62, 0.61, 0.61, 0.63, 0.59, 0.62, 0.62, 0.61, 0.63, 0.62], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 0.62, "yref": "y2", "text": "$1", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">POSCO홀딩스</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-4.80%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">307,500</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">현대제철</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-3.91%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">27,050</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">열연강판</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $0.4B  단가 $1/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_15" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_15",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [476149.0, 463475.3, 453299.3, 475856.8, 466536.2, 427305.7, 521295.1, 413289.0, 506280.2, 376101.7, 401882.9, 476778.5, 448103.9, 412225.7, 410043.0, 402602.9, 367383.3], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [0.6, 0.6, 0.61, 0.62, 0.65, 0.65, 0.62, 0.61, 0.58, 0.6, 0.59, 0.59, 0.6, 0.6, 0.61, 0.62, 0.66], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 0.66, "yref": "y2", "text": "$1", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">POSCO홀딩스</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-4.80%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">307,500</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">바이오의약품</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $0.7B  단가 $1,686/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_16" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_16",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [591084.2, 553738.2, 643140.7, 646144.9, 642094.6, 850321.8, 465579.4, 553611.7, 786622.1, 549729.3, 738398.8, 663097.1, 659160.2, 687054.0, 654407.8, 821595.9, 707685.8], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [1659.48, 1327.99, 1394.27, 1484.6, 1641.74, 1971.24, 1366.71, 1297.94, 1807.74, 1331.82, 1591.19, 1410.07, 1508.15, 1964.84, 1594.05, 1682.65, 1685.7], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 1685.7, "yref": "y2", "text": "$1,686", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">삼성바이오로직스</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-1.62%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">1,363,500</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">셀트리온</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-2.48%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">168,800</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">화장품</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'05 $1.0B  단가 $34/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+    </div>
+    <div class="card-body">
+      <div class="chart-col">
+        <div class="chart-label">최근변동이력</div>
+        <div id="chart_17" style="width:100%;height:220px;"></div>
+<script>Plotly.newPlot("chart_17",[{"type": "bar", "name": "\uc218\ucd9c\uc561 1K USD", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [632076.2, 739463.0, 788968.6, 849739.6, 795998.1, 772856.9, 805396.8, 701989.7, 936735.0, 753261.8, 764763.3, 883670.4, 841597.9, 751575.5, 969271.9, 1094569.7, 989462.1], "marker": {"color": ["rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)", "rgba(72,209,204,0.9)"]}, "yaxis": "y"}, {"type": "scatter", "mode": "lines+markers", "name": "\ub2e8\uac00 USD/kg", "x": ["2025'01", "2025'02", "2025'03", "2025'04", "2025'05", "2025'06", "2025'07", "2025'08", "2025'09", "2025'10", "2025'11", "2025'12", "2026'01", "2026'02", "2026'03", "2026'04", "2026'05"], "y": [33.81, 33.25, 33.46, 31.31, 32.45, 31.94, 31.0, 30.86, 30.7, 31.85, 32.0, 32.78, 32.45, 32.75, 33.2, 32.29, 33.79], "line": {"color": "#ffd700", "width": 2}, "marker": {"color": "#ffd700", "size": 5}, "yaxis": "y2", "connectgaps": true}],{"paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "margin": {"t": 30, "b": 40, "l": 70, "r": 70}, "height": 220, "legend": {"orientation": "h", "x": 0, "y": 1.12, "font": {"color": "#ccc", "size": 11}}, "xaxis": {"color": "#aaa", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.05)"}, "yaxis": {"color": "#48d1cc", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0.07)", "title": {"text": "1K USD", "font": {"color": "#48d1cc", "size": 10}}}, "yaxis2": {"overlaying": "y", "side": "right", "color": "#ffd700", "tickfont": {"size": 10}, "gridcolor": "rgba(255,255,255,0)", "title": {"text": "USD/kg", "font": {"color": "#ffd700", "size": 10}}}, "annotations": [{"x": "2026'05", "y": 33.79, "yref": "y2", "text": "$34", "showarrow": false, "font": {"color": "#ffd700", "size": 11}, "xanchor": "left", "yanchor": "bottom"}]},{displayModeBar:false,responsive:true});</script>
+      </div>
+      <div class="stock-col">
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:1px solid #334155;">
+              <th style="padding:6px;text-align:left;color:#94a3b8;font-size:12px;">종목명</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">등락률</th>
+              <th style="padding:6px;text-align:right;color:#94a3b8;font-size:12px;">현재가</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">아모레퍼시픽</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-1.94%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">95,800</td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 6px;font-weight:600;color:#e2e8f0;">LG생활건강</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:600;text-align:right;">-3.35%</td>
+            <td style="padding:8px 6px;color:#3b82f6;font-weight:700;text-align:right;font-size:15px;">216,500</td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+<p style="font-size:11px;color:#334155;text-align:center;margin-top:16px;">
+  수출액 단위: 1K USD (천달러) &nbsp;|&nbsp; 단가 = 수출금액(USD) ÷ 수출중량(kg) → USD/kg
+</p>
+</body>
+</html>
