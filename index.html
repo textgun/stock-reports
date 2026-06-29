@@ -26,7 +26,7 @@ h1{font-size:24px;font-weight:800;letter-spacing:0;color:#f8fafc}
 .toolbar{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
 .pill{border:1px solid var(--line);border-radius:999px;padding:6px 11px;color:var(--muted);font-size:12px;background:#15171b}
 .grid{display:grid;gap:14px}
-.kpis{grid-template-columns:repeat(6,minmax(0,1fr));margin-bottom:18px}
+.kpis{grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:18px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;min-width:0}
 .metric-label{font-size:12px;color:var(--muted);margin-bottom:7px;white-space:nowrap}
 .metric-value{font-size:25px;font-weight:800;color:#f8fafc;line-height:1.15}
@@ -97,7 +97,7 @@ tbody tr[data-ticker]:hover td{background:#202329}
       <p class="sub">분석 리포트, 매매 신호, 유니버스, 포트폴리오 리스크를 한 화면에서 봅니다.</p>
     </div>
     <div class="toolbar">
-      <span class="pill">업데이트 2026-06-29 12:46</span>
+      <span class="pill">업데이트 2026-06-29 12:55</span>
       <span class="pill">신호 2026-06-29 10:11</span>
       <span class="pill">데이터 2026-06-29</span>
     </div>
@@ -107,9 +107,11 @@ tbody tr[data-ticker]:hover td{background:#202329}
     <div class="card"><div class="metric-label">시장 국면</div><div class="metric-value warn">Neutral</div><div class="metric-note">KOSPI -1.26% / MA20 8464.0</div></div>
     <div class="card"><div class="metric-label">활성 매수</div><div class="metric-value ok">3개</div><div class="metric-note">최대 3포지션 / 섹터당 1개</div></div>
     <div class="card"><div class="metric-label">관찰 대상</div><div class="metric-value warn">19개</div><div class="metric-note">제외 3개</div></div>
-    <div class="card"><div class="metric-label">총자금</div><div class="metric-value ok">1134만</div><div class="metric-note">총수익률 +13.41% (전량 현금화)</div></div>
-    <div class="card"><div class="metric-label">리포트</div><div class="metric-value info">112개</div><div class="metric-note">히스토리 933건</div></div>
     <div class="card"><div class="metric-label">킬 스위치</div><div class="metric-value ok">OFF</div><div class="metric-note">정상 운용 가능</div></div>
+    <div class="card"><div class="metric-label">초기자본</div><div class="metric-value flat">1000만</div><div class="metric-note">운용 원금 (고정)</div></div>
+    <div class="card"><div class="metric-label">누적실현수익</div><div class="metric-value ok">+134만</div><div class="metric-note">22건 체결</div></div>
+    <div class="card"><div class="metric-label">총수익률</div><div class="metric-value ok">+13.41%</div><div class="metric-note">평가액 1134만</div></div>
+    <div class="card"><div class="metric-label">리포트</div><div class="metric-value info">112개</div><div class="metric-note">히스토리 933건</div></div>
   </section>
 
   <section class="grid main-grid">
@@ -128,7 +130,7 @@ tbody tr[data-ticker]:hover td{background:#202329}
         <div class="section-title">운영 상태</div>
         <div class="section-meta">시장 필터, 리스크, 최근 실행 흔적</div>
       </div>
-      <div class="status-list"><div class="status-row"><span>신호 생성</span><strong>2026-06-29 10:11</strong></div><div class="status-row"><span>분석 분기</span><strong>2026 Q1</strong></div><div class="status-row"><span>시장 급락 필터</span><strong>정상</strong></div><div class="status-row"><span>활성 유니버스</span><strong>10개</strong></div><div class="status-row"><span>총 분석 수</span><strong>25개</strong></div><div class="status-row"><span>Cooldown</span><strong>9개</strong></div><div class="status-row"><span>High-water</span><strong>1개</strong></div><div class="status-row"><span>Kill switch</span><strong>OFF</strong></div><div class="status-row"><span>최근 로그</span><strong>monitor.log: 9 12:45:08]   📤 대시보드 push 완료 (매도:[&#x27;005930&#x27;, &#x27;062040&#x27;, &#x27;086790&#x27;, &#x27;278470&#x27;] 매수:[])</strong></div></div>
+      <div class="status-list"><div class="status-row"><span>신호 생성</span><strong>2026-06-29 10:11</strong></div><div class="status-row"><span>분석 분기</span><strong>2026 Q1</strong></div><div class="status-row"><span>시장 급락 필터</span><strong>정상</strong></div><div class="status-row"><span>활성 유니버스</span><strong>10개</strong></div><div class="status-row"><span>총 분석 수</span><strong>25개</strong></div><div class="status-row"><span>Cooldown</span><strong>9개</strong></div><div class="status-row"><span>High-water</span><strong>1개</strong></div><div class="status-row"><span>Kill switch</span><strong>OFF</strong></div><div class="status-row"><span>최근 로그</span><strong>monitor.log: [2026-06-29 12:55:03]   일일 PnL: +0.00%</strong></div></div>
     </div>
   </section>
 
@@ -448,7 +450,7 @@ tbody tr[data-ticker]:hover td{background:#202329}
     </div>
   </section>
 
-  <p class="footer">마지막 업데이트: 2026-06-29 12:46 | <a href="https://textgun.github.io/stock-reports">https://textgun.github.io/stock-reports</a></p>
+  <p class="footer">마지막 업데이트: 2026-06-29 12:55 | <a href="https://textgun.github.io/stock-reports">https://textgun.github.io/stock-reports</a></p>
 </div>
 
 <script>
