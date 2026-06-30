@@ -2077,5 +2077,14 @@
     "score": 26,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 13/30)"
+  },
+  {
+    "date": "2026-06-30",
+    "filename": "214450_파마리서치/2026-06-30_파마리서치_214450.html",
+    "company": "파마리서치",
+    "ticker": "214450",
+    "score": 74,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
