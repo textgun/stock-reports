@@ -2113,5 +2113,14 @@
     "score": 52,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
+  },
+  {
+    "date": "2026-06-30",
+    "filename": "089970_브이엠/2026-06-30_브이엠_089970.html",
+    "company": "브이엠",
+    "ticker": "089970",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
