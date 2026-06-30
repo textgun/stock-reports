@@ -2134,20 +2134,20 @@
   },
   {
     "date": "2026-06-30",
-    "filename": "236200_슈프리마/2026-06-30_슈프리마_236200.html",
-    "company": "슈프리마",
-    "ticker": "236200",
-    "score": 53,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-06-30",
     "filename": "005930_삼성전자/2026-06-30_삼성전자_005930.html",
     "company": "삼성전자",
     "ticker": "005930",
     "score": 68,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-06-30",
+    "filename": "236200_슈프리마/2026-06-30_슈프리마_236200.html",
+    "company": "슈프리마",
+    "ticker": "236200",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
