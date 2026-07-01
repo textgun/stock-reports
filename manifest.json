@@ -2221,5 +2221,14 @@
     "score": 68,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-07-01",
+    "filename": "005380_현대자동차/2026-07-01_현대자동차_005380.html",
+    "company": "현대자동차",
+    "ticker": "005380",
+    "score": 39,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/32)"
   }
 ]
