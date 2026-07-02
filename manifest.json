@@ -2269,15 +2269,6 @@
   },
   {
     "date": "2026-07-02",
-    "filename": "005930_삼성전자/2026-07-02_삼성전자_005930.html",
-    "company": "삼성전자",
-    "ticker": "005930",
-    "score": 63,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-07-02",
     "filename": "058470_리노공업/2026-07-02_리노공업_058470.html",
     "company": "리노공업",
     "ticker": "058470",
@@ -2354,6 +2345,15 @@
     "company": "파마리서치",
     "ticker": "214450",
     "score": 73,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-07-02",
+    "filename": "005930_삼성전자/2026-07-02_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
   }
