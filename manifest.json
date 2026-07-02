@@ -2350,20 +2350,20 @@
   },
   {
     "date": "2026-07-02",
-    "filename": "005930_삼성전자/2026-07-02_삼성전자_005930.html",
-    "company": "삼성전자",
-    "ticker": "005930",
-    "score": 65,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-07-02",
     "filename": "064290_인텍플러스/2026-07-02_인텍플러스_064290.html",
     "company": "인텍플러스",
     "ticker": "064290",
     "score": 44,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 24/30)"
+  },
+  {
+    "date": "2026-07-02",
+    "filename": "005930_삼성전자/2026-07-02_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
