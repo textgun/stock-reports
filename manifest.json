@@ -2338,5 +2338,14 @@
     "score": 70,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-07-02",
+    "filename": "000880_한화/2026-07-02_한화_000880.html",
+    "company": "한화",
+    "ticker": "000880",
+    "score": 41,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)"
   }
 ]
