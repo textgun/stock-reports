@@ -2287,15 +2287,6 @@
   },
   {
     "date": "2026-07-02",
-    "filename": "319660_피에스케이/2026-07-02_피에스케이_319660.html",
-    "company": "피에스케이",
-    "ticker": "319660",
-    "score": 68,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-07-02",
     "filename": "071050_한국금융지주/2026-07-02_한국금융지주_071050.html",
     "company": "한국금융지주",
     "ticker": "071050",
@@ -2363,6 +2354,15 @@
     "company": "삼성전자",
     "ticker": "005930",
     "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-07-02",
+    "filename": "319660_피에스케이/2026-07-02_피에스케이_319660.html",
+    "company": "피에스케이",
+    "ticker": "319660",
+    "score": 68,
     "rating": "BUY",
     "rating_label": "매수 ★★"
   }
