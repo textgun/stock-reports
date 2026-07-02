@@ -2275,5 +2275,14 @@
     "score": 63,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-07-02",
+    "filename": "058470_리노공업/2026-07-02_리노공업_058470.html",
+    "company": "리노공업",
+    "ticker": "058470",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
