@@ -2383,5 +2383,14 @@
     "score": 40,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 15/20)"
+  },
+  {
+    "date": "2026-07-03",
+    "filename": "131970_두산테스나/2026-07-03_두산테스나_131970.html",
+    "company": "두산테스나",
+    "ticker": "131970",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
