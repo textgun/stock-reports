@@ -2464,5 +2464,14 @@
     "score": 70,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-07-04",
+    "filename": "064400_LG씨엔에스/2026-07-04_LG씨엔에스_064400.html",
+    "company": "LG씨엔에스",
+    "ticker": "064400",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/22)"
   }
 ]
