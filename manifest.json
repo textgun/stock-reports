@@ -2455,5 +2455,14 @@
     "score": 58,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
+  },
+  {
+    "date": "2026-07-04",
+    "filename": "062040_산일전기/2026-07-04_산일전기_062040.html",
+    "company": "산일전기",
+    "ticker": "062040",
+    "score": 70,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
