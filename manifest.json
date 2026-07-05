@@ -2518,5 +2518,14 @@
     "score": 41,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 20/26)"
+  },
+  {
+    "date": "2026-07-05",
+    "filename": "001440_대한전선/2026-07-05_대한전선_001440.html",
+    "company": "대한전선",
+    "ticker": "001440",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
