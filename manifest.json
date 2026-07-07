@@ -2590,5 +2590,14 @@
     "score": 49,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
+  },
+  {
+    "date": "2026-07-07",
+    "filename": "088350_한화생명/2026-07-07_한화생명_088350.html",
+    "company": "한화생명",
+    "ticker": "088350",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
