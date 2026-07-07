@@ -2581,5 +2581,14 @@
     "score": 46,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+  },
+  {
+    "date": "2026-07-07",
+    "filename": "127120_제이에스링크/2026-07-07_제이에스링크_127120.html",
+    "company": "제이에스링크",
+    "ticker": "127120",
+    "score": 49,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
   }
 ]
