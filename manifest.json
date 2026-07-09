@@ -2689,5 +2689,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/32)"
+  },
+  {
+    "date": "2026-07-09",
+    "filename": "105560_KB금융/2026-07-09_KB금융_105560.html",
+    "company": "KB금융",
+    "ticker": "105560",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
