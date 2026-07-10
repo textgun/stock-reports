@@ -2725,5 +2725,14 @@
     "score": 60,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-07-10",
+    "filename": "353200_대덕전자/2026-07-10_대덕전자_353200.html",
+    "company": "대덕전자",
+    "ticker": "353200",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
