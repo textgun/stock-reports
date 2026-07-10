@@ -2,7 +2,7 @@
   "date": "2026-07-10",
   "year": 2026,
   "quarter": 1,
-  "generated_at": "2026-07-10T20:42:09.123630",
+  "generated_at": "2026-07-10T20:43:28.717662",
   "config": {
     "buy_threshold": 65,
     "max_positions": 3,
@@ -61,7 +61,7 @@
       "momentum_3m": -35.79,
       "momentum_6m": -5.24,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:36.977230",
+      "generated_at": "2026-07-10T20:42:56.787112",
       "consecutive_drops": 0,
       "bear_entry_blocked": true
     }
@@ -99,7 +99,7 @@
       "momentum_3m": 100.0,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:05.512928",
+      "generated_at": "2026-07-10T20:42:25.080379",
       "consecutive_drops": 0,
       "cooldown_deferred": true,
       "cooldown_until": "2026-07-13T09:00:00"
@@ -136,7 +136,7 @@
       "momentum_3m": -35.79,
       "momentum_6m": -5.24,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:36.977230",
+      "generated_at": "2026-07-10T20:42:56.787112",
       "consecutive_drops": 0,
       "bear_entry_blocked": true
     },
@@ -172,7 +172,7 @@
       "momentum_3m": -6.13,
       "momentum_6m": 68.16,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:21.309298",
+      "generated_at": "2026-07-10T20:42:40.720335",
       "consecutive_drops": 0,
       "cooldown_deferred": true,
       "cooldown_until": "2026-07-16T09:00:00"
@@ -209,7 +209,7 @@
       "momentum_3m": -2.85,
       "momentum_6m": 41.42,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:16.392575",
+      "generated_at": "2026-07-10T20:42:35.970377",
       "consecutive_drops": 0
     },
     {
@@ -244,7 +244,7 @@
       "momentum_3m": -34.92,
       "momentum_6m": 17.33,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:11.043499",
+      "generated_at": "2026-07-10T20:42:30.574020",
       "consecutive_drops": 0
     },
     {
@@ -279,7 +279,7 @@
       "momentum_3m": 41.79,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:38.903512",
+      "generated_at": "2026-07-10T20:42:58.847229",
       "consecutive_drops": 1
     },
     {
@@ -314,7 +314,7 @@
       "momentum_3m": 100.0,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:40.881375",
+      "generated_at": "2026-07-10T20:43:00.823793",
       "consecutive_drops": 0
     },
     {
@@ -349,7 +349,7 @@
       "momentum_3m": 100.0,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:31.733071",
+      "generated_at": "2026-07-10T20:42:51.346845",
       "consecutive_drops": 1
     },
     {
@@ -384,7 +384,7 @@
       "momentum_3m": 11.32,
       "momentum_6m": 26.62,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:29.080313",
+      "generated_at": "2026-07-10T20:42:48.639329",
       "consecutive_drops": 0
     },
     {
@@ -419,7 +419,7 @@
       "momentum_3m": -20.23,
       "momentum_6m": 33.75,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:18.579576",
+      "generated_at": "2026-07-10T20:42:38.082315",
       "consecutive_drops": 0
     },
     {
@@ -454,7 +454,7 @@
       "momentum_3m": 44.89,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:42.946599",
+      "generated_at": "2026-07-10T20:43:02.885690",
       "consecutive_drops": 0
     },
     {
@@ -489,7 +489,7 @@
       "momentum_3m": 9.37,
       "momentum_6m": 36.44,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:00.162374",
+      "generated_at": "2026-07-10T20:42:19.902959",
       "consecutive_drops": 0
     },
     {
@@ -524,7 +524,7 @@
       "momentum_3m": 34.5,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:13.782500",
+      "generated_at": "2026-07-10T20:42:33.198061",
       "consecutive_drops": 0
     },
     {
@@ -559,7 +559,7 @@
       "momentum_3m": 17.75,
       "momentum_6m": 46.93,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:49.419750",
+      "generated_at": "2026-07-10T20:43:09.130150",
       "consecutive_drops": 0
     },
     {
@@ -594,7 +594,7 @@
       "momentum_3m": 11.09,
       "momentum_6m": 39.64,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:53.558919",
+      "generated_at": "2026-07-10T20:43:13.398858",
       "consecutive_drops": 0
     },
     {
@@ -629,7 +629,7 @@
       "momentum_3m": 4.03,
       "momentum_6m": 26.69,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:02.788530",
+      "generated_at": "2026-07-10T20:42:22.413294",
       "consecutive_drops": 0
     },
     {
@@ -664,7 +664,7 @@
       "momentum_3m": 7.08,
       "momentum_6m": 36.7,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:51.517544",
+      "generated_at": "2026-07-10T20:43:11.298477",
       "consecutive_drops": 0
     },
     {
@@ -699,7 +699,7 @@
       "momentum_3m": -22.76,
       "momentum_6m": 21.9,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:08.349418",
+      "generated_at": "2026-07-10T20:42:27.812483",
       "consecutive_drops": 0
     },
     {
@@ -734,7 +734,7 @@
       "momentum_3m": -18.24,
       "momentum_6m": -12.5,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:23.958514",
+      "generated_at": "2026-07-10T20:42:43.523618",
       "consecutive_drops": 0
     },
     {
@@ -769,7 +769,7 @@
       "momentum_3m": -8.35,
       "momentum_6m": -31.86,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:45.078548",
+      "generated_at": "2026-07-10T20:43:04.968600",
       "consecutive_drops": 0
     },
     {
@@ -804,7 +804,7 @@
       "momentum_3m": -3.87,
       "momentum_6m": -25.13,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:47.231306",
+      "generated_at": "2026-07-10T20:43:07.099194",
       "consecutive_drops": 1
     },
     {
@@ -839,7 +839,7 @@
       "momentum_3m": 37.43,
       "momentum_6m": 35.85,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T20:41:26.888113",
+      "generated_at": "2026-07-10T20:42:46.486650",
       "consecutive_drops": 0
     }
   ],
@@ -875,7 +875,7 @@
       "rsi": null,
       "momentum_3m": -9.67,
       "momentum_6m": -33.13,
-      "generated_at": "2026-07-10T20:42:09.111951"
+      "generated_at": "2026-07-10T20:43:28.705963"
     }
   ],
   "valuation_watchlist": [],
