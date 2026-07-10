@@ -8736,12 +8736,12 @@
       },
       {
         "date": "2026-07-10",
-        "total_score": 59,
+        "total_score": 57,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 15,
+          "opportunity": 13,
           "threat": 11
         }
       }
@@ -9104,12 +9104,12 @@
       },
       {
         "date": "2026-07-10",
-        "total_score": 58,
+        "total_score": 60,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 13,
+          "opportunity": 15,
           "threat": 12
         }
       }
@@ -11725,13 +11725,13 @@
       },
       {
         "date": "2026-07-10",
-        "total_score": 49,
-        "rating_code": "WATCH",
+        "total_score": 50,
+        "rating_code": "HOLD",
         "breakdown": {
           "strength": 17,
           "weakness": 15,
           "opportunity": 11,
-          "threat": 6
+          "threat": 7
         }
       }
     ]
