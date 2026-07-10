@@ -2,7 +2,7 @@
   "date": "2026-07-10",
   "year": 2026,
   "quarter": 1,
-  "generated_at": "2026-07-10T15:17:43.283031",
+  "generated_at": "2026-07-10T15:18:15.192760",
   "config": {
     "buy_threshold": 65,
     "max_positions": 3,
@@ -53,15 +53,15 @@
       "quadrant": "현실 강함  🟢",
       "position_pct": 12.04,
       "amount_krw": 4816000,
-      "rsi": 42.56,
-      "rsi_label": "중립 (42.6)",
+      "rsi": 43.04,
+      "rsi_label": "중립 (43.0)",
       "adr_signal": "ok",
-      "adr_desc": "ADR 소진율 38% — 진입 여력 있음 (↑2.1% / ADR 5.4%)",
+      "adr_desc": "ADR 소진율 43% — 진입 여력 있음 (↑2.3% / ADR 5.4%)",
       "adr_factor": 0.5,
-      "momentum_3m": -35.53,
-      "momentum_6m": -4.86,
+      "momentum_3m": -35.36,
+      "momentum_6m": -4.6,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:17:04.958037",
+      "generated_at": "2026-07-10T15:17:34.226892",
       "consecutive_drops": 0,
       "bear_entry_blocked": true
     }
@@ -99,7 +99,7 @@
       "momentum_3m": 100.0,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:30.239321",
+      "generated_at": "2026-07-10T15:16:59.706036",
       "consecutive_drops": 0,
       "cooldown_deferred": true,
       "cooldown_until": "2026-07-13T09:00:00"
@@ -128,15 +128,15 @@
       "quadrant": "현실 강함  🟢",
       "position_pct": 12.04,
       "amount_krw": 4816000,
-      "rsi": 42.56,
-      "rsi_label": "중립 (42.6)",
+      "rsi": 43.04,
+      "rsi_label": "중립 (43.0)",
       "adr_signal": "ok",
-      "adr_desc": "ADR 소진율 38% — 진입 여력 있음 (↑2.1% / ADR 5.4%)",
+      "adr_desc": "ADR 소진율 43% — 진입 여력 있음 (↑2.3% / ADR 5.4%)",
       "adr_factor": 0.5,
-      "momentum_3m": -35.53,
-      "momentum_6m": -4.86,
+      "momentum_3m": -35.36,
+      "momentum_6m": -4.6,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:17:04.958037",
+      "generated_at": "2026-07-10T15:17:34.226892",
       "consecutive_drops": 0,
       "bear_entry_blocked": true
     },
@@ -172,7 +172,7 @@
       "momentum_3m": -6.26,
       "momentum_6m": 67.94,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:48.368134",
+      "generated_at": "2026-07-10T15:17:16.399317",
       "consecutive_drops": 0,
       "cooldown_deferred": true,
       "cooldown_until": "2026-07-16T09:00:00"
@@ -209,7 +209,7 @@
       "momentum_3m": -33.69,
       "momentum_6m": 19.55,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:36.749114",
+      "generated_at": "2026-07-10T15:17:05.563146",
       "consecutive_drops": 0
     },
     {
@@ -241,10 +241,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": 43.03,
+      "momentum_3m": 42.54,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:17:07.254200",
+      "generated_at": "2026-07-10T15:17:37.040762",
       "consecutive_drops": 1
     },
     {
@@ -279,7 +279,7 @@
       "momentum_3m": -2.44,
       "momentum_6m": 42.01,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:43.026324",
+      "generated_at": "2026-07-10T15:17:11.073110",
       "consecutive_drops": 0
     },
     {
@@ -314,7 +314,7 @@
       "momentum_3m": -19.17,
       "momentum_6m": 35.54,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:45.342837",
+      "generated_at": "2026-07-10T15:17:13.475461",
       "consecutive_drops": 0
     },
     {
@@ -349,7 +349,7 @@
       "momentum_3m": 100.0,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:59.282648",
+      "generated_at": "2026-07-10T15:17:27.676387",
       "consecutive_drops": 1
     },
     {
@@ -384,7 +384,7 @@
       "momentum_3m": 100.0,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:17:09.449265",
+      "generated_at": "2026-07-10T15:17:40.605540",
       "consecutive_drops": 1
     },
     {
@@ -419,7 +419,7 @@
       "momentum_3m": 11.87,
       "momentum_6m": 27.25,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:56.404819",
+      "generated_at": "2026-07-10T15:17:24.595972",
       "consecutive_drops": 0
     },
     {
@@ -454,7 +454,7 @@
       "momentum_3m": 9.95,
       "momentum_6m": 37.16,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:23.574298",
+      "generated_at": "2026-07-10T15:16:53.882764",
       "consecutive_drops": 0
     },
     {
@@ -486,10 +486,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": 45.74,
+      "momentum_3m": 45.32,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:17:11.830534",
+      "generated_at": "2026-07-10T15:17:43.245861",
       "consecutive_drops": 0
     },
     {
@@ -524,7 +524,7 @@
       "momentum_3m": 34.33,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:39.896497",
+      "generated_at": "2026-07-10T15:17:08.383789",
       "consecutive_drops": 0
     },
     {
@@ -556,10 +556,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": 18.01,
-      "momentum_6m": 47.25,
+      "momentum_3m": 17.85,
+      "momentum_6m": 47.05,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:17:18.560712",
+      "generated_at": "2026-07-10T15:17:50.951374",
       "consecutive_drops": 0
     },
     {
@@ -591,10 +591,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": 7.5,
-      "momentum_6m": 37.23,
+      "momentum_3m": 7.25,
+      "momentum_6m": 36.91,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:17:20.971148",
+      "generated_at": "2026-07-10T15:17:53.533783",
       "consecutive_drops": 0
     },
     {
@@ -629,7 +629,7 @@
       "momentum_3m": -21.73,
       "momentum_6m": 23.51,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:33.583248",
+      "generated_at": "2026-07-10T15:17:02.777556",
       "consecutive_drops": 0
     },
     {
@@ -664,7 +664,7 @@
       "momentum_3m": 3.71,
       "momentum_6m": 26.29,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:26.805698",
+      "generated_at": "2026-07-10T15:16:56.961935",
       "consecutive_drops": 0
     },
     {
@@ -696,10 +696,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": 11.8,
-      "momentum_6m": 40.54,
+      "momentum_3m": 11.6,
+      "momentum_6m": 40.28,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:17:23.325997",
+      "generated_at": "2026-07-10T15:17:55.987681",
       "consecutive_drops": 2
     },
     {
@@ -734,7 +734,7 @@
       "momentum_3m": -18.03,
       "momentum_6m": -12.28,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:51.212422",
+      "generated_at": "2026-07-10T15:17:19.355102",
       "consecutive_drops": 0
     },
     {
@@ -766,10 +766,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": -3.22,
-      "momentum_6m": -24.62,
+      "momentum_3m": -3.27,
+      "momentum_6m": -24.66,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:17:16.258158",
+      "generated_at": "2026-07-10T15:17:48.519880",
       "consecutive_drops": 1
     },
     {
@@ -804,7 +804,7 @@
       "momentum_3m": -8.06,
       "momentum_6m": -31.65,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:17:13.956670",
+      "generated_at": "2026-07-10T15:17:45.823882",
       "consecutive_drops": 0
     },
     {
@@ -839,7 +839,7 @@
       "momentum_3m": 38.07,
       "momentum_6m": 36.48,
       "vix_downgraded": false,
-      "generated_at": "2026-07-10T15:16:54.040630",
+      "generated_at": "2026-07-10T15:17:22.153394",
       "consecutive_drops": 0
     }
   ],
@@ -875,7 +875,7 @@
       "rsi": null,
       "momentum_3m": -9.56,
       "momentum_6m": -33.05,
-      "generated_at": "2026-07-10T15:17:43.246964"
+      "generated_at": "2026-07-10T15:18:15.178615"
     }
   ],
   "valuation_watchlist": [],
