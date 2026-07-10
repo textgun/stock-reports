@@ -586,11 +586,11 @@
     "company": "신한지주",
     "sector": "금융",
     "updated": "2026-07-10",
-    "score": 59,
+    "score": 57,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 15,
+      "opportunity": 13,
       "threat": 11
     },
     "sector_max": {
@@ -617,7 +617,7 @@
     },
     "reality_hope": {
       "reality_score": 33,
-      "hope_score": 26,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -670,11 +670,11 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-07-10",
-    "score": 58,
+    "score": 60,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 13,
+      "opportunity": 15,
       "threat": 12
     },
     "sector_max": {
@@ -701,7 +701,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 24,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1202,12 +1202,12 @@
     "company": "삼성화재해상보험",
     "sector": "금융",
     "updated": "2026-07-10",
-    "score": 49,
+    "score": 50,
     "breakdown": {
       "strength": 17,
       "weakness": 15,
       "opportunity": 11,
-      "threat": 6
+      "threat": 7
     },
     "sector_max": {
       "strength": 25,
@@ -1232,9 +1232,9 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 29,
+      "reality_score": 30,
       "hope_score": 19,
-      "quadrant": "현실·기대 약함  🔴"
+      "quadrant": "현실 강함  🟢"
     },
     "extra": null,
     "valuation": null,
