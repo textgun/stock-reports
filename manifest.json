@@ -2788,5 +2788,14 @@
     "score": 66,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-07-13",
+    "filename": "006730_서부T&D/2026-07-13_서부T&D_006730.html",
+    "company": "서부T&D",
+    "ticker": "006730",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
