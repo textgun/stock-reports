@@ -1606,12 +1606,12 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-07-13",
-    "score": 65,
+    "score": 66,
     "breakdown": {
       "strength": 25,
       "weakness": 17,
       "opportunity": 8,
-      "threat": 15
+      "threat": 16
     },
     "sector_max": {
       "strength": 25,
@@ -1642,20 +1642,33 @@
     },
     "extra": null,
     "valuation": {
-      "per": 53.21,
+      "per": 53.97,
       "per_txt": "고평가 주의",
-      "pbr": 9.35,
+      "pbr": 9.48,
       "pbr_txt": "고평가 주의",
-      "psr": 33.85,
+      "psr": 34.33,
       "psr_txt": "고평가 주의",
-      "peg": 0.49,
+      "peg": 0.5,
       "peg_txt": "저평가(성장대비)",
       "tgt": 139000.0,
-      "upside": -24.0,
+      "upside": -25.1,
       "consensus_n": 5,
       "roe": 7.24
     },
-    "valuation_engine": null
+    "valuation_engine": {
+      "fair_value": 33730.0,
+      "band_low": 14612.0,
+      "band_high": 135786.0,
+      "confidence": "LOW",
+      "zone": "OVERHEATED",
+      "gap_pct": 450.3,
+      "quality_gate_passed": true,
+      "action_label": "2차 매도 — 추가 1/3 매도",
+      "srim_mid": 33730.34058453156,
+      "per_band_mid": 14612.0,
+      "pbr_roe_fair_value": 135786.0,
+      "nav_sotp_mid": null
+    }
   },
   "036930": {
     "company": "주성엔지니어링",
@@ -3928,14 +3941,14 @@
   },
   "031980": {
     "company": "피에스케이홀딩스",
-    "updated": "2026-06-30",
-    "score": 50,
+    "updated": "2026-07-13",
+    "score": 49,
     "sector": "반도체",
     "breakdown": {
       "strength": 14,
       "weakness": 8,
-      "opportunity": 10,
-      "threat": 18
+      "opportunity": 12,
+      "threat": 15
     },
     "sector_max": {
       "strength": 25,
@@ -3960,23 +3973,37 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 36.65,
+      "per": 31.11,
       "per_txt": "고평가 주의",
-      "pbr": 6.91,
+      "pbr": 5.86,
       "pbr_txt": "고평가 주의",
-      "psr": 125.9,
+      "psr": 106.87,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 59500.0,
-      "upside": -63.6,
+      "upside": -57.1,
       "consensus_n": 4,
       "roe": 3.93
+    },
+    "valuation_engine": {
+      "fair_value": 52257.0,
+      "band_low": 19717.0,
+      "band_high": 169203.0,
+      "confidence": "LOW",
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (22점 < 기준 30점) / 이자보상배율 미달 (1.8배 < 기준 2.0배), 존과 무관하게 회피",
+      "srim_mid": 52257.26018867782,
+      "per_band_mid": 19717.0,
+      "pbr_roe_fair_value": 169203.0,
+      "nav_sotp_mid": null
     }
   },
   "043260": {
     "company": "성호전자",
-    "updated": "2026-07-01",
+    "updated": "2026-07-13",
     "score": 64,
     "sector": "전기장비/전력",
     "breakdown": {
@@ -4008,18 +4035,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 5.28,
+      "per": 3.42,
       "per_txt": "저평가",
-      "pbr": 3.76,
+      "pbr": 2.44,
       "pbr_txt": "저평가",
-      "psr": 33.15,
+      "psr": 21.68,
       "psr_txt": "고평가 주의",
-      "peg": 0.05,
+      "peg": 0.03,
       "peg_txt": "저평가(성장대비)",
       "tgt": 85000.0,
-      "upside": 175.5,
+      "upside": 325.0,
       "consensus_n": 0,
       "roe": 54.6
+    },
+    "valuation_engine": {
+      "fair_value": 49684.0,
+      "band_low": 8583.0,
+      "band_high": 88410.0,
+      "confidence": "LOW",
+      "zone": "ACCUMULATE",
+      "gap_pct": -59.7,
+      "quality_gate_passed": true,
+      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
+      "srim_mid": 9656.165912336983,
+      "per_band_mid": 88410.0,
+      "pbr_roe_fair_value": 49684.0,
+      "nav_sotp_mid": null
     }
   },
   "241710": {
@@ -5131,6 +5172,130 @@
       "srim_mid": 45448.21366886387,
       "per_band_mid": null,
       "pbr_roe_fair_value": 122895.0,
+      "nav_sotp_mid": null
+    }
+  },
+  "389020": {
+    "company": "자람테크놀로지",
+    "updated": "2026-07-13",
+    "score": 35,
+    "sector": "기타",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 12,
+      "opportunity": 7,
+      "threat": 10
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "recovering",
+      "yoy_pct": -18.3,
+      "rev_yoy_pct": 67.1,
+      "momentum_score": 4.5,
+      "correction_pts": 3
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": null,
+      "per_txt": "",
+      "pbr": 3.14,
+      "pbr_txt": "",
+      "psr": 29.97,
+      "psr_txt": "고평가 주의",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": 60000.0,
+      "upside": 166.7,
+      "consensus_n": 1,
+      "roe": -0.53
+    },
+    "valuation_engine": {
+      "fair_value": 171684.0,
+      "band_low": 171684.0,
+      "band_high": 171684.0,
+      "confidence": "LOW",
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (18점 < 기준 30점) / 이자보상배율 미달 (-1.8배 < 기준 2.0배), 존과 무관하게 회피",
+      "srim_mid": null,
+      "per_band_mid": 171684.0,
+      "pbr_roe_fair_value": null,
+      "nav_sotp_mid": null
+    }
+  },
+  "006730": {
+    "company": "서부T&D",
+    "updated": "2026-07-13",
+    "score": 60,
+    "sector": "내수/유통",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 25,
+      "opportunity": 6,
+      "threat": 9
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": 37.7,
+      "rev_yoy_pct": 43.3,
+      "momentum_score": 7.0,
+      "correction_pts": 4
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 8.39,
+      "per_txt": "저평가",
+      "pbr": 0.67,
+      "pbr_txt": "고평가 주의",
+      "psr": 10.78,
+      "psr_txt": "고평가 주의",
+      "peg": 0.22,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 19666.666666666668,
+      "upside": 77.5,
+      "consensus_n": 3,
+      "roe": 0.43
+    },
+    "valuation_engine": {
+      "fair_value": 21729.0,
+      "band_low": 15868.0,
+      "band_high": 24849.0,
+      "confidence": "HIGH",
+      "zone": "DEEP_VALUE",
+      "gap_pct": -49.0,
+      "quality_gate_passed": true,
+      "action_label": "3차 매수 존 (목표비중 100%까지)",
+      "srim_mid": 21728.707595597276,
+      "per_band_mid": 15868.0,
+      "pbr_roe_fair_value": 24849.0,
       "nav_sotp_mid": null
     }
   }
