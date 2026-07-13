@@ -2779,5 +2779,14 @@
     "score": 49,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
+  },
+  {
+    "date": "2026-07-13",
+    "filename": "319660_피에스케이/2026-07-13_피에스케이_319660.html",
+    "company": "피에스케이",
+    "ticker": "319660",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
