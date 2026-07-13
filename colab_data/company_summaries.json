@@ -5298,5 +5298,67 @@
       "pbr_roe_fair_value": 24849.0,
       "nav_sotp_mid": null
     }
+  },
+  "237690": {
+    "company": "에스티팜",
+    "updated": "2026-07-13",
+    "score": 50,
+    "sector": "바이오",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 5,
+      "opportunity": 9,
+      "threat": 24
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": 1019.4,
+      "rev_yoy_pct": 27.7,
+      "momentum_score": 7.0,
+      "correction_pts": 3
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 37.36,
+      "per_txt": "적정",
+      "pbr": 4.29,
+      "pbr_txt": "고평가 주의",
+      "psr": 39.25,
+      "psr_txt": "고평가 주의",
+      "peg": 0.04,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 204000.0,
+      "upside": 62.0,
+      "consensus_n": 5,
+      "roe": 2.49
+    },
+    "valuation_engine": {
+      "fair_value": 26110.0,
+      "band_low": 22216.0,
+      "band_high": 293621.0,
+      "confidence": "LOW",
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (17점 < 기준 18점), 존과 무관하게 회피",
+      "srim_mid": 24992.930098282246,
+      "per_band_mid": 293621.0,
+      "pbr_roe_fair_value": 26110.0,
+      "nav_sotp_mid": null
+    }
   }
 }
