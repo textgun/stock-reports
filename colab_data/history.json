@@ -3940,13 +3940,13 @@
       },
       {
         "date": "2026-07-13",
-        "total_score": 65,
+        "total_score": 66,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 17,
           "opportunity": 8,
-          "threat": 15
+          "threat": 16
         }
       }
     ]
@@ -10714,6 +10714,17 @@
           "opportunity": 10,
           "threat": 18
         }
+      },
+      {
+        "date": "2026-07-13",
+        "total_score": 49,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 14,
+          "weakness": 8,
+          "opportunity": 12,
+          "threat": 15
+        }
       }
     ]
   },
@@ -14382,6 +14393,17 @@
           "opportunity": 15,
           "threat": 13
         }
+      },
+      {
+        "date": "2026-07-13",
+        "total_score": 64,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 15,
+          "weakness": 21,
+          "opportunity": 15,
+          "threat": 13
+        }
       }
     ]
   },
@@ -14882,6 +14904,104 @@
           "weakness": 18,
           "opportunity": 7,
           "threat": 19
+        }
+      }
+    ]
+  },
+  "389020": {
+    "company_name": "자람테크놀로지",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 35,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 12,
+          "opportunity": 7,
+          "threat": 10
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 35,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 12,
+          "opportunity": 7,
+          "threat": 10
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 26,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 5,
+          "opportunity": 7,
+          "threat": 10
+        }
+      },
+      {
+        "date": "2026-07-13",
+        "total_score": 35,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 12,
+          "opportunity": 7,
+          "threat": 10
+        }
+      }
+    ]
+  },
+  "006730": {
+    "company_name": "서부T&D",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 25,
+          "opportunity": 6,
+          "threat": 9
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 25,
+          "opportunity": 6,
+          "threat": 9
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 62,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 26,
+          "weakness": 21,
+          "opportunity": 6,
+          "threat": 9
+        }
+      },
+      {
+        "date": "2026-07-13",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 25,
+          "opportunity": 6,
+          "threat": 9
         }
       }
     ]
