@@ -2797,5 +2797,14 @@
     "score": 60,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-07-13",
+    "filename": "237690_에스티팜/2026-07-13_에스티팜_237690.html",
+    "company": "에스티팜",
+    "ticker": "237690",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/18)"
   }
 ]
