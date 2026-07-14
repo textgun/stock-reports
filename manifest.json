@@ -2878,5 +2878,14 @@
     "score": 31,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 14/30)"
+  },
+  {
+    "date": "2026-07-15",
+    "filename": "007530_와이엠/2026-07-15_와이엠_007530.html",
+    "company": "와이엠",
+    "ticker": "007530",
+    "score": 27,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 14/32)"
   }
 ]
