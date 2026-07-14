@@ -2824,5 +2824,14 @@
     "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-07-14",
+    "filename": "009150_삼성전기/2026-07-14_삼성전기_009150.html",
+    "company": "삼성전기",
+    "ticker": "009150",
+    "score": 59,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
   }
 ]
