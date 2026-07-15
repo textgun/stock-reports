@@ -466,12 +466,12 @@
       },
       {
         "date": "2026-07-15",
-        "total_score": 61,
+        "total_score": 62,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 13,
           "weakness": 17,
-          "opportunity": 14,
+          "opportunity": 15,
           "threat": 17
         }
       }
@@ -5803,12 +5803,12 @@
       },
       {
         "date": "2026-07-15",
-        "total_score": 58,
+        "total_score": 59,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 12,
+          "opportunity": 13,
           "threat": 13
         }
       }
@@ -9665,12 +9665,12 @@
       },
       {
         "date": "2026-07-15",
-        "total_score": 58,
+        "total_score": 59,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 11,
+          "opportunity": 12,
           "threat": 14
         }
       }
@@ -11119,13 +11119,13 @@
       },
       {
         "date": "2026-07-15",
-        "total_score": 60,
+        "total_score": 58,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 14,
           "weakness": 20,
           "opportunity": 14,
-          "threat": 12
+          "threat": 10
         }
       }
     ]
@@ -12528,12 +12528,12 @@
       },
       {
         "date": "2026-07-15",
-        "total_score": 52,
+        "total_score": 51,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 17,
           "weakness": 15,
-          "opportunity": 10,
+          "opportunity": 9,
           "threat": 10
         }
       }
@@ -12863,12 +12863,12 @@
       },
       {
         "date": "2026-07-15",
-        "total_score": 60,
+        "total_score": 57,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 15,
+          "opportunity": 12,
           "threat": 12
         }
       }
