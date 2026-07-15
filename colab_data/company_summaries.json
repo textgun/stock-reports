@@ -144,11 +144,11 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-07-15",
-    "score": 61,
+    "score": 62,
     "breakdown": {
       "strength": 13,
       "weakness": 17,
-      "opportunity": 14,
+      "opportunity": 15,
       "threat": 17
     },
     "sector_max": {
@@ -175,7 +175,7 @@
     },
     "reality_hope": {
       "reality_score": 30,
-      "hope_score": 32,
+      "hope_score": 33,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
@@ -473,12 +473,12 @@
     "company": "LIG디펜스앤에어로스페이스",
     "sector": "방산",
     "updated": "2026-07-15",
-    "score": 60,
+    "score": 58,
     "breakdown": {
       "strength": 14,
       "weakness": 20,
       "opportunity": 14,
-      "threat": 12
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
@@ -503,7 +503,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 36,
+      "reality_score": 34,
       "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
@@ -684,11 +684,11 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-07-15",
-    "score": 58,
+    "score": 59,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 11,
+      "opportunity": 12,
       "threat": 14
     },
     "sector_max": {
@@ -715,7 +715,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 24,
+      "hope_score": 25,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -726,11 +726,11 @@
     "company": "KB금융",
     "sector": "금융",
     "updated": "2026-07-15",
-    "score": 58,
+    "score": 59,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 12,
+      "opportunity": 13,
       "threat": 13
     },
     "sector_max": {
@@ -757,7 +757,7 @@
     },
     "reality_hope": {
       "reality_score": 33,
-      "hope_score": 25,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1242,11 +1242,11 @@
     "company": "삼성화재해상보험",
     "sector": "금융",
     "updated": "2026-07-15",
-    "score": 52,
+    "score": 51,
     "breakdown": {
       "strength": 17,
       "weakness": 15,
-      "opportunity": 10,
+      "opportunity": 9,
       "threat": 10
     },
     "sector_max": {
@@ -1273,7 +1273,7 @@
     },
     "reality_hope": {
       "reality_score": 30,
-      "hope_score": 21,
+      "hope_score": 20,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1284,11 +1284,11 @@
     "company": "LG",
     "sector": "지주사",
     "updated": "2026-07-15",
-    "score": 60,
+    "score": 57,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 15,
+      "opportunity": 12,
       "threat": 12
     },
     "sector_max": {
@@ -1315,7 +1315,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 24,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
