@@ -2015,6 +2015,17 @@
           "opportunity": 13,
           "threat": 7
         }
+      },
+      {
+        "date": "2026-07-15",
+        "total_score": 57,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 26,
+          "weakness": 11,
+          "opportunity": 13,
+          "threat": 7
+        }
       }
     ]
   },
@@ -2860,6 +2871,17 @@
           "opportunity": 5,
           "threat": 15
         }
+      },
+      {
+        "date": "2026-07-15",
+        "total_score": 31,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 8,
+          "opportunity": 5,
+          "threat": 12
+        }
       }
     ]
   },
@@ -3668,6 +3690,17 @@
           "opportunity": 8,
           "threat": 9
         }
+      },
+      {
+        "date": "2026-07-14",
+        "total_score": 32,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 16,
+          "opportunity": 6,
+          "threat": 6
+        }
       }
     ]
   },
@@ -4282,6 +4315,17 @@
           "opportunity": 20,
           "threat": 11
         }
+      },
+      {
+        "date": "2026-07-14",
+        "total_score": 59,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 13,
+          "weakness": 14,
+          "opportunity": 20,
+          "threat": 12
+        }
       }
     ]
   },
@@ -4828,13 +4872,13 @@
       },
       {
         "date": "2026-07-14",
-        "total_score": 80,
-        "rating_code": "STRONG_BUY",
+        "total_score": 77,
+        "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 22,
           "opportunity": 13,
-          "threat": 20
+          "threat": 17
         }
       }
     ]
@@ -12950,6 +12994,17 @@
           "opportunity": 16,
           "threat": 6
         }
+      },
+      {
+        "date": "2026-07-14",
+        "total_score": 44,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 6,
+          "opportunity": 19,
+          "threat": 7
+        }
       }
     ]
   },
@@ -15326,6 +15381,104 @@
           "weakness": 5,
           "opportunity": 9,
           "threat": 24
+        }
+      }
+    ]
+  },
+  "373220": {
+    "company_name": "LG에너지솔루션",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 23,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 1,
+          "weakness": 4,
+          "opportunity": 10,
+          "threat": 8
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 32,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 10,
+          "opportunity": 10,
+          "threat": 8
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 25,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 2,
+          "weakness": 5,
+          "opportunity": 10,
+          "threat": 8
+        }
+      },
+      {
+        "date": "2026-07-14",
+        "total_score": 22,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 0,
+          "weakness": 4,
+          "opportunity": 10,
+          "threat": 8
+        }
+      }
+    ]
+  },
+  "007530": {
+    "company_name": "와이엠",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 26,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 9,
+          "opportunity": 3,
+          "threat": 10
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 37,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 18,
+          "opportunity": 3,
+          "threat": 10
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 34,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 15,
+          "opportunity": 3,
+          "threat": 10
+        }
+      },
+      {
+        "date": "2026-07-15",
+        "total_score": 27,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 8,
+          "opportunity": 3,
+          "threat": 10
         }
       }
     ]
