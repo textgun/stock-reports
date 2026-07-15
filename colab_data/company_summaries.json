@@ -1017,8 +1017,34 @@
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
-    "valuation": null,
-    "valuation_engine": null
+    "valuation": {
+      "per": 45.03,
+      "per_txt": "적정",
+      "pbr": 8.09,
+      "pbr_txt": "고평가 주의",
+      "psr": 51.04,
+      "psr_txt": "고평가 주의",
+      "peg": 2.33,
+      "peg_txt": "고평가 주의",
+      "tgt": 1997500.0,
+      "upside": 44.1,
+      "consensus_n": 4,
+      "roe": 5.92
+    },
+    "valuation_engine": {
+      "fair_value": 835769.0,
+      "band_low": 287386.0,
+      "band_high": 3128052.0,
+      "confidence": "LOW",
+      "zone": "FAIR",
+      "gap_pct": 65.8,
+      "quality_gate_passed": true,
+      "action_label": "보유 (신규 매수 없음)",
+      "srim_mid": 323309.4270960791,
+      "per_band_mid": 3128052.0,
+      "pbr_roe_fair_value": 835769.0,
+      "nav_sotp_mid": null
+    }
   },
   "353200": {
     "company": "대덕전자",
