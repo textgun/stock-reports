@@ -600,11 +600,11 @@
     "company": "신한지주",
     "sector": "금융",
     "updated": "2026-07-16",
-    "score": 60,
+    "score": 62,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 13,
+      "opportunity": 15,
       "threat": 14
     },
     "sector_max": {
@@ -631,7 +631,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 26,
+      "hope_score": 28,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -726,11 +726,11 @@
     "company": "KB금융",
     "sector": "금융",
     "updated": "2026-07-16",
-    "score": 61,
+    "score": 59,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 15,
+      "opportunity": 13,
       "threat": 13
     },
     "sector_max": {
@@ -757,7 +757,7 @@
     },
     "reality_hope": {
       "reality_score": 33,
-      "hope_score": 28,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
