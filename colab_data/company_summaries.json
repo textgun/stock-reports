@@ -144,11 +144,11 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-07-16",
-    "score": 62,
+    "score": 63,
     "breakdown": {
       "strength": 13,
       "weakness": 17,
-      "opportunity": 15,
+      "opportunity": 16,
       "threat": 17
     },
     "sector_max": {
@@ -175,7 +175,7 @@
     },
     "reality_hope": {
       "reality_score": 30,
-      "hope_score": 33,
+      "hope_score": 34,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
