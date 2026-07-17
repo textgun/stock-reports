@@ -1010,12 +1010,12 @@
       },
       {
         "date": "2026-07-17",
-        "total_score": 66,
+        "total_score": 68,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
-          "opportunity": 13,
+          "opportunity": 15,
           "threat": 10
         }
       }
@@ -7479,12 +7479,12 @@
       },
       {
         "date": "2026-07-17",
-        "total_score": 63,
-        "rating_code": "HOLD",
+        "total_score": 65,
+        "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
-          "opportunity": 13,
+          "opportunity": 15,
           "threat": 7
         }
       }
