@@ -3,11 +3,11 @@
     "company": "삼성전자",
     "sector": "반도체",
     "updated": "2026-07-17",
-    "score": 66,
+    "score": 68,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 13,
+      "opportunity": 15,
       "threat": 10
     },
     "sector_max": {
@@ -34,7 +34,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 26,
+      "hope_score": 28,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -527,11 +527,11 @@
     "company": "SK하이닉스",
     "sector": "반도체",
     "updated": "2026-07-17",
-    "score": 63,
+    "score": 65,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 13,
+      "opportunity": 15,
       "threat": 7
     },
     "sector_max": {
@@ -558,7 +558,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 22,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
