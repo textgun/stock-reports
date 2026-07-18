@@ -2977,5 +2977,14 @@
     "score": 59,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
+  },
+  {
+    "date": "2026-07-18",
+    "filename": "240810_원익IPS/2026-07-18_원익IPS_240810.html",
+    "company": "원익IPS",
+    "ticker": "240810",
+    "score": 52,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
