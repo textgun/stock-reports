@@ -2995,5 +2995,14 @@
     "score": 63,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-07-20",
+    "filename": "008260_NI스틸/2026-07-20_NI스틸_008260.html",
+    "company": "NI스틸",
+    "ticker": "008260",
+    "score": 37,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)"
   }
 ]
