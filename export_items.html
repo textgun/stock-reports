@@ -22,8 +22,33 @@
   .subtitle {
     font-size: 12px;
     color: #64748b;
-    margin-bottom: 24px;
+    margin-bottom: 14px;
   }
+  .sortbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .sortbar-label {
+    font-size: 12px;
+    color: #94a3b8;
+    font-weight: 700;
+  }
+  .sort-btn {
+    background: #1a1830;
+    border: 1px solid #2d2b55;
+    color: #94a3b8;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .sort-btn:hover { color: #e2e8f0; border-color: #454b56; }
+  .sort-btn.active { background: #f59e0b; border-color: #f59e0b; color: #1a1830; font-weight: 700; }
+  .sortbar-note { font-size: 11px; color: #64748b; margin-left: 4px; }
   .card {
     background: #1a1830;
     border: 1px solid #2d2b55;
@@ -109,11 +134,19 @@
   <span style="color:#f59e0b;">잠정치(주황 막대)</span> &nbsp;|&nbsp;
   갱신: 2026-07-21
 </p>
+<div class="sortbar">
+  <span class="sortbar-label">정렬</span>
+  <button class="sort-btn active" data-sort="idx">기본순</button>
+  <button class="sort-btn" data-sort="amtmom">수출액 급증(MoM)</button>
+  <button class="sort-btn" data-sort="pricemom">단가 급등(MoM)</button>
+  <button class="sort-btn" data-sort="amtyoy">수출액 YoY</button>
+  <span class="sortbar-note">MoM·YoY는 <b>확정치 기준</b>(잠정 부분월 제외). 데이터 없는 품목은 맨 뒤로.</span>
+</div>
 <div class="grid-2col">
 
-  <div class="card">
+  <div class="card" data-idx="0" data-amtmom="16.30" data-pricemom="-4.09" data-amtyoy="30.64">
     <div class="card-header">
-      <span class="card-title">MLCC</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.093B  단가 $225/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">MLCC</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.093B  단가 $225/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +16%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -133,9 +166,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="1" data-amtmom="-2.09" data-pricemom="0.75" data-amtyoy="112.72">
     <div class="card-header">
-      <span class="card-title">스마트폰</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.611B  단가 $2,367/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">스마트폰</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.611B  단가 $2,367/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -2%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +1%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -156,9 +189,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="2" data-amtmom="40.10" data-pricemom="14.07" data-amtyoy="6.31">
     <div class="card-header">
-      <span class="card-title">반도체검사장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.079B  단가 $235/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">반도체검사장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.079B  단가 $235/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +40%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +14%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -179,9 +212,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="3" data-amtmom="33.29" data-pricemom="44.59" data-amtyoy="57.14">
     <div class="card-header">
-      <span class="card-title">리드프레임</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.030B  단가 $168/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">리드프레임</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.030B  단가 $168/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +33%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +45%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -199,9 +232,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="4" data-amtmom="-35.19" data-pricemom="-5.87" data-amtyoy="-12.78">
     <div class="card-header">
-      <span class="card-title">포토레지스트</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.016B  단가 $340/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">포토레지스트</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.016B  단가 $340/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -35%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -6%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -222,9 +255,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="5" data-amtmom="4.35" data-pricemom="7.35" data-amtyoy="25.02">
     <div class="card-header">
-      <span class="card-title">블랭크마스크</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.002B  단가 $617/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">블랭크마스크</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.002B  단가 $617/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +4%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +7%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -241,9 +274,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="6" data-amtmom="32.44" data-pricemom="3.61" data-amtyoy="4.55">
     <div class="card-header">
-      <span class="card-title">카지노모니터</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.023B  단가 $66/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">카지노모니터</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.023B  단가 $66/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +32%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -261,9 +294,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="7" data-amtmom="1.89" data-pricemom="-7.32" data-amtyoy="-21.86">
     <div class="card-header">
-      <span class="card-title">OLED유기재료</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.010B  단가 $25,037/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">OLED유기재료</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.010B  단가 $25,037/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +2%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -7%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -280,9 +313,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="8" data-amtmom="20.68" data-pricemom="11.91" data-amtyoy="3.43">
     <div class="card-header">
-      <span class="card-title">피팅</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.012B  단가 $51/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">피팅</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.012B  단가 $51/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +21%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +12%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -304,9 +337,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="9" data-amtmom="33.78" data-pricemom="9.45" data-amtyoy="31.00">
     <div class="card-header">
-      <span class="card-title">밸브</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.049B  단가 $25/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">밸브</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.049B  단가 $25/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +34%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +9%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -327,9 +360,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="10" data-amtmom="43.68" data-pricemom="6.74" data-amtyoy="9.71">
     <div class="card-header">
-      <span class="card-title">임플란트</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.036B  단가 $654/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">임플란트</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.036B  단가 $654/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +44%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +7%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -340,9 +373,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="11" data-amtmom="-45.14" data-pricemom="-10.45" data-amtyoy="-53.93">
     <div class="card-header">
-      <span class="card-title">태양광모듈</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.004B  단가 $3/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">태양광모듈</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.004B  단가 $3/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -45%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -10%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -353,9 +386,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="12" data-amtmom="-10.31" data-pricemom="-2.34" data-amtyoy="-5.53">
     <div class="card-header">
-      <span class="card-title">리튬일차전지</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.008B  단가 $77/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">리튬일차전지</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.008B  단가 $77/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -10%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -2%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -366,9 +399,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="13" data-amtmom="10.39" data-pricemom="23.89" data-amtyoy="21.76">
     <div class="card-header">
-      <span class="card-title">전기차용리튬전지</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.038B  단가 $50/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">전기차용리튬전지</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.038B  단가 $50/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +10%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +24%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -379,9 +412,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="14" data-amtmom="9.88" data-pricemom="-10.74" data-amtyoy="12.60">
     <div class="card-header">
-      <span class="card-title">스판덱스</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.004B  단가 $7/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">스판덱스</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.004B  단가 $7/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +10%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -11%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -392,9 +425,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="15" data-amtmom="7.66" data-pricemom="-1.17" data-amtyoy="30.79">
     <div class="card-header">
-      <span class="card-title">라면</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.094B  단가 $4/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">라면</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.094B  단가 $4/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +8%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -1%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -411,9 +444,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="16" data-amtmom="12.48" data-pricemom="1.74" data-amtyoy="7.09">
     <div class="card-header">
-      <span class="card-title">동박</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.016B  단가 $19/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">동박</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.016B  단가 $19/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +12%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +2%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -424,9 +457,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="17" data-amtmom="31.69" data-pricemom="-0.29" data-amtyoy="-23.53">
     <div class="card-header">
-      <span class="card-title">농업용트랙터</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.016B  단가 $10/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">농업용트랙터</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.016B  단가 $10/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +32%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -0%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -437,9 +470,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="18" data-amtmom="-22.50" data-pricemom="50.43" data-amtyoy="31.72">
     <div class="card-header">
-      <span class="card-title">창상피복재</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.007B  단가 $98/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">창상피복재</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.007B  단가 $98/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -23%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +50%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -450,9 +483,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="19" data-amtmom="28.80" data-pricemom="-0.79" data-amtyoy="38.85">
     <div class="card-header">
-      <span class="card-title">광섬유케이블</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.011B  단가 $20/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">광섬유케이블</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.011B  단가 $20/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +29%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -1%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -470,9 +503,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="20" data-amtmom="120.53" data-pricemom="-20.38" data-amtyoy="43.82">
     <div class="card-header">
-      <span class="card-title">전자현미경</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.003B  단가 $491/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">전자현미경</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.003B  단가 $491/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +121%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -20%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -483,9 +516,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="21" data-amtmom="76.83" data-pricemom="3.89" data-amtyoy="-22.19">
     <div class="card-header">
-      <span class="card-title">미용기기(기타)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.005B  단가 $280/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">미용기기(기타)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.005B  단가 $280/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +77%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -496,9 +529,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="22" data-amtmom="78.25" data-pricemom="1.82" data-amtyoy="74.20">
     <div class="card-header">
-      <span class="card-title">미용기기(레이저)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.013B  단가 $247/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">미용기기(레이저)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.013B  단가 $247/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +78%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +2%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -509,9 +542,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="23" data-amtmom="0.73" data-pricemom="5.43" data-amtyoy="5.68">
     <div class="card-header">
-      <span class="card-title">미용기기(부속품)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.015B  단가 $310/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">미용기기(부속품)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.015B  단가 $310/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +1%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +5%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -522,9 +555,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="24" data-amtmom="-2.21" data-pricemom="-3.70" data-amtyoy="387.65">
     <div class="card-header">
-      <span class="card-title">DRAM</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $8.774B  단가 $100,198/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">DRAM</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $8.774B  단가 $100,198/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -2%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -542,9 +575,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="25" data-amtmom="48.49" data-pricemom="8.30" data-amtyoy="382.09">
     <div class="card-header">
-      <span class="card-title">DRAM모듈</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $3.100B  단가 $38,893/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">DRAM모듈</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $3.100B  단가 $38,893/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +48%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +8%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -562,9 +595,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="26" data-amtmom="5.00" data-pricemom="-3.13" data-amtyoy="2.04">
     <div class="card-header">
-      <span class="card-title">FPCB</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.114B  단가 $573/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">FPCB</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.114B  단가 $573/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +5%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -3%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -575,9 +608,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="27" data-amtmom="44.40" data-pricemom="9.45" data-amtyoy="300.52">
     <div class="card-header">
-      <span class="card-title">NAND Flash</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.969B  단가 $56,808/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">NAND Flash</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.969B  단가 $56,808/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +44%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +9%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -595,9 +628,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="28" data-amtmom="-14.71" data-pricemom="-25.15" data-amtyoy="22.30">
     <div class="card-header">
-      <span class="card-title">NB라텍스</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.043B  단가 $1/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">NB라텍스</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.043B  단가 $1/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -15%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -25%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -608,9 +641,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="29" data-amtmom="41.46" data-pricemom="-5.35" data-amtyoy="89.93">
     <div class="card-header">
-      <span class="card-title">OLED TV</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.068B  단가 $103/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">OLED TV</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.068B  단가 $103/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +41%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -5%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -621,9 +654,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="30" data-amtmom="5.32" data-pricemom="-2.24" data-amtyoy="-65.04">
     <div class="card-header">
-      <span class="card-title">OLED 패널</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.001B  단가 $104/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">OLED 패널</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.001B  단가 $104/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +5%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -2%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -634,9 +667,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="31" data-amtmom="-25.69" data-pricemom="5.21" data-amtyoy="6.17">
     <div class="card-header">
-      <span class="card-title">OLED 봉지재필름</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.019B  단가 $1/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">OLED 봉지재필름</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.019B  단가 $1/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -26%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +5%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -647,9 +680,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="32" data-amtmom="13.96" data-pricemom="10.53" data-amtyoy="25.42">
     <div class="card-header">
-      <span class="card-title">PCB</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.180B  단가 $273/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">PCB</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.180B  단가 $273/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +14%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +11%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -660,9 +693,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="33" data-amtmom="30.14" data-pricemom="-5.75" data-amtyoy="354.98">
     <div class="card-header">
-      <span class="card-title">SSD</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $1.768B  단가 $21,246/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">SSD</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $1.768B  단가 $21,246/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +30%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -6%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -680,9 +713,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="34" data-amtmom="9.09" data-pricemom="-12.84" data-amtyoy="14.26">
     <div class="card-header">
-      <span class="card-title">강관(튜빙/케이싱)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.035B  단가 $1/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">강관(튜빙/케이싱)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.035B  단가 $1/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +9%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -13%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -693,9 +726,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="35" data-amtmom="3.26" data-pricemom="0.00" data-amtyoy="43.62">
     <div class="card-header">
-      <span class="card-title">과산화수소</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.005B  단가 $0/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">과산화수소</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.005B  단가 $0/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +3%</span><span style="font-size:10px;color:#94a3b8;margin-left:6px;">단가 MoM 0%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -706,9 +739,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="36" data-amtmom="10.53" data-pricemom="-4.64" data-amtyoy="12.64">
     <div class="card-header">
-      <span class="card-title">굴삭기</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.010B  단가 $5/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">굴삭기</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.010B  단가 $5/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +11%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -5%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -719,9 +752,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="37" data-amtmom="43.68" data-pricemom="60.75" data-amtyoy="73.41">
     <div class="card-header">
-      <span class="card-title">레이저마커</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.009B  단가 $276/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">레이저마커</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.009B  단가 $276/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +44%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +61%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -732,9 +765,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="38" data-amtmom="58.23" data-pricemom="-4.34" data-amtyoy="75.27">
     <div class="card-header">
-      <span class="card-title">반도체세정장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'06 $0.024B  단가 $257/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+      <span class="card-title">반도체세정장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'06 $0.024B  단가 $257/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +58%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -745,9 +778,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="39" data-amtmom="12.77" data-pricemom="7.39" data-amtyoy="23.95">
     <div class="card-header">
-      <span class="card-title">보냉재</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.014B  단가 $4/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">보냉재</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.014B  단가 $4/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +13%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +7%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -758,9 +791,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="40" data-amtmom="31.81" data-pricemom="-10.72" data-amtyoy="61.26">
     <div class="card-header">
-      <span class="card-title">보톡스</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.035B  단가 $708/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">보톡스</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.035B  단가 $708/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +32%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -11%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -771,9 +804,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="41" data-amtmom="0.25" data-pricemom="-3.79" data-amtyoy="8.42">
     <div class="card-header">
-      <span class="card-title">산화방지조제품</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.019B  단가 $3/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">산화방지조제품</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.019B  단가 $3/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +0%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -784,9 +817,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="42" data-amtmom="8.89" data-pricemom="2.26" data-amtyoy="21.04">
     <div class="card-header">
-      <span class="card-title">테스트소켓</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.068B  단가 $48/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">테스트소켓</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.068B  단가 $48/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +9%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +2%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -797,9 +830,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="43" data-amtmom="9.50" data-pricemom="3.69" data-amtyoy="67.70">
     <div class="card-header">
-      <span class="card-title">알루미늄박</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.032B  단가 $7/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">알루미늄박</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.032B  단가 $7/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +10%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -810,9 +843,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="44" data-amtmom="12.61" data-pricemom="9.00" data-amtyoy="10.56">
     <div class="card-header">
-      <span class="card-title">양극재</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.238B  단가 $28/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">양극재</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.238B  단가 $28/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +13%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +9%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -823,9 +856,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="45" data-amtmom="8.64" data-pricemom="-2.88" data-amtyoy="34.27">
     <div class="card-header">
-      <span class="card-title">에폭시수지</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.042B  단가 $3/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">에폭시수지</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.042B  단가 $3/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +9%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -3%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -836,9 +869,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="46" data-amtmom="53.05" data-pricemom="-4.43" data-amtyoy="3.24">
     <div class="card-header">
-      <span class="card-title">온수기/보일러</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.031B  단가 $18/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">온수기/보일러</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.031B  단가 $18/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +53%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -849,9 +882,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="47" data-amtmom="4.80" data-pricemom="48.88" data-amtyoy="-0.33">
     <div class="card-header">
-      <span class="card-title">올리고</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.019B  단가 $889/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">올리고</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.019B  단가 $889/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +5%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +49%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -862,9 +895,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="48" data-amtmom="-2.93" data-pricemom="-9.78" data-amtyoy="6.33">
     <div class="card-header">
-      <span class="card-title">웨이퍼레벨패키지</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $1.426B  단가 $4,378/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">웨이퍼레벨패키지</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $1.426B  단가 $4,378/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -3%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -10%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -875,9 +908,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="49" data-amtmom="9.26" data-pricemom="-3.20" data-amtyoy="15.75">
     <div class="card-header">
-      <span class="card-title">유압실린더</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.017B  단가 $7/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">유압실린더</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.017B  단가 $7/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +9%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -3%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -888,9 +921,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="50" data-amtmom="16.20" data-pricemom="-15.41" data-amtyoy="130.14">
     <div class="card-header">
-      <span class="card-title">음반</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.026B  단가 $53/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">음반</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.026B  단가 $53/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +16%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -15%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -901,9 +934,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="51" data-amtmom="17.01" data-pricemom="-4.79" data-amtyoy="-8.46">
     <div class="card-header">
-      <span class="card-title">자동차라이트</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.009B  단가 $45/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">자동차라이트</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.009B  단가 $45/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +17%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -5%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -914,9 +947,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="52" data-amtmom="-4.74" data-pricemom="-1.89" data-amtyoy="7.08">
     <div class="card-header">
-      <span class="card-title">전자동포장시스템</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.122B  단가 $42/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">전자동포장시스템</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.122B  단가 $42/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -5%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -2%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -927,9 +960,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="53" data-amtmom="3.06" data-pricemom="-2.76" data-amtyoy="-12.13">
     <div class="card-header">
-      <span class="card-title">체성분석기</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.007B  단가 $250/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">체성분석기</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.007B  단가 $250/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +3%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -3%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -940,9 +973,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="54" data-amtmom="16.14" data-pricemom="0.16" data-amtyoy="29.71">
     <div class="card-header">
-      <span class="card-title">쿼츠</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.002B  단가 $386/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">쿼츠</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.002B  단가 $386/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +16%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +0%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -953,9 +986,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="55" data-amtmom="7.54" data-pricemom="-2.38" data-amtyoy="15.95">
     <div class="card-header">
-      <span class="card-title">타이어</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.150B  단가 $5/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">타이어</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.150B  단가 $5/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +8%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -2%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -966,9 +999,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="56" data-amtmom="70.05" data-pricemom="-10.40" data-amtyoy="204.80">
     <div class="card-header">
-      <span class="card-title">타이어코드(나일론/폴리아미드)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.001B  단가 $22/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">타이어코드(나일론/폴리아미드)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.001B  단가 $22/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +70%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -10%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -979,9 +1012,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="57" data-amtmom="-17.62" data-pricemom="1.05" data-amtyoy="18.89">
     <div class="card-header">
-      <span class="card-title">타이어코드(폴리에스테르)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.002B  단가 $3/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">타이어코드(폴리에스테르)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.002B  단가 $3/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -18%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +1%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -992,9 +1025,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="58" data-amtmom="16.31" data-pricemom="-2.35" data-amtyoy="16.09">
     <div class="card-header">
-      <span class="card-title">트랙롤러</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.072B  단가 $3/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">트랙롤러</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.072B  단가 $3/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +16%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -2%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1005,9 +1038,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="59" data-amtmom="1.73" data-pricemom="-3.62" data-amtyoy="16.64">
     <div class="card-header">
-      <span class="card-title">폴리이미드필름</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.029B  단가 $27/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">폴리이미드필름</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.029B  단가 $27/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +2%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1018,9 +1051,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="60" data-amtmom="19.75" data-pricemom="31.69" data-amtyoy="38.88">
     <div class="card-header">
-      <span class="card-title">프리커서</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.232B  단가 $34/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">프리커서</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.232B  단가 $34/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +20%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +32%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1031,9 +1064,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="61" data-amtmom="11.98" data-pricemom="-0.44" data-amtyoy="64.11">
     <div class="card-header">
-      <span class="card-title">필러</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'06 $0.377B  단가 $34/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+      <span class="card-title">필러</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'06 $0.377B  단가 $34/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +12%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -0%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1044,9 +1077,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="62" data-amtmom="-45.80" data-pricemom="-14.97" data-amtyoy="-60.59">
     <div class="card-header">
-      <span class="card-title">변압기(10,000kW 초과)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.076B  단가 $22/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">변압기(10,000kW 초과)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.076B  단가 $22/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -46%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -15%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1064,9 +1097,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="63" data-amtmom="-7.35" data-pricemom="-5.44" data-amtyoy="-62.29">
     <div class="card-header">
-      <span class="card-title">변압기(100kW이상 650kW이하)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.001B  단가 $8/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">변압기(100kW이상 650kW이하)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.001B  단가 $8/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -7%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -5%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1084,9 +1117,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="64" data-amtmom="78.14" data-pricemom="2.80" data-amtyoy="-9.78">
     <div class="card-header">
-      <span class="card-title">변압기(100kW이하)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.007B  단가 $9/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">변압기(100kW이하)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.007B  단가 $9/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +78%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +3%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1104,9 +1137,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="65" data-amtmom="14.36" data-pricemom="4.46" data-amtyoy="1.82">
     <div class="card-header">
-      <span class="card-title">이미지센서</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.478B  단가 $3,061/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">이미지센서</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.478B  단가 $3,061/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +14%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1117,9 +1150,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="66" data-amtmom="23.46" data-pricemom="109.32" data-amtyoy="0.32">
     <div class="card-header">
-      <span class="card-title">블랙박스</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.019B  단가 $412/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">블랙박스</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.019B  단가 $412/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +23%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +109%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1130,9 +1163,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="67" data-amtmom="11.87" data-pricemom="-1.56" data-amtyoy="25.83">
     <div class="card-header">
-      <span class="card-title">음극재</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.076B  단가 $5/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">음극재</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.076B  단가 $5/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +12%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -2%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1143,9 +1176,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="68" data-amtmom="-0.90" data-pricemom="14.41" data-amtyoy="-2.58">
     <div class="card-header">
-      <span class="card-title">EV Relay</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.007B  단가 $46/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">EV Relay</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.007B  단가 $46/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -1%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +14%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1156,9 +1189,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="69" data-amtmom="66.20" data-pricemom="41.88" data-amtyoy="14.69">
     <div class="card-header">
-      <span class="card-title">핸들러</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.010B  단가 $77/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">핸들러</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.010B  단가 $77/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +66%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +42%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1169,9 +1202,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="70" data-amtmom="15.80" data-pricemom="-4.62" data-amtyoy="4.69">
     <div class="card-header">
-      <span class="card-title">핫도그</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.009B  단가 $5/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">핫도그</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.009B  단가 $5/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +16%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -5%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1182,9 +1215,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="71" data-amtmom="11.55" data-pricemom="-3.53" data-amtyoy="13.61">
     <div class="card-header">
-      <span class="card-title">플러그소켓</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.063B  단가 $179/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">플러그소켓</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.063B  단가 $179/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +12%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1195,9 +1228,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="72" data-amtmom="8.69" data-pricemom="-3.39" data-amtyoy="40.71">
     <div class="card-header">
-      <span class="card-title">화장품 기초</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.308B  단가 $29/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">화장품 기초</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.308B  단가 $29/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +9%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -3%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1208,9 +1241,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="73" data-amtmom="7.87" data-pricemom="0.52" data-amtyoy="">
     <div class="card-header">
-      <span class="card-title">화장품 색조</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.044B  단가 $57/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">화장품 색조</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.044B  단가 $57/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +8%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +1%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1221,9 +1254,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="74" data-amtmom="6.10" data-pricemom="-0.30" data-amtyoy="-7.48">
     <div class="card-header">
-      <span class="card-title">화장품 튜브</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.232B  단가 $34/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">화장품 튜브</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.232B  단가 $34/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +6%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -0%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1234,9 +1267,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="75" data-amtmom="11.98" data-pricemom="-0.44" data-amtyoy="64.11">
     <div class="card-header">
-      <span class="card-title">화장품 기타</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'06 $0.377B  단가 $34/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+      <span class="card-title">화장품 기타</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'06 $0.377B  단가 $34/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +12%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -0%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1247,9 +1280,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="76" data-amtmom="51.67" data-pricemom="32.06" data-amtyoy="66.03">
     <div class="card-header">
-      <span class="card-title">펠리클</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.105B  단가 $429/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">펠리클</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.105B  단가 $429/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +52%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +32%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1260,9 +1293,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="77" data-amtmom="16.48" data-pricemom="-25.21" data-amtyoy="1.43">
     <div class="card-header">
-      <span class="card-title">SiC링</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.090B  단가 $234/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">SiC링</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.090B  단가 $234/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +16%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -25%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1273,9 +1306,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="78" data-amtmom="-30.70" data-pricemom="-40.88" data-amtyoy="-35.79">
     <div class="card-header">
-      <span class="card-title">CMP연마기</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.000B  단가 $15/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">CMP연마기</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.000B  단가 $15/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -31%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -41%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1286,9 +1319,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="79" data-amtmom="2.01" data-pricemom="-2.69" data-amtyoy="-1.22">
     <div class="card-header">
-      <span class="card-title">어닐링장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.009B  단가 $276/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">어닐링장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.009B  단가 $276/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +2%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -3%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1299,9 +1332,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="80" data-amtmom="58.23" data-pricemom="-4.34" data-amtyoy="75.27">
     <div class="card-header">
-      <span class="card-title">반도체세척장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'06 $0.024B  단가 $257/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+      <span class="card-title">반도체세척장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'06 $0.024B  단가 $257/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +58%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -4%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1312,9 +1345,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="81" data-amtmom="-64.80" data-pricemom="0.71" data-amtyoy="-8.97">
     <div class="card-header">
-      <span class="card-title">반도체리플로우장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.008B  단가 $332/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">반도체리플로우장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.008B  단가 $332/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -65%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +1%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1325,9 +1358,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="82" data-amtmom="0.59" data-pricemom="15.54" data-amtyoy="12.79">
     <div class="card-header">
-      <span class="card-title">치과장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.002B  단가 $94/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">치과장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.002B  단가 $94/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +1%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +16%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1338,9 +1371,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="83" data-amtmom="5.98" data-pricemom="-4.63" data-amtyoy="3.44">
     <div class="card-header">
-      <span class="card-title">구강스캐너</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.006B  단가 $101/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">구강스캐너</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.006B  단가 $101/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +6%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -5%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1351,9 +1384,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="84" data-amtmom="-21.21" data-pricemom="40.70" data-amtyoy="18.61">
     <div class="card-header">
-      <span class="card-title">CCM Tester</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.058B  단가 $68/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">CCM Tester</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.058B  단가 $68/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -21%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +41%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1364,9 +1397,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="85" data-amtmom="52.04" data-pricemom="-39.33" data-amtyoy="73.29">
     <div class="card-header">
-      <span class="card-title">반도체증착장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.057B  단가 $347/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">반도체증착장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.057B  단가 $347/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +52%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -39%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1377,9 +1410,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="86" data-amtmom="9.29" data-pricemom="-8.30" data-amtyoy="-15.96">
     <div class="card-header">
-      <span class="card-title">반도체이송장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.037B  단가 $89/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">반도체이송장비</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.037B  단가 $89/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +9%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -8%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1390,9 +1423,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="87" data-amtmom="47.64" data-pricemom="35.45" data-amtyoy="16.54">
     <div class="card-header">
-      <span class="card-title">홈뷰티디바이스</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.010B  단가 $177/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">홈뷰티디바이스</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.010B  단가 $177/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +48%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +35%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1403,9 +1436,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="88" data-amtmom="-30.78" data-pricemom="6.68" data-amtyoy="-29.68">
     <div class="card-header">
-      <span class="card-title">김</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.020B  단가 $27/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">김</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.020B  단가 $27/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -31%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +7%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1416,9 +1449,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="89" data-amtmom="14.86" data-pricemom="-11.33" data-amtyoy="-4.05">
     <div class="card-header">
-      <span class="card-title">소주</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.004B  단가 $2/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">소주</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.004B  단가 $2/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +15%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -11%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1429,9 +1462,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="90" data-amtmom="31.80" data-pricemom="12.34" data-amtyoy="170.52">
     <div class="card-header">
-      <span class="card-title">MCP(HBM)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $4.709B  단가 $88,580/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">MCP(HBM)</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $4.709B  단가 $88,580/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +32%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +12%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1442,9 +1475,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="91" data-amtmom="-26.58" data-pricemom="18.50" data-amtyoy="16.74">
     <div class="card-header">
-      <span class="card-title">연성회로기판가공용마이크로드릴</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.001B  단가 $132/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span>
+      <span class="card-title">연성회로기판가공용마이크로드릴</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'07 $0.001B  단가 $132/kg</span><span style="font-size:10px;color:#f59e0b;margin-left:6px;">잠정</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">수출 MoM -27%</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">단가 MoM +19%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1455,7 +1488,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="92" data-amtmom="" data-pricemom="" data-amtyoy="">
     <div class="card-header">
       <span class="card-title">이동체용위성통신송수신안테나시스템</span>
     </div>
@@ -1467,7 +1500,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="93" data-amtmom="" data-pricemom="" data-amtyoy="">
     <div class="card-header">
       <span class="card-title">이동체용위성방송수신안테나</span>
     </div>
@@ -1479,7 +1512,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="94" data-amtmom="" data-pricemom="" data-amtyoy="">
     <div class="card-header">
       <span class="card-title">라이신</span>
     </div>
@@ -1491,9 +1524,9 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-idx="95" data-amtmom="29.78" data-pricemom="-7.21" data-amtyoy="">
     <div class="card-header">
-      <span class="card-title">배전반</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'06 $0.205B  단가 $53/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span>
+      <span class="card-title">배전반</span><span style="font-size:12px;color:#94a3b8;margin-left:8px;">2026'06 $0.205B  단가 $53/kg</span><span style="font-size:10px;color:#48d1cc;margin-left:6px;">확정</span><span style="font-size:10px;color:#ef4444;margin-left:6px;">수출 MoM +30%</span><span style="font-size:10px;color:#3b82f6;margin-left:6px;">단가 MoM -7%</span>
     </div>
     <div class="card-body">
       <div class="chart-col">
@@ -1509,5 +1542,32 @@
   데이터 없는 품목은 export_data/ 폴더에 엑셀 추가 후 재생성 필요
 </p>
 </div>
+<script>
+(function() {
+  const grid = document.querySelector('.grid-2col');
+  const cards = Array.from(grid.children);
+  function sortBy(attr) {
+    const arr = cards.slice();
+    if (attr === 'idx') {
+      arr.sort((a, b) => (+a.dataset.idx) - (+b.dataset.idx));
+    } else {
+      arr.sort((a, b) => {
+        const av = a.dataset[attr] === '' ? -Infinity : parseFloat(a.dataset[attr]);
+        const bv = b.dataset[attr] === '' ? -Infinity : parseFloat(b.dataset[attr]);
+        return bv - av;   // 내림차순 (급증 상위부터)
+      });
+    }
+    arr.forEach(c => grid.appendChild(c));
+    window.dispatchEvent(new Event('resize'));   // Plotly 레이아웃 재조정
+  }
+  document.querySelectorAll('.sort-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      sortBy(btn.dataset.sort);
+    });
+  });
+})();
+</script>
 </body>
 </html>
