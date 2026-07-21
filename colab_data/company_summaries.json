@@ -279,11 +279,11 @@
     "company": "이오테크닉스",
     "sector": "반도체",
     "updated": "2026-07-21",
-    "score": 57,
+    "score": 56,
     "breakdown": {
       "strength": 22,
       "weakness": 14,
-      "opportunity": 16,
+      "opportunity": 15,
       "threat": 5
     },
     "sector_max": {
@@ -310,7 +310,7 @@
     },
     "reality_hope": {
       "reality_score": 33,
-      "hope_score": 23,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
