@@ -247,30 +247,30 @@
     },
     "extra": null,
     "valuation": {
-      "per": 10.11,
+      "per": 10.09,
       "per_txt": "저평가",
-      "pbr": 4.35,
+      "pbr": 4.34,
       "pbr_txt": "고평가 주의",
-      "psr": 522.83,
+      "psr": 521.95,
       "psr_txt": "고평가 주의",
       "peg": 0.03,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 1884000.0,
-      "upside": 58.3,
+      "tgt": 2004000.0,
+      "upside": 68.7,
       "consensus_n": 5,
       "roe": 24.62
     },
     "valuation_engine": {
-      "fair_value": 1178424.0,
+      "fair_value": 1191498.0,
       "band_low": 465591.0,
       "band_high": 1466875.0,
       "confidence": "LOW",
-      "zone": "FAIR",
-      "gap_pct": 1.0,
+      "zone": "ACCUMULATE",
+      "gap_pct": -0.3,
       "quality_gate_passed": true,
-      "action_label": "보유 (신규 매수 없음)",
+      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
       "srim_mid": 523789.466551978,
-      "per_band_mid": 1178424.0,
+      "per_band_mid": 1191498.0,
       "pbr_roe_fair_value": 1466875.0,
       "nav_sotp_mid": null
     }
@@ -3789,13 +3789,13 @@
   },
   "214450": {
     "company": "파마리서치",
-    "updated": "2026-07-02",
-    "score": 73,
+    "updated": "2026-07-21",
+    "score": 68,
     "sector": "기타",
     "breakdown": {
       "strength": 23,
       "weakness": 17,
-      "opportunity": 13,
+      "opportunity": 8,
       "threat": 20
     },
     "sector_max": {
@@ -3821,18 +3821,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 23.87,
+      "per": 22.66,
       "per_txt": "저평가",
-      "pbr": 6.03,
+      "pbr": 5.73,
       "pbr_txt": "고평가 주의",
-      "psr": 25.85,
+      "psr": 24.53,
       "psr_txt": "고평가 주의",
-      "peg": 0.85,
+      "peg": 0.81,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 582000.0,
-      "upside": 60.1,
+      "tgt": 542000.0,
+      "upside": 57.1,
       "consensus_n": 5,
       "roe": 6.66
+    },
+    "valuation_engine": {
+      "fair_value": 388657.0,
+      "band_low": 145762.0,
+      "band_high": 570935.0,
+      "confidence": "LOW",
+      "zone": "ACCUMULATE",
+      "gap_pct": -11.2,
+      "quality_gate_passed": true,
+      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
+      "srim_mid": 163982.29136471983,
+      "per_band_mid": 388657.0,
+      "pbr_roe_fair_value": 496662.0,
+      "nav_sotp_mid": null
     }
   },
   "084370": {
