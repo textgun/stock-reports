@@ -112,16 +112,16 @@
     },
     "extra": null,
     "valuation": {
-      "per": 31.95,
+      "per": 29.82,
       "per_txt": "저평가",
-      "pbr": 8.81,
+      "pbr": 8.22,
       "pbr_txt": "고평가 주의",
-      "psr": 34.93,
+      "psr": 32.61,
       "psr_txt": "고평가 주의",
-      "peg": 0.67,
+      "peg": 0.62,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 362000.0,
-      "upside": 111.1,
+      "tgt": 340000.0,
+      "upside": 112.4,
       "consensus_n": 5,
       "roe": 7.72
     },
@@ -131,7 +131,7 @@
       "band_high": 243154.0,
       "confidence": "LOW",
       "zone": "ACCUMULATE",
-      "gap_pct": -11.9,
+      "gap_pct": -17.8,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
       "srim_mid": 52715.56115197025,
@@ -793,7 +793,7 @@
   "196170": {
     "company": "알테오젠",
     "sector": "바이오",
-    "updated": "2026-07-20",
+    "updated": "2026-07-21",
     "score": 51,
     "breakdown": {
       "strength": 16,
@@ -830,30 +830,30 @@
     },
     "extra": null,
     "valuation": {
-      "per": 124.22,
+      "per": 111.59,
       "per_txt": "고평가 주의",
-      "pbr": 32.11,
+      "pbr": 28.84,
       "pbr_txt": "고평가 주의",
-      "psr": 224.53,
+      "psr": 201.7,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
-      "tgt": 554000.0,
-      "upside": 84.7,
+      "tgt": 556000.0,
+      "upside": 106.3,
       "consensus_n": 5,
       "roe": 13.91
     },
     "valuation_engine": {
       "fair_value": 57471.0,
       "band_low": 20762.0,
-      "band_high": 809808.0,
+      "band_high": 803626.0,
       "confidence": "LOW",
       "zone": "FAIR",
-      "gap_pct": 422.0,
+      "gap_pct": 368.9,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 23357.196548300035,
-      "per_band_mid": 809808.0,
+      "per_band_mid": 803626.0,
       "pbr_roe_fair_value": 57471.0,
       "nav_sotp_mid": null
     }
@@ -5045,13 +5045,13 @@
   },
   "041510": {
     "company": "에스엠",
-    "updated": "2026-07-08",
-    "score": 64,
+    "updated": "2026-07-20",
+    "score": 63,
     "sector": "기타",
     "breakdown": {
       "strength": 16,
       "weakness": 22,
-      "opportunity": 6,
+      "opportunity": 5,
       "threat": 20
     },
     "sector_max": {
@@ -5077,30 +5077,30 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 13.72,
+      "per": 11.68,
       "per_txt": "저평가",
-      "pbr": 1.8,
+      "pbr": 1.54,
       "pbr_txt": "고평가 주의",
-      "psr": 6.46,
+      "psr": 5.5,
       "psr_txt": "고평가 주의",
-      "peg": 0.75,
+      "peg": 0.63,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 130600.0,
-      "upside": 65.7,
+      "tgt": 126600.0,
+      "upside": 88.7,
       "consensus_n": 5,
       "roe": 2.71
     },
     "valuation_engine": {
-      "fair_value": 131654.0,
-      "band_low": 74190.0,
-      "band_high": 743050.0,
+      "fair_value": 130951.0,
+      "band_low": 73710.0,
+      "band_high": 741172.0,
       "confidence": "HIGH",
-      "zone": "ACCUMULATE",
-      "gap_pct": -40.1,
+      "zone": "VALUE",
+      "gap_pct": -48.8,
       "quality_gate_passed": true,
-      "action_label": "1차 매수 존 (목표비중 33%까지)",
+      "action_label": "2차 매수 존 (목표비중 67%까지)",
       "srim_mid": 105211.49889033184,
-      "per_band_mid": 131654.0,
+      "per_band_mid": 130951.0,
       "pbr_roe_fair_value": 149648.0,
       "nav_sotp_mid": null
     }
@@ -5598,6 +5598,68 @@
       "srim_mid": 11501.715268394499,
       "per_band_mid": 39078.0,
       "pbr_roe_fair_value": 3530.0,
+      "nav_sotp_mid": null
+    }
+  },
+  "008260": {
+    "company": "NI스틸",
+    "updated": "2026-07-20",
+    "score": 37,
+    "sector": "기타",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 11,
+      "opportunity": 3,
+      "threat": 15
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "declining",
+      "yoy_pct": -2.8,
+      "rev_yoy_pct": 5.1,
+      "momentum_score": 2.5,
+      "correction_pts": -1
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 4.51,
+      "per_txt": "적정",
+      "pbr": 0.31,
+      "pbr_txt": "고평가 주의",
+      "psr": 1.5,
+      "psr_txt": "적정",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": 1.42
+    },
+    "valuation_engine": {
+      "fair_value": 11857.0,
+      "band_low": 1864.0,
+      "band_high": 22337.0,
+      "confidence": "LOW",
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (19점 < 기준 30점), 존과 무관하게 회피",
+      "srim_mid": 11856.587417972647,
+      "per_band_mid": 2685.0,
+      "pbr_roe_fair_value": 22337.0,
       "nav_sotp_mid": null
     }
   }
