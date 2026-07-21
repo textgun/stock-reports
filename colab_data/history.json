@@ -2537,6 +2537,17 @@
           "opportunity": 8,
           "threat": 17
         }
+      },
+      {
+        "date": "2026-07-21",
+        "total_score": 51,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 10,
+          "opportunity": 8,
+          "threat": 17
+        }
       }
     ]
   },
@@ -16297,6 +16308,17 @@
           "opportunity": 6,
           "threat": 20
         }
+      },
+      {
+        "date": "2026-07-20",
+        "total_score": 63,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 22,
+          "opportunity": 5,
+          "threat": 20
+        }
       }
     ]
   },
@@ -16797,6 +16819,55 @@
           "weakness": 17,
           "opportunity": 12,
           "threat": 10
+        }
+      }
+    ]
+  },
+  "008260": {
+    "company_name": "NI스틸",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 45,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 17,
+          "opportunity": 3,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 43,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 17,
+          "opportunity": 3,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 43,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 13,
+          "weakness": 12,
+          "opportunity": 3,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-07-20",
+        "total_score": 37,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 11,
+          "opportunity": 3,
+          "threat": 15
         }
       }
     ]
