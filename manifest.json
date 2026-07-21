@@ -3040,5 +3040,14 @@
     "score": 56,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
+  },
+  {
+    "date": "2026-07-21",
+    "filename": "000250_삼천당제약/2026-07-21_삼천당제약_000250.html",
+    "company": "삼천당제약",
+    "ticker": "000250",
+    "score": 43,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
