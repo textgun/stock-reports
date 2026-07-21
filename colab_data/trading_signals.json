@@ -2,7 +2,7 @@
   "date": "2026-07-21",
   "year": 2026,
   "quarter": 1,
-  "generated_at": "2026-07-21T09:32:00.895375",
+  "generated_at": "2026-07-21T09:32:28.905154",
   "config": {
     "buy_threshold": 65,
     "max_positions": 3,
@@ -12,7 +12,7 @@
     "stop_loss": -0.05,
     "market_halt_pct": -2.0
   },
-  "market_change_pct": 0.04,
+  "market_change_pct": 0.05,
   "market_halted": false,
   "vix_level": 16.73,
   "vix_halted": false,
@@ -25,7 +25,7 @@
   "leading_sectors": {
     "내수/유통": 20.59,
     "금융": 11.91,
-    "반도체": 9.62
+    "반도체": 9.6
   },
   "active_buy": [],
   "momentum_buy": [],
@@ -54,15 +54,15 @@
       "quadrant": "현실 강함  🟢",
       "position_pct": 12.23,
       "amount_krw": 4892000,
-      "rsi": 41.97,
-      "rsi_label": "중립 (42.0)",
+      "rsi": 41.88,
+      "rsi_label": "중립 (41.9)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-0.08%) — 필터 미적용",
+      "adr_desc": "하락 (-0.34%) — 필터 미적용",
       "adr_factor": 0.5,
-      "momentum_3m": 61.54,
+      "momentum_3m": 61.13,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:30:49.375585",
+      "generated_at": "2026-07-21T09:31:28.635262",
       "consecutive_drops": 0,
       "bear_entry_blocked": true
     },
@@ -98,7 +98,7 @@
       "momentum_3m": -41.64,
       "momentum_6m": -24.45,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:29.417541",
+      "generated_at": "2026-07-21T09:31:57.975920",
       "consecutive_drops": 0,
       "bear_entry_blocked": true
     },
@@ -131,10 +131,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": -15.48,
-      "momentum_6m": 28.85,
+      "momentum_3m": -15.25,
+      "momentum_6m": 29.2,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:04.899139",
+      "generated_at": "2026-07-21T09:31:43.205595",
       "consecutive_drops": 2
     },
     {
@@ -166,10 +166,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": -44.85,
-      "momentum_6m": 3.5,
+      "momentum_3m": -44.77,
+      "momentum_6m": 3.65,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:30:54.763495",
+      "generated_at": "2026-07-21T09:31:33.856056",
       "consecutive_drops": 1
     },
     {
@@ -204,7 +204,7 @@
       "momentum_3m": 93.57,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:24.245239",
+      "generated_at": "2026-07-21T09:31:52.867189",
       "consecutive_drops": 0
     },
     {
@@ -239,7 +239,7 @@
       "momentum_3m": 10.69,
       "momentum_6m": 63.16,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:31.386293",
+      "generated_at": "2026-07-21T09:31:59.845024",
       "consecutive_drops": 2
     },
     {
@@ -271,10 +271,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": -15.15,
-      "momentum_6m": 31.17,
+      "momentum_3m": -15.51,
+      "momentum_6m": 30.61,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:30:46.921254",
+      "generated_at": "2026-07-21T09:31:25.788755",
       "consecutive_drops": 0
     },
     {
@@ -306,10 +306,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": -18.05,
-      "momentum_6m": 13.75,
+      "momentum_3m": -17.95,
+      "momentum_6m": 13.88,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:30:59.893629",
+      "generated_at": "2026-07-21T09:31:38.669728",
       "consecutive_drops": 1
     },
     {
@@ -344,7 +344,7 @@
       "momentum_3m": 44.49,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:33.496249",
+      "generated_at": "2026-07-21T09:32:01.772108",
       "consecutive_drops": 1
     },
     {
@@ -376,10 +376,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": 6.73,
+      "momentum_3m": 6.29,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:30:57.312827",
+      "generated_at": "2026-07-21T09:31:36.333173",
       "consecutive_drops": 0
     },
     {
@@ -414,7 +414,7 @@
       "momentum_3m": 15.85,
       "momentum_6m": 65.55,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:35.495472",
+      "generated_at": "2026-07-21T09:32:03.730201",
       "consecutive_drops": 1
     },
     {
@@ -449,7 +449,7 @@
       "momentum_3m": 4.94,
       "momentum_6m": 23.09,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:42.176462",
+      "generated_at": "2026-07-21T09:32:09.765588",
       "consecutive_drops": 0
     },
     {
@@ -484,7 +484,7 @@
       "momentum_3m": 6.04,
       "momentum_6m": 27.56,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:44.249017",
+      "generated_at": "2026-07-21T09:32:12.120229",
       "consecutive_drops": 1
     },
     {
@@ -516,10 +516,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": -31.57,
-      "momentum_6m": 24.95,
+      "momentum_3m": -31.37,
+      "momentum_6m": 25.33,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:02.434604",
+      "generated_at": "2026-07-21T09:31:40.670866",
       "consecutive_drops": 0
     },
     {
@@ -551,10 +551,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": -2.46,
-      "momentum_6m": 7.1,
+      "momentum_3m": -2.36,
+      "momentum_6m": 7.22,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:21.685833",
+      "generated_at": "2026-07-21T09:31:50.384763",
       "consecutive_drops": 0
     },
     {
@@ -589,7 +589,7 @@
       "momentum_3m": 1.0,
       "momentum_6m": 21.71,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:46.238928",
+      "generated_at": "2026-07-21T09:32:14.084681",
       "consecutive_drops": 0
     },
     {
@@ -597,9 +597,9 @@
       "strategy": "momentum",
       "name": "이오테크닉스",
       "sector": "반도체",
-      "score": 57,
-      "adj_score": 57.0,
-      "score_delta": 0.0,
+      "score": 56,
+      "adj_score": 55.7,
+      "score_delta": -1.0,
       "delta_source": "history",
       "rating": "HOLD",
       "rating_original": "HOLD",
@@ -607,12 +607,12 @@
       "financial_ok": true,
       "breakdown": {
         "financial": 36,
-        "momentum": 21
+        "momentum": 20
       },
       "reality_score": 33,
       "reality_pct": 33,
-      "hope_score": 23,
-      "hope_pct": 23,
+      "hope_score": 22,
+      "hope_pct": 22,
       "quadrant": "현실 강함  🟢",
       "position_pct": 0.0,
       "amount_krw": 0,
@@ -621,11 +621,11 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": -38.18,
-      "momentum_6m": 0.0,
+      "momentum_3m": -38.29,
+      "momentum_6m": -0.17,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:30:52.076080",
-      "consecutive_drops": 0
+      "generated_at": "2026-07-21T09:31:31.172753",
+      "consecutive_drops": 3
     },
     {
       "ticker": "062040",
@@ -659,7 +659,7 @@
       "momentum_3m": -26.76,
       "momentum_6m": 9.32,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:30:44.359416",
+      "generated_at": "2026-07-21T09:31:23.180550",
       "consecutive_drops": 0
     },
     {
@@ -691,10 +691,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": -31.14,
-      "momentum_6m": -20.66,
+      "momentum_3m": -30.82,
+      "momentum_6m": -20.29,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:16.989573",
+      "generated_at": "2026-07-21T09:31:45.853003",
       "consecutive_drops": 0
     },
     {
@@ -726,10 +726,10 @@
       "adr_signal": "skip",
       "adr_desc": "",
       "adr_factor": 0.5,
-      "momentum_3m": 28.94,
-      "momentum_6m": 21.96,
+      "momentum_3m": 29.59,
+      "momentum_6m": 22.57,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:19.641529",
+      "generated_at": "2026-07-21T09:31:48.306306",
       "consecutive_drops": 0
     },
     {
@@ -764,7 +764,7 @@
       "momentum_3m": -12.96,
       "momentum_6m": -13.8,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:50.236366",
+      "generated_at": "2026-07-21T09:32:18.132019",
       "consecutive_drops": 0
     },
     {
@@ -799,7 +799,7 @@
       "momentum_3m": -26.71,
       "momentum_6m": -29.19,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:37.759401",
+      "generated_at": "2026-07-21T09:32:05.746217",
       "consecutive_drops": 0
     },
     {
@@ -834,7 +834,7 @@
       "momentum_3m": -13.84,
       "momentum_6m": -23.67,
       "vix_downgraded": false,
-      "generated_at": "2026-07-21T09:31:39.640456",
+      "generated_at": "2026-07-21T09:32:07.741082",
       "consecutive_drops": 1
     }
   ],
@@ -854,7 +854,7 @@
       "rating": "BUY",
       "financial_ok": true,
       "zone": "VALUE",
-      "gap_pct": -48.9,
+      "gap_pct": -48.7,
       "accumulate_step": 2,
       "action_label": "2차 매수 존 (목표비중 67%까지)",
       "fair_value": 130796.0,
@@ -867,9 +867,9 @@
       "position_pct": 20.0,
       "amount_krw": 10000000,
       "rsi": null,
-      "momentum_3m": -27.83,
-      "momentum_6m": -38.11,
-      "generated_at": "2026-07-21T09:32:00.887183"
+      "momentum_3m": -27.62,
+      "momentum_6m": -37.93,
+      "generated_at": "2026-07-21T09:32:28.897800"
     }
   ],
   "valuation_watchlist": [],
