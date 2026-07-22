@@ -279,11 +279,11 @@
     "company": "이오테크닉스",
     "sector": "반도체",
     "updated": "2026-07-22",
-    "score": 58,
+    "score": 57,
     "breakdown": {
       "strength": 22,
       "weakness": 14,
-      "opportunity": 17,
+      "opportunity": 16,
       "threat": 5
     },
     "sector_max": {
@@ -310,7 +310,7 @@
     },
     "reality_hope": {
       "reality_score": 33,
-      "hope_score": 24,
+      "hope_score": 23,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -376,11 +376,11 @@
     "company": "파두",
     "sector": "반도체",
     "updated": "2026-07-22",
-    "score": 63,
+    "score": 62,
     "breakdown": {
       "strength": 24,
       "weakness": 14,
-      "opportunity": 15,
+      "opportunity": 14,
       "threat": 10
     },
     "sector_max": {
@@ -407,7 +407,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 28,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -600,11 +600,11 @@
     "company": "신한지주",
     "sector": "금융",
     "updated": "2026-07-22",
-    "score": 59,
+    "score": 58,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 12,
+      "opportunity": 11,
       "threat": 14
     },
     "sector_max": {
@@ -631,7 +631,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 25,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -642,11 +642,11 @@
     "company": "삼성생명",
     "sector": "금융",
     "updated": "2026-07-22",
-    "score": 59,
+    "score": 60,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
-      "opportunity": 16,
+      "opportunity": 17,
       "threat": 9
     },
     "sector_max": {
@@ -673,7 +673,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 24,
+      "hope_score": 25,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -982,11 +982,11 @@
     "company": "삼성바이오로직스",
     "sector": "바이오",
     "updated": "2026-07-22",
-    "score": 47,
+    "score": 46,
     "breakdown": {
       "strength": 13,
       "weakness": 8,
-      "opportunity": 12,
+      "opportunity": 11,
       "threat": 14
     },
     "sector_max": {
@@ -1013,7 +1013,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 19,
+      "hope_score": 18,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1242,11 +1242,11 @@
     "company": "삼성화재해상보험",
     "sector": "금융",
     "updated": "2026-07-22",
-    "score": 54,
+    "score": 52,
     "breakdown": {
       "strength": 17,
       "weakness": 15,
-      "opportunity": 12,
+      "opportunity": 10,
       "threat": 10
     },
     "sector_max": {
@@ -1273,7 +1273,7 @@
     },
     "reality_hope": {
       "reality_score": 30,
-      "hope_score": 23,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1284,11 +1284,11 @@
     "company": "LG",
     "sector": "지주사",
     "updated": "2026-07-22",
-    "score": 60,
+    "score": 57,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 15,
+      "opportunity": 12,
       "threat": 12
     },
     "sector_max": {
@@ -1315,7 +1315,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 24,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -5820,6 +5820,68 @@
       "srim_mid": 6039.735833412417,
       "per_band_mid": 15924.0,
       "pbr_roe_fair_value": 5451.0,
+      "nav_sotp_mid": null
+    }
+  },
+  "000500": {
+    "company": "가온전선",
+    "updated": "2026-07-22",
+    "score": 38,
+    "sector": "전기장비/전력",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 12,
+      "opportunity": 15,
+      "threat": 4
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "recovering",
+      "yoy_pct": 27.2,
+      "rev_yoy_pct": 19.4,
+      "momentum_score": 9.0,
+      "correction_pts": 5
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 115.38,
+      "per_txt": "고평가 주의",
+      "pbr": 12.84,
+      "pbr_txt": "고평가 주의",
+      "psr": 4.68,
+      "psr_txt": "고평가 주의",
+      "peg": 4.24,
+      "peg_txt": "고평가 주의",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": 3.93
+    },
+    "valuation_engine": {
+      "fair_value": 24781.0,
+      "band_low": 23353.0,
+      "band_high": 31486.0,
+      "confidence": "HIGH",
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (19점 < 기준 30점), 존과 무관하게 회피",
+      "srim_mid": 28337.550216207772,
+      "per_band_mid": 24781.0,
+      "pbr_roe_fair_value": 23353.0,
       "nav_sotp_mid": null
     }
   }
