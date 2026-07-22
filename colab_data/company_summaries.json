@@ -719,8 +719,34 @@
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
-    "valuation": null,
-    "valuation_engine": null
+    "valuation": {
+      "per": 9.06,
+      "per_txt": "적정",
+      "pbr": 0.78,
+      "pbr_txt": "고평가 주의",
+      "psr": 14.4,
+      "psr_txt": "고평가 주의",
+      "peg": 0.82,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 157400.0,
+      "upside": 19.7,
+      "consensus_n": 5,
+      "roe": 3.68
+    },
+    "valuation_engine": {
+      "fair_value": 174518.0,
+      "band_low": 84636.0,
+      "band_high": 345453.0,
+      "confidence": "LOW",
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 이자보상배율 미달 (0.5배 < 기준 2.0배), 존과 무관하게 회피",
+      "srim_mid": 174518.27518006967,
+      "per_band_mid": 84636.0,
+      "pbr_roe_fair_value": 345453.0,
+      "nav_sotp_mid": null
+    }
   },
   "105560": {
     "company": "KB금융",
