@@ -3067,5 +3067,14 @@
     "score": 68,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-07-22",
+    "filename": "229000_젠큐릭스/2026-07-22_젠큐릭스_229000.html",
+    "company": "젠큐릭스",
+    "ticker": "229000",
+    "score": 26,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 13/30)"
   }
 ]
