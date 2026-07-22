@@ -8309,12 +8309,12 @@
       },
       {
         "date": "2026-07-22",
-        "total_score": 58,
+        "total_score": 57,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 22,
           "weakness": 14,
-          "opportunity": 17,
+          "opportunity": 16,
           "threat": 5
         }
       }
@@ -9221,12 +9221,12 @@
       },
       {
         "date": "2026-07-22",
-        "total_score": 63,
+        "total_score": 62,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 24,
           "weakness": 14,
-          "opportunity": 15,
+          "opportunity": 14,
           "threat": 10
         }
       }
@@ -9677,12 +9677,12 @@
       },
       {
         "date": "2026-07-22",
-        "total_score": 59,
+        "total_score": 60,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 19,
           "weakness": 15,
-          "opportunity": 16,
+          "opportunity": 17,
           "threat": 9
         }
       }
@@ -10133,12 +10133,12 @@
       },
       {
         "date": "2026-07-22",
-        "total_score": 59,
+        "total_score": 58,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 12,
+          "opportunity": 11,
           "threat": 14
         }
       }
@@ -11204,12 +11204,12 @@
       },
       {
         "date": "2026-07-22",
-        "total_score": 47,
+        "total_score": 46,
         "rating_code": "WATCH",
         "breakdown": {
           "strength": 13,
           "weakness": 8,
-          "opportunity": 12,
+          "opportunity": 11,
           "threat": 14
         }
       }
@@ -13837,12 +13837,12 @@
       },
       {
         "date": "2026-07-22",
-        "total_score": 54,
+        "total_score": 52,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 17,
           "weakness": 15,
-          "opportunity": 12,
+          "opportunity": 10,
           "threat": 10
         }
       }
@@ -14227,12 +14227,12 @@
       },
       {
         "date": "2026-07-22",
-        "total_score": 60,
+        "total_score": 57,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 15,
+          "opportunity": 12,
           "threat": 12
         }
       }
@@ -17582,6 +17582,55 @@
           "weakness": 13,
           "opportunity": 9,
           "threat": 11
+        }
+      }
+    ]
+  },
+  "000500": {
+    "company_name": "가온전선",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 39,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 12,
+          "opportunity": 15,
+          "threat": 4
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 39,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 12,
+          "opportunity": 15,
+          "threat": 4
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 40,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 15,
+          "weakness": 6,
+          "opportunity": 15,
+          "threat": 4
+        }
+      },
+      {
+        "date": "2026-07-22",
+        "total_score": 38,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 7,
+          "weakness": 12,
+          "opportunity": 15,
+          "threat": 4
         }
       }
     ]
