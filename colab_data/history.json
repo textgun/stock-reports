@@ -7241,6 +7241,17 @@
           "opportunity": 5,
           "threat": 16
         }
+      },
+      {
+        "date": "2026-07-22",
+        "total_score": 62,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 19,
+          "weakness": 22,
+          "opportunity": 5,
+          "threat": 16
+        }
       }
     ]
   },
@@ -16368,6 +16379,17 @@
           "opportunity": 0,
           "threat": 6
         }
+      },
+      {
+        "date": "2026-07-22",
+        "total_score": 19,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 7,
+          "opportunity": 0,
+          "threat": 6
+        }
       }
     ]
   },
@@ -17462,6 +17484,104 @@
           "weakness": 11,
           "opportunity": 3,
           "threat": 15
+        }
+      }
+    ]
+  },
+  "229000": {
+    "company_name": "젠큐릭스",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 26,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 5,
+          "weakness": 8,
+          "opportunity": 3,
+          "threat": 10
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 26,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 5,
+          "weakness": 8,
+          "opportunity": 3,
+          "threat": 10
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 26,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 7,
+          "weakness": 5,
+          "opportunity": 3,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2026-07-22",
+        "total_score": 26,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 5,
+          "weakness": 8,
+          "opportunity": 3,
+          "threat": 10
+        }
+      }
+    ]
+  },
+  "058610": {
+    "company_name": "에스피지",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 43,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 5,
+          "weakness": 18,
+          "opportunity": 9,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 46,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 18,
+          "opportunity": 9,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 42,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 14,
+          "opportunity": 9,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2026-07-22",
+        "total_score": 41,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 13,
+          "opportunity": 9,
+          "threat": 11
         }
       }
     ]
