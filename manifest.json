@@ -3148,5 +3148,14 @@
     "score": 45,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
+  },
+  {
+    "date": "2026-07-23",
+    "filename": "001500_현대차증권/2026-07-23_현대차증권_001500.html",
+    "company": "현대차증권",
+    "ticker": "001500",
+    "score": 52,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
