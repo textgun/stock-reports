@@ -532,12 +532,12 @@
       },
       {
         "date": "2026-07-23",
-        "total_score": 58,
+        "total_score": 59,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 13,
           "weakness": 17,
-          "opportunity": 11,
+          "opportunity": 12,
           "threat": 17
         }
       }
@@ -1098,12 +1098,12 @@
       },
       {
         "date": "2026-07-23",
-        "total_score": 68,
+        "total_score": 67,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
-          "opportunity": 15,
+          "opportunity": 14,
           "threat": 10
         }
       }
@@ -4075,6 +4075,17 @@
           "opportunity": 6,
           "threat": 6
         }
+      },
+      {
+        "date": "2026-07-23",
+        "total_score": 35,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 16,
+          "opportunity": 6,
+          "threat": 9
+        }
       }
     ]
   },
@@ -6754,12 +6765,12 @@
       },
       {
         "date": "2026-07-23",
-        "total_score": 55,
+        "total_score": 56,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 13,
           "weakness": 14,
-          "opportunity": 14,
+          "opportunity": 15,
           "threat": 14
         }
       }
@@ -8430,12 +8441,12 @@
       },
       {
         "date": "2026-07-23",
-        "total_score": 56,
+        "total_score": 57,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 22,
           "weakness": 14,
-          "opportunity": 15,
+          "opportunity": 16,
           "threat": 5
         }
       }
@@ -10765,12 +10776,12 @@
       },
       {
         "date": "2026-07-23",
-        "total_score": 60,
+        "total_score": 59,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 13,
+          "opportunity": 12,
           "threat": 14
         }
       }
@@ -14491,12 +14502,12 @@
       },
       {
         "date": "2026-07-23",
-        "total_score": 56,
+        "total_score": 57,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 11,
+          "opportunity": 12,
           "threat": 12
         }
       }
@@ -16499,12 +16510,12 @@
       },
       {
         "date": "2026-07-23",
-        "total_score": 66,
+        "total_score": 68,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 23,
           "weakness": 17,
-          "opportunity": 6,
+          "opportunity": 8,
           "threat": 20
         }
       }
@@ -18015,6 +18026,55 @@
           "weakness": 11,
           "opportunity": 10,
           "threat": 18
+        }
+      }
+    ]
+  },
+  "001500": {
+    "company_name": "현대차증권",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 52,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 15,
+          "opportunity": 10,
+          "threat": 9
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 48,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 14,
+          "weakness": 15,
+          "opportunity": 10,
+          "threat": 9
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 55,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 18,
+          "opportunity": 10,
+          "threat": 9
+        }
+      },
+      {
+        "date": "2026-07-23",
+        "total_score": 52,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 15,
+          "opportunity": 10,
+          "threat": 9
         }
       }
     ]
