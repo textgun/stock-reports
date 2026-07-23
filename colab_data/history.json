@@ -17969,5 +17969,54 @@
         }
       }
     ]
+  },
+  "119850": {
+    "company_name": "지엔씨에너지",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 64,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 15,
+          "weakness": 21,
+          "opportunity": 10,
+          "threat": 18
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 11,
+          "weakness": 21,
+          "opportunity": 10,
+          "threat": 18
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 58,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 14,
+          "opportunity": 10,
+          "threat": 18
+        }
+      },
+      {
+        "date": "2026-07-23",
+        "total_score": 45,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 11,
+          "opportunity": 10,
+          "threat": 18
+        }
+      }
+    ]
   }
 }
