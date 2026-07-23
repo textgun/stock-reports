@@ -5972,5 +5972,67 @@
       "pbr_roe_fair_value": 51170.0,
       "nav_sotp_mid": null
     }
+  },
+  "119850": {
+    "company": "지엔씨에너지",
+    "updated": "2026-07-23",
+    "score": 45,
+    "sector": "전기장비/전력",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 11,
+      "opportunity": 10,
+      "threat": 18
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "declining",
+      "yoy_pct": -70.6,
+      "rev_yoy_pct": -16.4,
+      "momentum_score": 1.5,
+      "correction_pts": -5
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 18.92,
+      "per_txt": "저평가",
+      "pbr": 3.17,
+      "pbr_txt": "고평가 주의",
+      "psr": 13.38,
+      "psr_txt": "고평가 주의",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": 5.3
+    },
+    "valuation_engine": {
+      "fair_value": 38452.0,
+      "band_low": 26782.0,
+      "band_high": 86540.0,
+      "confidence": "LOW",
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (17점 < 기준 30점), 존과 무관하게 회피",
+      "srim_mid": 30129.6038230841,
+      "per_band_mid": 38452.0,
+      "pbr_roe_fair_value": 86540.0,
+      "nav_sotp_mid": null
+    }
   }
 }
