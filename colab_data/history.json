@@ -1120,12 +1120,12 @@
       },
       {
         "date": "2026-07-24",
-        "total_score": 66,
+        "total_score": 67,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
-          "opportunity": 13,
+          "opportunity": 14,
           "threat": 10
         }
       }
@@ -6875,13 +6875,13 @@
       },
       {
         "date": "2026-07-24",
-        "total_score": 58,
+        "total_score": 57,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 13,
           "weakness": 14,
           "opportunity": 14,
-          "threat": 17
+          "threat": 16
         }
       }
     ]
@@ -8095,12 +8095,12 @@
       },
       {
         "date": "2026-07-24",
-        "total_score": 63,
-        "rating_code": "HOLD",
+        "total_score": 65,
+        "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
-          "opportunity": 13,
+          "opportunity": 15,
           "threat": 7
         }
       }
@@ -10963,12 +10963,12 @@
       },
       {
         "date": "2026-07-24",
-        "total_score": 59,
+        "total_score": 60,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 12,
+          "opportunity": 13,
           "threat": 14
         }
       }
@@ -11622,12 +11622,12 @@
       },
       {
         "date": "2026-07-24",
-        "total_score": 48,
+        "total_score": 47,
         "rating_code": "WATCH",
         "breakdown": {
           "strength": 14,
           "weakness": 8,
-          "opportunity": 12,
+          "opportunity": 11,
           "threat": 14
         }
       }
@@ -14376,12 +14376,12 @@
       },
       {
         "date": "2026-07-24",
-        "total_score": 52,
+        "total_score": 54,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 17,
           "weakness": 15,
-          "opportunity": 10,
+          "opportunity": 12,
           "threat": 10
         }
       }
@@ -16818,12 +16818,12 @@
       },
       {
         "date": "2026-07-24",
-        "total_score": 67,
+        "total_score": 68,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 23,
           "weakness": 17,
-          "opportunity": 7,
+          "opportunity": 8,
           "threat": 20
         }
       }
