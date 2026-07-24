@@ -5257,14 +5257,14 @@
   },
   "251970": {
     "company": "펌텍코리아",
-    "updated": "2026-07-10",
+    "updated": "2026-07-24",
     "score": 60,
     "sector": "기타",
     "breakdown": {
       "strength": 16,
       "weakness": 18,
-      "opportunity": 7,
-      "threat": 19
+      "opportunity": 6,
+      "threat": 20
     },
     "sector_max": {
       "strength": 25,
@@ -5289,16 +5289,16 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 15.8,
+      "per": 15.06,
       "per_txt": "적정",
-      "pbr": 1.92,
+      "pbr": 1.83,
       "pbr_txt": "고평가 주의",
-      "psr": 6.31,
+      "psr": 6.01,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
-      "tgt": 81500.0,
-      "upside": 74.5,
+      "tgt": 75000.0,
+      "upside": 68.5,
       "consensus_n": 2,
       "roe": 6.48
     },
@@ -5308,7 +5308,7 @@
       "band_high": 122895.0,
       "confidence": "LOW",
       "zone": "ACCUMULATE",
-      "gap_pct": -44.5,
+      "gap_pct": -47.1,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
       "srim_mid": 45448.21366886387,
