@@ -914,12 +914,12 @@
     "company": "NAVER",
     "sector": "플랫폼",
     "updated": "2026-07-24",
-    "score": 57,
+    "score": 58,
     "breakdown": {
       "strength": 13,
       "weakness": 14,
       "opportunity": 14,
-      "threat": 16
+      "threat": 17
     },
     "sector_max": {
       "strength": 25,
@@ -944,7 +944,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 34,
+      "reality_score": 36,
       "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
