@@ -17578,6 +17578,17 @@
           "opportunity": 7,
           "threat": 19
         }
+      },
+      {
+        "date": "2026-07-24",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 18,
+          "opportunity": 6,
+          "threat": 20
+        }
       }
     ]
   },
