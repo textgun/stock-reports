@@ -635,8 +635,34 @@
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
-    "valuation": null,
-    "valuation_engine": null
+    "valuation": {
+      "per": 9.9,
+      "per_txt": "적정",
+      "pbr": 0.83,
+      "pbr_txt": "고평가 주의",
+      "psr": 6.97,
+      "psr_txt": "고평가 주의",
+      "peg": 0.92,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 132800.0,
+      "upside": 27.9,
+      "consensus_n": 5,
+      "roe": 2.68
+    },
+    "valuation_engine": {
+      "fair_value": 125646.0,
+      "band_low": 105052.0,
+      "band_high": 196208.0,
+      "confidence": "LOW",
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 이자보상배율 미달 (0.5배 < 기준 2.0배), 존과 무관하게 회피",
+      "srim_mid": 125645.52533450755,
+      "per_band_mid": 105052.0,
+      "pbr_roe_fair_value": 196208.0,
+      "nav_sotp_mid": null
+    }
   },
   "032830": {
     "company": "삼성생명",
@@ -6156,6 +6182,130 @@
       "srim_mid": 21806.844019301396,
       "per_band_mid": 246399.0,
       "pbr_roe_fair_value": 14060.0,
+      "nav_sotp_mid": null
+    }
+  },
+  "317400": {
+    "company": "자이에스앤디",
+    "updated": "2026-07-23",
+    "score": 52,
+    "sector": "기타",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 18,
+      "opportunity": 12,
+      "threat": 15
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "recovering",
+      "yoy_pct": 207.0,
+      "rev_yoy_pct": -13.6,
+      "momentum_score": 7.5,
+      "correction_pts": 2
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 9.56,
+      "per_txt": "저평가",
+      "pbr": 0.7,
+      "pbr_txt": "고평가 주의",
+      "psr": 1.18,
+      "psr_txt": "적정",
+      "peg": 0.05,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 6020.0,
+      "upside": -27.0,
+      "consensus_n": 5,
+      "roe": 1.22
+    },
+    "valuation_engine": {
+      "fair_value": 5094.0,
+      "band_low": 2662.0,
+      "band_high": 12100.0,
+      "confidence": "LOW",
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (25점 < 기준 30점), 존과 무관하게 회피",
+      "srim_mid": 10753.443451988245,
+      "per_band_mid": 5094.0,
+      "pbr_roe_fair_value": 3311.0,
+      "nav_sotp_mid": null
+    }
+  },
+  "131290": {
+    "company": "티에스이",
+    "updated": "2026-07-24",
+    "score": 65,
+    "sector": "반도체",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 17,
+      "opportunity": 8,
+      "threat": 15
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "improving",
+      "yoy_pct": 1245.8,
+      "rev_yoy_pct": 81.5,
+      "momentum_score": 9.5,
+      "correction_pts": 6
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 36.77,
+      "per_txt": "고평가 주의",
+      "pbr": 6.22,
+      "pbr_txt": "고평가 주의",
+      "psr": 17.58,
+      "psr_txt": "고평가 주의",
+      "peg": 0.03,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 188400.0,
+      "upside": -21.3,
+      "consensus_n": 5,
+      "roe": 7.74
+    },
+    "valuation_engine": {
+      "fair_value": 47401.0,
+      "band_low": 35689.0,
+      "band_high": 479147.0,
+      "confidence": "LOW",
+      "zone": "FAIR",
+      "gap_pct": 405.3,
+      "quality_gate_passed": true,
+      "action_label": "보유 (신규 매수 없음)",
+      "srim_mid": 40150.60701500972,
+      "per_band_mid": 100172.0,
+      "pbr_roe_fair_value": 47401.0,
       "nav_sotp_mid": null
     }
   }
