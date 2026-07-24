@@ -3665,6 +3665,17 @@
           "opportunity": 15,
           "threat": 11
         }
+      },
+      {
+        "date": "2026-07-24",
+        "total_score": 65,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 17,
+          "opportunity": 8,
+          "threat": 15
+        }
       }
     ]
   },
@@ -18124,6 +18135,55 @@
           "weakness": 13,
           "opportunity": 9,
           "threat": 16
+        }
+      }
+    ]
+  },
+  "317400": {
+    "company_name": "자이에스앤디",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 53,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 20,
+          "opportunity": 12,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 61,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 13,
+          "weakness": 21,
+          "opportunity": 12,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 56,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 19,
+          "opportunity": 12,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-07-23",
+        "total_score": 52,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 7,
+          "weakness": 18,
+          "opportunity": 12,
+          "threat": 15
         }
       }
     ]
