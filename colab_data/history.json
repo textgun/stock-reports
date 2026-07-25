@@ -1423,6 +1423,17 @@
           "opportunity": 17,
           "threat": 18
         }
+      },
+      {
+        "date": "2026-07-24",
+        "total_score": 43,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 12,
+          "opportunity": 12,
+          "threat": 13
+        }
       }
     ]
   },
@@ -16924,6 +16935,17 @@
           "opportunity": 14,
           "threat": 15
         }
+      },
+      {
+        "date": "2026-07-24",
+        "total_score": 57,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 19,
+          "weakness": 18,
+          "opportunity": 5,
+          "threat": 15
+        }
       }
     ]
   },
@@ -18530,6 +18552,44 @@
           "weakness": 7,
           "opportunity": 11,
           "threat": 26
+        }
+      }
+    ]
+  },
+  "079940": {
+    "company_name": "가비아",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 63,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 13,
+          "opportunity": 29,
+          "threat": 13
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 63,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 13,
+          "opportunity": 29,
+          "threat": 13
+        }
+      },
+      {
+        "date": "2026-07-24",
+        "total_score": 66,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 11,
+          "weakness": 13,
+          "opportunity": 29,
+          "threat": 13
         }
       }
     ]
