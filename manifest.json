@@ -4372,5 +4372,14 @@
     "score": 64,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "328130_루닛/2026-07-25_루닛_328130.html",
+    "company": "루닛",
+    "ticker": "328130",
+    "score": 28,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
   }
 ]
