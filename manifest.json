@@ -4489,5 +4489,14 @@
     "score": 46,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "454910_두산로보틱스/2026-07-25_두산로보틱스_454910.html",
+    "company": "두산로보틱스",
+    "ticker": "454910",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
   }
 ]
