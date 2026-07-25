@@ -4291,5 +4291,14 @@
     "score": 45,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "274090_켄코아에어로스페이스/2026-07-25_켄코아에어로스페이스_274090.html",
+    "company": "켄코아에어로스페이스",
+    "ticker": "274090",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
