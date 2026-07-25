@@ -3814,5 +3814,14 @@
     "score": 64,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "079940_가비아/2026-07-25_가비아_079940.html",
+    "company": "가비아",
+    "ticker": "079940",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
