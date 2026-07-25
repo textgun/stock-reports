@@ -3922,5 +3922,14 @@
     "score": 48,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "089850_유비벨록스/2026-07-25_유비벨록스_089850.html",
+    "company": "유비벨록스",
+    "ticker": "089850",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)"
   }
 ]
