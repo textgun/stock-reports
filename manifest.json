@@ -4426,5 +4426,14 @@
     "score": 54,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "373220_LG에너지솔루션/2026-07-25_LG에너지솔루션_373220.html",
+    "company": "LG에너지솔루션",
+    "ticker": "373220",
+    "score": 22,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 4/20)"
   }
 ]
