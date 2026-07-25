@@ -3751,5 +3751,14 @@
     "score": 53,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "067310_하나마이크론/2026-07-25_하나마이크론_067310.html",
+    "company": "하나마이크론",
+    "ticker": "067310",
+    "score": 51,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
