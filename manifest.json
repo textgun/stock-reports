@@ -3904,5 +3904,14 @@
     "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "089010_켐트로닉스/2026-07-25_켐트로닉스_089010.html",
+    "company": "켐트로닉스",
+    "ticker": "089010",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
   }
 ]
