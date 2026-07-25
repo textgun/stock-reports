@@ -3661,5 +3661,14 @@
     "score": 44,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "053700_삼보모터스/2026-07-25_삼보모터스_053700.html",
+    "company": "삼보모터스",
+    "ticker": "053700",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/32)"
   }
 ]
