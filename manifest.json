@@ -3259,15 +3259,6 @@
   },
   {
     "date": "2026-07-25",
-    "filename": "005930_삼성전자/2026-07-25_삼성전자_005930.html",
-    "company": "삼성전자",
-    "ticker": "005930",
-    "score": 64,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-07-25",
     "filename": "000150_두산/2026-07-25_두산_000150.html",
     "company": "두산",
     "ticker": "000150",
@@ -3355,5 +3346,14 @@
     "score": 35,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 20/32)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "005930_삼성전자/2026-07-25_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
