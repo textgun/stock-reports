@@ -3805,5 +3805,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "079550_LIG디펜스앤에어로스페이스/2026-07-25_LIG디펜스앤에어로스페이스_079550.html",
+    "company": "LIG디펜스앤에어로스페이스",
+    "ticker": "079550",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
