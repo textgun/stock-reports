@@ -4327,5 +4327,14 @@
     "score": 29,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 16/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "307950_현대오토에버/2026-07-25_현대오토에버_307950.html",
+    "company": "현대오토에버",
+    "ticker": "307950",
+    "score": 36,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 14/22)"
   }
 ]
