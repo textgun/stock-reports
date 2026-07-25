@@ -3877,5 +3877,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "086450_동국제약/2026-07-25_동국제약_086450.html",
+    "company": "동국제약",
+    "ticker": "086450",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
