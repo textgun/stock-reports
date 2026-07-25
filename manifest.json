@@ -3463,5 +3463,14 @@
     "score": 58,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "011200_HMM/2026-07-25_HMM_011200.html",
+    "company": "HMM",
+    "ticker": "011200",
+    "score": 44,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
   }
 ]
