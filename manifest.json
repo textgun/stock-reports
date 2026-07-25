@@ -4435,5 +4435,14 @@
     "score": 22,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 4/20)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "389020_자람테크놀로지/2026-07-25_자람테크놀로지_389020.html",
+    "company": "자람테크놀로지",
+    "ticker": "389020",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 18/30)"
   }
 ]
