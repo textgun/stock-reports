@@ -3373,5 +3373,14 @@
     "score": 61,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "007530_와이엠/2026-07-25_와이엠_007530.html",
+    "company": "와이엠",
+    "ticker": "007530",
+    "score": 28,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 14/32)"
   }
 ]
