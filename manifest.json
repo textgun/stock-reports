@@ -4129,5 +4129,14 @@
     "score": 42,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "204620_글로벌텍스프리/2026-07-25_글로벌텍스프리_204620.html",
+    "company": "글로벌텍스프리",
+    "ticker": "204620",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
