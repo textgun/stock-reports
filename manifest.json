@@ -3688,5 +3688,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "058470_리노공업/2026-07-25_리노공업_058470.html",
+    "company": "리노공업",
+    "ticker": "058470",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
