@@ -3553,5 +3553,14 @@
     "score": 34,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 15/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "039030_이오테크닉스/2026-07-25_이오테크닉스_039030.html",
+    "company": "이오테크닉스",
+    "ticker": "039030",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
