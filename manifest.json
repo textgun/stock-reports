@@ -4507,5 +4507,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "310210_보로노이/2026-07-25_보로노이_310210.html",
+    "company": "보로노이",
+    "ticker": "310210",
+    "score": 44,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/18)"
   }
 ]
