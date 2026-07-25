@@ -3589,5 +3589,14 @@
     "score": 35,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 15/20)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "042700_한미반도체/2026-07-25_한미반도체_042700.html",
+    "company": "한미반도체",
+    "ticker": "042700",
+    "score": 41,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
   }
 ]
