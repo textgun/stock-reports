@@ -3535,5 +3535,14 @@
     "score": 57,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 37/38)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "035420_NAVER/2026-07-25_NAVER_035420.html",
+    "company": "NAVER",
+    "ticker": "035420",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
