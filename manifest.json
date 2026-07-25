@@ -3544,5 +3544,14 @@
     "score": 58,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "036930_주성엔지니어링/2026-07-25_주성엔지니어링_036930.html",
+    "company": "주성엔지니어링",
+    "ticker": "036930",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/30)"
   }
 ]
