@@ -3508,5 +3508,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "032830_삼성생명/2026-07-25_삼성생명_032830.html",
+    "company": "삼성생명",
+    "ticker": "032830",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
