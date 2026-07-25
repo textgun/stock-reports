@@ -3670,5 +3670,14 @@
     "score": 42,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 26/32)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "055550_신한지주/2026-07-25_신한지주_055550.html",
+    "company": "신한지주",
+    "ticker": "055550",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
