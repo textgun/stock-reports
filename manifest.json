@@ -4255,5 +4255,14 @@
     "score": 44,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 12/20)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "251970_펌텍코리아/2026-07-25_펌텍코리아_251970.html",
+    "company": "펌텍코리아",
+    "ticker": "251970",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
