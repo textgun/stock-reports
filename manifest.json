@@ -4156,5 +4156,14 @@
     "score": 36,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 18/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "213420_덕산네오룩스/2026-07-25_덕산네오룩스_213420.html",
+    "company": "덕산네오룩스",
+    "ticker": "213420",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
