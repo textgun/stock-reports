@@ -4345,5 +4345,14 @@
     "score": 22,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 7/22)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "317400_자이에스앤디/2026-07-25_자이에스앤디_317400.html",
+    "company": "자이에스앤디",
+    "ticker": "317400",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
   }
 ]
