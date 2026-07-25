@@ -4381,5 +4381,14 @@
     "score": 28,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "329180_HD현대중공업/2026-07-25_HD현대중공업_329180.html",
+    "company": "HD현대중공업",
+    "ticker": "329180",
+    "score": 46,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
