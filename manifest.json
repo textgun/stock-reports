@@ -4102,5 +4102,14 @@
     "score": 47,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "192820_코스맥스/2026-07-25_코스맥스_192820.html",
+    "company": "코스맥스",
+    "ticker": "192820",
+    "score": 49,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
   }
 ]
