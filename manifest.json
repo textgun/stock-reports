@@ -4453,5 +4453,14 @@
     "score": 25,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 16/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "402340_SK스퀘어/2026-07-25_SK스퀘어_402340.html",
+    "company": "SK스퀘어",
+    "ticker": "402340",
+    "score": 77,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
