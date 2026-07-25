@@ -3526,5 +3526,14 @@
     "score": 35,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
+  },
+  {
+    "date": "2026-07-25",
+    "filename": "034230_파라다이스/2026-07-25_파라다이스_034230.html",
+    "company": "파라다이스",
+    "ticker": "034230",
+    "score": 57,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 37/38)"
   }
 ]
