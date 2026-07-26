@@ -4516,5 +4516,14 @@
     "score": 44,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 11/18)"
+  },
+  {
+    "date": "2026-07-26",
+    "filename": "080220_제주반도체/2026-07-26_제주반도체_080220.html",
+    "company": "제주반도체",
+    "ticker": "080220",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
