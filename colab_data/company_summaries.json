@@ -112,30 +112,30 @@
     },
     "extra": null,
     "valuation": {
-      "per": 31.82,
+      "per": 30.51,
       "per_txt": "저평가",
-      "pbr": 8.77,
+      "pbr": 8.41,
       "pbr_txt": "고평가 주의",
-      "psr": 34.79,
+      "psr": 33.36,
       "psr_txt": "고평가 주의",
-      "peg": 0.66,
+      "peg": 0.64,
       "peg_txt": "저평가(성장대비)",
       "tgt": 340000.0,
-      "upside": 99.1,
+      "upside": 107.6,
       "consensus_n": 5,
       "roe": 7.72
     },
     "valuation_engine": {
       "fair_value": 194670.0,
       "band_low": 46858.0,
-      "band_high": 242606.0,
+      "band_high": 242058.0,
       "confidence": "LOW",
       "zone": "ACCUMULATE",
-      "gap_pct": -12.3,
+      "gap_pct": -15.9,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
       "srim_mid": 52715.56115197025,
-      "per_band_mid": 242606.0,
+      "per_band_mid": 242058.0,
       "pbr_roe_fair_value": 194670.0,
       "nav_sotp_mid": null
     }
@@ -1935,14 +1935,14 @@
   },
   "475150": {
     "company": "SK이터닉스",
-    "updated": "2026-07-25",
-    "score": 48,
+    "updated": "2026-07-27",
+    "score": 46,
     "sector": "에너지/화학",
     "breakdown": {
       "strength": 10,
       "weakness": 16,
-      "opportunity": 11,
-      "threat": 11
+      "opportunity": 8,
+      "threat": 12
     },
     "sector_max": {
       "strength": 25,
@@ -1967,16 +1967,16 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 110.97,
+      "per": 79.84,
       "per_txt": "고평가 주의",
-      "pbr": 10.19,
+      "pbr": 7.33,
       "pbr_txt": "",
-      "psr": 100.13,
+      "psr": 72.04,
       "psr_txt": "고평가 주의",
-      "peg": 0.31,
+      "peg": 0.22,
       "peg_txt": "저평가(성장대비)",
       "tgt": 39750.0,
-      "upside": -50.9,
+      "upside": -31.7,
       "consensus_n": 4,
       "roe": -1.89
     },
@@ -3187,13 +3187,13 @@
   },
   "298040": {
     "company": "효성중공업",
-    "updated": "2026-07-25",
-    "score": 38,
+    "updated": "2026-07-27",
+    "score": 37,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 12,
       "weakness": 7,
-      "opportunity": 8,
+      "opportunity": 7,
       "threat": 11
     },
     "sector_max": {
@@ -3219,30 +3219,30 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 49.5,
+      "per": 47.69,
       "per_txt": "적정",
-      "pbr": 10.42,
+      "pbr": 10.04,
       "pbr_txt": "고평가 주의",
-      "psr": 18.41,
+      "psr": 17.73,
       "psr_txt": "고평가 주의",
-      "peg": 1.01,
-      "peg_txt": "적정",
+      "peg": 0.98,
+      "peg_txt": "저평가(성장대비)",
       "tgt": 4780000.0,
-      "upside": 78.3,
+      "upside": 85.1,
       "consensus_n": 5,
       "roe": 3.6
     },
     "valuation_engine": {
       "fair_value": 1350652.0,
       "band_low": 441737.0,
-      "band_high": 3185451.0,
+      "band_high": 3181598.0,
       "confidence": "LOW",
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (19점 < 기준 30점) / 이자보상배율 미달 (0.5배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": 496953.7017445907,
-      "per_band_mid": 3185451.0,
+      "per_band_mid": 3181598.0,
       "pbr_roe_fair_value": 1350652.0,
       "nav_sotp_mid": null
     }
@@ -4445,7 +4445,7 @@
   },
   "126700": {
     "company": "하이비젼시스템",
-    "updated": "2026-07-25",
+    "updated": "2026-07-27",
     "score": 45,
     "sector": "기타",
     "breakdown": {
@@ -4479,14 +4479,14 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 0.49,
+      "pbr": 0.53,
       "pbr_txt": "",
-      "psr": 5.04,
+      "psr": 5.44,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 23000.0,
-      "upside": 143.6,
+      "upside": 125.7,
       "consensus_n": 1,
       "roe": -1.45
     },
@@ -4761,13 +4761,13 @@
   },
   "084370": {
     "company": "유진테크",
-    "updated": "2026-07-25",
-    "score": 59,
+    "updated": "2026-07-27",
+    "score": 55,
     "sector": "반도체",
     "breakdown": {
       "strength": 18,
       "weakness": 22,
-      "opportunity": 6,
+      "opportunity": 2,
       "threat": 13
     },
     "sector_max": {
@@ -4793,26 +4793,26 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 44.16,
+      "per": 43.83,
       "per_txt": "고평가 주의",
-      "pbr": 5.15,
+      "pbr": 5.12,
       "pbr_txt": "고평가 주의",
-      "psr": 24.56,
+      "psr": 24.38,
       "psr_txt": "고평가 주의",
       "peg": 0.42,
       "peg_txt": "저평가(성장대비)",
       "tgt": 57200.0,
-      "upside": -47.6,
+      "upside": -47.2,
       "consensus_n": 5,
       "roe": 4.46
     },
     "valuation_engine": {
       "fair_value": 61111.0,
       "band_low": 24428.0,
-      "band_high": 163145.0,
+      "band_high": 163067.0,
       "confidence": "LOW",
       "zone": "FAIR",
-      "gap_pct": 78.7,
+      "gap_pct": 77.4,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 27481.585631036003,
@@ -5945,14 +5945,14 @@
   },
   "083450": {
     "company": "GST",
-    "updated": "2026-07-25",
-    "score": 58,
+    "updated": "2026-07-27",
+    "score": 57,
     "sector": "반도체",
     "breakdown": {
       "strength": 21,
       "weakness": 11,
       "opportunity": 11,
-      "threat": 15
+      "threat": 14
     },
     "sector_max": {
       "strength": 25,
@@ -5977,13 +5977,13 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 13.46,
+      "per": 14.42,
       "per_txt": "적정",
-      "pbr": 2.33,
+      "pbr": 2.49,
       "pbr_txt": "고평가 주의",
-      "psr": 6.39,
+      "psr": 6.84,
       "psr_txt": "고평가 주의",
-      "peg": 0.12,
+      "peg": 0.13,
       "peg_txt": "저평가(성장대비)",
       "tgt": null,
       "upside": null,
@@ -5996,11 +5996,11 @@
       "band_high": 139418.0,
       "confidence": "LOW",
       "zone": "FAIR",
-      "gap_pct": 28.0,
+      "gap_pct": 37.0,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 31378.029131609117,
-      "per_band_mid": 14345.0,
+      "per_band_mid": 14353.0,
       "pbr_roe_fair_value": 139418.0,
       "nav_sotp_mid": null
     }
@@ -6131,7 +6131,7 @@
   },
   "454910": {
     "company": "두산로보틱스",
-    "updated": "2026-07-25",
+    "updated": "2026-07-27",
     "score": 42,
     "sector": "전기장비/전력",
     "breakdown": {
@@ -6165,14 +6165,14 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 12.3,
+      "pbr": 12.41,
       "pbr_txt": "",
-      "psr": 274.2,
+      "psr": 276.74,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 83500.0,
-      "upside": 29.1,
+      "upside": 27.9,
       "consensus_n": 2,
       "roe": -2.69
     },
@@ -8735,14 +8735,14 @@
   },
   "336260": {
     "company": "두산퓨얼셀",
-    "updated": "2026-07-25",
-    "score": 36,
+    "updated": "2026-07-27",
+    "score": 34,
     "sector": "에너지/화학",
     "breakdown": {
       "strength": 8,
       "weakness": 7,
-      "opportunity": 8,
-      "threat": 13
+      "opportunity": 4,
+      "threat": 15
     },
     "sector_max": {
       "strength": 25,
@@ -8767,16 +8767,16 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 76.0,
+      "per": 53.0,
       "per_txt": "고평가 주의",
-      "pbr": 9.85,
+      "pbr": 6.9,
       "pbr_txt": "",
-      "psr": 19.35,
+      "psr": 13.56,
       "psr_txt": "고평가 주의",
-      "peg": 0.86,
+      "peg": 0.6,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 74600.0,
-      "upside": 74.3,
+      "tgt": 71800.0,
+      "upside": 139.3,
       "consensus_n": 5,
       "roe": -3.71
     },
