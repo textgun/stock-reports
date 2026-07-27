@@ -1033,11 +1033,11 @@
     "company": "NAVER",
     "sector": "플랫폼",
     "updated": "2026-07-27",
-    "score": 58,
+    "score": 60,
     "breakdown": {
       "strength": 13,
       "weakness": 14,
-      "opportunity": 15,
+      "opportunity": 17,
       "threat": 16
     },
     "sector_max": {
@@ -1074,30 +1074,30 @@
       "exec_count": 7
     },
     "valuation": {
-      "per": 18.01,
+      "per": 19.53,
       "per_txt": "적정",
-      "pbr": 1.05,
+      "pbr": 1.14,
       "pbr_txt": "고평가 주의",
-      "psr": 10.05,
+      "psr": 10.9,
       "psr_txt": "고평가 주의",
-      "peg": 2.5,
+      "peg": 2.71,
       "peg_txt": "고평가 주의",
       "tgt": 347500.0,
-      "upside": 67.5,
+      "upside": 54.4,
       "consensus_n": 4,
       "roe": 0.94
     },
     "valuation_engine": {
       "fair_value": 137327.0,
       "band_low": 100202.0,
-      "band_high": 207255.0,
+      "band_high": 207245.0,
       "confidence": "LOW",
       "zone": "EXPENSIVE",
-      "gap_pct": 51.1,
+      "gap_pct": 63.8,
       "quality_gate_passed": true,
       "action_label": "1차 매도 — 보유량 1/3 매도",
       "srim_mid": 137326.6255244262,
-      "per_band_mid": 207255.0,
+      "per_band_mid": 207245.0,
       "pbr_roe_fair_value": 100202.0,
       "nav_sotp_mid": null
     }
