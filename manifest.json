@@ -4579,5 +4579,14 @@
     "score": 45,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+  },
+  {
+    "date": "2026-07-27",
+    "filename": "084370_유진테크/2026-07-27_유진테크_084370.html",
+    "company": "유진테크",
+    "ticker": "084370",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
