@@ -1186,13 +1186,13 @@
       },
       {
         "date": "2026-07-28",
-        "total_score": 64,
+        "total_score": 61,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
           "opportunity": 11,
-          "threat": 10
+          "threat": 7
         }
       }
     ]
