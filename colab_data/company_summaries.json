@@ -144,11 +144,11 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-07-30",
-    "score": 56,
+    "score": 55,
     "breakdown": {
       "strength": 13,
       "weakness": 17,
-      "opportunity": 12,
+      "opportunity": 11,
       "threat": 14
     },
     "sector_max": {
@@ -175,7 +175,7 @@
     },
     "reality_hope": {
       "reality_score": 30,
-      "hope_score": 27,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -430,10 +430,10 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 164.1,
-      "rev_yoy_pct": 209.8,
-      "momentum_score": 9.0,
+      "qoq_trend": "improving",
+      "yoy_pct": 229.8,
+      "rev_yoy_pct": 209.1,
+      "momentum_score": 10.0,
       "correction_pts": 7
     },
     "trade": {
@@ -635,8 +635,8 @@
     },
     "earnings": {
       "qoq_trend": "accelerating",
-      "yoy_pct": 405.5,
-      "rev_yoy_pct": 198.1,
+      "yoy_pct": 557.2,
+      "rev_yoy_pct": 256.8,
       "momentum_score": 10.0,
       "correction_pts": 0
     },
@@ -693,9 +693,9 @@
     "company": "신한지주",
     "sector": "금융",
     "updated": "2026-07-30",
-    "score": 60,
+    "score": 61,
     "breakdown": {
-      "strength": 19,
+      "strength": 20,
       "weakness": 15,
       "opportunity": 12,
       "threat": 14
@@ -707,11 +707,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 10.8,
+      "qoq_trend": "improving",
+      "yoy_pct": 22.9,
       "rev_yoy_pct": null,
-      "momentum_score": 8.0,
-      "correction_pts": 2
+      "momentum_score": 9.0,
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": null,
@@ -829,9 +829,9 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-07-30",
-    "score": 59,
+    "score": 58,
     "breakdown": {
-      "strength": 19,
+      "strength": 18,
       "weakness": 15,
       "opportunity": 11,
       "threat": 14
@@ -843,11 +843,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 11.1,
+      "qoq_trend": "flat",
+      "yoy_pct": 6.8,
       "rev_yoy_pct": null,
-      "momentum_score": 8.0,
-      "correction_pts": 2
+      "momentum_score": 6.5,
+      "correction_pts": 1
     },
     "trade": {
       "export_yoy": null,
@@ -859,7 +859,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 35,
+      "reality_score": 34,
       "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
@@ -911,10 +911,10 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 19.0,
+      "qoq_trend": "flat",
+      "yoy_pct": 27.2,
       "rev_yoy_pct": null,
-      "momentum_score": 8.0,
+      "momentum_score": 7.5,
       "correction_pts": 2
     },
     "trade": {
@@ -1033,12 +1033,12 @@
     "company": "NAVER",
     "sector": "플랫폼",
     "updated": "2026-07-30",
-    "score": 53,
+    "score": 54,
     "breakdown": {
       "strength": 13,
       "weakness": 14,
       "opportunity": 10,
-      "threat": 16
+      "threat": 17
     },
     "sector_max": {
       "strength": 25,
@@ -1063,7 +1063,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 34,
+      "reality_score": 36,
       "hope_score": 20,
       "quadrant": "현실 강함  🟢"
     },
@@ -1120,11 +1120,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "flat",
-      "yoy_pct": 115.4,
-      "rev_yoy_pct": 36.0,
-      "momentum_score": 8.5,
-      "correction_pts": 7
+      "qoq_trend": "recovering",
+      "yoy_pct": 86.3,
+      "rev_yoy_pct": 45.0,
+      "momentum_score": 10.0,
+      "correction_pts": 8
     },
     "trade": {
       "export_yoy": 20.66,
@@ -1193,11 +1193,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 19.3,
-      "rev_yoy_pct": -3.2,
-      "momentum_score": 8.0,
-      "correction_pts": 2
+      "qoq_trend": "improving",
+      "yoy_pct": 23.3,
+      "rev_yoy_pct": 2.4,
+      "momentum_score": 9.0,
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": 20.66,
@@ -4695,11 +4695,11 @@
     "company": "파마리서치",
     "sector": "기타",
     "updated": "2026-07-30",
-    "score": 66,
+    "score": 65,
     "breakdown": {
       "strength": 23,
       "weakness": 17,
-      "opportunity": 6,
+      "opportunity": 5,
       "threat": 20
     },
     "sector_max": {
@@ -4726,7 +4726,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 23,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -8053,13 +8053,13 @@
   },
   "080220": {
     "company": "제주반도체",
-    "updated": "2026-07-26",
-    "score": 71,
+    "updated": "2026-07-30",
+    "score": 69,
     "sector": "반도체",
     "breakdown": {
       "strength": 25,
       "weakness": 22,
-      "opportunity": 11,
+      "opportunity": 9,
       "threat": 13
     },
     "sector_max": {
@@ -8085,11 +8085,11 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 21.38,
+      "per": 15.82,
       "per_txt": "적정",
-      "pbr": 7.76,
+      "pbr": 5.74,
       "pbr_txt": "고평가 주의",
-      "psr": 13.42,
+      "psr": 9.92,
       "psr_txt": "고평가 주의",
       "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
@@ -8101,14 +8101,14 @@
     "valuation_engine": {
       "fair_value": 44866.0,
       "band_low": 9835.0,
-      "band_high": 120492.0,
+      "band_high": 120622.0,
       "confidence": "LOW",
       "zone": "FAIR",
-      "gap_pct": 56.7,
+      "gap_pct": 15.9,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 11064.170011675813,
-      "per_band_mid": 62947.0,
+      "per_band_mid": 63199.0,
       "pbr_roe_fair_value": 44866.0,
       "nav_sotp_mid": null
     }
