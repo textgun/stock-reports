@@ -4642,5 +4642,14 @@
     "score": 69,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-07-30",
+    "filename": "000660_SK하이닉스/2026-07-30_SK하이닉스_000660.html",
+    "company": "SK하이닉스",
+    "ticker": "000660",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
