@@ -4633,5 +4633,14 @@
     "score": 52,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-07-30",
+    "filename": "080220_제주반도체/2026-07-30_제주반도체_080220.html",
+    "company": "제주반도체",
+    "ticker": "080220",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
