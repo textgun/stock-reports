@@ -552,12 +552,12 @@
     "company": "LIG디펜스앤에어로스페이스",
     "sector": "방산",
     "updated": "2026-07-31",
-    "score": 65,
+    "score": 63,
     "breakdown": {
       "strength": 14,
       "weakness": 20,
       "opportunity": 19,
-      "threat": 12
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
@@ -582,7 +582,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 36,
+      "reality_score": 34,
       "hope_score": 29,
       "quadrant": "현실 강함  🟢"
     },
@@ -1999,12 +1999,12 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-07-31",
-    "score": 65,
+    "score": 66,
     "breakdown": {
       "strength": 25,
       "weakness": 17,
       "opportunity": 11,
-      "threat": 12
+      "threat": 13
     },
     "sector_max": {
       "strength": 25,
@@ -2029,7 +2029,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 38,
+      "reality_score": 39,
       "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
