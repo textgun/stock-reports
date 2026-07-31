@@ -144,11 +144,11 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-07-31",
-    "score": 57,
+    "score": 58,
     "breakdown": {
       "strength": 14,
       "weakness": 17,
-      "opportunity": 12,
+      "opportunity": 13,
       "threat": 14
     },
     "sector_max": {
@@ -175,7 +175,7 @@
     },
     "reality_hope": {
       "reality_score": 31,
-      "hope_score": 27,
+      "hope_score": 28,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -484,11 +484,11 @@
     "company": "한국금융지주",
     "sector": "금융",
     "updated": "2026-07-31",
-    "score": 59,
+    "score": 60,
     "breakdown": {
       "strength": 23,
       "weakness": 15,
-      "opportunity": 10,
+      "opportunity": 11,
       "threat": 11
     },
     "sector_max": {
@@ -515,7 +515,7 @@
     },
     "reality_hope": {
       "reality_score": 39,
-      "hope_score": 18,
+      "hope_score": 19,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -620,11 +620,11 @@
     "company": "SK하이닉스",
     "sector": "반도체",
     "updated": "2026-07-31",
-    "score": 64,
+    "score": 65,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 14,
+      "opportunity": 15,
       "threat": 7
     },
     "sector_max": {
@@ -651,7 +651,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 23,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -761,11 +761,11 @@
     "company": "삼성생명",
     "sector": "금융",
     "updated": "2026-07-31",
-    "score": 57,
+    "score": 58,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
-      "opportunity": 16,
+      "opportunity": 17,
       "threat": 7
     },
     "sector_max": {
@@ -792,7 +792,7 @@
     },
     "reality_hope": {
       "reality_score": 32,
-      "hope_score": 24,
+      "hope_score": 25,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1033,11 +1033,11 @@
     "company": "NAVER",
     "sector": "플랫폼",
     "updated": "2026-07-31",
-    "score": 53,
+    "score": 54,
     "breakdown": {
       "strength": 13,
       "weakness": 14,
-      "opportunity": 10,
+      "opportunity": 11,
       "threat": 16
     },
     "sector_max": {
@@ -1064,7 +1064,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 20,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -1106,11 +1106,11 @@
     "company": "셀트리온",
     "sector": "바이오",
     "updated": "2026-07-31",
-    "score": 55,
+    "score": 53,
     "breakdown": {
       "strength": 17,
       "weakness": 7,
-      "opportunity": 14,
+      "opportunity": 12,
       "threat": 17
     },
     "sector_max": {
@@ -1137,7 +1137,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 22,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -1179,11 +1179,11 @@
     "company": "삼성바이오로직스",
     "sector": "바이오",
     "updated": "2026-07-31",
-    "score": 53,
+    "score": 51,
     "breakdown": {
       "strength": 14,
       "weakness": 8,
-      "opportunity": 14,
+      "opportunity": 12,
       "threat": 17
     },
     "sector_max": {
@@ -1210,7 +1210,7 @@
     },
     "reality_hope": {
       "reality_score": 37,
-      "hope_score": 22,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
