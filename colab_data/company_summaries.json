@@ -2443,13 +2443,13 @@
   },
   "000150": {
     "company": "두산",
-    "updated": "2026-07-25",
-    "score": 41,
+    "updated": "2026-08-03",
+    "score": 36,
     "sector": "지주사",
     "breakdown": {
       "strength": 12,
       "weakness": 6,
-      "opportunity": 16,
+      "opportunity": 11,
       "threat": 7
     },
     "sector_max": {
@@ -2459,10 +2459,10 @@
       "threat": 24
     },
     "earnings": {
-      "qoq_trend": "improving",
-      "yoy_pct": 71.7,
-      "rev_yoy_pct": 17.7,
-      "momentum_score": 8.5,
+      "qoq_trend": "accelerating",
+      "yoy_pct": 36.5,
+      "rev_yoy_pct": 4.5,
+      "momentum_score": 10.0,
       "correction_pts": 5
     },
     "trade": {
@@ -2475,23 +2475,23 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 277.88,
+      "per": 272.98,
       "per_txt": "고평가 주의",
-      "pbr": 9.65,
+      "pbr": 9.48,
       "pbr_txt": "고평가 주의",
-      "psr": 3.81,
+      "psr": 3.74,
       "psr_txt": "고평가 주의",
-      "peg": 3.88,
+      "peg": 7.48,
       "peg_txt": "고평가 주의",
-      "tgt": 2280000.0,
-      "upside": 91.4,
-      "consensus_n": 5,
+      "tgt": 2065000.0,
+      "upside": 76.5,
+      "consensus_n": 4,
       "roe": 0.76
     },
     "valuation_engine": {
-      "fair_value": 205947.0,
+      "fair_value": 175966.0,
       "band_low": 13698.0,
-      "band_high": 1047504.0,
+      "band_high": 978750.0,
       "confidence": "LOW",
       "zone": "AVOID",
       "gap_pct": null,
@@ -2500,7 +2500,7 @@
       "srim_mid": 205947.25737294473,
       "per_band_mid": null,
       "pbr_roe_fair_value": 13698.0,
-      "nav_sotp_mid": 1047504.0
+      "nav_sotp_mid": 978750.0
     }
   },
   "082920": {
