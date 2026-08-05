@@ -4966,5 +4966,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 19/22)"
+  },
+  {
+    "date": "2026-08-05",
+    "filename": "066570_LG전자/2026-08-05_LG전자_066570.html",
+    "company": "LG전자",
+    "ticker": "066570",
+    "score": 56,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
   }
 ]
