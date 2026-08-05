@@ -4735,15 +4735,6 @@
   },
   {
     "date": "2026-08-05",
-    "filename": "068270_셀트리온/2026-08-05_셀트리온_068270.html",
-    "company": "셀트리온",
-    "ticker": "068270",
-    "score": 53,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-05",
     "filename": "000150_두산/2026-08-05_두산_000150.html",
     "company": "두산",
     "ticker": "000150",
@@ -4975,5 +4966,14 @@
     "score": 56,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+  },
+  {
+    "date": "2026-08-05",
+    "filename": "068270_셀트리온/2026-08-05_셀트리온_068270.html",
+    "company": "셀트리온",
+    "ticker": "068270",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
