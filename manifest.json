@@ -5056,5 +5056,14 @@
     "score": 48,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-08-05",
+    "filename": "247540_에코프로비엠/2026-08-05_에코프로비엠_247540.html",
+    "company": "에코프로비엠",
+    "ticker": "247540",
+    "score": 36,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 10/20)"
   }
 ]
