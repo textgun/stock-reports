@@ -2,7 +2,7 @@
   "date": "2026-08-05",
   "year": 2026,
   "quarter": 1,
-  "generated_at": "2026-08-05T13:00:33.451547",
+  "generated_at": "2026-08-05T14:32:34.704900",
   "config": {
     "buy_threshold": 65,
     "max_positions": 3,
@@ -12,13 +12,13 @@
     "stop_loss": -0.05,
     "market_halt_pct": -2.0
   },
-  "market_change_pct": 4.19,
+  "market_change_pct": 4.35,
   "market_halted": false,
   "vix_level": 15.86,
   "vix_halted": false,
   "vix_caution": false,
   "market_phase": "Bear",
-  "market_ma20": 6675.0,
+  "market_ma20": 6676.0,
   "market_ma60": 7675.0,
   "effective_max": 2,
   "phase_threshold": 70,
@@ -58,7 +58,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:58:54.666599",
+      "generated_at": "2026-08-05T14:31:02.564515",
       "consecutive_drops": 0
     },
     {
@@ -93,7 +93,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:32.718109",
+      "generated_at": "2026-08-05T14:31:43.875667",
       "consecutive_drops": 0
     },
     {
@@ -128,7 +128,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:14.017959",
+      "generated_at": "2026-08-05T14:31:23.989696",
       "consecutive_drops": 0
     },
     {
@@ -163,7 +163,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:35.824829",
+      "generated_at": "2026-08-05T14:31:47.476911",
       "consecutive_drops": 0
     },
     {
@@ -198,7 +198,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:01.142777",
+      "generated_at": "2026-08-05T14:31:11.083496",
       "consecutive_drops": 0
     },
     {
@@ -233,7 +233,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:38.317092",
+      "generated_at": "2026-08-05T14:31:50.036643",
       "consecutive_drops": 0
     },
     {
@@ -268,7 +268,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:40.998434",
+      "generated_at": "2026-08-05T14:31:53.083828",
       "consecutive_drops": 0
     },
     {
@@ -303,7 +303,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:07.579971",
+      "generated_at": "2026-08-05T14:31:17.541038",
       "consecutive_drops": 0
     },
     {
@@ -338,7 +338,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:17.056419",
+      "generated_at": "2026-08-05T14:31:27.347034",
       "consecutive_drops": 0
     },
     {
@@ -373,7 +373,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:10.384164",
+      "generated_at": "2026-08-05T14:31:20.419749",
       "consecutive_drops": 0
     },
     {
@@ -408,7 +408,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:26.206663",
+      "generated_at": "2026-08-05T14:31:37.228712",
       "consecutive_drops": 1
     },
     {
@@ -443,7 +443,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:04.374054",
+      "generated_at": "2026-08-05T14:31:14.347074",
       "consecutive_drops": 0
     },
     {
@@ -478,7 +478,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:57.771007",
+      "generated_at": "2026-08-05T14:32:18.771661",
       "consecutive_drops": 0
     },
     {
@@ -513,7 +513,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:58:46.719851",
+      "generated_at": "2026-08-05T14:30:54.744712",
       "consecutive_drops": 0
     },
     {
@@ -548,7 +548,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:58:50.187061",
+      "generated_at": "2026-08-05T14:30:58.068935",
       "consecutive_drops": 0
     },
     {
@@ -583,7 +583,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:22.923870",
+      "generated_at": "2026-08-05T14:31:33.668152",
       "consecutive_drops": 0
     },
     {
@@ -618,7 +618,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:43.875764",
+      "generated_at": "2026-08-05T14:31:56.619632",
       "consecutive_drops": 0
     },
     {
@@ -653,7 +653,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:58:57.758963",
+      "generated_at": "2026-08-05T14:31:05.952758",
       "consecutive_drops": 0
     },
     {
@@ -688,7 +688,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:46.444521",
+      "generated_at": "2026-08-05T14:31:59.562687",
       "consecutive_drops": 0
     },
     {
@@ -723,7 +723,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:52.200840",
+      "generated_at": "2026-08-05T14:32:04.969784",
       "consecutive_drops": 0
     },
     {
@@ -758,7 +758,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:54.965862",
+      "generated_at": "2026-08-05T14:32:11.668763",
       "consecutive_drops": 0
     },
     {
@@ -793,7 +793,7 @@
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-05T12:59:49.393689",
+      "generated_at": "2026-08-05T14:32:02.292745",
       "consecutive_drops": 0
     }
   ],
@@ -815,7 +815,7 @@
       "rating": "BUY",
       "financial_ok": true,
       "zone": "DEEP_VALUE",
-      "gap_pct": -40.9,
+      "gap_pct": -42.0,
       "accumulate_step": 3,
       "action_label": "3차 매수 존 (목표비중 100%까지)",
       "fair_value": 127430.0,
@@ -830,7 +830,7 @@
       "rsi": null,
       "momentum_3m": 0.0,
       "momentum_6m": 0.0,
-      "generated_at": "2026-08-05T13:00:33.438274"
+      "generated_at": "2026-08-05T14:32:34.676467"
     }
   ],
   "valuation_watchlist": [],
