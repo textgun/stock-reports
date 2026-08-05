@@ -4858,5 +4858,14 @@
     "score": 60,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-05",
+    "filename": "010140_삼성중공업/2026-08-05_삼성중공업_010140.html",
+    "company": "삼성중공업",
+    "ticker": "010140",
+    "score": 47,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
