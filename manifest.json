@@ -5002,5 +5002,14 @@
     "score": 55,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-05",
+    "filename": "089030_테크윙/2026-08-05_테크윙_089030.html",
+    "company": "테크윙",
+    "ticker": "089030",
+    "score": 47,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
