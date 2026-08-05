@@ -4723,5 +4723,14 @@
     "score": 36,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 18/26)"
+  },
+  {
+    "date": "2026-08-05",
+    "filename": "475960_토모큐브/2026-08-05_토모큐브_475960.html",
+    "company": "토모큐브",
+    "ticker": "475960",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
   }
 ]
