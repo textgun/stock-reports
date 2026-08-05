@@ -22629,5 +22629,54 @@
         }
       }
     ]
+  },
+  "475960": {
+    "company_name": "토모큐브",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 34,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 7,
+          "opportunity": 8,
+          "threat": 9
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 34,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 7,
+          "opportunity": 8,
+          "threat": 9
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 29,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 2,
+          "opportunity": 8,
+          "threat": 9
+        }
+      },
+      {
+        "date": "2026-08-05",
+        "total_score": 34,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 7,
+          "opportunity": 8,
+          "threat": 9
+        }
+      }
+    ]
   }
 }
