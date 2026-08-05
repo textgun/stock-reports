@@ -1550,7 +1550,148 @@ function renderSmConsBody(c, price, code){
     html += '</div>';
   }
   host.innerHTML = html;
+  renderTargetCharts(code);
+  renderEpsEstimates(code);
 }
+
+/* ── EPS 컨센서스 추정 표 + 추정 변화 차트 (kr_screener 산출물 재사용) ── */
+let EPS_STATIC = null, TR_STATIC = null, tcCharts = [];
+
+async function fetchEps(code){
+  if (IS_SERVER){
+    const r = await fetch('/api/eps_estimates?code='+code);
+    if (!r.ok) return null;
+    return r.json();
+  }
+  if (!EPS_STATIC) EPS_STATIC = fetch('../eps_estimates.json').then(r=>r.ok?r.json():null).catch(()=>null);
+  const all = await EPS_STATIC;
+  return (all && all.eps) ? (all.eps[code] || null) : null;
+}
+
+async function renderEpsEstimates(code){
+  let d; try { d = await fetchEps(code); } catch(e){ return; }
+  if (!d || !d.c) return;
+  const c = d.c, hist = d.h || [];
+  const fmtI = v => Math.round(v).toLocaleString('ko-KR');
+  const years = c.years || [];
+  const yl = y => y.replace('/12','').replace('Fwd. 12M','12M선행');
+  let tbl = '<table style="width:100%;font-size:11.5px;border-collapse:collapse;margin-top:4px">';
+  tbl += '<tr><td class="mut"></td>'+years.map(y=>'<td class="mut" style="text-align:right;padding:2px 4px">'+yl(y)+'</td>').join('')+'</tr>';
+  tbl += '<tr><td class="mut">EPS</td>'+years.map(y=>'<td style="text-align:right;font-weight:600;padding:2px 4px">'+(c.eps[y]!=null?fmtI(c.eps[y]):'-')+'</td>').join('')+'</tr>';
+  tbl += '<tr><td class="mut">PER</td>'+years.map(y=>'<td style="text-align:right;padding:2px 4px">'+(c.per[y]!=null?c.per[y]+'배':'-')+'</td>').join('')+'</tr>';
+  tbl += '</table>';
+  const cons = c.consensus || {};
+  const consLine = cons.target ? '<div class="mut" style="font-size:11.5px;margin-top:4px">컨센서스 목표 <b>'+fmtI(cons.target)+'원</b> · 추정기관 '+(cons.n!=null?cons.n:'?')+'곳</div>' : '';
+  const host = document.getElementById('sm-cons');
+  const box = document.createElement('div');
+  box.innerHTML = '<div class="mut" style="font-size:11.5px;margin:14px 0 3px">EPS 컨센서스 추정</div>'+tbl+consLine+
+    (hist.length>=2 ? '<div class="mut" style="font-size:11.5px;margin:10px 0 3px">EPS 추정 변화 (보라=당해·파랑=12M선행)</div><div id="tc-eps" style="height:150px;border:1px solid var(--grid);border-radius:8px"></div>'
+                    : '<div class="mut" style="font-size:11px;margin-top:6px">EPS 추정 변화는 매일 스냅샷을 쌓아 표시됩니다(2일+)</div>');
+  host.appendChild(box);
+  if (hist.length>=2){
+    const ch = LWC.createChart(document.getElementById('tc-eps'), smChartOpts()); tcCharts.push(ch);
+    const fy1 = tcUniqSorted(hist.map(h=>({time:h[0],value:h[1]})).filter(x=>x.value!=null));
+    const fwd = tcUniqSorted(hist.map(h=>({time:h[0],value:h[2]})).filter(x=>x.value!=null));
+    if(fy1.length) ch.addSeries(LWC.LineSeries,{color:'#7c3aed',lineWidth:2}).setData(fy1);
+    if(fwd.length) ch.addSeries(LWC.LineSeries,{color:smVar('--accent')||'#3b82f6',lineWidth:1.5}).setData(fwd);
+    ch.timeScale().fitContent();
+  }
+}
+
+/* ── 증권사별 목표주가 시계열 3종 차트 ── */
+async function fetchTargetHistory(code){
+  if (IS_SERVER){
+    const r = await fetch('/api/target_history?code='+code);
+    if (!r.ok) return null;
+    return r.json();
+  }
+  if (!TR_STATIC) TR_STATIC = fetch('../target_reports.json').then(r=>r.ok?r.json():null).catch(()=>null);
+  const all = await TR_STATIC;
+  return (all && all.rpt) ? {rpt: all.rpt[code] || []} : null;
+}
+
+async function renderTargetCharts(code){
+  tcDisposeAll();
+  let d; try { d = await fetchTargetHistory(code); } catch(e){ return; }
+  const reps = (d && d.rpt) || [];
+  if (reps.length < 3) return;
+  let priceClose = [];
+  try { const bars = await smFetchBars(code); priceClose = tcUniqSorted(bars.map(b=>({time:b.t, value:b.c}))); } catch(e){}
+  const rptDates = Array.from(new Set(reps.map(r=>r[0]))).sort();
+  const axis = priceClose.length ? priceClose.map(p=>p.time) : rptDates;
+  const {cons, hi, lo} = tcForwardFill(reps, axis);
+  const fmtI = v => Math.round(v).toLocaleString('ko-KR');
+  const lastP = priceClose.length ? priceClose[priceClose.length-1].value : null;
+  const lastC = cons.length ? cons[cons.length-1].value : null;
+  let gapTxt = '';
+  if (lastP && lastC){
+    const g = (lastC/lastP - 1)*100;
+    gapTxt = ' <span style="font-weight:700;color:' + (g>=0?'var(--up-text)':'var(--down-text)') + '">현재 ' + fmtI(lastP) +
+      ' · 목표 ' + fmtI(lastC) + ' · 괴리율 ' + (g>=0?'+':'') + g.toFixed(1) + '%</span>';
+  }
+  const host = document.getElementById('sm-cons');
+  const box = document.createElement('div');
+  box.innerHTML =
+    '<div class="mut" style="font-size:11.5px;margin:14px 0 3px">주가 vs 평균 목표주가' + gapTxt + '</div>'+
+    '<div id="tc-price" style="height:170px;border:1px solid var(--grid);border-radius:8px"></div>'+
+    '<div class="mut" style="font-size:11.5px;margin:12px 0 3px">평균 목표주가 변동 (밴드=증권사 최고/최저)</div>'+
+    '<div id="tc-target" style="height:150px;border:1px solid var(--grid);border-radius:8px"></div>'+
+    '<div class="mut" style="font-size:11.5px;margin:12px 0 3px">증권사별 목표주가 (최근 6개월·상위 10곳)</div>'+
+    '<div id="tc-broker" style="height:190px;border:1px solid var(--grid);border-radius:8px"></div>';
+  host.appendChild(box);
+  const acc = smVar('--accent')||'#3b82f6', mut = smVar('--ink-3');
+  if (priceClose.length){
+    const c1 = LWC.createChart(document.getElementById('tc-price'), smChartOpts()); tcCharts.push(c1);
+    c1.addSeries(LWC.LineSeries,{color:mut,lineWidth:1}).setData(priceClose);
+    c1.addSeries(LWC.LineSeries,{color:acc,lineWidth:2}).setData(cons);
+    c1.timeScale().fitContent();
+  } else { const el=document.getElementById('tc-price'); if(el) el.innerHTML='<div class="mut" style="padding:10px;font-size:11px">주가 데이터 없음</div>'; }
+  const upc = smVar('--up')||'#d03b3b', dnc = smVar('--down')||'#2a6fd6';
+  const c2 = LWC.createChart(document.getElementById('tc-target'), smChartOpts()); tcCharts.push(c2);
+  c2.addSeries(LWC.LineSeries,{color:upc,lineWidth:1.5}).setData(hi);
+  c2.addSeries(LWC.LineSeries,{color:dnc,lineWidth:1.5}).setData(lo);
+  c2.addSeries(LWC.LineSeries,{color:'#7c3aed',lineWidth:2.5}).setData(cons);
+  c2.timeScale().fitContent();
+  const byFirm = {};
+  reps.forEach(([dt,f,t])=>{ if(t&&f){ (byFirm[f]=byFirm[f]||[]).push({time:dt,value:t}); } });
+  const c3 = LWC.createChart(document.getElementById('tc-broker'), smChartOpts()); tcCharts.push(c3);
+  const pal = ['#3b82f6','#ef4444','#10b981','#f59e0b','#8b5cf6','#ec4899','#14b8a6','#f97316','#6366f1','#84cc16'];
+  Object.keys(byFirm).sort((a,b)=>byFirm[b].length-byFirm[a].length).slice(0,10).forEach((f,i)=>{
+    const s = c3.addSeries(LWC.LineSeries,{color:pal[i%pal.length],lineWidth:1,pointMarkersVisible:true});
+    s.setData(tcUniqSorted(byFirm[f]));
+  });
+  c3.timeScale().fitContent();
+}
+
+function tcDisposeAll(){ tcCharts.forEach(c=>{ try{ c.remove(); }catch(e){} }); tcCharts = []; }
+
+/* 리포트는 발간일에만 값이 있으므로 주가 축에 맞춰 직전 목표가를 이어 붙인다(190일 경과분은 제외). */
+function tcForwardFill(reps, axis){
+  const byD = {};
+  reps.forEach(([dt,f,t])=>{ if(t&&f){ (byD[dt]=byD[dt]||[]).push([f,t]); } });
+  const rds = Object.keys(byD).sort();
+  const before = (s,n)=>{ const d=new Date(s+'T00:00:00'); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10); };
+  const latest = {}; let ri = 0;
+  const cons=[], hi=[], lo=[];
+  axis.forEach(pd=>{
+    while(ri < rds.length && rds[ri] <= pd){ byD[rds[ri]].forEach(([f,t])=> latest[f]={t, d:rds[ri]}); ri++; }
+    const cut = before(pd, 190);
+    const vals = Object.values(latest).filter(x=>x.d >= cut).map(x=>x.t);
+    if(vals.length){
+      cons.push({time:pd, value:Math.round(vals.reduce((a,b)=>a+b,0)/vals.length)});
+      hi.push({time:pd, value:Math.max.apply(null,vals)});
+      lo.push({time:pd, value:Math.min.apply(null,vals)});
+    }
+  });
+  return {cons, hi, lo};
+}
+
+function tcUniqSorted(pts){
+  pts.sort((a,b)=> a.time<b.time?-1:a.time>b.time?1:0);
+  const m={}; pts.forEach(p=> m[p.time]=p.value);
+  return Object.keys(m).sort().map(t=>({time:t, value:m[t]}));
+}
+
 async function renderSmCons(code, price){
   const host = document.getElementById('sm-cons');
   host.innerHTML = '<div class="note">컨센서스 로딩 중...</div>';
