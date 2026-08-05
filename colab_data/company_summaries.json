@@ -8980,5 +8980,67 @@
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
+  },
+  "475960": {
+    "company": "토모큐브",
+    "updated": "2026-08-05",
+    "score": 34,
+    "sector": "기타",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 7,
+      "opportunity": 8,
+      "threat": 9
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": 37.9,
+      "rev_yoy_pct": 323.1,
+      "momentum_score": 7.0,
+      "correction_pts": 5
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": null,
+      "per_txt": "",
+      "pbr": 12.69,
+      "pbr_txt": "",
+      "psr": 176.66,
+      "psr_txt": "고평가 주의",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": 75333.33333333333,
+      "upside": 109.3,
+      "consensus_n": 3,
+      "roe": -3.57
+    },
+    "valuation_engine": {
+      "fair_value": null,
+      "band_low": null,
+      "band_high": null,
+      "confidence": "NONE",
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (17점 < 기준 30점) / 이자보상배율 미달 (-5179.7배 < 기준 2.0배), 존과 무관하게 회피",
+      "srim_mid": null,
+      "per_band_mid": null,
+      "pbr_roe_fair_value": null,
+      "nav_sotp_mid": null
+    }
   }
 }
