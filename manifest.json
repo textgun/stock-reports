@@ -4804,5 +4804,14 @@
     "score": 62,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-05",
+    "filename": "006400_삼성SDI/2026-08-05_삼성SDI_006400.html",
+    "company": "삼성SDI",
+    "ticker": "006400",
+    "score": 38,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/20)"
   }
 ]
