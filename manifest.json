@@ -5029,5 +5029,14 @@
     "score": 49,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-08-05",
+    "filename": "105560_KB금융/2026-08-05_KB금융_105560.html",
+    "company": "KB금융",
+    "ticker": "105560",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
