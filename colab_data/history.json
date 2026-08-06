@@ -4190,6 +4190,17 @@
           "opportunity": 8,
           "threat": 15
         }
+      },
+      {
+        "date": "2026-08-06",
+        "total_score": 66,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 13,
+          "weakness": 21,
+          "opportunity": 17,
+          "threat": 15
+        }
       }
     ]
   },
@@ -23390,6 +23401,55 @@
           "weakness": 7,
           "opportunity": 8,
           "threat": 9
+        }
+      }
+    ]
+  },
+  "257720": {
+    "company_name": "실리콘투",
+    "records": [
+      {
+        "date": "2025-06-30",
+        "total_score": 61,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 12,
+          "opportunity": 14,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "total_score": 63,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 12,
+          "opportunity": 14,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 59,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 8,
+          "opportunity": 14,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-08-06",
+        "total_score": 63,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 12,
+          "opportunity": 14,
+          "threat": 15
         }
       }
     ]
