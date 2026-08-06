@@ -112,30 +112,30 @@
     },
     "extra": null,
     "valuation": {
-      "per": 24.89,
+      "per": 30.31,
       "per_txt": "저평가",
-      "pbr": 6.86,
+      "pbr": 8.36,
       "pbr_txt": "고평가 주의",
-      "psr": 27.21,
+      "psr": 33.17,
       "psr_txt": "고평가 주의",
-      "peg": 0.52,
+      "peg": 0.63,
       "peg_txt": "저평가(성장대비)",
       "tgt": 340000.0,
-      "upside": 154.5,
+      "upside": 109.0,
       "consensus_n": 5,
       "roe": 7.72
     },
     "valuation_engine": {
       "fair_value": 194670.0,
-      "band_low": 46858.0,
-      "band_high": 242058.0,
+      "band_low": 46817.0,
+      "band_high": 239320.0,
       "confidence": "LOW",
       "zone": "ACCUMULATE",
-      "gap_pct": -31.4,
+      "gap_pct": -16.4,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
-      "srim_mid": 52715.56115197025,
-      "per_band_mid": 242058.0,
+      "srim_mid": 52669.11246488326,
+      "per_band_mid": 239320.0,
       "pbr_roe_fair_value": 194670.0,
       "nav_sotp_mid": null
     }
@@ -7707,13 +7707,13 @@
   },
   "051160": {
     "company": "지어소프트",
-    "updated": "2026-07-25",
-    "score": 57,
+    "updated": "2026-08-06",
+    "score": 66,
     "sector": "기타",
     "breakdown": {
       "strength": 13,
       "weakness": 21,
-      "opportunity": 8,
+      "opportunity": 17,
       "threat": 15
     },
     "sector_max": {
@@ -7739,30 +7739,30 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 8.55,
+      "per": 12.37,
       "per_txt": "저평가",
-      "pbr": 0.67,
+      "pbr": 0.97,
       "pbr_txt": "고평가 주의",
-      "psr": 0.79,
-      "psr_txt": "저평가",
-      "peg": 0.26,
+      "psr": 1.15,
+      "psr_txt": "적정",
+      "peg": 0.38,
       "peg_txt": "저평가(성장대비)",
       "tgt": 26166.666666666668,
-      "upside": 250.8,
+      "upside": 142.3,
       "consensus_n": 3,
       "roe": 3.8
     },
     "valuation_engine": {
       "fair_value": 17276.0,
-      "band_low": 12641.0,
+      "band_low": 12462.0,
       "band_high": 29514.0,
       "confidence": "LOW",
       "zone": "DEEP_VALUE",
-      "gap_pct": -56.8,
+      "gap_pct": -37.5,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (DEEP_VALUE 참고용, 방법 간 편차가 커 판단 유보 권장)",
       "srim_mid": 17276.37713700987,
-      "per_band_mid": 12641.0,
+      "per_band_mid": 12462.0,
       "pbr_roe_fair_value": 29514.0,
       "nav_sotp_mid": null
     }
@@ -9066,6 +9066,68 @@
       "srim_mid": null,
       "per_band_mid": null,
       "pbr_roe_fair_value": null,
+      "nav_sotp_mid": null
+    }
+  },
+  "257720": {
+    "company": "실리콘투",
+    "updated": "2026-08-06",
+    "score": 63,
+    "sector": "플랫폼",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 12,
+      "opportunity": 14,
+      "threat": 15
+    },
+    "sector_max": {
+      "strength": 22,
+      "weakness": 18,
+      "opportunity": 35,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "recovering",
+      "yoy_pct": 35.2,
+      "rev_yoy_pct": 41.1,
+      "momentum_score": 8.5,
+      "correction_pts": 5
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 14.01,
+      "per_txt": "적정",
+      "pbr": 5.24,
+      "pbr_txt": "고평가 주의",
+      "psr": 4763.25,
+      "psr_txt": "고평가 주의",
+      "peg": 0.4,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 56600.0,
+      "upside": 43.8,
+      "consensus_n": 5,
+      "roe": 11.05
+    },
+    "valuation_engine": {
+      "fair_value": 50029.0,
+      "band_low": 58.0,
+      "band_high": 133023.0,
+      "confidence": "LOW",
+      "zone": "ACCUMULATE",
+      "gap_pct": -21.3,
+      "quality_gate_passed": true,
+      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
+      "srim_mid": 32232.58768779854,
+      "per_band_mid": 63558.0,
+      "pbr_roe_fair_value": 75160.0,
       "nav_sotp_mid": null
     }
   }
