@@ -552,9 +552,9 @@
     "company": "LIG디펜스앤에어로스페이스",
     "sector": "방산",
     "updated": "2026-08-06",
-    "score": 65,
+    "score": 67,
     "breakdown": {
-      "strength": 14,
+      "strength": 16,
       "weakness": 20,
       "opportunity": 19,
       "threat": 12
@@ -566,11 +566,11 @@
       "threat": 23
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 50.6,
-      "rev_yoy_pct": 28.7,
-      "momentum_score": 7.5,
-      "correction_pts": 4
+      "qoq_trend": "flat",
+      "yoy_pct": 36.2,
+      "rev_yoy_pct": 17.4,
+      "momentum_score": 8.5,
+      "correction_pts": 6
     },
     "trade": {
       "export_yoy": null,
@@ -582,7 +582,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 36,
+      "reality_score": 38,
       "hope_score": 29,
       "quadrant": "현실 강함  🟢"
     },
@@ -693,11 +693,11 @@
     "company": "신한지주",
     "sector": "금융",
     "updated": "2026-08-06",
-    "score": 58,
+    "score": 56,
     "breakdown": {
       "strength": 20,
       "weakness": 15,
-      "opportunity": 12,
+      "opportunity": 10,
       "threat": 11
     },
     "sector_max": {
@@ -724,7 +724,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 23,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -965,11 +965,11 @@
     "company": "알테오젠",
     "sector": "바이오",
     "updated": "2026-08-06",
-    "score": 54,
+    "score": 53,
     "breakdown": {
       "strength": 16,
       "weakness": 10,
-      "opportunity": 18,
+      "opportunity": 17,
       "threat": 10
     },
     "sector_max": {
@@ -996,7 +996,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 22,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1386,8 +1386,8 @@
     },
     "earnings": {
       "qoq_trend": "accelerating",
-      "yoy_pct": 179.0,
-      "rev_yoy_pct": 123.0,
+      "yoy_pct": 125.4,
+      "rev_yoy_pct": 134.2,
       "momentum_score": 10.0,
       "correction_pts": 2
     },
