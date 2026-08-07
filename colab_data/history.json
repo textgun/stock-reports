@@ -18594,12 +18594,12 @@
       },
       {
         "date": "2026-08-07",
-        "total_score": 60,
+        "total_score": 61,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 15,
+          "opportunity": 16,
           "threat": 12
         }
       }
