@@ -5221,15 +5221,6 @@
   },
   {
     "date": "2026-08-07",
-    "filename": "196170_알테오젠/2026-08-07_알테오젠_196170.html",
-    "company": "알테오젠",
-    "ticker": "196170",
-    "score": 55,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-07",
     "filename": "062040_산일전기/2026-08-07_산일전기_062040.html",
     "company": "산일전기",
     "ticker": "062040",
@@ -5243,6 +5234,15 @@
     "company": "하나금융지주",
     "ticker": "086790",
     "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-07",
+    "filename": "196170_알테오젠/2026-08-07_알테오젠_196170.html",
+    "company": "알테오젠",
+    "ticker": "196170",
+    "score": 58,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
