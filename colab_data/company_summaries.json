@@ -144,12 +144,12 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-08-07",
-    "score": 68,
+    "score": 66,
     "breakdown": {
       "strength": 20,
       "weakness": 17,
       "opportunity": 17,
-      "threat": 14
+      "threat": 12
     },
     "sector_max": {
       "strength": 25,
@@ -175,7 +175,7 @@
     },
     "reality_hope": {
       "reality_score": 37,
-      "hope_score": 32,
+      "hope_score": 30,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
@@ -280,12 +280,12 @@
     "company": "이오테크닉스",
     "sector": "반도체",
     "updated": "2026-08-07",
-    "score": 52,
+    "score": 53,
     "breakdown": {
       "strength": 22,
       "weakness": 14,
-      "opportunity": 9,
-      "threat": 7
+      "opportunity": 7,
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
@@ -311,7 +311,7 @@
     },
     "reality_hope": {
       "reality_score": 33,
-      "hope_score": 18,
+      "hope_score": 19,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -484,12 +484,12 @@
     "company": "한국금융지주",
     "sector": "금융",
     "updated": "2026-08-07",
-    "score": 61,
+    "score": 63,
     "breakdown": {
-      "strength": 25,
+      "strength": 29,
       "weakness": 15,
       "opportunity": 10,
-      "threat": 11
+      "threat": 9
     },
     "sector_max": {
       "strength": 30,
@@ -498,11 +498,11 @@
       "threat": 22
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 108.9,
-      "rev_yoy_pct": null,
-      "momentum_score": 9.0,
-      "correction_pts": 4
+      "qoq_trend": "improving",
+      "yoy_pct": 129.6,
+      "rev_yoy_pct": 92.7,
+      "momentum_score": 10.0,
+      "correction_pts": 7
     },
     "trade": {
       "export_yoy": null,
@@ -514,8 +514,8 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 41,
-      "hope_score": 18,
+      "reality_score": 45,
+      "hope_score": 16,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -897,12 +897,12 @@
     "company": "KB금융",
     "sector": "금융",
     "updated": "2026-08-07",
-    "score": 57,
+    "score": 55,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
       "opportunity": 10,
-      "threat": 13
+      "threat": 11
     },
     "sector_max": {
       "strength": 30,
@@ -928,7 +928,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 23,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -965,9 +965,9 @@
     "company": "알테오젠",
     "sector": "바이오",
     "updated": "2026-08-07",
-    "score": 58,
+    "score": 60,
     "breakdown": {
-      "strength": 16,
+      "strength": 18,
       "weakness": 10,
       "opportunity": 18,
       "threat": 14
@@ -979,11 +979,11 @@
       "threat": 32
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": -35.6,
-      "rev_yoy_pct": -14.5,
-      "momentum_score": 4.5,
-      "correction_pts": 0
+      "qoq_trend": "flat",
+      "yoy_pct": 8053.5,
+      "rev_yoy_pct": 269.6,
+      "momentum_score": 8.5,
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": 20.66,
@@ -995,32 +995,32 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 43,
+      "reality_score": 47,
       "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
     "valuation": {
-      "per": 154.2,
+      "per": 164.16,
       "per_txt": "고평가 주의",
-      "pbr": 39.86,
+      "pbr": 42.44,
       "pbr_txt": "고평가 주의",
-      "psr": 214.42,
+      "psr": 228.27,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 528000.0,
-      "upside": 84.3,
+      "upside": 73.1,
       "consensus_n": 5,
       "roe": 13.91
     },
     "valuation_engine": {
-      "fair_value": 168558.0,
+      "fair_value": 168842.0,
       "band_low": 20762.0,
       "band_high": 629139.0,
       "confidence": "LOW",
       "zone": "FAIR",
-      "gap_pct": 70.0,
+      "gap_pct": 80.6,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 23357.196548300035,
@@ -1033,11 +1033,11 @@
     "company": "NAVER",
     "sector": "플랫폼",
     "updated": "2026-08-07",
-    "score": 59,
+    "score": 54,
     "breakdown": {
-      "strength": 14,
+      "strength": 12,
       "weakness": 14,
-      "opportunity": 11,
+      "opportunity": 8,
       "threat": 20
     },
     "sector_max": {
@@ -1047,11 +1047,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "flat",
-      "yoy_pct": 7.2,
+      "qoq_trend": "declining",
+      "yoy_pct": -0.2,
       "rev_yoy_pct": 16.3,
-      "momentum_score": 6.5,
-      "correction_pts": 3
+      "momentum_score": 4.0,
+      "correction_pts": 1
     },
     "trade": {
       "export_yoy": null,
@@ -1063,8 +1063,8 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 37,
-      "hope_score": 24,
+      "reality_score": 34,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -1371,12 +1371,12 @@
     "company": "에이피알",
     "sector": "기타",
     "updated": "2026-08-07",
-    "score": 67,
+    "score": 72,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 12,
-      "threat": 12
+      "opportunity": 14,
+      "threat": 15
     },
     "sector_max": {
       "strength": 25,
@@ -1402,7 +1402,7 @@
     },
     "reality_hope": {
       "reality_score": 44,
-      "hope_score": 21,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1549,12 +1549,12 @@
     "company": "LG",
     "sector": "지주사",
     "updated": "2026-08-07",
-    "score": 61,
+    "score": 63,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
       "opportunity": 16,
-      "threat": 12
+      "threat": 14
     },
     "sector_max": {
       "strength": 28,
@@ -1580,7 +1580,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 25,
+      "hope_score": 28,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -4721,9 +4721,9 @@
     "company": "파마리서치",
     "sector": "기타",
     "updated": "2026-08-07",
-    "score": 71,
+    "score": 72,
     "breakdown": {
-      "strength": 23,
+      "strength": 24,
       "weakness": 17,
       "opportunity": 11,
       "threat": 20
@@ -4735,11 +4735,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 28.1,
-      "rev_yoy_pct": 25.0,
-      "momentum_score": 7.5,
-      "correction_pts": 4
+      "qoq_trend": "improving",
+      "yoy_pct": 19.0,
+      "rev_yoy_pct": 27.1,
+      "momentum_score": 9.0,
+      "correction_pts": 5
     },
     "trade": {
       "export_yoy": null,
@@ -4751,7 +4751,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 41,
+      "reality_score": 42,
       "hope_score": 29,
       "quadrant": "현실 강함  🟢"
     },
