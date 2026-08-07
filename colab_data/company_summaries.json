@@ -76,11 +76,11 @@
     "company": "산일전기",
     "sector": "전기장비/전력",
     "updated": "2026-08-07",
-    "score": 52,
+    "score": 51,
     "breakdown": {
       "strength": 26,
       "weakness": 11,
-      "opportunity": 10,
+      "opportunity": 9,
       "threat": 5
     },
     "sector_max": {
@@ -90,10 +90,10 @@
       "threat": 22
     },
     "earnings": {
-      "qoq_trend": "improving",
-      "yoy_pct": 47.9,
-      "rev_yoy_pct": 52.1,
-      "momentum_score": 8.5,
+      "qoq_trend": "accelerating",
+      "yoy_pct": 34.2,
+      "rev_yoy_pct": 28.0,
+      "momentum_score": 10.0,
       "correction_pts": 6
     },
     "trade": {
@@ -112,30 +112,30 @@
     },
     "extra": null,
     "valuation": {
-      "per": 30.31,
+      "per": 29.64,
       "per_txt": "저평가",
-      "pbr": 8.36,
+      "pbr": 8.17,
       "pbr_txt": "고평가 주의",
-      "psr": 33.17,
+      "psr": 32.43,
       "psr_txt": "고평가 주의",
-      "peg": 0.63,
+      "peg": 0.87,
       "peg_txt": "저평가(성장대비)",
       "tgt": 340000.0,
-      "upside": 109.0,
+      "upside": 113.7,
       "consensus_n": 5,
       "roe": 7.72
     },
     "valuation_engine": {
       "fair_value": 194670.0,
       "band_low": 46817.0,
-      "band_high": 239320.0,
+      "band_high": 237403.0,
       "confidence": "LOW",
       "zone": "ACCUMULATE",
-      "gap_pct": -16.4,
+      "gap_pct": -18.3,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
       "srim_mid": 52669.11246488326,
-      "per_band_mid": 239320.0,
+      "per_band_mid": 237403.0,
       "pbr_roe_fair_value": 194670.0,
       "nav_sotp_mid": null
     }
@@ -829,11 +829,11 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-08-07",
-    "score": 57,
+    "score": 56,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 10,
+      "opportunity": 9,
       "threat": 14
     },
     "sector_max": {
@@ -865,22 +865,22 @@
     },
     "extra": null,
     "valuation": {
-      "per": 8.86,
+      "per": 9.15,
       "per_txt": "적정",
-      "pbr": 0.76,
+      "pbr": 0.79,
       "pbr_txt": "고평가 주의",
-      "psr": 14.08,
+      "psr": 14.54,
       "psr_txt": "고평가 주의",
-      "peg": 1.3,
+      "peg": 1.35,
       "peg_txt": "적정",
       "tgt": 170400.0,
-      "upside": 32.5,
+      "upside": 28.3,
       "consensus_n": 5,
       "roe": 3.68
     },
     "valuation_engine": {
       "fair_value": 174518.0,
-      "band_low": 88229.0,
+      "band_low": 88947.0,
       "band_high": 345453.0,
       "confidence": "LOW",
       "zone": "AVOID",
@@ -888,7 +888,7 @@
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (0.5배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": 174518.27518006967,
-      "per_band_mid": 88229.0,
+      "per_band_mid": 88947.0,
       "pbr_roe_fair_value": 345453.0,
       "nav_sotp_mid": null
     }
@@ -965,11 +965,11 @@
     "company": "알테오젠",
     "sector": "바이오",
     "updated": "2026-08-07",
-    "score": 57,
+    "score": 55,
     "breakdown": {
       "strength": 16,
       "weakness": 10,
-      "opportunity": 17,
+      "opportunity": 15,
       "threat": 14
     },
     "sector_max": {
@@ -1001,31 +1001,31 @@
     },
     "extra": null,
     "valuation": {
-      "per": 124.43,
+      "per": 154.2,
       "per_txt": "고평가 주의",
-      "pbr": 32.16,
+      "pbr": 39.86,
       "pbr_txt": "고평가 주의",
-      "psr": 224.9,
+      "psr": 214.42,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
-      "tgt": 556000.0,
-      "upside": 85.0,
+      "tgt": 528000.0,
+      "upside": 84.3,
       "consensus_n": 5,
       "roe": 13.91
     },
     "valuation_engine": {
-      "fair_value": 57471.0,
+      "fair_value": 168558.0,
       "band_low": 20762.0,
-      "band_high": 803626.0,
+      "band_high": 629139.0,
       "confidence": "LOW",
       "zone": "FAIR",
-      "gap_pct": 422.9,
+      "gap_pct": 70.0,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 23357.196548300035,
-      "per_band_mid": 803626.0,
-      "pbr_roe_fair_value": 57471.0,
+      "per_band_mid": 472683.0,
+      "pbr_roe_fair_value": 44204.0,
       "nav_sotp_mid": null
     }
   },
