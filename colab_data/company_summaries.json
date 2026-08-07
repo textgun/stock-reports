@@ -1549,11 +1549,11 @@
     "company": "LG",
     "sector": "지주사",
     "updated": "2026-08-07",
-    "score": 60,
+    "score": 61,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 15,
+      "opportunity": 16,
       "threat": 12
     },
     "sector_max": {
@@ -1580,7 +1580,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 24,
+      "hope_score": 25,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
