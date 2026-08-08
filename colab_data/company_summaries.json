@@ -6932,7 +6932,7 @@
   },
   "229000": {
     "company": "젠큐릭스",
-    "updated": "2026-07-25",
+    "updated": "2026-08-08",
     "score": 26,
     "sector": "기타",
     "breakdown": {
@@ -6966,9 +6966,9 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 2.71,
+      "pbr": 2.76,
       "pbr_txt": "",
-      "psr": 18.04,
+      "psr": 18.42,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
@@ -6978,16 +6978,19 @@
       "roe": -16.94
     },
     "valuation_engine": {
-      "fair_value": 1133.0,
-      "band_low": 1133.0,
-      "band_high": 1133.0,
+      "fair_value": 5474.0,
+      "band_low": 1113.0,
+      "band_high": 20012.0,
       "confidence": "LOW",
+      "method_spread": 8.836,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (13점 < 기준 30점) / 이자보상배율 미달 (-4.8배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": null,
-      "per_band_mid": 1133.0,
+      "per_band_mid": 1113.0,
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
