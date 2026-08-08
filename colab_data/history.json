@@ -24954,6 +24954,17 @@
           "opportunity": 4,
           "threat": 10
         }
+      },
+      {
+        "date": "2026-08-08",
+        "total_score": 27,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 0,
+          "weakness": 7,
+          "opportunity": 4,
+          "threat": 16
+        }
       }
     ]
   },
