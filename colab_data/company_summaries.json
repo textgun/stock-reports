@@ -75,12 +75,12 @@
   "062040": {
     "company": "산일전기",
     "sector": "전기장비/전력",
-    "updated": "2026-08-07",
-    "score": 51,
+    "updated": "2026-08-08",
+    "score": 52,
     "breakdown": {
       "strength": 26,
       "weakness": 11,
-      "opportunity": 9,
+      "opportunity": 10,
       "threat": 5
     },
     "sector_max": {
@@ -112,16 +112,16 @@
     },
     "extra": null,
     "valuation": {
-      "per": 29.64,
+      "per": 29.3,
       "per_txt": "저평가",
-      "pbr": 8.17,
+      "pbr": 8.08,
       "pbr_txt": "고평가 주의",
-      "psr": 32.43,
+      "psr": 32.06,
       "psr_txt": "고평가 주의",
-      "peg": 0.87,
+      "peg": 0.86,
       "peg_txt": "저평가(성장대비)",
       "tgt": 340000.0,
-      "upside": 113.7,
+      "upside": 116.1,
       "consensus_n": 5,
       "roe": 7.72
     },
@@ -131,7 +131,7 @@
       "band_high": 237403.0,
       "confidence": "LOW",
       "zone": "ACCUMULATE",
-      "gap_pct": -18.3,
+      "gap_pct": -19.2,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
       "srim_mid": 52669.11246488326,
