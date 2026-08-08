@@ -5257,15 +5257,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "263750_펄어비스/2026-08-08_펄어비스_263750.html",
-    "company": "펄어비스",
-    "ticker": "263750",
-    "score": 71,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "267250_HD현대/2026-08-08_HD현대_267250.html",
     "company": "HD현대",
     "ticker": "267250",
@@ -5495,6 +5486,15 @@
     "company": "슈프리마",
     "ticker": "236200",
     "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "263750_펄어비스/2026-08-08_펄어비스_263750.html",
+    "company": "펄어비스",
+    "ticker": "263750",
+    "score": 71,
     "rating": "BUY",
     "rating_label": "매수 ★★"
   }
