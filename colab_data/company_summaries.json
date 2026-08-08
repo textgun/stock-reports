@@ -4598,13 +4598,13 @@
   },
   "126700": {
     "company": "하이비젼시스템",
-    "updated": "2026-07-27",
-    "score": 45,
+    "updated": "2026-08-08",
+    "score": 46,
     "sector": "기타",
     "breakdown": {
       "strength": 6,
       "weakness": 22,
-      "opportunity": 7,
+      "opportunity": 8,
       "threat": 10
     },
     "sector_max": {
@@ -4632,28 +4632,31 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 0.53,
+      "pbr": 0.55,
       "pbr_txt": "",
-      "psr": 5.44,
+      "psr": 5.66,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 23000.0,
-      "upside": 125.7,
+      "upside": 117.0,
       "consensus_n": 1,
       "roe": -1.45
     },
     "valuation_engine": {
-      "fair_value": 7697.0,
-      "band_low": 3947.0,
-      "band_high": 19714.0,
+      "fair_value": 3947.0,
+      "band_low": 1267.0,
+      "band_high": 19456.0,
       "confidence": "LOW",
+      "method_spread": 3.882,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (28점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 7697.092228844118,
-      "per_band_mid": 9896.0,
+      "srim_mid": 2533.271533979765,
+      "per_band_mid": 9835.0,
       "pbr_roe_fair_value": 3947.0,
       "nav_sotp_mid": null
     }
