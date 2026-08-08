@@ -5713,13 +5713,13 @@
   },
   "000270": {
     "company": "기아",
-    "updated": "2026-08-05",
-    "score": 48,
+    "updated": "2026-08-08",
+    "score": 50,
     "sector": "자동차",
     "breakdown": {
       "strength": 13,
       "weakness": 18,
-      "opportunity": 6,
+      "opportunity": 8,
       "threat": 11
     },
     "sector_max": {
@@ -5745,30 +5745,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 7.48,
+      "per": 7.59,
       "per_txt": "적정",
-      "pbr": 0.84,
+      "pbr": 0.85,
       "pbr_txt": "고평가 주의",
-      "psr": 1.76,
+      "psr": 1.79,
       "psr_txt": "적정",
       "peg": null,
       "peg_txt": "",
       "tgt": 216000.0,
-      "upside": 62.4,
+      "upside": 60.1,
       "consensus_n": 5,
       "roe": 2.97
     },
     "valuation_engine": {
-      "fair_value": 285003.0,
-      "band_low": 80919.0,
+      "fair_value": 637745.0,
+      "band_low": 80905.0,
       "band_high": 936534.0,
       "confidence": "LOW",
+      "method_spread": 8.533,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (31점 < 기준 32점), 존과 무관하게 회피",
-      "srim_mid": 285002.651826669,
-      "per_band_mid": 109803.0,
+      "srim_mid": 637745.1552368655,
+      "per_band_mid": 109752.0,
       "pbr_roe_fair_value": 936534.0,
       "nav_sotp_mid": null
     }
