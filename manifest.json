@@ -6046,5 +6046,14 @@
     "score": 49,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "115500_케이씨에스/2026-08-08_케이씨에스_115500.html",
+    "company": "케이씨에스",
+    "ticker": "115500",
+    "score": 32,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 14/22)"
   }
 ]
