@@ -583,8 +583,8 @@
     },
     "reality_hope": {
       "reality_score": 38,
-      "hope_score": 30,
-      "quadrant": "현실·기대 모두 강함  🟢🟢"
+      "hope_score": 29,
+      "quadrant": "현실 강함  🟢"
     },
     "extra": null,
     "valuation": {
@@ -724,7 +724,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 24,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -928,7 +928,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 21,
+      "hope_score": 19,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1402,7 +1402,7 @@
     },
     "reality_hope": {
       "reality_score": 44,
-      "hope_score": 27,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2406,7 +2406,7 @@
   },
   "074610": {
     "company": "이엔플러스",
-    "updated": "2026-07-25",
+    "updated": "2026-08-08",
     "score": 23,
     "sector": "전기장비/전력",
     "breakdown": {
@@ -2452,10 +2452,13 @@
       "roe": -3.28
     },
     "valuation_engine": {
-      "fair_value": null,
-      "band_low": null,
-      "band_high": null,
-      "confidence": "NONE",
+      "fair_value": 19637.0,
+      "band_low": 3979.0,
+      "band_high": 42063.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
