@@ -5275,14 +5275,14 @@
   },
   "241710": {
     "company": "코스메카코리아",
-    "updated": "2026-07-25",
-    "score": 58,
+    "updated": "2026-08-08",
+    "score": 57,
     "sector": "기타",
     "breakdown": {
       "strength": 14,
       "weakness": 18,
-      "opportunity": 6,
-      "threat": 20
+      "opportunity": 8,
+      "threat": 17
     },
     "sector_max": {
       "strength": 25,
@@ -5307,30 +5307,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 15.64,
+      "per": 18.59,
       "per_txt": "저평가",
-      "pbr": 3.39,
+      "pbr": 4.03,
       "pbr_txt": "고평가 주의",
-      "psr": 4.66,
+      "psr": 5.53,
       "psr_txt": "고평가 주의",
-      "peg": 0.2,
+      "peg": 0.24,
       "peg_txt": "저평가(성장대비)",
       "tgt": 125000.0,
-      "upside": 54.9,
+      "upside": 30.3,
       "consensus_n": 4,
       "roe": 6.29
     },
     "valuation_engine": {
-      "fair_value": 118030.0,
-      "band_low": 56244.0,
-      "band_high": 336914.0,
-      "confidence": "LOW",
+      "fair_value": 150700.0,
+      "band_low": 71920.0,
+      "band_high": 333756.0,
+      "confidence": "HIGH",
+      "method_spread": 1.671,
+      "position_scale": 1.0,
+      "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -31.6,
+      "gap_pct": -36.4,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
-      "srim_mid": 63273.95968809986,
-      "per_band_mid": 118030.0,
+      "action_label": "1차 매수 존 (목표비중 33%까지)",
+      "srim_mid": 150699.88383770123,
+      "per_band_mid": 114411.0,
       "pbr_roe_fair_value": 191133.0,
       "nav_sotp_mid": null
     }
