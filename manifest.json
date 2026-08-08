@@ -6208,5 +6208,14 @@
     "score": 64,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "222800_심텍/2026-08-08_심텍_222800.html",
+    "company": "심텍",
+    "ticker": "222800",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
   }
 ]
