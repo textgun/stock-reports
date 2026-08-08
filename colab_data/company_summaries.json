@@ -3100,14 +3100,14 @@
   },
   "042660": {
     "company": "한화오션",
-    "updated": "2026-08-05",
-    "score": 44,
+    "updated": "2026-08-08",
+    "score": 52,
     "sector": "조선",
     "breakdown": {
       "strength": 14,
       "weakness": 5,
-      "opportunity": 10,
-      "threat": 15
+      "opportunity": 17,
+      "threat": 16
     },
     "sector_max": {
       "strength": 20,
@@ -3132,30 +3132,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 18.4,
+      "per": 17.9,
       "per_txt": "적정",
-      "pbr": 4.13,
+      "pbr": 4.02,
       "pbr_txt": "고평가 주의",
-      "psr": 8.77,
+      "psr": 8.53,
       "psr_txt": "고평가 주의",
-      "peg": 0.19,
+      "peg": 0.18,
       "peg_txt": "저평가(성장대비)",
       "tgt": 155000.0,
-      "upside": 68.7,
+      "upside": 73.4,
       "consensus_n": 5,
       "roe": 7.33
     },
     "valuation_engine": {
       "fair_value": 86997.0,
       "band_low": 49107.0,
-      "band_high": 232105.0,
+      "band_high": 231394.0,
       "confidence": "LOW",
+      "method_spread": 3.725,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (19점 < 기준 20점) / 이자보상배율 미달 (1.0배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": null,
-      "per_band_mid": 232105.0,
+      "per_band_mid": 231394.0,
       "pbr_roe_fair_value": 86997.0,
       "nav_sotp_mid": null
     }
