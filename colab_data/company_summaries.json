@@ -3969,7 +3969,7 @@
   },
   "186230": {
     "company": "그린플러스",
-    "updated": "2026-07-25",
+    "updated": "2026-08-08",
     "score": 47,
     "sector": "기타",
     "breakdown": {
@@ -4003,9 +4003,9 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 0.82,
+      "pbr": 0.85,
       "pbr_txt": "고평가 주의",
-      "psr": 1.06,
+      "psr": 1.11,
       "psr_txt": "적정",
       "peg": null,
       "peg_txt": "",
@@ -4015,14 +4015,17 @@
       "roe": 0.16
     },
     "valuation_engine": {
-      "fair_value": 80601.0,
-      "band_low": 80601.0,
+      "fair_value": 47150.0,
+      "band_low": 8066.0,
       "band_high": 80601.0,
       "confidence": "LOW",
+      "method_spread": 5.883,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
       "zone": "DEEP_VALUE",
-      "gap_pct": -96.2,
+      "gap_pct": -93.2,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (DEEP_VALUE 참고용, 방법 간 편차가 커 판단 유보 권장)",
+      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 5.9배 — 매수 보류 (DEEP_VALUE 참고용, 기준 3.0배 초과)",
       "srim_mid": null,
       "per_band_mid": 80601.0,
       "pbr_roe_fair_value": null,
