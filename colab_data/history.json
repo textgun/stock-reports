@@ -1797,6 +1797,17 @@
           "opportunity": 14,
           "threat": 11
         }
+      },
+      {
+        "date": "2026-08-08",
+        "total_score": 48,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 12,
+          "opportunity": 12,
+          "threat": 14
+        }
       }
     ]
   },
