@@ -9375,5 +9375,70 @@
       "pbr_roe_fair_value": 11022.0,
       "nav_sotp_mid": null
     }
+  },
+  "012690": {
+    "company": "모나리자",
+    "updated": "2026-08-08",
+    "score": 45,
+    "sector": "기타",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 22,
+      "opportunity": 3,
+      "threat": 10
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "improving",
+      "yoy_pct": 186.8,
+      "rev_yoy_pct": 2.0,
+      "momentum_score": 9.5,
+      "correction_pts": 3
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 26.13,
+      "per_txt": "고평가 주의",
+      "pbr": 0.61,
+      "pbr_txt": "고평가 주의",
+      "psr": 1.63,
+      "psr_txt": "적정",
+      "peg": 0.14,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": 0.39
+    },
+    "valuation_engine": {
+      "fair_value": 437.0,
+      "band_low": 148.0,
+      "band_high": 3835.0,
+      "confidence": "LOW",
+      "method_spread": 9.935,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "zone": "FAIR",
+      "gap_pct": 228.8,
+      "quality_gate_passed": true,
+      "action_label": "보유 (신규 매수 없음)",
+      "srim_mid": 296.51763171360244,
+      "per_band_mid": null,
+      "pbr_roe_fair_value": 437.0,
+      "nav_sotp_mid": null
+    }
   }
 }
