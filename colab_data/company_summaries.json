@@ -7553,7 +7553,7 @@
   },
   "009540": {
     "company": "HD한국조선해양",
-    "updated": "2026-08-05",
+    "updated": "2026-08-08",
     "score": 50,
     "sector": "조선",
     "breakdown": {
@@ -7585,30 +7585,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 11.13,
+      "per": 11.2,
       "per_txt": "저평가",
-      "pbr": 2.07,
+      "pbr": 2.08,
       "pbr_txt": "고평가 주의",
-      "psr": 3.44,
+      "psr": 3.46,
       "psr_txt": "고평가 주의",
       "peg": 0.15,
       "peg_txt": "저평가(성장대비)",
       "tgt": 610000.0,
-      "upside": 54.0,
+      "upside": 53.1,
       "consensus_n": 5,
       "roe": 6.59
     },
     "valuation_engine": {
       "fair_value": 586154.0,
-      "band_low": 168162.0,
-      "band_high": 917199.0,
+      "band_low": 168134.0,
+      "band_high": 916662.0,
       "confidence": "LOW",
+      "method_spread": 4.409,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (0.6배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": null,
-      "per_band_mid": 917199.0,
+      "per_band_mid": 916662.0,
       "pbr_roe_fair_value": 586154.0,
       "nav_sotp_mid": null
     }
