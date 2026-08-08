@@ -9043,6 +9043,17 @@
           "opportunity": 4,
           "threat": 12
         }
+      },
+      {
+        "date": "2026-08-08",
+        "total_score": 41,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 2,
+          "weakness": 24,
+          "opportunity": 4,
+          "threat": 11
+        }
       }
     ]
   },
