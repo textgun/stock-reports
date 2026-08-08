@@ -5041,14 +5041,14 @@
   },
   "108490": {
     "company": "로보티즈",
-    "updated": "2026-07-25",
-    "score": 19,
+    "updated": "2026-08-08",
+    "score": 27,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 6,
       "weakness": 7,
-      "opportunity": 0,
-      "threat": 6
+      "opportunity": 1,
+      "threat": 13
     },
     "sector_max": {
       "strength": 26,
@@ -5073,30 +5073,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 469.0,
+      "per": 797.0,
       "per_txt": "고평가 주의",
-      "pbr": 7.86,
+      "pbr": 9.43,
       "pbr_txt": "",
-      "psr": 236.97,
+      "psr": 284.15,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 136666.66666666666,
-      "upside": -28.6,
+      "upside": -40.5,
       "consensus_n": 3,
       "roe": -2.78
     },
     "valuation_engine": {
-      "fair_value": 166473.0,
-      "band_low": 166473.0,
-      "band_high": 166473.0,
+      "fair_value": 104852.0,
+      "band_low": 30661.0,
+      "band_high": 167809.0,
       "confidence": "LOW",
+      "method_spread": 4.006,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (13점 < 기준 30점) / 이자보상배율 미달 (-10.8배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": null,
-      "per_band_mid": 166473.0,
+      "per_band_mid": 167809.0,
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
