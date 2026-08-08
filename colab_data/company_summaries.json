@@ -4046,13 +4046,13 @@
   },
   "315640": {
     "company": "딥노이드",
-    "updated": "2026-07-25",
-    "score": 22,
+    "updated": "2026-08-08",
+    "score": 23,
     "sector": "IT서비스",
     "breakdown": {
       "strength": 0,
       "weakness": 7,
-      "opportunity": 5,
+      "opportunity": 6,
       "threat": 10
     },
     "sector_max": {
@@ -4080,9 +4080,9 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 1.62,
+      "pbr": 1.95,
       "pbr_txt": "",
-      "psr": 111.71,
+      "psr": 134.38,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
@@ -4092,10 +4092,13 @@
       "roe": -15.74
     },
     "valuation_engine": {
-      "fair_value": null,
-      "band_low": null,
-      "band_high": null,
-      "confidence": "NONE",
+      "fair_value": 20634.0,
+      "band_low": 3449.0,
+      "band_high": 27394.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
