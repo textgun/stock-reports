@@ -9271,5 +9271,70 @@
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
+  },
+  "005690": {
+    "company": "파미셀",
+    "updated": "2026-08-08",
+    "score": 66,
+    "sector": "에너지/화학",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 17,
+      "opportunity": 6,
+      "threat": 17
+    },
+    "sector_max": {
+      "strength": 26,
+      "weakness": 24,
+      "opportunity": 22,
+      "threat": 28
+    },
+    "earnings": {
+      "qoq_trend": "improving",
+      "yoy_pct": 56.1,
+      "rev_yoy_pct": 35.7,
+      "momentum_score": 9.5,
+      "correction_pts": 6
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 15.43,
+      "per_txt": "저평가",
+      "pbr": 5.06,
+      "pbr_txt": "고평가 주의",
+      "psr": 18.3,
+      "psr_txt": "고평가 주의",
+      "peg": 0.28,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 25200.0,
+      "upside": 125.2,
+      "consensus_n": 5,
+      "roe": 8.82
+    },
+    "valuation_engine": {
+      "fair_value": 11022.0,
+      "band_low": 7606.0,
+      "band_high": 101418.0,
+      "confidence": "LOW",
+      "method_spread": 7.092,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "zone": "FAIR",
+      "gap_pct": 1.5,
+      "quality_gate_passed": true,
+      "action_label": "보유 (신규 매수 없음)",
+      "srim_mid": 8944.403186964417,
+      "per_band_mid": 63438.0,
+      "pbr_roe_fair_value": 11022.0,
+      "nav_sotp_mid": null
+    }
   }
 }
