@@ -8340,14 +8340,14 @@
   },
   "086280": {
     "company": "현대글로비스",
-    "updated": "2026-08-05",
-    "score": 51,
+    "updated": "2026-08-08",
+    "score": 52,
     "sector": "기타",
     "breakdown": {
       "strength": 10,
       "weakness": 18,
-      "opportunity": 10,
-      "threat": 13
+      "opportunity": 8,
+      "threat": 16
     },
     "sector_max": {
       "strength": 25,
@@ -8372,29 +8372,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 9.2,
+      "per": 9.28,
       "per_txt": "적정",
-      "pbr": 1.48,
+      "pbr": 1.5,
       "pbr_txt": "고평가 주의",
-      "psr": 1.97,
+      "psr": 1.99,
       "psr_txt": "적정",
       "peg": null,
       "peg_txt": "",
       "tgt": 328000.0,
-      "upside": 59.6,
+      "upside": 58.1,
       "consensus_n": 5,
       "roe": 3.27
     },
     "valuation_engine": {
-      "fair_value": 246026.0,
-      "band_low": 104680.0,
+      "fair_value": 541689.0,
+      "band_low": 104659.0,
       "band_high": 885801.0,
       "confidence": "LOW",
+      "method_spread": 6.633,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (28점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 246026.28333589458,
+      "srim_mid": 541688.5978807847,
       "per_band_mid": null,
       "pbr_roe_fair_value": 885801.0,
       "nav_sotp_mid": null
