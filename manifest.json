@@ -5482,15 +5482,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "402340_SK스퀘어/2026-08-08_SK스퀘어_402340.html",
-    "company": "SK스퀘어",
-    "ticker": "402340",
-    "score": 74,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "440110_파두/2026-08-08_파두_440110.html",
     "company": "파두",
     "ticker": "440110",
@@ -5506,5 +5497,14 @@
     "score": 41,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "402340_SK스퀘어/2026-08-08_SK스퀘어_402340.html",
+    "company": "SK스퀘어",
+    "ticker": "402340",
+    "score": 74,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
