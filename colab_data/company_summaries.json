@@ -8755,7 +8755,7 @@
   },
   "267260": {
     "company": "HD현대일렉트릭",
-    "updated": "2026-08-05",
+    "updated": "2026-08-08",
     "score": 48,
     "sector": "전기장비/전력",
     "breakdown": {
@@ -8787,30 +8787,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 35.38,
+      "per": 34.92,
       "per_txt": "적정",
-      "pbr": 13.36,
+      "pbr": 13.19,
       "pbr_txt": "고평가 주의",
-      "psr": 26.85,
+      "psr": 26.5,
       "psr_txt": "고평가 주의",
-      "peg": 0.95,
+      "peg": 0.94,
       "peg_txt": "저평가(성장대비)",
       "tgt": 1191000.0,
-      "upside": 54.3,
+      "upside": 56.3,
       "consensus_n": 5,
       "roe": 9.97
     },
     "valuation_engine": {
       "fair_value": 577790.0,
-      "band_low": 199188.0,
-      "band_high": 838783.0,
-      "confidence": "LOW",
+      "band_low": 563966.0,
+      "band_high": 836510.0,
+      "confidence": "HIGH",
+      "method_spread": 1.483,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 33.6,
+      "gap_pct": 31.9,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 224086.14795869624,
-      "per_band_mid": 838783.0,
+      "srim_mid": 563965.7420815829,
+      "per_band_mid": 836510.0,
       "pbr_roe_fair_value": 577790.0,
       "nav_sotp_mid": null
     }
