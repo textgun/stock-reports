@@ -6145,5 +6145,14 @@
     "score": 62,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "160190_하이젠알앤엠/2026-08-08_하이젠알앤엠_160190.html",
+    "company": "하이젠알앤엠",
+    "ticker": "160190",
+    "score": 28,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 16/30)"
   }
 ]
