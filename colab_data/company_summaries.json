@@ -8672,14 +8672,14 @@
   },
   "226950": {
     "company": "올릭스",
-    "updated": "2026-07-25",
-    "score": 40,
+    "updated": "2026-08-08",
+    "score": 36,
     "sector": "기타",
     "breakdown": {
       "strength": 2,
       "weakness": 22,
-      "opportunity": 1,
-      "threat": 15
+      "opportunity": 5,
+      "threat": 7
     },
     "sector_max": {
       "strength": 25,
@@ -8706,9 +8706,9 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 16.86,
+      "pbr": 18.67,
       "pbr_txt": "",
-      "psr": 645.65,
+      "psr": 714.63,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
@@ -8718,10 +8718,13 @@
       "roe": -6.72
     },
     "valuation_engine": {
-      "fair_value": null,
-      "band_low": null,
-      "band_high": null,
-      "confidence": "NONE",
+      "fair_value": 87218.0,
+      "band_low": 22557.0,
+      "band_high": 214933.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
