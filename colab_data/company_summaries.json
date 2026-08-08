@@ -1836,14 +1836,14 @@
   },
   "095610": {
     "company": "테스",
-    "updated": "2026-07-25",
-    "score": 56,
+    "updated": "2026-08-08",
+    "score": 60,
     "sector": "반도체",
     "breakdown": {
       "strength": 24,
       "weakness": 8,
-      "opportunity": 11,
-      "threat": 13
+      "opportunity": 12,
+      "threat": 16
     },
     "sector_max": {
       "strength": 25,
@@ -1868,31 +1868,34 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 40.7,
+      "per": 37.26,
       "per_txt": "고평가 주의",
-      "pbr": 5.89,
+      "pbr": 5.39,
       "pbr_txt": "고평가 주의",
-      "psr": 27.1,
+      "psr": 24.81,
       "psr_txt": "고평가 주의",
-      "peg": 1.12,
+      "peg": 1.02,
       "peg_txt": "적정",
       "tgt": 152200.0,
-      "upside": 11.8,
+      "upside": 22.2,
       "consensus_n": 5,
       "roe": 5.99
     },
     "valuation_engine": {
-      "fair_value": 32420.0,
-      "band_low": 23177.0,
-      "band_high": 537520.0,
-      "confidence": "MID",
+      "fair_value": 52507.0,
+      "band_low": 23916.0,
+      "band_high": 188724.0,
+      "confidence": "HIGH",
+      "method_spread": 1.397,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (1.7배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": null,
-      "per_band_mid": 37091.0,
-      "pbr_roe_fair_value": 27749.0,
+      "srim_mid": 47080.54523294822,
+      "per_band_mid": 52507.0,
+      "pbr_roe_fair_value": 65762.0,
       "nav_sotp_mid": null
     }
   },
