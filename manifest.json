@@ -5464,15 +5464,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "278470_에이피알/2026-08-08_에이피알_278470.html",
-    "company": "에이피알",
-    "ticker": "278470",
-    "score": 71,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "319660_피에스케이/2026-08-08_피에스케이_319660.html",
     "company": "피에스케이",
     "ticker": "319660",
@@ -5504,6 +5495,15 @@
     "company": "SK스퀘어",
     "ticker": "402340",
     "score": 74,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "278470_에이피알/2026-08-08_에이피알_278470.html",
+    "company": "에이피알",
+    "ticker": "278470",
+    "score": 71,
     "rating": "BUY",
     "rating_label": "매수 ★★"
   }
