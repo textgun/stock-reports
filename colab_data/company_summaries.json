@@ -4896,14 +4896,14 @@
   },
   "084370": {
     "company": "유진테크",
-    "updated": "2026-07-27",
-    "score": 55,
+    "updated": "2026-08-08",
+    "score": 53,
     "sector": "반도체",
     "breakdown": {
       "strength": 18,
       "weakness": 22,
       "opportunity": 2,
-      "threat": 13
+      "threat": 11
     },
     "sector_max": {
       "strength": 25,
@@ -4928,29 +4928,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 43.83,
+      "per": 44.97,
       "per_txt": "고평가 주의",
-      "pbr": 5.12,
+      "pbr": 5.25,
       "pbr_txt": "고평가 주의",
-      "psr": 24.38,
+      "psr": 25.01,
       "psr_txt": "고평가 주의",
-      "peg": 0.42,
+      "peg": 0.43,
       "peg_txt": "저평가(성장대비)",
       "tgt": 57200.0,
-      "upside": -47.2,
+      "upside": -48.6,
       "consensus_n": 5,
       "roe": 4.46
     },
     "valuation_engine": {
       "fair_value": 61111.0,
-      "band_low": 24428.0,
-      "band_high": 163067.0,
-      "confidence": "LOW",
+      "band_low": 32553.0,
+      "band_high": 155438.0,
+      "confidence": "HIGH",
+      "method_spread": 1.479,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 77.4,
+      "gap_pct": 82.0,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 27481.585631036003,
+      "srim_mid": 44087.18793493291,
       "per_band_mid": 65193.0,
       "pbr_roe_fair_value": 61111.0,
       "nav_sotp_mid": null
