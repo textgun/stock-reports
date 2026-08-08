@@ -4095,7 +4095,7 @@
   },
   "001440": {
     "company": "대한전선",
-    "updated": "2026-08-05",
+    "updated": "2026-08-08",
     "score": 52,
     "sector": "전기장비/전력",
     "breakdown": {
@@ -4127,30 +4127,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 108.59,
+      "per": 103.44,
       "per_txt": "고평가 주의",
-      "pbr": 3.34,
+      "pbr": 3.18,
       "pbr_txt": "",
-      "psr": 5.15,
+      "psr": 4.9,
       "psr_txt": "고평가 주의",
-      "peg": 0.96,
+      "peg": 0.92,
       "peg_txt": "저평가(성장대비)",
       "tgt": 52700.0,
-      "upside": 85.2,
+      "upside": 94.5,
       "consensus_n": 5,
       "roe": -0.42
     },
     "valuation_engine": {
-      "fair_value": 5662.0,
-      "band_low": 4098.0,
-      "band_high": 9268.0,
+      "fair_value": 4098.0,
+      "band_low": 1335.0,
+      "band_high": 9583.0,
       "confidence": "LOW",
+      "method_spread": 3.589,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
       "zone": "OVERHEATED",
-      "gap_pct": 402.5,
+      "gap_pct": 561.3,
       "quality_gate_passed": true,
       "action_label": "2차 매도 — 추가 1/3 매도",
-      "srim_mid": 5661.778310277254,
-      "per_band_mid": 9268.0,
+      "srim_mid": 2669.7686189830038,
+      "per_band_mid": 9583.0,
       "pbr_roe_fair_value": 4098.0,
       "nav_sotp_mid": null
     }
