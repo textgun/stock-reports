@@ -7488,14 +7488,14 @@
   },
   "009450": {
     "company": "경동나비엔",
-    "updated": "2026-07-25",
-    "score": 55,
+    "updated": "2026-08-08",
+    "score": 59,
     "sector": "기타",
     "breakdown": {
       "strength": 19,
       "weakness": 14,
       "opportunity": 10,
-      "threat": 12
+      "threat": 16
     },
     "sector_max": {
       "strength": 25,
@@ -7520,30 +7520,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 8.68,
+      "per": 9.72,
       "per_txt": "적정",
-      "pbr": 1.15,
+      "pbr": 1.29,
       "pbr_txt": "고평가 주의",
-      "psr": 2.23,
+      "psr": 2.5,
       "psr_txt": "적정",
-      "peg": 0.14,
+      "peg": 0.16,
       "peg_txt": "저평가(성장대비)",
       "tgt": 93400.0,
-      "upside": 43.3,
+      "upside": 27.9,
       "consensus_n": 5,
       "roe": 7.05
     },
     "valuation_engine": {
-      "fair_value": 89803.0,
+      "fair_value": 191320.0,
       "band_low": 52097.0,
       "band_high": 305006.0,
       "confidence": "LOW",
+      "method_spread": 3.914,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
       "zone": "ACCUMULATE",
-      "gap_pct": -27.4,
+      "gap_pct": -61.8,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
-      "srim_mid": 89802.86732812054,
-      "per_band_mid": 78294.0,
+      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 3.9배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
+      "srim_mid": 191320.30186070438,
+      "per_band_mid": 77921.0,
       "pbr_roe_fair_value": 305006.0,
       "nav_sotp_mid": null
     }
