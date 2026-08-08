@@ -6352,5 +6352,14 @@
     "score": 23,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 7/22)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "322000_HD현대에너지솔루션/2026-08-08_HD현대에너지솔루션_322000.html",
+    "company": "HD현대에너지솔루션",
+    "ticker": "322000",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
