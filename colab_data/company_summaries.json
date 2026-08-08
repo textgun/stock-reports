@@ -8263,14 +8263,14 @@
   },
   "080220": {
     "company": "제주반도체",
-    "updated": "2026-07-30",
+    "updated": "2026-08-08",
     "score": 69,
     "sector": "반도체",
     "breakdown": {
       "strength": 25,
       "weakness": 22,
-      "opportunity": 9,
-      "threat": 13
+      "opportunity": 11,
+      "threat": 11
     },
     "sector_max": {
       "strength": 25,
@@ -8295,11 +8295,11 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 15.82,
-      "per_txt": "적정",
-      "pbr": 5.74,
+      "per": 22.93,
+      "per_txt": "고평가 주의",
+      "pbr": 8.32,
       "pbr_txt": "고평가 주의",
-      "psr": 9.92,
+      "psr": 14.39,
       "psr_txt": "고평가 주의",
       "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
@@ -8310,15 +8310,18 @@
     },
     "valuation_engine": {
       "fair_value": 44866.0,
-      "band_low": 9835.0,
-      "band_high": 120622.0,
+      "band_low": 18748.0,
+      "band_high": 121355.0,
       "confidence": "LOW",
+      "method_spread": 2.733,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 15.9,
+      "gap_pct": 68.1,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 11064.170011675813,
-      "per_band_mid": 63199.0,
+      "srim_mid": 23358.058561598074,
+      "per_band_mid": 63833.0,
       "pbr_roe_fair_value": 44866.0,
       "nav_sotp_mid": null
     }
