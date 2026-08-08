@@ -5695,5 +5695,14 @@
     "score": 46,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "012330_현대모비스/2026-08-08_현대모비스_012330.html",
+    "company": "현대모비스",
+    "ticker": "012330",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 31/32)"
   }
 ]
