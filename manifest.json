@@ -5347,15 +5347,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "105560_KB금융/2026-08-08_KB금융_105560.html",
-    "company": "KB금융",
-    "ticker": "105560",
-    "score": 53,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "000660_SK하이닉스/2026-08-08_SK하이닉스_000660.html",
     "company": "SK하이닉스",
     "ticker": "000660",
@@ -5495,6 +5486,15 @@
     "company": "하나금융지주",
     "ticker": "086790",
     "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "105560_KB금융/2026-08-08_KB금융_105560.html",
+    "company": "KB금융",
+    "ticker": "105560",
+    "score": 53,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
