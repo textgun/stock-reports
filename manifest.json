@@ -5821,5 +5821,14 @@
     "score": 66,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "053160_프리엠스/2026-08-08_프리엠스_053160.html",
+    "company": "프리엠스",
+    "ticker": "053160",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
   }
 ]
