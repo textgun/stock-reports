@@ -8195,13 +8195,13 @@
   },
   "077360": {
     "company": "덕산하이메탈",
-    "updated": "2026-07-25",
-    "score": 48,
+    "updated": "2026-08-08",
+    "score": 51,
     "sector": "반도체",
     "breakdown": {
-      "strength": 7,
+      "strength": 12,
       "weakness": 22,
-      "opportunity": 9,
+      "opportunity": 7,
       "threat": 10
     },
     "sector_max": {
@@ -8211,11 +8211,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "deteriorating",
-      "yoy_pct": 51.8,
-      "rev_yoy_pct": 55.6,
-      "momentum_score": 4.5,
-      "correction_pts": 3
+      "qoq_trend": "recovering",
+      "yoy_pct": 291.5,
+      "rev_yoy_pct": 58.2,
+      "momentum_score": 10.0,
+      "correction_pts": 8
     },
     "trade": {
       "export_yoy": null,
@@ -8229,28 +8229,31 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 1.81,
+      "pbr": 1.97,
       "pbr_txt": "고평가 주의",
-      "psr": 5.64,
+      "psr": 6.12,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
-      "tgt": 19750.0,
-      "upside": 131.5,
-      "consensus_n": 2,
+      "tgt": 19166.666666666668,
+      "upside": 107.0,
+      "consensus_n": 3,
       "roe": 1.5
     },
     "valuation_engine": {
-      "fair_value": 22575.0,
-      "band_low": 22575.0,
-      "band_high": 22575.0,
+      "fair_value": 16708.0,
+      "band_low": 6761.0,
+      "band_high": 22718.0,
       "confidence": "LOW",
-      "zone": "AVOID",
-      "gap_pct": null,
-      "quality_gate_passed": false,
-      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (29점 < 기준 30점), 존과 무관하게 회피",
+      "method_spread": 2.123,
+      "position_scale": 0.5,
+      "buy_signal_allowed": true,
+      "zone": "ACCUMULATE",
+      "gap_pct": -44.6,
+      "quality_gate_passed": true,
+      "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.1배) → 목표비중 50%로 축소 매수",
       "srim_mid": null,
-      "per_band_mid": 22575.0,
+      "per_band_mid": 22718.0,
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
