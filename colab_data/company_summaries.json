@@ -9027,13 +9027,13 @@
   },
   "329180": {
     "company": "HD현대중공업",
-    "updated": "2026-08-05",
-    "score": 50,
+    "updated": "2026-08-08",
+    "score": 48,
     "sector": "조선",
     "breakdown": {
       "strength": 16,
       "weakness": 5,
-      "opportunity": 14,
+      "opportunity": 12,
       "threat": 15
     },
     "sector_max": {
@@ -9059,30 +9059,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 25.15,
+      "per": 25.0,
       "per_txt": "고평가 주의",
-      "pbr": 5.5,
+      "pbr": 5.47,
       "pbr_txt": "고평가 주의",
-      "psr": 9.03,
+      "psr": 8.98,
       "psr_txt": "고평가 주의",
       "peg": 0.21,
       "peg_txt": "저평가(성장대비)",
       "tgt": 896400.0,
-      "upside": 76.1,
+      "upside": 77.2,
       "consensus_n": 5,
       "roe": 7.97
     },
     "valuation_engine": {
       "fair_value": 291908.0,
       "band_low": 249501.0,
-      "band_high": 1673650.0,
+      "band_high": 1667869.0,
       "confidence": "LOW",
+      "method_spread": 6.685,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (0.6배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": null,
-      "per_band_mid": 1673650.0,
+      "per_band_mid": 1667869.0,
       "pbr_roe_fair_value": 249501.0,
       "nav_sotp_mid": null
     }
