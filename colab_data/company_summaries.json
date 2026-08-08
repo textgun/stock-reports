@@ -7095,11 +7095,11 @@
   },
   "001500": {
     "company": "현대차증권",
-    "updated": "2026-07-25",
-    "score": 52,
+    "updated": "2026-08-08",
+    "score": 53,
     "sector": "금융",
     "breakdown": {
-      "strength": 18,
+      "strength": 19,
       "weakness": 15,
       "opportunity": 10,
       "threat": 9
@@ -7114,8 +7114,8 @@
       "qoq_trend": "recovering",
       "yoy_pct": 19.2,
       "rev_yoy_pct": null,
-      "momentum_score": 6.5,
-      "correction_pts": 1
+      "momentum_score": 8.0,
+      "correction_pts": 2
     },
     "trade": {
       "export_yoy": null,
@@ -7127,30 +7127,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 7.65,
+      "per": 7.66,
       "per_txt": "적정",
       "pbr": 0.3,
       "pbr_txt": "고평가 주의",
-      "psr": 5.72,
+      "psr": 5.73,
       "psr_txt": "고평가 주의",
       "peg": 0.4,
       "peg_txt": "저평가(성장대비)",
       "tgt": 19000.0,
-      "upside": 139.6,
+      "upside": 139.3,
       "consensus_n": 3,
       "roe": 1.85
     },
     "valuation_engine": {
       "fair_value": 7098.0,
-      "band_low": 6986.0,
-      "band_high": 11282.0,
+      "band_low": 3127.0,
+      "band_high": 7273.0,
       "confidence": "HIGH",
+      "method_spread": 1.541,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (0.6배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 10153.90427810735,
-      "per_band_mid": 6986.0,
+      "srim_mid": 4719.662165418249,
+      "per_band_mid": 7273.0,
       "pbr_roe_fair_value": 7098.0,
       "nav_sotp_mid": null
     }
