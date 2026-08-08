@@ -1774,7 +1774,7 @@
   },
   "328130": {
     "company": "루닛",
-    "updated": "2026-07-25",
+    "updated": "2026-08-08",
     "score": 28,
     "sector": "기타",
     "breakdown": {
@@ -1808,9 +1808,9 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 4.68,
+      "pbr": 5.45,
       "pbr_txt": "",
-      "psr": 28.97,
+      "psr": 33.76,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
@@ -1820,10 +1820,13 @@
       "roe": -14.28
     },
     "valuation_engine": {
-      "fair_value": null,
-      "band_low": null,
-      "band_high": null,
-      "confidence": "NONE",
+      "fair_value": 70029.0,
+      "band_low": 70029.0,
+      "band_high": 70029.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
