@@ -5257,15 +5257,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "055550_신한지주/2026-08-08_신한지주_055550.html",
-    "company": "신한지주",
-    "ticker": "055550",
-    "score": 57,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "058470_리노공업/2026-08-08_리노공업_058470.html",
     "company": "리노공업",
     "ticker": "058470",
@@ -5497,5 +5488,14 @@
     "score": 41,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 18/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "055550_신한지주/2026-08-08_신한지주_055550.html",
+    "company": "신한지주",
+    "ticker": "055550",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
