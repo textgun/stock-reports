@@ -4997,13 +4997,13 @@
   },
   "145020": {
     "company": "휴젤",
-    "updated": "2026-07-25",
-    "score": 57,
+    "updated": "2026-08-08",
+    "score": 62,
     "sector": "기타",
     "breakdown": {
       "strength": 19,
       "weakness": 18,
-      "opportunity": 5,
+      "opportunity": 10,
       "threat": 15
     },
     "sector_max": {
@@ -5013,9 +5013,9 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "flat",
-      "yoy_pct": 22.3,
-      "rev_yoy_pct": 29.9,
+      "qoq_trend": "recovering",
+      "yoy_pct": -1.2,
+      "rev_yoy_pct": 25.1,
       "momentum_score": 6.0,
       "correction_pts": 3
     },
@@ -5029,31 +5029,34 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 19.16,
+      "per": 22.34,
       "per_txt": "저평가",
-      "pbr": 2.52,
+      "pbr": 2.94,
       "pbr_txt": "고평가 주의",
-      "psr": 24.74,
+      "psr": 29.35,
       "psr_txt": "고평가 주의",
-      "peg": 0.86,
-      "peg_txt": "저평가(성장대비)",
-      "tgt": 362000.0,
-      "upside": 54.4,
+      "peg": null,
+      "peg_txt": "",
+      "tgt": 394000.0,
+      "upside": 44.1,
       "consensus_n": 5,
       "roe": 3.92
     },
     "valuation_engine": {
-      "fair_value": 335428.0,
-      "band_low": 129640.0,
-      "band_high": 620205.0,
+      "fair_value": 333885.0,
+      "band_low": 262574.0,
+      "band_high": 619851.0,
       "confidence": "LOW",
+      "method_spread": 1.923,
+      "position_scale": 0.5,
+      "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -30.1,
+      "gap_pct": -18.1,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
-      "srim_mid": 145844.89672025177,
-      "per_band_mid": 335428.0,
-      "pbr_roe_fair_value": 620205.0,
+      "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 1.9배) → 목표비중 50%로 축소 매수",
+      "srim_mid": 322317.26517361257,
+      "per_band_mid": 333885.0,
+      "pbr_roe_fair_value": 619851.0,
       "nav_sotp_mid": null
     }
   },
