@@ -6490,20 +6490,20 @@
   },
   {
     "date": "2026-08-09",
-    "filename": "000250_삼천당제약/2026-08-09_삼천당제약_000250.html",
-    "company": "삼천당제약",
-    "ticker": "000250",
-    "score": 33,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗"
-  },
-  {
-    "date": "2026-08-09",
     "filename": "067310_하나마이크론/2026-08-09_하나마이크론_067310.html",
     "company": "하나마이크론",
     "ticker": "067310",
     "score": 47,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-08-09",
+    "filename": "000250_삼천당제약/2026-08-09_삼천당제약_000250.html",
+    "company": "삼천당제약",
+    "ticker": "000250",
+    "score": 33,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗"
   }
 ]
