@@ -7920,13 +7920,13 @@
   },
   "053160": {
     "company": "프리엠스",
-    "updated": "2026-07-25",
-    "score": 44,
+    "updated": "2026-08-08",
+    "score": 45,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 4,
       "weakness": 21,
-      "opportunity": 10,
+      "opportunity": 11,
       "threat": 9
     },
     "sector_max": {
@@ -7954,9 +7954,9 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 0.62,
+      "pbr": 0.64,
       "pbr_txt": "",
-      "psr": 10.99,
+      "psr": 11.21,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
@@ -7966,10 +7966,13 @@
       "roe": -1.32
     },
     "valuation_engine": {
-      "fair_value": null,
-      "band_low": null,
-      "band_high": null,
-      "confidence": "NONE",
+      "fair_value": 9600.0,
+      "band_low": 7464.0,
+      "band_high": 13024.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
