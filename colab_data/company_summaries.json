@@ -2601,14 +2601,14 @@
   },
   "082920": {
     "company": "비츠로셀",
-    "updated": "2026-08-05",
-    "score": 70,
+    "updated": "2026-08-08",
+    "score": 67,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 24,
       "weakness": 16,
       "opportunity": 12,
-      "threat": 18
+      "threat": 15
     },
     "sector_max": {
       "strength": 26,
@@ -2633,30 +2633,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 22.65,
+      "per": 21.91,
       "per_txt": "저평가",
-      "pbr": 4.24,
+      "pbr": 4.1,
       "pbr_txt": "고평가 주의",
-      "psr": 21.19,
+      "psr": 20.5,
       "psr_txt": "고평가 주의",
-      "peg": 1.05,
+      "peg": 1.02,
       "peg_txt": "적정",
       "tgt": 54200.0,
-      "upside": 69.1,
+      "upside": 74.8,
       "consensus_n": 5,
       "roe": 5.96
     },
     "valuation_engine": {
-      "fair_value": 15147.0,
+      "fair_value": 36666.0,
       "band_low": 8911.0,
       "band_high": 68320.0,
       "confidence": "LOW",
-      "zone": "FAIR",
-      "gap_pct": 111.6,
+      "method_spread": 5.879,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "zone": "ACCUMULATE",
+      "gap_pct": -15.5,
       "quality_gate_passed": true,
-      "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 15146.773733516955,
-      "per_band_mid": 11625.0,
+      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 5.9배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
+      "srim_mid": 36666.204010756424,
+      "per_band_mid": 11622.0,
       "pbr_roe_fair_value": 68320.0,
       "nav_sotp_mid": null
     }
