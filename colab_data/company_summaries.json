@@ -6439,14 +6439,14 @@
   },
   "251970": {
     "company": "펌텍코리아",
-    "updated": "2026-07-25",
-    "score": 60,
+    "updated": "2026-08-08",
+    "score": 64,
     "sector": "기타",
     "breakdown": {
       "strength": 16,
       "weakness": 18,
-      "opportunity": 6,
-      "threat": 20
+      "opportunity": 13,
+      "threat": 17
     },
     "sector_max": {
       "strength": 25,
@@ -6471,29 +6471,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 14.89,
+      "per": 16.75,
       "per_txt": "적정",
-      "pbr": 1.81,
+      "pbr": 2.04,
       "pbr_txt": "고평가 주의",
-      "psr": 5.95,
+      "psr": 6.69,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 75000.0,
-      "upside": 70.5,
+      "upside": 51.5,
       "consensus_n": 2,
       "roe": 6.48
     },
     "valuation_engine": {
-      "fair_value": 84172.0,
-      "band_low": 40398.0,
+      "fair_value": 91627.0,
+      "band_low": 30339.0,
       "band_high": 122895.0,
       "confidence": "LOW",
+      "method_spread": 3.013,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
       "zone": "ACCUMULATE",
-      "gap_pct": -47.7,
+      "gap_pct": -46.0,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
-      "srim_mid": 45448.21366886387,
+      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 3.0배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
+      "srim_mid": 91627.15208461048,
       "per_band_mid": null,
       "pbr_roe_fair_value": 122895.0,
       "nav_sotp_mid": null
