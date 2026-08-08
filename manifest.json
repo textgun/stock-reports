@@ -5794,5 +5794,14 @@
     "score": 49,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "047560_이스트소프트/2026-08-08_이스트소프트_047560.html",
+    "company": "이스트소프트",
+    "ticker": "047560",
+    "score": 24,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 8/22)"
   }
 ]
