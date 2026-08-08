@@ -5812,5 +5812,14 @@
     "score": 37,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 13/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "051160_지어소프트/2026-08-08_지어소프트_051160.html",
+    "company": "지어소프트",
+    "ticker": "051160",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
