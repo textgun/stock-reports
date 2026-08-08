@@ -6735,13 +6735,13 @@
   },
   "008260": {
     "company": "NI스틸",
-    "updated": "2026-08-05",
-    "score": 40,
+    "updated": "2026-08-08",
+    "score": 41,
     "sector": "기타",
     "breakdown": {
       "strength": 12,
       "weakness": 11,
-      "opportunity": 3,
+      "opportunity": 4,
       "threat": 14
     },
     "sector_max": {
@@ -6767,13 +6767,13 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 4.86,
+      "per": 4.92,
       "per_txt": "적정",
-      "pbr": 0.33,
+      "pbr": 0.34,
       "pbr_txt": "고평가 주의",
-      "psr": 1.62,
+      "psr": 1.64,
       "psr_txt": "적정",
-      "peg": 1.31,
+      "peg": 1.33,
       "peg_txt": "적정",
       "tgt": null,
       "upside": null,
@@ -6781,16 +6781,19 @@
       "roe": 1.42
     },
     "valuation_engine": {
-      "fair_value": 11857.0,
+      "fair_value": 17504.0,
       "band_low": 1864.0,
       "band_high": 22337.0,
       "confidence": "LOW",
+      "method_spread": 8.325,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (23점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 11856.587417972647,
-      "per_band_mid": 2685.0,
+      "srim_mid": 17503.76328255656,
+      "per_band_mid": 2683.0,
       "pbr_roe_fair_value": 22337.0,
       "nav_sotp_mid": null
     }
