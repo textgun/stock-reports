@@ -6398,13 +6398,13 @@
   },
   "454910": {
     "company": "두산로보틱스",
-    "updated": "2026-07-27",
-    "score": 42,
+    "updated": "2026-08-09",
+    "score": 40,
     "sector": "전기장비/전력",
     "breakdown": {
-      "strength": 10,
+      "strength": 9,
       "weakness": 16,
-      "opportunity": 7,
+      "opportunity": 6,
       "threat": 9
     },
     "sector_max": {
@@ -6414,11 +6414,11 @@
       "threat": 22
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 0.3,
-      "rev_yoy_pct": 189.6,
-      "momentum_score": 8.0,
-      "correction_pts": 5
+      "qoq_trend": "flat",
+      "yoy_pct": 8.0,
+      "rev_yoy_pct": 290.7,
+      "momentum_score": 6.5,
+      "correction_pts": 4
     },
     "trade": {
       "export_yoy": null,
@@ -6432,26 +6432,29 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 12.41,
+      "pbr": 13.44,
       "pbr_txt": "",
-      "psr": 276.74,
+      "psr": 299.63,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 83500.0,
-      "upside": 27.9,
+      "upside": 18.1,
       "consensus_n": 2,
       "roe": -2.69
     },
     "valuation_engine": {
-      "fair_value": null,
-      "band_low": null,
-      "band_high": null,
-      "confidence": "NONE",
+      "fair_value": 92750.0,
+      "band_low": 92750.0,
+      "band_high": 92750.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
-      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (26점 < 기준 30점), 존과 무관하게 회피",
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (25점 < 기준 30점), 존과 무관하게 회피",
       "srim_mid": null,
       "per_band_mid": null,
       "pbr_roe_fair_value": null,
