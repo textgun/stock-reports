@@ -5257,15 +5257,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "005930_삼성전자/2026-08-08_삼성전자_005930.html",
-    "company": "삼성전자",
-    "ticker": "005930",
-    "score": 62,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "032830_삼성생명/2026-08-08_삼성생명_032830.html",
     "company": "삼성생명",
     "ticker": "032830",
@@ -5495,6 +5486,15 @@
     "company": "LG",
     "ticker": "003550",
     "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "005930_삼성전자/2026-08-08_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 62,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
