@@ -8888,7 +8888,7 @@
   },
   "306620": {
     "company": "지아이에스",
-    "updated": "2026-07-25",
+    "updated": "2026-08-08",
     "score": 29,
     "sector": "반도체",
     "breakdown": {
@@ -8922,9 +8922,9 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 1.6,
+      "pbr": 1.51,
       "pbr_txt": "",
-      "psr": 5.77,
+      "psr": 5.46,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
@@ -8934,10 +8934,13 @@
       "roe": -4.01
     },
     "valuation_engine": {
-      "fair_value": null,
-      "band_low": null,
-      "band_high": null,
-      "confidence": "NONE",
+      "fair_value": 3666.0,
+      "band_low": 1823.0,
+      "band_high": 5968.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
