@@ -5911,14 +5911,14 @@
   },
   "006400": {
     "company": "삼성SDI",
-    "updated": "2026-08-05",
-    "score": 38,
+    "updated": "2026-08-08",
+    "score": 41,
     "sector": "2차전지",
     "breakdown": {
       "strength": 11,
       "weakness": 4,
-      "opportunity": 15,
-      "threat": 8
+      "opportunity": 14,
+      "threat": 12
     },
     "sector_max": {
       "strength": 20,
@@ -5949,29 +5949,32 @@
       "exec_count": 7
     },
     "valuation": {
-      "per": 53.0,
+      "per": 56.0,
       "per_txt": "적정",
-      "pbr": 1.5,
+      "pbr": 1.6,
       "pbr_txt": "고평가 주의",
-      "psr": 9.67,
+      "psr": 10.34,
       "psr_txt": "고평가 주의",
-      "peg": 0.35,
+      "peg": 0.37,
       "peg_txt": "저평가(성장대비)",
       "tgt": 799400.0,
-      "upside": 86.3,
+      "upside": 74.2,
       "consensus_n": 5,
       "roe": 0.23
     },
     "valuation_engine": {
-      "fair_value": 48436.0,
-      "band_low": 18179.0,
-      "band_high": 635972.0,
+      "fair_value": 18179.0,
+      "band_low": 6177.0,
+      "band_high": 633926.0,
       "confidence": "LOW",
+      "method_spread": 30.692,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (15점 < 기준 20점) / 이자보상배율 미달 (0.4배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 48435.627826333686,
+      "srim_mid": 12354.7668162263,
       "per_band_mid": null,
       "pbr_roe_fair_value": 18179.0,
       "nav_sotp_mid": null
