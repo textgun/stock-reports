@@ -5893,5 +5893,14 @@
     "score": 46,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "074610_이엔플러스/2026-08-08_이엔플러스_074610.html",
+    "company": "이엔플러스",
+    "ticker": "074610",
+    "score": 23,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 10/30)"
   }
 ]
