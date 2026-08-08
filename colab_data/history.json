@@ -22854,6 +22854,17 @@
           "opportunity": 16,
           "threat": 13
         }
+      },
+      {
+        "date": "2026-08-08",
+        "total_score": 59,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 18,
+          "opportunity": 10,
+          "threat": 13
+        }
       }
     ]
   },
