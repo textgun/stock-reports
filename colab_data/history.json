@@ -4836,6 +4836,17 @@
           "opportunity": 6,
           "threat": 13
         }
+      },
+      {
+        "date": "2026-08-08",
+        "total_score": 48,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 13,
+          "opportunity": 6,
+          "threat": 13
+        }
       }
     ]
   },
