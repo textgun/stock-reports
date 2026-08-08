@@ -8050,7 +8050,7 @@
   },
   "056190": {
     "company": "에스에프에이",
-    "updated": "2026-07-25",
+    "updated": "2026-08-08",
     "score": 48,
     "sector": "전기장비/전력",
     "breakdown": {
@@ -8082,31 +8082,34 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 14.43,
+      "per": 15.46,
       "per_txt": "저평가",
-      "pbr": 0.62,
+      "pbr": 0.66,
       "pbr_txt": "고평가 주의",
-      "psr": 343.52,
+      "psr": 368.15,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 38750.0,
-      "upside": 91.8,
+      "upside": 79.0,
       "consensus_n": 4,
       "roe": 1.33
     },
     "valuation_engine": {
-      "fair_value": 16707.0,
-      "band_low": 16707.0,
-      "band_high": 16707.0,
+      "fair_value": 3879.0,
+      "band_low": 2938.0,
+      "band_high": 16801.0,
       "confidence": "LOW",
+      "method_spread": 4.504,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (29점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": null,
-      "per_band_mid": 16707.0,
-      "pbr_roe_fair_value": null,
+      "srim_mid": 3878.5541405908516,
+      "per_band_mid": 16801.0,
+      "pbr_roe_fair_value": 3730.0,
       "nav_sotp_mid": null
     }
   },
