@@ -6343,5 +6343,14 @@
     "score": 44,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 11/18)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "315640_딥노이드/2026-08-08_딥노이드_315640.html",
+    "company": "딥노이드",
+    "ticker": "315640",
+    "score": 23,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 7/22)"
   }
 ]
