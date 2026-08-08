@@ -7985,14 +7985,14 @@
   },
   "053700": {
     "company": "삼보모터스",
-    "updated": "2026-07-25",
-    "score": 42,
+    "updated": "2026-08-08",
+    "score": 41,
     "sector": "자동차",
     "breakdown": {
       "strength": 2,
       "weakness": 24,
       "opportunity": 4,
-      "threat": 12
+      "threat": 11
     },
     "sector_max": {
       "strength": 28,
@@ -8017,11 +8017,11 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 11.1,
+      "per": 11.59,
       "per_txt": "적정",
-      "pbr": 0.22,
-      "pbr_txt": "적정",
-      "psr": 0.24,
+      "pbr": 0.23,
+      "pbr_txt": "고평가 주의",
+      "psr": 0.25,
       "psr_txt": "저평가",
       "peg": null,
       "peg_txt": "",
@@ -8031,15 +8031,18 @@
       "roe": 1.71
     },
     "valuation_engine": {
-      "fair_value": 14699.0,
-      "band_low": 1021.0,
+      "fair_value": 11953.0,
+      "band_low": 1024.0,
       "band_high": 21249.0,
       "confidence": "LOW",
+      "method_spread": 13.432,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (26점 < 기준 32점), 존과 무관하게 회피",
-      "srim_mid": 14698.649048410645,
+      "srim_mid": 11953.24781115411,
       "per_band_mid": 1582.0,
       "pbr_roe_fair_value": 21249.0,
       "nav_sotp_mid": null
