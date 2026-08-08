@@ -3476,7 +3476,7 @@
   },
   "034230": {
     "company": "파라다이스",
-    "updated": "2026-07-25",
+    "updated": "2026-08-09",
     "score": 57,
     "sector": "내수/유통",
     "breakdown": {
@@ -3508,30 +3508,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 11.6,
+      "per": 11.68,
       "per_txt": "적정",
       "pbr": 0.51,
       "pbr_txt": "고평가 주의",
-      "psr": 3.16,
+      "psr": 3.18,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 23200.0,
-      "upside": 131.3,
+      "upside": 129.7,
       "consensus_n": 5,
       "roe": 0.84
     },
     "valuation_engine": {
-      "fair_value": 16611.0,
+      "fair_value": 17067.0,
       "band_low": 4654.0,
-      "band_high": 18457.0,
+      "band_high": 42308.0,
       "confidence": "LOW",
+      "method_spread": 5.563,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (37점 < 기준 38점), 존과 무관하게 회피",
-      "srim_mid": 16611.455887063297,
-      "per_band_mid": 17221.0,
+      "srim_mid": null,
+      "per_band_mid": 17067.0,
       "pbr_roe_fair_value": 4654.0,
       "nav_sotp_mid": null
     }
