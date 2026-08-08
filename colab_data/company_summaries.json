@@ -4651,7 +4651,7 @@
   },
   "089850": {
     "company": "유비벨록스",
-    "updated": "2026-07-25",
+    "updated": "2026-08-08",
     "score": 35,
     "sector": "기타",
     "breakdown": {
@@ -4685,28 +4685,31 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 0.46,
+      "pbr": 0.47,
       "pbr_txt": "",
-      "psr": 0.41,
+      "psr": 0.42,
       "psr_txt": "저평가",
       "peg": null,
       "peg_txt": "",
       "tgt": 28750.0,
-      "upside": 567.1,
+      "upside": 554.2,
       "consensus_n": 2,
       "roe": -0.77
     },
     "valuation_engine": {
-      "fair_value": 2197.0,
-      "band_low": 665.0,
-      "band_high": 6194.0,
+      "fair_value": 844.0,
+      "band_low": 422.0,
+      "band_high": 6200.0,
       "confidence": "LOW",
+      "method_spread": 3.272,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (12점 < 기준 30점) / 이자보상배율 미달 (-1.3배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 3258.780584881708,
-      "per_band_mid": 2197.0,
+      "srim_mid": 844.3530469961661,
+      "per_band_mid": 2176.0,
       "pbr_roe_fair_value": 665.0,
       "nav_sotp_mid": null
     }
