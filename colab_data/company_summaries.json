@@ -7698,13 +7698,13 @@
   },
   "012450": {
     "company": "한화에어로스페이스",
-    "updated": "2026-08-05",
-    "score": 48,
+    "updated": "2026-08-08",
+    "score": 50,
     "sector": "방산",
     "breakdown": {
       "strength": 17,
       "weakness": 6,
-      "opportunity": 11,
+      "opportunity": 13,
       "threat": 14
     },
     "sector_max": {
@@ -7730,30 +7730,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 31.63,
+      "per": 34.45,
       "per_txt": "적정",
-      "pbr": 5.2,
+      "pbr": 5.67,
       "pbr_txt": "고평가 주의",
-      "psr": 916.95,
+      "psr": 998.9,
       "psr_txt": "고평가 주의",
-      "peg": 0.55,
+      "peg": 0.59,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 1598000.0,
-      "upside": 58.7,
+      "tgt": 1638000.0,
+      "upside": 49.3,
       "consensus_n": 5,
       "roe": 3.02
     },
     "valuation_engine": {
-      "fair_value": 683204.0,
-      "band_low": 607293.0,
-      "band_high": 1262035.0,
+      "fair_value": 1262035.0,
+      "band_low": 674767.0,
+      "band_high": 1951330.0,
       "confidence": "LOW",
+      "method_spread": 2.47,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (23점 < 기준 28점) / 이자보상배율 미달 (0.8배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 683204.0950077131,
-      "per_band_mid": 675799.0,
+      "srim_mid": 1666661.1524706837,
+      "per_band_mid": 674767.0,
       "pbr_roe_fair_value": 1262035.0,
       "nav_sotp_mid": null
     }
