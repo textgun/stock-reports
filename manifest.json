@@ -5356,15 +5356,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "062040_산일전기/2026-08-08_산일전기_062040.html",
-    "company": "산일전기",
-    "ticker": "062040",
-    "score": 52,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "068270_셀트리온/2026-08-08_셀트리온_068270.html",
     "company": "셀트리온",
     "ticker": "068270",
@@ -5495,6 +5486,15 @@
     "company": "KB금융",
     "ticker": "105560",
     "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "062040_산일전기/2026-08-08_산일전기_062040.html",
+    "company": "산일전기",
+    "ticker": "062040",
+    "score": 52,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
