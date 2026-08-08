@@ -5848,5 +5848,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "058610_에스피지/2026-08-08_에스피지_058610.html",
+    "company": "에스피지",
+    "ticker": "058610",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)"
   }
 ]
