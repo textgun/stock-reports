@@ -2468,14 +2468,14 @@
   },
   "074600": {
     "company": "원익QnC",
-    "updated": "2026-07-25",
-    "score": 41,
+    "updated": "2026-08-08",
+    "score": 46,
     "sector": "반도체",
     "breakdown": {
       "strength": 10,
       "weakness": 17,
-      "opportunity": 6,
-      "threat": 8
+      "opportunity": 9,
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
@@ -2500,29 +2500,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 29.08,
+      "per": 31.16,
       "per_txt": "고평가 주의",
-      "pbr": 1.34,
+      "pbr": 1.43,
       "pbr_txt": "고평가 주의",
-      "psr": 2.65,
+      "psr": 2.84,
       "psr_txt": "적정",
-      "peg": 1.99,
-      "peg_txt": "적정",
-      "tgt": 43500.0,
-      "upside": 68.3,
+      "peg": 2.13,
+      "peg_txt": "고평가 주의",
+      "tgt": 45250.0,
+      "upside": 63.4,
       "consensus_n": 4,
       "roe": 2.43
     },
     "valuation_engine": {
-      "fair_value": 12154.0,
-      "band_low": 8293.0,
-      "band_high": 22442.0,
-      "confidence": "HIGH",
+      "fair_value": 8293.0,
+      "band_low": 3100.0,
+      "band_high": 22406.0,
+      "confidence": "LOW",
+      "method_spread": 1.96,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (27점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 13952.055014904809,
+      "srim_mid": 6200.362196651324,
       "per_band_mid": 12154.0,
       "pbr_roe_fair_value": 8293.0,
       "nav_sotp_mid": null
