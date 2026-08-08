@@ -6136,5 +6136,14 @@
     "score": 42,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 6/18)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "145020_휴젤/2026-08-08_휴젤_145020.html",
+    "company": "휴젤",
+    "ticker": "145020",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
