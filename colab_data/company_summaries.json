@@ -5964,14 +5964,14 @@
   },
   "259960": {
     "company": "크래프톤",
-    "updated": "2026-08-05",
-    "score": 69,
+    "updated": "2026-08-08",
+    "score": 66,
     "sector": "기타",
     "breakdown": {
       "strength": 25,
       "weakness": 22,
       "opportunity": 5,
-      "threat": 17
+      "threat": 14
     },
     "sector_max": {
       "strength": 25,
@@ -5996,30 +5996,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 12.39,
+      "per": 13.06,
       "per_txt": "적정",
-      "pbr": 1.37,
+      "pbr": 1.45,
       "pbr_txt": "고평가 주의",
-      "psr": 7.7,
+      "psr": 8.12,
       "psr_txt": "고평가 주의",
-      "peg": 0.18,
+      "peg": 0.19,
       "peg_txt": "저평가(성장대비)",
       "tgt": 386000.0,
-      "upside": 68.6,
+      "upside": 59.8,
       "consensus_n": 5,
       "roe": 6.89
     },
     "valuation_engine": {
-      "fair_value": 322352.0,
-      "band_low": 219960.0,
+      "fair_value": 499753.0,
+      "band_low": 240752.0,
       "band_high": 695832.0,
       "confidence": "LOW",
+      "method_spread": 2.163,
+      "position_scale": 0.5,
+      "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -29.0,
+      "gap_pct": -51.7,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
-      "srim_mid": 247455.09769691888,
-      "per_band_mid": 322352.0,
+      "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.2배) → 목표비중 50%로 축소 매수",
+      "srim_mid": 499752.7913782161,
+      "per_band_mid": 321659.0,
       "pbr_roe_fair_value": 695832.0,
       "nav_sotp_mid": null
     }
