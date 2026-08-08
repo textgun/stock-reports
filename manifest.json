@@ -5257,15 +5257,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "035420_NAVER/2026-08-08_NAVER_035420.html",
-    "company": "NAVER",
-    "ticker": "035420",
-    "score": 54,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "039030_이오테크닉스/2026-08-08_이오테크닉스_039030.html",
     "company": "이오테크닉스",
     "ticker": "039030",
@@ -5495,6 +5486,15 @@
     "company": "삼성생명",
     "ticker": "032830",
     "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "035420_NAVER/2026-08-08_NAVER_035420.html",
+    "company": "NAVER",
+    "ticker": "035420",
+    "score": 54,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
