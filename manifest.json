@@ -5392,15 +5392,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "062040_산일전기/2026-08-08_산일전기_062040.html",
-    "company": "산일전기",
-    "ticker": "062040",
-    "score": 52,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "000660_SK하이닉스/2026-08-08_SK하이닉스_000660.html",
     "company": "SK하이닉스",
     "ticker": "000660",
@@ -5495,6 +5486,15 @@
     "company": "리노공업",
     "ticker": "058470",
     "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "062040_산일전기/2026-08-08_산일전기_062040.html",
+    "company": "산일전기",
+    "ticker": "062040",
+    "score": 52,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
