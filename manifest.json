@@ -5257,15 +5257,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "440110_파두/2026-08-08_파두_440110.html",
-    "company": "파두",
-    "ticker": "440110",
-    "score": 59,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "000660_SK하이닉스/2026-08-08_SK하이닉스_000660.html",
     "company": "SK하이닉스",
     "ticker": "000660",
@@ -5497,5 +5488,14 @@
     "score": 74,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "440110_파두/2026-08-08_파두_440110.html",
+    "company": "파두",
+    "ticker": "440110",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
