@@ -6806,7 +6806,7 @@
   },
   "007530": {
     "company": "와이엠",
-    "updated": "2026-07-25",
+    "updated": "2026-08-09",
     "score": 28,
     "sector": "자동차",
     "breakdown": {
@@ -6838,13 +6838,13 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 12.33,
+      "per": 11.9,
       "per_txt": "적정",
-      "pbr": 0.63,
+      "pbr": 0.6,
       "pbr_txt": "고평가 주의",
-      "psr": 0.86,
+      "psr": 0.83,
       "psr_txt": "저평가",
-      "peg": 0.27,
+      "peg": 0.26,
       "peg_txt": "저평가(성장대비)",
       "tgt": null,
       "upside": null,
@@ -6852,15 +6852,18 @@
       "roe": 2.13
     },
     "valuation_engine": {
-      "fair_value": 1654.0,
+      "fair_value": 3356.0,
       "band_low": 952.0,
       "band_high": 12938.0,
       "confidence": "LOW",
+      "method_spread": 13.59,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (14점 < 기준 32점) / 이자보상배율 미달 (0.9배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 1653.637654533037,
+      "srim_mid": null,
       "per_band_mid": 12938.0,
       "pbr_roe_fair_value": 952.0,
       "nav_sotp_mid": null
