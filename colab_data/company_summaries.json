@@ -2288,14 +2288,14 @@
   },
   "127120": {
     "company": "제이에스링크",
-    "updated": "2026-07-25",
-    "score": 46,
+    "updated": "2026-08-08",
+    "score": 45,
     "sector": "기타",
     "breakdown": {
       "strength": 5,
       "weakness": 22,
-      "opportunity": 9,
-      "threat": 10
+      "opportunity": 11,
+      "threat": 7
     },
     "sector_max": {
       "strength": 25,
@@ -2322,9 +2322,9 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 12.68,
+      "pbr": 15.11,
       "pbr_txt": "",
-      "psr": 472.11,
+      "psr": 562.68,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
@@ -2334,10 +2334,13 @@
       "roe": -4.25
     },
     "valuation_engine": {
-      "fair_value": null,
-      "band_low": null,
-      "band_high": null,
-      "confidence": "NONE",
+      "fair_value": 4095.0,
+      "band_low": 3210.0,
+      "band_high": 18222.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
