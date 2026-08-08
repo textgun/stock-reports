@@ -21138,6 +21138,17 @@
           "opportunity": 6,
           "threat": 10
         }
+      },
+      {
+        "date": "2026-08-08",
+        "total_score": 44,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 14,
+          "weakness": 17,
+          "opportunity": 3,
+          "threat": 10
+        }
       }
     ]
   },
