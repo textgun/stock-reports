@@ -1706,14 +1706,14 @@
   },
   "089010": {
     "company": "켐트로닉스",
-    "updated": "2026-07-25",
-    "score": 51,
+    "updated": "2026-08-08",
+    "score": 48,
     "sector": "기타",
     "breakdown": {
       "strength": 5,
       "weakness": 22,
       "opportunity": 9,
-      "threat": 15
+      "threat": 12
     },
     "sector_max": {
       "strength": 25,
@@ -1738,30 +1738,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 68.2,
-      "per_txt": "저평가",
-      "pbr": 1.56,
+      "per": 69.34,
+      "per_txt": "적정",
+      "pbr": 1.59,
       "pbr_txt": "고평가 주의",
-      "psr": 2.0,
+      "psr": 2.03,
       "psr_txt": "적정",
-      "peg": 17.49,
+      "peg": 17.78,
       "peg_txt": "고평가 주의",
       "tgt": 43000.0,
-      "upside": 106.7,
+      "upside": 103.3,
       "consensus_n": 4,
       "roe": 1.61
     },
     "valuation_engine": {
-      "fair_value": 6672.0,
-      "band_low": 3706.0,
+      "fair_value": 4596.0,
+      "band_low": 1463.0,
       "band_high": 16313.0,
       "confidence": "LOW",
+      "method_spread": 1.955,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (27점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 9287.868299302416,
-      "per_band_mid": 6672.0,
+      "srim_mid": 3439.6937213447454,
+      "per_band_mid": 6723.0,
       "pbr_roe_fair_value": 4596.0,
       "nav_sotp_mid": null
     }
