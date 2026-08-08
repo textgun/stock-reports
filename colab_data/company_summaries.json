@@ -7001,13 +7001,13 @@
   },
   "011200": {
     "company": "HMM",
-    "updated": "2026-07-25",
-    "score": 44,
+    "updated": "2026-08-08",
+    "score": 46,
     "sector": "기타",
     "breakdown": {
       "strength": 8,
       "weakness": 14,
-      "opportunity": 7,
+      "opportunity": 9,
       "threat": 15
     },
     "sector_max": {
@@ -7033,29 +7033,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 14.16,
+      "per": 14.26,
       "per_txt": "적정",
       "pbr": 0.74,
       "pbr_txt": "고평가 주의",
-      "psr": 7.51,
+      "psr": 7.56,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 22000.0,
-      "upside": 1.6,
+      "upside": 0.9,
       "consensus_n": 3,
       "roe": 1.27
     },
     "valuation_engine": {
-      "fair_value": 29799.0,
+      "fair_value": 34276.0,
       "band_low": 2056.0,
       "band_high": 51170.0,
       "confidence": "LOW",
+      "method_spread": 7.985,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (22점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 29798.521374833967,
+      "srim_mid": 34276.18725924486,
       "per_band_mid": 6408.0,
       "pbr_roe_fair_value": 51170.0,
       "nav_sotp_mid": null
