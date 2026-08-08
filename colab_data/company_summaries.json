@@ -8277,13 +8277,13 @@
   },
   "067310": {
     "company": "하나마이크론",
-    "updated": "2026-07-25",
-    "score": 51,
+    "updated": "2026-08-09",
+    "score": 47,
     "sector": "반도체",
     "breakdown": {
       "strength": 19,
       "weakness": 11,
-      "opportunity": 6,
+      "opportunity": 2,
       "threat": 15
     },
     "sector_max": {
@@ -8309,30 +8309,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 21.46,
+      "per": 19.39,
       "per_txt": "적정",
-      "pbr": 4.68,
+      "pbr": 4.23,
       "pbr_txt": "고평가 주의",
-      "psr": 4.35,
+      "psr": 3.93,
       "psr_txt": "고평가 주의",
       "peg": 0.04,
       "peg_txt": "저평가(성장대비)",
       "tgt": 27600.0,
-      "upside": -16.9,
+      "upside": -8.0,
       "consensus_n": 5,
       "roe": 9.94
     },
     "valuation_engine": {
-      "fair_value": 5232.0,
+      "fair_value": 30061.0,
       "band_low": 661.0,
-      "band_high": 99268.0,
+      "band_high": 97204.0,
       "confidence": "LOW",
-      "zone": "FAIR",
-      "gap_pct": 534.6,
+      "method_spread": 147.056,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "zone": "ACCUMULATE",
+      "gap_pct": -0.2,
       "quality_gate_passed": true,
-      "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 5231.937886808353,
-      "per_band_mid": 99268.0,
+      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 147.1배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
+      "srim_mid": null,
+      "per_band_mid": 97204.0,
       "pbr_roe_fair_value": 661.0,
       "nav_sotp_mid": null
     }
