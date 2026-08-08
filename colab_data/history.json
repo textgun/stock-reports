@@ -21257,6 +21257,17 @@
           "opportunity": 9,
           "threat": 10
         }
+      },
+      {
+        "date": "2026-08-08",
+        "total_score": 49,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 19,
+          "weakness": 11,
+          "opportunity": 9,
+          "threat": 10
+        }
       }
     ]
   },
