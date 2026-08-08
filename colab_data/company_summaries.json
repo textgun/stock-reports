@@ -3006,14 +3006,14 @@
   },
   "230360": {
     "company": "에코마케팅",
-    "updated": "2026-07-25",
-    "score": 37,
-    "sector": "바이오",
+    "updated": "2026-08-08",
+    "score": 39,
+    "sector": "기타",
     "breakdown": {
-      "strength": 8,
-      "weakness": 5,
-      "opportunity": 5,
-      "threat": 19
+      "strength": 10,
+      "weakness": 11,
+      "opportunity": 3,
+      "threat": 15
     },
     "sector_max": {
       "strength": 25,
@@ -3056,10 +3056,13 @@
       "band_low": null,
       "band_high": null,
       "confidence": "NONE",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
-      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (13점 < 기준 18점), 존과 무관하게 회피",
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (21점 < 기준 30점), 존과 무관하게 회피",
       "srim_mid": null,
       "per_band_mid": null,
       "pbr_roe_fair_value": null,
