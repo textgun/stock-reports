@@ -7153,13 +7153,13 @@
   },
   "119850": {
     "company": "지엔씨에너지",
-    "updated": "2026-07-25",
-    "score": 50,
+    "updated": "2026-08-08",
+    "score": 55,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 6,
       "weakness": 11,
-      "opportunity": 15,
+      "opportunity": 20,
       "threat": 18
     },
     "sector_max": {
@@ -7185,11 +7185,11 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 19.0,
+      "per": 21.94,
       "per_txt": "저평가",
-      "pbr": 3.18,
+      "pbr": 3.68,
       "pbr_txt": "고평가 주의",
-      "psr": 13.44,
+      "psr": 15.52,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
@@ -7199,17 +7199,20 @@
       "roe": 5.3
     },
     "valuation_engine": {
-      "fair_value": 58711.0,
-      "band_low": 40844.0,
-      "band_high": 76578.0,
+      "fair_value": 70452.0,
+      "band_low": 37982.0,
+      "band_high": 86540.0,
       "confidence": "LOW",
+      "method_spread": 2.278,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (17점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": null,
-      "per_band_mid": 40844.0,
-      "pbr_roe_fair_value": 76578.0,
+      "srim_mid": 70451.71400585114,
+      "per_band_mid": 37982.0,
+      "pbr_roe_fair_value": 86540.0,
       "nav_sotp_mid": null
     }
   },
