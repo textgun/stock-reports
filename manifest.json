@@ -6217,5 +6217,14 @@
     "score": 55,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "226950_올릭스/2026-08-08_올릭스_226950.html",
+    "company": "올릭스",
+    "ticker": "226950",
+    "score": 36,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)"
   }
 ]
