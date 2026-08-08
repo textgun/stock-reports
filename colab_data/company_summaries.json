@@ -2521,14 +2521,14 @@
   },
   "000150": {
     "company": "두산",
-    "updated": "2026-08-05",
+    "updated": "2026-08-08",
     "score": 39,
     "sector": "지주사",
     "breakdown": {
       "strength": 12,
       "weakness": 6,
-      "opportunity": 14,
-      "threat": 7
+      "opportunity": 11,
+      "threat": 10
     },
     "sector_max": {
       "strength": 28,
@@ -2553,32 +2553,35 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 293.98,
+      "per": 277.88,
       "per_txt": "고평가 주의",
-      "pbr": 10.21,
+      "pbr": 9.65,
       "pbr_txt": "고평가 주의",
-      "psr": 4.03,
+      "psr": 3.81,
       "psr_txt": "고평가 주의",
-      "peg": 8.05,
+      "peg": 7.61,
       "peg_txt": "고평가 주의",
-      "tgt": 2185000.0,
-      "upside": 73.4,
-      "consensus_n": 4,
+      "tgt": 2300000.0,
+      "upside": 93.1,
+      "consensus_n": 3,
       "roe": 0.76
     },
     "valuation_engine": {
-      "fair_value": 176167.0,
+      "fair_value": 100607.0,
       "band_low": 13698.0,
-      "band_high": 1129086.0,
+      "band_high": 1123988.0,
       "confidence": "LOW",
+      "method_spread": 82.055,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (18점 < 기준 26점) / 이자보상배율 미달 (0.4배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 205947.25737294473,
+      "srim_mid": 54677.00698636589,
       "per_band_mid": null,
       "pbr_roe_fair_value": 13698.0,
-      "nav_sotp_mid": 1129086.0
+      "nav_sotp_mid": 1123988.0
     }
   },
   "082920": {
