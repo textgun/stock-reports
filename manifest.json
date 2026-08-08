@@ -6127,5 +6127,14 @@
     "score": 47,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "141080_리가켐바이오/2026-08-08_리가켐바이오_141080.html",
+    "company": "리가켐바이오",
+    "ticker": "141080",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 6/18)"
   }
 ]
