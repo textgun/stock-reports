@@ -19753,6 +19753,17 @@
           "opportunity": 12,
           "threat": 18
         }
+      },
+      {
+        "date": "2026-08-08",
+        "total_score": 67,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 24,
+          "weakness": 16,
+          "opportunity": 12,
+          "threat": 15
+        }
       }
     ]
   },
