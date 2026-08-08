@@ -6109,5 +6109,14 @@
     "score": 55,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "139480_이마트/2026-08-08_이마트_139480.html",
+    "company": "이마트",
+    "ticker": "139480",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 13/30)"
   }
 ]
