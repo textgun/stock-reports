@@ -5257,15 +5257,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "058470_리노공업/2026-08-08_리노공업_058470.html",
-    "company": "리노공업",
-    "ticker": "058470",
-    "score": 63,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "068270_셀트리온/2026-08-08_셀트리온_068270.html",
     "company": "셀트리온",
     "ticker": "068270",
@@ -5495,6 +5486,15 @@
     "company": "신한지주",
     "ticker": "055550",
     "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "058470_리노공업/2026-08-08_리노공업_058470.html",
+    "company": "리노공업",
+    "ticker": "058470",
+    "score": 63,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
