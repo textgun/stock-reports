@@ -5649,14 +5649,14 @@
   },
   "064760": {
     "company": "티씨케이",
-    "updated": "2026-07-25",
-    "score": 56,
+    "updated": "2026-08-08",
+    "score": 55,
     "sector": "반도체",
     "breakdown": {
-      "strength": 20,
+      "strength": 21,
       "weakness": 17,
       "opportunity": 9,
-      "threat": 10
+      "threat": 8
     },
     "sector_max": {
       "strength": 25,
@@ -5668,8 +5668,8 @@
       "qoq_trend": "recovering",
       "yoy_pct": 21.6,
       "rev_yoy_pct": 21.7,
-      "momentum_score": 7.5,
-      "correction_pts": 4
+      "momentum_score": 9.0,
+      "correction_pts": 5
     },
     "trade": {
       "export_yoy": null,
@@ -5681,29 +5681,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 28.14,
+      "per": 25.56,
       "per_txt": "고평가 주의",
-      "pbr": 3.9,
+      "pbr": 3.54,
       "pbr_txt": "고평가 주의",
-      "psr": 21.59,
+      "psr": 19.61,
       "psr_txt": "고평가 주의",
-      "peg": 1.3,
+      "peg": 1.18,
       "peg_txt": "적정",
       "tgt": 342000.0,
-      "upside": 85.7,
+      "upside": 104.4,
       "consensus_n": 5,
       "roe": 4.76
     },
     "valuation_engine": {
-      "fair_value": 112256.0,
-      "band_low": 67419.0,
+      "fair_value": 156682.0,
+      "band_low": 88460.0,
       "band_high": 321553.0,
       "confidence": "LOW",
+      "method_spread": 2.864,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 64.1,
+      "gap_pct": 6.8,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 75846.32351815086,
+      "srim_mid": 156681.55881107473,
       "per_band_mid": 112256.0,
       "pbr_roe_fair_value": 321553.0,
       "nav_sotp_mid": null
