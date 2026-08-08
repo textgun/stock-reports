@@ -5454,7 +5454,7 @@
   },
   "064290": {
     "company": "인텍플러스",
-    "updated": "2026-07-25",
+    "updated": "2026-08-08",
     "score": 47,
     "sector": "반도체",
     "breakdown": {
@@ -5486,30 +5486,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 1605.26,
+      "per": 1552.63,
       "per_txt": "고평가 주의",
-      "pbr": 8.32,
+      "pbr": 8.05,
       "pbr_txt": "",
-      "psr": 30.67,
+      "psr": 29.85,
       "psr_txt": "고평가 주의",
-      "peg": 27.97,
+      "peg": 27.05,
       "peg_txt": "고평가 주의",
       "tgt": 76000.0,
-      "upside": 149.2,
+      "upside": 157.6,
       "consensus_n": 0,
       "roe": -3.24
     },
     "valuation_engine": {
-      "fair_value": 425.0,
-      "band_low": 425.0,
-      "band_high": 425.0,
+      "fair_value": 9652.0,
+      "band_low": 421.0,
+      "band_high": 33816.0,
       "confidence": "LOW",
+      "method_spread": 44.855,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (24점 < 기준 30점), 존과 무관하게 회피",
       "srim_mid": null,
-      "per_band_mid": 425.0,
+      "per_band_mid": 421.0,
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
