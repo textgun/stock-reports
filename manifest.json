@@ -6055,5 +6055,14 @@
     "score": 32,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 14/22)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "117730_티로보틱스/2026-08-08_티로보틱스_117730.html",
+    "company": "티로보틱스",
+    "ticker": "117730",
+    "score": 19,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 8/30)"
   }
 ]
