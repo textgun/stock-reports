@@ -6903,13 +6903,13 @@
   },
   "000500": {
     "company": "가온전선",
-    "updated": "2026-08-05",
-    "score": 41,
+    "updated": "2026-08-08",
+    "score": 39,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 10,
       "weakness": 12,
-      "opportunity": 12,
+      "opportunity": 10,
       "threat": 7
     },
     "sector_max": {
@@ -6935,13 +6935,13 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 84.88,
+      "per": 78.9,
       "per_txt": "고평가 주의",
-      "pbr": 9.44,
+      "pbr": 8.78,
       "pbr_txt": "고평가 주의",
-      "psr": 6.2,
+      "psr": 5.76,
       "psr_txt": "고평가 주의",
-      "peg": 1.53,
+      "peg": 1.42,
       "peg_txt": "적정",
       "tgt": null,
       "upside": null,
@@ -6950,15 +6950,18 @@
     },
     "valuation_engine": {
       "fair_value": 23353.0,
-      "band_low": 13994.0,
-      "band_high": 25226.0,
+      "band_low": 7798.0,
+      "band_high": 25290.0,
       "confidence": "HIGH",
+      "method_spread": 1.761,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (22점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 15743.083453448764,
-      "per_band_mid": 25226.0,
+      "srim_mid": 14358.04953765258,
+      "per_band_mid": 25290.0,
       "pbr_roe_fair_value": 23353.0,
       "nav_sotp_mid": null
     }
