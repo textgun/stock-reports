@@ -15270,6 +15270,17 @@
           "opportunity": 1,
           "threat": 15
         }
+      },
+      {
+        "date": "2026-08-08",
+        "total_score": 36,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 2,
+          "weakness": 22,
+          "opportunity": 5,
+          "threat": 7
+        }
       }
     ]
   },
