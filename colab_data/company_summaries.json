@@ -5501,7 +5501,7 @@
   },
   "039490": {
     "company": "키움증권",
-    "updated": "2026-08-05",
+    "updated": "2026-08-08",
     "score": 59,
     "sector": "금융",
     "breakdown": {
@@ -5533,30 +5533,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 5.88,
+      "per": 5.58,
       "per_txt": "적정",
-      "pbr": 1.11,
+      "pbr": 1.05,
       "pbr_txt": "고평가 주의",
-      "psr": 0.82,
+      "psr": 0.77,
       "psr_txt": "저평가",
       "peg": 0.06,
       "peg_txt": "저평가(성장대비)",
       "tgt": 467000.0,
-      "upside": 59.7,
+      "upside": 68.3,
       "consensus_n": 5,
       "roe": 6.84
     },
     "valuation_engine": {
-      "fair_value": 510249.0,
-      "band_low": 412602.0,
+      "fair_value": 891167.0,
+      "band_low": 409801.0,
       "band_high": 1063009.0,
       "confidence": "LOW",
+      "method_spread": 2.594,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (1.8배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 510248.6999445694,
-      "per_band_mid": 412602.0,
+      "srim_mid": 891166.7318200058,
+      "per_band_mid": 409801.0,
       "pbr_roe_fair_value": 1063009.0,
       "nav_sotp_mid": null
     }
