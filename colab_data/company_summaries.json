@@ -4291,14 +4291,14 @@
   },
   "203650": {
     "company": "드림시큐리티",
-    "updated": "2026-07-25",
-    "score": 42,
+    "updated": "2026-08-08",
+    "score": 41,
     "sector": "기타",
     "breakdown": {
       "strength": 4,
       "weakness": 22,
       "opportunity": 5,
-      "threat": 11
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
@@ -4323,11 +4323,11 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 23.01,
+      "per": 24.57,
       "per_txt": "고평가 주의",
-      "pbr": 1.47,
+      "pbr": 1.57,
       "pbr_txt": "고평가 주의",
-      "psr": 1.73,
+      "psr": 1.85,
       "psr_txt": "적정",
       "peg": null,
       "peg_txt": "",
@@ -4337,16 +4337,19 @@
       "roe": 0.19
     },
     "valuation_engine": {
-      "fair_value": 1536.0,
-      "band_low": 532.0,
-      "band_high": 1875.0,
+      "fair_value": 1669.0,
+      "band_low": 535.0,
+      "band_high": 2206.0,
       "confidence": "LOW",
+      "method_spread": 3.505,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (26점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 1536.1264993646098,
-      "per_band_mid": 532.0,
+      "srim_mid": 1668.914199738104,
+      "per_band_mid": 535.0,
       "pbr_roe_fair_value": 1875.0,
       "nav_sotp_mid": null
     }
