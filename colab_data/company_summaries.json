@@ -7439,14 +7439,14 @@
   },
   "086450": {
     "company": "동국제약",
-    "updated": "2026-07-25",
-    "score": 49,
+    "updated": "2026-08-08",
+    "score": 44,
     "sector": "바이오",
     "breakdown": {
       "strength": 11,
       "weakness": 7,
-      "opportunity": 9,
-      "threat": 22
+      "opportunity": 11,
+      "threat": 15
     },
     "sector_max": {
       "strength": 18,
@@ -7471,31 +7471,34 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 11.06,
+      "per": 11.71,
       "per_txt": "저평가",
-      "pbr": 1.21,
+      "pbr": 1.28,
       "pbr_txt": "고평가 주의",
-      "psr": 3.29,
+      "psr": 3.48,
       "psr_txt": "고평가 주의",
-      "peg": 1.38,
+      "peg": 1.46,
       "peg_txt": "적정",
       "tgt": 23500.0,
-      "upside": 28.9,
+      "upside": 21.8,
       "consensus_n": 2,
       "roe": 3.37
     },
     "valuation_engine": {
-      "fair_value": 27840.0,
-      "band_low": 21182.0,
-      "band_high": 31657.0,
-      "confidence": "MID",
-      "zone": "DEEP_VALUE",
-      "gap_pct": -34.5,
+      "fair_value": 24101.0,
+      "band_low": 16469.0,
+      "band_high": 39916.0,
+      "confidence": "HIGH",
+      "method_spread": 1.78,
+      "position_scale": 1.0,
+      "buy_signal_allowed": true,
+      "zone": "ACCUMULATE",
+      "gap_pct": -19.9,
       "quality_gate_passed": true,
-      "action_label": "3차 매수 존 (목표비중 100%까지)",
-      "srim_mid": null,
-      "per_band_mid": 24022.0,
-      "pbr_roe_fair_value": 31657.0,
+      "action_label": "1차 매수 존 (목표비중 33%까지)",
+      "srim_mid": 24332.014086534367,
+      "per_band_mid": 23870.0,
+      "pbr_roe_fair_value": 39916.0,
       "nav_sotp_mid": null
     }
   },
