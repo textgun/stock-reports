@@ -3700,14 +3700,14 @@
   },
   "141080": {
     "company": "리가켐바이오",
-    "updated": "2026-07-25",
-    "score": 28,
+    "updated": "2026-08-08",
+    "score": 42,
     "sector": "바이오",
     "breakdown": {
       "strength": 0,
       "weakness": 6,
-      "opportunity": 14,
-      "threat": 8
+      "opportunity": 23,
+      "threat": 13
     },
     "sector_max": {
       "strength": 18,
@@ -3732,24 +3732,27 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 60.0,
-      "per_txt": "고평가 주의",
-      "pbr": 7.56,
+      "per": 50.0,
+      "per_txt": "적정",
+      "pbr": 8.91,
       "pbr_txt": "",
-      "psr": 1008.35,
+      "psr": 1187.77,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
-      "tgt": 220000.0,
-      "upside": 128.9,
+      "tgt": 216666.66666666666,
+      "upside": 91.4,
       "consensus_n": 3,
       "roe": -6.65
     },
     "valuation_engine": {
-      "fair_value": 2465924.0,
-      "band_low": 2465924.0,
+      "fair_value": 1247162.0,
+      "band_low": 20182.0,
       "band_high": 2465924.0,
       "confidence": "LOW",
+      "method_spread": 86.828,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
