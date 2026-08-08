@@ -5983,5 +5983,14 @@
     "score": 44,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "088350_한화생명/2026-08-08_한화생명_088350.html",
+    "company": "한화생명",
+    "ticker": "088350",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
