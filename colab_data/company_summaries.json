@@ -5901,13 +5901,13 @@
   },
   "192820": {
     "company": "코스맥스",
-    "updated": "2026-07-25",
-    "score": 49,
+    "updated": "2026-08-08",
+    "score": 48,
     "sector": "기타",
     "breakdown": {
       "strength": 11,
       "weakness": 12,
-      "opportunity": 6,
+      "opportunity": 5,
       "threat": 20
     },
     "sector_max": {
@@ -5933,30 +5933,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 12.94,
+      "per": 14.9,
       "per_txt": "저평가",
-      "pbr": 3.46,
+      "pbr": 3.98,
       "pbr_txt": "고평가 주의",
-      "psr": 2.97,
-      "psr_txt": "적정",
-      "peg": 3.92,
+      "psr": 3.42,
+      "psr_txt": "고평가 주의",
+      "peg": 4.52,
       "peg_txt": "고평가 주의",
       "tgt": 250000.0,
-      "upside": 40.1,
+      "upside": 21.7,
       "consensus_n": 5,
       "roe": 6.78
     },
     "valuation_engine": {
       "fair_value": 344176.0,
-      "band_low": 105058.0,
-      "band_high": 770379.0,
-      "confidence": "LOW",
+      "band_low": 176332.0,
+      "band_high": 735117.0,
+      "confidence": "HIGH",
+      "method_spread": 1.344,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (23점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 118190.16547719827,
-      "per_band_mid": 403486.0,
+      "srim_mid": 294841.4620613161,
+      "per_band_mid": 396248.0,
       "pbr_roe_fair_value": 344176.0,
       "nav_sotp_mid": null
     }
