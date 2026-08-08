@@ -6625,14 +6625,14 @@
   },
   "237690": {
     "company": "에스티팜",
-    "updated": "2026-08-05",
-    "score": 48,
+    "updated": "2026-08-08",
+    "score": 46,
     "sector": "바이오",
     "breakdown": {
       "strength": 14,
       "weakness": 5,
       "opportunity": 14,
-      "threat": 15
+      "threat": 13
     },
     "sector_max": {
       "strength": 18,
@@ -6657,30 +6657,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 29.91,
+      "per": 29.7,
       "per_txt": "적정",
-      "pbr": 3.43,
+      "pbr": 3.41,
       "pbr_txt": "고평가 주의",
-      "psr": 31.43,
+      "psr": 31.21,
       "psr_txt": "고평가 주의",
-      "peg": 0.72,
+      "peg": 0.71,
       "peg_txt": "저평가(성장대비)",
       "tgt": 182000.0,
-      "upside": 80.6,
+      "upside": 81.8,
       "consensus_n": 5,
       "roe": 2.49
     },
     "valuation_engine": {
-      "fair_value": 75446.0,
-      "band_low": 22215.0,
-      "band_high": 291678.0,
+      "fair_value": 75205.0,
+      "band_low": 5192.0,
+      "band_high": 291516.0,
       "confidence": "LOW",
+      "method_spread": 18.68,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 33.6,
+      "gap_pct": 33.1,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 24991.972360543125,
-      "per_band_mid": 291678.0,
+      "srim_mid": 15605.780158758853,
+      "per_band_mid": 291516.0,
       "pbr_roe_fair_value": 26110.0,
       "nav_sotp_mid": null
     }
