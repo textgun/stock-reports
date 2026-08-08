@@ -2146,7 +2146,7 @@
   },
   "036930": {
     "company": "주성엔지니어링",
-    "updated": "2026-08-05",
+    "updated": "2026-08-08",
     "score": 32,
     "sector": "반도체",
     "breakdown": {
@@ -2178,30 +2178,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 992.36,
+      "per": 887.5,
       "per_txt": "고평가 주의",
-      "pbr": 11.13,
+      "pbr": 9.95,
       "pbr_txt": "",
-      "psr": 121.03,
+      "psr": 108.24,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 42750.0,
-      "upside": -70.1,
+      "upside": -66.5,
       "consensus_n": 4,
       "roe": -0.2
     },
     "valuation_engine": {
-      "fair_value": 17027.0,
-      "band_low": 1785.0,
+      "fair_value": 26927.0,
+      "band_low": 1786.0,
       "band_high": 33513.0,
       "confidence": "LOW",
+      "method_spread": 18.764,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (14점 < 기준 30점) / 이자보상배율 미달 (-7.8배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 17027.299784785297,
-      "per_band_mid": 1785.0,
+      "srim_mid": 26927.331151432718,
+      "per_band_mid": 1786.0,
       "pbr_roe_fair_value": 33513.0,
       "nav_sotp_mid": null
     }
