@@ -1307,14 +1307,14 @@
   },
   "095340": {
     "company": "ISC",
-    "updated": "2026-08-05",
-    "score": 60,
+    "updated": "2026-08-08",
+    "score": 54,
     "sector": "반도체",
     "breakdown": {
       "strength": 23,
       "weakness": 15,
-      "opportunity": 15,
-      "threat": 7
+      "opportunity": 7,
+      "threat": 9
     },
     "sector_max": {
       "strength": 25,
@@ -1339,29 +1339,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 42.6,
+      "per": 39.81,
       "per_txt": "고평가 주의",
-      "pbr": 5.29,
+      "pbr": 4.94,
       "pbr_txt": "고평가 주의",
-      "psr": 43.53,
+      "psr": 40.67,
       "psr_txt": "고평가 주의",
-      "peg": 0.77,
+      "peg": 0.72,
       "peg_txt": "저평가(성장대비)",
       "tgt": 240000.0,
-      "upside": 71.2,
+      "upside": 83.2,
       "consensus_n": 5,
       "roe": 3.79
     },
     "valuation_engine": {
       "fair_value": 53024.0,
-      "band_low": 24927.0,
+      "band_low": 23775.0,
       "band_high": 118364.0,
       "confidence": "LOW",
-      "zone": "OVERHEATED",
-      "gap_pct": 164.4,
+      "method_spread": 3.338,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "zone": "EXPENSIVE",
+      "gap_pct": 147.1,
       "quality_gate_passed": true,
-      "action_label": "2차 매도 — 추가 1/3 매도",
-      "srim_mid": 28042.81635082261,
+      "action_label": "1차 매도 — 보유량 1/3 매도",
+      "srim_mid": 35459.05646673973,
       "per_band_mid": 118364.0,
       "pbr_roe_fair_value": 53024.0,
       "nav_sotp_mid": null
