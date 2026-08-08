@@ -5052,14 +5052,14 @@
   },
   "031980": {
     "company": "피에스케이홀딩스",
-    "updated": "2026-07-25",
-    "score": 48,
+    "updated": "2026-08-08",
+    "score": 37,
     "sector": "반도체",
     "breakdown": {
       "strength": 14,
       "weakness": 8,
-      "opportunity": 10,
-      "threat": 16
+      "opportunity": 4,
+      "threat": 11
     },
     "sector_max": {
       "strength": 25,
@@ -5084,30 +5084,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 23.76,
-      "per_txt": "적정",
-      "pbr": 4.48,
+      "per": 21.09,
+      "per_txt": "고평가 주의",
+      "pbr": 3.97,
       "pbr_txt": "고평가 주의",
-      "psr": 81.6,
+      "psr": 72.43,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 59500.0,
-      "upside": -43.8,
+      "upside": -36.7,
       "consensus_n": 4,
       "roe": 3.93
     },
     "valuation_engine": {
-      "fair_value": 52257.0,
-      "band_low": 20152.0,
+      "fair_value": 131383.0,
+      "band_low": 20804.0,
       "band_high": 169203.0,
       "confidence": "LOW",
+      "method_spread": 8.133,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (22점 < 기준 30점) / 이자보상배율 미달 (1.8배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 52257.26018867782,
-      "per_band_mid": 20152.0,
+      "srim_mid": 131382.9058626452,
+      "per_band_mid": 20804.0,
       "pbr_roe_fair_value": 169203.0,
       "nav_sotp_mid": null
     }
