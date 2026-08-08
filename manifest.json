@@ -6019,5 +6019,14 @@
     "score": 35,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 12/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "095340_ISC/2026-08-08_ISC_095340.html",
+    "company": "ISC",
+    "ticker": "095340",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
