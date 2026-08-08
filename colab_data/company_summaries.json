@@ -2905,7 +2905,7 @@
   },
   "011070": {
     "company": "LG이노텍",
-    "updated": "2026-08-05",
+    "updated": "2026-08-08",
     "score": 60,
     "sector": "기타",
     "breakdown": {
@@ -2937,30 +2937,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 29.34,
+      "per": 26.95,
       "per_txt": "저평가",
-      "pbr": 2.34,
+      "pbr": 2.15,
       "pbr_txt": "고평가 주의",
-      "psr": 2.57,
+      "psr": 2.36,
       "psr_txt": "적정",
       "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
       "tgt": 1240000.0,
-      "upside": 106.3,
+      "upside": 124.6,
       "consensus_n": 5,
       "roe": 3.77
     },
     "valuation_engine": {
       "fair_value": 300690.0,
-      "band_low": 201427.0,
-      "band_high": 977255.0,
+      "band_low": 85714.0,
+      "band_high": 970863.0,
       "confidence": "LOW",
+      "method_spread": 5.39,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (29점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 226605.56072189135,
-      "per_band_mid": 977255.0,
+      "srim_mid": 180132.67090481316,
+      "per_band_mid": 970863.0,
       "pbr_roe_fair_value": 300690.0,
       "nav_sotp_mid": null
     }
