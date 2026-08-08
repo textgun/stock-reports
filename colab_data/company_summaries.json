@@ -9092,14 +9092,14 @@
   },
   "336260": {
     "company": "두산퓨얼셀",
-    "updated": "2026-08-05",
-    "score": 21,
+    "updated": "2026-08-08",
+    "score": 27,
     "sector": "에너지/화학",
     "breakdown": {
       "strength": 0,
       "weakness": 7,
       "opportunity": 4,
-      "threat": 10
+      "threat": 16
     },
     "sector_max": {
       "strength": 26,
@@ -9124,24 +9124,27 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 31.0,
+      "per": 28.0,
       "per_txt": "적정",
-      "pbr": 7.96,
+      "pbr": 7.03,
       "pbr_txt": "",
-      "psr": 15.64,
+      "psr": 13.81,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 71800.0,
-      "upside": 107.5,
+      "upside": 135.0,
       "consensus_n": 5,
       "roe": -3.71
     },
     "valuation_engine": {
-      "fair_value": 36436.0,
+      "fair_value": 36426.0,
       "band_low": 29740.0,
-      "band_high": 45085.0,
+      "band_high": 45053.0,
       "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
