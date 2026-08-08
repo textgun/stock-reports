@@ -7489,14 +7489,14 @@
   },
   "079940": {
     "company": "가비아",
-    "updated": "2026-07-25",
-    "score": 66,
+    "updated": "2026-08-08",
+    "score": 68,
     "sector": "IT서비스",
     "breakdown": {
       "strength": 11,
       "weakness": 13,
       "opportunity": 29,
-      "threat": 13
+      "threat": 15
     },
     "sector_max": {
       "strength": 20,
@@ -7521,13 +7521,13 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 36.77,
+      "per": 33.26,
       "per_txt": "적정",
-      "pbr": 3.44,
+      "pbr": 3.11,
       "pbr_txt": "고평가 주의",
-      "psr": 7.51,
+      "psr": 6.79,
       "psr_txt": "고평가 주의",
-      "peg": 0.43,
+      "peg": 0.39,
       "peg_txt": "저평가(성장대비)",
       "tgt": null,
       "upside": null,
@@ -7535,17 +7535,20 @@
       "roe": 2.38
     },
     "valuation_engine": {
-      "fair_value": 26563.0,
-      "band_low": 13759.0,
-      "band_high": 36136.0,
+      "fair_value": 25535.0,
+      "band_low": 13954.0,
+      "band_high": 47232.0,
       "confidence": "LOW",
-      "zone": "OVERHEATED",
-      "gap_pct": 79.0,
+      "method_spread": 2.007,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "zone": "FAIR",
+      "gap_pct": 68.4,
       "quality_gate_passed": true,
-      "action_label": "2차 매도 — 추가 1/3 매도",
-      "srim_mid": null,
-      "per_band_mid": 16990.0,
-      "pbr_roe_fair_value": 36136.0,
+      "action_label": "보유 (신규 매수 없음)",
+      "srim_mid": 34853.55684122807,
+      "per_band_mid": 17369.0,
+      "pbr_roe_fair_value": 28226.0,
       "nav_sotp_mid": null
     }
   },
