@@ -5291,14 +5291,14 @@
   },
   "010060": {
     "company": "OCI홀딩스",
-    "updated": "2026-08-05",
-    "score": 56,
+    "updated": "2026-08-08",
+    "score": 55,
     "sector": "에너지/화학",
     "breakdown": {
       "strength": 12,
       "weakness": 12,
       "opportunity": 11,
-      "threat": 21
+      "threat": 20
     },
     "sector_max": {
       "strength": 26,
@@ -5323,29 +5323,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 28.0,
+      "per": 32.0,
       "per_txt": "적정",
-      "pbr": 1.14,
+      "pbr": 1.26,
       "pbr_txt": "고평가 주의",
-      "psr": 5.15,
+      "psr": 5.7,
       "psr_txt": "고평가 주의",
-      "peg": 0.12,
+      "peg": 0.14,
       "peg_txt": "저평가(성장대비)",
       "tgt": 438000.0,
-      "upside": 78.0,
+      "upside": 60.7,
       "consensus_n": 5,
       "roe": 0.18
     },
     "valuation_engine": {
-      "fair_value": 54384.0,
-      "band_low": 25882.0,
-      "band_high": 79125.0,
+      "fair_value": 25882.0,
+      "band_low": 10126.0,
+      "band_high": 54384.0,
       "confidence": "LOW",
+      "method_spread": 2.685,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (24점 < 기준 30점) / 이자보상배율 미달 (0.3배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 71212.7686435284,
+      "srim_mid": 20251.03615627141,
       "per_band_mid": 54384.0,
       "pbr_roe_fair_value": 25882.0,
       "nav_sotp_mid": null
