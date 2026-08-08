@@ -6541,5 +6541,14 @@
     "score": 57,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 37/38)"
+  },
+  {
+    "date": "2026-08-09",
+    "filename": "108490_로보티즈/2026-08-09_로보티즈_108490.html",
+    "company": "로보티즈",
+    "ticker": "108490",
+    "score": 27,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 13/30)"
   }
 ]
