@@ -9237,13 +9237,13 @@
   },
   "425420": {
     "company": "티에프이",
-    "updated": "2026-07-25",
-    "score": 57,
+    "updated": "2026-08-09",
+    "score": 59,
     "sector": "반도체",
     "breakdown": {
       "strength": 17,
       "weakness": 18,
-      "opportunity": 7,
+      "opportunity": 9,
       "threat": 15
     },
     "sector_max": {
@@ -9269,30 +9269,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 20.68,
+      "per": 18.71,
       "per_txt": "적정",
-      "pbr": 3.23,
+      "pbr": 2.92,
       "pbr_txt": "고평가 주의",
-      "psr": 12.84,
+      "psr": 11.62,
       "psr_txt": "고평가 주의",
-      "peg": 1.77,
+      "peg": 1.6,
       "peg_txt": "적정",
       "tgt": 57250.0,
-      "upside": 70.4,
+      "upside": 88.3,
       "consensus_n": 4,
       "roe": 2.78
     },
     "valuation_engine": {
       "fair_value": 28216.0,
-      "band_low": 10854.0,
-      "band_high": 63592.0,
+      "band_low": 15275.0,
+      "band_high": 63217.0,
       "confidence": "LOW",
+      "method_spread": 3.223,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 19.1,
+      "gap_pct": 7.7,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 12211.085089807886,
-      "per_band_mid": 63592.0,
+      "srim_mid": 19614.323670119487,
+      "per_band_mid": 63217.0,
       "pbr_roe_fair_value": 28216.0,
       "nav_sotp_mid": null
     }
