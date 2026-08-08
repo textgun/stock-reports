@@ -3074,7 +3074,7 @@
   },
   "347850": {
     "company": "디앤디파마텍",
-    "updated": "2026-07-25",
+    "updated": "2026-08-08",
     "score": 37,
     "sector": "기타",
     "breakdown": {
@@ -3108,9 +3108,9 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 35.02,
+      "pbr": 33.78,
       "pbr_txt": "",
-      "psr": 21214.21,
+      "psr": 20467.18,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
@@ -3120,10 +3120,13 @@
       "roe": -13.63
     },
     "valuation_engine": {
-      "fair_value": null,
-      "band_low": null,
-      "band_high": null,
-      "confidence": "NONE",
+      "fair_value": 30092.0,
+      "band_low": 30092.0,
+      "band_high": 30092.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
