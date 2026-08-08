@@ -4187,14 +4187,14 @@
   },
   "047560": {
     "company": "이스트소프트",
-    "updated": "2026-07-25",
-    "score": 27,
+    "updated": "2026-08-08",
+    "score": 24,
     "sector": "IT서비스",
     "breakdown": {
       "strength": 2,
       "weakness": 6,
-      "opportunity": 6,
-      "threat": 13
+      "opportunity": 5,
+      "threat": 11
     },
     "sector_max": {
       "strength": 20,
@@ -4221,10 +4221,10 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 1.56,
+      "pbr": 1.68,
       "pbr_txt": "",
-      "psr": 2.93,
-      "psr_txt": "적정",
+      "psr": 3.14,
+      "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": null,
@@ -4233,10 +4233,13 @@
       "roe": -1.04
     },
     "valuation_engine": {
-      "fair_value": null,
-      "band_low": null,
-      "band_high": null,
-      "confidence": "NONE",
+      "fair_value": 17333.0,
+      "band_low": 12386.0,
+      "band_high": 22785.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
