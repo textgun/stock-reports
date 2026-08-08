@@ -4379,13 +4379,13 @@
   },
   "050890": {
     "company": "쏠리드",
-    "updated": "2026-07-25",
-    "score": 39,
+    "updated": "2026-08-08",
+    "score": 37,
     "sector": "기타",
     "breakdown": {
       "strength": 6,
       "weakness": 7,
-      "opportunity": 11,
+      "opportunity": 9,
       "threat": 15
     },
     "sector_max": {
@@ -4411,30 +4411,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 9.97,
+      "per": 10.77,
       "per_txt": "저평가",
-      "pbr": 1.46,
+      "pbr": 1.57,
       "pbr_txt": "고평가 주의",
-      "psr": 8.68,
+      "psr": 9.37,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 27400.0,
-      "upside": 201.1,
+      "upside": 178.7,
       "consensus_n": 5,
       "roe": 5.92
     },
     "valuation_engine": {
-      "fair_value": 21972.0,
-      "band_low": 7707.0,
+      "fair_value": 20056.0,
+      "band_low": 12907.0,
       "band_high": 28031.0,
-      "confidence": "LOW",
+      "confidence": "HIGH",
+      "method_spread": 1.697,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (13점 < 기준 30점) / 이자보상배율 미달 (-0.8배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 8669.96800598547,
-      "per_band_mid": 21972.0,
+      "srim_mid": 16519.348082238885,
+      "per_band_mid": 20056.0,
       "pbr_roe_fair_value": 28031.0,
       "nav_sotp_mid": null
     }
