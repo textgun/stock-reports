@@ -5542,5 +5542,14 @@
     "score": 50,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 31/32)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "000500_가온전선/2026-08-08_가온전선_000500.html",
+    "company": "가온전선",
+    "ticker": "000500",
+    "score": 39,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
   }
 ]
