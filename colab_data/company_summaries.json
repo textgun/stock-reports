@@ -2746,14 +2746,14 @@
   },
   "140860": {
     "company": "파크시스템스",
-    "updated": "2026-07-25",
-    "score": 50,
+    "updated": "2026-08-08",
+    "score": 47,
     "sector": "기타",
     "breakdown": {
       "strength": 3,
       "weakness": 22,
-      "opportunity": 13,
-      "threat": 12
+      "opportunity": 12,
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
@@ -2778,30 +2778,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 70.8,
-      "per_txt": "저평가",
-      "pbr": 7.56,
+      "per": 71.08,
+      "per_txt": "적정",
+      "pbr": 7.59,
       "pbr_txt": "고평가 주의",
-      "psr": 44.39,
+      "psr": 44.56,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
-      "tgt": 354750.0,
-      "upside": 42.2,
-      "consensus_n": 4,
+      "tgt": 353800.0,
+      "upside": 41.2,
+      "consensus_n": 5,
       "roe": 2.23
     },
     "valuation_engine": {
-      "fair_value": 184482.0,
-      "band_low": 62074.0,
-      "band_high": 284302.0,
-      "confidence": "LOW",
+      "fair_value": 183193.0,
+      "band_low": 144369.0,
+      "band_high": 283190.0,
+      "confidence": "HIGH",
+      "method_spread": 1.422,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (25점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 69833.29451175313,
-      "per_band_mid": 184482.0,
+      "srim_mid": 173466.07074016755,
+      "per_band_mid": 183193.0,
       "pbr_roe_fair_value": 246734.0,
       "nav_sotp_mid": null
     }
