@@ -5839,5 +5839,14 @@
     "score": 41,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 26/32)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "056190_에스에프에이/2026-08-08_에스에프에이_056190.html",
+    "company": "에스에프에이",
+    "ticker": "056190",
+    "score": 48,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
   }
 ]
