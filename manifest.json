@@ -5632,5 +5632,14 @@
     "score": 41,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "009450_경동나비엔/2026-08-08_경동나비엔_009450.html",
+    "company": "경동나비엔",
+    "ticker": "009450",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
