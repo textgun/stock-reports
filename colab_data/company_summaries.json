@@ -8607,14 +8607,14 @@
   },
   "213420": {
     "company": "덕산네오룩스",
-    "updated": "2026-07-25",
-    "score": 56,
+    "updated": "2026-08-08",
+    "score": 64,
     "sector": "기타",
     "breakdown": {
-      "strength": 20,
+      "strength": 22,
       "weakness": 17,
-      "opportunity": 5,
-      "threat": 14
+      "opportunity": 6,
+      "threat": 19
     },
     "sector_max": {
       "strength": 25,
@@ -8623,11 +8623,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "flat",
-      "yoy_pct": 72.6,
-      "rev_yoy_pct": 92.1,
-      "momentum_score": 7.0,
-      "correction_pts": 4
+      "qoq_trend": "recovering",
+      "yoy_pct": 80.0,
+      "rev_yoy_pct": 16.9,
+      "momentum_score": 9.0,
+      "correction_pts": 6
     },
     "trade": {
       "export_yoy": 16.19,
@@ -8639,30 +8639,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 11.99,
+      "per": 13.62,
       "per_txt": "적정",
-      "pbr": 1.55,
+      "pbr": 1.76,
       "pbr_txt": "고평가 주의",
-      "psr": 10.05,
+      "psr": 11.41,
       "psr_txt": "고평가 주의",
       "peg": 0.17,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 66800.0,
-      "upside": 126.4,
+      "tgt": 66100.0,
+      "upside": 97.3,
       "consensus_n": 5,
       "roe": 3.45
     },
     "valuation_engine": {
-      "fair_value": 56112.0,
-      "band_low": 22732.0,
+      "fair_value": 55736.0,
+      "band_low": 33143.0,
       "band_high": 82578.0,
       "confidence": "LOW",
+      "method_spread": 1.885,
+      "position_scale": 0.5,
+      "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -47.4,
+      "gap_pct": -39.9,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
-      "srim_mid": 25573.75087082083,
-      "per_band_mid": 56112.0,
+      "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 1.9배) → 목표비중 50%로 축소 매수",
+      "srim_mid": 43799.16919219148,
+      "per_band_mid": 55736.0,
       "pbr_roe_fair_value": 82578.0,
       "nav_sotp_mid": null
     }
