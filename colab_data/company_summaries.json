@@ -5220,14 +5220,14 @@
   },
   "003230": {
     "company": "삼양식품",
-    "updated": "2026-07-25",
-    "score": 64,
+    "updated": "2026-08-08",
+    "score": 66,
     "sector": "기타",
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 10,
-      "threat": 11
+      "opportunity": 15,
+      "threat": 8
     },
     "sector_max": {
       "strength": 25,
@@ -5252,30 +5252,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 19.94,
+      "per": 22.62,
       "per_txt": "적정",
-      "pbr": 6.24,
+      "pbr": 7.08,
       "pbr_txt": "고평가 주의",
-      "psr": 12.14,
+      "psr": 13.77,
       "psr_txt": "고평가 주의",
-      "peg": 0.62,
+      "peg": 0.7,
       "peg_txt": "저평가(성장대비)",
       "tgt": 1882000.0,
-      "upside": 63.5,
+      "upside": 44.1,
       "consensus_n": 5,
       "roe": 10.28
     },
     "valuation_engine": {
-      "fair_value": 1039663.0,
-      "band_low": 537685.0,
+      "fair_value": 1687956.0,
+      "band_low": 655683.0,
       "band_high": 2003817.0,
-      "confidence": "LOW",
-      "zone": "FAIR",
-      "gap_pct": 10.7,
+      "confidence": "HIGH",
+      "method_spread": 1.757,
+      "position_scale": 1.0,
+      "buy_signal_allowed": true,
+      "zone": "ACCUMULATE",
+      "gap_pct": -22.6,
       "quality_gate_passed": true,
-      "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 604896.0141632389,
-      "per_band_mid": 1039663.0,
+      "action_label": "1차 매수 존 (목표비중 33%까지)",
+      "srim_mid": 1687956.284639019,
+      "per_band_mid": 1049407.0,
       "pbr_roe_fair_value": 1843420.0,
       "nav_sotp_mid": null
     }
