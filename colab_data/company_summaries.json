@@ -9605,5 +9605,70 @@
       "pbr_roe_fair_value": 437.0,
       "nav_sotp_mid": null
     }
+  },
+  "222800": {
+    "company": "심텍",
+    "updated": "2026-08-08",
+    "score": 55,
+    "sector": "기타",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 17,
+      "opportunity": 11,
+      "threat": 17
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "improving",
+      "yoy_pct": 1035.4,
+      "rev_yoy_pct": 51.0,
+      "momentum_score": 10.0,
+      "correction_pts": 7
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 23.0,
+      "per_txt": "저평가",
+      "pbr": 6.88,
+      "pbr_txt": "고평가 주의",
+      "psr": 9.76,
+      "psr_txt": "고평가 주의",
+      "peg": 0.02,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 177000.0,
+      "upside": 60.9,
+      "consensus_n": 5,
+      "roe": 2.42
+    },
+    "valuation_engine": {
+      "fair_value": 37096.0,
+      "band_low": 26408.0,
+      "band_high": 54000.0,
+      "confidence": "MID",
+      "method_spread": 1.228,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (27점 < 기준 30점), 존과 무관하게 회피",
+      "srim_mid": null,
+      "per_band_mid": 40888.0,
+      "pbr_roe_fair_value": null,
+      "nav_sotp_mid": null
+    }
   }
 }
