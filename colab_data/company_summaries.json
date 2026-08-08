@@ -4471,7 +4471,7 @@
   },
   "115500": {
     "company": "케이씨에스",
-    "updated": "2026-07-25",
+    "updated": "2026-08-08",
     "score": 32,
     "sector": "IT서비스",
     "breakdown": {
@@ -4503,13 +4503,13 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 35.59,
+      "per": 37.91,
       "per_txt": "적정",
-      "pbr": 5.26,
+      "pbr": 5.6,
       "pbr_txt": "고평가 주의",
-      "psr": 18.42,
+      "psr": 19.62,
       "psr_txt": "고평가 주의",
-      "peg": 8.28,
+      "peg": 8.82,
       "peg_txt": "고평가 주의",
       "tgt": null,
       "upside": null,
@@ -4517,16 +4517,19 @@
       "roe": 1.76
     },
     "valuation_engine": {
-      "fair_value": 2749.0,
-      "band_low": 2156.0,
+      "fair_value": 3944.0,
+      "band_low": 2318.0,
       "band_high": 19584.0,
       "confidence": "LOW",
+      "method_spread": 3.856,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (14점 < 기준 22점) / 이자보상배율 미달 (1.7배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 2425.6479850937494,
-      "per_band_mid": 10457.0,
+      "srim_mid": 2672.2534657559454,
+      "per_band_mid": 10303.0,
       "pbr_roe_fair_value": 2749.0,
       "nav_sotp_mid": null
     }
