@@ -1889,13 +1889,13 @@
   },
   "064400": {
     "company": "LG씨엔에스",
-    "updated": "2026-08-05",
-    "score": 48,
+    "updated": "2026-08-08",
+    "score": 52,
     "sector": "IT서비스",
     "breakdown": {
       "strength": 8,
       "weakness": 11,
-      "opportunity": 14,
+      "opportunity": 18,
       "threat": 15
     },
     "sector_max": {
@@ -1921,29 +1921,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 15.39,
+      "per": 15.24,
       "per_txt": "저평가",
-      "pbr": 2.43,
+      "pbr": 2.41,
       "pbr_txt": "고평가 주의",
-      "psr": 5.4,
+      "psr": 5.35,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 100000.0,
-      "upside": 36.4,
+      "upside": 37.7,
       "consensus_n": 5,
       "roe": 2.76
     },
     "valuation_engine": {
-      "fair_value": 69433.0,
-      "band_low": 52332.0,
+      "fair_value": 104830.0,
+      "band_low": 66700.0,
       "band_high": 239859.0,
       "confidence": "LOW",
+      "method_spread": 3.596,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (19점 < 기준 22점), 존과 무관하게 회피",
-      "srim_mid": 58873.74355300318,
+      "srim_mid": 137287.06082233926,
       "per_band_mid": 72372.0,
       "pbr_roe_fair_value": 239859.0,
       "nav_sotp_mid": null
