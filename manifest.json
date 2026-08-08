@@ -6568,5 +6568,14 @@
     "score": 28,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 14/32)"
+  },
+  {
+    "date": "2026-08-09",
+    "filename": "240810_원익IPS/2026-08-09_원익IPS_240810.html",
+    "company": "원익IPS",
+    "ticker": "240810",
+    "score": 43,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
   }
 ]
