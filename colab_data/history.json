@@ -22718,6 +22718,17 @@
           "opportunity": 5,
           "threat": 11
         }
+      },
+      {
+        "date": "2026-08-08",
+        "total_score": 49,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 17,
+          "opportunity": 5,
+          "threat": 11
+        }
       }
     ]
   },
