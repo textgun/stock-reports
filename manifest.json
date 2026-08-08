@@ -5677,5 +5677,14 @@
     "score": 48,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "011070_LG이노텍/2026-08-08_LG이노텍_011070.html",
+    "company": "LG이노텍",
+    "ticker": "011070",
+    "score": 60,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
   }
 ]
