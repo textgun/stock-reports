@@ -5230,6 +5230,17 @@
           "opportunity": 6,
           "threat": 7
         }
+      },
+      {
+        "date": "2026-08-08",
+        "total_score": 37,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 16,
+          "opportunity": 6,
+          "threat": 9
+        }
       }
     ]
   },
