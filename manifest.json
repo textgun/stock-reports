@@ -6001,5 +6001,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "089030_테크윙/2026-08-08_테크윙_089030.html",
+    "company": "테크윙",
+    "ticker": "089030",
+    "score": 44,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
