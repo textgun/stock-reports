@@ -7456,7 +7456,7 @@
   },
   "317400": {
     "company": "자이에스앤디",
-    "updated": "2026-08-05",
+    "updated": "2026-08-09",
     "score": 54,
     "sector": "기타",
     "breakdown": {
@@ -7488,30 +7488,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 8.73,
+      "per": 9.64,
       "per_txt": "저평가",
-      "pbr": 0.64,
+      "pbr": 0.7,
       "pbr_txt": "고평가 주의",
-      "psr": 1.08,
+      "psr": 1.19,
       "psr_txt": "적정",
       "peg": 0.02,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 6020.0,
-      "upside": -20.1,
+      "tgt": 6820.0,
+      "upside": -18.0,
       "consensus_n": 5,
       "roe": 1.22
     },
     "valuation_engine": {
-      "fair_value": 5094.0,
-      "band_low": 2662.0,
-      "band_high": 11948.0,
-      "confidence": "LOW",
+      "fair_value": 3565.0,
+      "band_low": 2661.0,
+      "band_high": 24744.0,
+      "confidence": "HIGH",
+      "method_spread": 1.537,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (27점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 10753.443451988245,
-      "per_band_mid": 5094.0,
+      "srim_mid": null,
+      "per_band_mid": 5090.0,
       "pbr_roe_fair_value": 3311.0,
       "nav_sotp_mid": null
     }
