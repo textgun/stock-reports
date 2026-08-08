@@ -6711,14 +6711,14 @@
   },
   "373220": {
     "company": "LG에너지솔루션",
-    "updated": "2026-08-05",
-    "score": 19,
+    "updated": "2026-08-09",
+    "score": 24,
     "sector": "2차전지",
     "breakdown": {
       "strength": 0,
       "weakness": 4,
-      "opportunity": 7,
-      "threat": 8
+      "opportunity": 8,
+      "threat": 12
     },
     "sector_max": {
       "strength": 20,
@@ -6743,29 +6743,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 204.0,
+      "per": 219.0,
       "per_txt": "고평가 주의",
-      "pbr": 3.54,
+      "pbr": 3.8,
       "pbr_txt": "",
-      "psr": 11.98,
+      "psr": 12.85,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 522000.0,
-      "upside": 55.6,
+      "upside": 45.0,
       "consensus_n": 5,
       "roe": -3.16
     },
     "valuation_engine": {
-      "fair_value": 24410.0,
-      "band_low": 7249.0,
-      "band_high": 551693.0,
+      "fair_value": 7249.0,
+      "band_low": 3196.0,
+      "band_high": 551323.0,
       "confidence": "LOW",
+      "method_spread": 60.029,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (4점 < 기준 20점) / 이자보상배율 미달 (-0.2배 < 기준 2.0배), 존과 무관하게 회피",
-      "srim_mid": 24409.668738461536,
+      "srim_mid": 6392.978036368324,
       "per_band_mid": null,
       "pbr_roe_fair_value": 7249.0,
       "nav_sotp_mid": null
