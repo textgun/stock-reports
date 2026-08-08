@@ -5257,15 +5257,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "267250_HD현대/2026-08-08_HD현대_267250.html",
-    "company": "HD현대",
-    "ticker": "267250",
-    "score": 58,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "278470_에이피알/2026-08-08_에이피알_278470.html",
     "company": "에이피알",
     "ticker": "278470",
@@ -5497,5 +5488,14 @@
     "score": 71,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "267250_HD현대/2026-08-08_HD현대_267250.html",
+    "company": "HD현대",
+    "ticker": "267250",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
