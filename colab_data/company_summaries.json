@@ -6110,14 +6110,14 @@
   },
   "083450": {
     "company": "GST",
-    "updated": "2026-07-27",
-    "score": 57,
+    "updated": "2026-08-08",
+    "score": 58,
     "sector": "반도체",
     "breakdown": {
       "strength": 21,
       "weakness": 11,
       "opportunity": 11,
-      "threat": 14
+      "threat": 15
     },
     "sector_max": {
       "strength": 25,
@@ -6142,30 +6142,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 14.42,
+      "per": 16.3,
       "per_txt": "적정",
-      "pbr": 2.49,
+      "pbr": 2.82,
       "pbr_txt": "고평가 주의",
-      "psr": 6.84,
+      "psr": 7.73,
       "psr_txt": "고평가 주의",
-      "peg": 0.13,
+      "peg": 0.15,
       "peg_txt": "저평가(성장대비)",
-      "tgt": null,
-      "upside": null,
-      "consensus_n": 0,
+      "tgt": 65000.0,
+      "upside": 33.7,
+      "consensus_n": 1,
       "roe": 5.54
     },
     "valuation_engine": {
-      "fair_value": 31378.0,
+      "fair_value": 72209.0,
       "band_low": 7695.0,
       "band_high": 139418.0,
       "confidence": "LOW",
-      "zone": "FAIR",
-      "gap_pct": 37.0,
+      "method_spread": 9.719,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "zone": "ACCUMULATE",
+      "gap_pct": -32.7,
       "quality_gate_passed": true,
-      "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 31378.029131609117,
-      "per_band_mid": 14353.0,
+      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 9.7배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
+      "srim_mid": 72208.97468873221,
+      "per_band_mid": 14345.0,
       "pbr_roe_fair_value": 139418.0,
       "nav_sotp_mid": null
     }
