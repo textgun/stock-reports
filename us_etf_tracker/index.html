@@ -71,7 +71,7 @@ tbody tr:hover td {background:#202329}
       <a class="pill" href="../etf_tracker/">🇰🇷 KR ETF 트래커</a>
       <a class="pill" href="../us_heatmap.html">🇺🇸 US 히트맵</a>
       <a class="pill" href="../kr_heatmap.html">🇰🇷 KR 히트맵</a>
-      <span class="pill">업데이트 2026-08-08 12:44</span>
+      <span class="pill">업데이트 2026-08-08 12:46</span>
     </div>
   </div>
 
@@ -212,10 +212,14 @@ function showHoldings(idx, ticker) {
   const etf = ETFS.find(e => e.ticker === ticker);
   if (!etf) return;
   document.getElementById('modal-title').textContent = etf.name + ' (' + etf.ticker + ') — Top Holdings';
-  document.getElementById('modal-note').textContent = etf.no_holdings
-    ? '이 ETF는 주식 구성종목이 없습니다 — 원자재 현물·개별 채권·스왑/선물로 익스포저를 만드는 구조입니다.'
-    : '출처 yfinance · 상위 ' + (etf.top10 || []).length + '개'
-      + (etf.holdings ? ' (전체 편입 ' + etf.holdings + '개)' : '');
+  const nh = (etf.top10 || []).length;
+  document.getElementById('modal-note').textContent = nh === 0
+    ? (etf.no_holdings
+        ? '주식 구성종목이 없는 유형입니다 — 원자재 현물·개별 채권·스왑/선물로 익스포저를 만드는 구조입니다.'
+        : '구성종목을 불러오지 못했습니다.')
+    : '출처 yfinance · 상위 ' + nh + '개'
+      + (etf.holdings ? ' (전체 편입 ' + etf.holdings + '개)' : '')
+      + (etf.no_holdings ? ' · 주식이 아닌 채권·스왑 등 파생 포지션이 포함됩니다.' : '');
   const tbody = document.getElementById('modal-body');
   tbody.innerHTML = '';
   (etf.top10 || []).forEach(h => {
