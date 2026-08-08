@@ -6244,5 +6244,14 @@
     "score": 39,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 21/30)"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "234340_헥토파이낸셜/2026-08-08_헥토파이낸셜_234340.html",
+    "company": "헥토파이낸셜",
+    "ticker": "234340",
+    "score": 48,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
