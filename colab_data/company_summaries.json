@@ -8953,14 +8953,14 @@
   },
   "307950": {
     "company": "현대오토에버",
-    "updated": "2026-08-05",
-    "score": 40,
+    "updated": "2026-08-08",
+    "score": 38,
     "sector": "IT서비스",
     "breakdown": {
       "strength": 8,
       "weakness": 11,
-      "opportunity": 14,
-      "threat": 7
+      "opportunity": 8,
+      "threat": 11
     },
     "sector_max": {
       "strength": 20,
@@ -8985,29 +8985,32 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 62.87,
+      "per": 62.49,
       "per_txt": "고평가 주의",
-      "pbr": 6.24,
+      "pbr": 6.21,
       "pbr_txt": "고평가 주의",
-      "psr": 12.15,
+      "psr": 12.08,
       "psr_txt": "고평가 주의",
-      "peg": 5.61,
+      "peg": 5.58,
       "peg_txt": "고평가 주의",
       "tgt": 606000.0,
-      "upside": 46.2,
+      "upside": 47.1,
       "consensus_n": 5,
       "roe": 1.01
     },
     "valuation_engine": {
-      "fair_value": 219577.0,
-      "band_low": 71618.0,
-      "band_high": 323947.0,
+      "fair_value": 219526.0,
+      "band_low": 80574.0,
+      "band_high": 323818.0,
       "confidence": "LOW",
+      "method_spread": 2.234,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (19점 < 기준 22점), 존과 무관하게 회피",
-      "srim_mid": 80569.76194897592,
+      "srim_mid": 114145.05346538484,
       "per_band_mid": 254985.0,
       "pbr_roe_fair_value": 204409.0,
       "nav_sotp_mid": null
