@@ -6514,5 +6514,14 @@
     "score": 54,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+  },
+  {
+    "date": "2026-08-09",
+    "filename": "011780_금호석유화학/2026-08-09_금호석유화학_011780.html",
+    "company": "금호석유화학",
+    "ticker": "011780",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
   }
 ]
