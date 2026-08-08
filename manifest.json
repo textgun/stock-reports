@@ -5257,15 +5257,6 @@
   },
   {
     "date": "2026-08-08",
-    "filename": "071050_한국금융지주/2026-08-08_한국금융지주_071050.html",
-    "company": "한국금융지주",
-    "ticker": "071050",
-    "score": 63,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-08",
     "filename": "079550_LIG디펜스앤에어로스페이스/2026-08-08_LIG디펜스앤에어로스페이스_079550.html",
     "company": "LIG디펜스앤에어로스페이스",
     "ticker": "079550",
@@ -5495,6 +5486,15 @@
     "company": "셀트리온",
     "ticker": "068270",
     "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "071050_한국금융지주/2026-08-08_한국금융지주_071050.html",
+    "company": "한국금융지주",
+    "ticker": "071050",
+    "score": 63,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
