@@ -5884,5 +5884,14 @@
     "score": 55,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-08",
+    "filename": "074600_원익QnC/2026-08-08_원익QnC_074600.html",
+    "company": "원익QnC",
+    "ticker": "074600",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
   }
 ]
