@@ -35,6 +35,8 @@ header.page .spacer { flex:1; }
 .btn { border:1px solid var(--border); background:var(--surface-1); color:var(--ink-2);
   border-radius:8px; padding:4px 12px; font-size:13px; cursor:pointer; font-family:inherit; }
 .btn:hover { background:var(--hover-wash); }
+/* <a>에 .btn을 쓰면 inline이라 패딩이 어긋나고 밑줄·링크색이 남는다 */
+a.btn { display:inline-block; text-decoration:none; line-height:1.7; }
 .status { font-size:12.5px; color:var(--ink-3); }
 .status.busy::before { content:"⟳ "; }
 
@@ -173,6 +175,8 @@ footer a { color:var(--ink-3); }
   <span class="spacer"></span>
   <span class="status" id="status"></span>
   <button class="btn" id="refresh-btn" style="display:none">↻ 갱신</button>
+  <!-- 메인 대시보드 복귀 (reports/etf_tracker/ → reports/index.html). US 트래커의 '← 메인으로'와 같은 역할 -->
+  <a class="btn" href="../index.html">← 메인 대시보드</a>
   <button class="btn" id="theme-btn">◐ 테마</button>
 </header>
 
