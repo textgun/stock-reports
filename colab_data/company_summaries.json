@@ -3,11 +3,11 @@
     "company": "삼성전자",
     "sector": "반도체",
     "updated": "2026-08-10",
-    "score": 62,
+    "score": 59,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 12,
+      "opportunity": 9,
       "threat": 7
     },
     "sector_max": {
@@ -34,7 +34,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 21,
+      "hope_score": 18,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -416,11 +416,11 @@
     "company": "파두",
     "sector": "반도체",
     "updated": "2026-08-10",
-    "score": 56,
+    "score": 57,
     "breakdown": {
       "strength": 24,
       "weakness": 14,
-      "opportunity": 8,
+      "opportunity": 9,
       "threat": 10
     },
     "sector_max": {
@@ -447,7 +447,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 20,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -552,11 +552,11 @@
     "company": "LIG디펜스앤에어로스페이스",
     "sector": "방산",
     "updated": "2026-08-10",
-    "score": 67,
+    "score": 68,
     "breakdown": {
       "strength": 16,
       "weakness": 20,
-      "opportunity": 19,
+      "opportunity": 20,
       "threat": 12
     },
     "sector_max": {
@@ -583,8 +583,8 @@
     },
     "reality_hope": {
       "reality_score": 38,
-      "hope_score": 29,
-      "quadrant": "현실 강함  🟢"
+      "hope_score": 30,
+      "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
     "valuation": {
@@ -2107,11 +2107,11 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-08-10",
-    "score": 68,
+    "score": 67,
     "breakdown": {
       "strength": 25,
       "weakness": 17,
-      "opportunity": 10,
+      "opportunity": 9,
       "threat": 16
     },
     "sector_max": {
@@ -2138,7 +2138,7 @@
     },
     "reality_hope": {
       "reality_score": 39,
-      "hope_score": 28,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -4920,11 +4920,11 @@
     "company": "파마리서치",
     "sector": "기타",
     "updated": "2026-08-10",
-    "score": 72,
+    "score": 73,
     "breakdown": {
       "strength": 24,
       "weakness": 17,
-      "opportunity": 11,
+      "opportunity": 12,
       "threat": 20
     },
     "sector_max": {
@@ -4951,8 +4951,8 @@
     },
     "reality_hope": {
       "reality_score": 42,
-      "hope_score": 29,
-      "quadrant": "현실 강함  🟢"
+      "hope_score": 30,
+      "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
     "valuation": {
