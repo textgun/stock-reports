@@ -6604,5 +6604,14 @@
     "score": 71,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-08-11",
+    "filename": "161580_필옵틱스/2026-08-11_필옵틱스_161580.html",
+    "company": "필옵틱스",
+    "ticker": "161580",
+    "score": 30,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
   }
 ]
