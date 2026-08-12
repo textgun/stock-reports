@@ -144,11 +144,11 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-08-12",
-    "score": 65,
+    "score": 67,
     "breakdown": {
       "strength": 20,
       "weakness": 17,
-      "opportunity": 17,
+      "opportunity": 19,
       "threat": 11
     },
     "sector_max": {
@@ -175,7 +175,7 @@
     },
     "reality_hope": {
       "reality_score": 37,
-      "hope_score": 27,
+      "hope_score": 29,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -3427,10 +3427,10 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 4147.7,
-      "rev_yoy_pct": 292.5,
-      "momentum_score": 10.0,
+      "qoq_trend": "flat",
+      "yoy_pct": 673.9,
+      "rev_yoy_pct": null,
+      "momentum_score": 8.5,
       "correction_pts": 0
     },
     "trade": {
