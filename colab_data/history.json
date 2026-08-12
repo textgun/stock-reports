@@ -708,12 +708,12 @@
       },
       {
         "date": "2026-08-12",
-        "total_score": 65,
+        "total_score": 67,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 20,
           "weakness": 17,
-          "opportunity": 17,
+          "opportunity": 19,
           "threat": 11
         }
       }
