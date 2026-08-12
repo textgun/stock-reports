@@ -1975,7 +1975,7 @@
   },
   "007660": {
     "company": "이수페타시스",
-    "updated": "2026-08-08",
+    "updated": "2026-08-12",
     "score": 62,
     "sector": "반도체",
     "breakdown": {
@@ -2007,33 +2007,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 34.7,
+      "per": 38.24,
       "per_txt": "고평가 주의",
-      "pbr": 7.59,
+      "pbr": 8.36,
       "pbr_txt": "고평가 주의",
-      "psr": 17.75,
+      "psr": 19.57,
       "psr_txt": "고평가 주의",
-      "peg": 0.85,
+      "peg": 0.93,
       "peg_txt": "저평가(성장대비)",
       "tgt": 182000.0,
-      "upside": 121.1,
+      "upside": 100.7,
       "consensus_n": 5,
       "roe": 6.33
     },
     "valuation_engine": {
-      "fair_value": 83253.0,
+      "fair_value": 83304.0,
       "band_low": 58716.0,
       "band_high": 108480.0,
       "confidence": "HIGH",
       "method_spread": 1.559,
       "position_scale": 1.0,
-      "buy_signal_allowed": true,
-      "zone": "ACCUMULATE",
-      "gap_pct": -1.1,
+      "buy_signal_allowed": false,
+      "zone": "FAIR",
+      "gap_pct": 8.9,
       "quality_gate_passed": true,
-      "action_label": "1차 매수 존 (목표비중 33%까지)",
+      "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 69596.94268278517,
-      "per_band_mid": 83253.0,
+      "per_band_mid": 83304.0,
       "pbr_roe_fair_value": 108480.0,
       "nav_sotp_mid": null
     }
