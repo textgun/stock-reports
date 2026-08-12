@@ -6622,5 +6622,14 @@
     "score": 53,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
+  },
+  {
+    "date": "2026-08-12",
+    "filename": "103590_일진전기/2026-08-12_일진전기_103590.html",
+    "company": "일진전기",
+    "ticker": "103590",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
