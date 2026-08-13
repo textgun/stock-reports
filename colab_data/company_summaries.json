@@ -6369,14 +6369,14 @@
   },
   "041510": {
     "company": "에스엠",
-    "updated": "2026-08-08",
-    "score": 58,
+    "updated": "2026-08-13",
+    "score": 56,
     "sector": "기타",
     "breakdown": {
       "strength": 17,
       "weakness": 22,
       "opportunity": 7,
-      "threat": 12
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
@@ -6401,30 +6401,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 13.16,
+      "per": 12.68,
       "per_txt": "저평가",
-      "pbr": 1.73,
+      "pbr": 1.67,
       "pbr_txt": "고평가 주의",
-      "psr": 6.2,
+      "psr": 5.97,
       "psr_txt": "고평가 주의",
-      "peg": 1.19,
+      "peg": 1.14,
       "peg_txt": "적정",
-      "tgt": 115600.0,
-      "upside": 52.9,
+      "tgt": 113800.0,
+      "upside": 56.3,
       "consensus_n": 5,
       "roe": 2.71
     },
     "valuation_engine": {
-      "fair_value": 129716.0,
-      "band_low": 72192.0,
-      "band_high": 739149.0,
+      "fair_value": 149648.0,
+      "band_low": 71373.0,
+      "band_high": 738571.0,
       "confidence": "HIGH",
+      "method_spread": 1.348,
+      "position_scale": 1.0,
+      "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -41.7,
+      "gap_pct": -51.4,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지)",
-      "srim_mid": 105211.49889033184,
-      "per_band_mid": 129716.0,
+      "srim_mid": 174007.28494271945,
+      "per_band_mid": 129098.0,
       "pbr_roe_fair_value": 149648.0,
       "nav_sotp_mid": null
     }
