@@ -622,13 +622,13 @@
   "000660": {
     "company": "SK하이닉스",
     "sector": "반도체",
-    "updated": "2026-08-12",
-    "score": 66,
+    "updated": "2026-08-13",
+    "score": 68,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
       "opportunity": 13,
-      "threat": 10
+      "threat": 12
     },
     "sector_max": {
       "strength": 25,
@@ -664,30 +664,33 @@
       "exec_count": 9
     },
     "valuation": {
-      "per": 13.74,
+      "per": 15.65,
       "per_txt": "적정",
-      "pbr": 6.13,
+      "pbr": 6.98,
       "pbr_txt": "고평가 주의",
-      "psr": 19.76,
+      "psr": 22.51,
       "psr_txt": "고평가 주의",
-      "peg": 0.02,
+      "peg": 0.03,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 3620000.0,
-      "upside": 154.6,
+      "tgt": 3380000.0,
+      "upside": 108.6,
       "consensus_n": 5,
       "roe": 24.54
     },
     "valuation_engine": {
       "fair_value": 1498023.0,
-      "band_low": 420672.0,
-      "band_high": 1719890.0,
+      "band_low": 803903.0,
+      "band_high": 1697554.0,
       "confidence": "LOW",
-      "zone": "ACCUMULATE",
-      "gap_pct": -5.1,
+      "method_spread": 1.815,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "zone": "FAIR",
+      "gap_pct": 8.1,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW — 매수 신호 보류 (ACCUMULATE 참고용, 방법 간 편차가 커 판단 유보 권장)",
-      "srim_mid": 473256.47491880367,
-      "per_band_mid": 1719890.0,
+      "action_label": "보유 (신규 매수 없음)",
+      "srim_mid": 935362.9281772167,
+      "per_band_mid": 1697554.0,
       "pbr_roe_fair_value": 1498023.0,
       "nav_sotp_mid": null
     }
