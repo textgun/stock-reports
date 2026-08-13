@@ -144,11 +144,11 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-08-13",
-    "score": 72,
+    "score": 70,
     "breakdown": {
       "strength": 20,
       "weakness": 17,
-      "opportunity": 19,
+      "opportunity": 17,
       "threat": 16
     },
     "sector_max": {
@@ -175,7 +175,7 @@
     },
     "reality_hope": {
       "reality_score": 37,
-      "hope_score": 34,
+      "hope_score": 32,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
@@ -1185,11 +1185,11 @@
     "company": "삼성바이오로직스",
     "sector": "바이오",
     "updated": "2026-08-13",
-    "score": 55,
+    "score": 56,
     "breakdown": {
       "strength": 14,
       "weakness": 8,
-      "opportunity": 14,
+      "opportunity": 15,
       "threat": 19
     },
     "sector_max": {
@@ -1216,7 +1216,7 @@
     },
     "reality_hope": {
       "reality_score": 37,
-      "hope_score": 24,
+      "hope_score": 25,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1590,11 +1590,11 @@
     "company": "LG",
     "sector": "지주사",
     "updated": "2026-08-13",
-    "score": 54,
+    "score": 57,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 11,
+      "opportunity": 14,
       "threat": 10
     },
     "sector_max": {
@@ -1621,7 +1621,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 18,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
