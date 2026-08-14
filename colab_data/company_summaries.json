@@ -6629,14 +6629,14 @@
   },
   "006730": {
     "company": "서부T&D",
-    "updated": "2026-08-08",
-    "score": 61,
+    "updated": "2026-08-14",
+    "score": 63,
     "sector": "내수/유통",
     "breakdown": {
       "strength": 20,
       "weakness": 25,
       "opportunity": 7,
-      "threat": 9
+      "threat": 11
     },
     "sector_max": {
       "strength": 32,
@@ -6661,16 +6661,16 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 8.43,
+      "per": 8.58,
       "per_txt": "저평가",
-      "pbr": 0.67,
+      "pbr": 0.68,
       "pbr_txt": "고평가 주의",
-      "psr": 10.83,
+      "psr": 11.01,
       "psr_txt": "고평가 주의",
-      "peg": 0.22,
+      "peg": 0.23,
       "peg_txt": "저평가(성장대비)",
       "tgt": 17666.666666666668,
-      "upside": 58.7,
+      "upside": 56.1,
       "consensus_n": 3,
       "roe": 0.43
     },
@@ -6683,7 +6683,7 @@
       "position_scale": 1.0,
       "buy_signal_allowed": true,
       "zone": "DEEP_VALUE",
-      "gap_pct": -49.7,
+      "gap_pct": -48.9,
       "quality_gate_passed": true,
       "action_label": "3차 매수 존 (목표비중 100%까지)",
       "srim_mid": 22144.077626595543,
