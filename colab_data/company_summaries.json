@@ -7409,14 +7409,14 @@
   },
   "322000": {
     "company": "HD현대에너지솔루션",
-    "updated": "2026-08-08",
-    "score": 66,
+    "updated": "2026-08-14",
+    "score": 64,
     "sector": "에너지/화학",
     "breakdown": {
       "strength": 24,
       "weakness": 13,
       "opportunity": 12,
-      "threat": 17
+      "threat": 15
     },
     "sector_max": {
       "strength": 26,
@@ -7441,33 +7441,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 22.02,
+      "per": 21.1,
       "per_txt": "저평가",
-      "pbr": 3.25,
+      "pbr": 3.11,
       "pbr_txt": "고평가 주의",
-      "psr": 8.95,
+      "psr": 8.58,
       "psr_txt": "고평가 주의",
-      "peg": 0.16,
+      "peg": 0.15,
       "peg_txt": "저평가(성장대비)",
       "tgt": 253200.0,
-      "upside": 98.1,
+      "upside": 106.7,
       "consensus_n": 5,
       "roe": 5.05
     },
     "valuation_engine": {
       "fair_value": 14060.0,
       "band_low": 4443.0,
-      "band_high": 242484.0,
+      "band_high": 241179.0,
       "confidence": "LOW",
-      "method_spread": 27.286,
+      "method_spread": 27.14,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 809.0,
+      "gap_pct": 771.3,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 8886.606634052485,
-      "per_band_mid": 242484.0,
+      "per_band_mid": 241179.0,
       "pbr_roe_fair_value": 14060.0,
       "nav_sotp_mid": null
     }
