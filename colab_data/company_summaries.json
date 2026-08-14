@@ -699,11 +699,11 @@
     "company": "신한지주",
     "sector": "금융",
     "updated": "2026-08-14",
-    "score": 60,
+    "score": 61,
     "breakdown": {
       "strength": 20,
       "weakness": 15,
-      "opportunity": 10,
+      "opportunity": 11,
       "threat": 15
     },
     "sector_max": {
@@ -730,7 +730,7 @@
     },
     "reality_hope": {
       "reality_score": 36,
-      "hope_score": 23,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -835,11 +835,11 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-08-14",
-    "score": 58,
+    "score": 60,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 7,
+      "opportunity": 9,
       "threat": 18
     },
     "sector_max": {
@@ -866,7 +866,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 23,
+      "hope_score": 25,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1112,11 +1112,11 @@
     "company": "셀트리온",
     "sector": "바이오",
     "updated": "2026-08-14",
-    "score": 68,
+    "score": 67,
     "breakdown": {
       "strength": 17,
       "weakness": 7,
-      "opportunity": 21,
+      "opportunity": 20,
       "threat": 23
     },
     "sector_max": {
@@ -1143,7 +1143,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 33,
+      "hope_score": 32,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": {
@@ -4929,11 +4929,11 @@
     "company": "파마리서치",
     "sector": "기타",
     "updated": "2026-08-14",
-    "score": 67,
+    "score": 66,
     "breakdown": {
       "strength": 24,
       "weakness": 17,
-      "opportunity": 12,
+      "opportunity": 11,
       "threat": 14
     },
     "sector_max": {
@@ -4960,7 +4960,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 26,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -10050,11 +10050,11 @@
     "company": "SK텔레콤",
     "sector": "플랫폼",
     "updated": "2026-08-14",
-    "score": 61,
+    "score": 63,
     "breakdown": {
       "strength": 12,
       "weakness": 14,
-      "opportunity": 11,
+      "opportunity": 13,
       "threat": 24
     },
     "sector_max": {
@@ -10081,8 +10081,8 @@
     },
     "reality_hope": {
       "reality_score": 33,
-      "hope_score": 28,
-      "quadrant": "현실 강함  🟢"
+      "hope_score": 30,
+      "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
     "valuation": null,
