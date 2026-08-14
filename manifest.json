@@ -6715,15 +6715,6 @@
   },
   {
     "date": "2026-08-14",
-    "filename": "322000_HD현대에너지솔루션/2026-08-14_HD현대에너지솔루션_322000.html",
-    "company": "HD현대에너지솔루션",
-    "ticker": "322000",
-    "score": 64,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-14",
     "filename": "008260_NI스틸/2026-08-14_NI스틸_008260.html",
     "company": "NI스틸",
     "ticker": "008260",
@@ -6791,6 +6782,15 @@
     "company": "KB금융",
     "ticker": "105560",
     "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-14",
+    "filename": "322000_HD현대에너지솔루션/2026-08-14_HD현대에너지솔루션_322000.html",
+    "company": "HD현대에너지솔루션",
+    "ticker": "322000",
+    "score": 61,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
