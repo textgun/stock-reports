@@ -2,7 +2,7 @@
   "date": "2026-08-14",
   "year": 2026,
   "quarter": 1,
-  "generated_at": "2026-08-14T15:52:14.929359",
+  "generated_at": "2026-08-14T15:53:04.465678",
   "config": {
     "buy_threshold": 65,
     "max_positions": 3,
@@ -60,7 +60,7 @@
       "momentum_3m": 4.71,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:48:57.518601",
+      "generated_at": "2026-08-14T15:49:54.532163",
       "buy_score_ref": 79,
       "score_drop_from_buy": 0,
       "consecutive_drops": 0
@@ -97,7 +97,7 @@
       "momentum_3m": 30.69,
       "momentum_6m": 30.41,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:48:54.333939",
+      "generated_at": "2026-08-14T15:49:52.226483",
       "buy_score_ref": 72,
       "score_drop_from_buy": 0,
       "consecutive_drops": 0,
@@ -135,7 +135,7 @@
       "momentum_3m": -3.93,
       "momentum_6m": 74.08,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:11.276279",
+      "generated_at": "2026-08-14T15:50:09.983325",
       "consecutive_drops": 0
     }
   ],
@@ -172,7 +172,7 @@
       "momentum_3m": -3.23,
       "momentum_6m": 36.25,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:13.583602",
+      "generated_at": "2026-08-14T15:50:12.482505",
       "consecutive_drops": 0,
       "sector_overflow": true
     },
@@ -208,7 +208,7 @@
       "momentum_3m": -4.63,
       "momentum_6m": 43.06,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:44.742382",
+      "generated_at": "2026-08-14T15:50:43.557372",
       "consecutive_drops": 0,
       "sector_leader": true
     },
@@ -244,7 +244,7 @@
       "momentum_3m": -3.38,
       "momentum_6m": 42.89,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:39.903110",
+      "generated_at": "2026-08-14T15:50:38.081081",
       "consecutive_drops": 0,
       "sector_overflow": true
     }
@@ -282,7 +282,7 @@
       "momentum_3m": -3.38,
       "momentum_6m": 42.89,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:39.903110",
+      "generated_at": "2026-08-14T15:50:38.081081",
       "consecutive_drops": 0,
       "sector_overflow": true
     },
@@ -318,7 +318,7 @@
       "momentum_3m": 14.53,
       "momentum_6m": -14.18,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:37.551660",
+      "generated_at": "2026-08-14T15:50:35.774421",
       "buy_score_ref": 70,
       "score_drop_from_buy": 3,
       "consecutive_drops": 1,
@@ -356,7 +356,7 @@
       "momentum_3m": -3.23,
       "momentum_6m": 36.25,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:13.583602",
+      "generated_at": "2026-08-14T15:50:12.482505",
       "consecutive_drops": 0,
       "sector_overflow": true
     },
@@ -392,7 +392,7 @@
       "momentum_3m": -4.63,
       "momentum_6m": 43.06,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:44.742382",
+      "generated_at": "2026-08-14T15:50:43.557372",
       "consecutive_drops": 0,
       "sector_leader": true
     },
@@ -428,7 +428,7 @@
       "momentum_3m": -15.8,
       "momentum_6m": -28.57,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:07.639474",
+      "generated_at": "2026-08-14T15:50:06.827057",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -464,7 +464,7 @@
       "momentum_3m": -32.31,
       "momentum_6m": -42.16,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:29.924790",
+      "generated_at": "2026-08-14T15:50:30.599489",
       "consecutive_drops": 0,
       "momentum_downgraded": true,
       "sector_overflow": true
@@ -501,7 +501,7 @@
       "momentum_3m": -10.71,
       "momentum_6m": 83.78,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:42.411894",
+      "generated_at": "2026-08-14T15:50:40.608181",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -537,7 +537,7 @@
       "momentum_3m": -34.07,
       "momentum_6m": 26.36,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:05.252004",
+      "generated_at": "2026-08-14T15:50:04.413550",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -573,7 +573,7 @@
       "momentum_3m": 28.09,
       "momentum_6m": 13.03,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:32.433652",
+      "generated_at": "2026-08-14T15:50:33.033678",
       "buy_score_ref": 73,
       "score_drop_from_buy": 7,
       "consecutive_drops": 2
@@ -610,7 +610,7 @@
       "momentum_3m": -30.0,
       "momentum_6m": -29.16,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:02.940708",
+      "generated_at": "2026-08-14T15:50:01.018141",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -646,7 +646,7 @@
       "momentum_3m": -12.45,
       "momentum_6m": -12.94,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:15.852042",
+      "generated_at": "2026-08-14T15:50:16.413547",
       "consecutive_drops": 0
     },
     {
@@ -681,7 +681,7 @@
       "momentum_3m": -0.5,
       "momentum_6m": 22.7,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:49.744112",
+      "generated_at": "2026-08-14T15:50:48.836397",
       "consecutive_drops": 0
     },
     {
@@ -716,7 +716,7 @@
       "momentum_3m": -7.76,
       "momentum_6m": 15.34,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:47.045577",
+      "generated_at": "2026-08-14T15:50:46.418481",
       "consecutive_drops": 0
     },
     {
@@ -751,7 +751,7 @@
       "momentum_3m": 15.36,
       "momentum_6m": 7.08,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:52.322423",
+      "generated_at": "2026-08-14T15:50:51.602535",
       "consecutive_drops": 0
     },
     {
@@ -786,7 +786,7 @@
       "momentum_3m": 9.87,
       "momentum_6m": 0.96,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:54.641581",
+      "generated_at": "2026-08-14T15:50:54.287188",
       "consecutive_drops": 0
     },
     {
@@ -821,7 +821,7 @@
       "momentum_3m": 16.64,
       "momentum_6m": 5.46,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:57.656172",
+      "generated_at": "2026-08-14T15:50:56.584527",
       "consecutive_drops": 0
     },
     {
@@ -856,7 +856,7 @@
       "momentum_3m": -16.6,
       "momentum_6m": 7.01,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:48:59.863348",
+      "generated_at": "2026-08-14T15:49:58.046726",
       "consecutive_drops": 0
     },
     {
@@ -891,7 +891,7 @@
       "momentum_3m": 3.29,
       "momentum_6m": 24.43,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:21.939749",
+      "generated_at": "2026-08-14T15:50:21.461997",
       "consecutive_drops": 0
     },
     {
@@ -926,7 +926,7 @@
       "momentum_3m": 26.79,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:24.425058",
+      "generated_at": "2026-08-14T15:50:24.094244",
       "consecutive_drops": 0
     },
     {
@@ -961,7 +961,7 @@
       "momentum_3m": 10.65,
       "momentum_6m": 7.54,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:18.384695",
+      "generated_at": "2026-08-14T15:50:18.983613",
       "consecutive_drops": 0
     },
     {
@@ -996,7 +996,7 @@
       "momentum_3m": 12.12,
       "momentum_6m": -9.65,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:50:00.034481",
+      "generated_at": "2026-08-14T15:50:58.810476",
       "consecutive_drops": 1
     },
     {
@@ -1031,7 +1031,7 @@
       "momentum_3m": -25.81,
       "momentum_6m": -23.55,
       "vix_downgraded": false,
-      "generated_at": "2026-08-14T15:49:27.297273",
+      "generated_at": "2026-08-14T15:50:27.565544",
       "consecutive_drops": 0,
       "deferral": true,
       "deferral_day": 1,
@@ -1070,7 +1070,7 @@
       "rsi": null,
       "momentum_3m": -32.11,
       "momentum_6m": 19.96,
-      "generated_at": "2026-08-14T15:50:37.734519"
+      "generated_at": "2026-08-14T15:51:37.220936"
     },
     {
       "ticker": "041510",
@@ -1098,7 +1098,7 @@
       "rsi": null,
       "momentum_3m": -17.05,
       "momentum_6m": -39.23,
-      "generated_at": "2026-08-14T15:50:37.734541"
+      "generated_at": "2026-08-14T15:51:37.220961"
     }
   ],
   "valuation_watchlist": [],
