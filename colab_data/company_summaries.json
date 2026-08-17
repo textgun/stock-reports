@@ -3,11 +3,11 @@
     "company": "삼성전자",
     "sector": "반도체",
     "updated": "2026-08-17",
-    "score": 65,
+    "score": 67,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 10,
+      "opportunity": 12,
       "threat": 12
     },
     "sector_max": {
@@ -34,7 +34,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 24,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -626,11 +626,11 @@
     "company": "SK하이닉스",
     "sector": "반도체",
     "updated": "2026-08-17",
-    "score": 66,
+    "score": 68,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 11,
+      "opportunity": 13,
       "threat": 12
     },
     "sector_max": {
@@ -657,7 +657,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 26,
+      "hope_score": 28,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -7946,11 +7946,11 @@
     "company": "한화에어로스페이스",
     "sector": "방산",
     "updated": "2026-08-17",
-    "score": 59,
+    "score": 58,
     "breakdown": {
       "strength": 21,
       "weakness": 10,
-      "opportunity": 13,
+      "opportunity": 12,
       "threat": 15
     },
     "sector_max": {
@@ -7977,7 +7977,7 @@
     },
     "reality_hope": {
       "reality_score": 31,
-      "hope_score": 28,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
