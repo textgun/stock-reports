@@ -2,7 +2,7 @@
   "date": "2026-08-17",
   "year": 2026,
   "quarter": 2,
-  "generated_at": "2026-08-17T09:32:37.575343",
+  "generated_at": "2026-08-17T14:31:59.373155",
   "config": {
     "buy_threshold": 65,
     "max_positions": 3,
@@ -60,7 +60,7 @@
       "momentum_3m": 12.15,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:30:51.641192",
+      "generated_at": "2026-08-17T14:30:13.134425",
       "buy_score_ref": 79,
       "score_drop_from_buy": -1,
       "consecutive_drops": 0,
@@ -98,7 +98,7 @@
       "momentum_3m": 38.29,
       "momentum_6m": 32.82,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:30:49.628363",
+      "generated_at": "2026-08-17T14:30:10.984561",
       "buy_score_ref": 72,
       "score_drop_from_buy": -5,
       "consecutive_drops": 0
@@ -135,7 +135,7 @@
       "momentum_3m": 17.55,
       "momentum_6m": -13.75,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:17.814503",
+      "generated_at": "2026-08-17T14:30:44.192239",
       "buy_score_ref": 70,
       "score_drop_from_buy": 1,
       "consecutive_drops": 0,
@@ -175,7 +175,7 @@
       "momentum_3m": -12.55,
       "momentum_6m": 6.88,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:30:53.641679",
+      "generated_at": "2026-08-17T14:30:15.294261",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -211,7 +211,7 @@
       "momentum_3m": 38.29,
       "momentum_6m": 32.82,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:30:49.628363",
+      "generated_at": "2026-08-17T14:30:10.984561",
       "buy_score_ref": 72,
       "score_drop_from_buy": -5,
       "consecutive_drops": 0
@@ -248,7 +248,7 @@
       "momentum_3m": 17.55,
       "momentum_6m": -13.75,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:17.814503",
+      "generated_at": "2026-08-17T14:30:44.192239",
       "buy_score_ref": 70,
       "score_drop_from_buy": 1,
       "consecutive_drops": 0,
@@ -288,10 +288,46 @@
       "momentum_3m": 34.92,
       "momentum_6m": 12.75,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:15.759515",
+      "generated_at": "2026-08-17T14:30:41.956659",
       "buy_score_ref": 73,
       "score_drop_from_buy": 3,
       "consecutive_drops": 0,
+      "sector_overflow": true
+    },
+    {
+      "ticker": "005930",
+      "strategy": "momentum",
+      "name": "삼성전자",
+      "sector": "반도체",
+      "score": 67,
+      "adj_score": 66.4,
+      "score_delta": -2.0,
+      "delta_source": "history",
+      "rating": "BUY",
+      "rating_original": "BUY",
+      "phase_adjusted": false,
+      "financial_ok": true,
+      "breakdown": {
+        "financial": 43,
+        "momentum": 24
+      },
+      "reality_score": 43,
+      "reality_pct": 43,
+      "hope_score": 27,
+      "hope_pct": 27,
+      "quadrant": "현실 강함  🟢",
+      "position_pct": 10.37,
+      "amount_krw": 3111000,
+      "rsi": 52.94,
+      "rsi_label": "중립 (52.9)",
+      "adr_signal": "ok",
+      "adr_desc": "ADR 소진율 33% — 진입 여력 있음 (↑2.4% / ADR 7.3%)",
+      "adr_factor": 0.5,
+      "momentum_3m": -0.54,
+      "momentum_6m": 44.47,
+      "vix_downgraded": false,
+      "generated_at": "2026-08-17T14:30:50.412173",
+      "consecutive_drops": 1,
       "sector_overflow": true
     },
     {
@@ -326,7 +362,7 @@
       "momentum_3m": 0.13,
       "momentum_6m": 36.78,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:01.680764",
+      "generated_at": "2026-08-17T14:30:23.795242",
       "consecutive_drops": 0,
       "sector_overflow": true
     },
@@ -362,45 +398,9 @@
       "momentum_3m": -3.53,
       "momentum_6m": 44.02,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:21.773325",
+      "generated_at": "2026-08-17T14:30:48.420012",
       "consecutive_drops": 0,
       "sector_leader": true
-    },
-    {
-      "ticker": "005930",
-      "strategy": "momentum",
-      "name": "삼성전자",
-      "sector": "반도체",
-      "score": 65,
-      "adj_score": 63.8,
-      "score_delta": -4.0,
-      "delta_source": "history",
-      "rating": "BUY",
-      "rating_original": "BUY",
-      "phase_adjusted": false,
-      "financial_ok": true,
-      "breakdown": {
-        "financial": 43,
-        "momentum": 22
-      },
-      "reality_score": 43,
-      "reality_pct": 43,
-      "hope_score": 24,
-      "hope_pct": 24,
-      "quadrant": "현실 강함  🟢",
-      "position_pct": 10.0,
-      "amount_krw": 3000000,
-      "rsi": 52.94,
-      "rsi_label": "중립 (52.9)",
-      "adr_signal": "ok",
-      "adr_desc": "ADR 소진율 33% — 진입 여력 있음 (↑2.4% / ADR 7.3%)",
-      "adr_factor": 0.5,
-      "momentum_3m": -0.54,
-      "momentum_6m": 44.47,
-      "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:23.836583",
-      "consecutive_drops": 1,
-      "sector_overflow": true
     },
     {
       "ticker": "071050",
@@ -434,7 +434,7 @@
       "momentum_3m": -12.26,
       "momentum_6m": -28.04,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:30:57.578284",
+      "generated_at": "2026-08-17T14:30:19.418146",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -443,9 +443,9 @@
       "strategy": "momentum",
       "name": "SK하이닉스",
       "sector": "반도체",
-      "score": 66,
-      "adj_score": 65.4,
-      "score_delta": -2.0,
+      "score": 68,
+      "adj_score": 68.0,
+      "score_delta": 0.0,
       "delta_source": "history",
       "rating": "BUY",
       "rating_original": "BUY",
@@ -453,15 +453,15 @@
       "financial_ok": true,
       "breakdown": {
         "financial": 43,
-        "momentum": 23
+        "momentum": 25
       },
       "reality_score": 43,
       "reality_pct": 43,
-      "hope_score": 26,
-      "hope_pct": 26,
+      "hope_score": 28,
+      "hope_pct": 28,
       "quadrant": "현실 강함  🟢",
-      "position_pct": 10.19,
-      "amount_krw": 3057000,
+      "position_pct": 10.56,
+      "amount_krw": 3168000,
       "rsi": 44.23,
       "rsi_label": "중립 (44.2)",
       "adr_signal": "ok",
@@ -470,8 +470,8 @@
       "momentum_3m": -5.73,
       "momentum_6m": 84.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:19.764838",
-      "consecutive_drops": 1,
+      "generated_at": "2026-08-17T14:30:46.298758",
+      "consecutive_drops": 0,
       "momentum_downgraded": true
     },
     {
@@ -506,7 +506,7 @@
       "momentum_3m": -12.55,
       "momentum_6m": 6.88,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:30:53.641679",
+      "generated_at": "2026-08-17T14:30:15.294261",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -542,7 +542,7 @@
       "momentum_3m": -2.16,
       "momentum_6m": 76.03,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:30:59.614414",
+      "generated_at": "2026-08-17T14:30:21.581699",
       "consecutive_drops": 1
     },
     {
@@ -577,7 +577,7 @@
       "momentum_3m": -9.07,
       "momentum_6m": -12.94,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:03.634614",
+      "generated_at": "2026-08-17T14:30:25.857123",
       "consecutive_drops": 1
     },
     {
@@ -612,7 +612,7 @@
       "momentum_3m": 15.05,
       "momentum_6m": 5.3,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:25.755283",
+      "generated_at": "2026-08-17T14:30:52.507815",
       "consecutive_drops": 0
     },
     {
@@ -647,7 +647,7 @@
       "momentum_3m": -31.17,
       "momentum_6m": -41.7,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:13.703523",
+      "generated_at": "2026-08-17T14:30:35.977243",
       "consecutive_drops": 1
     },
     {
@@ -682,7 +682,7 @@
       "momentum_3m": 14.26,
       "momentum_6m": 7.08,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:27.803610",
+      "generated_at": "2026-08-17T14:30:54.676746",
       "consecutive_drops": 0
     },
     {
@@ -717,7 +717,7 @@
       "momentum_3m": -24.67,
       "momentum_6m": -16.96,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:29.710994",
+      "generated_at": "2026-08-17T14:30:56.787006",
       "consecutive_drops": 0
     },
     {
@@ -725,9 +725,9 @@
       "strategy": "momentum",
       "name": "한화에어로스페이스",
       "sector": "방산",
-      "score": 59,
-      "adj_score": 61.7,
-      "score_delta": 9.0,
+      "score": 58,
+      "adj_score": 60.4,
+      "score_delta": 8.0,
       "delta_source": "history",
       "rating": "HOLD",
       "rating_original": "HOLD",
@@ -735,12 +735,12 @@
       "financial_ok": true,
       "breakdown": {
         "financial": 31,
-        "momentum": 28
+        "momentum": 27
       },
       "reality_score": 31,
       "reality_pct": 31,
-      "hope_score": 28,
-      "hope_pct": 28,
+      "hope_score": 27,
+      "hope_pct": 27,
       "quadrant": "현실 강함  🟢",
       "position_pct": 0.0,
       "amount_krw": 0,
@@ -752,7 +752,7 @@
       "momentum_3m": -7.13,
       "momentum_6m": 0.96,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:31.706717",
+      "generated_at": "2026-08-17T14:30:58.884133",
       "consecutive_drops": 0
     },
     {
@@ -787,7 +787,7 @@
       "momentum_3m": 11.07,
       "momentum_6m": 1.2,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:33.634944",
+      "generated_at": "2026-08-17T14:31:00.893452",
       "consecutive_drops": 1
     },
     {
@@ -822,7 +822,7 @@
       "momentum_3m": 25.33,
       "momentum_6m": 100.0,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:09.668231",
+      "generated_at": "2026-08-17T14:30:31.939629",
       "consecutive_drops": 0
     },
     {
@@ -857,7 +857,7 @@
       "momentum_3m": 2.45,
       "momentum_6m": 23.31,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:35.616977",
+      "generated_at": "2026-08-17T14:31:02.896827",
       "consecutive_drops": 1
     },
     {
@@ -892,7 +892,7 @@
       "momentum_3m": 13.26,
       "momentum_6m": 7.89,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:05.700131",
+      "generated_at": "2026-08-17T14:30:27.898784",
       "consecutive_drops": 0
     },
     {
@@ -927,7 +927,7 @@
       "momentum_3m": 16.39,
       "momentum_6m": 25.26,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:07.686726",
+      "generated_at": "2026-08-17T14:30:29.923420",
       "consecutive_drops": 1
     },
     {
@@ -962,7 +962,7 @@
       "momentum_3m": -21.85,
       "momentum_6m": -22.98,
       "vix_downgraded": false,
-      "generated_at": "2026-08-17T09:31:11.691000",
+      "generated_at": "2026-08-17T14:30:33.952541",
       "consecutive_drops": 0,
       "deferral": true,
       "deferral_day": 1,
@@ -1001,7 +1001,7 @@
       "rsi": null,
       "momentum_3m": -13.03,
       "momentum_6m": -38.47,
-      "generated_at": "2026-08-17T09:31:57.171203"
+      "generated_at": "2026-08-17T14:31:22.085393"
     },
     {
       "ticker": "062040",
@@ -1029,7 +1029,7 @@
       "rsi": null,
       "momentum_3m": -25.66,
       "momentum_6m": 24.74,
-      "generated_at": "2026-08-17T09:31:57.171223"
+      "generated_at": "2026-08-17T14:31:22.085412"
     }
   ],
   "valuation_watchlist": [],
