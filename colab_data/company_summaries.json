@@ -5273,14 +5273,14 @@
   },
   "043260": {
     "company": "성호전자",
-    "updated": "2026-08-08",
-    "score": 57,
+    "updated": "2026-08-18",
+    "score": 59,
     "sector": "전기장비/전력",
     "breakdown": {
-      "strength": 15,
+      "strength": 10,
       "weakness": 21,
-      "opportunity": 8,
-      "threat": 13
+      "opportunity": 11,
+      "threat": 17
     },
     "sector_max": {
       "strength": 26,
@@ -5289,11 +5289,11 @@
       "threat": 22
     },
     "earnings": {
-      "qoq_trend": "flat",
-      "yoy_pct": 100.0,
-      "rev_yoy_pct": 11.4,
-      "momentum_score": 7.0,
-      "correction_pts": 2
+      "qoq_trend": "recovering",
+      "yoy_pct": 422.0,
+      "rev_yoy_pct": 50.7,
+      "momentum_score": 8.5,
+      "correction_pts": 6
     },
     "trade": {
       "export_yoy": null,
@@ -5305,33 +5305,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 2.95,
+      "per": 3.51,
       "per_txt": "저평가",
-      "pbr": 2.1,
-      "pbr_txt": "저평가",
-      "psr": 18.71,
+      "pbr": 2.5,
+      "pbr_txt": "",
+      "psr": 17.66,
       "psr_txt": "고평가 주의",
-      "peg": 0.03,
+      "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
       "tgt": 85000.0,
-      "upside": 393.9,
+      "upside": 314.6,
       "consensus_n": 0,
-      "roe": 54.6
+      "roe": -10.93
     },
     "valuation_engine": {
       "fair_value": 49684.0,
-      "band_low": 16092.0,
-      "band_high": 84238.0,
+      "band_low": 15721.0,
+      "band_high": 85231.0,
       "confidence": "LOW",
-      "method_spread": 4.489,
+      "method_spread": 4.649,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "ACCUMULATE",
-      "gap_pct": -65.4,
+      "gap_pct": -58.7,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 4.5배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
-      "srim_mid": 18767.056640829032,
-      "per_band_mid": 84238.0,
+      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 4.6배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
+      "srim_mid": 18334.696889025592,
+      "per_band_mid": 85231.0,
       "pbr_roe_fair_value": 49684.0,
       "nav_sotp_mid": null
     }
