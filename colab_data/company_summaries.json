@@ -9516,13 +9516,13 @@
   },
   "257720": {
     "company": "실리콘투",
-    "updated": "2026-08-12",
-    "score": 69,
+    "updated": "2026-08-18",
+    "score": 65,
     "sector": "플랫폼",
     "breakdown": {
       "strength": 22,
       "weakness": 12,
-      "opportunity": 24,
+      "opportunity": 20,
       "threat": 11
     },
     "sector_max": {
@@ -9532,11 +9532,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 35.2,
-      "rev_yoy_pct": 41.1,
+      "qoq_trend": "improving",
+      "yoy_pct": 59.0,
+      "rev_yoy_pct": 51.8,
       "momentum_score": 10.0,
-      "correction_pts": 5
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": null,
@@ -9548,33 +9548,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 16.68,
+      "per": 15.85,
       "per_txt": "적정",
-      "pbr": 6.23,
+      "pbr": 5.92,
       "pbr_txt": "고평가 주의",
-      "psr": 5671.08,
+      "psr": 7209.37,
       "psr_txt": "고평가 주의",
-      "peg": 0.47,
+      "peg": 0.27,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 56600.0,
-      "upside": 20.8,
+      "tgt": 57600.0,
+      "upside": 29.4,
       "consensus_n": 5,
-      "roe": 11.05
+      "roe": 10.5
     },
     "valuation_engine": {
-      "fair_value": 66626.0,
+      "fair_value": 66556.0,
       "band_low": 58.0,
-      "band_high": 132791.0,
+      "band_high": 132701.0,
       "confidence": "LOW",
-      "method_spread": 2.027,
+      "method_spread": 2.018,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -29.7,
+      "gap_pct": -33.1,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.0배) → 목표비중 50%로 축소 매수",
       "srim_mid": 69755.42695593521,
-      "per_band_mid": 63497.0,
+      "per_band_mid": 63356.0,
       "pbr_roe_fair_value": 75160.0,
       "nav_sotp_mid": null
     }
