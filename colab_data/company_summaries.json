@@ -629,12 +629,12 @@
     "company": "SK하이닉스",
     "sector": "반도체",
     "updated": "2026-08-19",
-    "score": 69,
+    "score": 63,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
       "opportunity": 11,
-      "threat": 15
+      "threat": 9
     },
     "sector_max": {
       "strength": 25,
@@ -670,33 +670,33 @@
       "exec_count": 9
     },
     "valuation": {
-      "per": 15.65,
+      "per": 14.93,
       "per_txt": "적정",
-      "pbr": 6.98,
+      "pbr": 6.67,
       "pbr_txt": "고평가 주의",
-      "psr": 22.51,
+      "psr": 14.24,
       "psr_txt": "고평가 주의",
       "peg": 0.03,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 3380000.0,
-      "upside": 108.6,
+      "tgt": 3320000.0,
+      "upside": 114.7,
       "consensus_n": 5,
-      "roe": 24.54
+      "roe": 35.75
     },
     "valuation_engine": {
       "fair_value": 1498023.0,
       "band_low": 803903.0,
-      "band_high": 1697554.0,
+      "band_high": 1693831.0,
       "confidence": "LOW",
-      "method_spread": 1.815,
+      "method_spread": 1.811,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 8.1,
+      "gap_pct": 3.2,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 935362.9281772167,
-      "per_band_mid": 1697554.0,
+      "per_band_mid": 1693831.0,
       "pbr_roe_fair_value": 1498023.0,
       "nav_sotp_mid": null
     }
