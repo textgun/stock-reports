@@ -7063,5 +7063,14 @@
     "score": 32,
     "rating": "AVOID",
     "rating_label": "회피 ✗"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "000270_기아/2026-08-19_기아_000270.html",
+    "company": "기아",
+    "ticker": "000270",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
