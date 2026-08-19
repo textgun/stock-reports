@@ -7468,5 +7468,14 @@
     "score": 60,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "074610_이엔플러스/2026-08-19_이엔플러스_074610.html",
+    "company": "이엔플러스",
+    "ticker": "074610",
+    "score": 18,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 7/30)"
   }
 ]
