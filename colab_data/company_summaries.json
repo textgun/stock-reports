@@ -2688,13 +2688,13 @@
   },
   "082920": {
     "company": "비츠로셀",
-    "updated": "2026-08-08",
-    "score": 67,
+    "updated": "2026-08-19",
+    "score": 64,
     "sector": "전기장비/전력",
     "breakdown": {
-      "strength": 24,
+      "strength": 20,
       "weakness": 16,
-      "opportunity": 12,
+      "opportunity": 13,
       "threat": 15
     },
     "sector_max": {
@@ -2705,10 +2705,10 @@
     },
     "earnings": {
       "qoq_trend": "declining",
-      "yoy_pct": 21.5,
-      "rev_yoy_pct": 35.0,
-      "momentum_score": 6.0,
-      "correction_pts": 4
+      "yoy_pct": 16.3,
+      "rev_yoy_pct": 34.8,
+      "momentum_score": 4.5,
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": null,
@@ -2720,34 +2720,34 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 21.91,
+      "per": 21.81,
       "per_txt": "저평가",
-      "pbr": 4.1,
+      "pbr": 4.3,
       "pbr_txt": "고평가 주의",
-      "psr": 20.5,
+      "psr": 20.33,
       "psr_txt": "고평가 주의",
-      "peg": 1.02,
+      "peg": 1.34,
       "peg_txt": "적정",
       "tgt": 54200.0,
-      "upside": 74.8,
+      "upside": 58.0,
       "consensus_n": 5,
-      "roe": 5.96
+      "roe": 4.82
     },
     "valuation_engine": {
       "fair_value": 36666.0,
-      "band_low": 8911.0,
-      "band_high": 68320.0,
+      "band_low": 9906.0,
+      "band_high": 72171.0,
       "confidence": "LOW",
-      "method_spread": 5.879,
+      "method_spread": 5.586,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "ACCUMULATE",
-      "gap_pct": -15.5,
+      "gap_pct": -6.5,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 5.9배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
+      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 5.6배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
       "srim_mid": 36666.204010756424,
-      "per_band_mid": 11622.0,
-      "pbr_roe_fair_value": 68320.0,
+      "per_band_mid": 12920.0,
+      "pbr_roe_fair_value": 72171.0,
       "nav_sotp_mid": null
     }
   },
