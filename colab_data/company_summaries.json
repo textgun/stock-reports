@@ -150,12 +150,12 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-08-19",
-    "score": 74,
+    "score": 80,
     "breakdown": {
       "strength": 25,
       "weakness": 17,
       "opportunity": 22,
-      "threat": 10
+      "threat": 16
     },
     "sector_max": {
       "strength": 25,
@@ -186,16 +186,16 @@
     },
     "extra": null,
     "valuation": {
-      "per": 13.08,
+      "per": 13.01,
       "per_txt": "저평가",
-      "pbr": 1.45,
+      "pbr": 1.44,
       "pbr_txt": "고평가 주의",
-      "psr": 10.11,
+      "psr": 10.06,
       "psr_txt": "고평가 주의",
-      "peg": 0.38,
+      "peg": 0.37,
       "peg_txt": "저평가(성장대비)",
       "tgt": 68500.0,
-      "upside": 17.1,
+      "upside": 17.7,
       "consensus_n": 2,
       "roe": 6.38
     },
@@ -208,7 +208,7 @@
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "ACCUMULATE",
-      "gap_pct": -47.0,
+      "gap_pct": -47.3,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 5.7배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
       "srim_mid": 110393.30832292482,
