@@ -8035,5 +8035,14 @@
     "score": 57,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "373220_LG에너지솔루션/2026-08-19_LG에너지솔루션_373220.html",
+    "company": "LG에너지솔루션",
+    "ticker": "373220",
+    "score": 29,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 4/20)"
   }
 ]
