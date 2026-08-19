@@ -7936,5 +7936,14 @@
     "score": 43,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "306620_지아이에스/2026-08-19_지아이에스_306620.html",
+    "company": "지아이에스",
+    "ticker": "306620",
+    "score": 33,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
   }
 ]
