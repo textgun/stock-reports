@@ -7081,5 +7081,14 @@
     "score": 39,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "000880_한화/2026-08-19_한화_000880.html",
+    "company": "한화",
+    "ticker": "000880",
+    "score": 41,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/26)"
   }
 ]
