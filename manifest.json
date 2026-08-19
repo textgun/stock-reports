@@ -6841,15 +6841,6 @@
   },
   {
     "date": "2026-08-19",
-    "filename": "236200_슈프리마/2026-08-19_슈프리마_236200.html",
-    "company": "슈프리마",
-    "ticker": "236200",
-    "score": 74,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-08-19",
     "filename": "402340_SK스퀘어/2026-08-19_SK스퀘어_402340.html",
     "company": "SK스퀘어",
     "ticker": "402340",
@@ -7045,5 +7036,14 @@
     "score": 50,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "236200_슈프리마/2026-08-19_슈프리마_236200.html",
+    "company": "슈프리마",
+    "ticker": "236200",
+    "score": 80,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★"
   }
 ]
