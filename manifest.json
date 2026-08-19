@@ -7108,5 +7108,14 @@
     "score": 66,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "005090_SGC에너지/2026-08-19_SGC에너지_005090.html",
+    "company": "SGC에너지",
+    "ticker": "005090",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
   }
 ]
