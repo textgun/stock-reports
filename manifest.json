@@ -7198,5 +7198,14 @@
     "score": 41,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "010060_OCI홀딩스/2026-08-19_OCI홀딩스_010060.html",
+    "company": "OCI홀딩스",
+    "ticker": "010060",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
