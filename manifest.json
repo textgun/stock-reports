@@ -7810,5 +7810,14 @@
     "score": 59,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "222800_심텍/2026-08-19_심텍_222800.html",
+    "company": "심텍",
+    "ticker": "222800",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
