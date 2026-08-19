@@ -8125,5 +8125,14 @@
     "score": 50,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "009830_한화솔루션/2026-08-19_한화솔루션_009830.html",
+    "company": "한화솔루션",
+    "ticker": "009830",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
   }
 ]
