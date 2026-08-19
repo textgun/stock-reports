@@ -3,12 +3,12 @@
     "company": "삼성전자",
     "sector": "반도체",
     "updated": "2026-08-19",
-    "score": 58,
+    "score": 66,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 9,
-      "threat": 6
+      "opportunity": 11,
+      "threat": 12
     },
     "sector_max": {
       "strength": 25,
@@ -34,7 +34,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 23,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -221,12 +221,12 @@
     "company": "SK스퀘어",
     "sector": "반도체",
     "updated": "2026-08-19",
-    "score": 73,
+    "score": 79,
     "breakdown": {
       "strength": 25,
       "weakness": 22,
       "opportunity": 15,
-      "threat": 11
+      "threat": 17
     },
     "sector_max": {
       "strength": 25,
@@ -292,12 +292,12 @@
     "company": "이오테크닉스",
     "sector": "반도체",
     "updated": "2026-08-19",
-    "score": 62,
+    "score": 68,
     "breakdown": {
       "strength": 22,
       "weakness": 17,
       "opportunity": 9,
-      "threat": 14
+      "threat": 20
     },
     "sector_max": {
       "strength": 25,
@@ -499,12 +499,12 @@
     "company": "한국금융지주",
     "sector": "금융",
     "updated": "2026-08-19",
-    "score": 65,
+    "score": 70,
     "breakdown": {
       "strength": 29,
       "weakness": 15,
       "opportunity": 13,
-      "threat": 8
+      "threat": 13
     },
     "sector_max": {
       "strength": 30,
@@ -570,12 +570,12 @@
     "company": "LIG디펜스앤에어로스페이스",
     "sector": "방산",
     "updated": "2026-08-19",
-    "score": 59,
+    "score": 62,
     "breakdown": {
       "strength": 11,
       "weakness": 20,
       "opportunity": 20,
-      "threat": 8
+      "threat": 11
     },
     "sector_max": {
       "strength": 24,
@@ -641,12 +641,12 @@
     "company": "SK하이닉스",
     "sector": "반도체",
     "updated": "2026-08-19",
-    "score": 63,
+    "score": 71,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 11,
-      "threat": 9
+      "opportunity": 13,
+      "threat": 15
     },
     "sector_max": {
       "strength": 25,
@@ -672,8 +672,8 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 29,
-      "quadrant": "현실 강함  🟢"
+      "hope_score": 31,
+      "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": {
       "employees": null,
@@ -717,12 +717,12 @@
     "company": "신한지주",
     "sector": "금융",
     "updated": "2026-08-19",
-    "score": 53,
+    "score": 58,
     "breakdown": {
       "strength": 20,
       "weakness": 15,
       "opportunity": 8,
-      "threat": 10
+      "threat": 15
     },
     "sector_max": {
       "strength": 30,
@@ -788,12 +788,12 @@
     "company": "삼성생명",
     "sector": "금융",
     "updated": "2026-08-19",
-    "score": 58,
+    "score": 63,
     "breakdown": {
       "strength": 22,
       "weakness": 15,
       "opportunity": 12,
-      "threat": 9
+      "threat": 14
     },
     "sector_max": {
       "strength": 30,
@@ -859,12 +859,12 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-08-19",
-    "score": 51,
+    "score": 57,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
       "opportunity": 6,
-      "threat": 12
+      "threat": 18
     },
     "sector_max": {
       "strength": 30,
@@ -930,12 +930,12 @@
     "company": "KB금융",
     "sector": "금융",
     "updated": "2026-08-19",
-    "score": 52,
+    "score": 57,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
       "opportunity": 8,
-      "threat": 10
+      "threat": 15
     },
     "sector_max": {
       "strength": 30,
@@ -1145,12 +1145,12 @@
     "company": "셀트리온",
     "sector": "바이오",
     "updated": "2026-08-19",
-    "score": 57,
+    "score": 65,
     "breakdown": {
       "strength": 17,
       "weakness": 8,
       "opportunity": 17,
-      "threat": 15
+      "threat": 23
     },
     "sector_max": {
       "strength": 18,
@@ -1490,12 +1490,12 @@
     "company": "HD현대",
     "sector": "조선",
     "updated": "2026-08-19",
-    "score": 54,
+    "score": 61,
     "breakdown": {
       "strength": 13,
       "weakness": 15,
       "opportunity": 9,
-      "threat": 17
+      "threat": 24
     },
     "sector_max": {
       "strength": 20,
@@ -1561,12 +1561,12 @@
     "company": "삼성화재해상보험",
     "sector": "금융",
     "updated": "2026-08-19",
-    "score": 52,
+    "score": 58,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
       "opportunity": 7,
-      "threat": 11
+      "threat": 17
     },
     "sector_max": {
       "strength": 30,
@@ -1592,7 +1592,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 22,
+      "hope_score": 23,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1663,7 +1663,7 @@
     },
     "reality_hope": {
       "reality_score": 32,
-      "hope_score": 18,
+      "hope_score": 20,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1701,14 +1701,14 @@
   },
   "084730": {
     "company": "팅크웨어",
-    "updated": "2026-08-08",
-    "score": 25,
+    "updated": "2026-08-19",
+    "score": 27,
     "sector": "기타",
     "breakdown": {
-      "strength": 0,
+      "strength": 3,
       "weakness": 7,
       "opportunity": 3,
-      "threat": 15
+      "threat": 14
     },
     "sector_max": {
       "strength": 25,
@@ -1717,11 +1717,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "deteriorating",
-      "yoy_pct": -1214.6,
-      "rev_yoy_pct": -16.0,
-      "momentum_score": 0.5,
-      "correction_pts": -3
+      "qoq_trend": "recovering",
+      "yoy_pct": -139.0,
+      "rev_yoy_pct": -3.4,
+      "momentum_score": 4.5,
+      "correction_pts": 0
     },
     "trade": {
       "export_yoy": null,
@@ -1735,31 +1735,31 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 0.42,
+      "pbr": 0.4,
       "pbr_txt": "",
-      "psr": 0.6,
+      "psr": 0.51,
       "psr_txt": "저평가",
       "peg": null,
       "peg_txt": "",
       "tgt": null,
       "upside": null,
       "consensus_n": 0,
-      "roe": -1.91
+      "roe": -2.14
     },
     "valuation_engine": {
-      "fair_value": 30854.0,
-      "band_low": 9983.0,
-      "band_high": 73117.0,
+      "fair_value": 30813.0,
+      "band_low": 9917.0,
+      "band_high": 73578.0,
       "confidence": "LOW",
-      "method_spread": 1.856,
+      "method_spread": 1.884,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
-      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (7점 < 기준 30점) / 이자보상배율 미달 (-2.2배 < 기준 2.0배), 존과 무관하게 회피",
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (10점 < 기준 30점) / 이자보상배율 미달 (-1.7배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": null,
-      "per_band_mid": 40100.0,
+      "per_band_mid": 40256.0,
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
@@ -2158,12 +2158,12 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-08-19",
-    "score": 64,
+    "score": 61,
     "breakdown": {
       "strength": 25,
       "weakness": 17,
       "opportunity": 17,
-      "threat": 5
+      "threat": 2
     },
     "sector_max": {
       "strength": 25,
@@ -2189,7 +2189,7 @@
     },
     "reality_hope": {
       "reality_score": 39,
-      "hope_score": 21,
+      "hope_score": 20,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -3470,12 +3470,12 @@
     "company": "펄어비스",
     "sector": "기타",
     "updated": "2026-08-19",
-    "score": 65,
+    "score": 62,
     "breakdown": {
       "strength": 25,
       "weakness": 19,
       "opportunity": 5,
-      "threat": 16
+      "threat": 13
     },
     "sector_max": {
       "strength": 25,
@@ -5052,14 +5052,14 @@
   },
   "084370": {
     "company": "유진테크",
-    "updated": "2026-08-08",
-    "score": 53,
+    "updated": "2026-08-19",
+    "score": 59,
     "sector": "반도체",
     "breakdown": {
-      "strength": 18,
+      "strength": 20,
       "weakness": 22,
-      "opportunity": 2,
-      "threat": 11
+      "opportunity": 7,
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
@@ -5068,11 +5068,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "improving",
-      "yoy_pct": 104.7,
-      "rev_yoy_pct": 22.5,
-      "momentum_score": 9.5,
-      "correction_pts": 5
+      "qoq_trend": "flat",
+      "yoy_pct": -7.7,
+      "rev_yoy_pct": 16.4,
+      "momentum_score": 4.0,
+      "correction_pts": 1
     },
     "trade": {
       "export_yoy": null,
@@ -5084,18 +5084,18 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 44.97,
+      "per": 54.06,
       "per_txt": "고평가 주의",
-      "pbr": 5.25,
+      "pbr": 6.31,
       "pbr_txt": "고평가 주의",
-      "psr": 25.01,
+      "psr": 25.09,
       "psr_txt": "고평가 주의",
-      "peg": 0.43,
-      "peg_txt": "저평가(성장대비)",
+      "peg": null,
+      "peg_txt": "",
       "tgt": 57200.0,
-      "upside": -48.6,
+      "upside": -57.2,
       "consensus_n": 5,
-      "roe": 4.46
+      "roe": 11.42
     },
     "valuation_engine": {
       "fair_value": 61111.0,
@@ -5106,7 +5106,7 @@
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 82.0,
+      "gap_pct": 118.8,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 44087.18793493291,
@@ -6092,14 +6092,14 @@
   },
   "088350": {
     "company": "한화생명",
-    "updated": "2026-08-08",
-    "score": 59,
+    "updated": "2026-08-19",
+    "score": 61,
     "sector": "금융",
     "breakdown": {
-      "strength": 18,
+      "strength": 23,
       "weakness": 18,
-      "opportunity": 10,
-      "threat": 13
+      "opportunity": 8,
+      "threat": 12
     },
     "sector_max": {
       "strength": 30,
@@ -6108,11 +6108,11 @@
       "threat": 22
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 29.5,
+      "qoq_trend": "improving",
+      "yoy_pct": 160.4,
       "rev_yoy_pct": null,
-      "momentum_score": 6.5,
-      "correction_pts": 1
+      "momentum_score": 10.0,
+      "correction_pts": 5
     },
     "trade": {
       "export_yoy": null,
@@ -6124,29 +6124,29 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 5.35,
+      "per": 6.35,
       "per_txt": "저평가",
-      "pbr": 0.23,
+      "pbr": 0.27,
       "pbr_txt": "적정",
-      "psr": 3.41,
+      "psr": 3.74,
       "psr_txt": "고평가 주의",
-      "peg": 0.18,
+      "peg": 0.04,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 6760.0,
-      "upside": 48.4,
+      "tgt": 6700.0,
+      "upside": 23.8,
       "consensus_n": 5,
-      "roe": 2.14
+      "roe": 2.71
     },
     "valuation_engine": {
       "fair_value": 5616.0,
       "band_low": 2808.0,
       "band_high": 8793.0,
       "confidence": "LOW",
-      "method_spread": 2.482,
+      "method_spread": 2.476,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -18.9,
+      "gap_pct": -3.7,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.5배) → 목표비중 50%로 축소 매수",
       "srim_mid": 5615.777036708412,
@@ -6293,14 +6293,14 @@
   },
   "083450": {
     "company": "GST",
-    "updated": "2026-08-08",
-    "score": 58,
+    "updated": "2026-08-19",
+    "score": 52,
     "sector": "반도체",
     "breakdown": {
-      "strength": 21,
-      "weakness": 11,
-      "opportunity": 11,
-      "threat": 15
+      "strength": 12,
+      "weakness": 14,
+      "opportunity": 16,
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
@@ -6309,11 +6309,11 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 110.3,
-      "rev_yoy_pct": 55.0,
-      "momentum_score": 7.5,
-      "correction_pts": 5
+      "qoq_trend": "flat",
+      "yoy_pct": -10.8,
+      "rev_yoy_pct": -0.2,
+      "momentum_score": 4.0,
+      "correction_pts": -1
     },
     "trade": {
       "export_yoy": null,
@@ -6325,18 +6325,18 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 16.3,
+      "per": 15.48,
       "per_txt": "적정",
-      "pbr": 2.82,
+      "pbr": 2.68,
       "pbr_txt": "고평가 주의",
-      "psr": 7.73,
+      "psr": 8.57,
       "psr_txt": "고평가 주의",
-      "peg": 0.15,
-      "peg_txt": "저평가(성장대비)",
+      "peg": null,
+      "peg_txt": "",
       "tgt": 65000.0,
-      "upside": 33.7,
+      "upside": 40.8,
       "consensus_n": 1,
-      "roe": 5.54
+      "roe": 3.73
     },
     "valuation_engine": {
       "fair_value": 72209.0,
@@ -6344,12 +6344,12 @@
       "band_high": 139418.0,
       "confidence": "LOW",
       "method_spread": 9.719,
-      "position_scale": 0.5,
+      "position_scale": 1.0,
       "buy_signal_allowed": false,
-      "zone": "ACCUMULATE",
-      "gap_pct": -32.7,
-      "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 9.7배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (26점 < 기준 30점), 존과 무관하게 회피",
       "srim_mid": 72208.97468873221,
       "per_band_mid": 14345.0,
       "pbr_roe_fair_value": 139418.0,
@@ -7658,14 +7658,14 @@
   },
   "086450": {
     "company": "동국제약",
-    "updated": "2026-08-08",
+    "updated": "2026-08-19",
     "score": 44,
     "sector": "바이오",
     "breakdown": {
       "strength": 11,
       "weakness": 7,
-      "opportunity": 11,
-      "threat": 15
+      "opportunity": 12,
+      "threat": 14
     },
     "sector_max": {
       "strength": 18,
@@ -7674,10 +7674,10 @@
       "threat": 32
     },
     "earnings": {
-      "qoq_trend": "recovering",
-      "yoy_pct": 8.0,
-      "rev_yoy_pct": 12.2,
-      "momentum_score": 6.5,
+      "qoq_trend": "flat",
+      "yoy_pct": 17.8,
+      "rev_yoy_pct": 10.9,
+      "momentum_score": 6.0,
       "correction_pts": 2
     },
     "trade": {
@@ -7690,33 +7690,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 11.71,
+      "per": 11.01,
       "per_txt": "저평가",
-      "pbr": 1.28,
+      "pbr": 1.2,
       "pbr_txt": "고평가 주의",
-      "psr": 3.48,
+      "psr": 3.17,
       "psr_txt": "고평가 주의",
-      "peg": 1.46,
-      "peg_txt": "적정",
+      "peg": 0.62,
+      "peg_txt": "저평가(성장대비)",
       "tgt": 23500.0,
-      "upside": 21.8,
+      "upside": 29.5,
       "consensus_n": 2,
-      "roe": 3.37
+      "roe": 2.16
     },
     "valuation_engine": {
-      "fair_value": 24101.0,
+      "fair_value": 24083.0,
       "band_low": 16469.0,
       "band_high": 39916.0,
       "confidence": "HIGH",
-      "method_spread": 1.78,
+      "method_spread": 1.783,
       "position_scale": 1.0,
       "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -19.9,
+      "gap_pct": -24.7,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지)",
       "srim_mid": 24332.014086534367,
-      "per_band_mid": 23870.0,
+      "per_band_mid": 23833.0,
       "pbr_roe_fair_value": 39916.0,
       "nav_sotp_mid": null
     }
@@ -7985,12 +7985,12 @@
     "company": "한화에어로스페이스",
     "sector": "방산",
     "updated": "2026-08-19",
-    "score": 49,
+    "score": 55,
     "breakdown": {
       "strength": 21,
       "weakness": 10,
       "opportunity": 12,
-      "threat": 6
+      "threat": 12
     },
     "sector_max": {
       "strength": 24,
@@ -8574,14 +8574,14 @@
   },
   "086280": {
     "company": "현대글로비스",
-    "updated": "2026-08-08",
-    "score": 52,
+    "updated": "2026-08-19",
+    "score": 50,
     "sector": "기타",
     "breakdown": {
       "strength": 10,
       "weakness": 18,
       "opportunity": 8,
-      "threat": 16
+      "threat": 14
     },
     "sector_max": {
       "strength": 25,
@@ -8606,18 +8606,18 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 9.28,
+      "per": 9.06,
       "per_txt": "적정",
-      "pbr": 1.5,
+      "pbr": 1.46,
       "pbr_txt": "고평가 주의",
-      "psr": 1.99,
+      "psr": 1.74,
       "psr_txt": "적정",
       "peg": null,
       "peg_txt": "",
       "tgt": 328000.0,
-      "upside": 58.1,
+      "upside": 62.0,
       "consensus_n": 5,
-      "roe": 3.27
+      "roe": 4.52
     },
     "valuation_engine": {
       "fair_value": 541689.0,
@@ -8901,12 +8901,12 @@
     "company": "HD현대일렉트릭",
     "sector": "전기장비/전력",
     "updated": "2026-08-19",
-    "score": 53,
+    "score": 58,
     "breakdown": {
       "strength": 22,
       "weakness": 13,
       "opportunity": 8,
-      "threat": 10
+      "threat": 15
     },
     "sector_max": {
       "strength": 26,
@@ -10116,12 +10116,12 @@
     "company": "SK텔레콤",
     "sector": "플랫폼",
     "updated": "2026-08-19",
-    "score": 50,
+    "score": 56,
     "breakdown": {
       "strength": 12,
       "weakness": 14,
       "opportunity": 7,
-      "threat": 17
+      "threat": 23
     },
     "sector_max": {
       "strength": 22,
