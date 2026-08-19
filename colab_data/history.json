@@ -11483,13 +11483,13 @@
       },
       {
         "date": "2026-08-19",
-        "total_score": 69,
-        "rating_code": "BUY",
+        "total_score": 63,
+        "rating_code": "HOLD",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
           "opportunity": 11,
-          "threat": 15
+          "threat": 9
         }
       }
     ]
