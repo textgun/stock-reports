@@ -7414,5 +7414,14 @@
     "score": 50,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "058610_에스피지/2026-08-19_에스피지_058610.html",
+    "company": "에스피지",
+    "ticker": "058610",
+    "score": 32,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)"
   }
 ]
