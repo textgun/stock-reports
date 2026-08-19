@@ -7603,5 +7603,14 @@
     "score": 66,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "095340_ISC/2026-08-19_ISC_095340.html",
+    "company": "ISC",
+    "ticker": "095340",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
