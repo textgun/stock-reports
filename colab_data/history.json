@@ -8590,6 +8590,17 @@
           "opportunity": 14,
           "threat": 12
         }
+      },
+      {
+        "date": "2026-08-19",
+        "total_score": 41,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 4,
+          "opportunity": 8,
+          "threat": 17
+        }
       }
     ]
   },
@@ -8742,6 +8753,17 @@
           "weakness": 8,
           "opportunity": 5,
           "threat": 17
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "total_score": 22,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 0,
+          "weakness": 8,
+          "opportunity": 5,
+          "threat": 9
         }
       }
     ]
@@ -13349,6 +13371,17 @@
           "opportunity": 9,
           "threat": 13
         }
+      },
+      {
+        "date": "2026-08-19",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 24,
+          "weakness": 20,
+          "opportunity": 9,
+          "threat": 7
+        }
       }
     ]
   },
@@ -14013,6 +14046,17 @@
           "weakness": 14,
           "opportunity": 11,
           "threat": 18
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "total_score": 48,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 7,
+          "opportunity": 13,
+          "threat": 10
         }
       }
     ]
@@ -22165,6 +22209,17 @@
           "opportunity": 1,
           "threat": 10
         }
+      },
+      {
+        "date": "2026-08-19",
+        "total_score": 39,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 13,
+          "opportunity": 1,
+          "threat": 9
+        }
       }
     ]
   },
@@ -22492,6 +22547,17 @@
           "weakness": 17,
           "opportunity": 9,
           "threat": 10
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "total_score": 58,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 17,
+          "opportunity": 16,
+          "threat": 9
         }
       }
     ]
@@ -24175,6 +24241,17 @@
           "opportunity": 23,
           "threat": 13
         }
+      },
+      {
+        "date": "2026-08-19",
+        "total_score": 50,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 7,
+          "weakness": 11,
+          "opportunity": 20,
+          "threat": 12
+        }
       }
     ]
   },
@@ -24475,6 +24552,17 @@
           "weakness": 21,
           "opportunity": 8,
           "threat": 11
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "total_score": 50,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 21,
+          "opportunity": 9,
+          "threat": 8
         }
       }
     ]
@@ -25860,6 +25948,17 @@
           "weakness": 7,
           "opportunity": 1,
           "threat": 13
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "total_score": 50,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 16,
+          "opportunity": 2,
+          "threat": 12
         }
       }
     ]
@@ -28933,6 +29032,17 @@
           "weakness": 7,
           "opportunity": 7,
           "threat": 17
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "total_score": 45,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 15,
+          "weakness": 8,
+          "opportunity": 7,
+          "threat": 15
         }
       }
     ]
