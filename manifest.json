@@ -7387,5 +7387,14 @@
     "score": 64,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "053160_프리엠스/2026-08-19_프리엠스_053160.html",
+    "company": "프리엠스",
+    "ticker": "053160",
+    "score": 41,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
   }
 ]
