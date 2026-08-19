@@ -8062,5 +8062,14 @@
     "score": 32,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 21/30)"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "425420_티에프이/2026-08-19_티에프이_425420.html",
+    "company": "티에프이",
+    "ticker": "425420",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
