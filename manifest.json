@@ -7045,5 +7045,14 @@
     "score": 80,
     "rating": "STRONG_BUY",
     "rating_label": "적극 매수 ★★★"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "000150_두산/2026-08-19_두산_000150.html",
+    "company": "두산",
+    "ticker": "000150",
+    "score": 33,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 18/26)"
   }
 ]
