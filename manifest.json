@@ -7261,5 +7261,14 @@
     "score": 49,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 31/32)"
+  },
+  {
+    "date": "2026-08-19",
+    "filename": "012690_모나리자/2026-08-19_모나리자_012690.html",
+    "company": "모나리자",
+    "ticker": "012690",
+    "score": 43,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
