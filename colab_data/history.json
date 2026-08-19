@@ -763,13 +763,13 @@
       },
       {
         "date": "2026-08-19",
-        "total_score": 74,
-        "rating_code": "BUY",
+        "total_score": 80,
+        "rating_code": "STRONG_BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 17,
           "opportunity": 22,
-          "threat": 10
+          "threat": 16
         }
       }
     ]
