@@ -3,11 +3,11 @@
     "company": "삼성전자",
     "sector": "반도체",
     "updated": "2026-08-20",
-    "score": 66,
+    "score": 67,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 11,
+      "opportunity": 12,
       "threat": 12
     },
     "sector_max": {
@@ -34,7 +34,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 26,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -1154,11 +1154,11 @@
     "company": "셀트리온",
     "sector": "바이오",
     "updated": "2026-08-20",
-    "score": 68,
+    "score": 69,
     "breakdown": {
       "strength": 17,
       "weakness": 8,
-      "opportunity": 20,
+      "opportunity": 21,
       "threat": 23
     },
     "sector_max": {
@@ -1185,7 +1185,7 @@
     },
     "reality_hope": {
       "reality_score": 42,
-      "hope_score": 32,
+      "hope_score": 33,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": {
@@ -1573,11 +1573,11 @@
     "company": "삼성화재해상보험",
     "sector": "금융",
     "updated": "2026-08-20",
-    "score": 58,
+    "score": 57,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
-      "opportunity": 7,
+      "opportunity": 6,
       "threat": 17
     },
     "sector_max": {
@@ -1604,7 +1604,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 23,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1644,11 +1644,11 @@
     "company": "LG",
     "sector": "지주사",
     "updated": "2026-08-20",
-    "score": 52,
+    "score": 51,
     "breakdown": {
       "strength": 16,
       "weakness": 15,
-      "opportunity": 9,
+      "opportunity": 8,
       "threat": 12
     },
     "sector_max": {
@@ -1675,7 +1675,7 @@
     },
     "reality_hope": {
       "reality_score": 32,
-      "hope_score": 20,
+      "hope_score": 18,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2170,11 +2170,11 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-08-20",
-    "score": 61,
+    "score": 62,
     "breakdown": {
       "strength": 25,
       "weakness": 17,
-      "opportunity": 17,
+      "opportunity": 18,
       "threat": 2
     },
     "sector_max": {
@@ -2201,7 +2201,7 @@
     },
     "reality_hope": {
       "reality_score": 39,
-      "hope_score": 20,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -8013,7 +8013,7 @@
     "earnings": {
       "qoq_trend": "recovering",
       "yoy_pct": 57.9,
-      "rev_yoy_pct": 47.3,
+      "rev_yoy_pct": 47.2,
       "momentum_score": 10.0,
       "correction_pts": 7
     },
