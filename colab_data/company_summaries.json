@@ -3,11 +3,11 @@
     "company": "삼성전자",
     "sector": "반도체",
     "updated": "2026-08-21",
-    "score": 66,
+    "score": 67,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 11,
+      "opportunity": 12,
       "threat": 12
     },
     "sector_max": {
@@ -34,7 +34,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 26,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -505,9 +505,9 @@
     "company": "한국금융지주",
     "sector": "금융",
     "updated": "2026-08-21",
-    "score": 70,
+    "score": 67,
     "breakdown": {
-      "strength": 29,
+      "strength": 26,
       "weakness": 15,
       "opportunity": 13,
       "threat": 13
@@ -521,9 +521,9 @@
     "earnings": {
       "qoq_trend": "improving",
       "yoy_pct": 129.6,
-      "rev_yoy_pct": 92.7,
+      "rev_yoy_pct": null,
       "momentum_score": 10.0,
-      "correction_pts": 7
+      "correction_pts": 5
     },
     "trade": {
       "export_yoy": null,
@@ -535,7 +535,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 45,
+      "reality_score": 42,
       "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
@@ -1431,11 +1431,11 @@
     "company": "에이피알",
     "sector": "기타",
     "updated": "2026-08-21",
-    "score": 62,
+    "score": 63,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 10,
+      "opportunity": 11,
       "threat": 9
     },
     "sector_max": {
@@ -1462,7 +1462,7 @@
     },
     "reality_hope": {
       "reality_score": 42,
-      "hope_score": 18,
+      "hope_score": 19,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1644,9 +1644,9 @@
     "company": "LG",
     "sector": "지주사",
     "updated": "2026-08-21",
-    "score": 50,
+    "score": 52,
     "breakdown": {
-      "strength": 16,
+      "strength": 18,
       "weakness": 15,
       "opportunity": 9,
       "threat": 10
@@ -1660,9 +1660,9 @@
     "earnings": {
       "qoq_trend": "recovering",
       "yoy_pct": -35.1,
-      "rev_yoy_pct": -7.0,
+      "rev_yoy_pct": 19.0,
       "momentum_score": 6.0,
-      "correction_pts": -2
+      "correction_pts": 0
     },
     "trade": {
       "export_yoy": null,
@@ -1674,7 +1674,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 32,
+      "reality_score": 34,
       "hope_score": 16,
       "quadrant": "현실 강함  🟢"
     },
@@ -2186,7 +2186,7 @@
     "earnings": {
       "qoq_trend": "recovering",
       "yoy_pct": 108.5,
-      "rev_yoy_pct": 53.6,
+      "rev_yoy_pct": 54.4,
       "momentum_score": 8.5,
       "correction_pts": 6
     },
