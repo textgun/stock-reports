@@ -1502,12 +1502,12 @@
     "company": "HD현대",
     "sector": "조선",
     "updated": "2026-08-23",
-    "score": 62,
+    "score": 55,
     "breakdown": {
       "strength": 16,
       "weakness": 15,
       "opportunity": 7,
-      "threat": 24
+      "threat": 17
     },
     "sector_max": {
       "strength": 20,
@@ -1538,33 +1538,33 @@
     },
     "extra": null,
     "valuation": {
-      "per": 11.81,
+      "per": 11.04,
       "per_txt": "저평가",
-      "pbr": 1.47,
+      "pbr": 1.38,
       "pbr_txt": "고평가 주의",
-      "psr": 0.8,
+      "psr": 0.75,
       "psr_txt": "저평가",
-      "peg": 0.05,
+      "peg": 0.04,
       "peg_txt": "저평가(성장대비)",
       "tgt": 347000.0,
-      "upside": 52.2,
+      "upside": 62.9,
       "consensus_n": 5,
-      "roe": 3.82
+      "roe": 9.1
     },
     "valuation_engine": {
       "fair_value": 295650.0,
       "band_low": 79589.0,
-      "band_high": 355330.0,
+      "band_high": 355062.0,
       "confidence": "LOW",
-      "method_spread": 2.481,
+      "method_spread": 2.479,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -22.9,
+      "gap_pct": -28.0,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.5배) → 목표비중 50%로 축소 매수",
       "srim_mid": null,
-      "per_band_mid": 355330.0,
+      "per_band_mid": 355062.0,
       "pbr_roe_fair_value": 295650.0,
       "nav_sotp_mid": null
     }
@@ -6695,13 +6695,13 @@
   },
   "006730": {
     "company": "서부T&D",
-    "updated": "2026-08-19",
-    "score": 63,
+    "updated": "2026-08-23",
+    "score": 62,
     "sector": "내수/유통",
     "breakdown": {
       "strength": 22,
       "weakness": 25,
-      "opportunity": 7,
+      "opportunity": 6,
       "threat": 9
     },
     "sector_max": {
@@ -6727,17 +6727,17 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 7.85,
+      "per": 7.73,
       "per_txt": "저평가",
-      "pbr": 0.62,
+      "pbr": 0.61,
       "pbr_txt": "고평가 주의",
-      "psr": 7.59,
+      "psr": 7.48,
       "psr_txt": "고평가 주의",
       "peg": 0.12,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 17666.666666666668,
-      "upside": 70.5,
-      "consensus_n": 3,
+      "tgt": 17750.0,
+      "upside": 74.0,
+      "consensus_n": 4,
       "roe": 0.44
     },
     "valuation_engine": {
@@ -6749,7 +6749,7 @@
       "position_scale": 1.0,
       "buy_signal_allowed": true,
       "zone": "DEEP_VALUE",
-      "gap_pct": -53.2,
+      "gap_pct": -53.9,
       "quality_gate_passed": true,
       "action_label": "3차 매수 존 (목표비중 100%까지)",
       "srim_mid": 22144.077626595543,
@@ -7475,7 +7475,7 @@
   },
   "322000": {
     "company": "HD현대에너지솔루션",
-    "updated": "2026-08-19",
+    "updated": "2026-08-23",
     "score": 65,
     "sector": "에너지/화학",
     "breakdown": {
@@ -7492,7 +7492,7 @@
     },
     "earnings": {
       "qoq_trend": "improving",
-      "yoy_pct": 139.7,
+      "yoy_pct": 139.8,
       "rev_yoy_pct": 23.4,
       "momentum_score": 10.0,
       "correction_pts": 6
@@ -7507,33 +7507,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 22.2,
-      "per_txt": "저평가",
-      "pbr": 3.28,
+      "per": 33.7,
+      "per_txt": "적정",
+      "pbr": 3.19,
       "pbr_txt": "고평가 주의",
-      "psr": 8.75,
+      "psr": 8.51,
       "psr_txt": "고평가 주의",
-      "peg": 0.16,
+      "peg": 0.24,
       "peg_txt": "저평가(성장대비)",
       "tgt": 253200.0,
-      "upside": 96.4,
+      "upside": 101.9,
       "consensus_n": 5,
       "roe": 6.52
     },
     "valuation_engine": {
       "fair_value": 14060.0,
       "band_low": 4443.0,
-      "band_high": 240135.0,
+      "band_high": 153000.0,
       "confidence": "LOW",
-      "method_spread": 27.022,
+      "method_spread": 17.217,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 816.8,
+      "gap_pct": 791.9,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 8886.606634052485,
-      "per_band_mid": 240135.0,
+      "per_band_mid": 153000.0,
       "pbr_roe_fair_value": 14060.0,
       "nav_sotp_mid": null
     }
@@ -7735,14 +7735,14 @@
   },
   "079940": {
     "company": "가비아",
-    "updated": "2026-08-19",
-    "score": 65,
+    "updated": "2026-08-23",
+    "score": 57,
     "sector": "IT서비스",
     "breakdown": {
       "strength": 14,
       "weakness": 13,
-      "opportunity": 26,
-      "threat": 12
+      "opportunity": 21,
+      "threat": 9
     },
     "sector_max": {
       "strength": 20,
@@ -7767,13 +7767,13 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 34.45,
+      "per": 34.69,
       "per_txt": "적정",
-      "pbr": 3.22,
+      "pbr": 3.24,
       "pbr_txt": "고평가 주의",
-      "psr": 6.74,
+      "psr": 6.78,
       "psr_txt": "고평가 주의",
-      "peg": 0.62,
+      "peg": 0.63,
       "peg_txt": "저평가(성장대비)",
       "tgt": null,
       "upside": null,
@@ -7781,19 +7781,19 @@
       "roe": 2.27
     },
     "valuation_engine": {
-      "fair_value": 25535.0,
-      "band_low": 13954.0,
+      "fair_value": 25532.0,
+      "band_low": 13951.0,
       "band_high": 47232.0,
       "confidence": "LOW",
-      "method_spread": 2.007,
+      "method_spread": 2.008,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 74.5,
+      "gap_pct": 75.7,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 34853.55684122807,
-      "per_band_mid": 17369.0,
+      "per_band_mid": 17358.0,
       "pbr_roe_fair_value": 28226.0,
       "nav_sotp_mid": null
     }
@@ -8131,7 +8131,7 @@
   },
   "051160": {
     "company": "지어소프트",
-    "updated": "2026-08-19",
+    "updated": "2026-08-23",
     "score": 64,
     "sector": "기타",
     "breakdown": {
@@ -8163,33 +8163,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 9.86,
+      "per": 9.32,
       "per_txt": "저평가",
-      "pbr": 0.88,
+      "pbr": 0.83,
       "pbr_txt": "고평가 주의",
-      "psr": 1.08,
+      "psr": 1.02,
       "psr_txt": "적정",
-      "peg": 0.12,
+      "peg": 0.11,
       "peg_txt": "저평가(성장대비)",
       "tgt": 26166.666666666668,
-      "upside": 159.3,
+      "upside": 174.6,
       "consensus_n": 3,
       "roe": 3.15
     },
     "valuation_engine": {
       "fair_value": 24707.0,
-      "band_low": 14454.0,
+      "band_low": 14439.0,
       "band_high": 31906.0,
       "confidence": "LOW",
-      "method_spread": 2.107,
+      "method_spread": 2.109,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "zone": "DEEP_VALUE",
-      "gap_pct": -59.2,
+      "gap_pct": -61.4,
       "quality_gate_passed": true,
       "action_label": "3차 매수 존 (목표비중 100%까지) · ⚠️ 신뢰도 LOW(편차 2.1배) → 목표비중 50%로 축소 매수",
       "srim_mid": 24707.084816531107,
-      "per_band_mid": 14454.0,
+      "per_band_mid": 14439.0,
       "pbr_roe_fair_value": 30450.0,
       "nav_sotp_mid": null
     }
@@ -8456,13 +8456,13 @@
   },
   "077360": {
     "company": "덕산하이메탈",
-    "updated": "2026-08-19",
-    "score": 61,
+    "updated": "2026-08-23",
+    "score": 62,
     "sector": "반도체",
     "breakdown": {
       "strength": 18,
       "weakness": 22,
-      "opportunity": 8,
+      "opportunity": 9,
       "threat": 13
     },
     "sector_max": {
@@ -8490,31 +8490,31 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 2.08,
+      "pbr": 1.87,
       "pbr_txt": "고평가 주의",
-      "psr": 4.9,
+      "psr": 4.68,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 19166.666666666668,
-      "upside": 95.8,
+      "upside": 105.0,
       "consensus_n": 3,
       "roe": 3.47
     },
     "valuation_engine": {
-      "fair_value": 17312.0,
-      "band_low": 6761.0,
-      "band_high": 24016.0,
+      "fair_value": 15247.0,
+      "band_low": 6759.0,
+      "band_high": 19908.0,
       "confidence": "LOW",
-      "method_spread": 2.264,
+      "method_spread": 1.881,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -43.4,
+      "gap_pct": -38.7,
       "quality_gate_passed": true,
-      "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.3배) → 목표비중 50%로 축소 매수",
+      "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 1.9배) → 목표비중 50%로 축소 매수",
       "srim_mid": null,
-      "per_band_mid": 24016.0,
+      "per_band_mid": 19908.0,
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
