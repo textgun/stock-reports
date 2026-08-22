@@ -9151,5 +9151,14 @@
     "score": 33,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 21/30)"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "161580_필옵틱스/2026-08-23_필옵틱스_161580.html",
+    "company": "필옵틱스",
+    "ticker": "161580",
+    "score": 29,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
   }
 ]
