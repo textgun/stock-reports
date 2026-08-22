@@ -5844,13 +5844,13 @@
   },
   "064760": {
     "company": "티씨케이",
-    "updated": "2026-08-19",
-    "score": 66,
+    "updated": "2026-08-23",
+    "score": 64,
     "sector": "반도체",
     "breakdown": {
       "strength": 23,
       "weakness": 17,
-      "opportunity": 12,
+      "opportunity": 10,
       "threat": 14
     },
     "sector_max": {
@@ -5876,29 +5876,29 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 36.06,
+      "per": 34.45,
       "per_txt": "고평가 주의",
-      "pbr": 5.0,
+      "pbr": 4.77,
       "pbr_txt": "고평가 주의",
-      "psr": 27.81,
+      "psr": 26.57,
       "psr_txt": "고평가 주의",
-      "peg": 0.96,
+      "peg": 0.91,
       "peg_txt": "저평가(성장대비)",
       "tgt": 350000.0,
-      "upside": 48.3,
+      "upside": 55.2,
       "consensus_n": 5,
       "roe": 4.29
     },
     "valuation_engine": {
       "fair_value": 156682.0,
-      "band_low": 88460.0,
+      "band_low": 88456.0,
       "band_high": 321553.0,
       "confidence": "LOW",
       "method_spread": 2.864,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 50.6,
+      "gap_pct": 43.9,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 156681.55881107473,
