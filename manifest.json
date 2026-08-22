@@ -8917,5 +8917,14 @@
     "score": 27,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 10/30)"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "086280_현대글로비스/2026-08-23_현대글로비스_086280.html",
+    "company": "현대글로비스",
+    "ticker": "086280",
+    "score": 48,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
   }
 ]
