@@ -8587,15 +8587,6 @@
   },
   {
     "date": "2026-08-23",
-    "filename": "035420_NAVER/2026-08-23_NAVER_035420.html",
-    "company": "NAVER",
-    "ticker": "035420",
-    "score": 46,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 24/25)"
-  },
-  {
-    "date": "2026-08-23",
     "filename": "036930_주성엔지니어링/2026-08-23_주성엔지니어링_036930.html",
     "company": "주성엔지니어링",
     "ticker": "036930",
@@ -9583,5 +9574,14 @@
     "score": 61,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "035420_NAVER/2026-08-23_NAVER_035420.html",
+    "company": "NAVER",
+    "ticker": "035420",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/25)"
   }
 ]
