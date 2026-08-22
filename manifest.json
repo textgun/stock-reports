@@ -9304,5 +9304,14 @@
     "score": 49,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "241710_코스메카코리아/2026-08-23_코스메카코리아_241710.html",
+    "company": "코스메카코리아",
+    "ticker": "241710",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
