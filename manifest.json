@@ -9199,15 +9199,6 @@
   },
   {
     "date": "2026-08-23",
-    "filename": "259960_크래프톤/2026-08-23_크래프톤_259960.html",
-    "company": "크래프톤",
-    "ticker": "259960",
-    "score": 60,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-23",
     "filename": "263750_펄어비스/2026-08-23_펄어비스_263750.html",
     "company": "펄어비스",
     "ticker": "263750",
@@ -9583,5 +9574,14 @@
     "score": 30,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 24/30)"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "259960_크래프톤/2026-08-23_크래프톤_259960.html",
+    "company": "크래프톤",
+    "ticker": "259960",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
