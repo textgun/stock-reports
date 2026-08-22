@@ -150,12 +150,12 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-08-23",
-    "score": 79,
+    "score": 73,
     "breakdown": {
       "strength": 25,
       "weakness": 17,
       "opportunity": 21,
-      "threat": 16
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
@@ -186,34 +186,34 @@
     },
     "extra": null,
     "valuation": {
-      "per": 13.01,
+      "per": 7.65,
       "per_txt": "저평가",
-      "pbr": 1.44,
+      "pbr": 1.3,
       "pbr_txt": "고평가 주의",
-      "psr": 10.06,
+      "psr": 9.7,
       "psr_txt": "고평가 주의",
-      "peg": 0.37,
+      "peg": 0.22,
       "peg_txt": "저평가(성장대비)",
       "tgt": 68500.0,
-      "upside": 17.7,
+      "upside": 22.1,
       "consensus_n": 2,
       "roe": 6.38
     },
     "valuation_engine": {
       "fair_value": 110393.0,
-      "band_low": 32588.0,
-      "band_high": 204641.0,
+      "band_low": 53435.0,
+      "band_high": 218530.0,
       "confidence": "LOW",
-      "method_spread": 5.69,
+      "method_spread": 3.705,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "ACCUMULATE",
-      "gap_pct": -47.3,
+      "gap_pct": -49.2,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 5.7배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
+      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 3.7배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
       "srim_mid": 110393.30832292482,
-      "per_band_mid": 35967.0,
-      "pbr_roe_fair_value": 204641.0,
+      "per_band_mid": 58975.0,
+      "pbr_roe_fair_value": 218530.0,
       "nav_sotp_mid": null
     }
   },
@@ -2038,7 +2038,7 @@
   },
   "007660": {
     "company": "이수페타시스",
-    "updated": "2026-08-19",
+    "updated": "2026-08-23",
     "score": 66,
     "sector": "반도체",
     "breakdown": {
@@ -2070,21 +2070,21 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 44.81,
+      "per": 41.86,
       "per_txt": "고평가 주의",
-      "pbr": 9.8,
+      "pbr": 9.15,
       "pbr_txt": "고평가 주의",
-      "psr": 20.54,
+      "psr": 19.19,
       "psr_txt": "고평가 주의",
-      "peg": 0.54,
+      "peg": 0.5,
       "peg_txt": "저평가(성장대비)",
       "tgt": 184000.0,
-      "upside": 73.1,
+      "upside": 85.3,
       "consensus_n": 5,
       "roe": 6.94
     },
     "valuation_engine": {
-      "fair_value": 83658.0,
+      "fair_value": 83962.0,
       "band_low": 58716.0,
       "band_high": 108480.0,
       "confidence": "HIGH",
@@ -2092,11 +2092,11 @@
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 27.1,
+      "gap_pct": 18.3,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 69596.94268278517,
-      "per_band_mid": 83658.0,
+      "per_band_mid": 83962.0,
       "pbr_roe_fair_value": 108480.0,
       "nav_sotp_mid": null
     }
@@ -2700,14 +2700,14 @@
   },
   "082920": {
     "company": "비츠로셀",
-    "updated": "2026-08-19",
-    "score": 64,
+    "updated": "2026-08-23",
+    "score": 60,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 20,
       "weakness": 16,
-      "opportunity": 13,
-      "threat": 15
+      "opportunity": 12,
+      "threat": 12
     },
     "sector_max": {
       "strength": 26,
@@ -2732,16 +2732,16 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 21.81,
+      "per": 19.39,
       "per_txt": "저평가",
-      "pbr": 4.3,
+      "pbr": 3.82,
       "pbr_txt": "고평가 주의",
-      "psr": 20.33,
+      "psr": 18.08,
       "psr_txt": "고평가 주의",
-      "peg": 1.34,
+      "peg": 1.19,
       "peg_txt": "적정",
       "tgt": 54200.0,
-      "upside": 58.0,
+      "upside": 77.7,
       "consensus_n": 5,
       "roe": 4.82
     },
@@ -2750,15 +2750,15 @@
       "band_low": 9906.0,
       "band_high": 72171.0,
       "confidence": "LOW",
-      "method_spread": 5.586,
+      "method_spread": 5.588,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "ACCUMULATE",
-      "gap_pct": -6.5,
+      "gap_pct": -16.8,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 5.6배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
       "srim_mid": 36666.204010756424,
-      "per_band_mid": 12920.0,
+      "per_band_mid": 12916.0,
       "pbr_roe_fair_value": 72171.0,
       "nav_sotp_mid": null
     }
@@ -6825,11 +6825,11 @@
   },
   "373220": {
     "company": "LG에너지솔루션",
-    "updated": "2026-08-19",
-    "score": 29,
+    "updated": "2026-08-23",
+    "score": 31,
     "sector": "2차전지",
     "breakdown": {
-      "strength": 0,
+      "strength": 2,
       "weakness": 4,
       "opportunity": 8,
       "threat": 17
@@ -6843,9 +6843,9 @@
     "earnings": {
       "qoq_trend": "recovering",
       "yoy_pct": -77.0,
-      "rev_yoy_pct": null,
-      "momentum_score": 5.0,
-      "correction_pts": -2
+      "rev_yoy_pct": 35.8,
+      "momentum_score": 6.0,
+      "correction_pts": 1
     },
     "trade": {
       "export_yoy": 7.68,
@@ -6857,31 +6857,31 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 216.0,
+      "per": 209.0,
       "per_txt": "고평가 주의",
-      "pbr": 3.72,
+      "pbr": 3.6,
       "pbr_txt": "",
-      "psr": 11.0,
+      "psr": 10.63,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 522000.0,
-      "upside": 46.8,
+      "upside": 52.0,
       "consensus_n": 5,
-      "roe": -0.42
+      "roe": -1.09
     },
     "valuation_engine": {
       "fair_value": 7307.0,
       "band_low": 3196.0,
       "band_high": 550956.0,
       "confidence": "LOW",
-      "method_spread": 59.884,
+      "method_spread": 59.812,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
-      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (4점 < 기준 20점) / 이자보상배율 미달 (0.2배 < 기준 2.0배), 존과 무관하게 회피",
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (6점 < 기준 20점) / 이자보상배율 미달 (0.2배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": 6392.978036368324,
       "per_band_mid": null,
       "pbr_roe_fair_value": 7307.0,
@@ -9697,13 +9697,13 @@
   },
   "005690": {
     "company": "파미셀",
-    "updated": "2026-08-19",
-    "score": 70,
+    "updated": "2026-08-23",
+    "score": 69,
     "sector": "에너지/화학",
     "breakdown": {
       "strength": 26,
       "weakness": 21,
-      "opportunity": 7,
+      "opportunity": 6,
       "threat": 16
     },
     "sector_max": {
@@ -9729,33 +9729,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 14.68,
+      "per": 13.75,
       "per_txt": "저평가",
-      "pbr": 4.76,
+      "pbr": 4.46,
       "pbr_txt": "고평가 주의",
-      "psr": 17.52,
+      "psr": 16.41,
       "psr_txt": "고평가 주의",
-      "peg": 0.24,
+      "peg": 0.22,
       "peg_txt": "저평가(성장대비)",
       "tgt": 25200.0,
-      "upside": 121.4,
+      "upside": 136.4,
       "consensus_n": 5,
       "roe": 7.24
     },
     "valuation_engine": {
       "fair_value": 11899.0,
       "band_low": 7606.0,
-      "band_high": 107775.0,
+      "band_high": 107550.0,
       "confidence": "LOW",
-      "method_spread": 7.538,
+      "method_spread": 7.509,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "ACCUMULATE",
-      "gap_pct": -4.4,
+      "gap_pct": -10.4,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 7.5배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
       "srim_mid": 8944.403186964417,
-      "per_band_mid": 67425.0,
+      "per_band_mid": 67167.0,
       "pbr_roe_fair_value": 11899.0,
       "nav_sotp_mid": null
     }
@@ -9957,11 +9957,11 @@
   },
   "005090": {
     "company": "SGC에너지",
-    "updated": "2026-08-19",
-    "score": 46,
+    "updated": "2026-08-23",
+    "score": 44,
     "sector": "에너지/화학",
     "breakdown": {
-      "strength": 10,
+      "strength": 8,
       "weakness": 12,
       "opportunity": 8,
       "threat": 16
@@ -9976,8 +9976,8 @@
       "qoq_trend": "improving",
       "yoy_pct": 32.0,
       "rev_yoy_pct": -6.7,
-      "momentum_score": 10.0,
-      "correction_pts": 5
+      "momentum_score": 8.5,
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": null,
@@ -9991,21 +9991,21 @@
     "valuation": {
       "per": 55.0,
       "per_txt": "고평가 주의",
-      "pbr": 1.31,
+      "pbr": 1.32,
       "pbr_txt": "고평가 주의",
-      "psr": 1.56,
+      "psr": 1.57,
       "psr_txt": "적정",
       "peg": 1.72,
       "peg_txt": "적정",
       "tgt": 82800.0,
-      "upside": 32.7,
+      "upside": 31.8,
       "consensus_n": 5,
       "roe": 1.02
     },
     "valuation_engine": {
       "fair_value": 25391.0,
       "band_low": 21807.0,
-      "band_high": 55375.0,
+      "band_high": 55274.0,
       "confidence": "LOW",
       "method_spread": null,
       "position_scale": 1.0,
@@ -10013,7 +10013,7 @@
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
-      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (22점 < 기준 30점) / 이자보상배율 미달 (1.6배 < 기준 2.0배), 존과 무관하게 회피",
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (20점 < 기준 30점) / 이자보상배율 미달 (1.6배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": null,
       "per_band_mid": null,
       "pbr_roe_fair_value": null,
@@ -10088,13 +10088,13 @@
   "028260": {
     "company": "삼성물산",
     "sector": "내수/유통",
-    "updated": "2026-08-14",
-    "score": 62,
+    "updated": "2026-08-23",
+    "score": 53,
     "breakdown": {
       "strength": 22,
       "weakness": 19,
-      "opportunity": 10,
-      "threat": 11
+      "opportunity": 5,
+      "threat": 7
     },
     "sector_max": {
       "strength": 32,
@@ -10124,8 +10124,37 @@
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
-    "valuation": null,
-    "valuation_engine": null
+    "valuation": {
+      "per": 27.92,
+      "per_txt": "적정",
+      "pbr": 1.04,
+      "pbr_txt": "고평가 주의",
+      "psr": 5.35,
+      "psr_txt": "고평가 주의",
+      "peg": 0.75,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 454000.0,
+      "upside": 14.8,
+      "consensus_n": 5,
+      "roe": 0.81
+    },
+    "valuation_engine": {
+      "fair_value": 143682.0,
+      "band_low": 19382.0,
+      "band_high": 267983.0,
+      "confidence": "HIGH",
+      "method_spread": 1.684,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "zone": "OVERHEATED",
+      "gap_pct": 175.3,
+      "quality_gate_passed": true,
+      "action_label": "2차 매도 — 추가 1/3 매도",
+      "srim_mid": 143682.47095303857,
+      "per_band_mid": null,
+      "pbr_roe_fair_value": 238833.0,
+      "nav_sotp_mid": null
+    }
   },
   "017670": {
     "company": "SK텔레콤",
