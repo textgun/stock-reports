@@ -9547,5 +9547,14 @@
     "score": 46,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "452430_사피엔반도체/2026-08-23_사피엔반도체_452430.html",
+    "company": "사피엔반도체",
+    "ticker": "452430",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
