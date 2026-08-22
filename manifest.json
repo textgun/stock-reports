@@ -9199,15 +9199,6 @@
   },
   {
     "date": "2026-08-23",
-    "filename": "263750_펄어비스/2026-08-23_펄어비스_263750.html",
-    "company": "펄어비스",
-    "ticker": "263750",
-    "score": 68,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-08-23",
     "filename": "267260_HD현대일렉트릭/2026-08-23_HD현대일렉트릭_267260.html",
     "company": "HD현대일렉트릭",
     "ticker": "267260",
@@ -9583,5 +9574,14 @@
     "score": 60,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "263750_펄어비스/2026-08-23_펄어비스_263750.html",
+    "company": "펄어비스",
+    "ticker": "263750",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
