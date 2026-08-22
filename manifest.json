@@ -8767,15 +8767,6 @@
   },
   {
     "date": "2026-08-23",
-    "filename": "071050_한국금융지주/2026-08-23_한국금융지주_071050.html",
-    "company": "한국금융지주",
-    "ticker": "071050",
-    "score": 62,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-23",
     "filename": "074600_원익QnC/2026-08-23_원익QnC_074600.html",
     "company": "원익QnC",
     "ticker": "074600",
@@ -9583,5 +9574,14 @@
     "score": 49,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 20/22)"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "071050_한국금융지주/2026-08-23_한국금융지주_071050.html",
+    "company": "한국금융지주",
+    "ticker": "071050",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
