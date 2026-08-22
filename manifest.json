@@ -8728,5 +8728,14 @@
     "score": 23,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 6/22)"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "050890_쏠리드/2026-08-23_쏠리드_050890.html",
+    "company": "쏠리드",
+    "ticker": "050890",
+    "score": 43,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
   }
 ]
