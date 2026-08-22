@@ -9061,5 +9061,14 @@
     "score": 19,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 10/30)"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "119850_지엔씨에너지/2026-08-23_지엔씨에너지_119850.html",
+    "company": "지엔씨에너지",
+    "ticker": "119850",
+    "score": 58,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
   }
 ]
