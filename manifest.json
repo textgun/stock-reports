@@ -9322,5 +9322,14 @@
     "score": 28,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 10/20)"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "251970_펌텍코리아/2026-08-23_펌텍코리아_251970.html",
+    "company": "펌텍코리아",
+    "ticker": "251970",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
