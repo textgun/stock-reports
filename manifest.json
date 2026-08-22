@@ -9385,5 +9385,14 @@
     "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "298040_효성중공업/2026-08-23_효성중공업_298040.html",
+    "company": "효성중공업",
+    "ticker": "298040",
+    "score": 43,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
   }
 ]
