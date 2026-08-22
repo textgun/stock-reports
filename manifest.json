@@ -8674,5 +8674,14 @@
     "score": 55,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "042660_한화오션/2026-08-23_한화오션_042660.html",
+    "company": "한화오션",
+    "ticker": "042660",
+    "score": 46,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
