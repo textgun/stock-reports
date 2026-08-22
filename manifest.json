@@ -8260,5 +8260,14 @@
     "score": 31,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 6/20)"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "028260_삼성물산/2026-08-23_삼성물산_028260.html",
+    "company": "삼성물산",
+    "ticker": "028260",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
