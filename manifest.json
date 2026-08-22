@@ -8371,15 +8371,6 @@
   },
   {
     "date": "2026-08-23",
-    "filename": "000810_삼성화재해상보험/2026-08-23_삼성화재해상보험_000810.html",
-    "company": "삼성화재해상보험",
-    "ticker": "000810",
-    "score": 53,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-23",
     "filename": "000880_한화/2026-08-23_한화_000880.html",
     "company": "한화",
     "ticker": "000880",
@@ -9581,6 +9572,15 @@
     "company": "LG",
     "ticker": "003550",
     "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "000810_삼성화재해상보험/2026-08-23_삼성화재해상보험_000810.html",
+    "company": "삼성화재해상보험",
+    "ticker": "000810",
+    "score": 53,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
