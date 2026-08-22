@@ -8605,15 +8605,6 @@
   },
   {
     "date": "2026-08-23",
-    "filename": "039490_키움증권/2026-08-23_키움증권_039490.html",
-    "company": "키움증권",
-    "ticker": "039490",
-    "score": 55,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-08-23",
     "filename": "041510_에스엠/2026-08-23_에스엠_041510.html",
     "company": "에스엠",
     "ticker": "041510",
@@ -9583,5 +9574,14 @@
     "score": 46,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 24/25)"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "039490_키움증권/2026-08-23_키움증권_039490.html",
+    "company": "키움증권",
+    "ticker": "039490",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
