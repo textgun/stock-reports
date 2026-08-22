@@ -8389,15 +8389,6 @@
   },
   {
     "date": "2026-08-23",
-    "filename": "001500_현대차증권/2026-08-23_현대차증권_001500.html",
-    "company": "현대차증권",
-    "ticker": "001500",
-    "score": 45,
-    "rating": "WATCH",
-    "rating_label": "관찰"
-  },
-  {
-    "date": "2026-08-23",
     "filename": "003230_삼양식품/2026-08-23_삼양식품_003230.html",
     "company": "삼양식품",
     "ticker": "003230",
@@ -9583,5 +9574,14 @@
     "score": 53,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "001500_현대차증권/2026-08-23_현대차증권_001500.html",
+    "company": "현대차증권",
+    "ticker": "001500",
+    "score": 45,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
