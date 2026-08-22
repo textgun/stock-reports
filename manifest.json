@@ -8569,15 +8569,6 @@
   },
   {
     "date": "2026-08-23",
-    "filename": "032830_삼성생명/2026-08-23_삼성생명_032830.html",
-    "company": "삼성생명",
-    "ticker": "032830",
-    "score": 49,
-    "rating": "WATCH",
-    "rating_label": "관찰"
-  },
-  {
-    "date": "2026-08-23",
     "filename": "034020_두산에너빌리티/2026-08-23_두산에너빌리티_034020.html",
     "company": "두산에너빌리티",
     "ticker": "034020",
@@ -9583,5 +9574,14 @@
     "score": 53,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-23",
+    "filename": "032830_삼성생명/2026-08-23_삼성생명_032830.html",
+    "company": "삼성생명",
+    "ticker": "032830",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
