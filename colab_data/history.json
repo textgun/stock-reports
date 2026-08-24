@@ -21637,12 +21637,12 @@
       },
       {
         "date": "2026-08-24",
-        "total_score": 65,
+        "total_score": 67,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
-          "opportunity": 10,
+          "opportunity": 12,
           "threat": 12
         }
       }
