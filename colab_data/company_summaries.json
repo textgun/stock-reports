@@ -1006,13 +1006,13 @@
   "196170": {
     "company": "알테오젠",
     "sector": "바이오",
-    "updated": "2026-08-23",
-    "score": 51,
+    "updated": "2026-08-26",
+    "score": 47,
     "breakdown": {
       "strength": 18,
       "weakness": 9,
       "opportunity": 15,
-      "threat": 9
+      "threat": 5
     },
     "sector_max": {
       "strength": 18,
@@ -1043,33 +1043,33 @@
     },
     "extra": null,
     "valuation": {
-      "per": 172.23,
+      "per": 164.42,
       "per_txt": "고평가 주의",
-      "pbr": 44.52,
+      "pbr": 42.51,
       "pbr_txt": "고평가 주의",
-      "psr": 248.9,
+      "psr": 308.87,
       "psr_txt": "고평가 주의",
       "peg": 0.02,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 492000.0,
-      "upside": 53.8,
+      "tgt": 472000.0,
+      "upside": 54.5,
       "consensus_n": 5,
       "roe": 5.98
     },
     "valuation_engine": {
-      "fair_value": 171533.0,
-      "band_low": 39184.0,
+      "fair_value": 171120.0,
+      "band_low": 30145.0,
       "band_high": 629784.0,
       "confidence": "LOW",
-      "method_spread": 10.645,
+      "method_spread": 13.375,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 86.6,
+      "gap_pct": 78.5,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 45672.13056817582,
-      "per_band_mid": 470549.0,
+      "srim_mid": 35135.99570855824,
+      "per_band_mid": 469939.0,
       "pbr_roe_fair_value": 44204.0,
       "nav_sotp_mid": null
     }
