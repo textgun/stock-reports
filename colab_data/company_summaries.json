@@ -10226,5 +10226,70 @@
       "pbr_roe_fair_value": 71313.0,
       "nav_sotp_mid": null
     }
+  },
+  "355150": {
+    "company": "코스텍시스",
+    "updated": "2026-08-25",
+    "score": 62,
+    "sector": "반도체",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 14,
+      "opportunity": 8,
+      "threat": 19
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "recovering",
+      "yoy_pct": 440.0,
+      "rev_yoy_pct": 66.9,
+      "momentum_score": 9.0,
+      "correction_pts": 7
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 203.79,
+      "per_txt": "고평가 주의",
+      "pbr": 5.28,
+      "pbr_txt": "고평가 주의",
+      "psr": 28.26,
+      "psr_txt": "고평가 주의",
+      "peg": 0.46,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": 3.06
+    },
+    "valuation_engine": {
+      "fair_value": 12850.0,
+      "band_low": 12850.0,
+      "band_high": 12850.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "zone": "OVERHEATED",
+      "gap_pct": 50.7,
+      "quality_gate_passed": true,
+      "action_label": "2차 매도 — 추가 1/3 매도",
+      "srim_mid": null,
+      "per_band_mid": null,
+      "pbr_roe_fair_value": null,
+      "nav_sotp_mid": null
+    }
   }
 }
