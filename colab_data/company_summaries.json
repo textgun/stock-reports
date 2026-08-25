@@ -78,13 +78,13 @@
   "062040": {
     "company": "산일전기",
     "sector": "전기장비/전력",
-    "updated": "2026-08-23",
-    "score": 58,
+    "updated": "2026-08-25",
+    "score": 62,
     "breakdown": {
       "strength": 26,
       "weakness": 16,
-      "opportunity": 6,
-      "threat": 10
+      "opportunity": 8,
+      "threat": 12
     },
     "sector_max": {
       "strength": 26,
@@ -115,34 +115,34 @@
     },
     "extra": null,
     "valuation": {
-      "per": 30.7,
+      "per": 27.97,
       "per_txt": "저평가",
-      "pbr": 8.47,
+      "pbr": 7.61,
       "pbr_txt": "고평가 주의",
-      "psr": 30.76,
+      "psr": 30.85,
       "psr_txt": "고평가 주의",
-      "peg": 0.9,
+      "peg": 0.82,
       "peg_txt": "저평가(성장대비)",
       "tgt": 298000.0,
-      "upside": 80.8,
+      "upside": 80.3,
       "consensus_n": 5,
       "roe": 8.23
     },
     "valuation_engine": {
-      "fair_value": 194670.0,
+      "fair_value": 217100.0,
       "band_low": 123021.0,
-      "band_high": 228367.0,
+      "band_high": 249574.0,
       "confidence": "HIGH",
-      "method_spread": 1.575,
+      "method_spread": 1.722,
       "position_scale": 1.0,
       "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -15.3,
+      "gap_pct": -23.9,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지)",
       "srim_mid": 144966.9249216638,
-      "per_band_mid": 228367.0,
-      "pbr_roe_fair_value": 194670.0,
+      "per_band_mid": 249574.0,
+      "pbr_roe_fair_value": 217100.0,
       "nav_sotp_mid": null
     }
   },
