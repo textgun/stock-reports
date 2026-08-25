@@ -4044,6 +4044,17 @@
           "opportunity": 15,
           "threat": 9
         }
+      },
+      {
+        "date": "2026-08-26",
+        "total_score": 47,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 9,
+          "opportunity": 15,
+          "threat": 5
+        }
       }
     ]
   },
