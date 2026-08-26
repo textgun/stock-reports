@@ -10291,5 +10291,70 @@
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
+  },
+  "052690": {
+    "company": "한전기술",
+    "updated": "2026-08-26",
+    "score": 51,
+    "sector": "전기장비/전력",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 21,
+      "opportunity": 7,
+      "threat": 13
+    },
+    "sector_max": {
+      "strength": 26,
+      "weakness": 24,
+      "opportunity": 28,
+      "threat": 22
+    },
+    "earnings": {
+      "qoq_trend": "declining",
+      "yoy_pct": 167.5,
+      "rev_yoy_pct": 1.0,
+      "momentum_score": 7.0,
+      "correction_pts": 3
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 130.18,
+      "per_txt": "고평가 주의",
+      "pbr": 7.86,
+      "pbr_txt": "고평가 주의",
+      "psr": 45.33,
+      "psr_txt": "고평가 주의",
+      "peg": 0.78,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 193400.0,
+      "upside": 57.9,
+      "consensus_n": 5,
+      "roe": 0.46
+    },
+    "valuation_engine": {
+      "fair_value": 34661.0,
+      "band_low": 24258.0,
+      "band_high": 141478.0,
+      "confidence": "LOW",
+      "method_spread": 3.256,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "zone": "FAIR",
+      "gap_pct": 253.4,
+      "quality_gate_passed": true,
+      "action_label": "보유 (신규 매수 없음)",
+      "srim_mid": 30317.663519942907,
+      "per_band_mid": 98719.0,
+      "pbr_roe_fair_value": 34661.0,
+      "nav_sotp_mid": null
+    }
   }
 }
