@@ -32513,5 +32513,54 @@
         }
       }
     ]
+  },
+  "356860": {
+    "company_name": "티엘비",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 80,
+        "rating_code": "STRONG_BUY",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 22,
+          "opportunity": 12,
+          "threat": 24
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 75,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 14,
+          "opportunity": 12,
+          "threat": 24
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 75,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 17,
+          "opportunity": 12,
+          "threat": 24
+        }
+      },
+      {
+        "date": "2026-08-26",
+        "total_score": 75,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 17,
+          "opportunity": 12,
+          "threat": 24
+        }
+      }
+    ]
   }
 }
