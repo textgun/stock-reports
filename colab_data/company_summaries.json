@@ -10356,5 +10356,70 @@
       "pbr_roe_fair_value": 34661.0,
       "nav_sotp_mid": null
     }
+  },
+  "356860": {
+    "company": "티엘비",
+    "updated": "2026-08-26",
+    "score": 75,
+    "sector": "반도체",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 17,
+      "opportunity": 12,
+      "threat": 24
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "improving",
+      "yoy_pct": 86.2,
+      "rev_yoy_pct": 37.8,
+      "momentum_score": 10.0,
+      "correction_pts": 8
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 25.39,
+      "per_txt": "고평가 주의",
+      "pbr": 5.74,
+      "pbr_txt": "고평가 주의",
+      "psr": 10.47,
+      "psr_txt": "고평가 주의",
+      "peg": 0.29,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 93200.0,
+      "upside": 139.0,
+      "consensus_n": 5,
+      "roe": 7.44
+    },
+    "valuation_engine": {
+      "fair_value": 6746.0,
+      "band_low": 4521.0,
+      "band_high": 54361.0,
+      "confidence": "HIGH",
+      "method_spread": 1.697,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "zone": "FAIR",
+      "gap_pct": 478.1,
+      "quality_gate_passed": true,
+      "action_label": "보유 (신규 매수 없음)",
+      "srim_mid": 6727.656368377406,
+      "per_band_mid": 6746.0,
+      "pbr_roe_fair_value": 11416.0,
+      "nav_sotp_mid": null
+    }
   }
 }
