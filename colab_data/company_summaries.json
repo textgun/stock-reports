@@ -1154,11 +1154,11 @@
     "company": "셀트리온",
     "sector": "바이오",
     "updated": "2026-08-27",
-    "score": 64,
+    "score": 61,
     "breakdown": {
       "strength": 16,
       "weakness": 8,
-      "opportunity": 20,
+      "opportunity": 17,
       "threat": 20
     },
     "sector_max": {
@@ -1181,12 +1181,12 @@
       "base_month": "202607",
       "status": null,
       "trade_score": 8,
-      "correction_pts": 1
+      "correction_pts": 0
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 30,
-      "quadrant": "현실·기대 모두 강함  🟢🟢"
+      "hope_score": 28,
+      "quadrant": "현실 강함  🟢"
     },
     "extra": {
       "employees": null,
@@ -1431,11 +1431,11 @@
     "company": "에이피알",
     "sector": "기타",
     "updated": "2026-08-27",
-    "score": 67,
+    "score": 66,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 12,
+      "opportunity": 11,
       "threat": 12
     },
     "sector_max": {
@@ -1462,7 +1462,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 26,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
