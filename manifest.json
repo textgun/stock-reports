@@ -10357,5 +10357,14 @@
     "score": 49,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
+  },
+  {
+    "date": "2026-08-28",
+    "filename": "086450_동국제약/2026-08-28_동국제약_086450.html",
+    "company": "동국제약",
+    "ticker": "086450",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
