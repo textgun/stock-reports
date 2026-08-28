@@ -9727,5 +9727,14 @@
     "score": 50,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-28",
+    "filename": "001500_현대차증권/2026-08-28_현대차증권_001500.html",
+    "company": "현대차증권",
+    "ticker": "001500",
+    "score": 46,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
