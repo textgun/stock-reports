@@ -1908,14 +1908,14 @@
   },
   "095610": {
     "company": "테스",
-    "updated": "2026-08-23",
-    "score": 59,
+    "updated": "2026-08-28",
+    "score": 65,
     "sector": "반도체",
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 11,
-      "threat": 5
+      "opportunity": 15,
+      "threat": 7
     },
     "sector_max": {
       "strength": 25,
@@ -1940,33 +1940,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 32.13,
+      "per": 35.01,
       "per_txt": "고평가 주의",
-      "pbr": 5.04,
+      "pbr": 5.49,
       "pbr_txt": "고평가 주의",
-      "psr": 20.8,
+      "psr": 22.67,
       "psr_txt": "고평가 주의",
-      "peg": 1.16,
+      "peg": 1.26,
       "peg_txt": "적정",
       "tgt": 197200.0,
-      "upside": 48.4,
+      "upside": 36.2,
       "consensus_n": 5,
       "roe": 7.28
     },
     "valuation_engine": {
-      "fair_value": 64919.0,
+      "fair_value": 64942.0,
       "band_low": 29580.0,
-      "band_high": 233702.0,
+      "band_high": 233421.0,
       "confidence": "HIGH",
       "method_spread": 1.593,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 104.7,
+      "gap_pct": 123.0,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 47080.54523294822,
-      "per_band_mid": 64919.0,
+      "per_band_mid": 64942.0,
       "pbr_roe_fair_value": 75000.0,
       "nav_sotp_mid": null
     }
