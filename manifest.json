@@ -9799,5 +9799,14 @@
     "score": 47,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 16/20)"
+  },
+  {
+    "date": "2026-08-28",
+    "filename": "006730_서부T&D/2026-08-28_서부T&D_006730.html",
+    "company": "서부T&D",
+    "ticker": "006730",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
