@@ -936,11 +936,11 @@
     "company": "KB금융",
     "sector": "금융",
     "updated": "2026-08-28",
-    "score": 59,
+    "score": 58,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 11,
+      "opportunity": 10,
       "threat": 15
     },
     "sector_max": {
@@ -967,7 +967,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 24,
+      "hope_score": 23,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1431,11 +1431,11 @@
     "company": "에이피알",
     "sector": "기타",
     "updated": "2026-08-28",
-    "score": 68,
+    "score": 69,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 13,
+      "opportunity": 14,
       "threat": 12
     },
     "sector_max": {
@@ -1462,7 +1462,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 27,
+      "hope_score": 28,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -4995,11 +4995,11 @@
     "company": "파마리서치",
     "sector": "기타",
     "updated": "2026-08-28",
-    "score": 70,
+    "score": 69,
     "breakdown": {
       "strength": 24,
       "weakness": 17,
-      "opportunity": 24,
+      "opportunity": 23,
       "threat": 5
     },
     "sector_max": {
@@ -5026,7 +5026,7 @@
     },
     "reality_hope": {
       "reality_score": 38,
-      "hope_score": 31,
+      "hope_score": 30,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
