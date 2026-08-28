@@ -9979,5 +9979,14 @@
     "score": 47,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-08-28",
+    "filename": "034020_두산에너빌리티/2026-08-28_두산에너빌리티_034020.html",
+    "company": "두산에너빌리티",
+    "ticker": "034020",
+    "score": 33,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 16/30)"
   }
 ]
