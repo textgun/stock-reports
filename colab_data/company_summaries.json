@@ -150,12 +150,12 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-08-28",
-    "score": 72,
+    "score": 78,
     "breakdown": {
       "strength": 25,
       "weakness": 17,
       "opportunity": 20,
-      "threat": 10
+      "threat": 16
     },
     "sector_max": {
       "strength": 25,
@@ -647,12 +647,12 @@
     "company": "SK하이닉스",
     "sector": "반도체",
     "updated": "2026-08-28",
-    "score": 63,
+    "score": 69,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
       "opportunity": 14,
-      "threat": 6
+      "threat": 12
     },
     "sector_max": {
       "strength": 25,
@@ -1573,12 +1573,12 @@
     "company": "삼성화재해상보험",
     "sector": "금융",
     "updated": "2026-08-28",
-    "score": 54,
+    "score": 60,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
       "opportunity": 9,
-      "threat": 11
+      "threat": 17
     },
     "sector_max": {
       "strength": 30,
@@ -1680,35 +1680,35 @@
     },
     "extra": null,
     "valuation": {
-      "per": 34.37,
+      "per": 24.1,
       "per_txt": "적정",
-      "pbr": 0.55,
+      "pbr": 0.58,
       "pbr_txt": "고평가 주의",
-      "psr": 344.19,
+      "psr": 370.72,
       "psr_txt": "고평가 주의",
-      "peg": 0.37,
+      "peg": 0.26,
       "peg_txt": "저평가(성장대비)",
       "tgt": 136000.0,
-      "upside": 26.3,
+      "upside": 17.2,
       "consensus_n": 5,
       "roe": 1.63
     },
     "valuation_engine": {
-      "fair_value": 51264.0,
-      "band_low": 3711.0,
-      "band_high": 58252.0,
+      "fair_value": 51426.0,
+      "band_low": 4266.0,
+      "band_high": 58434.0,
       "confidence": "LOW",
-      "method_spread": 15.249,
+      "method_spread": 13.698,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "OVERHEATED",
-      "gap_pct": 110.1,
+      "gap_pct": 125.6,
       "quality_gate_passed": true,
       "action_label": "2차 매도 — 추가 1/3 매도",
       "srim_mid": 46068.554701051355,
       "per_band_mid": null,
-      "pbr_roe_fair_value": 56459.0,
-      "nav_sotp_mid": 3711.0
+      "pbr_roe_fair_value": 58434.0,
+      "nav_sotp_mid": 4266.0
     }
   },
   "084730": {
@@ -5454,13 +5454,13 @@
   },
   "003230": {
     "company": "삼양식품",
-    "updated": "2026-08-23",
-    "score": 68,
+    "updated": "2026-08-28",
+    "score": 66,
     "sector": "기타",
     "breakdown": {
       "strength": 22,
       "weakness": 18,
-      "opportunity": 18,
+      "opportunity": 16,
       "threat": 10
     },
     "sector_max": {
@@ -5486,34 +5486,34 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 21.1,
+      "per": 23.87,
       "per_txt": "적정",
-      "pbr": 7.41,
+      "pbr": 7.6,
       "pbr_txt": "고평가 주의",
-      "psr": 13.36,
+      "psr": 15.11,
       "psr_txt": "고평가 주의",
-      "peg": 0.45,
+      "peg": 0.51,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 1852000.0,
-      "upside": 35.6,
+      "tgt": 1842000.0,
+      "upside": 19.2,
       "consensus_n": 5,
       "roe": 8.88
     },
     "valuation_engine": {
       "fair_value": 1687956.0,
-      "band_low": 744095.0,
-      "band_high": 2247091.0,
+      "band_low": 752714.0,
+      "band_high": 2246558.0,
       "confidence": "HIGH",
-      "method_spread": 1.558,
+      "method_spread": 1.712,
       "position_scale": 1.0,
       "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -19.1,
+      "gap_pct": -8.5,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지)",
       "srim_mid": 1687956.284639019,
-      "per_band_mid": 1183512.0,
-      "pbr_roe_fair_value": 1843420.0,
+      "per_band_mid": 1186850.0,
+      "pbr_roe_fair_value": 2032120.0,
       "nav_sotp_mid": null
     }
   },
