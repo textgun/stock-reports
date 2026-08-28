@@ -851,13 +851,13 @@
       },
       {
         "date": "2026-08-28",
-        "total_score": 78,
+        "total_score": 72,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 17,
           "opportunity": 20,
-          "threat": 16
+          "threat": 10
         }
       }
     ]
