@@ -9925,5 +9925,14 @@
     "score": 44,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 29/32)"
+  },
+  {
+    "date": "2026-08-28",
+    "filename": "012450_한화에어로스페이스/2026-08-28_한화에어로스페이스_012450.html",
+    "company": "한화에어로스페이스",
+    "ticker": "012450",
+    "score": 48,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
