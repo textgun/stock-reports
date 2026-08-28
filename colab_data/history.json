@@ -2292,6 +2292,17 @@
           "opportunity": 9,
           "threat": 6
         }
+      },
+      {
+        "date": "2026-08-28",
+        "total_score": 42,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 12,
+          "opportunity": 14,
+          "threat": 6
+        }
       }
     ]
   },
@@ -25812,6 +25823,17 @@
           "weakness": 12,
           "opportunity": 11,
           "threat": 8
+        }
+      },
+      {
+        "date": "2026-08-28",
+        "total_score": 42,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 12,
+          "opportunity": 12,
+          "threat": 10
         }
       }
     ]
