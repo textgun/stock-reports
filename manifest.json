@@ -9862,5 +9862,14 @@
     "score": 40,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-08-28",
+    "filename": "009830_한화솔루션/2026-08-28_한화솔루션_009830.html",
+    "company": "한화솔루션",
+    "ticker": "009830",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
   }
 ]
