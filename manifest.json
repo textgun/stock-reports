@@ -10393,5 +10393,14 @@
     "score": 52,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-28",
+    "filename": "089030_테크윙/2026-08-28_테크윙_089030.html",
+    "company": "테크윙",
+    "ticker": "089030",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
   }
 ]
