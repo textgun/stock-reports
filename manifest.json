@@ -10195,5 +10195,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
+  },
+  {
+    "date": "2026-08-28",
+    "filename": "064400_LG씨엔에스/2026-08-28_LG씨엔에스_064400.html",
+    "company": "LG씨엔에스",
+    "ticker": "064400",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/22)"
   }
 ]
