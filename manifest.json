@@ -10708,5 +10708,14 @@
     "score": 46,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 20/22)"
+  },
+  {
+    "date": "2026-08-28",
+    "filename": "237690_에스티팜/2026-08-28_에스티팜_237690.html",
+    "company": "에스티팜",
+    "ticker": "237690",
+    "score": 41,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
