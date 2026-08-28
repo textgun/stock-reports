@@ -150,12 +150,12 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-08-28",
-    "score": 78,
+    "score": 72,
     "breakdown": {
       "strength": 25,
       "weakness": 17,
       "opportunity": 20,
-      "threat": 16
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
