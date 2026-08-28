@@ -9898,5 +9898,14 @@
     "score": 42,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-08-28",
+    "filename": "011200_HMM/2026-08-28_HMM_011200.html",
+    "company": "HMM",
+    "ticker": "011200",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
