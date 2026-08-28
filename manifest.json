@@ -9754,5 +9754,14 @@
     "score": 61,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-08-28",
+    "filename": "005090_SGC에너지/2026-08-28_SGC에너지_005090.html",
+    "company": "SGC에너지",
+    "ticker": "005090",
+    "score": 43,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)"
   }
 ]
