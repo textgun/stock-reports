@@ -2,12 +2,12 @@
   "005930": {
     "company": "삼성전자",
     "sector": "반도체",
-    "updated": "2026-08-31",
-    "score": 69,
+    "updated": "2026-09-01",
+    "score": 67,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 14,
+      "opportunity": 12,
       "threat": 12
     },
     "sector_max": {
@@ -44,33 +44,33 @@
       "exec_count": 9
     },
     "valuation": {
-      "per": 11.6,
+      "per": 11.66,
       "per_txt": "저평가",
-      "pbr": 3.0,
+      "pbr": 3.02,
       "pbr_txt": "고평가 주의",
-      "psr": 8.81,
+      "psr": 8.86,
       "psr_txt": "고평가 주의",
       "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
       "tgt": 410000.0,
-      "upside": 58.6,
+      "upside": 57.7,
       "consensus_n": 5,
       "roe": 12.36
     },
     "valuation_engine": {
       "fair_value": 157002.0,
       "band_low": 55875.0,
-      "band_high": 687978.0,
+      "band_high": 692506.0,
       "confidence": "LOW",
-      "method_spread": 4.526,
+      "method_spread": 4.524,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 64.6,
+      "gap_pct": 65.6,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 88513.72888282988,
-      "per_band_mid": 400630.0,
+      "per_band_mid": 400455.0,
       "pbr_roe_fair_value": 157002.0,
       "nav_sotp_mid": null
     }
