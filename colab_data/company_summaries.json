@@ -150,11 +150,11 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-09-03",
-    "score": 75,
+    "score": 76,
     "breakdown": {
       "strength": 24,
       "weakness": 17,
-      "opportunity": 18,
+      "opportunity": 19,
       "threat": 16
     },
     "sector_max": {
@@ -181,7 +181,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 33,
+      "hope_score": 34,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
@@ -292,11 +292,11 @@
     "company": "이오테크닉스",
     "sector": "반도체",
     "updated": "2026-09-03",
-    "score": 63,
+    "score": 64,
     "breakdown": {
       "strength": 22,
       "weakness": 17,
-      "opportunity": 7,
+      "opportunity": 8,
       "threat": 17
     },
     "sector_max": {
@@ -323,7 +323,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 27,
+      "hope_score": 28,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -723,11 +723,11 @@
     "company": "신한지주",
     "sector": "금융",
     "updated": "2026-09-03",
-    "score": 60,
+    "score": 62,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
-      "opportunity": 7,
+      "opportunity": 9,
       "threat": 19
     },
     "sector_max": {
@@ -754,7 +754,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 25,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -936,11 +936,11 @@
     "company": "KB금융",
     "sector": "금융",
     "updated": "2026-09-03",
-    "score": 57,
+    "score": 58,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 6,
+      "opportunity": 7,
       "threat": 18
     },
     "sector_max": {
@@ -967,7 +967,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 22,
+      "hope_score": 23,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1154,11 +1154,11 @@
     "company": "셀트리온",
     "sector": "바이오",
     "updated": "2026-09-03",
-    "score": 59,
+    "score": 58,
     "breakdown": {
       "strength": 16,
       "weakness": 8,
-      "opportunity": 18,
+      "opportunity": 17,
       "threat": 17
     },
     "sector_max": {
@@ -1185,7 +1185,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 26,
+      "hope_score": 25,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -1431,11 +1431,11 @@
     "company": "에이피알",
     "sector": "기타",
     "updated": "2026-09-03",
-    "score": 67,
+    "score": 68,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 12,
+      "opportunity": 13,
       "threat": 12
     },
     "sector_max": {
@@ -1462,7 +1462,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 26,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
