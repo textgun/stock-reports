@@ -11167,5 +11167,14 @@
     "score": 67,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-03",
+    "filename": "047050_포스코인터내셔널/2026-09-03_포스코인터내셔널_047050.html",
+    "company": "포스코인터내셔널",
+    "ticker": "047050",
+    "score": 39,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 18/30)"
   }
 ]
