@@ -34,7 +34,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 26,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -323,8 +323,8 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 30,
-      "quadrant": "현실·기대 모두 강함  🟢🟢"
+      "hope_score": 27,
+      "quadrant": "현실 강함  🟢"
     },
     "extra": null,
     "valuation": {
@@ -465,7 +465,7 @@
     },
     "reality_hope": {
       "reality_score": 24,
-      "hope_score": 31,
+      "hope_score": 29,
       "quadrant": "현실·기대 중립  🔵"
     },
     "extra": null,
@@ -678,7 +678,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 27,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -896,7 +896,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 26,
+      "hope_score": 25,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -967,7 +967,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 17,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1038,7 +1038,7 @@
     },
     "reality_hope": {
       "reality_score": 45,
-      "hope_score": 23,
+      "hope_score": 17,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1185,7 +1185,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 23,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -1462,7 +1462,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 24,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1675,7 +1675,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 16,
+      "hope_score": 17,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2201,7 +2201,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 23,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2467,7 +2467,7 @@
     },
     "reality_hope": {
       "reality_score": 20,
-      "hope_score": 16,
+      "hope_score": 19,
       "quadrant": "현실·기대 약함  🔴"
     },
     "extra": null,
@@ -10119,8 +10119,8 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 30,
-      "hope_score": 23,
+      "reality_score": 32,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -10191,7 +10191,7 @@
     },
     "reality_hope": {
       "reality_score": 33,
-      "hope_score": 22,
+      "hope_score": 20,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
