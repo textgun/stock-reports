@@ -221,11 +221,11 @@
     "company": "SK스퀘어",
     "sector": "반도체",
     "updated": "2026-09-07",
-    "score": 78,
+    "score": 80,
     "breakdown": {
       "strength": 25,
       "weakness": 22,
-      "opportunity": 14,
+      "opportunity": 16,
       "threat": 17
     },
     "sector_max": {
@@ -252,8 +252,8 @@
     },
     "reality_hope": {
       "reality_score": 47,
-      "hope_score": 29,
-      "quadrant": "현실 강함  🟢"
+      "hope_score": 31,
+      "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
     "valuation": {
@@ -1644,11 +1644,11 @@
     "company": "LG",
     "sector": "지주사",
     "updated": "2026-09-07",
-    "score": 60,
+    "score": 58,
     "breakdown": {
       "strength": 26,
       "weakness": 15,
-      "opportunity": 7,
+      "opportunity": 5,
       "threat": 12
     },
     "sector_max": {
@@ -1675,7 +1675,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 17,
+      "hope_score": 15,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
