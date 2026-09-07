@@ -2,12 +2,12 @@
   "005930": {
     "company": "삼성전자",
     "sector": "반도체",
-    "updated": "2026-09-04",
-    "score": 65,
+    "updated": "2026-09-07",
+    "score": 64,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 10,
+      "opportunity": 9,
       "threat": 12
     },
     "sector_max": {
@@ -34,7 +34,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 24,
+      "hope_score": 23,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -149,12 +149,12 @@
   "236200": {
     "company": "슈프리마",
     "sector": "기타",
-    "updated": "2026-09-04",
-    "score": 76,
+    "updated": "2026-09-07",
+    "score": 73,
     "breakdown": {
       "strength": 24,
       "weakness": 17,
-      "opportunity": 19,
+      "opportunity": 16,
       "threat": 16
     },
     "sector_max": {
@@ -181,7 +181,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 34,
+      "hope_score": 31,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
@@ -220,7 +220,7 @@
   "402340": {
     "company": "SK스퀘어",
     "sector": "반도체",
-    "updated": "2026-09-04",
+    "updated": "2026-09-07",
     "score": 78,
     "breakdown": {
       "strength": 25,
@@ -291,12 +291,12 @@
   "039030": {
     "company": "이오테크닉스",
     "sector": "반도체",
-    "updated": "2026-09-04",
-    "score": 65,
+    "updated": "2026-09-07",
+    "score": 63,
     "breakdown": {
       "strength": 22,
       "weakness": 17,
-      "opportunity": 9,
+      "opportunity": 7,
       "threat": 17
     },
     "sector_max": {
@@ -323,7 +323,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 29,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -362,7 +362,7 @@
   "058470": {
     "company": "리노공업",
     "sector": "반도체",
-    "updated": "2026-09-04",
+    "updated": "2026-09-07",
     "score": 62,
     "breakdown": {
       "strength": 24,
@@ -433,13 +433,13 @@
   "440110": {
     "company": "파두",
     "sector": "반도체",
-    "updated": "2026-09-04",
-    "score": 55,
+    "updated": "2026-09-07",
+    "score": 51,
     "breakdown": {
       "strength": 16,
       "weakness": 7,
-      "opportunity": 14,
-      "threat": 18
+      "opportunity": 12,
+      "threat": 16
     },
     "sector_max": {
       "strength": 25,
@@ -464,8 +464,8 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 24,
-      "hope_score": 32,
+      "reality_score": 22,
+      "hope_score": 30,
       "quadrant": "현실·기대 중립  🔵"
     },
     "extra": null,
@@ -504,10 +504,10 @@
   "071050": {
     "company": "한국금융지주",
     "sector": "금융",
-    "updated": "2026-09-04",
-    "score": 67,
+    "updated": "2026-09-07",
+    "score": 65,
     "breakdown": {
-      "strength": 26,
+      "strength": 24,
       "weakness": 15,
       "opportunity": 13,
       "threat": 13
@@ -522,8 +522,8 @@
       "qoq_trend": "improving",
       "yoy_pct": 129.6,
       "rev_yoy_pct": null,
-      "momentum_score": 10.0,
-      "correction_pts": 5
+      "momentum_score": 8.5,
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": null,
@@ -535,7 +535,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 42,
+      "reality_score": 40,
       "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
@@ -575,13 +575,13 @@
   "079550": {
     "company": "LIG디펜스앤에어로스페이스",
     "sector": "방산",
-    "updated": "2026-09-04",
-    "score": 51,
+    "updated": "2026-09-07",
+    "score": 49,
     "breakdown": {
-      "strength": 11,
+      "strength": 8,
       "weakness": 20,
       "opportunity": 11,
-      "threat": 9
+      "threat": 10
     },
     "sector_max": {
       "strength": 24,
@@ -593,8 +593,8 @@
       "qoq_trend": "flat",
       "yoy_pct": 36.2,
       "rev_yoy_pct": 17.4,
-      "momentum_score": 8.5,
-      "correction_pts": 6
+      "momentum_score": 7.0,
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": null,
@@ -606,9 +606,9 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 30,
+      "reality_score": 28,
       "hope_score": 21,
-      "quadrant": "현실 강함  🟢"
+      "quadrant": "현실·기대 중립  🔵"
     },
     "extra": null,
     "valuation": {
@@ -646,7 +646,7 @@
   "000660": {
     "company": "SK하이닉스",
     "sector": "반도체",
-    "updated": "2026-09-04",
+    "updated": "2026-09-07",
     "score": 68,
     "breakdown": {
       "strength": 25,
@@ -722,12 +722,12 @@
   "055550": {
     "company": "신한지주",
     "sector": "금융",
-    "updated": "2026-09-04",
-    "score": 59,
+    "updated": "2026-09-07",
+    "score": 62,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
-      "opportunity": 6,
+      "opportunity": 9,
       "threat": 19
     },
     "sector_max": {
@@ -754,7 +754,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 24,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -864,12 +864,12 @@
   "086790": {
     "company": "하나금융지주",
     "sector": "금융",
-    "updated": "2026-09-04",
-    "score": 58,
+    "updated": "2026-09-07",
+    "score": 60,
     "breakdown": {
       "strength": 17,
       "weakness": 15,
-      "opportunity": 7,
+      "opportunity": 9,
       "threat": 19
     },
     "sector_max": {
@@ -896,7 +896,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 25,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -935,12 +935,12 @@
   "105560": {
     "company": "KB금융",
     "sector": "금융",
-    "updated": "2026-09-04",
-    "score": 57,
+    "updated": "2026-09-07",
+    "score": 59,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 6,
+      "opportunity": 8,
       "threat": 18
     },
     "sector_max": {
@@ -967,7 +967,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 22,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1006,12 +1006,12 @@
   "196170": {
     "company": "알테오젠",
     "sector": "바이오",
-    "updated": "2026-09-04",
-    "score": 49,
+    "updated": "2026-09-07",
+    "score": 52,
     "breakdown": {
-      "strength": 18,
+      "strength": 17,
       "weakness": 9,
-      "opportunity": 17,
+      "opportunity": 21,
       "threat": 5
     },
     "sector_max": {
@@ -1024,8 +1024,8 @@
       "qoq_trend": "flat",
       "yoy_pct": 8048.8,
       "rev_yoy_pct": 269.6,
-      "momentum_score": 8.5,
-      "correction_pts": 6
+      "momentum_score": 7.0,
+      "correction_pts": 5
     },
     "trade": {
       "export_yoy": 54.08,
@@ -1034,11 +1034,11 @@
       "base_month": "202607",
       "status": null,
       "trade_score": 8,
-      "correction_pts": 0
+      "correction_pts": 1
     },
     "reality_hope": {
-      "reality_score": 45,
-      "hope_score": 17,
+      "reality_score": 43,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1153,12 +1153,12 @@
   "068270": {
     "company": "셀트리온",
     "sector": "바이오",
-    "updated": "2026-09-04",
-    "score": 58,
+    "updated": "2026-09-07",
+    "score": 53,
     "breakdown": {
       "strength": 16,
       "weakness": 8,
-      "opportunity": 17,
+      "opportunity": 12,
       "threat": 17
     },
     "sector_max": {
@@ -1185,7 +1185,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 25,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -1430,13 +1430,13 @@
   "278470": {
     "company": "에이피알",
     "sector": "기타",
-    "updated": "2026-09-04",
-    "score": 70,
+    "updated": "2026-09-07",
+    "score": 66,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 15,
-      "threat": 12
+      "opportunity": 14,
+      "threat": 9
     },
     "sector_max": {
       "strength": 25,
@@ -1448,7 +1448,7 @@
       "qoq_trend": "accelerating",
       "yoy_pct": 125.4,
       "rev_yoy_pct": 134.2,
-      "momentum_score": 10.0,
+      "momentum_score": 9.5,
       "correction_pts": 2
     },
     "trade": {
@@ -1462,7 +1462,7 @@
     },
     "reality_hope": {
       "reality_score": 42,
-      "hope_score": 27,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1501,7 +1501,7 @@
   "267250": {
     "company": "HD현대",
     "sector": "조선",
-    "updated": "2026-09-04",
+    "updated": "2026-09-07",
     "score": 61,
     "breakdown": {
       "strength": 15,
@@ -1572,13 +1572,13 @@
   "000810": {
     "company": "삼성화재해상보험",
     "sector": "금융",
-    "updated": "2026-09-04",
-    "score": 58,
+    "updated": "2026-09-07",
+    "score": 64,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
-      "opportunity": 7,
-      "threat": 17
+      "opportunity": 12,
+      "threat": 18
     },
     "sector_max": {
       "strength": 30,
@@ -1604,8 +1604,8 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 23,
-      "quadrant": "현실 강함  🟢"
+      "hope_score": 30,
+      "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
     "valuation": {
@@ -1643,12 +1643,12 @@
   "003550": {
     "company": "LG",
     "sector": "지주사",
-    "updated": "2026-09-04",
-    "score": 59,
+    "updated": "2026-09-07",
+    "score": 60,
     "breakdown": {
       "strength": 26,
       "weakness": 15,
-      "opportunity": 6,
+      "opportunity": 7,
       "threat": 12
     },
     "sector_max": {
@@ -1675,7 +1675,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 16,
+      "hope_score": 17,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2169,12 +2169,12 @@
   "319660": {
     "company": "피에스케이",
     "sector": "반도체",
-    "updated": "2026-09-04",
-    "score": 69,
+    "updated": "2026-09-07",
+    "score": 68,
     "breakdown": {
       "strength": 25,
       "weakness": 17,
-      "opportunity": 20,
+      "opportunity": 19,
       "threat": 7
     },
     "sector_max": {
@@ -2201,7 +2201,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 27,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2435,13 +2435,13 @@
   "047050": {
     "company": "포스코인터내셔널",
     "sector": "기타",
-    "updated": "2026-09-04",
-    "score": 47,
+    "updated": "2026-09-07",
+    "score": 48,
     "breakdown": {
       "strength": 8,
       "weakness": 10,
       "opportunity": 5,
-      "threat": 24
+      "threat": 25
     },
     "sector_max": {
       "strength": 25,
@@ -2466,7 +2466,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 20,
+      "reality_score": 21,
       "hope_score": 28,
       "quadrant": "현실·기대 중립  🔵"
     },
@@ -3481,7 +3481,7 @@
   "263750": {
     "company": "펄어비스",
     "sector": "기타",
-    "updated": "2026-09-04",
+    "updated": "2026-09-07",
     "score": 64,
     "breakdown": {
       "strength": 25,
@@ -4994,10 +4994,10 @@
   "214450": {
     "company": "파마리서치",
     "sector": "기타",
-    "updated": "2026-09-04",
-    "score": 71,
+    "updated": "2026-09-07",
+    "score": 70,
     "breakdown": {
-      "strength": 24,
+      "strength": 23,
       "weakness": 17,
       "opportunity": 23,
       "threat": 7
@@ -5012,8 +5012,8 @@
       "qoq_trend": "improving",
       "yoy_pct": 19.0,
       "rev_yoy_pct": 27.1,
-      "momentum_score": 9.0,
-      "correction_pts": 5
+      "momentum_score": 7.5,
+      "correction_pts": 4
     },
     "trade": {
       "export_yoy": null,
@@ -5025,7 +5025,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 40,
+      "reality_score": 39,
       "hope_score": 30,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
@@ -8912,12 +8912,12 @@
   "267260": {
     "company": "HD현대일렉트릭",
     "sector": "전기장비/전력",
-    "updated": "2026-09-04",
-    "score": 56,
+    "updated": "2026-09-07",
+    "score": 54,
     "breakdown": {
       "strength": 20,
       "weakness": 13,
-      "opportunity": 8,
+      "opportunity": 6,
       "threat": 15
     },
     "sector_max": {
@@ -8944,7 +8944,7 @@
     },
     "reality_hope": {
       "reality_score": 33,
-      "hope_score": 21,
+      "hope_score": 19,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -10088,7 +10088,7 @@
   "028260": {
     "company": "삼성물산",
     "sector": "내수/유통",
-    "updated": "2026-09-04",
+    "updated": "2026-09-07",
     "score": 57,
     "breakdown": {
       "strength": 19,
@@ -10159,12 +10159,12 @@
   "017670": {
     "company": "SK텔레콤",
     "sector": "플랫폼",
-    "updated": "2026-09-04",
-    "score": 52,
+    "updated": "2026-09-07",
+    "score": 54,
     "breakdown": {
-      "strength": 12,
+      "strength": 11,
       "weakness": 14,
-      "opportunity": 7,
+      "opportunity": 10,
       "threat": 19
     },
     "sector_max": {
@@ -10177,8 +10177,8 @@
       "qoq_trend": "accelerating",
       "yoy_pct": 67.3,
       "rev_yoy_pct": 0.5,
-      "momentum_score": 10.0,
-      "correction_pts": 5
+      "momentum_score": 9.5,
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": null,
@@ -10190,8 +10190,8 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 33,
-      "hope_score": 20,
+      "reality_score": 32,
+      "hope_score": 23,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
