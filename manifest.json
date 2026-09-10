@@ -11305,15 +11305,6 @@
   },
   {
     "date": "2026-09-10",
-    "filename": "000660_SK하이닉스/2026-09-10_SK하이닉스_000660.html",
-    "company": "SK하이닉스",
-    "ticker": "000660",
-    "score": 73,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-09-10",
     "filename": "000810_삼성화재해상보험/2026-09-10_삼성화재해상보험_000810.html",
     "company": "삼성화재해상보험",
     "ticker": "000810",
@@ -11509,5 +11500,14 @@
     "score": 49,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+  },
+  {
+    "date": "2026-09-10",
+    "filename": "000660_SK하이닉스/2026-09-10_SK하이닉스_000660.html",
+    "company": "SK하이닉스",
+    "ticker": "000660",
+    "score": 73,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
