@@ -11305,15 +11305,6 @@
   },
   {
     "date": "2026-09-10",
-    "filename": "267250_HD현대/2026-09-10_HD현대_267250.html",
-    "company": "HD현대",
-    "ticker": "267250",
-    "score": 64,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-10",
     "filename": "267260_HD현대일렉트릭/2026-09-10_HD현대일렉트릭_267260.html",
     "company": "HD현대일렉트릭",
     "ticker": "267260",
@@ -11509,5 +11500,14 @@
     "score": 73,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-10",
+    "filename": "267250_HD현대/2026-09-10_HD현대_267250.html",
+    "company": "HD현대",
+    "ticker": "267250",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
