@@ -11305,15 +11305,6 @@
   },
   {
     "date": "2026-09-10",
-    "filename": "005930_삼성전자/2026-09-10_삼성전자_005930.html",
-    "company": "삼성전자",
-    "ticker": "005930",
-    "score": 69,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-09-10",
     "filename": "017670_SK텔레콤/2026-09-10_SK텔레콤_017670.html",
     "company": "SK텔레콤",
     "ticker": "017670",
@@ -11509,5 +11500,14 @@
     "score": 61,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-10",
+    "filename": "005930_삼성전자/2026-09-10_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
