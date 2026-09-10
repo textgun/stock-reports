@@ -11305,15 +11305,6 @@
   },
   {
     "date": "2026-09-10",
-    "filename": "440110_파두/2026-09-10_파두_440110.html",
-    "company": "파두",
-    "ticker": "440110",
-    "score": 49,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
-  },
-  {
-    "date": "2026-09-10",
     "filename": "000660_SK하이닉스/2026-09-10_SK하이닉스_000660.html",
     "company": "SK하이닉스",
     "ticker": "000660",
@@ -11509,5 +11500,14 @@
     "score": 81,
     "rating": "STRONG_BUY",
     "rating_label": "적극 매수 ★★★"
+  },
+  {
+    "date": "2026-09-10",
+    "filename": "440110_파두/2026-09-10_파두_440110.html",
+    "company": "파두",
+    "ticker": "440110",
+    "score": 49,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
   }
 ]
