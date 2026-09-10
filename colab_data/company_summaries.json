@@ -7605,14 +7605,14 @@
   },
   "131290": {
     "company": "티에스이",
-    "updated": "2026-08-28",
-    "score": 70,
+    "updated": "2026-09-10",
+    "score": 72,
     "sector": "반도체",
     "breakdown": {
       "strength": 25,
       "weakness": 17,
-      "opportunity": 11,
-      "threat": 17
+      "opportunity": 17,
+      "threat": 13
     },
     "sector_max": {
       "strength": 25,
@@ -7637,29 +7637,29 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 25.21,
+      "per": 32.4,
       "per_txt": "고평가 주의",
-      "pbr": 5.57,
+      "pbr": 7.15,
       "pbr_txt": "고평가 주의",
-      "psr": 13.98,
+      "psr": 17.96,
       "psr_txt": "고평가 주의",
-      "peg": 0.1,
+      "peg": 0.13,
       "peg_txt": "저평가(성장대비)",
       "tgt": 256200.0,
-      "upside": 7.4,
+      "upside": -16.4,
       "consensus_n": 5,
       "roe": 7.29
     },
     "valuation_engine": {
       "fair_value": 52754.0,
       "band_low": 18544.0,
-      "band_high": 697635.0,
+      "band_high": 721515.0,
       "confidence": "LOW",
       "method_spread": 4.142,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "zone": "FAIR",
-      "gap_pct": 352.1,
+      "gap_pct": 481.0,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 35128.772982685245,
