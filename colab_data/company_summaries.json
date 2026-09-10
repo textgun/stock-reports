@@ -78,12 +78,12 @@
   "062040": {
     "company": "산일전기",
     "sector": "전기장비/전력",
-    "updated": "2026-09-03",
-    "score": 63,
+    "updated": "2026-09-10",
+    "score": 64,
     "breakdown": {
-      "strength": 26,
+      "strength": 25,
       "weakness": 16,
-      "opportunity": 7,
+      "opportunity": 9,
       "threat": 14
     },
     "sector_max": {
@@ -96,8 +96,8 @@
       "qoq_trend": "accelerating",
       "yoy_pct": 34.3,
       "rev_yoy_pct": 28.0,
-      "momentum_score": 10.0,
-      "correction_pts": 6
+      "momentum_score": 9.5,
+      "correction_pts": 5
     },
     "trade": {
       "export_yoy": -2.54,
@@ -106,7 +106,7 @@
       "base_month": "202607",
       "status": null,
       "trade_score": 1,
-      "correction_pts": 0
+      "correction_pts": -1
     },
     "reality_hope": {
       "reality_score": 37,
@@ -115,33 +115,33 @@
     },
     "extra": null,
     "valuation": {
-      "per": 31.11,
+      "per": 33.19,
       "per_txt": "저평가",
-      "pbr": 8.47,
+      "pbr": 9.03,
       "pbr_txt": "고평가 주의",
-      "psr": 34.31,
+      "psr": 36.6,
       "psr_txt": "고평가 주의",
-      "peg": 0.91,
+      "peg": 0.97,
       "peg_txt": "저평가(성장대비)",
       "tgt": 298000.0,
-      "upside": 62.1,
+      "upside": 52.0,
       "consensus_n": 5,
       "roe": 8.23
     },
     "valuation_engine": {
       "fair_value": 217100.0,
       "band_low": 123021.0,
-      "band_high": 244149.0,
+      "band_high": 242340.0,
       "confidence": "HIGH",
-      "method_spread": 1.684,
+      "method_spread": 1.672,
       "position_scale": 1.0,
       "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -15.3,
+      "gap_pct": -9.7,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지)",
       "srim_mid": 144966.9249216638,
-      "per_band_mid": 244149.0,
+      "per_band_mid": 242340.0,
       "pbr_roe_fair_value": 217100.0,
       "nav_sotp_mid": null
     }
