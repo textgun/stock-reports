@@ -11305,15 +11305,6 @@
   },
   {
     "date": "2026-09-10",
-    "filename": "196170_알테오젠/2026-09-10_알테오젠_196170.html",
-    "company": "알테오젠",
-    "ticker": "196170",
-    "score": 56,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-10",
     "filename": "236200_슈프리마/2026-09-10_슈프리마_236200.html",
     "company": "슈프리마",
     "ticker": "236200",
@@ -11507,6 +11498,15 @@
     "company": "KB금융",
     "ticker": "105560",
     "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-10",
+    "filename": "196170_알테오젠/2026-09-10_알테오젠_196170.html",
+    "company": "알테오젠",
+    "ticker": "196170",
+    "score": 56,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
