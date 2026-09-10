@@ -11305,15 +11305,6 @@
   },
   {
     "date": "2026-09-10",
-    "filename": "267260_HD현대일렉트릭/2026-09-10_HD현대일렉트릭_267260.html",
-    "company": "HD현대일렉트릭",
-    "ticker": "267260",
-    "score": 59,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-10",
     "filename": "278470_에이피알/2026-09-10_에이피알_278470.html",
     "company": "에이피알",
     "ticker": "278470",
@@ -11507,6 +11498,15 @@
     "company": "HD현대",
     "ticker": "267250",
     "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-10",
+    "filename": "267260_HD현대일렉트릭/2026-09-10_HD현대일렉트릭_267260.html",
+    "company": "HD현대일렉트릭",
+    "ticker": "267260",
+    "score": 59,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
