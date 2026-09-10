@@ -32009,13 +32009,13 @@
       },
       {
         "date": "2026-09-10",
-        "total_score": 69,
+        "total_score": 67,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 23,
           "weakness": 17,
-          "opportunity": 22,
-          "threat": 7
+          "opportunity": 15,
+          "threat": 12
         }
       }
     ]
