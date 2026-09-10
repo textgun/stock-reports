@@ -11305,15 +11305,6 @@
   },
   {
     "date": "2026-09-10",
-    "filename": "079550_LIG디펜스앤에어로스페이스/2026-09-10_LIG디펜스앤에어로스페이스_079550.html",
-    "company": "LIG디펜스앤에어로스페이스",
-    "ticker": "079550",
-    "score": 50,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-10",
     "filename": "086790_하나금융지주/2026-09-10_하나금융지주_086790.html",
     "company": "하나금융지주",
     "ticker": "086790",
@@ -11509,5 +11500,14 @@
     "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-10",
+    "filename": "079550_LIG디펜스앤에어로스페이스/2026-09-10_LIG디펜스앤에어로스페이스_079550.html",
+    "company": "LIG디펜스앤에어로스페이스",
+    "ticker": "079550",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
