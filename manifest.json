@@ -11305,15 +11305,6 @@
   },
   {
     "date": "2026-09-10",
-    "filename": "000810_삼성화재해상보험/2026-09-10_삼성화재해상보험_000810.html",
-    "company": "삼성화재해상보험",
-    "ticker": "000810",
-    "score": 63,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-10",
     "filename": "003550_LG/2026-09-10_LG_003550.html",
     "company": "LG",
     "ticker": "003550",
@@ -11509,5 +11500,14 @@
     "score": 73,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-10",
+    "filename": "000810_삼성화재해상보험/2026-09-10_삼성화재해상보험_000810.html",
+    "company": "삼성화재해상보험",
+    "ticker": "000810",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
