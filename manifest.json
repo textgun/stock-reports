@@ -11296,15 +11296,6 @@
   },
   {
     "date": "2026-09-10",
-    "filename": "214450_파마리서치/2026-09-10_파마리서치_214450.html",
-    "company": "파마리서치",
-    "ticker": "214450",
-    "score": 67,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-09-10",
     "filename": "236200_슈프리마/2026-09-10_슈프리마_236200.html",
     "company": "슈프리마",
     "ticker": "236200",
@@ -11509,5 +11500,14 @@
     "score": 56,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-10",
+    "filename": "214450_파마리서치/2026-09-10_파마리서치_214450.html",
+    "company": "파마리서치",
+    "ticker": "214450",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
