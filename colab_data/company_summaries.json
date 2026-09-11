@@ -8131,14 +8131,14 @@
   },
   "051160": {
     "company": "지어소프트",
-    "updated": "2026-08-28",
+    "updated": "2026-09-11",
     "score": 64,
     "sector": "기타",
     "breakdown": {
       "strength": 12,
       "weakness": 21,
-      "opportunity": 17,
-      "threat": 14
+      "opportunity": 11,
+      "threat": 20
     },
     "sector_max": {
       "strength": 25,
@@ -8163,33 +8163,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 9.32,
+      "per": 9.85,
       "per_txt": "저평가",
-      "pbr": 0.83,
+      "pbr": 0.88,
       "pbr_txt": "고평가 주의",
-      "psr": 1.02,
+      "psr": 1.08,
       "psr_txt": "적정",
-      "peg": 0.11,
+      "peg": 0.12,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 26166.666666666668,
-      "upside": 174.6,
-      "consensus_n": 3,
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
       "roe": 3.15
     },
     "valuation_engine": {
-      "fair_value": 24707.0,
-      "band_low": 14401.0,
-      "band_high": 31906.0,
+      "fair_value": 22374.0,
+      "band_low": 14297.0,
+      "band_high": 30450.0,
       "confidence": "LOW",
-      "method_spread": 2.114,
+      "method_spread": 2.13,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "zone": "DEEP_VALUE",
-      "gap_pct": -61.4,
+      "gap_pct": -54.9,
       "quality_gate_passed": true,
       "action_label": "3차 매수 존 (목표비중 100%까지) · ⚠️ 신뢰도 LOW(편차 2.1배) → 목표비중 50%로 축소 매수",
-      "srim_mid": 24707.084816531107,
-      "per_band_mid": 14401.0,
+      "srim_mid": null,
+      "per_band_mid": 14297.0,
       "pbr_roe_fair_value": 30450.0,
       "nav_sotp_mid": null
     }
