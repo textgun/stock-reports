@@ -6435,13 +6435,13 @@
   },
   "041510": {
     "company": "에스엠",
-    "updated": "2026-08-28",
+    "updated": "2026-09-11",
     "score": 55,
     "sector": "기타",
     "breakdown": {
-      "strength": 17,
+      "strength": 16,
       "weakness": 19,
-      "opportunity": 9,
+      "opportunity": 10,
       "threat": 10
     },
     "sector_max": {
@@ -6454,8 +6454,8 @@
       "qoq_trend": "recovering",
       "yoy_pct": 11.1,
       "rev_yoy_pct": 15.4,
-      "momentum_score": 8.0,
-      "correction_pts": 4
+      "momentum_score": 6.5,
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": null,
@@ -6467,33 +6467,33 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 13.18,
-      "per_txt": "저평가",
-      "pbr": 1.68,
+      "per": 14.71,
+      "per_txt": "적정",
+      "pbr": 1.88,
       "pbr_txt": "고평가 주의",
-      "psr": 4.96,
+      "psr": 5.54,
       "psr_txt": "고평가 주의",
-      "peg": 1.19,
+      "peg": 1.33,
       "peg_txt": "적정",
-      "tgt": 113800.0,
-      "upside": 50.1,
-      "consensus_n": 5,
+      "tgt": 112824.0,
+      "upside": 33.4,
+      "consensus_n": 0,
       "roe": 2.1
     },
     "valuation_engine": {
-      "fair_value": 154340.0,
-      "band_low": 70800.0,
-      "band_high": 737736.0,
-      "confidence": "HIGH",
-      "method_spread": 1.348,
-      "position_scale": 1.0,
+      "fair_value": 141454.0,
+      "band_low": 70260.0,
+      "band_high": 735132.0,
+      "confidence": "MID",
+      "method_spread": 1.2,
+      "position_scale": 0.75,
       "buy_signal_allowed": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -50.9,
+      "gap_pct": -40.2,
       "quality_gate_passed": true,
-      "action_label": "1차 매수 존 (목표비중 33%까지)",
-      "srim_mid": 174007.28494271945,
-      "per_band_mid": 129078.0,
+      "action_label": "1차 매수 존 (목표비중 33%까지) · 신뢰도 MID → 목표비중 75%",
+      "srim_mid": null,
+      "per_band_mid": 128569.0,
       "pbr_roe_fair_value": 154340.0,
       "nav_sotp_mid": null
     }
