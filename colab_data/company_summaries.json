@@ -150,11 +150,11 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-09-11",
-    "score": 73,
+    "score": 74,
     "breakdown": {
       "strength": 24,
       "weakness": 17,
-      "opportunity": 13,
+      "opportunity": 14,
       "threat": 19
     },
     "sector_max": {
@@ -181,7 +181,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 31,
+      "hope_score": 32,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
@@ -723,11 +723,11 @@
     "company": "신한지주",
     "sector": "금융",
     "updated": "2026-09-11",
-    "score": 61,
+    "score": 62,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
-      "opportunity": 9,
+      "opportunity": 10,
       "threat": 18
     },
     "sector_max": {
@@ -754,7 +754,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 25,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -865,11 +865,11 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-09-11",
-    "score": 59,
+    "score": 60,
     "breakdown": {
       "strength": 17,
       "weakness": 15,
-      "opportunity": 9,
+      "opportunity": 10,
       "threat": 18
     },
     "sector_max": {
@@ -896,7 +896,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 25,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -936,11 +936,11 @@
     "company": "KB금융",
     "sector": "금융",
     "updated": "2026-09-11",
-    "score": 61,
+    "score": 60,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 10,
+      "opportunity": 9,
       "threat": 18
     },
     "sector_max": {
@@ -967,7 +967,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 26,
+      "hope_score": 25,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1573,11 +1573,11 @@
     "company": "삼성화재해상보험",
     "sector": "금융",
     "updated": "2026-09-11",
-    "score": 63,
+    "score": 62,
     "breakdown": {
       "strength": 19,
       "weakness": 15,
-      "opportunity": 12,
+      "opportunity": 11,
       "threat": 17
     },
     "sector_max": {
@@ -1604,7 +1604,7 @@
     },
     "reality_hope": {
       "reality_score": 35,
-      "hope_score": 28,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -4995,11 +4995,11 @@
     "company": "파마리서치",
     "sector": "기타",
     "updated": "2026-09-11",
-    "score": 67,
+    "score": 66,
     "breakdown": {
       "strength": 23,
       "weakness": 17,
-      "opportunity": 15,
+      "opportunity": 14,
       "threat": 12
     },
     "sector_max": {
@@ -5026,7 +5026,7 @@
     },
     "reality_hope": {
       "reality_score": 39,
-      "hope_score": 27,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -10089,11 +10089,11 @@
     "company": "삼성물산",
     "sector": "내수/유통",
     "updated": "2026-09-11",
-    "score": 59,
+    "score": 58,
     "breakdown": {
       "strength": 19,
       "weakness": 19,
-      "opportunity": 9,
+      "opportunity": 8,
       "threat": 12
     },
     "sector_max": {
@@ -10120,7 +10120,7 @@
     },
     "reality_hope": {
       "reality_score": 30,
-      "hope_score": 29,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
