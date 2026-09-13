@@ -12076,5 +12076,14 @@
     "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "083450_GST/2026-09-14_GST_083450.html",
+    "company": "GST",
+    "ticker": "083450",
+    "score": 58,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
   }
 ]
