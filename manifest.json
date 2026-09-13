@@ -12364,5 +12364,14 @@
     "score": 48,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "208710_포톤/2026-09-14_포톤_208710.html",
+    "company": "포톤",
+    "ticker": "208710",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
   }
 ]
