@@ -12121,5 +12121,14 @@
     "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "088350_한화생명/2026-09-14_한화생명_088350.html",
+    "company": "한화생명",
+    "ticker": "088350",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
