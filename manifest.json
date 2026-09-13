@@ -12328,5 +12328,14 @@
     "score": 55,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "192820_코스맥스/2026-09-14_코스맥스_192820.html",
+    "company": "코스맥스",
+    "ticker": "192820",
+    "score": 54,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
   }
 ]
