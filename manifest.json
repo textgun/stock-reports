@@ -11986,5 +11986,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 19/22)"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "064760_티씨케이/2026-09-14_티씨케이_064760.html",
+    "company": "티씨케이",
+    "ticker": "064760",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
