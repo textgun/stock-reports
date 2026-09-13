@@ -12580,5 +12580,14 @@
     "score": 45,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "336260_두산퓨얼셀/2026-09-14_두산퓨얼셀_336260.html",
+    "company": "두산퓨얼셀",
+    "ticker": "336260",
+    "score": 21,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 7/30)"
   }
 ]
