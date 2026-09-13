@@ -12652,5 +12652,14 @@
     "score": 41,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "399720_가온칩스/2026-09-14_가온칩스_399720.html",
+    "company": "가온칩스",
+    "ticker": "399720",
+    "score": 30,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)"
   }
 ]
