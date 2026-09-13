@@ -11572,5 +11572,14 @@
     "score": 56,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "000500_가온전선/2026-09-14_가온전선_000500.html",
+    "company": "가온전선",
+    "ticker": "000500",
+    "score": 48,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)"
   }
 ]
