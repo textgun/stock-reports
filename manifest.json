@@ -12256,5 +12256,14 @@
     "score": 50,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "131970_두산테스나/2026-09-14_두산테스나_131970.html",
+    "company": "두산테스나",
+    "ticker": "131970",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
