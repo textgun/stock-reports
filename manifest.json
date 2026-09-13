@@ -12598,5 +12598,14 @@
     "score": 35,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "353200_대덕전자/2026-09-14_대덕전자_353200.html",
+    "company": "대덕전자",
+    "ticker": "353200",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
