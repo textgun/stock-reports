@@ -12094,5 +12094,14 @@
     "score": 63,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "084730_팅크웨어/2026-09-14_팅크웨어_084730.html",
+    "company": "팅크웨어",
+    "ticker": "084730",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 10/30)"
   }
 ]
