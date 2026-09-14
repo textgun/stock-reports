@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "145020_휴젤/2026-09-14_휴젤_145020.html",
-    "company": "휴젤",
-    "ticker": "145020",
-    "score": 66,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "160190_하이젠알앤엠/2026-09-14_하이젠알앤엠_160190.html",
     "company": "하이젠알앤엠",
     "ticker": "160190",
@@ -12859,5 +12850,14 @@
     "score": 48,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "145020_휴젤/2026-09-14_휴젤_145020.html",
+    "company": "휴젤",
+    "ticker": "145020",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
