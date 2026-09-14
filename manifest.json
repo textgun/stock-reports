@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "042660_한화오션/2026-09-14_한화오션_042660.html",
-    "company": "한화오션",
-    "ticker": "042660",
-    "score": 45,
-    "rating": "WATCH",
-    "rating_label": "관찰"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "042700_한미반도체/2026-09-14_한미반도체_042700.html",
     "company": "한미반도체",
     "ticker": "042700",
@@ -12760,5 +12751,14 @@
     "score": 55,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "042660_한화오션/2026-09-14_한화오션_042660.html",
+    "company": "한화오션",
+    "ticker": "042660",
+    "score": 45,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
