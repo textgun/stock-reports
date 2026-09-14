@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "074600_원익QnC/2026-09-14_원익QnC_074600.html",
-    "company": "원익QnC",
-    "ticker": "074600",
-    "score": 61,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "074610_이엔플러스/2026-09-14_이엔플러스_074610.html",
     "company": "이엔플러스",
     "ticker": "074610",
@@ -12823,5 +12814,14 @@
     "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "074600_원익QnC/2026-09-14_원익QnC_074600.html",
+    "company": "원익QnC",
+    "ticker": "074600",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
