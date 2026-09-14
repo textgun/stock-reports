@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "010140_삼성중공업/2026-09-14_삼성중공업_010140.html",
-    "company": "삼성중공업",
-    "ticker": "010140",
-    "score": 51,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "011070_LG이노텍/2026-09-14_LG이노텍_011070.html",
     "company": "LG이노텍",
     "ticker": "011070",
@@ -12722,6 +12713,15 @@
     "company": "엘에스일렉트릭",
     "ticker": "010120",
     "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "010140_삼성중공업/2026-09-14_삼성중공업_010140.html",
+    "company": "삼성중공업",
+    "ticker": "010140",
+    "score": 51,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
