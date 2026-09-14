@@ -11566,15 +11566,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "425420_티에프이/2026-09-14_티에프이_425420.html",
-    "company": "티에프이",
-    "ticker": "425420",
-    "score": 57,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "000150_두산/2026-09-14_두산_000150.html",
     "company": "두산",
     "ticker": "000150",
@@ -12940,5 +12931,14 @@
     "score": 80,
     "rating": "STRONG_BUY",
     "rating_label": "적극 매수 ★★★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "425420_티에프이/2026-09-14_티에프이_425420.html",
+    "company": "티에프이",
+    "ticker": "425420",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
