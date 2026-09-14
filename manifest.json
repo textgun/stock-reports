@@ -12502,15 +12502,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "010060_OCI홀딩스/2026-09-14_OCI홀딩스_010060.html",
-    "company": "OCI홀딩스",
-    "ticker": "010060",
-    "score": 58,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "000150_두산/2026-09-14_두산_000150.html",
     "company": "두산",
     "ticker": "000150",
@@ -12724,5 +12715,14 @@
     "score": 47,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 20/30)"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "010060_OCI홀딩스/2026-09-14_OCI홀딩스_010060.html",
+    "company": "OCI홀딩스",
+    "ticker": "010060",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
