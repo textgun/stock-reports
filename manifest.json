@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "222800_심텍/2026-09-14_심텍_222800.html",
-    "company": "심텍",
-    "ticker": "222800",
-    "score": 66,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "226950_올릭스/2026-09-14_올릭스_226950.html",
     "company": "올릭스",
     "ticker": "226950",
@@ -12875,6 +12866,15 @@
     "company": "파마리서치",
     "ticker": "214450",
     "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "222800_심텍/2026-09-14_심텍_222800.html",
+    "company": "심텍",
+    "ticker": "222800",
+    "score": 66,
     "rating": "BUY",
     "rating_label": "매수 ★★"
   }
