@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "141080_리가켐바이오/2026-09-14_리가켐바이오_141080.html",
-    "company": "리가켐바이오",
-    "ticker": "141080",
-    "score": 48,
-    "rating": "WATCH",
-    "rating_label": "관찰"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "145020_휴젤/2026-09-14_휴젤_145020.html",
     "company": "휴젤",
     "ticker": "145020",
@@ -12856,6 +12847,15 @@
     "filename": "140860_파크시스템스/2026-09-14_파크시스템스_140860.html",
     "company": "파크시스템스",
     "ticker": "140860",
+    "score": 48,
+    "rating": "WATCH",
+    "rating_label": "관찰"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "141080_리가켐바이오/2026-09-14_리가켐바이오_141080.html",
+    "company": "리가켐바이오",
+    "ticker": "141080",
     "score": 48,
     "rating": "WATCH",
     "rating_label": "관찰"
