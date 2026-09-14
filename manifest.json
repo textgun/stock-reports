@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "012690_모나리자/2026-09-14_모나리자_012690.html",
-    "company": "모나리자",
-    "ticker": "012690",
-    "score": 47,
-    "rating": "WATCH",
-    "rating_label": "관찰"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "031980_피에스케이홀딩스/2026-09-14_피에스케이홀딩스_031980.html",
     "company": "피에스케이홀딩스",
     "ticker": "031980",
@@ -12724,5 +12715,14 @@
     "score": 55,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "012690_모나리자/2026-09-14_모나리자_012690.html",
+    "company": "모나리자",
+    "ticker": "012690",
+    "score": 47,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
