@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "095610_테스/2026-09-14_테스_095610.html",
-    "company": "테스",
-    "ticker": "095610",
-    "score": 66,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "101490_에스앤에스텍/2026-09-14_에스앤에스텍_101490.html",
     "company": "에스앤에스텍",
     "ticker": "101490",
@@ -12841,5 +12832,14 @@
     "score": 61,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "095610_테스/2026-09-14_테스_095610.html",
+    "company": "테스",
+    "ticker": "095610",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
