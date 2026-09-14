@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "010120_엘에스일렉트릭/2026-09-14_엘에스일렉트릭_010120.html",
-    "company": "엘에스일렉트릭",
-    "ticker": "010120",
-    "score": 55,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "010140_삼성중공업/2026-09-14_삼성중공업_010140.html",
     "company": "삼성중공업",
     "ticker": "010140",
@@ -12722,6 +12713,15 @@
     "company": "OCI홀딩스",
     "ticker": "010060",
     "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "010120_엘에스일렉트릭/2026-09-14_엘에스일렉트릭_010120.html",
+    "company": "엘에스일렉트릭",
+    "ticker": "010120",
+    "score": 55,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
