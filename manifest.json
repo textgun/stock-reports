@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "046970_우리로/2026-09-14_우리로_046970.html",
-    "company": "우리로",
-    "ticker": "046970",
-    "score": 51,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "047560_이스트소프트/2026-09-14_이스트소프트_047560.html",
     "company": "이스트소프트",
     "ticker": "047560",
@@ -12758,6 +12749,15 @@
     "company": "성호전자",
     "ticker": "043260",
     "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "046970_우리로/2026-09-14_우리로_046970.html",
+    "company": "우리로",
+    "ticker": "046970",
+    "score": 51,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
