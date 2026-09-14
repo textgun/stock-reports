@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "011780_금호석유화학/2026-09-14_금호석유화학_011780.html",
-    "company": "금호석유화학",
-    "ticker": "011780",
-    "score": 63,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "012330_현대모비스/2026-09-14_현대모비스_012330.html",
     "company": "현대모비스",
     "ticker": "012330",
@@ -12722,6 +12713,15 @@
     "company": "HMM",
     "ticker": "011200",
     "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "011780_금호석유화학/2026-09-14_금호석유화학_011780.html",
+    "company": "금호석유화학",
+    "ticker": "011780",
+    "score": 63,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
