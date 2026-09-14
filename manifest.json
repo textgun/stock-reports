@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "322000_HD현대에너지솔루션/2026-09-14_HD현대에너지솔루션_322000.html",
-    "company": "HD현대에너지솔루션",
-    "ticker": "322000",
-    "score": 56,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "328130_루닛/2026-09-14_루닛_328130.html",
     "company": "루닛",
     "ticker": "328130",
@@ -12931,5 +12922,14 @@
     "score": 66,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "322000_HD현대에너지솔루션/2026-09-14_HD현대에너지솔루션_322000.html",
+    "company": "HD현대에너지솔루션",
+    "ticker": "322000",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
