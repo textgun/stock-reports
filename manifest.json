@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "039490_키움증권/2026-09-14_키움증권_039490.html",
-    "company": "키움증권",
-    "ticker": "039490",
-    "score": 58,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "042660_한화오션/2026-09-14_한화오션_042660.html",
     "company": "한화오션",
     "ticker": "042660",
@@ -12749,6 +12740,15 @@
     "company": "이오테크닉스",
     "ticker": "039030",
     "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "039490_키움증권/2026-09-14_키움증권_039490.html",
+    "company": "키움증권",
+    "ticker": "039490",
+    "score": 58,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
