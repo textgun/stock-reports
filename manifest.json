@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "095340_ISC/2026-09-14_ISC_095340.html",
-    "company": "ISC",
-    "ticker": "095340",
-    "score": 61,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "095610_테스/2026-09-14_테스_095610.html",
     "company": "테스",
     "ticker": "095610",
@@ -12841,5 +12832,14 @@
     "score": 70,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "095340_ISC/2026-09-14_ISC_095340.html",
+    "company": "ISC",
+    "ticker": "095340",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
