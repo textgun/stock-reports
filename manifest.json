@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "032830_삼성생명/2026-09-14_삼성생명_032830.html",
-    "company": "삼성생명",
-    "ticker": "032830",
-    "score": 56,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "034020_두산에너빌리티/2026-09-14_두산에너빌리티_034020.html",
     "company": "두산에너빌리티",
     "ticker": "034020",
@@ -12740,6 +12731,15 @@
     "company": "피에스케이홀딩스",
     "ticker": "031980",
     "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "032830_삼성생명/2026-09-14_삼성생명_032830.html",
+    "company": "삼성생명",
+    "ticker": "032830",
+    "score": 55,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
