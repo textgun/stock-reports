@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "088350_한화생명/2026-09-14_한화생명_088350.html",
-    "company": "한화생명",
-    "ticker": "088350",
-    "score": 63,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "089010_켐트로닉스/2026-09-14_켐트로닉스_089010.html",
     "company": "켐트로닉스",
     "ticker": "089010",
@@ -12839,6 +12830,15 @@
     "company": "하나금융지주",
     "ticker": "086790",
     "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "088350_한화생명/2026-09-14_한화생명_088350.html",
+    "company": "한화생명",
+    "ticker": "088350",
+    "score": 64,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
