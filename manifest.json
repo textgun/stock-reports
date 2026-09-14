@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "237690_에스티팜/2026-09-14_에스티팜_237690.html",
-    "company": "에스티팜",
-    "ticker": "237690",
-    "score": 51,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "240810_원익IPS/2026-09-14_원익IPS_240810.html",
     "company": "원익IPS",
     "ticker": "240810",
@@ -12886,5 +12877,14 @@
     "score": 73,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "237690_에스티팜/2026-09-14_에스티팜_237690.html",
+    "company": "에스티팜",
+    "ticker": "237690",
+    "score": 51,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
