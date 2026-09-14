@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "356860_티엘비/2026-09-14_티엘비_356860.html",
-    "company": "티엘비",
-    "ticker": "356860",
-    "score": 63,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "357780_솔브레인/2026-09-14_솔브레인_357780.html",
     "company": "솔브레인",
     "ticker": "357780",
@@ -12929,6 +12920,15 @@
     "company": "코스텍시스",
     "ticker": "355150",
     "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "356860_티엘비/2026-09-14_티엘비_356860.html",
+    "company": "티엘비",
+    "ticker": "356860",
+    "score": 63,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
