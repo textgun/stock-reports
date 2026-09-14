@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "006400_삼성SDI/2026-09-14_삼성SDI_006400.html",
-    "company": "삼성SDI",
-    "ticker": "006400",
-    "score": 46,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 15/20)"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "006730_서부T&D/2026-09-14_서부T&D_006730.html",
     "company": "서부T&D",
     "ticker": "006730",
@@ -12724,5 +12715,14 @@
     "score": 71,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "006400_삼성SDI/2026-09-14_삼성SDI_006400.html",
+    "company": "삼성SDI",
+    "ticker": "006400",
+    "score": 47,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/20)"
   }
 ]
