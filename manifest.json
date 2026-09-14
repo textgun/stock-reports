@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "078930_GS/2026-09-14_GS_078930.html",
-    "company": "GS",
-    "ticker": "078930",
-    "score": 78,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "079940_가비아/2026-09-14_가비아_079940.html",
     "company": "가비아",
     "ticker": "079940",
@@ -12821,6 +12812,15 @@
     "company": "덕산하이메탈",
     "ticker": "077360",
     "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "078930_GS/2026-09-14_GS_078930.html",
+    "company": "GS",
+    "ticker": "078930",
+    "score": 74,
     "rating": "BUY",
     "rating_label": "매수 ★★"
   }
