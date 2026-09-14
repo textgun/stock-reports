@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "131970_두산테스나/2026-09-14_두산테스나_131970.html",
-    "company": "두산테스나",
-    "ticker": "131970",
-    "score": 65,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "139480_이마트/2026-09-14_이마트_139480.html",
     "company": "이마트",
     "ticker": "139480",
@@ -12857,6 +12848,15 @@
     "company": "티에스이",
     "ticker": "131290",
     "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "131970_두산테스나/2026-09-14_두산테스나_131970.html",
+    "company": "두산테스나",
+    "ticker": "131970",
+    "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
   }
