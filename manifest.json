@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "240810_원익IPS/2026-09-14_원익IPS_240810.html",
-    "company": "원익IPS",
-    "ticker": "240810",
-    "score": 51,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "241710_코스메카코리아/2026-09-14_코스메카코리아_241710.html",
     "company": "코스메카코리아",
     "ticker": "241710",
@@ -12886,5 +12877,14 @@
     "score": 51,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "240810_원익IPS/2026-09-14_원익IPS_240810.html",
+    "company": "원익IPS",
+    "ticker": "240810",
+    "score": 48,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
