@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "203650_드림시큐리티/2026-09-14_드림시큐리티_203650.html",
-    "company": "드림시큐리티",
-    "ticker": "203650",
-    "score": 60,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "204620_글로벌텍스프리/2026-09-14_글로벌텍스프리_204620.html",
     "company": "글로벌텍스프리",
     "ticker": "204620",
@@ -12866,6 +12857,15 @@
     "company": "알테오젠",
     "ticker": "196170",
     "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "203650_드림시큐리티/2026-09-14_드림시큐리티_203650.html",
+    "company": "드림시큐리티",
+    "ticker": "203650",
+    "score": 58,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
