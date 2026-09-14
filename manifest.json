@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "009450_경동나비엔/2026-09-14_경동나비엔_009450.html",
-    "company": "경동나비엔",
-    "ticker": "009450",
-    "score": 55,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "009540_HD한국조선해양/2026-09-14_HD한국조선해양_009540.html",
     "company": "HD한국조선해양",
     "ticker": "009540",
@@ -12722,6 +12713,15 @@
     "company": "삼성전기",
     "ticker": "009150",
     "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "009450_경동나비엔/2026-09-14_경동나비엔_009450.html",
+    "company": "경동나비엔",
+    "ticker": "009450",
+    "score": 55,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
