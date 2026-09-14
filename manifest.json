@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "089010_켐트로닉스/2026-09-14_켐트로닉스_089010.html",
-    "company": "켐트로닉스",
-    "ticker": "089010",
-    "score": 54,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "089030_테크윙/2026-09-14_테크윙_089030.html",
     "company": "테크윙",
     "ticker": "089030",
@@ -12839,6 +12830,15 @@
     "company": "한화생명",
     "ticker": "088350",
     "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "089010_켐트로닉스/2026-09-14_켐트로닉스_089010.html",
+    "company": "켐트로닉스",
+    "ticker": "089010",
+    "score": 54,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
