@@ -11539,15 +11539,6 @@
   },
   {
     "date": "2026-09-14",
-    "filename": "000270_기아/2026-09-14_기아_000270.html",
-    "company": "기아",
-    "ticker": "000270",
-    "score": 56,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-14",
     "filename": "000500_가온전선/2026-09-14_가온전선_000500.html",
     "company": "가온전선",
     "ticker": "000500",
@@ -12697,5 +12688,14 @@
     "score": 36,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-09-14",
+    "filename": "000270_기아/2026-09-14_기아_000270.html",
+    "company": "기아",
+    "ticker": "000270",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
