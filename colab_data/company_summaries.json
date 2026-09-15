@@ -150,11 +150,11 @@
     "company": "슈프리마",
     "sector": "기타",
     "updated": "2026-09-15",
-    "score": 72,
+    "score": 73,
     "breakdown": {
       "strength": 24,
       "weakness": 17,
-      "opportunity": 14,
+      "opportunity": 15,
       "threat": 17
     },
     "sector_max": {
@@ -181,7 +181,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 32,
+      "hope_score": 33,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
@@ -865,11 +865,11 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-09-15",
-    "score": 59,
+    "score": 60,
     "breakdown": {
       "strength": 17,
       "weakness": 15,
-      "opportunity": 9,
+      "opportunity": 10,
       "threat": 18
     },
     "sector_max": {
@@ -896,7 +896,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 25,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1502,11 +1502,11 @@
     "company": "HD현대",
     "sector": "조선",
     "updated": "2026-09-15",
-    "score": 64,
+    "score": 62,
     "breakdown": {
       "strength": 15,
       "weakness": 15,
-      "opportunity": 12,
+      "opportunity": 10,
       "threat": 22
     },
     "sector_max": {
@@ -1533,7 +1533,7 @@
     },
     "reality_hope": {
       "reality_score": 42,
-      "hope_score": 24,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2170,11 +2170,11 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-09-15",
-    "score": 67,
+    "score": 66,
     "breakdown": {
       "strength": 25,
       "weakness": 17,
-      "opportunity": 13,
+      "opportunity": 12,
       "threat": 12
     },
     "sector_max": {
@@ -2201,7 +2201,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 24,
+      "hope_score": 23,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
