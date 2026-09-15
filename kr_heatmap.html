@@ -1084,7 +1084,10 @@ function capitulationCard(){
 function marketFngCard(){
   const j = MFLOW; if (!j || !j.fng) return '';
   const m = j.fng[MARKET]; if (!m || !m.fg || m.fg.length < 2) return '';
-  const W=760, H=250, pad={l:34,r:44,t:12,b:22}, n=m.fg.length;
+  // viewBox 폭은 아래 트리맵 카드의 실제 내부 폭(.wrap 1320 − 여백 40 − 카드 패딩 36 ≒ 1244)에
+  // 맞춘다 — max-width를 빼고 width:100%로 늘리기만 하면 폰트·선까지 1.6배로 확대돼 뭉개진다.
+  // 이 폭에서 1:1로 그려지므로 font-size 10은 화면에서도 10px다. 좁은 화면에선 비율대로 줄어든다.
+  const W=1240, H=280, pad={l:34,r:44,t:12,b:22}, n=m.fg.length;
   const X = i => pad.l + i/(n-1)*(W-pad.l-pad.r);
   const Y = v => pad.t + (100-v)/100*(H-pad.t-pad.b);
   let g = '';
@@ -1113,7 +1116,9 @@ function marketFngCard(){
        '<title>'+fmtDD(m.d[L])+' · F&amp;G '+m.fg[L]+'</title></circle>';
   // 축은 1년 구간이라 "9월 2일"(fmtDD)로는 연도가 안 보인다 — 25.09 형태로 적는다
   const ylab = s => String(s).slice(2,4)+'.'+String(s).slice(4,6);
-  [0, Math.floor(L/2), L].forEach(i=>{ g += '<text x="'+X(i)+'" y="'+(H-6)+'" font-size="9.5" fill="var(--ink-3)" '+
+  // 폭이 1240이라 눈금 3개는 너무 성기다 — 1/4 지점까지 5개로 나눈다
+  [0, 1, 2, 3, 4].map(k=>Math.round(L*k/4)).forEach(i=>{ g += '<text x="'+X(i)+'" y="'+(H-6)+
+    '" font-size="9.5" fill="var(--ink-3)" '+
     'text-anchor="'+(i===0?'start':(i===L?'end':'middle'))+'">'+ylab(m.d[i])+'</text>'; });
   const chg = lt.chg, gap = lt.gap;
   const cc = chg>0 ? 'var(--up-text)' : (chg<0 ? 'var(--down-text)' : 'var(--ink-2)');
@@ -1125,7 +1130,8 @@ function marketFngCard(){
     fmtDD(m.d[L])+' · F&amp;G <b>'+m.fg[L]+'</b> <span style="color:'+cc+'">('+(chg>0?'+':'')+chg+')</span>'+
     ' · EMA20 <b>'+lt.ema+'</b> · 괴리 <b>'+(gap>0?'+':'')+gap+'%</b> · '+
     '<b>'+(lt.above?'EMA20 위':'EMA20 아래')+'</b></div>'+
-    '<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;max-width:'+W+'px;height:auto">'+g+'</svg>'+
+    // max-width 없음 — 카드(=아래 트리맵 카드) 폭을 그대로 채운다
+    '<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;height:auto;display:block">'+g+'</svg>'+
     '<div class="sec-note" style="margin-top:6px">'+
     '<span style="color:#dc2626">■</span> F&amp;G · <span style="color:#7a5cff">■</span> EMA20 · '+
     '<span style="color:#16a34a">●</span> EMA20 상향 크로스 · 옅은 회색선은 지수 종가(우축 min·max). '+
