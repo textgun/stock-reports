@@ -12958,5 +12958,14 @@
     "score": 56,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 29/32)"
+  },
+  {
+    "date": "2026-09-15",
+    "filename": "108490_로보티즈/2026-09-15_로보티즈_108490.html",
+    "company": "로보티즈",
+    "ticker": "108490",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
