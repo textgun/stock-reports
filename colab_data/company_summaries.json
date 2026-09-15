@@ -3746,13 +3746,13 @@
   },
   "012330": {
     "company": "현대모비스",
-    "updated": "2026-09-14",
-    "score": 54,
+    "updated": "2026-09-15",
+    "score": 56,
     "sector": "자동차",
     "breakdown": {
       "strength": 13,
       "weakness": 16,
-      "opportunity": 7,
+      "opportunity": 9,
       "threat": 18
     },
     "sector_max": {
@@ -3778,7 +3778,7 @@
       "correction_pts": -1
     },
     "valuation": {
-      "per": 9.94,
+      "per": 9.96,
       "per_txt": "저평가",
       "pbr": 0.68,
       "pbr_txt": "고평가 주의",
@@ -3787,13 +3787,13 @@
       "peg": 0.82,
       "peg_txt": "저평가(성장대비)",
       "tgt": 754000.0,
-      "upside": 89.7,
+      "upside": 89.9,
       "consensus_n": 5,
       "roe": 2.05
     },
     "valuation_engine": {
-      "fair_value": 482133.0,
-      "band_low": 260726.0,
+      "fair_value": 480920.0,
+      "band_low": 260070.0,
       "band_high": 878264.0,
       "confidence": "LOW",
       "method_spread": 2.683,
@@ -3803,8 +3803,8 @@
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (29점 < 기준 32점), 존과 무관하게 회피",
-      "srim_mid": 482132.5661461363,
-      "per_band_mid": 327374.0,
+      "srim_mid": 480919.7934890199,
+      "per_band_mid": 327402.0,
       "pbr_roe_fair_value": 878264.0,
       "nav_sotp_mid": null
     }
