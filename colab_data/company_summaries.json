@@ -2436,11 +2436,11 @@
     "company": "포스코인터내셔널",
     "sector": "기타",
     "updated": "2026-09-16",
-    "score": 53,
+    "score": 54,
     "breakdown": {
       "strength": 14,
       "weakness": 12,
-      "opportunity": 8,
+      "opportunity": 9,
       "threat": 19
     },
     "sector_max": {
@@ -2467,7 +2467,7 @@
     },
     "reality_hope": {
       "reality_score": 27,
-      "hope_score": 26,
+      "hope_score": 27,
       "quadrant": "현실·기대 중립  🔵"
     },
     "extra": null,
@@ -4995,11 +4995,11 @@
     "company": "파마리서치",
     "sector": "기타",
     "updated": "2026-09-16",
-    "score": 78,
+    "score": 77,
     "breakdown": {
       "strength": 25,
       "weakness": 20,
-      "opportunity": 15,
+      "opportunity": 14,
       "threat": 18
     },
     "sector_max": {
@@ -5026,7 +5026,7 @@
     },
     "reality_hope": {
       "reality_score": 44,
-      "hope_score": 33,
+      "hope_score": 32,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
