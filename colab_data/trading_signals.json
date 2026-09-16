@@ -2,7 +2,7 @@
   "date": "2026-09-16",
   "year": 2026,
   "quarter": 2,
-  "generated_at": "2026-09-16T02:00:23.953622",
+  "generated_at": "2026-09-16T09:31:20.587783",
   "config": {
     "buy_threshold": 65,
     "max_positions": 3,
@@ -12,7 +12,7 @@
     "stop_loss": -0.05,
     "market_halt_pct": -2.0
   },
-  "market_change_pct": -0.85,
+  "market_change_pct": 0.28,
   "market_halted": false,
   "vix_level": 17.1,
   "vix_halted": false,
@@ -53,13 +53,13 @@
       "hope_score": 25,
       "hope_pct": 25,
       "quadrant": "현실 강함  🟢",
-      "position_pct": 12.34,
-      "amount_krw": 3702000,
-      "rsi": 54.23,
-      "rsi_label": "중립 (54.2)",
+      "position_pct": 12.49,
+      "amount_krw": 3747000,
+      "rsi": 53.21,
+      "rsi_label": "중립 (53.2)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-2.65%) — 필터 미적용",
-      "adr_factor": 0.595,
+      "adr_desc": "하락 (-0.45%) — 필터 미적용",
+      "adr_factor": 0.602,
       "momentum_3m": 11.43,
       "momentum_6m": 21.4,
       "obv": {
@@ -77,7 +77,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:31.445326",
+      "generated_at": "2026-09-16T09:30:56.016400",
       "consecutive_drops": 0,
       "rs20": 8.22,
       "sector_leader": true
@@ -104,13 +104,13 @@
       "hope_score": 25,
       "hope_pct": 25,
       "quadrant": "현실 강함  🟢",
-      "position_pct": 12.38,
-      "amount_krw": 3714000,
-      "rsi": 54.68,
-      "rsi_label": "중립 (54.7)",
+      "position_pct": 12.7,
+      "amount_krw": 3810000,
+      "rsi": 54.37,
+      "rsi_label": "중립 (54.4)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-2.70%) — 필터 미적용",
-      "adr_factor": 0.619,
+      "adr_desc": "하락 (-0.13%) — 필터 미적용",
+      "adr_factor": 0.635,
       "momentum_3m": 10.9,
       "momentum_6m": 24.47,
       "obv": {
@@ -128,7 +128,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:22.298297",
+      "generated_at": "2026-09-16T09:30:52.460573",
       "consecutive_drops": 0,
       "rs20": 8.6,
       "sector_leader": true
@@ -160,10 +160,10 @@
       "quadrant": "현실·기대 모두 강함  🟢🟢",
       "position_pct": 12.79,
       "amount_krw": 3837000,
-      "rsi": 43.19,
-      "rsi_label": "중립 (43.2)",
-      "adr_signal": "ok",
-      "adr_desc": "ADR 소진율 28% — 진입 여력 있음 (↑1.4% / ADR 5.0%)",
+      "rsi": 42.23,
+      "rsi_label": "중립 (42.2)",
+      "adr_signal": "skip",
+      "adr_desc": "하락 (-1.28%) — 필터 미적용",
       "adr_factor": 0.5,
       "momentum_3m": -43.03,
       "momentum_6m": 82.05,
@@ -182,7 +182,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:58:29.225249",
+      "generated_at": "2026-09-16T09:30:29.455938",
       "consecutive_drops": 0,
       "high_price_blocked": true,
       "share_price": 1014000.0,
@@ -212,10 +212,10 @@
       "quadrant": "현실·기대 모두 강함  🟢🟢",
       "position_pct": 12.41,
       "amount_krw": 3723000,
-      "rsi": 39.29,
-      "rsi_label": "중립 (39.3)",
+      "rsi": 36.99,
+      "rsi_label": "중립 (37.0)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-0.73%) — 필터 미적용",
+      "adr_desc": "하락 (-2.95%) — 필터 미적용",
       "adr_factor": 0.5,
       "momentum_3m": 15.31,
       "momentum_6m": 10.24,
@@ -234,7 +234,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:09.797734",
+      "generated_at": "2026-09-16T09:30:47.120602",
       "consecutive_drops": 0,
       "rs20": -11.13,
       "chop_rs_blocked": true
@@ -244,8 +244,8 @@
       "strategy": "momentum",
       "name": "SK하이닉스",
       "sector": "반도체",
-      "score": 75,
-      "adj_score": 75.0,
+      "score": 77,
+      "adj_score": 77.0,
       "score_delta": 0.0,
       "delta_source": "revision_skip",
       "rating": "BUY",
@@ -254,19 +254,19 @@
       "financial_ok": true,
       "breakdown": {
         "financial": 46,
-        "momentum": 29
+        "momentum": 31
       },
       "reality_score": 46,
       "reality_pct": 46,
-      "hope_score": 32,
-      "hope_pct": 32,
+      "hope_score": 34,
+      "hope_pct": 34,
       "quadrant": "현실·기대 모두 강함  🟢🟢",
-      "position_pct": 11.86,
-      "amount_krw": 3558000,
-      "rsi": 49.08,
-      "rsi_label": "중립 (49.1)",
+      "position_pct": 12.23,
+      "amount_krw": 3669000,
+      "rsi": 49.26,
+      "rsi_label": "중립 (49.3)",
       "adr_signal": "ok",
-      "adr_desc": "ADR 소진율 40% — 진입 여력 있음 (↑1.7% / ADR 4.2%)",
+      "adr_desc": "ADR 소진율 4% — 진입 여력 있음 (↑0.2% / ADR 4.1%)",
       "adr_factor": 0.5,
       "momentum_3m": -38.06,
       "momentum_6m": 83.49,
@@ -285,7 +285,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:13.009330",
+      "generated_at": "2026-09-16T09:30:48.328269",
       "consecutive_drops": 0,
       "high_price_blocked": true,
       "share_price": 1712000.0,
@@ -313,13 +313,13 @@
       "hope_score": 32,
       "hope_pct": 32,
       "quadrant": "현실·기대 모두 강함  🟢🟢",
-      "position_pct": 11.67,
-      "amount_krw": 3501000,
-      "rsi": 45.51,
-      "rsi_label": "중립 (45.5)",
+      "position_pct": 11.74,
+      "amount_krw": 3522000,
+      "rsi": 45.22,
+      "rsi_label": "중립 (45.2)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-3.22%) — 필터 미적용",
-      "adr_factor": 0.5,
+      "adr_desc": "하락 (-0.20%) — 필터 미적용",
+      "adr_factor": 0.503,
       "momentum_3m": 13.81,
       "momentum_6m": 4.82,
       "obv": {
@@ -337,10 +337,60 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:58:26.195460",
+      "generated_at": "2026-09-16T09:30:27.997234",
       "consecutive_drops": 0,
       "rs20": -7.9,
       "chop_rs_blocked": true
+    },
+    {
+      "ticker": "005930",
+      "strategy": "momentum",
+      "name": "삼성전자",
+      "sector": "반도체",
+      "score": 73,
+      "adj_score": 73.0,
+      "score_delta": 0.0,
+      "delta_source": "revision_skip",
+      "rating": "BUY",
+      "rating_original": "BUY",
+      "phase_adjusted": false,
+      "financial_ok": true,
+      "breakdown": {
+        "financial": 45,
+        "momentum": 28
+      },
+      "reality_score": 45,
+      "reality_pct": 45,
+      "hope_score": 31,
+      "hope_pct": 31,
+      "quadrant": "현실·기대 모두 강함  🟢🟢",
+      "position_pct": 15.25,
+      "amount_krw": 4575000,
+      "rsi": 44.84,
+      "rsi_label": "중립 (44.8)",
+      "adr_signal": "skip",
+      "adr_desc": "하락 (-0.40%) — 필터 미적용",
+      "adr_factor": 0.664,
+      "momentum_3m": -29.24,
+      "momentum_6m": 34.46,
+      "obv": {
+        "status": "distribution",
+        "reason": null,
+        "bars": 420,
+        "short_window": 20,
+        "long_window": 60,
+        "obv_change_20": -8652626.0,
+        "obv_change_60": -35728785.0,
+        "obv_above_ema20": false,
+        "price_breakout": false,
+        "obv_breakout": false,
+        "price_breakdown": false,
+        "obv_breakdown": false
+      },
+      "vix_downgraded": false,
+      "generated_at": "2026-09-16T09:30:49.728219",
+      "consecutive_drops": 0,
+      "momentum_downgraded": true
     },
     {
       "ticker": "071050",
@@ -364,13 +414,13 @@
       "hope_score": 24,
       "hope_pct": 24,
       "quadrant": "현실 강함  🟢",
-      "position_pct": 15.03,
-      "amount_krw": 4509000,
-      "rsi": 44.18,
-      "rsi_label": "중립 (44.2)",
+      "position_pct": 15.72,
+      "amount_krw": 4716000,
+      "rsi": 42.06,
+      "rsi_label": "중립 (42.1)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-1.30%) — 필터 미적용",
-      "adr_factor": 0.676,
+      "adr_desc": "하락 (-1.11%) — 필터 미적용",
+      "adr_factor": 0.707,
       "momentum_3m": -17.75,
       "momentum_6m": -9.95,
       "obv": {
@@ -388,57 +438,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:58:41.707239",
-      "consecutive_drops": 0,
-      "momentum_downgraded": true
-    },
-    {
-      "ticker": "005930",
-      "strategy": "momentum",
-      "name": "삼성전자",
-      "sector": "반도체",
-      "score": 71,
-      "adj_score": 71.0,
-      "score_delta": 0.0,
-      "delta_source": "revision_skip",
-      "rating": "BUY",
-      "rating_original": "BUY",
-      "phase_adjusted": false,
-      "financial_ok": true,
-      "breakdown": {
-        "financial": 45,
-        "momentum": 26
-      },
-      "reality_score": 45,
-      "reality_pct": 45,
-      "hope_score": 29,
-      "hope_pct": 29,
-      "quadrant": "현실 강함  🟢",
-      "position_pct": 14.07,
-      "amount_krw": 4221000,
-      "rsi": 45.27,
-      "rsi_label": "중립 (45.3)",
-      "adr_signal": "ok",
-      "adr_desc": "ADR 소진율 25% — 진입 여력 있음 (↑0.8% / ADR 3.2%)",
-      "adr_factor": 0.633,
-      "momentum_3m": -29.24,
-      "momentum_6m": 34.46,
-      "obv": {
-        "status": "distribution",
-        "reason": null,
-        "bars": 420,
-        "short_window": 20,
-        "long_window": 60,
-        "obv_change_20": -8652626.0,
-        "obv_change_60": -35728785.0,
-        "obv_above_ema20": false,
-        "price_breakout": false,
-        "obv_breakout": false,
-        "price_breakdown": false,
-        "obv_breakdown": false
-      },
-      "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:16.190505",
+      "generated_at": "2026-09-16T09:30:35.085971",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -464,13 +464,13 @@
       "hope_score": 24,
       "hope_pct": 24,
       "quadrant": "현실 강함  🟢",
-      "position_pct": 10.93,
-      "amount_krw": 3279000,
-      "rsi": 44.27,
-      "rsi_label": "중립 (44.3)",
-      "adr_signal": "ok",
-      "adr_desc": "ADR 소진율 41% — 진입 여력 있음 (↑1.7% / ADR 4.1%)",
-      "adr_factor": 0.5,
+      "position_pct": 10.95,
+      "amount_krw": 3285000,
+      "rsi": 40.89,
+      "rsi_label": "중립 (40.9)",
+      "adr_signal": "skip",
+      "adr_desc": "하락 (-2.76%) — 필터 미적용",
+      "adr_factor": 0.501,
       "momentum_3m": -29.48,
       "momentum_6m": -38.45,
       "obv": {
@@ -488,7 +488,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:58:35.236037",
+      "generated_at": "2026-09-16T09:30:32.343748",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -516,10 +516,10 @@
       "quadrant": "현실 강함  🟢",
       "position_pct": 10.37,
       "amount_krw": 3111000,
-      "rsi": 48.54,
-      "rsi_label": "중립 (48.5)",
+      "rsi": 46.42,
+      "rsi_label": "중립 (46.4)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-7.00%) — 필터 미적용",
+      "adr_desc": "하락 (-1.77%) — 필터 미적용",
       "adr_factor": 0.5,
       "momentum_3m": -1.95,
       "momentum_6m": -6.03,
@@ -538,7 +538,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:58:51.336070",
+      "generated_at": "2026-09-16T09:30:39.092767",
       "consecutive_drops": 0,
       "rs20": -0.09,
       "chop_rs_blocked": true
@@ -589,7 +589,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:58:47.942986",
+      "generated_at": "2026-09-16T09:30:37.625371",
       "consecutive_drops": 0
     },
     {
@@ -638,7 +638,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:58:54.343318",
+      "generated_at": "2026-09-16T09:30:40.335556",
       "consecutive_drops": 0
     },
     {
@@ -687,7 +687,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:00.540080",
+      "generated_at": "2026-09-16T09:30:43.315256",
       "consecutive_drops": 0
     },
     {
@@ -718,7 +718,7 @@
       "rsi_label": "N/A",
       "adr_signal": "skip",
       "adr_desc": "",
-      "adr_factor": 0.5,
+      "adr_factor": 0.524,
       "momentum_3m": 4.32,
       "momentum_6m": 30.88,
       "obv": {
@@ -736,7 +736,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:58:57.400325",
+      "generated_at": "2026-09-16T09:30:41.861569",
       "consecutive_drops": 0
     },
     {
@@ -785,7 +785,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:58:32.088781",
+      "generated_at": "2026-09-16T09:30:30.916558",
       "consecutive_drops": 0
     },
     {
@@ -834,7 +834,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:06.786019",
+      "generated_at": "2026-09-16T09:30:45.908192",
       "consecutive_drops": 0
     },
     {
@@ -865,7 +865,7 @@
       "rsi_label": "N/A",
       "adr_signal": "skip",
       "adr_desc": "",
-      "adr_factor": 0.554,
+      "adr_factor": 0.581,
       "momentum_3m": 11.34,
       "momentum_6m": 29.72,
       "obv": {
@@ -883,7 +883,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:25.394183",
+      "generated_at": "2026-09-16T09:30:53.615164",
       "consecutive_drops": 0
     },
     {
@@ -932,7 +932,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:28.377334",
+      "generated_at": "2026-09-16T09:30:54.818403",
       "consecutive_drops": 0
     },
     {
@@ -981,7 +981,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:34.519028",
+      "generated_at": "2026-09-16T09:30:57.256515",
       "consecutive_drops": 0
     },
     {
@@ -1030,7 +1030,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:58:44.818750",
+      "generated_at": "2026-09-16T09:30:36.277063",
       "consecutive_drops": 0
     },
     {
@@ -1061,7 +1061,7 @@
       "rsi_label": "N/A",
       "adr_signal": "skip",
       "adr_desc": "",
-      "adr_factor": 0.59,
+      "adr_factor": 0.664,
       "momentum_3m": -6.64,
       "momentum_6m": 19.41,
       "obv": {
@@ -1079,7 +1079,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:40.572093",
+      "generated_at": "2026-09-16T09:31:00.027934",
       "consecutive_drops": 0
     },
     {
@@ -1110,7 +1110,7 @@
       "rsi_label": "N/A",
       "adr_signal": "skip",
       "adr_desc": "",
-      "adr_factor": 0.855,
+      "adr_factor": 0.889,
       "momentum_3m": 4.52,
       "momentum_6m": -0.83,
       "obv": {
@@ -1128,8 +1128,60 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:19.251410",
+      "generated_at": "2026-09-16T09:30:51.085881",
       "consecutive_drops": 0
+    },
+    {
+      "ticker": "440110",
+      "strategy": "momentum",
+      "name": "파두",
+      "sector": "반도체",
+      "score": 55,
+      "adj_score": 55.0,
+      "score_delta": 0.0,
+      "delta_source": "revision_skip",
+      "rating": "AVOID",
+      "rating_original": "AVOID",
+      "phase_adjusted": false,
+      "financial_ok": false,
+      "breakdown": {
+        "financial": 24,
+        "momentum": 31
+      },
+      "reality_score": 25,
+      "reality_pct": 25,
+      "hope_score": 31,
+      "hope_pct": 31,
+      "quadrant": "현실·기대 중립  🔵",
+      "position_pct": 0.0,
+      "amount_krw": 0,
+      "rsi": null,
+      "rsi_label": "N/A",
+      "adr_signal": "skip",
+      "adr_desc": "",
+      "adr_factor": 0.5,
+      "momentum_3m": -39.35,
+      "momentum_6m": 9.82,
+      "obv": {
+        "status": "accumulation",
+        "reason": null,
+        "bars": 420,
+        "short_window": 20,
+        "long_window": 60,
+        "obv_change_20": 2277842.0,
+        "obv_change_60": 1346689.0,
+        "obv_above_ema20": true,
+        "price_breakout": false,
+        "obv_breakout": false,
+        "price_breakdown": false,
+        "obv_breakdown": false
+      },
+      "vix_downgraded": false,
+      "generated_at": "2026-09-16T09:30:33.777588",
+      "consecutive_drops": 0,
+      "deferral": true,
+      "deferral_day": 1,
+      "deferral_max": 1
     },
     {
       "ticker": "196170",
@@ -1177,16 +1229,68 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-16T01:59:37.583790",
+      "generated_at": "2026-09-16T09:30:58.525975",
       "consecutive_drops": 0
+    },
+    {
+      "ticker": "047050",
+      "strategy": "momentum",
+      "name": "포스코인터내셔널",
+      "sector": "기타",
+      "score": 53,
+      "adj_score": 53.0,
+      "score_delta": 0.0,
+      "delta_source": "revision_skip",
+      "rating": "AVOID",
+      "rating_original": "AVOID",
+      "phase_adjusted": false,
+      "financial_ok": false,
+      "breakdown": {
+        "financial": 26,
+        "momentum": 27
+      },
+      "reality_score": 27,
+      "reality_pct": 27,
+      "hope_score": 26,
+      "hope_pct": 26,
+      "quadrant": "현실·기대 중립  🔵",
+      "position_pct": 0.0,
+      "amount_krw": 0,
+      "rsi": null,
+      "rsi_label": "N/A",
+      "adr_signal": "skip",
+      "adr_desc": "",
+      "adr_factor": 0.5,
+      "momentum_3m": 0.18,
+      "momentum_6m": -28.35,
+      "obv": {
+        "status": "accumulation",
+        "reason": null,
+        "bars": 420,
+        "short_window": 20,
+        "long_window": 60,
+        "obv_change_20": 43118869.0,
+        "obv_change_60": 39880099.0,
+        "obv_above_ema20": true,
+        "price_breakout": false,
+        "obv_breakout": false,
+        "price_breakdown": false,
+        "obv_breakdown": false
+      },
+      "vix_downgraded": false,
+      "generated_at": "2026-09-16T09:30:44.655351",
+      "consecutive_drops": 0,
+      "deferral": true,
+      "deferral_day": 1,
+      "deferral_max": 1
     }
   ],
-  "avoid": [
+  "avoid": [],
+  "analysis_failed": [],
+  "deferred_avoid": [
     "440110",
     "047050"
   ],
-  "analysis_failed": [],
-  "deferred_avoid": [],
   "total_analyzed": 27,
   "valuation_buy": [
     {
@@ -1198,12 +1302,12 @@
       "rating": "BUY",
       "financial_ok": true,
       "zone": "DEEP_VALUE",
-      "gap_pct": -49.6,
+      "gap_pct": -48.1,
       "accumulate_step": 3,
       "action_label": "3차 매수 존 (목표비중 100%까지) · ⚠️ 신뢰도 LOW(편차 2.2배) → 목표비중 50%로 축소 매수",
-      "fair_value": 174004.0,
+      "fair_value": 174006.0,
       "fair_value_band": [
-        144779.0,
+        144781.0,
         1938196.0
       ],
       "confidence": "LOW",
@@ -1215,7 +1319,7 @@
       "rsi": null,
       "momentum_3m": 14.79,
       "momentum_6m": -1.68,
-      "generated_at": "2026-09-16T02:00:02.396117"
+      "generated_at": "2026-09-16T09:31:15.202288"
     },
     {
       "ticker": "062040",
@@ -1226,12 +1330,12 @@
       "rating": "BUY",
       "financial_ok": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -4.6,
+      "gap_pct": -2.3,
       "accumulate_step": 1,
       "action_label": "1차 매수 존 (목표비중 33%까지)",
       "fair_value": 198750.0,
       "fair_value_band": [
-        123021.0,
+        123022.0,
         217100.0
       ],
       "confidence": "HIGH",
@@ -1243,7 +1347,7 @@
       "rsi": null,
       "momentum_3m": -19.49,
       "momentum_6m": 24.17,
-      "generated_at": "2026-09-16T02:00:02.396141"
+      "generated_at": "2026-09-16T09:31:15.202321"
     }
   ],
   "valuation_watchlist": [],
