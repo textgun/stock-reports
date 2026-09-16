@@ -5932,12 +5932,12 @@
       },
       {
         "date": "2026-09-16",
-        "total_score": 53,
+        "total_score": 54,
         "rating_code": "AVOID",
         "breakdown": {
           "strength": 14,
           "weakness": 12,
-          "opportunity": 8,
+          "opportunity": 9,
           "threat": 19
         }
       }
@@ -34011,12 +34011,12 @@
       },
       {
         "date": "2026-09-16",
-        "total_score": 78,
+        "total_score": 77,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 20,
-          "opportunity": 15,
+          "opportunity": 14,
           "threat": 18
         }
       }
