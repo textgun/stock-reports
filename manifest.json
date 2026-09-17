@@ -13237,5 +13237,14 @@
     "score": 48,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 20/30)"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "010120_엘에스일렉트릭/2026-09-17_엘에스일렉트릭_010120.html",
+    "company": "엘에스일렉트릭",
+    "ticker": "010120",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
