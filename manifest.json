@@ -13471,5 +13471,14 @@
     "score": 48,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "053160_프리엠스/2026-09-17_프리엠스_053160.html",
+    "company": "프리엠스",
+    "ticker": "053160",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)"
   }
 ]
