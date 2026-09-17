@@ -13066,5 +13066,14 @@
     "score": 54,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "000660_SK하이닉스/2026-09-17_SK하이닉스_000660.html",
+    "company": "SK하이닉스",
+    "ticker": "000660",
+    "score": 77,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
