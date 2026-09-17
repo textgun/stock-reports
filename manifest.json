@@ -13849,5 +13849,14 @@
     "score": 59,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "127120_제이에스링크/2026-09-17_제이에스링크_127120.html",
+    "company": "제이에스링크",
+    "ticker": "127120",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/18)"
   }
 ]
