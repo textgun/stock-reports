@@ -12988,15 +12988,6 @@
   },
   {
     "date": "2026-09-17",
-    "filename": "010060_OCI홀딩스/2026-09-17_OCI홀딩스_010060.html",
-    "company": "OCI홀딩스",
-    "ticker": "010060",
-    "score": 56,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-17",
     "filename": "012330_현대모비스/2026-09-17_현대모비스_012330.html",
     "company": "현대모비스",
     "ticker": "012330",
@@ -13028,6 +13019,15 @@
     "company": "에스엠",
     "ticker": "041510",
     "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "010060_OCI홀딩스/2026-09-17_OCI홀딩스_010060.html",
+    "company": "OCI홀딩스",
+    "ticker": "010060",
+    "score": 56,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
