@@ -14191,5 +14191,14 @@
     "score": 50,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "310210_보로노이/2026-09-17_보로노이_310210.html",
+    "company": "보로노이",
+    "ticker": "310210",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/18)"
   }
 ]
