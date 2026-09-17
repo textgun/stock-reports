@@ -12988,15 +12988,6 @@
   },
   {
     "date": "2026-09-17",
-    "filename": "012330_현대모비스/2026-09-17_현대모비스_012330.html",
-    "company": "현대모비스",
-    "ticker": "012330",
-    "score": 61,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-17",
     "filename": "005380_현대자동차/2026-09-17_현대자동차_005380.html",
     "company": "현대자동차",
     "ticker": "005380",
@@ -13282,5 +13273,14 @@
     "score": 69,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "012330_현대모비스/2026-09-17_현대모비스_012330.html",
+    "company": "현대모비스",
+    "ticker": "012330",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
