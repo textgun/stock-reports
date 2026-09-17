@@ -723,11 +723,11 @@
     "company": "신한지주",
     "sector": "금융",
     "updated": "2026-09-17",
-    "score": 66,
+    "score": 65,
     "breakdown": {
       "strength": 23,
       "weakness": 15,
-      "opportunity": 10,
+      "opportunity": 9,
       "threat": 18
     },
     "sector_max": {
@@ -754,7 +754,7 @@
     },
     "reality_hope": {
       "reality_score": 39,
-      "hope_score": 26,
+      "hope_score": 25,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -865,11 +865,11 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-09-17",
-    "score": 63,
+    "score": 64,
     "breakdown": {
       "strength": 20,
       "weakness": 15,
-      "opportunity": 10,
+      "opportunity": 11,
       "threat": 18
     },
     "sector_max": {
@@ -896,7 +896,7 @@
     },
     "reality_hope": {
       "reality_score": 36,
-      "hope_score": 26,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -936,11 +936,11 @@
     "company": "KB금융",
     "sector": "금융",
     "updated": "2026-09-17",
-    "score": 67,
+    "score": 68,
     "breakdown": {
       "strength": 25,
       "weakness": 15,
-      "opportunity": 9,
+      "opportunity": 10,
       "threat": 18
     },
     "sector_max": {
@@ -967,7 +967,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 25,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2436,11 +2436,11 @@
     "company": "포스코인터내셔널",
     "sector": "기타",
     "updated": "2026-09-17",
-    "score": 54,
+    "score": 55,
     "breakdown": {
       "strength": 14,
       "weakness": 12,
-      "opportunity": 9,
+      "opportunity": 10,
       "threat": 19
     },
     "sector_max": {
@@ -2467,7 +2467,7 @@
     },
     "reality_hope": {
       "reality_score": 27,
-      "hope_score": 27,
+      "hope_score": 28,
       "quadrant": "현실·기대 중립  🔵"
     },
     "extra": null,
@@ -10089,11 +10089,11 @@
     "company": "삼성물산",
     "sector": "내수/유통",
     "updated": "2026-09-17",
-    "score": 62,
+    "score": 63,
     "breakdown": {
       "strength": 19,
       "weakness": 22,
-      "opportunity": 8,
+      "opportunity": 9,
       "threat": 13
     },
     "sector_max": {
@@ -10120,7 +10120,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 27,
+      "hope_score": 29,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
