@@ -14173,5 +14173,14 @@
     "score": 53,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "306620_지아이에스/2026-09-17_지아이에스_306620.html",
+    "company": "지아이에스",
+    "ticker": "306620",
+    "score": 41,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
   }
 ]
