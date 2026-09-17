@@ -12988,15 +12988,6 @@
   },
   {
     "date": "2026-09-17",
-    "filename": "041510_에스엠/2026-09-17_에스엠_041510.html",
-    "company": "에스엠",
-    "ticker": "041510",
-    "score": 62,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-09-17",
     "filename": "010060_OCI홀딩스/2026-09-17_OCI홀딩스_010060.html",
     "company": "OCI홀딩스",
     "ticker": "010060",
@@ -13028,6 +13019,15 @@
     "company": "로보티즈",
     "ticker": "108490",
     "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "041510_에스엠/2026-09-17_에스엠_041510.html",
+    "company": "에스엠",
+    "ticker": "041510",
+    "score": 62,
     "rating": "HOLD",
     "rating_label": "보유 ★"
   }
