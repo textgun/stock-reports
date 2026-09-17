@@ -13561,5 +13561,14 @@
     "score": 62,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "066570_LG전자/2026-09-17_LG전자_066570.html",
+    "company": "LG전자",
+    "ticker": "066570",
+    "score": 48,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
   }
 ]
