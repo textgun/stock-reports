@@ -13327,5 +13327,14 @@
     "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "032830_삼성생명/2026-09-17_삼성생명_032830.html",
+    "company": "삼성생명",
+    "ticker": "032830",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
