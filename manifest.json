@@ -13264,5 +13264,14 @@
     "score": 58,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
+  },
+  {
+    "date": "2026-09-17",
+    "filename": "011200_HMM/2026-09-17_HMM_011200.html",
+    "company": "HMM",
+    "ticker": "011200",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
