@@ -14677,5 +14677,14 @@
     "score": 61,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-09-18",
+    "filename": "078930_GS/2026-09-18_GS_078930.html",
+    "company": "GS",
+    "ticker": "078930",
+    "score": 77,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
