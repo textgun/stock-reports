@@ -41752,5 +41752,54 @@
         }
       }
     ]
+  },
+  "010950": {
+    "company_name": "S-Oil",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 50,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 12,
+          "opportunity": 12,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 51,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 11,
+          "opportunity": 12,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 62,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 14,
+          "opportunity": 12,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-09-18",
+        "total_score": 66,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 14,
+          "opportunity": 12,
+          "threat": 20
+        }
+      }
+    ]
   }
 }
