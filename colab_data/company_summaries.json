@@ -3394,14 +3394,14 @@
   },
   "452430": {
     "company": "사피엔반도체",
-    "updated": "2026-09-17",
-    "score": 61,
+    "updated": "2026-09-23",
+    "score": 59,
     "sector": "반도체",
     "breakdown": {
       "strength": 11,
       "weakness": 22,
-      "opportunity": 12,
-      "threat": 16
+      "opportunity": 11,
+      "threat": 15
     },
     "sector_max": {
       "strength": 25,
@@ -3428,27 +3428,32 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 23.09,
+      "pbr": 24.28,
       "pbr_txt": "",
-      "psr": 11.52,
+      "psr": 12.11,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 47000.0,
-      "upside": 20.4,
+      "upside": 14.5,
       "consensus_n": 0,
       "roe": -2.66
     },
     "valuation_engine": {
-      "fair_value": 64551.0,
-      "band_low": 64551.0,
-      "band_high": 64551.0,
+      "fair_value": 64443.0,
+      "band_low": 64443.0,
+      "band_high": 64443.0,
       "confidence": "LOW",
       "method_spread": null,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "평가 방법 1개 — 교차 검증 불가",
+        "PSR 유효 표본 2.5년 — 4년 미만"
+      ],
       "zone": "DEEP_VALUE",
-      "gap_pct": -39.5,
+      "gap_pct": -36.3,
       "quality_gate_passed": true,
       "action_label": "PSR 단독 평가 · DEEP_VALUE 참고용 — 자동 매수·매도 보류",
       "srim_mid": null,
