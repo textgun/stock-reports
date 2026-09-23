@@ -152,11 +152,11 @@
     "company": "슈프리마",
     "sector": "반도체",
     "updated": "2026-09-23",
-    "score": 75,
+    "score": 74,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 15,
+      "opportunity": 14,
       "threat": 17
     },
     "sector_max": {
@@ -183,7 +183,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 33,
+      "hope_score": 32,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
@@ -657,11 +657,11 @@
     "company": "SK하이닉스",
     "sector": "반도체",
     "updated": "2026-09-23",
-    "score": 77,
+    "score": 76,
     "breakdown": {
       "strength": 25,
       "weakness": 21,
-      "opportunity": 16,
+      "opportunity": 15,
       "threat": 15
     },
     "sector_max": {
@@ -688,7 +688,7 @@
     },
     "reality_hope": {
       "reality_score": 46,
-      "hope_score": 34,
+      "hope_score": 33,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": {
@@ -1668,11 +1668,11 @@
     "company": "LG",
     "sector": "지주사",
     "updated": "2026-09-23",
-    "score": 67,
+    "score": 68,
     "breakdown": {
       "strength": 24,
       "weakness": 19,
-      "opportunity": 9,
+      "opportunity": 10,
       "threat": 15
     },
     "sector_max": {
@@ -1699,7 +1699,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 23,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2199,11 +2199,11 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-09-23",
-    "score": 61,
+    "score": 60,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 11,
+      "opportunity": 10,
       "threat": 7
     },
     "sector_max": {
@@ -2230,7 +2230,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 19,
+      "hope_score": 18,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
