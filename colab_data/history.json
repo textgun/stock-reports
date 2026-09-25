@@ -6383,12 +6383,12 @@
       },
       {
         "date": "2026-09-25",
-        "total_score": 60,
+        "total_score": 59,
         "rating_code": "AVOID",
         "breakdown": {
           "strength": 14,
           "weakness": 12,
-          "opportunity": 9,
+          "opportunity": 8,
           "threat": 25
         }
       }
