@@ -2,7 +2,7 @@
   "date": "2026-09-25",
   "year": 2026,
   "quarter": 2,
-  "generated_at": "2026-09-25T09:31:43.609793",
+  "generated_at": "2026-09-25T14:31:09.339984",
   "config": {
     "buy_threshold": 65,
     "max_positions": 3,
@@ -77,7 +77,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:30:48.508117",
+      "generated_at": "2026-09-25T14:30:13.156315",
       "consecutive_drops": 0,
       "rs20": 17.6,
       "sector_leader": true
@@ -128,7 +128,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:15.709181",
+      "generated_at": "2026-09-25T14:30:46.858465",
       "buy_score_ref": 67,
       "score_drop_from_buy": 2,
       "consecutive_drops": 1,
@@ -184,7 +184,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:30:46.763864",
+      "generated_at": "2026-09-25T14:30:11.451948",
       "consecutive_drops": 0,
       "high_price_blocked": true,
       "share_price": 1181000.0,
@@ -236,7 +236,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:08.860784",
+      "generated_at": "2026-09-25T14:30:36.432580",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -286,7 +286,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:30:44.880661",
+      "generated_at": "2026-09-25T14:30:09.654920",
       "consecutive_drops": 0,
       "adr_deferred": true
     },
@@ -336,7 +336,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:30:50.274741",
+      "generated_at": "2026-09-25T14:30:14.894054",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -386,7 +386,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:30:53.845230",
+      "generated_at": "2026-09-25T14:30:18.262551",
       "consecutive_drops": 0,
       "momentum_downgraded": true
     },
@@ -436,7 +436,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:09.853212",
+      "generated_at": "2026-09-25T14:30:37.325347",
       "consecutive_drops": 0,
       "high_price_blocked": true,
       "share_price": 1863000.0,
@@ -488,7 +488,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:10.863851",
+      "generated_at": "2026-09-25T14:30:38.315524",
       "consecutive_drops": 0,
       "adr_deferred": true
     },
@@ -538,7 +538,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:02.586015",
+      "generated_at": "2026-09-25T14:30:26.883531",
       "consecutive_drops": 0,
       "rs20": -4.88,
       "chop_rs_blocked": true
@@ -589,7 +589,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:30:59.039953",
+      "generated_at": "2026-09-25T14:30:23.470347",
       "consecutive_drops": 0
     },
     {
@@ -638,7 +638,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:00.763719",
+      "generated_at": "2026-09-25T14:30:25.161761",
       "consecutive_drops": 0
     },
     {
@@ -687,7 +687,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:04.308913",
+      "generated_at": "2026-09-25T14:30:28.573538",
       "consecutive_drops": 0
     },
     {
@@ -736,7 +736,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:12.759881",
+      "generated_at": "2026-09-25T14:30:40.182584",
       "buy_score_ref": 65,
       "score_drop_from_buy": 2,
       "consecutive_drops": 0
@@ -787,7 +787,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:07.069437",
+      "generated_at": "2026-09-25T14:30:34.738788",
       "consecutive_drops": 0
     },
     {
@@ -836,7 +836,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:16.672904",
+      "generated_at": "2026-09-25T14:30:47.790568",
       "consecutive_drops": 0
     },
     {
@@ -885,7 +885,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:13.690957",
+      "generated_at": "2026-09-25T14:30:41.486974",
       "consecutive_drops": 0
     },
     {
@@ -893,9 +893,9 @@
       "strategy": "momentum",
       "name": "포스코인터내셔널",
       "sector": "기타",
-      "score": 60,
-      "adj_score": 60.6,
-      "score_delta": 2.0,
+      "score": 59,
+      "adj_score": 59.3,
+      "score_delta": 1.0,
       "delta_source": "history",
       "rating": "AVOID",
       "rating_original": "AVOID",
@@ -903,12 +903,12 @@
       "financial_ok": false,
       "breakdown": {
         "financial": 26,
-        "momentum": 34
+        "momentum": 33
       },
       "reality_score": 28,
       "reality_pct": 28,
-      "hope_score": 32,
-      "hope_pct": 32,
+      "hope_score": 31,
+      "hope_pct": 31,
       "quadrant": "현실·기대 중립  🔵",
       "position_pct": 0.0,
       "amount_krw": 0,
@@ -934,7 +934,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:05.298299",
+      "generated_at": "2026-09-25T14:30:33.002802",
       "consecutive_drops": 0,
       "deferral": true,
       "deferral_day": 1,
@@ -986,7 +986,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:30:57.321875",
+      "generated_at": "2026-09-25T14:30:21.723218",
       "consecutive_drops": 0
     },
     {
@@ -1035,7 +1035,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:30:52.030956",
+      "generated_at": "2026-09-25T14:30:16.546892",
       "consecutive_drops": 0,
       "deferral": true,
       "deferral_day": 1,
@@ -1087,7 +1087,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:14.703996",
+      "generated_at": "2026-09-25T14:30:45.942397",
       "consecutive_drops": 0
     },
     {
@@ -1136,7 +1136,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:30:55.596868",
+      "generated_at": "2026-09-25T14:30:20.031843",
       "consecutive_drops": 0
     },
     {
@@ -1185,7 +1185,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:18.567930",
+      "generated_at": "2026-09-25T14:30:49.677798",
       "consecutive_drops": 0
     },
     {
@@ -1234,7 +1234,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:11.809266",
+      "generated_at": "2026-09-25T14:30:39.230404",
       "consecutive_drops": 0,
       "deferral": true,
       "deferral_day": 1,
@@ -1286,7 +1286,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-09-25T09:31:17.596434",
+      "generated_at": "2026-09-25T14:30:48.725134",
       "consecutive_drops": 0,
       "deferral": true,
       "deferral_day": 1,
@@ -1329,7 +1329,7 @@
       "rsi": null,
       "momentum_3m": 10.99,
       "momentum_6m": -6.55,
-      "generated_at": "2026-09-25T09:31:32.515117"
+      "generated_at": "2026-09-25T14:31:01.063188"
     }
   ],
   "valuation_watchlist": [
@@ -1359,7 +1359,7 @@
       "rsi": null,
       "momentum_3m": -7.03,
       "momentum_6m": 43.46,
-      "generated_at": "2026-09-25T09:31:32.515139"
+      "generated_at": "2026-09-25T14:31:01.063210"
     }
   ],
   "valuation_avoid": []
