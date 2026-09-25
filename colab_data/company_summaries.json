@@ -2465,11 +2465,11 @@
     "company": "포스코인터내셔널",
     "sector": "기타",
     "updated": "2026-09-25",
-    "score": 60,
+    "score": 59,
     "breakdown": {
       "strength": 14,
       "weakness": 12,
-      "opportunity": 9,
+      "opportunity": 8,
       "threat": 25
     },
     "sector_max": {
@@ -2496,7 +2496,7 @@
     },
     "reality_hope": {
       "reality_score": 28,
-      "hope_score": 32,
+      "hope_score": 31,
       "quadrant": "현실·기대 중립  🔵"
     },
     "extra": null,
