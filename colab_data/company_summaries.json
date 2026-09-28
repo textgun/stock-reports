@@ -7639,14 +7639,14 @@
   },
   "317400": {
     "company": "자이에스앤디",
-    "updated": "2026-09-17",
-    "score": 59,
+    "updated": "2026-09-28",
+    "score": 62,
     "sector": "기타",
     "breakdown": {
       "strength": 10,
       "weakness": 22,
-      "opportunity": 10,
-      "threat": 17
+      "opportunity": 8,
+      "threat": 22
     },
     "sector_max": {
       "strength": 25,
@@ -7671,33 +7671,35 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 11.15,
+      "per": 10.81,
       "per_txt": "저평가",
-      "pbr": 0.85,
+      "pbr": 0.82,
       "pbr_txt": "적정",
-      "psr": 0.3,
+      "psr": 0.29,
       "psr_txt": "저평가",
       "peg": 0.03,
       "peg_txt": "저평가(성장대비)",
       "tgt": 7025.0,
-      "upside": -31.2,
+      "upside": -29.0,
       "consensus_n": 4,
       "roe": 8.36
     },
     "valuation_engine": {
-      "fair_value": 3566.0,
+      "fair_value": 3565.0,
       "band_low": 2662.0,
-      "band_high": 21324.0,
+      "band_high": 21082.0,
       "confidence": "HIGH",
-      "method_spread": 1.569,
+      "method_spread": 1.566,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [],
       "zone": "FAIR",
-      "gap_pct": 186.3,
+      "gap_pct": 177.7,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": null,
-      "per_band_mid": 5283.0,
+      "per_band_mid": 5275.0,
       "pbr_roe_fair_value": 3368.0,
       "nav_sotp_mid": null
     }
