@@ -3,11 +3,11 @@
     "company": "삼성전자",
     "sector": "반도체",
     "updated": "2026-09-30",
-    "score": 70,
+    "score": 69,
     "breakdown": {
       "strength": 25,
       "weakness": 20,
-      "opportunity": 10,
+      "opportunity": 9,
       "threat": 15
     },
     "sector_max": {
@@ -34,7 +34,7 @@
     },
     "reality_hope": {
       "reality_score": 45,
-      "hope_score": 28,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -440,11 +440,11 @@
     "company": "파두",
     "sector": "반도체",
     "updated": "2026-09-30",
-    "score": 59,
+    "score": 58,
     "breakdown": {
       "strength": 16,
       "weakness": 8,
-      "opportunity": 14,
+      "opportunity": 13,
       "threat": 21
     },
     "sector_max": {
@@ -471,7 +471,7 @@
     },
     "reality_hope": {
       "reality_score": 23,
-      "hope_score": 38,
+      "hope_score": 37,
       "quadrant": "기대 중심 (현실 약함)  🟠"
     },
     "extra": null,
@@ -875,11 +875,11 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-09-30",
-    "score": 60,
+    "score": 58,
     "breakdown": {
       "strength": 20,
       "weakness": 15,
-      "opportunity": 6,
+      "opportunity": 4,
       "threat": 19
     },
     "sector_max": {
@@ -906,7 +906,7 @@
     },
     "reality_hope": {
       "reality_score": 36,
-      "hope_score": 24,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2199,11 +2199,11 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-09-30",
-    "score": 63,
+    "score": 62,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 8,
+      "opportunity": 7,
       "threat": 12
     },
     "sector_max": {
@@ -2230,7 +2230,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 21,
+      "hope_score": 20,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2465,11 +2465,11 @@
     "company": "포스코인터내셔널",
     "sector": "기타",
     "updated": "2026-09-30",
-    "score": 56,
+    "score": 57,
     "breakdown": {
       "strength": 14,
       "weakness": 12,
-      "opportunity": 6,
+      "opportunity": 7,
       "threat": 24
     },
     "sector_max": {
@@ -2496,7 +2496,7 @@
     },
     "reality_hope": {
       "reality_score": 27,
-      "hope_score": 29,
+      "hope_score": 30,
       "quadrant": "현실·기대 중립  🔵"
     },
     "extra": null,
