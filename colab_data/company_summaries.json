@@ -10693,5 +10693,74 @@
       "pbr_roe_fair_value": 6374.0,
       "nav_sotp_mid": null
     }
+  },
+  "272110": {
+    "company": "케이엔제이",
+    "updated": "2026-09-30",
+    "score": 69,
+    "sector": "반도체",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 18,
+      "opportunity": 4,
+      "threat": 25
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": 20.8,
+      "rev_yoy_pct": 72.2,
+      "momentum_score": 6.0,
+      "correction_pts": 4
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 10.17,
+      "per_txt": "저평가",
+      "pbr": 2.31,
+      "pbr_txt": "적정",
+      "psr": 2.13,
+      "psr_txt": "적정",
+      "peg": 0.49,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": 23.11
+    },
+    "valuation_engine": {
+      "fair_value": 80596.0,
+      "band_low": 39132.0,
+      "band_high": 102591.0,
+      "confidence": "LOW",
+      "method_spread": 2.168,
+      "position_scale": 0.5,
+      "buy_signal_allowed": true,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 2.168배"
+      ],
+      "zone": "DEEP_VALUE",
+      "gap_pct": -62.2,
+      "quality_gate_passed": true,
+      "action_label": "3차 매수 존 (목표비중 100%까지) · ⚠️ 신뢰도 LOW(편차 2.2배) → 목표비중 50%로 축소 매수",
+      "srim_mid": 80595.83385761913,
+      "per_band_mid": 47316.0,
+      "pbr_roe_fair_value": 102591.0,
+      "nav_sotp_mid": null
+    }
   }
 }
