@@ -28,8 +28,9 @@
     if (!box || box.getAttribute('data-rendered')) return;
     var code = box.getAttribute('data-ticker');
     if (!code) return;
-    // 📈 차트보기 — KR 스크리너 종목 차트 모달(하루 3번 갱신되는 최신 일봉·재무·컨센서스)
-    box.appendChild(link(HOME + 'kr_heatmap.html?code=' + encodeURIComponent(code),
+    // 📈 차트보기 — KR 스크리너 종목 차트·재무(하루 3번 갱신되는 최신 일봉·재무·컨센서스).
+    // layout=page — 스크리너 위 모달이 아니라 종목 페이지로 연다(같은 데이터, 스크리너 본문은 안 그림)
+    box.appendChild(link(HOME + 'kr_heatmap.html?code=' + encodeURIComponent(code) + '&layout=page',
                          '📈 차트보기'));
     box.setAttribute('data-rendered', '1');
   }
