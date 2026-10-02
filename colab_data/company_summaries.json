@@ -5415,14 +5415,14 @@
   },
   "043260": {
     "company": "성호전자",
-    "updated": "2026-09-17",
-    "score": 68,
+    "updated": "2026-10-02",
+    "score": 56,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 21,
       "weakness": 21,
-      "opportunity": 9,
-      "threat": 17
+      "opportunity": 6,
+      "threat": 8
     },
     "sector_max": {
       "strength": 26,
@@ -5447,33 +5447,38 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 4.36,
+      "per": 6.34,
       "per_txt": "저평가",
-      "pbr": 3.84,
+      "pbr": 5.58,
       "pbr_txt": "저평가",
-      "psr": 6.27,
+      "psr": 9.11,
       "psr_txt": "고평가 주의",
-      "peg": 0.01,
+      "peg": 0.02,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 70000.0,
-      "upside": 215.3,
+      "tgt": null,
+      "upside": null,
       "consensus_n": 0,
       "roe": 85.9
     },
     "valuation_engine": {
-      "fair_value": 19049.0,
+      "fair_value": 19346.0,
       "band_low": 15301.0,
       "band_high": 34980.0,
       "confidence": "LOW",
       "method_spread": 1.96,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 1.960배",
+        "PER 유효 표본 3.5년 — 결측·적자 제외 후 4년 미만"
+      ],
       "zone": "FAIR",
-      "gap_pct": 16.5,
+      "gap_pct": 66.7,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 17844.584218734257,
-      "per_band_mid": 19049.0,
+      "srim_mid": 17844.415746638348,
+      "per_band_mid": 19346.0,
       "pbr_roe_fair_value": 34980.0,
       "nav_sotp_mid": null
     }
