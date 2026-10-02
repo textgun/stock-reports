@@ -6542,14 +6542,14 @@
   },
   "041510": {
     "company": "에스엠",
-    "updated": "2026-09-18",
-    "score": 63,
+    "updated": "2026-10-02",
+    "score": 56,
     "sector": "엔터미디어",
     "breakdown": {
       "strength": 22,
       "weakness": 19,
-      "opportunity": 12,
-      "threat": 10
+      "opportunity": 8,
+      "threat": 7
     },
     "sector_max": {
       "strength": 25,
@@ -6574,37 +6574,37 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 14.12,
+      "per": 13.34,
       "per_txt": "적정",
-      "pbr": 1.8,
+      "pbr": 1.7,
       "pbr_txt": "고평가 주의",
-      "psr": 1.46,
+      "psr": 1.38,
       "psr_txt": "적정",
-      "peg": 1.27,
+      "peg": 1.2,
       "peg_txt": "적정",
-      "tgt": 113800.0,
-      "upside": 40.1,
+      "tgt": 112000.0,
+      "upside": 46.0,
       "consensus_n": 5,
       "roe": 10.22
     },
     "valuation_engine": {
-      "fair_value": 174012.0,
-      "band_low": 144786.0,
-      "band_high": 1937051.0,
+      "fair_value": 174010.0,
+      "band_low": 144784.0,
+      "band_high": 1932473.0,
       "confidence": "LOW",
-      "method_spread": 2.186,
+      "method_spread": 2.182,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 2.186배"
+        "방법 간 편차 2.182배"
       ],
       "zone": "DEEP_VALUE",
-      "gap_pct": -53.3,
+      "gap_pct": -55.9,
       "quality_gate_passed": true,
       "action_label": "3차 매수 존 (목표비중 100%까지) · ⚠️ 신뢰도 LOW(편차 2.2배) → 목표비중 50%로 축소 매수",
-      "srim_mid": 174011.85537182604,
-      "per_band_mid": 337429.0,
+      "srim_mid": 174009.53663266008,
+      "per_band_mid": 336841.0,
       "pbr_roe_fair_value": 154340.0,
       "nav_sotp_mid": null
     }
