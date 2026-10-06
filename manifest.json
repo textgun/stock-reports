@@ -15100,5 +15100,14 @@
     "score": 35,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 8/30)"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "443060_HD현대마린솔루션/2026-10-06_HD현대마린솔루션_443060.html",
+    "company": "HD현대마린솔루션",
+    "ticker": "443060",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
