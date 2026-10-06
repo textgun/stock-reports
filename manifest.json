@@ -14776,5 +14776,14 @@
     "score": 50,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "005420_코스모화학/2026-10-06_코스모화학_005420.html",
+    "company": "코스모화학",
+    "ticker": "005420",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
   }
 ]
