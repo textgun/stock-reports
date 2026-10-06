@@ -14929,5 +14929,14 @@
     "score": 71,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "047810_한국항공우주/2026-10-06_한국항공우주_047810.html",
+    "company": "한국항공우주",
+    "ticker": "047810",
+    "score": 39,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/28)"
   }
 ]
