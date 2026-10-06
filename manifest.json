@@ -15073,5 +15073,14 @@
     "score": 50,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "272210_한화시스템/2026-10-06_한화시스템_272210.html",
+    "company": "한화시스템",
+    "ticker": "272210",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
