@@ -14884,5 +14884,14 @@
     "score": 65,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "034220_LG디스플레이/2026-10-06_LG디스플레이_034220.html",
+    "company": "LG디스플레이",
+    "ticker": "034220",
+    "score": 30,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/30)"
   }
 ]
