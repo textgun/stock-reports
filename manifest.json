@@ -15064,5 +15064,14 @@
     "score": 25,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 8/30)"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "251270_넷마블/2026-10-06_넷마블_251270.html",
+    "company": "넷마블",
+    "ticker": "251270",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
   }
 ]
