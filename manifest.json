@@ -15037,5 +15037,14 @@
     "score": 40,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 21/30)"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "161890_한국콜마/2026-10-06_한국콜마_161890.html",
+    "company": "한국콜마",
+    "ticker": "161890",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
