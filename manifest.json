@@ -14911,5 +14911,14 @@
     "score": 48,
     "rating": "WATCH",
     "rating_label": "관찰"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "036460_한국가스공사/2026-10-06_한국가스공사_036460.html",
+    "company": "한국가스공사",
+    "ticker": "036460",
+    "score": 49,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
   }
 ]
