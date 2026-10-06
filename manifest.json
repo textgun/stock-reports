@@ -14785,5 +14785,14 @@
     "score": 46,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "005490_POSCO홀딩스/2026-10-06_POSCO홀딩스_005490.html",
+    "company": "POSCO홀딩스",
+    "ticker": "005490",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)"
   }
 ]
