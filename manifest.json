@@ -15001,5 +15001,14 @@
     "score": 42,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "098460_고영/2026-10-06_고영_098460.html",
+    "company": "고영",
+    "ticker": "098460",
+    "score": 76,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
