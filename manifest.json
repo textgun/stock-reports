@@ -14875,5 +14875,14 @@
     "score": 52,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 24/30)"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "033780_케이티앤지/2026-10-06_케이티앤지_033780.html",
+    "company": "케이티앤지",
+    "ticker": "033780",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
