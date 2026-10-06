@@ -15055,5 +15055,14 @@
     "score": 61,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "204270_제이앤티씨/2026-10-06_제이앤티씨_204270.html",
+    "company": "제이앤티씨",
+    "ticker": "204270",
+    "score": 25,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 8/30)"
   }
 ]
