@@ -14938,5 +14938,14 @@
     "score": 39,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 25/28)"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "051600_한전KPS/2026-10-06_한전KPS_051600.html",
+    "company": "한전KPS",
+    "ticker": "051600",
+    "score": 52,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
