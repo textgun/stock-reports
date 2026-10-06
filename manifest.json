@@ -14767,5 +14767,14 @@
     "score": 35,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 12/30)"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "005300_롯데칠성음료/2026-10-06_롯데칠성음료_005300.html",
+    "company": "롯데칠성음료",
+    "ticker": "005300",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
   }
 ]
