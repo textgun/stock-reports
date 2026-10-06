@@ -14992,5 +14992,14 @@
     "score": 67,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "097950_CJ제일제당/2026-10-06_CJ제일제당_097950.html",
+    "company": "CJ제일제당",
+    "ticker": "097950",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
   }
 ]
