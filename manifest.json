@@ -14893,5 +14893,14 @@
     "score": 30,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 11/30)"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "034730_SK/2026-10-06_SK_034730.html",
+    "company": "SK",
+    "ticker": "034730",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
