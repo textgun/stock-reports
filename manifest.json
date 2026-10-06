@@ -14749,5 +14749,14 @@
     "score": 56,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-10-06",
+    "filename": "003490_대한항공/2026-10-06_대한항공_003490.html",
+    "company": "대한항공",
+    "ticker": "003490",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)"
   }
 ]
