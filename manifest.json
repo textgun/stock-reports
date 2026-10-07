@@ -15127,5 +15127,14 @@
     "score": 24,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 8/30)"
+  },
+  {
+    "date": "2026-10-07",
+    "filename": "036830_솔브레인홀딩스/2026-10-07_솔브레인홀딩스_036830.html",
+    "company": "솔브레인홀딩스",
+    "ticker": "036830",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
