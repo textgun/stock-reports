@@ -179,7 +179,7 @@
       "base_month": "202608",
       "status": null,
       "trade_score": 3,
-      "correction_pts": 0
+      "correction_pts": -1
     },
     "reality_hope": {
       "reality_score": 43,
@@ -582,11 +582,11 @@
     "company": "LIG디펜스앤에어로스페이스",
     "sector": "방산",
     "updated": "2026-10-07",
-    "score": 58,
+    "score": 57,
     "breakdown": {
       "strength": 17,
       "weakness": 20,
-      "opportunity": 7,
+      "opportunity": 6,
       "threat": 14
     },
     "sector_max": {
@@ -613,7 +613,7 @@
     },
     "reality_hope": {
       "reality_score": 36,
-      "hope_score": 22,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2199,11 +2199,11 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-10-07",
-    "score": 65,
+    "score": 66,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 7,
+      "opportunity": 8,
       "threat": 15
     },
     "sector_max": {
@@ -2230,7 +2230,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 23,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -8115,11 +8115,11 @@
     "company": "한화에어로스페이스",
     "sector": "방산",
     "updated": "2026-10-07",
-    "score": 59,
+    "score": 58,
     "breakdown": {
       "strength": 23,
       "weakness": 11,
-      "opportunity": 8,
+      "opportunity": 7,
       "threat": 17
     },
     "sector_max": {
@@ -8146,7 +8146,7 @@
     },
     "reality_hope": {
       "reality_score": 36,
-      "hope_score": 23,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
