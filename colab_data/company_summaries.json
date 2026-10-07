@@ -13564,13 +13564,13 @@
   },
   "036830": {
     "company": "솔브레인홀딩스",
-    "updated": "2026-10-06",
-    "score": 72,
+    "updated": "2026-10-07",
+    "score": 71,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 26,
       "weakness": 16,
-      "opportunity": 11,
+      "opportunity": 10,
       "threat": 19
     },
     "sector_max": {
@@ -13596,23 +13596,23 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 1.78,
+      "per": 1.74,
       "per_txt": "저평가",
-      "pbr": 0.53,
+      "pbr": 0.52,
       "pbr_txt": "저평가",
-      "psr": 1.53,
+      "psr": 1.49,
       "psr_txt": "적정",
       "peg": 0.03,
       "peg_txt": "저평가(성장대비)",
       "tgt": 68000.0,
-      "upside": 37.0,
+      "upside": 40.1,
       "consensus_n": 4,
       "roe": 30.05
     },
     "valuation_engine": {
-      "fair_value": 291767.0,
+      "fair_value": 291751.0,
       "band_low": 30954.0,
-      "band_high": 340691.0,
+      "band_high": 340673.0,
       "confidence": "LOW",
       "method_spread": 8.325,
       "position_scale": 0.5,
@@ -13622,10 +13622,10 @@
         "방법 간 편차 8.325배"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -83.0,
+      "gap_pct": -83.4,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 8.3배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
-      "srim_mid": 291767.2368614038,
+      "srim_mid": 291751.44621925213,
       "per_band_mid": null,
       "pbr_roe_fair_value": 333633.0,
       "nav_sotp_mid": null
