@@ -47490,6 +47490,17 @@
           "opportunity": 11,
           "threat": 6
         }
+      },
+      {
+        "date": "2026-10-07",
+        "total_score": 24,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 0,
+          "weakness": 8,
+          "opportunity": 10,
+          "threat": 6
+        }
       }
     ]
   },
