@@ -14405,12 +14405,12 @@
       },
       {
         "date": "2026-10-08",
-        "total_score": 63,
-        "rating_code": "HOLD",
+        "total_score": 65,
+        "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 15,
-          "opportunity": 4,
+          "opportunity": 6,
           "threat": 19
         }
       }
@@ -19012,12 +19012,12 @@
       },
       {
         "date": "2026-10-08",
-        "total_score": 64,
+        "total_score": 63,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
-          "opportunity": 7,
+          "opportunity": 6,
           "threat": 14
         }
       }
@@ -24218,12 +24218,12 @@
       },
       {
         "date": "2026-10-08",
-        "total_score": 54,
+        "total_score": 56,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 20,
           "weakness": 15,
-          "opportunity": 4,
+          "opportunity": 6,
           "threat": 15
         }
       }
@@ -28279,13 +28279,13 @@
       },
       {
         "date": "2026-10-08",
-        "total_score": 59,
+        "total_score": 57,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 17,
           "weakness": 20,
           "opportunity": 6,
-          "threat": 16
+          "threat": 14
         }
       }
     ]
@@ -30426,12 +30426,12 @@
       },
       {
         "date": "2026-10-08",
-        "total_score": 57,
+        "total_score": 56,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 25,
           "weakness": 20,
-          "opportunity": 8,
+          "opportunity": 7,
           "threat": 4
         }
       }
@@ -32482,12 +32482,12 @@
       },
       {
         "date": "2026-10-08",
-        "total_score": 59,
+        "total_score": 60,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 9,
+          "opportunity": 10,
           "threat": 17
         }
       }
