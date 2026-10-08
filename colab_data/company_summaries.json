@@ -294,11 +294,11 @@
     "company": "이오테크닉스",
     "sector": "반도체",
     "updated": "2026-10-08",
-    "score": 64,
+    "score": 63,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 7,
+      "opportunity": 6,
       "threat": 14
     },
     "sector_max": {
@@ -325,7 +325,7 @@
     },
     "reality_hope": {
       "reality_score": 39,
-      "hope_score": 23,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -582,12 +582,12 @@
     "company": "LIG디펜스앤에어로스페이스",
     "sector": "방산",
     "updated": "2026-10-08",
-    "score": 59,
+    "score": 57,
     "breakdown": {
       "strength": 17,
       "weakness": 20,
       "opportunity": 6,
-      "threat": 16
+      "threat": 14
     },
     "sector_max": {
       "strength": 24,
@@ -613,7 +613,7 @@
     },
     "reality_hope": {
       "reality_score": 36,
-      "hope_score": 23,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -875,11 +875,11 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-10-08",
-    "score": 54,
+    "score": 56,
     "breakdown": {
       "strength": 20,
       "weakness": 15,
-      "opportunity": 4,
+      "opportunity": 6,
       "threat": 15
     },
     "sector_max": {
@@ -906,7 +906,7 @@
     },
     "reality_hope": {
       "reality_score": 36,
-      "hope_score": 17,
+      "hope_score": 19,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -946,11 +946,11 @@
     "company": "KB금융",
     "sector": "금융",
     "updated": "2026-10-08",
-    "score": 63,
+    "score": 65,
     "breakdown": {
       "strength": 25,
       "weakness": 15,
-      "opportunity": 4,
+      "opportunity": 6,
       "threat": 19
     },
     "sector_max": {
@@ -977,7 +977,7 @@
     },
     "reality_hope": {
       "reality_score": 41,
-      "hope_score": 22,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -1450,11 +1450,11 @@
     "company": "에이피알",
     "sector": "기타",
     "updated": "2026-10-08",
-    "score": 57,
+    "score": 56,
     "breakdown": {
       "strength": 25,
       "weakness": 20,
-      "opportunity": 8,
+      "opportunity": 7,
       "threat": 4
     },
     "sector_max": {
@@ -1481,7 +1481,7 @@
     },
     "reality_hope": {
       "reality_score": 44,
-      "hope_score": 10,
+      "hope_score": 9,
       "quadrant": "현실 강함 / 기대 약함  🟡"
     },
     "extra": null,
@@ -1597,11 +1597,11 @@
     "company": "삼성화재해상보험",
     "sector": "금융",
     "updated": "2026-10-08",
-    "score": 59,
+    "score": 60,
     "breakdown": {
       "strength": 18,
       "weakness": 15,
-      "opportunity": 9,
+      "opportunity": 10,
       "threat": 17
     },
     "sector_max": {
@@ -1628,7 +1628,7 @@
     },
     "reality_hope": {
       "reality_score": 34,
-      "hope_score": 25,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
