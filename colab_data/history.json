@@ -2407,12 +2407,12 @@
       },
       {
         "date": "2026-10-09",
-        "total_score": 68,
+        "total_score": 67,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 20,
-          "opportunity": 8,
+          "opportunity": 7,
           "threat": 15
         }
       }
