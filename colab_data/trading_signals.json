@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "year": 2026,
   "quarter": 2,
-  "generated_at": "2026-10-09T14:33:23.095857",
+  "generated_at": "2026-10-09T15:16:05.525769",
   "config": {
     "buy_threshold": 65,
     "max_positions": 3,
@@ -79,7 +79,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:37.450083",
+      "generated_at": "2026-10-09T15:15:37.874623",
       "consecutive_drops": 0,
       "market_downgraded": true
     },
@@ -129,7 +129,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:11.155554",
+      "generated_at": "2026-10-09T15:15:12.779978",
       "consecutive_drops": 0,
       "market_downgraded": true
     },
@@ -179,7 +179,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:13.380896",
+      "generated_at": "2026-10-09T15:15:15.149795",
       "consecutive_drops": 1,
       "high_price_blocked": true,
       "share_price": 1059000.0,
@@ -231,7 +231,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:17.119884",
+      "generated_at": "2026-10-09T15:15:18.793068",
       "consecutive_drops": 0,
       "market_downgraded": true
     },
@@ -281,7 +281,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:38.700316",
+      "generated_at": "2026-10-09T15:15:38.903317",
       "consecutive_drops": 0,
       "high_price_blocked": true,
       "share_price": 1686000.0,
@@ -333,7 +333,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:20.684434",
+      "generated_at": "2026-10-09T15:15:22.379960",
       "consecutive_drops": 1,
       "market_downgraded": true
     },
@@ -383,7 +383,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:39.930039",
+      "generated_at": "2026-10-09T15:15:40.010886",
       "consecutive_drops": 1,
       "market_downgraded": true
     },
@@ -433,7 +433,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:41.111373",
+      "generated_at": "2026-10-09T15:15:40.983111",
       "consecutive_drops": 1
     },
     {
@@ -482,7 +482,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:32.449289",
+      "generated_at": "2026-10-09T15:15:33.280564",
       "consecutive_drops": 0
     },
     {
@@ -531,7 +531,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:15.247546",
+      "generated_at": "2026-10-09T15:15:16.856149",
       "consecutive_drops": 2
     },
     {
@@ -580,7 +580,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:35.351090",
+      "generated_at": "2026-10-09T15:15:36.100699",
       "consecutive_drops": 0
     },
     {
@@ -629,7 +629,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:44.708757",
+      "generated_at": "2026-10-09T15:15:43.992315",
       "consecutive_drops": 1
     },
     {
@@ -678,7 +678,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:30.647739",
+      "generated_at": "2026-10-09T15:15:31.470588",
       "consecutive_drops": 2
     },
     {
@@ -727,7 +727,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:42.220600",
+      "generated_at": "2026-10-09T15:15:42.002417",
       "consecutive_drops": 1
     },
     {
@@ -776,7 +776,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:47.205132",
+      "generated_at": "2026-10-09T15:15:46.067032",
       "consecutive_drops": 0
     },
     {
@@ -825,7 +825,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:28.830277",
+      "generated_at": "2026-10-09T15:15:29.701209",
       "consecutive_drops": 1
     },
     {
@@ -874,7 +874,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:24.534032",
+      "generated_at": "2026-10-09T15:15:26.100249",
       "consecutive_drops": 0
     },
     {
@@ -923,7 +923,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:45.814224",
+      "generated_at": "2026-10-09T15:15:45.027831",
       "consecutive_drops": 1
     },
     {
@@ -972,7 +972,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:22.665456",
+      "generated_at": "2026-10-09T15:15:24.364424",
       "consecutive_drops": 1
     },
     {
@@ -1021,7 +1021,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:26.942469",
+      "generated_at": "2026-10-09T15:15:27.869935",
       "consecutive_drops": 2
     },
     {
@@ -1070,7 +1070,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:48.606377",
+      "generated_at": "2026-10-09T15:15:47.132350",
       "consecutive_drops": 1
     },
     {
@@ -1119,7 +1119,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:18.880754",
+      "generated_at": "2026-10-09T15:15:20.573191",
       "consecutive_drops": 1,
       "deferral": true,
       "deferral_day": 3,
@@ -1171,7 +1171,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:43.449442",
+      "generated_at": "2026-10-09T15:15:43.022468",
       "consecutive_drops": 1,
       "deferral": true,
       "deferral_day": 1,
@@ -1223,7 +1223,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:49.667425",
+      "generated_at": "2026-10-09T15:15:48.178850",
       "consecutive_drops": 2,
       "deferral": true,
       "deferral_day": 1,
@@ -1275,7 +1275,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-09T14:30:33.552991",
+      "generated_at": "2026-10-09T15:15:34.323259",
       "consecutive_drops": 3,
       "deferral": true,
       "deferral_day": 3,
@@ -1318,7 +1318,7 @@
       "rsi": null,
       "momentum_3m": 4.01,
       "momentum_6m": -9.21,
-      "generated_at": "2026-10-09T14:31:13.774484"
+      "generated_at": "2026-10-09T15:16:04.517668"
     }
   ],
   "valuation_watchlist": [
@@ -1348,7 +1348,7 @@
       "rsi": null,
       "momentum_3m": 30.74,
       "momentum_6m": 28.4,
-      "generated_at": "2026-10-09T14:31:13.774504"
+      "generated_at": "2026-10-09T15:16:04.517687"
     }
   ],
   "valuation_avoid": []
