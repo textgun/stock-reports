@@ -3,11 +3,11 @@
     "company": "삼성전자",
     "sector": "반도체",
     "updated": "2026-10-09",
-    "score": 68,
+    "score": 67,
     "breakdown": {
       "strength": 25,
       "weakness": 20,
-      "opportunity": 8,
+      "opportunity": 7,
       "threat": 15
     },
     "sector_max": {
@@ -34,7 +34,7 @@
     },
     "reality_hope": {
       "reality_score": 45,
-      "hope_score": 26,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
