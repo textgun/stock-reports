@@ -13630,5 +13630,75 @@
       "pbr_roe_fair_value": 333633.0,
       "nav_sotp_mid": null
     }
+  },
+  "420770": {
+    "company": "기가비스",
+    "updated": "2026-10-10",
+    "score": 72,
+    "sector": "반도체",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 22,
+      "opportunity": 12,
+      "threat": 16
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": null,
+      "rev_yoy_pct": null,
+      "momentum_score": 5.0,
+      "correction_pts": 0
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": 83.08,
+      "per_txt": "고평가 주의",
+      "pbr": 8.4,
+      "pbr_txt": "고평가 주의",
+      "psr": 25.93,
+      "psr_txt": "고평가 주의",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": 143333.33333333334,
+      "upside": 4.2,
+      "consensus_n": 3,
+      "roe": 10.11
+    },
+    "valuation_engine": {
+      "fair_value": 14071.0,
+      "band_low": 9947.0,
+      "band_high": 110798.0,
+      "confidence": "LOW",
+      "method_spread": 9.136,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 9.136배",
+        "PER 유효 표본 2.5년 — 결측·적자 제외 후 4년 미만"
+      ],
+      "zone": "OVERHEATED",
+      "gap_pct": 877.2,
+      "quality_gate_passed": true,
+      "action_label": "⚠️ 신뢰도 LOW · OVERHEATED 참고용 — 밸류에이션 자동 매도 보류",
+      "srim_mid": 12127.417344944797,
+      "per_band_mid": 110798.0,
+      "pbr_roe_fair_value": 14071.0,
+      "nav_sotp_mid": null
+    }
   }
 }
