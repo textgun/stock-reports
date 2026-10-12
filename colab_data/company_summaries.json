@@ -80,13 +80,13 @@
   "062040": {
     "company": "산일전기",
     "sector": "전기장비/전력",
-    "updated": "2026-09-30",
-    "score": 62,
+    "updated": "2026-10-13",
+    "score": 65,
     "breakdown": {
       "strength": 26,
       "weakness": 19,
-      "opportunity": 11,
-      "threat": 6
+      "opportunity": 10,
+      "threat": 10
     },
     "sector_max": {
       "strength": 26,
@@ -102,13 +102,13 @@
       "correction_pts": 0
     },
     "trade": {
-      "export_yoy": 34.67,
-      "import_yoy": 29.99,
+      "export_yoy": 68.95,
+      "import_yoy": -27.45,
       "hs_code": "8504",
-      "base_month": "202608",
+      "base_month": "202609",
       "status": null,
-      "trade_score": 8,
-      "correction_pts": 0
+      "trade_score": 10,
+      "correction_pts": 1
     },
     "reality_hope": {
       "reality_score": 45,
@@ -117,33 +117,38 @@
     },
     "extra": null,
     "valuation": {
-      "per": 34.35,
+      "per": 36.3,
       "per_txt": "고평가 주의",
-      "pbr": 9.35,
+      "pbr": 9.88,
       "pbr_txt": "고평가 주의",
-      "psr": 10.55,
+      "psr": 11.15,
       "psr_txt": "고평가 주의",
-      "peg": 1.0,
-      "peg_txt": "저평가(성장대비)",
-      "tgt": 298000.0,
-      "upside": 46.8,
+      "peg": 1.06,
+      "peg_txt": "적정",
+      "tgt": 320000.0,
+      "upside": 49.2,
       "consensus_n": 5,
       "roe": 27.18
     },
     "valuation_engine": {
-      "fair_value": 198750.0,
+      "fair_value": 198289.0,
       "band_low": 123021.0,
       "band_high": 217100.0,
-      "confidence": "HIGH",
+      "confidence": "LOW",
       "method_spread": 1.498,
-      "position_scale": 1.0,
+      "position_scale": 0.5,
       "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "PER 유효 표본 1.5년 — 결측·적자 제외 후 4년 미만",
+        "연간 ROE 이력 3개년 미만"
+      ],
       "zone": "FAIR",
-      "gap_pct": 2.1,
+      "gap_pct": 8.2,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 144966.8911298398,
-      "per_band_mid": 198750.0,
+      "srim_mid": 144966.73359240673,
+      "per_band_mid": 198289.0,
       "pbr_roe_fair_value": 217100.0,
       "nav_sotp_mid": null
     }
