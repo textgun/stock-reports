@@ -1192,12 +1192,12 @@
       },
       {
         "date": "2026-10-12",
-        "total_score": 74,
+        "total_score": 75,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
-          "opportunity": 13,
+          "opportunity": 14,
           "threat": 18
         }
       }
@@ -2429,12 +2429,12 @@
       },
       {
         "date": "2026-10-12",
-        "total_score": 69,
+        "total_score": 70,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 20,
-          "opportunity": 9,
+          "opportunity": 10,
           "threat": 15
         }
       }
@@ -20359,12 +20359,12 @@
       },
       {
         "date": "2026-10-12",
-        "total_score": 72,
+        "total_score": 71,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 22,
-          "opportunity": 8,
+          "opportunity": 7,
           "threat": 17
         }
       }
@@ -21464,12 +21464,12 @@
       },
       {
         "date": "2026-10-12",
-        "total_score": 58,
+        "total_score": 57,
         "rating_code": "AVOID",
         "breakdown": {
           "strength": 16,
           "weakness": 8,
-          "opportunity": 13,
+          "opportunity": 12,
           "threat": 21
         }
       }
@@ -30844,12 +30844,12 @@
       },
       {
         "date": "2026-10-12",
-        "total_score": 58,
+        "total_score": 61,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 25,
           "weakness": 20,
-          "opportunity": 7,
+          "opportunity": 10,
           "threat": 6
         }
       }
@@ -32944,12 +32944,12 @@
       },
       {
         "date": "2026-10-12",
-        "total_score": 60,
+        "total_score": 59,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 18,
           "weakness": 15,
-          "opportunity": 10,
+          "opportunity": 9,
           "threat": 17
         }
       }
@@ -33994,12 +33994,12 @@
       },
       {
         "date": "2026-10-12",
-        "total_score": 65,
-        "rating_code": "BUY",
+        "total_score": 64,
+        "rating_code": "HOLD",
         "breakdown": {
           "strength": 24,
           "weakness": 19,
-          "opportunity": 7,
+          "opportunity": 6,
           "threat": 15
         }
       }
