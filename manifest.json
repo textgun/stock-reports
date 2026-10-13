@@ -5947,5 +5947,14 @@
     "score": 62,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-10-13",
+    "filename": "003550_LG/2026-10-13_LG_003550.html",
+    "company": "LG",
+    "ticker": "003550",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
