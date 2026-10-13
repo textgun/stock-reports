@@ -1245,9 +1245,9 @@
     "company": "삼성바이오로직스",
     "sector": "바이오",
     "updated": "2026-10-13",
-    "score": 50,
+    "score": 49,
     "breakdown": {
-      "strength": 18,
+      "strength": 17,
       "weakness": 9,
       "opportunity": 8,
       "threat": 15
@@ -1259,11 +1259,11 @@
       "threat": 32
     },
     "earnings": {
-      "qoq_trend": "improving",
+      "qoq_trend": "recovering",
       "yoy_pct": 23.3,
       "rev_yoy_pct": 2.4,
-      "momentum_score": 7.5,
-      "correction_pts": 2
+      "momentum_score": 6.5,
+      "correction_pts": 1
     },
     "trade": {
       "export_yoy": 135.83,
@@ -1281,16 +1281,16 @@
     },
     "extra": null,
     "valuation": {
-      "per": 33.01,
+      "per": 33.29,
       "per_txt": "고평가 주의",
-      "pbr": 6.61,
+      "pbr": 6.66,
       "pbr_txt": "고평가 주의",
-      "psr": 10.71,
+      "psr": 10.8,
       "psr_txt": "고평가 주의",
-      "peg": 1.42,
+      "peg": 1.43,
       "peg_txt": "적정",
       "tgt": 1970000.0,
-      "upside": 66.2,
+      "upside": 64.9,
       "consensus_n": 5,
       "roe": 22.12
     },
@@ -1307,10 +1307,10 @@
         "방법 간 편차 2.693배"
       ],
       "zone": "FAIR",
-      "gap_pct": 39.5,
+      "gap_pct": 40.7,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 646392.811046104,
+      "srim_mid": 646392.9244458007,
       "per_band_mid": null,
       "pbr_roe_fair_value": 849168.0,
       "nav_sotp_mid": null
@@ -3771,16 +3771,16 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 10.82,
+      "per": 10.78,
       "per_txt": "저평가",
-      "pbr": 2.42,
+      "pbr": 2.41,
       "pbr_txt": "고평가 주의",
-      "psr": 2.38,
+      "psr": 2.37,
       "psr_txt": "적정",
       "peg": 1.15,
       "peg_txt": "적정",
       "tgt": 6500.0,
-      "upside": 14.8,
+      "upside": 15.2,
       "consensus_n": 1,
       "roe": 16.85
     },
@@ -3799,10 +3799,10 @@
         "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -16.3,
+      "gap_pct": -16.6,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 5.9배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
-      "srim_mid": 4858.834451604974,
+      "srim_mid": 4858.765151801418,
       "per_band_mid": 28540.0,
       "pbr_roe_fair_value": 6763.0,
       "nav_sotp_mid": null
@@ -12692,10 +12692,10 @@
       "threat": 25
     },
     "earnings": {
-      "qoq_trend": "improving",
+      "qoq_trend": "recovering",
       "yoy_pct": -27.1,
       "rev_yoy_pct": 1.7,
-      "momentum_score": 5.5,
+      "momentum_score": 4.5,
       "correction_pts": 0
     },
     "trade": {
@@ -12717,7 +12717,7 @@
       "peg": null,
       "peg_txt": "",
       "tgt": 306000.0,
-      "upside": 69.7,
+      "upside": 69.2,
       "consensus_n": 5,
       "roe": -2.55
     },
@@ -12738,7 +12738,7 @@
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (23점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": 23400.190496538766,
+      "srim_mid": 23400.424145328812,
       "per_band_mid": null,
       "pbr_roe_fair_value": 21320.0,
       "nav_sotp_mid": null
@@ -13596,10 +13596,10 @@
       "threat": 22
     },
     "earnings": {
-      "qoq_trend": "improving",
+      "qoq_trend": "recovering",
       "yoy_pct": 64.3,
       "rev_yoy_pct": 23.2,
-      "momentum_score": 9.5,
+      "momentum_score": 8.5,
       "correction_pts": 5
     },
     "trade": {
@@ -13612,16 +13612,16 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 1.65,
+      "per": 1.64,
       "per_txt": "저평가",
-      "pbr": 0.5,
+      "pbr": 0.49,
       "pbr_txt": "저평가",
-      "psr": 1.42,
+      "psr": 1.41,
       "psr_txt": "적정",
       "peg": 0.03,
       "peg_txt": "저평가(성장대비)",
       "tgt": 68000.0,
-      "upside": 47.0,
+      "upside": 48.6,
       "consensus_n": 4,
       "roe": 8.47
     },
@@ -13638,7 +13638,7 @@
         "방법 간 편차 2.721배"
       ],
       "zone": "FAIR",
-      "gap_pct": 69.0,
+      "gap_pct": 67.2,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": null,
