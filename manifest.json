@@ -3876,7 +3876,13 @@
     "ticker": "230360",
     "score": 49,
     "rating": "WATCH",
-    "rating_label": "관찰"
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 17,
+      "opportunity": 2,
+      "threat": 13
+    }
   },
   {
     "date": "2026-09-17",
@@ -3984,7 +3990,13 @@
     "ticker": "005690",
     "score": 68,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 15
+    }
   },
   {
     "date": "2026-09-17",
@@ -4011,7 +4023,13 @@
     "ticker": "007530",
     "score": 36,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 15/32)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/32)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 11,
+      "opportunity": 4,
+      "threat": 17
+    }
   },
   {
     "date": "2026-09-17",
@@ -4029,7 +4047,13 @@
     "ticker": "008260",
     "score": 52,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 12,
+      "opportunity": 4,
+      "threat": 20
+    }
   },
   {
     "date": "2026-09-17",
@@ -4056,7 +4080,13 @@
     "ticker": "009830",
     "score": 48,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 9,
+      "opportunity": 6,
+      "threat": 22
+    }
   },
   {
     "date": "2026-09-17",
@@ -4083,7 +4113,13 @@
     "ticker": "011780",
     "score": 69,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 19,
+      "opportunity": 6,
+      "threat": 22
+    }
   },
   {
     "date": "2026-09-17",
@@ -4137,7 +4173,13 @@
     "ticker": "034020",
     "score": 39,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 10,
+      "opportunity": 9,
+      "threat": 11
+    }
   },
   {
     "date": "2026-09-17",
@@ -4164,7 +4206,13 @@
     "ticker": "036930",
     "score": 34,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 18/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 18/30)",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 13,
+      "opportunity": 10,
+      "threat": 6
+    }
   },
   {
     "date": "2026-09-17",
@@ -4209,7 +4257,13 @@
     "ticker": "047560",
     "score": 33,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 7/22)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 7/22)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 7,
+      "opportunity": 6,
+      "threat": 20
+    }
   },
   {
     "date": "2026-09-17",
@@ -4218,7 +4272,13 @@
     "ticker": "050890",
     "score": 52,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 9,
+      "opportunity": 8,
+      "threat": 19
+    }
   },
   {
     "date": "2026-09-17",
@@ -4227,7 +4287,13 @@
     "ticker": "051160",
     "score": 71,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 22,
+      "opportunity": 15,
+      "threat": 20
+    }
   },
   {
     "date": "2026-09-17",
@@ -4236,7 +4302,13 @@
     "ticker": "052690",
     "score": 48,
     "rating": "WATCH",
-    "rating_label": "관찰"
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 21,
+      "opportunity": 12,
+      "threat": 5
+    }
   },
   {
     "date": "2026-09-17",
@@ -4245,7 +4317,13 @@
     "ticker": "053160",
     "score": 50,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 21,
+      "opportunity": 13,
+      "threat": 16
+    }
   },
   {
     "date": "2026-09-17",
@@ -4254,7 +4332,13 @@
     "ticker": "053700",
     "score": 47,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 26/32)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/32)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 24,
+      "opportunity": 3,
+      "threat": 18
+    }
   },
   {
     "date": "2026-09-17",
@@ -4281,7 +4365,13 @@
     "ticker": "058610",
     "score": 34,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 14,
+      "opportunity": 11,
+      "threat": 4
+    }
   },
   {
     "date": "2026-09-17",
@@ -4362,7 +4452,13 @@
     "ticker": "074610",
     "score": 31,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 12,
+      "opportunity": 3,
+      "threat": 16
+    }
   },
   {
     "date": "2026-09-17",
@@ -4371,7 +4467,13 @@
     "ticker": "077360",
     "score": 67,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 22,
+      "opportunity": 10,
+      "threat": 19
+    }
   },
   {
     "date": "2026-09-17",
@@ -4389,7 +4491,13 @@
     "ticker": "082920",
     "score": 72,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 17,
+      "opportunity": 12,
+      "threat": 17
+    }
   },
   {
     "date": "2026-09-17",
@@ -4398,7 +4506,13 @@
     "ticker": "083450",
     "score": 70,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 17,
+      "opportunity": 13,
+      "threat": 19
+    }
   },
   {
     "date": "2026-09-17",
@@ -4407,7 +4521,13 @@
     "ticker": "084730",
     "score": 35,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 11/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/30)",
+    "breakdown": {
+      "strength": 3,
+      "weakness": 8,
+      "opportunity": 4,
+      "threat": 20
+    }
   },
   {
     "date": "2026-09-17",
@@ -4461,7 +4581,13 @@
     "ticker": "089030",
     "score": 39,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 11,
+      "opportunity": 7,
+      "threat": 6
+    }
   },
   {
     "date": "2026-09-17",
@@ -4470,7 +4596,13 @@
     "ticker": "089850",
     "score": 41,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 12,
+      "opportunity": 9,
+      "threat": 20
+    }
   },
   {
     "date": "2026-09-17",
@@ -4479,7 +4611,13 @@
     "ticker": "095610",
     "score": 67,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 13,
+      "threat": 9
+    }
   },
   {
     "date": "2026-09-17",
@@ -4506,7 +4644,13 @@
     "ticker": "115500",
     "score": 42,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 17/22)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/22)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 7,
+      "opportunity": 13,
+      "threat": 12
+    }
   },
   {
     "date": "2026-09-17",
@@ -4542,7 +4686,13 @@
     "ticker": "127120",
     "score": 50,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 17/18)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/18)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 11,
+      "opportunity": 14,
+      "threat": 19
+    }
   },
   {
     "date": "2026-09-17",
@@ -4578,7 +4728,13 @@
     "ticker": "141080",
     "score": 36,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 6/18)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 6/18)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 6,
+      "opportunity": 11,
+      "threat": 19
+    }
   },
   {
     "date": "2026-09-17",
@@ -4587,7 +4743,13 @@
     "ticker": "145020",
     "score": 69,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 10,
+      "opportunity": 17,
+      "threat": 24
+    }
   },
   {
     "date": "2026-09-17",
@@ -4596,7 +4758,13 @@
     "ticker": "160190",
     "score": 37,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 17,
+      "opportunity": 4,
+      "threat": 11
+    }
   },
   {
     "date": "2026-09-17",
@@ -4605,7 +4773,13 @@
     "ticker": "161580",
     "score": 27,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 17,
+      "opportunity": 4,
+      "threat": 6
+    }
   },
   {
     "date": "2026-09-17",
@@ -4659,7 +4833,13 @@
     "ticker": "208710",
     "score": 53,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 16,
+      "opportunity": 11,
+      "threat": 15
+    }
   },
   {
     "date": "2026-09-17",
@@ -4686,7 +4866,13 @@
     "ticker": "226950",
     "score": 28,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 14/18)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 14/18)",
+    "breakdown": {
+      "strength": 3,
+      "weakness": 11,
+      "opportunity": 6,
+      "threat": 8
+    }
   },
   {
     "date": "2026-09-17",
@@ -4695,7 +4881,13 @@
     "ticker": "229000",
     "score": 32,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 12,
+      "opportunity": 4,
+      "threat": 9
+    }
   },
   {
     "date": "2026-09-17",
@@ -4704,7 +4896,13 @@
     "ticker": "234340",
     "score": 43,
     "rating": "WATCH",
-    "rating_label": "관찰"
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 13,
+      "opportunity": 11,
+      "threat": 10
+    }
   },
   {
     "date": "2026-09-17",
@@ -4731,7 +4929,13 @@
     "ticker": "241710",
     "score": 72,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 20,
+      "opportunity": 10,
+      "threat": 18
+    }
   },
   {
     "date": "2026-09-17",
@@ -4749,7 +4953,13 @@
     "ticker": "251970",
     "score": 78,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 22,
+      "opportunity": 14,
+      "threat": 19
+    }
   },
   {
     "date": "2026-09-17",
@@ -4758,7 +4968,13 @@
     "ticker": "257720",
     "score": 73,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 13,
+      "opportunity": 21,
+      "threat": 17
+    }
   },
   {
     "date": "2026-09-17",
@@ -4767,7 +4983,13 @@
     "ticker": "259960",
     "score": 68,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 7,
+      "threat": 14
+    }
   },
   {
     "date": "2026-09-17",
@@ -4821,7 +5043,13 @@
     "ticker": "306620",
     "score": 41,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 7,
+      "opportunity": 4,
+      "threat": 20
+    }
   },
   {
     "date": "2026-09-17",
@@ -4830,7 +5058,13 @@
     "ticker": "310210",
     "score": 34,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 11/18)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/18)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 11,
+      "opportunity": 11,
+      "threat": 12
+    }
   },
   {
     "date": "2026-09-17",
@@ -4839,7 +5073,13 @@
     "ticker": "315640",
     "score": 28,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 7/22)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 7/22)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 7,
+      "opportunity": 6,
+      "threat": 15
+    }
   },
   {
     "date": "2026-09-17",
@@ -4866,7 +5106,13 @@
     "ticker": "328130",
     "score": 36,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 18/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 18/30)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 12,
+      "opportunity": 3,
+      "threat": 15
+    }
   },
   {
     "date": "2026-09-17",
@@ -4884,7 +5130,13 @@
     "ticker": "336260",
     "score": 17,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 7/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 7/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 7,
+      "opportunity": 4,
+      "threat": 6
+    }
   },
   {
     "date": "2026-09-17",
@@ -4893,7 +5145,13 @@
     "ticker": "347850",
     "score": 31,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 11/18)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/18)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 11,
+      "opportunity": 8,
+      "threat": 12
+    }
   },
   {
     "date": "2026-09-17",
@@ -4902,7 +5160,13 @@
     "ticker": "356860",
     "score": 73,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 12,
+      "threat": 16
+    }
   },
   {
     "date": "2026-09-17",
@@ -4911,7 +5175,13 @@
     "ticker": "357780",
     "score": 67,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 17,
+      "opportunity": 9,
+      "threat": 16
+    }
   },
   {
     "date": "2026-09-17",
@@ -4920,7 +5190,13 @@
     "ticker": "373220",
     "score": 30,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 9/20)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 9/20)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 5,
+      "opportunity": 10,
+      "threat": 11
+    }
   },
   {
     "date": "2026-09-17",
@@ -4929,7 +5205,13 @@
     "ticker": "389020",
     "score": 45,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 12,
+      "opportunity": 7,
+      "threat": 15
+    }
   },
   {
     "date": "2026-09-17",
@@ -4938,7 +5220,13 @@
     "ticker": "399720",
     "score": 32,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 12,
+      "opportunity": 3,
+      "threat": 9
+    }
   },
   {
     "date": "2026-09-17",
@@ -4956,7 +5244,13 @@
     "ticker": "425420",
     "score": 69,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 6,
+      "threat": 18
+    }
   },
   {
     "date": "2026-09-17",
@@ -4974,7 +5268,13 @@
     "ticker": "454910",
     "score": 39,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 17,
+      "opportunity": 6,
+      "threat": 8
+    }
   },
   {
     "date": "2026-09-17",
@@ -4983,7 +5283,13 @@
     "ticker": "475150",
     "score": 30,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 17,
+      "opportunity": 4,
+      "threat": 7
+    }
   },
   {
     "date": "2026-09-17",
@@ -4992,7 +5298,13 @@
     "ticker": "475960",
     "score": 39,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 13/18)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 13/18)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 4,
+      "opportunity": 11,
+      "threat": 15
+    }
   },
   {
     "date": "2026-09-18",
@@ -5001,7 +5313,13 @@
     "ticker": "010950",
     "score": 67,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 13,
+      "opportunity": 11,
+      "threat": 22
+    }
   },
   {
     "date": "2026-09-18",
@@ -5073,7 +5391,13 @@
     "ticker": "353200",
     "score": 74,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 11,
+      "threat": 18
+    }
   },
   {
     "date": "2026-09-18",
@@ -5109,7 +5433,13 @@
     "ticker": "074600",
     "score": 65,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 18,
+      "opportunity": 9,
+      "threat": 20
+    }
   },
   {
     "date": "2026-09-18",
@@ -5118,7 +5448,13 @@
     "ticker": "010120",
     "score": 65,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 19,
+      "opportunity": 10,
+      "threat": 11
+    }
   },
   {
     "date": "2026-09-18",
@@ -5136,7 +5472,13 @@
     "ticker": "089970",
     "score": 69,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 13,
+      "threat": 13
+    }
   },
   {
     "date": "2026-09-18",
@@ -5217,7 +5559,13 @@
     "ticker": "080220",
     "score": 66,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 9,
+      "threat": 10
+    }
   },
   {
     "date": "2026-09-18",
@@ -5244,7 +5592,13 @@
     "ticker": "103590",
     "score": 71,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 21,
+      "opportunity": 9,
+      "threat": 16
+    }
   },
   {
     "date": "2026-09-18",
@@ -5271,7 +5625,13 @@
     "ticker": "078930",
     "score": 77,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 10,
+      "threat": 20
+    }
   },
   {
     "date": "2026-09-22",
@@ -5307,7 +5667,13 @@
     "ticker": "272110",
     "score": 69,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 18,
+      "opportunity": 4,
+      "threat": 25
+    }
   },
   {
     "date": "2026-10-02",
@@ -5325,7 +5691,13 @@
     "ticker": "003490",
     "score": 52,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 12,
+      "opportunity": 18,
+      "threat": 22
+    }
   },
   {
     "date": "2026-10-06",
@@ -5334,7 +5706,13 @@
     "ticker": "004020",
     "score": 35,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 8,
+      "opportunity": 7,
+      "threat": 16
+    }
   },
   {
     "date": "2026-10-06",
@@ -5343,7 +5721,13 @@
     "ticker": "005300",
     "score": 50,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 22,
+      "opportunity": 5,
+      "threat": 17
+    }
   },
   {
     "date": "2026-10-06",
@@ -5352,7 +5736,13 @@
     "ticker": "005420",
     "score": 46,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 12
+    }
   },
   {
     "date": "2026-10-06",
@@ -5361,7 +5751,13 @@
     "ticker": "005490",
     "score": 45,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 10,
+      "opportunity": 5,
+      "threat": 21
+    }
   },
   {
     "date": "2026-10-06",
@@ -5370,7 +5766,13 @@
     "ticker": "005830",
     "score": 69,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 18,
+      "opportunity": 9,
+      "threat": 19
+    }
   },
   {
     "date": "2026-10-06",
@@ -5379,7 +5781,13 @@
     "ticker": "005940",
     "score": 68,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 28,
+      "weakness": 15,
+      "opportunity": 6,
+      "threat": 19
+    }
   },
   {
     "date": "2026-10-06",
@@ -5397,7 +5805,13 @@
     "ticker": "016360",
     "score": 73,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 30,
+      "weakness": 15,
+      "opportunity": 10,
+      "threat": 18
+    }
   },
   {
     "date": "2026-10-06",
@@ -5415,7 +5829,13 @@
     "ticker": "021240",
     "score": 72,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 19,
+      "opportunity": 11,
+      "threat": 22
+    }
   },
   {
     "date": "2026-10-06",
@@ -5424,7 +5844,13 @@
     "ticker": "028050",
     "score": 69,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 19,
+      "opportunity": 6,
+      "threat": 24
+    }
   },
   {
     "date": "2026-10-06",
@@ -5433,7 +5859,13 @@
     "ticker": "030000",
     "score": 48,
     "rating": "WATCH",
-    "rating_label": "관찰"
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 19,
+      "opportunity": 5,
+      "threat": 11
+    }
   },
   {
     "date": "2026-10-06",
@@ -5442,7 +5874,13 @@
     "ticker": "033160",
     "score": 52,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 11,
+      "opportunity": 13,
+      "threat": 15
+    }
   },
   {
     "date": "2026-10-06",
@@ -5451,7 +5889,13 @@
     "ticker": "033780",
     "score": 65,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 18,
+      "opportunity": 8,
+      "threat": 16
+    }
   },
   {
     "date": "2026-10-06",
@@ -5460,7 +5904,13 @@
     "ticker": "034220",
     "score": 30,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 11/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 11,
+      "opportunity": 5,
+      "threat": 14
+    }
   },
   {
     "date": "2026-10-06",
@@ -5469,7 +5919,13 @@
     "ticker": "034730",
     "score": 71,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 27,
+      "weakness": 11,
+      "opportunity": 14,
+      "threat": 19
+    }
   },
   {
     "date": "2026-10-06",
@@ -5478,7 +5934,13 @@
     "ticker": "035720",
     "score": 48,
     "rating": "WATCH",
-    "rating_label": "관찰"
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 14,
+      "opportunity": 7,
+      "threat": 15
+    }
   },
   {
     "date": "2026-10-06",
@@ -5487,7 +5949,13 @@
     "ticker": "036460",
     "score": 49,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 13,
+      "opportunity": 10,
+      "threat": 17
+    }
   },
   {
     "date": "2026-10-06",
@@ -5496,7 +5964,13 @@
     "ticker": "036570",
     "score": 71,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 5,
+      "threat": 19
+    }
   },
   {
     "date": "2026-10-06",
@@ -5505,7 +5979,13 @@
     "ticker": "047810",
     "score": 39,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 25/28)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/28)",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 20,
+      "opportunity": 8,
+      "threat": 6
+    }
   },
   {
     "date": "2026-10-06",
@@ -5532,7 +6012,13 @@
     "ticker": "069960",
     "score": 43,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 14,
+      "opportunity": 6,
+      "threat": 17
+    }
   },
   {
     "date": "2026-10-06",
@@ -5559,7 +6045,13 @@
     "ticker": "096770",
     "score": 67,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 17,
+      "opportunity": 11,
+      "threat": 24
+    }
   },
   {
     "date": "2026-10-06",
@@ -5568,7 +6060,13 @@
     "ticker": "098460",
     "score": 76,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 21,
+      "threat": 10
+    }
   },
   {
     "date": "2026-10-06",
@@ -5577,7 +6075,13 @@
     "ticker": "122870",
     "score": 46,
     "rating": "WATCH",
-    "rating_label": "관찰"
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 16,
+      "opportunity": 7,
+      "threat": 8
+    }
   },
   {
     "date": "2026-10-06",
@@ -5586,7 +6090,13 @@
     "ticker": "128940",
     "score": 65,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 9,
+      "opportunity": 11,
+      "threat": 27
+    }
   },
   {
     "date": "2026-10-06",
@@ -5595,7 +6105,13 @@
     "ticker": "129920",
     "score": 40,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 13
+    }
   },
   {
     "date": "2026-10-06",
@@ -5604,7 +6120,13 @@
     "ticker": "161890",
     "score": 69,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 17,
+      "opportunity": 16,
+      "threat": 16
+    }
   },
   {
     "date": "2026-10-06",
@@ -5622,7 +6144,13 @@
     "ticker": "251270",
     "score": 50,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 12,
+      "opportunity": 5,
+      "threat": 17
+    }
   },
   {
     "date": "2026-10-06",
@@ -5640,7 +6168,13 @@
     "ticker": "316140",
     "score": 74,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 15,
+      "opportunity": 17,
+      "threat": 19
+    }
   },
   {
     "date": "2026-10-06",
@@ -5649,7 +6183,13 @@
     "ticker": "361610",
     "score": 35,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 8/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 8/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 8,
+      "opportunity": 9,
+      "threat": 18
+    }
   },
   {
     "date": "2026-10-06",
@@ -5667,7 +6207,13 @@
     "ticker": "204270",
     "score": 24,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 8/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 8/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 8,
+      "opportunity": 10,
+      "threat": 6
+    }
   },
   {
     "date": "2026-10-10",
@@ -5676,7 +6222,13 @@
     "ticker": "420770",
     "score": 72,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 22,
+      "opportunity": 12,
+      "threat": 16
+    }
   },
   {
     "date": "2026-10-13",
@@ -5685,7 +6237,13 @@
     "ticker": "028670",
     "score": 72,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 22,
+      "opportunity": 7,
+      "threat": 25
+    }
   },
   {
     "date": "2026-10-13",
@@ -5694,7 +6252,13 @@
     "ticker": "005380",
     "score": 45,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 30/32)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 30/32)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 19,
+      "opportunity": 5,
+      "threat": 10
+    }
   },
   {
     "date": "2026-10-13",
@@ -5703,7 +6267,13 @@
     "ticker": "036830",
     "score": 67,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 16,
+      "opportunity": 10,
+      "threat": 19
+    }
   },
   {
     "date": "2026-10-13",
@@ -5712,7 +6282,13 @@
     "ticker": "204620",
     "score": 77,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 22,
+      "opportunity": 18,
+      "threat": 14
+    }
   },
   {
     "date": "2026-10-13",
@@ -5721,7 +6297,13 @@
     "ticker": "207940",
     "score": 49,
     "rating": "WATCH",
-    "rating_label": "관찰"
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 9,
+      "opportunity": 8,
+      "threat": 15
+    }
   },
   {
     "date": "2026-10-13",
@@ -5730,7 +6312,13 @@
     "ticker": "097950",
     "score": 42,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 21,
+      "opportunity": 5,
+      "threat": 14
+    }
   },
   {
     "date": "2026-06-14",
@@ -5838,7 +6426,13 @@
     "ticker": "062040",
     "score": 65,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 19,
+      "opportunity": 10,
+      "threat": 10
+    }
   },
   {
     "date": "2026-10-13",
@@ -5847,7 +6441,13 @@
     "ticker": "236200",
     "score": 78,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 17,
+      "threat": 18
+    }
   },
   {
     "date": "2026-10-13",
@@ -5856,7 +6456,13 @@
     "ticker": "039030",
     "score": 65,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 8,
+      "threat": 14
+    }
   },
   {
     "date": "2026-10-13",
@@ -5865,7 +6471,13 @@
     "ticker": "058470",
     "score": 73,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 8,
+      "threat": 18
+    }
   },
   {
     "date": "2026-10-13",
@@ -5874,7 +6486,13 @@
     "ticker": "440110",
     "score": 58,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 8,
+      "opportunity": 13,
+      "threat": 21
+    }
   },
   {
     "date": "2026-10-13",
@@ -5883,7 +6501,13 @@
     "ticker": "071050",
     "score": 70,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 30,
+      "weakness": 15,
+      "opportunity": 10,
+      "threat": 15
+    }
   },
   {
     "date": "2026-10-13",
@@ -5928,7 +6552,13 @@
     "ticker": "003550",
     "score": 65,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 19,
+      "opportunity": 10,
+      "threat": 12
+    }
   },
   {
     "date": "2026-10-13",
@@ -5946,7 +6576,13 @@
     "ticker": "047050",
     "score": 53,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 12,
+      "opportunity": 6,
+      "threat": 22
+    }
   },
   {
     "date": "2026-10-13",
@@ -5964,7 +6600,13 @@
     "ticker": "214450",
     "score": 80,
     "rating": "STRONG_BUY",
-    "rating_label": "적극 매수 ★★★"
+    "rating_label": "적극 매수 ★★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 21,
+      "threat": 14
+    }
   },
   {
     "date": "2026-10-13",
@@ -5973,7 +6615,13 @@
     "ticker": "000660",
     "score": 72,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 21,
+      "opportunity": 11,
+      "threat": 15
+    }
   },
   {
     "date": "2026-10-13",
@@ -5991,7 +6639,13 @@
     "ticker": "105560",
     "score": 65,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 6,
+      "threat": 19
+    }
   },
   {
     "date": "2026-10-13",
@@ -6072,7 +6726,13 @@
     "ticker": "000150",
     "score": 41,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 20/26)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/26)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 9,
+      "opportunity": 5,
+      "threat": 16
+    }
   },
   {
     "date": "2026-10-13",
@@ -6081,7 +6741,13 @@
     "ticker": "000250",
     "score": 41,
     "rating": "WATCH",
-    "rating_label": "관찰"
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 11,
+      "opportunity": 6,
+      "threat": 14
+    }
   },
   {
     "date": "2026-10-13",
@@ -6090,7 +6756,13 @@
     "ticker": "000500",
     "score": 56,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 13,
+      "opportunity": 17,
+      "threat": 11
+    }
   },
   {
     "date": "2026-10-13",
@@ -6099,7 +6771,13 @@
     "ticker": "001440",
     "score": 49,
     "rating": "WATCH",
-    "rating_label": "관찰"
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 11
+    }
   },
   {
     "date": "2026-10-13",
@@ -6108,7 +6786,13 @@
     "ticker": "003230",
     "score": 65,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 21,
+      "opportunity": 8,
+      "threat": 11
+    }
   },
   {
     "date": "2026-10-13",
@@ -6117,7 +6801,13 @@
     "ticker": "005090",
     "score": 34,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 12,
+      "opportunity": 7,
+      "threat": 8
+    }
   },
   {
     "date": "2026-10-13",
@@ -6126,7 +6816,13 @@
     "ticker": "006400",
     "score": 45,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 15/20)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/20)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 5,
+      "opportunity": 10,
+      "threat": 20
+    }
   },
   {
     "date": "2026-10-13",
@@ -6135,7 +6831,13 @@
     "ticker": "006730",
     "score": 74,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 25,
+      "opportunity": 11,
+      "threat": 12
+    }
   },
   {
     "date": "2026-10-13",
@@ -6144,7 +6846,13 @@
     "ticker": "007660",
     "score": 70,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 15,
+      "threat": 8
+    }
   },
   {
     "date": "2026-10-13",
@@ -6162,7 +6870,13 @@
     "ticker": "011070",
     "score": 57,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 15,
+      "opportunity": 9,
+      "threat": 19
+    }
   },
   {
     "date": "2026-10-13",
@@ -6189,7 +6903,13 @@
     "ticker": "035420",
     "score": 41,
     "rating": "WATCH",
-    "rating_label": "관찰"
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 12,
+      "opportunity": 7,
+      "threat": 8
+    }
   },
   {
     "date": "2026-10-13",
@@ -6207,7 +6927,13 @@
     "ticker": "064290",
     "score": 57,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 22,
+      "opportunity": 25,
+      "threat": 10
+    }
   },
   {
     "date": "2026-10-13",
@@ -6225,7 +6951,13 @@
     "ticker": "067310",
     "score": 81,
     "rating": "STRONG_BUY",
-    "rating_label": "적극 매수 ★★★"
+    "rating_label": "적극 매수 ★★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 17,
+      "opportunity": 15,
+      "threat": 24
+    }
   },
   {
     "date": "2026-10-13",
@@ -6279,7 +7011,13 @@
     "ticker": "101490",
     "score": 65,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 7,
+      "threat": 13
+    }
   },
   {
     "date": "2026-10-13",
@@ -6288,7 +7026,13 @@
     "ticker": "117730",
     "score": 23,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 10/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 10/30)",
+    "breakdown": {
+      "strength": 3,
+      "weakness": 7,
+      "opportunity": 8,
+      "threat": 5
+    }
   },
   {
     "date": "2026-10-13",
@@ -6297,7 +7041,13 @@
     "ticker": "119850",
     "score": 74,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 16,
+      "opportunity": 26,
+      "threat": 10
+    }
   },
   {
     "date": "2026-10-13",
@@ -6306,7 +7056,13 @@
     "ticker": "131290",
     "score": 70,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 10,
+      "threat": 17
+    }
   },
   {
     "date": "2026-10-13",
@@ -6315,7 +7071,13 @@
     "ticker": "139480",
     "score": 38,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 12,
+      "opportunity": 5,
+      "threat": 21
+    }
   },
   {
     "date": "2026-10-14",
@@ -6324,7 +7086,13 @@
     "ticker": "402340",
     "score": 75,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 11,
+      "threat": 17
+    }
   },
   {
     "date": "2026-10-14",
@@ -6333,7 +7101,13 @@
     "ticker": "066570",
     "score": 50,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 14,
+      "opportunity": 11,
+      "threat": 14
+    }
   },
   {
     "date": "2026-10-14",
@@ -6360,7 +7134,13 @@
     "ticker": "376300",
     "score": 72,
     "rating": "BUY",
-    "rating_label": "매수 ★★"
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 6,
+      "threat": 19
+    }
   },
   {
     "date": "2026-10-14",
@@ -6369,7 +7149,13 @@
     "ticker": "277810",
     "score": 32,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 12,
+      "opportunity": 7,
+      "threat": 5
+    }
   },
   {
     "date": "2026-10-14",
@@ -6378,6 +7164,12 @@
     "ticker": "247540",
     "score": 29,
     "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 11/20)"
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/20)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 11,
+      "opportunity": 11,
+      "threat": 7
+    }
   }
 ]
