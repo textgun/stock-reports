@@ -1244,12 +1244,12 @@
   "207940": {
     "company": "삼성바이오로직스",
     "sector": "바이오",
-    "updated": "2026-09-17",
-    "score": 54,
+    "updated": "2026-10-13",
+    "score": 50,
     "breakdown": {
       "strength": 18,
       "weakness": 9,
-      "opportunity": 12,
+      "opportunity": 8,
       "threat": 15
     },
     "sector_max": {
@@ -1266,12 +1266,12 @@
       "correction_pts": 2
     },
     "trade": {
-      "export_yoy": 24.88,
-      "import_yoy": 87.37,
+      "export_yoy": 135.83,
+      "import_yoy": 0.45,
       "hs_code": "3002",
-      "base_month": "202608",
+      "base_month": "202609",
       "status": null,
-      "trade_score": 6,
+      "trade_score": 8,
       "correction_pts": 0
     },
     "reality_hope": {
@@ -1281,34 +1281,38 @@
     },
     "extra": null,
     "valuation": {
-      "per": 38.78,
+      "per": 33.01,
       "per_txt": "고평가 주의",
-      "pbr": 7.76,
+      "pbr": 6.61,
       "pbr_txt": "고평가 주의",
-      "psr": 12.69,
+      "psr": 10.71,
       "psr_txt": "고평가 주의",
-      "peg": 1.66,
+      "peg": 1.42,
       "peg_txt": "적정",
-      "tgt": 2000000.0,
-      "upside": 42.5,
+      "tgt": 1970000.0,
+      "upside": 66.2,
       "consensus_n": 5,
-      "roe": 23.73
+      "roe": 22.12
     },
     "valuation_engine": {
-      "fair_value": 1214495.0,
-      "band_low": 558956.0,
-      "band_high": 3526988.0,
+      "fair_value": 849168.0,
+      "band_low": 530588.0,
+      "band_high": 3473520.0,
       "confidence": "LOW",
-      "method_spread": 2.62,
+      "method_spread": 2.693,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 2.693배"
+      ],
       "zone": "FAIR",
-      "gap_pct": 15.6,
+      "gap_pct": 39.5,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 672045.8543506966,
-      "per_band_mid": 1546902.0,
-      "pbr_roe_fair_value": 882088.0,
+      "srim_mid": 646392.811046104,
+      "per_band_mid": null,
+      "pbr_roe_fair_value": 849168.0,
       "nav_sotp_mid": null
     }
   },
@@ -3735,14 +3739,14 @@
   },
   "204620": {
     "company": "글로벌텍스프리",
-    "updated": "2026-09-17",
-    "score": 79,
+    "updated": "2026-10-13",
+    "score": 77,
     "sector": "기타",
     "breakdown": {
       "strength": 23,
       "weakness": 22,
-      "opportunity": 15,
-      "threat": 19
+      "opportunity": 18,
+      "threat": 14
     },
     "sector_max": {
       "strength": 25,
@@ -3767,34 +3771,40 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 11.22,
+      "per": 10.82,
       "per_txt": "저평가",
-      "pbr": 2.51,
-      "pbr_txt": "적정",
-      "psr": 2.47,
+      "pbr": 2.42,
+      "pbr_txt": "고평가 주의",
+      "psr": 2.38,
       "psr_txt": "적정",
-      "peg": 1.19,
+      "peg": 1.15,
       "peg_txt": "적정",
       "tgt": 6500.0,
-      "upside": 10.7,
+      "upside": 14.8,
       "consensus_n": 1,
-      "roe": 22.06
+      "roe": 16.85
     },
     "valuation_engine": {
-      "fair_value": 5390.0,
-      "band_low": 3951.0,
-      "band_high": 6692.0,
-      "confidence": "HIGH",
-      "method_spread": 1.389,
-      "position_scale": 1.0,
+      "fair_value": 6763.0,
+      "band_low": 3971.0,
+      "band_high": 28540.0,
+      "confidence": "LOW",
+      "method_spread": 5.874,
+      "position_scale": 0.5,
       "buy_signal_allowed": false,
-      "zone": "FAIR",
-      "gap_pct": 8.9,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 5.874배",
+        "PER 유효 표본 1.5년 — 결측·적자 제외 후 4년 미만",
+        "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
+      ],
+      "zone": "ACCUMULATE",
+      "gap_pct": -16.3,
       "quality_gate_passed": true,
-      "action_label": "보유 (신규 매수 없음)",
-      "srim_mid": 4818.42664399063,
-      "per_band_mid": 5390.0,
-      "pbr_roe_fair_value": 6692.0,
+      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 5.9배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
+      "srim_mid": 4858.834451604974,
+      "per_band_mid": 28540.0,
+      "pbr_roe_fair_value": 6763.0,
       "nav_sotp_mid": null
     }
   },
@@ -12666,7 +12676,7 @@
   },
   "097950": {
     "company": "CJ제일제당",
-    "updated": "2026-10-06",
+    "updated": "2026-10-13",
     "score": 42,
     "sector": "기타",
     "breakdown": {
@@ -12700,36 +12710,37 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 0.38,
+      "pbr": 0.39,
       "pbr_txt": "",
       "psr": 0.1,
       "psr_txt": "저평가",
       "peg": null,
       "peg_txt": "",
       "tgt": 306000.0,
-      "upside": 70.7,
+      "upside": 69.7,
       "consensus_n": 5,
-      "roe": -4.71
+      "roe": -2.55
     },
     "valuation_engine": {
-      "fair_value": 276339.0,
-      "band_low": 217835.0,
-      "band_high": 405107.0,
+      "fair_value": 23400.0,
+      "band_low": 11700.0,
+      "band_high": 404587.0,
       "confidence": "LOW",
-      "method_spread": null,
+      "method_spread": 12.94,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "평가 방법 1개 — 교차 검증 불가"
+        "방법 간 편차 12.940배",
+        "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
       ],
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (23점 < 기준 30점), 존과 무관하게 회피",
-      "srim_mid": null,
+      "srim_mid": 23400.190496538766,
       "per_band_mid": null,
-      "pbr_roe_fair_value": null,
+      "pbr_roe_fair_value": 21320.0,
       "nav_sotp_mid": null
     }
   },
