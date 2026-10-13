@@ -6190,5 +6190,14 @@
     "score": 60,
     "rating": "HOLD",
     "rating_label": "보유 ★"
+  },
+  {
+    "date": "2026-10-13",
+    "filename": "035420_NAVER/2026-10-13_NAVER_035420.html",
+    "company": "NAVER",
+    "ticker": "035420",
+    "score": 41,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
