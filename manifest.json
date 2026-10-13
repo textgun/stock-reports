@@ -6127,5 +6127,14 @@
     "score": 34,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 19/30)"
+  },
+  {
+    "date": "2026-10-13",
+    "filename": "006400_삼성SDI/2026-10-13_삼성SDI_006400.html",
+    "company": "삼성SDI",
+    "ticker": "006400",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/20)"
   }
 ]
