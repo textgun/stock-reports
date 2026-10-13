@@ -15184,15 +15184,6 @@
   },
   {
     "date": "2026-10-13",
-    "filename": "207940_삼성바이오로직스/2026-10-13_삼성바이오로직스_207940.html",
-    "company": "삼성바이오로직스",
-    "ticker": "207940",
-    "score": 50,
-    "rating": "HOLD",
-    "rating_label": "보유 ★"
-  },
-  {
-    "date": "2026-10-13",
     "filename": "097950_CJ제일제당/2026-10-13_CJ제일제당_097950.html",
     "company": "CJ제일제당",
     "ticker": "097950",
@@ -15217,5 +15208,14 @@
     "score": 77,
     "rating": "BUY",
     "rating_label": "매수 ★★"
+  },
+  {
+    "date": "2026-10-13",
+    "filename": "207940_삼성바이오로직스/2026-10-13_삼성바이오로직스_207940.html",
+    "company": "삼성바이오로직스",
+    "ticker": "207940",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
