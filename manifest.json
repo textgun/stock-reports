@@ -15217,5 +15217,14 @@
     "score": 42,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 23/30)"
+  },
+  {
+    "date": "2026-10-13",
+    "filename": "041510_에스엠/2026-10-13_에스엠_041510.html",
+    "company": "에스엠",
+    "ticker": "041510",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
