@@ -26208,10 +26208,10 @@
       },
       {
         "date": "2026-10-13",
-        "total_score": 50,
-        "rating_code": "HOLD",
+        "total_score": 49,
+        "rating_code": "WATCH",
         "breakdown": {
-          "strength": 18,
+          "strength": 17,
           "weakness": 9,
           "opportunity": 8,
           "threat": 15
