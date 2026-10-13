@@ -6361,5 +6361,14 @@
     "score": 50,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 25/30)"
+  },
+  {
+    "date": "2026-10-14",
+    "filename": "039490_키움증권/2026-10-14_키움증권_039490.html",
+    "company": "키움증권",
+    "ticker": "039490",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★"
   }
 ]
