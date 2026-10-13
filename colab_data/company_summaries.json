@@ -3940,14 +3940,14 @@
   },
   "005380": {
     "company": "현대자동차",
-    "updated": "2026-09-18",
-    "score": 48,
+    "updated": "2026-10-13",
+    "score": 45,
     "sector": "자동차",
     "breakdown": {
       "strength": 11,
       "weakness": 19,
-      "opportunity": 6,
-      "threat": 12
+      "opportunity": 5,
+      "threat": 10
     },
     "sector_max": {
       "strength": 28,
@@ -3963,12 +3963,12 @@
       "correction_pts": -1
     },
     "trade": {
-      "export_yoy": -29.52,
-      "import_yoy": -52.99,
+      "export_yoy": 7.79,
+      "import_yoy": -28.35,
       "hs_code": "8703",
-      "base_month": "202608",
+      "base_month": "202609",
       "status": null,
-      "trade_score": 1,
+      "trade_score": 4,
       "correction_pts": 0
     },
     "extra": {
@@ -3978,37 +3978,37 @@
       "exec_count": 12
     },
     "valuation": {
-      "per": 11.91,
+      "per": 9.88,
       "per_txt": "저평가",
-      "pbr": 0.78,
+      "pbr": 0.65,
       "pbr_txt": "적정",
-      "psr": 0.4,
+      "psr": 0.33,
       "psr_txt": "저평가",
       "peg": null,
       "peg_txt": "",
-      "tgt": 706000.0,
-      "upside": 93.2,
+      "tgt": 582000.0,
+      "upside": 91.9,
       "consensus_n": 5,
       "roe": 6.8
     },
     "valuation_engine": {
-      "fair_value": 1016627.0,
-      "band_low": 182718.0,
-      "band_high": 1320072.0,
+      "fair_value": 1023080.0,
+      "band_low": 182402.0,
+      "band_high": 1328451.0,
       "confidence": "LOW",
-      "method_spread": 4.788,
+      "method_spread": 4.799,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 4.788배"
+        "방법 간 편차 4.799배"
       ],
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (30점 < 기준 32점), 존과 무관하게 회피",
-      "srim_mid": 1016626.9390193964,
-      "per_band_mid": 261287.0,
+      "srim_mid": 1023079.5580055199,
+      "per_band_mid": 260655.0,
       "pbr_roe_fair_value": 1250957.0,
       "nav_sotp_mid": null
     }
