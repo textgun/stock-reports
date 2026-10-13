@@ -1,0 +1,54 @@
+<!doctype html>
+<!-- Pages 404 페이지 — 정리된 날짜 리포트 링크를 manifest에서 같은 종목의 가장 가까운 다음 리포트로 보낸다 (publisher.push_404_page) -->
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>페이지 없음</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1e293b; --link: #2563eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0f172a; --fg: #e2e8f0; --link: #60a5fa; } }
+  body { margin: 0; padding: 32px 16px; background: var(--bg); color: var(--fg);
+         font-family: system-ui, -apple-system, "Apple SD Gothic Neo", sans-serif; line-height: 1.6; }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<p id="msg">페이지를 찾을 수 없습니다.</p>
+<p><a id="home" href="/">메인 대시보드로 가기</a></p>
+<script>
+(function () {
+  var path = decodeURIComponent(location.pathname);
+  // 프로젝트 사이트라 첫 경로 조각(/stock-reports/)이 사이트 루트다
+  var base = path.split('/').slice(0, 2).join('/') + '/';
+  document.getElementById('home').href = base;
+  var at = path.indexOf('/reports/');
+  if (at < 0) return;
+  var req = path.slice(at + '/reports/'.length);
+  // {코드}_{기업명}/{YYYY-MM-DD}_{기업명}_{코드}.html
+  var m = req.match(/^[^\/]+\/(\d{4}-\d{2}-\d{2})_.*_([0-9A-Z]{6})\.html$/);
+  if (!m) return;
+  document.getElementById('msg').textContent =
+    '이 날짜의 리포트는 정리되었습니다. 가장 가까운 리포트로 이동합니다…';
+  fetch(base + 'manifest.json', { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .then(function (entries) {
+      // manifest에 그대로 있으면 지운 게 아니라 아직 배포 중이다(Pages 반영까지 몇 분) — 옮기지 않는다
+      if (entries.some(function (e) { return e.filename === req; })) {
+        document.getElementById('msg').textContent = '리포트를 배포하는 중일 수 있습니다. 몇 분 뒤 새로고침해 주세요.';
+        return;
+      }
+      var mine = entries.filter(function (e) { return e.ticker === m[2]; })
+                        .sort(function (a, b) { return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; });
+      if (!mine.length) return;
+      // 같은 달에 남긴 리포트(또는 그 뒤 첫 리포트)가 그 날짜에 가장 가깝다. 없으면 최신
+      var hit = mine.filter(function (e) { return e.date >= m[1]; })[0] || mine[mine.length - 1];
+      location.replace(base + 'reports/' + hit.filename);
+    })
+    .catch(function () {
+      document.getElementById('msg').textContent = '이 날짜의 리포트는 정리되었습니다.';
+    });
+})();
+</script>
+</body>
+</html>
