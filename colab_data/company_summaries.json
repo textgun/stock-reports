@@ -6557,13 +6557,13 @@
   },
   "041510": {
     "company": "에스엠",
-    "updated": "2026-10-02",
-    "score": 56,
+    "updated": "2026-10-13",
+    "score": 58,
     "sector": "엔터미디어",
     "breakdown": {
       "strength": 22,
       "weakness": 19,
-      "opportunity": 8,
+      "opportunity": 10,
       "threat": 7
     },
     "sector_max": {
@@ -6605,21 +6605,21 @@
     "valuation_engine": {
       "fair_value": 174010.0,
       "band_low": 144784.0,
-      "band_high": 1932473.0,
+      "band_high": 1920645.0,
       "confidence": "LOW",
-      "method_spread": 2.182,
+      "method_spread": 2.18,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 2.182배"
+        "방법 간 편차 2.180배"
       ],
       "zone": "DEEP_VALUE",
       "gap_pct": -55.9,
       "quality_gate_passed": true,
       "action_label": "3차 매수 존 (목표비중 100%까지) · ⚠️ 신뢰도 LOW(편차 2.2배) → 목표비중 50%로 축소 매수",
       "srim_mid": 174009.53663266008,
-      "per_band_mid": 336841.0,
+      "per_band_mid": 336426.0,
       "pbr_roe_fair_value": 154340.0,
       "nav_sotp_mid": null
     }
