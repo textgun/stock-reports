@@ -25,8 +25,11 @@
   var at = path.indexOf('/reports/');
   if (at < 0) return;
   var req = path.slice(at + '/reports/'.length);
-  // {코드}_{기업명}/{YYYY-MM-DD}_{기업명}_{코드}.html
-  var m = req.match(/^[^\/]+\/(\d{4}-\d{2}-\d{2})_.*_([0-9A-Z]{6})\.html$/);
+  // {코드}_{기업명}/{YYYY-MM-DD}_{기업명}_{코드}.html — 폴더 이전(2026-05~06)의 {날짜}_{기업명}_{코드}.html 포함
+  var m = req.match(/^(?:[^\/]+\/)?(\d{4}-\d{2}-\d{2})_.*_([0-9A-Z]{6})\.html$/);
+  // 더 옛 형식 {코드}_{기업명}_{YYYYMMDD 또는 YYYY-MM-DD}.html
+  var old = req.match(/^([0-9A-Z]{6})_.*_(\d{4})-?(\d{2})-?(\d{2})\.html$/);
+  if (!m && old) m = [req, old[2] + '-' + old[3] + '-' + old[4], old[1]];
   if (!m) return;
   document.getElementById('msg').textContent =
     '이 날짜의 리포트는 정리되었습니다. 가장 가까운 리포트로 이동합니다…';
