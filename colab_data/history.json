@@ -12613,6 +12613,17 @@
           "opportunity": 11,
           "threat": 17
         }
+      },
+      {
+        "date": "2026-10-14",
+        "total_score": 75,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 22,
+          "opportunity": 11,
+          "threat": 17
+        }
       }
     ]
   },
@@ -15795,6 +15806,17 @@
       },
       {
         "date": "2026-10-13",
+        "total_score": 50,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 11,
+          "weakness": 14,
+          "opportunity": 11,
+          "threat": 14
+        }
+      },
+      {
+        "date": "2026-10-14",
         "total_score": 50,
         "rating_code": "AVOID",
         "breakdown": {
@@ -26803,6 +26825,17 @@
           "opportunity": 8,
           "threat": 15
         }
+      },
+      {
+        "date": "2026-10-14",
+        "total_score": 62,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 24,
+          "weakness": 15,
+          "opportunity": 8,
+          "threat": 15
+        }
       }
     ]
   },
@@ -34852,6 +34885,17 @@
           "weakness": 11,
           "opportunity": 10,
           "threat": 10
+        }
+      },
+      {
+        "date": "2026-10-14",
+        "total_score": 29,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 0,
+          "weakness": 11,
+          "opportunity": 11,
+          "threat": 7
         }
       }
     ]
@@ -49410,6 +49454,153 @@
           "weakness": 22,
           "opportunity": 7,
           "threat": 25
+        }
+      }
+    ]
+  },
+  "326030": {
+    "company_name": "에스케이바이오팜",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 56,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 10,
+          "opportunity": 8,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 51,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 5,
+          "opportunity": 8,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 55,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 9,
+          "opportunity": 8,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-10-14",
+        "total_score": 56,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 10,
+          "opportunity": 8,
+          "threat": 20
+        }
+      }
+    ]
+  },
+  "376300": {
+    "company_name": "디어유",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 68,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 21,
+          "weakness": 22,
+          "opportunity": 6,
+          "threat": 19
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 65,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 21,
+          "weakness": 19,
+          "opportunity": 6,
+          "threat": 19
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 71,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 24,
+          "weakness": 22,
+          "opportunity": 6,
+          "threat": 19
+        }
+      },
+      {
+        "date": "2026-10-14",
+        "total_score": 72,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 22,
+          "opportunity": 6,
+          "threat": 19
+        }
+      }
+    ]
+  },
+  "277810": {
+    "company_name": "레인보우로보틱스",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 41,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 21,
+          "opportunity": 7,
+          "threat": 5
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 25,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 5,
+          "opportunity": 7,
+          "threat": 5
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 32,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 12,
+          "opportunity": 7,
+          "threat": 5
+        }
+      },
+      {
+        "date": "2026-10-14",
+        "total_score": 32,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 12,
+          "opportunity": 7,
+          "threat": 5
         }
       }
     ]
