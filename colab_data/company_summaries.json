@@ -13569,11 +13569,11 @@
   },
   "036830": {
     "company": "솔브레인홀딩스",
-    "updated": "2026-10-07",
-    "score": 71,
+    "updated": "2026-10-13",
+    "score": 67,
     "sector": "전기장비/전력",
     "breakdown": {
-      "strength": 26,
+      "strength": 22,
       "weakness": 16,
       "opportunity": 10,
       "threat": 19
@@ -13589,7 +13589,7 @@
       "yoy_pct": 64.3,
       "rev_yoy_pct": 23.2,
       "momentum_score": 9.5,
-      "correction_pts": 3
+      "correction_pts": 5
     },
     "trade": {
       "export_yoy": null,
@@ -13601,38 +13601,38 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 1.74,
+      "per": 1.65,
       "per_txt": "저평가",
-      "pbr": 0.52,
+      "pbr": 0.5,
       "pbr_txt": "저평가",
-      "psr": 1.49,
+      "psr": 1.42,
       "psr_txt": "적정",
       "peg": 0.03,
       "peg_txt": "저평가(성장대비)",
       "tgt": 68000.0,
-      "upside": 40.1,
+      "upside": 47.0,
       "consensus_n": 4,
-      "roe": 30.05
+      "roe": 8.47
     },
     "valuation_engine": {
-      "fair_value": 291751.0,
-      "band_low": 30954.0,
-      "band_high": 340673.0,
+      "fair_value": 27370.0,
+      "band_low": 14712.0,
+      "band_high": 55840.0,
       "confidence": "LOW",
-      "method_spread": 8.325,
+      "method_spread": 2.721,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 8.325배"
+        "방법 간 편차 2.721배"
       ],
-      "zone": "ACCUMULATE",
-      "gap_pct": -83.4,
+      "zone": "FAIR",
+      "gap_pct": 69.0,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 8.3배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
-      "srim_mid": 291751.44621925213,
+      "action_label": "보유 (신규 매수 없음)",
+      "srim_mid": null,
       "per_band_mid": null,
-      "pbr_roe_fair_value": 333633.0,
+      "pbr_roe_fair_value": 14712.0,
       "nav_sotp_mid": null
     }
   },
