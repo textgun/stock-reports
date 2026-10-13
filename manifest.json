@@ -6397,5 +6397,14 @@
     "score": 32,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 20/30)"
+  },
+  {
+    "date": "2026-10-14",
+    "filename": "247540_에코프로비엠/2026-10-14_에코프로비엠_247540.html",
+    "company": "에코프로비엠",
+    "ticker": "247540",
+    "score": 29,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/20)"
   }
 ]
