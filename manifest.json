@@ -5689,15 +5689,6 @@
   },
   {
     "date": "2026-10-13",
-    "filename": "062040_산일전기/2026-10-13_산일전기_062040.html",
-    "company": "산일전기",
-    "ticker": "062040",
-    "score": 65,
-    "rating": "BUY",
-    "rating_label": "매수 ★★"
-  },
-  {
-    "date": "2026-10-13",
     "filename": "028670_팬오션/2026-10-13_팬오션_028670.html",
     "company": "팬오션",
     "ticker": "028670",
@@ -5857,5 +5848,14 @@
     "score": 36,
     "rating": "AVOID",
     "rating_label": "회피 ✗"
+  },
+  {
+    "date": "2026-10-13",
+    "filename": "062040_산일전기/2026-10-13_산일전기_062040.html",
+    "company": "산일전기",
+    "ticker": "062040",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★"
   }
 ]
