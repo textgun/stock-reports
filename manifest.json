@@ -6100,5 +6100,14 @@
     "score": 56,
     "rating": "AVOID",
     "rating_label": "회피 ✗ (재무 필터 미통과 28/30)"
+  },
+  {
+    "date": "2026-10-13",
+    "filename": "001440_대한전선/2026-10-13_대한전선_001440.html",
+    "company": "대한전선",
+    "ticker": "001440",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰"
   }
 ]
