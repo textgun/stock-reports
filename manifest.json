@@ -3945,7 +3945,13 @@
     "ticker": "000880",
     "score": 51,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 12,
+      "opportunity": 7,
+      "threat": 16
+    }
   },
   {
     "date": "2026-09-17",
@@ -3963,7 +3969,13 @@
     "ticker": "001500",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 15,
+      "opportunity": 8,
+      "threat": 18
+    }
   },
   {
     "date": "2026-09-17",
@@ -4062,7 +4074,13 @@
     "ticker": "009450",
     "score": 61,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 7,
+      "threat": 14
+    }
   },
   {
     "date": "2026-09-17",
@@ -4104,7 +4122,13 @@
     "ticker": "011200",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 19,
+      "opportunity": 6,
+      "threat": 16
+    }
   },
   {
     "date": "2026-09-17",
@@ -4137,7 +4161,13 @@
     "ticker": "012690",
     "score": 50,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 21,
+      "opportunity": 3,
+      "threat": 13
+    }
   },
   {
     "date": "2026-09-17",
@@ -4164,7 +4194,13 @@
     "ticker": "032830",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 15,
+      "opportunity": 12,
+      "threat": 17
+    }
   },
   {
     "date": "2026-09-17",
@@ -4407,7 +4443,13 @@
     "ticker": "064760",
     "score": 62,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 12,
+      "threat": 7
+    }
   },
   {
     "date": "2026-09-17",
@@ -4572,7 +4614,13 @@
     "ticker": "089010",
     "score": 54,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 22,
+      "opportunity": 8,
+      "threat": 14
+    }
   },
   {
     "date": "2026-09-17",
@@ -4677,7 +4725,13 @@
     "ticker": "126700",
     "score": 59,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 22,
+      "opportunity": 8,
+      "threat": 20
+    }
   },
   {
     "date": "2026-09-17",
@@ -4719,7 +4773,13 @@
     "ticker": "140860",
     "score": 53,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 22,
+      "opportunity": 13,
+      "threat": 5
+    }
   },
   {
     "date": "2026-09-17",
@@ -4788,7 +4848,13 @@
     "ticker": "186230",
     "score": 54,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 22,
+      "opportunity": 4,
+      "threat": 20
+    }
   },
   {
     "date": "2026-09-17",
@@ -4797,7 +4863,13 @@
     "ticker": "192820",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 14,
+      "opportunity": 7,
+      "threat": 18
+    }
   },
   {
     "date": "2026-09-17",
@@ -4806,7 +4878,13 @@
     "ticker": "196170",
     "score": 55,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 9,
+      "opportunity": 20,
+      "threat": 8
+    }
   },
   {
     "date": "2026-09-17",
@@ -4848,7 +4926,13 @@
     "ticker": "213420",
     "score": 61,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 18,
+      "opportunity": 7,
+      "threat": 15
+    }
   },
   {
     "date": "2026-09-17",
@@ -4920,7 +5004,13 @@
     "ticker": "237690",
     "score": 55,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 7,
+      "opportunity": 11,
+      "threat": 20
+    }
   },
   {
     "date": "2026-09-17",
@@ -5025,7 +5115,13 @@
     "ticker": "274090",
     "score": 50,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 22,
+      "opportunity": 4,
+      "threat": 12
+    }
   },
   {
     "date": "2026-09-17",
@@ -5034,7 +5130,13 @@
     "ticker": "298040",
     "score": 53,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 9,
+      "opportunity": 8,
+      "threat": 14
+    }
   },
   {
     "date": "2026-09-17",
@@ -5097,7 +5199,13 @@
     "ticker": "322000",
     "score": 57,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 14,
+      "opportunity": 6,
+      "threat": 11
+    }
   },
   {
     "date": "2026-09-17",
@@ -5121,7 +5229,13 @@
     "ticker": "329180",
     "score": 51,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 8,
+      "opportunity": 13,
+      "threat": 10
+    }
   },
   {
     "date": "2026-09-17",
@@ -5328,7 +5442,13 @@
     "ticker": "010060",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 15,
+      "opportunity": 10,
+      "threat": 15
+    }
   },
   {
     "date": "2026-09-18",
@@ -5337,7 +5457,13 @@
     "ticker": "108490",
     "score": 54,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 17,
+      "opportunity": 13,
+      "threat": 5
+    }
   },
   {
     "date": "2026-09-18",
@@ -5406,7 +5532,13 @@
     "ticker": "095340",
     "score": 63,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 11
+    }
   },
   {
     "date": "2026-09-18",
@@ -5463,7 +5595,13 @@
     "ticker": "010140",
     "score": 57,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 13,
+      "opportunity": 13,
+      "threat": 16
+    }
   },
   {
     "date": "2026-09-18",
@@ -5487,7 +5625,13 @@
     "ticker": "203650",
     "score": 54,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 22,
+      "opportunity": 12,
+      "threat": 7
+    }
   },
   {
     "date": "2026-09-18",
@@ -5496,7 +5640,13 @@
     "ticker": "046970",
     "score": 53,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 12,
+      "opportunity": 13,
+      "threat": 6
+    }
   },
   {
     "date": "2026-09-18",
@@ -5505,7 +5655,13 @@
     "ticker": "009150",
     "score": 62,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 15,
+      "opportunity": 13,
+      "threat": 15
+    }
   },
   {
     "date": "2026-09-18",
@@ -5514,7 +5670,13 @@
     "ticker": "131970",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 22,
+      "opportunity": 8,
+      "threat": 10
+    }
   },
   {
     "date": "2026-09-18",
@@ -5523,7 +5685,13 @@
     "ticker": "084370",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 22,
+      "opportunity": 6,
+      "threat": 7
+    }
   },
   {
     "date": "2026-09-18",
@@ -5532,7 +5700,13 @@
     "ticker": "240810",
     "score": 57,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 18,
+      "opportunity": 13,
+      "threat": 7
+    }
   },
   {
     "date": "2026-09-18",
@@ -5541,7 +5715,13 @@
     "ticker": "042700",
     "score": 55,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 3,
+      "threat": 5
+    }
   },
   {
     "date": "2026-09-18",
@@ -5550,7 +5730,13 @@
     "ticker": "056190",
     "score": 60,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 16,
+      "opportunity": 12,
+      "threat": 18
+    }
   },
   {
     "date": "2026-09-18",
@@ -5574,7 +5760,13 @@
     "ticker": "307950",
     "score": 50,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 13,
+      "opportunity": 11,
+      "threat": 12
+    }
   },
   {
     "date": "2026-09-18",
@@ -5583,7 +5775,13 @@
     "ticker": "222800",
     "score": 62,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 22,
+      "opportunity": 14,
+      "threat": 12
+    }
   },
   {
     "date": "2026-09-18",
@@ -5607,7 +5805,13 @@
     "ticker": "017670",
     "score": 57,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 14,
+      "opportunity": 13,
+      "threat": 19
+    }
   },
   {
     "date": "2026-09-18",
@@ -5616,7 +5820,13 @@
     "ticker": "355150",
     "score": 61,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 14,
+      "opportunity": 6,
+      "threat": 19
+    }
   },
   {
     "date": "2026-09-18",
@@ -5649,7 +5859,13 @@
     "ticker": "452430",
     "score": 59,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 22,
+      "opportunity": 11,
+      "threat": 15
+    }
   },
   {
     "date": "2026-09-28",
@@ -5658,7 +5874,13 @@
     "ticker": "317400",
     "score": 62,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 22,
+      "opportunity": 8,
+      "threat": 22
+    }
   },
   {
     "date": "2026-09-30",
@@ -5682,7 +5904,13 @@
     "ticker": "043260",
     "score": 56,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 8
+    }
   },
   {
     "date": "2026-10-06",
@@ -5796,7 +6024,13 @@
     "ticker": "006800",
     "score": 64,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 30,
+      "weakness": 15,
+      "opportunity": 8,
+      "threat": 11
+    }
   },
   {
     "date": "2026-10-06",
@@ -5820,7 +6054,13 @@
     "ticker": "018260",
     "score": 60,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 11,
+      "opportunity": 27,
+      "threat": 10
+    }
   },
   {
     "date": "2026-10-06",
@@ -5994,7 +6234,13 @@
     "ticker": "051600",
     "score": 52,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 11
+    }
   },
   {
     "date": "2026-10-06",
@@ -6003,7 +6249,13 @@
     "ticker": "064350",
     "score": 59,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 20,
+      "opportunity": 6,
+      "threat": 15
+    }
   },
   {
     "date": "2026-10-06",
@@ -6027,7 +6279,13 @@
     "ticker": "081660",
     "score": 63,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 15,
+      "opportunity": 5,
+      "threat": 20
+    }
   },
   {
     "date": "2026-10-06",
@@ -6036,7 +6294,13 @@
     "ticker": "083650",
     "score": 63,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 11
+    }
   },
   {
     "date": "2026-10-06",
@@ -6135,7 +6399,13 @@
     "ticker": "183300",
     "score": 61,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 15,
+      "opportunity": 19,
+      "threat": 8
+    }
   },
   {
     "date": "2026-10-06",
@@ -6159,7 +6429,13 @@
     "ticker": "272210",
     "score": 54,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 22,
+      "opportunity": 9,
+      "threat": 11
+    }
   },
   {
     "date": "2026-10-06",
@@ -6198,7 +6474,13 @@
     "ticker": "443060",
     "score": 54,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 10,
+      "opportunity": 7,
+      "threat": 17
+    }
   },
   {
     "date": "2026-10-07",
@@ -6516,7 +6798,13 @@
     "ticker": "079550",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 20,
+      "opportunity": 6,
+      "threat": 15
+    }
   },
   {
     "date": "2026-10-13",
@@ -6525,7 +6813,13 @@
     "ticker": "278470",
     "score": 59,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 7,
+      "threat": 7
+    }
   },
   {
     "date": "2026-10-13",
@@ -6534,7 +6828,13 @@
     "ticker": "267250",
     "score": 60,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 15,
+      "opportunity": 7,
+      "threat": 18
+    }
   },
   {
     "date": "2026-10-13",
@@ -6543,7 +6843,13 @@
     "ticker": "000810",
     "score": 62,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 15,
+      "opportunity": 12,
+      "threat": 17
+    }
   },
   {
     "date": "2026-10-13",
@@ -6567,7 +6873,13 @@
     "ticker": "319660",
     "score": 63,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 8,
+      "threat": 12
+    }
   },
   {
     "date": "2026-10-13",
@@ -6591,7 +6903,13 @@
     "ticker": "263750",
     "score": 61,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 19,
+      "opportunity": 5,
+      "threat": 12
+    }
   },
   {
     "date": "2026-10-13",
@@ -6630,7 +6948,13 @@
     "ticker": "005930",
     "score": 63,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 6,
+      "threat": 12
+    }
   },
   {
     "date": "2026-10-13",
@@ -6654,7 +6978,13 @@
     "ticker": "000270",
     "score": 62,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 22,
+      "opportunity": 5,
+      "threat": 15
+    }
   },
   {
     "date": "2026-10-13",
@@ -6663,7 +6993,13 @@
     "ticker": "028260",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 22,
+      "opportunity": 6,
+      "threat": 11
+    }
   },
   {
     "date": "2026-10-13",
@@ -6672,7 +7008,13 @@
     "ticker": "055550",
     "score": 64,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 15,
+      "opportunity": 7,
+      "threat": 19
+    }
   },
   {
     "date": "2026-10-13",
@@ -6681,7 +7023,13 @@
     "ticker": "012330",
     "score": 56,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 19,
+      "opportunity": 6,
+      "threat": 14
+    }
   },
   {
     "date": "2026-10-13",
@@ -6690,7 +7038,13 @@
     "ticker": "086790",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 15,
+      "opportunity": 8,
+      "threat": 15
+    }
   },
   {
     "date": "2026-10-13",
@@ -6699,7 +7053,13 @@
     "ticker": "267260",
     "score": 61,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 14,
+      "opportunity": 6,
+      "threat": 15
+    }
   },
   {
     "date": "2026-10-13",
@@ -6708,7 +7068,13 @@
     "ticker": "012450",
     "score": 55,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 11,
+      "opportunity": 7,
+      "threat": 14
+    }
   },
   {
     "date": "2026-10-13",
@@ -6717,7 +7083,13 @@
     "ticker": "041510",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 19,
+      "opportunity": 10,
+      "threat": 7
+    }
   },
   {
     "date": "2026-10-13",
@@ -6861,7 +7233,13 @@
     "ticker": "009540",
     "score": 62,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 8,
+      "opportunity": 16,
+      "threat": 18
+    }
   },
   {
     "date": "2026-10-13",
@@ -6885,7 +7263,13 @@
     "ticker": "031980",
     "score": 64,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 12,
+      "opportunity": 14,
+      "threat": 13
+    }
   },
   {
     "date": "2026-10-13",
@@ -6894,7 +7278,13 @@
     "ticker": "034230",
     "score": 60,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 25,
+      "opportunity": 4,
+      "threat": 16
+    }
   },
   {
     "date": "2026-10-13",
@@ -6918,7 +7308,13 @@
     "ticker": "042660",
     "score": 50,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 10,
+      "opportunity": 9,
+      "threat": 12
+    }
   },
   {
     "date": "2026-10-13",
@@ -6942,7 +7338,13 @@
     "ticker": "064400",
     "score": 57,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 13,
+      "opportunity": 14,
+      "threat": 16
+    }
   },
   {
     "date": "2026-10-13",
@@ -6966,7 +7368,13 @@
     "ticker": "068270",
     "score": 56,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 8,
+      "opportunity": 11,
+      "threat": 19
+    }
   },
   {
     "date": "2026-10-13",
@@ -6975,7 +7383,13 @@
     "ticker": "079940",
     "score": 63,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 13,
+      "opportunity": 13,
+      "threat": 20
+    }
   },
   {
     "date": "2026-10-13",
@@ -6984,7 +7398,13 @@
     "ticker": "086280",
     "score": 61,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 22,
+      "opportunity": 7,
+      "threat": 17
+    }
   },
   {
     "date": "2026-10-13",
@@ -6993,7 +7413,13 @@
     "ticker": "086450",
     "score": 64,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 8,
+      "opportunity": 14,
+      "threat": 27
+    }
   },
   {
     "date": "2026-10-13",
@@ -7002,7 +7428,13 @@
     "ticker": "088350",
     "score": 58,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 18,
+      "opportunity": 9,
+      "threat": 18
+    }
   },
   {
     "date": "2026-10-13",
@@ -7116,7 +7548,13 @@
     "ticker": "039490",
     "score": 62,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 15,
+      "opportunity": 8,
+      "threat": 15
+    }
   },
   {
     "date": "2026-10-14",
@@ -7125,7 +7563,13 @@
     "ticker": "326030",
     "score": 56,
     "rating": "HOLD",
-    "rating_label": "보유 ★"
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 10,
+      "opportunity": 8,
+      "threat": 20
+    }
   },
   {
     "date": "2026-10-14",
