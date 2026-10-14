@@ -3882,7 +3882,10 @@
       "weakness": 17,
       "opportunity": 2,
       "threat": 13
-    }
+    },
+    "reality_score": 35,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-09-17",
@@ -3951,7 +3954,10 @@
       "weakness": 12,
       "opportunity": 7,
       "threat": 16
-    }
+    },
+    "reality_score": 30,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -3975,7 +3981,10 @@
       "weakness": 15,
       "opportunity": 8,
       "threat": 18
-    }
+    },
+    "reality_score": 34,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4008,7 +4017,10 @@
       "weakness": 21,
       "opportunity": 6,
       "threat": 15
-    }
+    },
+    "reality_score": 46,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4041,7 +4053,10 @@
       "weakness": 11,
       "opportunity": 4,
       "threat": 17
-    }
+    },
+    "reality_score": 16,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4065,7 +4080,10 @@
       "weakness": 12,
       "opportunity": 4,
       "threat": 20
-    }
+    },
+    "reality_score": 30,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4080,7 +4098,10 @@
       "weakness": 15,
       "opportunity": 7,
       "threat": 14
-    }
+    },
+    "reality_score": 41,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4104,7 +4125,10 @@
       "weakness": 9,
       "opportunity": 6,
       "threat": 22
-    }
+    },
+    "reality_score": 23,
+    "hope_score": 25,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4128,7 +4152,10 @@
       "weakness": 19,
       "opportunity": 6,
       "threat": 16
-    }
+    },
+    "reality_score": 36,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4143,7 +4170,10 @@
       "weakness": 19,
       "opportunity": 6,
       "threat": 22
-    }
+    },
+    "reality_score": 42,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4167,7 +4197,10 @@
       "weakness": 21,
       "opportunity": 3,
       "threat": 13
-    }
+    },
+    "reality_score": 32,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4200,7 +4233,10 @@
       "weakness": 15,
       "opportunity": 12,
       "threat": 17
-    }
+    },
+    "reality_score": 30,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4215,7 +4251,10 @@
       "weakness": 10,
       "opportunity": 9,
       "threat": 11
-    }
+    },
+    "reality_score": 17,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4248,7 +4287,10 @@
       "weakness": 13,
       "opportunity": 10,
       "threat": 6
-    }
+    },
+    "reality_score": 16,
+    "hope_score": 18,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -4299,7 +4341,10 @@
       "weakness": 7,
       "opportunity": 6,
       "threat": 20
-    }
+    },
+    "reality_score": 15,
+    "hope_score": 18,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -4314,7 +4359,10 @@
       "weakness": 9,
       "opportunity": 8,
       "threat": 19
-    }
+    },
+    "reality_score": 26,
+    "hope_score": 26,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4329,7 +4377,10 @@
       "weakness": 22,
       "opportunity": 15,
       "threat": 20
-    }
+    },
+    "reality_score": 37,
+    "hope_score": 33,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-09-17",
@@ -4344,7 +4395,10 @@
       "weakness": 21,
       "opportunity": 12,
       "threat": 5
-    }
+    },
+    "reality_score": 28,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -4359,7 +4413,10 @@
       "weakness": 21,
       "opportunity": 13,
       "threat": 16
-    }
+    },
+    "reality_score": 22,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4374,7 +4431,10 @@
       "weakness": 24,
       "opportunity": 3,
       "threat": 18
-    }
+    },
+    "reality_score": 26,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4407,7 +4467,10 @@
       "weakness": 14,
       "opportunity": 11,
       "threat": 4
-    }
+    },
+    "reality_score": 17,
+    "hope_score": 17,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -4449,7 +4512,10 @@
       "weakness": 18,
       "opportunity": 12,
       "threat": 7
-    }
+    },
+    "reality_score": 40,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4500,7 +4566,10 @@
       "weakness": 12,
       "opportunity": 3,
       "threat": 16
-    }
+    },
+    "reality_score": 14,
+    "hope_score": 19,
+    "quadrant": "현실·기대 불량  ⚫"
   },
   {
     "date": "2026-09-17",
@@ -4515,7 +4584,10 @@
       "weakness": 22,
       "opportunity": 10,
       "threat": 19
-    }
+    },
+    "reality_score": 38,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4539,7 +4611,10 @@
       "weakness": 17,
       "opportunity": 12,
       "threat": 17
-    }
+    },
+    "reality_score": 43,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4554,7 +4629,10 @@
       "weakness": 17,
       "opportunity": 13,
       "threat": 19
-    }
+    },
+    "reality_score": 38,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-09-17",
@@ -4569,7 +4647,10 @@
       "weakness": 8,
       "opportunity": 4,
       "threat": 20
-    }
+    },
+    "reality_score": 15,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4620,7 +4701,10 @@
       "weakness": 22,
       "opportunity": 8,
       "threat": 14
-    }
+    },
+    "reality_score": 34,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4635,7 +4719,10 @@
       "weakness": 11,
       "opportunity": 7,
       "threat": 6
-    }
+    },
+    "reality_score": 24,
+    "hope_score": 14,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -4650,7 +4737,10 @@
       "weakness": 12,
       "opportunity": 9,
       "threat": 20
-    }
+    },
+    "reality_score": 15,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4665,7 +4755,10 @@
       "weakness": 20,
       "opportunity": 13,
       "threat": 9
-    }
+    },
+    "reality_score": 44,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4698,7 +4791,10 @@
       "weakness": 7,
       "opportunity": 13,
       "threat": 12
-    }
+    },
+    "reality_score": 21,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4731,7 +4827,10 @@
       "weakness": 22,
       "opportunity": 8,
       "threat": 20
-    }
+    },
+    "reality_score": 33,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4746,7 +4845,10 @@
       "weakness": 11,
       "opportunity": 14,
       "threat": 19
-    }
+    },
+    "reality_score": 24,
+    "hope_score": 25,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4779,7 +4881,10 @@
       "weakness": 22,
       "opportunity": 13,
       "threat": 5
-    }
+    },
+    "reality_score": 32,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4794,7 +4899,10 @@
       "weakness": 6,
       "opportunity": 11,
       "threat": 19
-    }
+    },
+    "reality_score": 9,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4809,7 +4917,10 @@
       "weakness": 10,
       "opportunity": 17,
       "threat": 24
-    }
+    },
+    "reality_score": 46,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4824,7 +4935,10 @@
       "weakness": 17,
       "opportunity": 4,
       "threat": 11
-    }
+    },
+    "reality_score": 20,
+    "hope_score": 17,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -4839,7 +4953,10 @@
       "weakness": 17,
       "opportunity": 4,
       "threat": 6
-    }
+    },
+    "reality_score": 15,
+    "hope_score": 11,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -4854,7 +4971,10 @@
       "weakness": 22,
       "opportunity": 4,
       "threat": 20
-    }
+    },
+    "reality_score": 32,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4869,7 +4989,10 @@
       "weakness": 14,
       "opportunity": 7,
       "threat": 18
-    }
+    },
+    "reality_score": 33,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4884,7 +5007,10 @@
       "weakness": 9,
       "opportunity": 20,
       "threat": 8
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4917,7 +5043,10 @@
       "weakness": 16,
       "opportunity": 11,
       "threat": 15
-    }
+    },
+    "reality_score": 25,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -4932,7 +5061,10 @@
       "weakness": 18,
       "opportunity": 7,
       "threat": 15
-    }
+    },
+    "reality_score": 39,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -4956,7 +5088,10 @@
       "weakness": 11,
       "opportunity": 6,
       "threat": 8
-    }
+    },
+    "reality_score": 20,
+    "hope_score": 10,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -4971,7 +5106,10 @@
       "weakness": 12,
       "opportunity": 4,
       "threat": 9
-    }
+    },
+    "reality_score": 17,
+    "hope_score": 14,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -4986,7 +5124,10 @@
       "weakness": 13,
       "opportunity": 11,
       "threat": 10
-    }
+    },
+    "reality_score": 32,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-09-17",
@@ -5010,7 +5151,10 @@
       "weakness": 7,
       "opportunity": 11,
       "threat": 20
-    }
+    },
+    "reality_score": 36,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -5025,7 +5169,10 @@
       "weakness": 20,
       "opportunity": 10,
       "threat": 18
-    }
+    },
+    "reality_score": 43,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -5049,7 +5196,10 @@
       "weakness": 22,
       "opportunity": 14,
       "threat": 19
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 32,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-09-17",
@@ -5064,7 +5214,10 @@
       "weakness": 13,
       "opportunity": 21,
       "threat": 17
-    }
+    },
+    "reality_score": 44,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-09-17",
@@ -5079,7 +5232,10 @@
       "weakness": 22,
       "opportunity": 7,
       "threat": 14
-    }
+    },
+    "reality_score": 47,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -5121,7 +5277,10 @@
       "weakness": 22,
       "opportunity": 4,
       "threat": 12
-    }
+    },
+    "reality_score": 34,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-09-17",
@@ -5136,7 +5295,10 @@
       "weakness": 9,
       "opportunity": 8,
       "threat": 14
-    }
+    },
+    "reality_score": 29,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -5151,7 +5313,10 @@
       "weakness": 7,
       "opportunity": 4,
       "threat": 20
-    }
+    },
+    "reality_score": 20,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -5166,7 +5331,10 @@
       "weakness": 11,
       "opportunity": 11,
       "threat": 12
-    }
+    },
+    "reality_score": 16,
+    "hope_score": 17,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -5181,7 +5349,10 @@
       "weakness": 7,
       "opportunity": 6,
       "threat": 15
-    }
+    },
+    "reality_score": 9,
+    "hope_score": 18,
+    "quadrant": "현실·기대 불량  ⚫"
   },
   {
     "date": "2026-09-17",
@@ -5205,7 +5376,10 @@
       "weakness": 14,
       "opportunity": 6,
       "threat": 11
-    }
+    },
+    "reality_score": 40,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-09-17",
@@ -5220,7 +5394,10 @@
       "weakness": 12,
       "opportunity": 3,
       "threat": 15
-    }
+    },
+    "reality_score": 16,
+    "hope_score": 20,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -5235,7 +5412,10 @@
       "weakness": 8,
       "opportunity": 13,
       "threat": 10
-    }
+    },
+    "reality_score": 38,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -5250,7 +5430,10 @@
       "weakness": 7,
       "opportunity": 4,
       "threat": 6
-    }
+    },
+    "reality_score": 6,
+    "hope_score": 11,
+    "quadrant": "현실·기대 불량  ⚫"
   },
   {
     "date": "2026-09-17",
@@ -5265,7 +5448,10 @@
       "weakness": 11,
       "opportunity": 8,
       "threat": 12
-    }
+    },
+    "reality_score": 18,
+    "hope_score": 15,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -5280,7 +5466,10 @@
       "weakness": 20,
       "opportunity": 12,
       "threat": 16
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -5295,7 +5484,10 @@
       "weakness": 17,
       "opportunity": 9,
       "threat": 16
-    }
+    },
+    "reality_score": 42,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -5310,7 +5502,10 @@
       "weakness": 5,
       "opportunity": 10,
       "threat": 11
-    }
+    },
+    "reality_score": 13,
+    "hope_score": 17,
+    "quadrant": "현실·기대 불량  ⚫"
   },
   {
     "date": "2026-09-17",
@@ -5325,7 +5520,10 @@
       "weakness": 12,
       "opportunity": 7,
       "threat": 15
-    }
+    },
+    "reality_score": 21,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-17",
@@ -5340,7 +5538,10 @@
       "weakness": 12,
       "opportunity": 3,
       "threat": 9
-    }
+    },
+    "reality_score": 18,
+    "hope_score": 13,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -5364,7 +5565,10 @@
       "weakness": 20,
       "opportunity": 6,
       "threat": 18
-    }
+    },
+    "reality_score": 44,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-17",
@@ -5388,7 +5592,10 @@
       "weakness": 17,
       "opportunity": 6,
       "threat": 8
-    }
+    },
+    "reality_score": 23,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -5403,7 +5610,10 @@
       "weakness": 17,
       "opportunity": 4,
       "threat": 7
-    }
+    },
+    "reality_score": 17,
+    "hope_score": 12,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-09-17",
@@ -5418,7 +5628,10 @@
       "weakness": 4,
       "opportunity": 11,
       "threat": 15
-    }
+    },
+    "reality_score": 19,
+    "hope_score": 20,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-09-18",
@@ -5433,7 +5646,10 @@
       "weakness": 13,
       "opportunity": 11,
       "threat": 22
-    }
+    },
+    "reality_score": 35,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-09-18",
@@ -5448,7 +5664,10 @@
       "weakness": 15,
       "opportunity": 10,
       "threat": 15
-    }
+    },
+    "reality_score": 34,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5463,7 +5682,10 @@
       "weakness": 17,
       "opportunity": 13,
       "threat": 5
-    }
+    },
+    "reality_score": 33,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5523,7 +5745,10 @@
       "weakness": 20,
       "opportunity": 11,
       "threat": 18
-    }
+    },
+    "reality_score": 44,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5538,7 +5763,10 @@
       "weakness": 21,
       "opportunity": 6,
       "threat": 11
-    }
+    },
+    "reality_score": 46,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5571,7 +5799,10 @@
       "weakness": 18,
       "opportunity": 9,
       "threat": 20
-    }
+    },
+    "reality_score": 37,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5586,7 +5817,10 @@
       "weakness": 19,
       "opportunity": 10,
       "threat": 11
-    }
+    },
+    "reality_score": 40,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5601,7 +5835,10 @@
       "weakness": 13,
       "opportunity": 13,
       "threat": 16
-    }
+    },
+    "reality_score": 38,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5616,7 +5853,10 @@
       "weakness": 18,
       "opportunity": 13,
       "threat": 13
-    }
+    },
+    "reality_score": 43,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5631,7 +5871,10 @@
       "weakness": 22,
       "opportunity": 12,
       "threat": 7
-    }
+    },
+    "reality_score": 33,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5646,7 +5889,10 @@
       "weakness": 12,
       "opportunity": 13,
       "threat": 6
-    }
+    },
+    "reality_score": 31,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5661,7 +5907,10 @@
       "weakness": 15,
       "opportunity": 13,
       "threat": 15
-    }
+    },
+    "reality_score": 31,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-09-18",
@@ -5676,7 +5925,10 @@
       "weakness": 22,
       "opportunity": 8,
       "threat": 10
-    }
+    },
+    "reality_score": 37,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5691,7 +5943,10 @@
       "weakness": 22,
       "opportunity": 6,
       "threat": 7
-    }
+    },
+    "reality_score": 42,
+    "hope_score": 13,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-09-18",
@@ -5706,7 +5961,10 @@
       "weakness": 18,
       "opportunity": 13,
       "threat": 7
-    }
+    },
+    "reality_score": 35,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5721,7 +5979,10 @@
       "weakness": 22,
       "opportunity": 3,
       "threat": 5
-    }
+    },
+    "reality_score": 43,
+    "hope_score": 9,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-09-18",
@@ -5736,7 +5997,10 @@
       "weakness": 16,
       "opportunity": 12,
       "threat": 18
-    }
+    },
+    "reality_score": 32,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5751,7 +6015,10 @@
       "weakness": 22,
       "opportunity": 9,
       "threat": 10
-    }
+    },
+    "reality_score": 47,
+    "hope_score": 16,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5766,7 +6033,10 @@
       "weakness": 13,
       "opportunity": 11,
       "threat": 12
-    }
+    },
+    "reality_score": 34,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5781,7 +6051,10 @@
       "weakness": 22,
       "opportunity": 14,
       "threat": 12
-    }
+    },
+    "reality_score": 35,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5796,7 +6069,10 @@
       "weakness": 21,
       "opportunity": 9,
       "threat": 16
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5811,7 +6087,10 @@
       "weakness": 14,
       "opportunity": 13,
       "threat": 19
-    }
+    },
+    "reality_score": 32,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5826,7 +6105,10 @@
       "weakness": 14,
       "opportunity": 6,
       "threat": 19
-    }
+    },
+    "reality_score": 36,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-18",
@@ -5841,7 +6123,10 @@
       "weakness": 22,
       "opportunity": 10,
       "threat": 20
-    }
+    },
+    "reality_score": 47,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-22",
@@ -5865,7 +6150,10 @@
       "weakness": 22,
       "opportunity": 11,
       "threat": 15
-    }
+    },
+    "reality_score": 30,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-28",
@@ -5880,7 +6168,10 @@
       "weakness": 22,
       "opportunity": 8,
       "threat": 22
-    }
+    },
+    "reality_score": 34,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-09-30",
@@ -5895,7 +6186,10 @@
       "weakness": 18,
       "opportunity": 4,
       "threat": 25
-    }
+    },
+    "reality_score": 41,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-02",
@@ -5910,7 +6204,10 @@
       "weakness": 21,
       "opportunity": 6,
       "threat": 8
-    }
+    },
+    "reality_score": 41,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-10-06",
@@ -5925,7 +6222,10 @@
       "weakness": 12,
       "opportunity": 18,
       "threat": 22
-    }
+    },
+    "reality_score": 15,
+    "hope_score": 39,
+    "quadrant": "기대 중심 (현실 약함)  🟠"
   },
   {
     "date": "2026-10-06",
@@ -5940,7 +6240,10 @@
       "weakness": 8,
       "opportunity": 7,
       "threat": 16
-    }
+    },
+    "reality_score": 15,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-06",
@@ -5955,7 +6258,10 @@
       "weakness": 22,
       "opportunity": 5,
       "threat": 17
-    }
+    },
+    "reality_score": 30,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -5970,7 +6276,10 @@
       "weakness": 21,
       "opportunity": 6,
       "threat": 12
-    }
+    },
+    "reality_score": 30,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-10-06",
@@ -5985,7 +6294,10 @@
       "weakness": 10,
       "opportunity": 5,
       "threat": 21
-    }
+    },
+    "reality_score": 21,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-06",
@@ -6000,7 +6312,10 @@
       "weakness": 18,
       "opportunity": 9,
       "threat": 19
-    }
+    },
+    "reality_score": 42,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6015,7 +6330,10 @@
       "weakness": 15,
       "opportunity": 6,
       "threat": 19
-    }
+    },
+    "reality_score": 44,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6030,7 +6348,10 @@
       "weakness": 15,
       "opportunity": 8,
       "threat": 11
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6045,7 +6366,10 @@
       "weakness": 15,
       "opportunity": 10,
       "threat": 18
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6060,7 +6384,10 @@
       "weakness": 11,
       "opportunity": 27,
       "threat": 10
-    }
+    },
+    "reality_score": 30,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-06",
@@ -6075,7 +6402,10 @@
       "weakness": 19,
       "opportunity": 11,
       "threat": 22
-    }
+    },
+    "reality_score": 40,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-06",
@@ -6090,7 +6420,10 @@
       "weakness": 19,
       "opportunity": 6,
       "threat": 24
-    }
+    },
+    "reality_score": 39,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6105,7 +6438,10 @@
       "weakness": 19,
       "opportunity": 5,
       "threat": 11
-    }
+    },
+    "reality_score": 34,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-10-06",
@@ -6120,7 +6456,10 @@
       "weakness": 11,
       "opportunity": 13,
       "threat": 15
-    }
+    },
+    "reality_score": 26,
+    "hope_score": 26,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-06",
@@ -6135,7 +6474,10 @@
       "weakness": 18,
       "opportunity": 8,
       "threat": 16
-    }
+    },
+    "reality_score": 41,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6150,7 +6492,10 @@
       "weakness": 11,
       "opportunity": 5,
       "threat": 14
-    }
+    },
+    "reality_score": 15,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-10-06",
@@ -6165,7 +6510,10 @@
       "weakness": 11,
       "opportunity": 14,
       "threat": 19
-    }
+    },
+    "reality_score": 39,
+    "hope_score": 32,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-06",
@@ -6180,7 +6528,10 @@
       "weakness": 14,
       "opportunity": 7,
       "threat": 15
-    }
+    },
+    "reality_score": 32,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6195,7 +6546,10 @@
       "weakness": 13,
       "opportunity": 10,
       "threat": 17
-    }
+    },
+    "reality_score": 25,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-06",
@@ -6210,7 +6564,10 @@
       "weakness": 22,
       "opportunity": 5,
       "threat": 19
-    }
+    },
+    "reality_score": 46,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6225,7 +6582,10 @@
       "weakness": 20,
       "opportunity": 8,
       "threat": 6
-    }
+    },
+    "reality_score": 24,
+    "hope_score": 14,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-10-06",
@@ -6240,7 +6600,10 @@
       "weakness": 21,
       "opportunity": 6,
       "threat": 11
-    }
+    },
+    "reality_score": 35,
+    "hope_score": 15,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6255,7 +6618,10 @@
       "weakness": 20,
       "opportunity": 6,
       "threat": 15
-    }
+    },
+    "reality_score": 40,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6270,7 +6636,10 @@
       "weakness": 14,
       "opportunity": 6,
       "threat": 17
-    }
+    },
+    "reality_score": 23,
+    "hope_score": 20,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-06",
@@ -6285,7 +6654,10 @@
       "weakness": 15,
       "opportunity": 5,
       "threat": 20
-    }
+    },
+    "reality_score": 39,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6300,7 +6672,10 @@
       "weakness": 21,
       "opportunity": 6,
       "threat": 11
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-10-06",
@@ -6315,7 +6690,10 @@
       "weakness": 17,
       "opportunity": 11,
       "threat": 24
-    }
+    },
+    "reality_score": 33,
+    "hope_score": 33,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-06",
@@ -6330,7 +6708,10 @@
       "weakness": 20,
       "opportunity": 21,
       "threat": 10
-    }
+    },
+    "reality_score": 41,
+    "hope_score": 34,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-06",
@@ -6345,7 +6726,10 @@
       "weakness": 16,
       "opportunity": 7,
       "threat": 8
-    }
+    },
+    "reality_score": 32,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-10-06",
@@ -6360,7 +6744,10 @@
       "weakness": 9,
       "opportunity": 11,
       "threat": 27
-    }
+    },
+    "reality_score": 40,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6375,7 +6762,10 @@
       "weakness": 21,
       "opportunity": 6,
       "threat": 13
-    }
+    },
+    "reality_score": 22,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-10-06",
@@ -6390,7 +6780,10 @@
       "weakness": 17,
       "opportunity": 16,
       "threat": 16
-    }
+    },
+    "reality_score": 37,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-06",
@@ -6405,7 +6798,10 @@
       "weakness": 15,
       "opportunity": 19,
       "threat": 8
-    }
+    },
+    "reality_score": 32,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6420,7 +6816,10 @@
       "weakness": 12,
       "opportunity": 5,
       "threat": 17
-    }
+    },
+    "reality_score": 30,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6435,7 +6834,10 @@
       "weakness": 22,
       "opportunity": 9,
       "threat": 11
-    }
+    },
+    "reality_score": 31,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-06",
@@ -6450,7 +6852,10 @@
       "weakness": 15,
       "opportunity": 17,
       "threat": 19
-    }
+    },
+    "reality_score": 39,
+    "hope_score": 35,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-06",
@@ -6465,7 +6870,10 @@
       "weakness": 8,
       "opportunity": 9,
       "threat": 18
-    }
+    },
+    "reality_score": 7,
+    "hope_score": 30,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-06",
@@ -6480,7 +6888,10 @@
       "weakness": 10,
       "opportunity": 7,
       "threat": 17
-    }
+    },
+    "reality_score": 37,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-07",
@@ -6495,7 +6906,10 @@
       "weakness": 8,
       "opportunity": 10,
       "threat": 6
-    }
+    },
+    "reality_score": 10,
+    "hope_score": 14,
+    "quadrant": "현실·기대 불량  ⚫"
   },
   {
     "date": "2026-10-10",
@@ -6510,7 +6924,10 @@
       "weakness": 22,
       "opportunity": 12,
       "threat": 16
-    }
+    },
+    "reality_score": 41,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-13",
@@ -6525,7 +6942,10 @@
       "weakness": 22,
       "opportunity": 7,
       "threat": 25
-    }
+    },
+    "reality_score": 41,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-13",
@@ -6540,7 +6960,10 @@
       "weakness": 19,
       "opportunity": 5,
       "threat": 10
-    }
+    },
+    "reality_score": 27,
+    "hope_score": 13,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-10-13",
@@ -6555,7 +6978,10 @@
       "weakness": 16,
       "opportunity": 10,
       "threat": 19
-    }
+    },
+    "reality_score": 39,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6570,7 +6996,10 @@
       "weakness": 22,
       "opportunity": 18,
       "threat": 14
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-13",
@@ -6585,7 +7014,10 @@
       "weakness": 9,
       "opportunity": 8,
       "threat": 15
-    }
+    },
+    "reality_score": 43,
+    "hope_score": 15,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6600,7 +7032,10 @@
       "weakness": 21,
       "opportunity": 5,
       "threat": 14
-    }
+    },
+    "reality_score": 25,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-06-14",
@@ -6714,7 +7149,10 @@
       "weakness": 19,
       "opportunity": 10,
       "threat": 10
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6729,7 +7167,10 @@
       "weakness": 18,
       "opportunity": 17,
       "threat": 18
-    }
+    },
+    "reality_score": 43,
+    "hope_score": 36,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-13",
@@ -6744,7 +7185,10 @@
       "weakness": 18,
       "opportunity": 8,
       "threat": 14
-    }
+    },
+    "reality_score": 39,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6759,7 +7203,10 @@
       "weakness": 22,
       "opportunity": 8,
       "threat": 18
-    }
+    },
+    "reality_score": 44,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6774,7 +7221,10 @@
       "weakness": 8,
       "opportunity": 13,
       "threat": 21
-    }
+    },
+    "reality_score": 23,
+    "hope_score": 37,
+    "quadrant": "기대 중심 (현실 약함)  🟠"
   },
   {
     "date": "2026-10-13",
@@ -6789,7 +7239,10 @@
       "weakness": 15,
       "opportunity": 10,
       "threat": 15
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6804,7 +7257,10 @@
       "weakness": 20,
       "opportunity": 6,
       "threat": 15
-    }
+    },
+    "reality_score": 37,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6819,7 +7275,10 @@
       "weakness": 20,
       "opportunity": 7,
       "threat": 7
-    }
+    },
+    "reality_score": 44,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-10-13",
@@ -6834,7 +7293,10 @@
       "weakness": 15,
       "opportunity": 7,
       "threat": 18
-    }
+    },
+    "reality_score": 48,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6849,7 +7311,10 @@
       "weakness": 15,
       "opportunity": 12,
       "threat": 17
-    }
+    },
+    "reality_score": 34,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6864,7 +7329,10 @@
       "weakness": 19,
       "opportunity": 10,
       "threat": 12
-    }
+    },
+    "reality_score": 43,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6879,7 +7347,10 @@
       "weakness": 18,
       "opportunity": 8,
       "threat": 12
-    }
+    },
+    "reality_score": 40,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6894,7 +7365,10 @@
       "weakness": 12,
       "opportunity": 6,
       "threat": 22
-    }
+    },
+    "reality_score": 27,
+    "hope_score": 26,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-13",
@@ -6909,7 +7383,10 @@
       "weakness": 19,
       "opportunity": 5,
       "threat": 12
-    }
+    },
+    "reality_score": 44,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-10-13",
@@ -6924,7 +7401,10 @@
       "weakness": 20,
       "opportunity": 21,
       "threat": 14
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 34,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-13",
@@ -6939,7 +7419,10 @@
       "weakness": 21,
       "opportunity": 11,
       "threat": 15
-    }
+    },
+    "reality_score": 46,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6954,7 +7437,10 @@
       "weakness": 20,
       "opportunity": 6,
       "threat": 12
-    }
+    },
+    "reality_score": 45,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6969,7 +7455,10 @@
       "weakness": 15,
       "opportunity": 6,
       "threat": 19
-    }
+    },
+    "reality_score": 41,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6984,7 +7473,10 @@
       "weakness": 22,
       "opportunity": 5,
       "threat": 15
-    }
+    },
+    "reality_score": 38,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6999,7 +7491,10 @@
       "weakness": 22,
       "opportunity": 6,
       "threat": 11
-    }
+    },
+    "reality_score": 34,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7014,7 +7509,10 @@
       "weakness": 15,
       "opportunity": 7,
       "threat": 19
-    }
+    },
+    "reality_score": 39,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7029,7 +7527,10 @@
       "weakness": 19,
       "opportunity": 6,
       "threat": 14
-    }
+    },
+    "reality_score": 33,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7044,7 +7545,10 @@
       "weakness": 15,
       "opportunity": 8,
       "threat": 15
-    }
+    },
+    "reality_score": 36,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7059,7 +7563,10 @@
       "weakness": 14,
       "opportunity": 6,
       "threat": 15
-    }
+    },
+    "reality_score": 40,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7074,7 +7581,10 @@
       "weakness": 11,
       "opportunity": 7,
       "threat": 14
-    }
+    },
+    "reality_score": 36,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7089,7 +7599,10 @@
       "weakness": 19,
       "opportunity": 10,
       "threat": 7
-    }
+    },
+    "reality_score": 41,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-10-13",
@@ -7104,7 +7617,10 @@
       "weakness": 9,
       "opportunity": 5,
       "threat": 16
-    }
+    },
+    "reality_score": 18,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-13",
@@ -7119,7 +7635,10 @@
       "weakness": 11,
       "opportunity": 6,
       "threat": 14
-    }
+    },
+    "reality_score": 30,
+    "hope_score": 15,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7134,7 +7653,10 @@
       "weakness": 13,
       "opportunity": 17,
       "threat": 11
-    }
+    },
+    "reality_score": 25,
+    "hope_score": 30,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-13",
@@ -7149,7 +7671,10 @@
       "weakness": 21,
       "opportunity": 6,
       "threat": 11
-    }
+    },
+    "reality_score": 29,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-10-13",
@@ -7164,7 +7689,10 @@
       "weakness": 21,
       "opportunity": 8,
       "threat": 11
-    }
+    },
+    "reality_score": 46,
+    "hope_score": 16,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7179,7 +7707,10 @@
       "weakness": 12,
       "opportunity": 7,
       "threat": 8
-    }
+    },
+    "reality_score": 18,
+    "hope_score": 15,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-10-13",
@@ -7194,7 +7725,10 @@
       "weakness": 5,
       "opportunity": 10,
       "threat": 20
-    }
+    },
+    "reality_score": 21,
+    "hope_score": 20,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-13",
@@ -7209,7 +7743,10 @@
       "weakness": 25,
       "opportunity": 11,
       "threat": 12
-    }
+    },
+    "reality_score": 42,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7224,7 +7761,10 @@
       "weakness": 22,
       "opportunity": 15,
       "threat": 8
-    }
+    },
+    "reality_score": 44,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7239,7 +7779,10 @@
       "weakness": 8,
       "opportunity": 16,
       "threat": 18
-    }
+    },
+    "reality_score": 38,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7254,7 +7797,10 @@
       "weakness": 15,
       "opportunity": 9,
       "threat": 19
-    }
+    },
+    "reality_score": 30,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7269,7 +7815,10 @@
       "weakness": 12,
       "opportunity": 14,
       "threat": 13
-    }
+    },
+    "reality_score": 35,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7284,7 +7833,10 @@
       "weakness": 25,
       "opportunity": 4,
       "threat": 16
-    }
+    },
+    "reality_score": 35,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7299,7 +7851,10 @@
       "weakness": 12,
       "opportunity": 7,
       "threat": 8
-    }
+    },
+    "reality_score": 33,
+    "hope_score": 10,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-10-13",
@@ -7314,7 +7869,10 @@
       "weakness": 10,
       "opportunity": 9,
       "threat": 12
-    }
+    },
+    "reality_score": 39,
+    "hope_score": 13,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   },
   {
     "date": "2026-10-13",
@@ -7329,7 +7887,10 @@
       "weakness": 22,
       "opportunity": 25,
       "threat": 10
-    }
+    },
+    "reality_score": 23,
+    "hope_score": 36,
+    "quadrant": "기대 중심 (현실 약함)  🟠"
   },
   {
     "date": "2026-10-13",
@@ -7344,7 +7905,10 @@
       "weakness": 13,
       "opportunity": 14,
       "threat": 16
-    }
+    },
+    "reality_score": 39,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7359,7 +7923,10 @@
       "weakness": 17,
       "opportunity": 15,
       "threat": 24
-    }
+    },
+    "reality_score": 42,
+    "hope_score": 39,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-13",
@@ -7374,7 +7941,10 @@
       "weakness": 8,
       "opportunity": 11,
       "threat": 19
-    }
+    },
+    "reality_score": 43,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7389,7 +7959,10 @@
       "weakness": 13,
       "opportunity": 13,
       "threat": 20
-    }
+    },
+    "reality_score": 38,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7404,7 +7977,10 @@
       "weakness": 22,
       "opportunity": 7,
       "threat": 17
-    }
+    },
+    "reality_score": 38,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7419,7 +7995,10 @@
       "weakness": 8,
       "opportunity": 14,
       "threat": 27
-    }
+    },
+    "reality_score": 39,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7434,7 +8013,10 @@
       "weakness": 18,
       "opportunity": 9,
       "threat": 18
-    }
+    },
+    "reality_score": 33,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7449,7 +8031,10 @@
       "weakness": 20,
       "opportunity": 7,
       "threat": 13
-    }
+    },
+    "reality_score": 44,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7464,7 +8049,10 @@
       "weakness": 7,
       "opportunity": 8,
       "threat": 5
-    }
+    },
+    "reality_score": 9,
+    "hope_score": 15,
+    "quadrant": "현실·기대 불량  ⚫"
   },
   {
     "date": "2026-10-13",
@@ -7479,7 +8067,10 @@
       "weakness": 16,
       "opportunity": 26,
       "threat": 10
-    }
+    },
+    "reality_score": 38,
+    "hope_score": 34,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-13",
@@ -7494,7 +8085,10 @@
       "weakness": 18,
       "opportunity": 10,
       "threat": 17
-    }
+    },
+    "reality_score": 42,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -7509,7 +8103,10 @@
       "weakness": 12,
       "opportunity": 5,
       "threat": 21
-    }
+    },
+    "reality_score": 15,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-14",
@@ -7524,7 +8121,10 @@
       "weakness": 22,
       "opportunity": 11,
       "threat": 17
-    }
+    },
+    "reality_score": 47,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-14",
@@ -7539,7 +8139,10 @@
       "weakness": 14,
       "opportunity": 11,
       "threat": 14
-    }
+    },
+    "reality_score": 25,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-10-14",
@@ -7554,7 +8157,10 @@
       "weakness": 15,
       "opportunity": 8,
       "threat": 15
-    }
+    },
+    "reality_score": 40,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-14",
@@ -7569,7 +8175,10 @@
       "weakness": 10,
       "opportunity": 8,
       "threat": 20
-    }
+    },
+    "reality_score": 46,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-14",
@@ -7584,7 +8193,10 @@
       "weakness": 22,
       "opportunity": 6,
       "threat": 19
-    }
+    },
+    "reality_score": 46,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-14",
@@ -7599,7 +8211,10 @@
       "weakness": 12,
       "opportunity": 7,
       "threat": 5
-    }
+    },
+    "reality_score": 18,
+    "hope_score": 14,
+    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-10-14",
@@ -7614,6 +8229,9 @@
       "weakness": 11,
       "opportunity": 11,
       "threat": 7
-    }
+    },
+    "reality_score": 16,
+    "hope_score": 13,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
