@@ -8629,5 +8629,23 @@
     "reality_score": 32,
     "hope_score": 33,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-14",
+    "filename": "078930_GS/2026-10-14_GS_078930.html",
+    "company": "GS",
+    "ticker": "078930",
+    "score": 77,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 21,
+      "opportunity": 13,
+      "threat": 17
+    },
+    "reality_score": 47,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
