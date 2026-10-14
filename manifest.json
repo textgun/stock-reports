@@ -8110,24 +8110,6 @@
   },
   {
     "date": "2026-10-14",
-    "filename": "402340_SK스퀘어/2026-10-14_SK스퀘어_402340.html",
-    "company": "SK스퀘어",
-    "ticker": "402340",
-    "score": 75,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 22,
-      "opportunity": 11,
-      "threat": 17
-    },
-    "reality_score": 47,
-    "hope_score": 26,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-14",
     "filename": "066570_LG전자/2026-10-14_LG전자_066570.html",
     "company": "LG전자",
     "ticker": "066570",
@@ -8269,5 +8251,23 @@
     "reality_score": 43,
     "hope_score": 36,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-14",
+    "filename": "402340_SK스퀘어/2026-10-14_SK스퀘어_402340.html",
+    "company": "SK스퀘어",
+    "ticker": "402340",
+    "score": 78,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 11,
+      "threat": 20
+    },
+    "reality_score": 47,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
