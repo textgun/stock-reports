@@ -8845,5 +8845,23 @@
     "reality_score": 36,
     "hope_score": 46,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-15",
+    "filename": "052690_한전기술/2026-10-15_한전기술_052690.html",
+    "company": "한전기술",
+    "ticker": "052690",
+    "score": 39,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 21,
+      "opportunity": 7,
+      "threat": 1
+    },
+    "reality_score": 28,
+    "hope_score": 8,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
