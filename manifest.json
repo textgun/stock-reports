@@ -9187,5 +9187,23 @@
     "reality_score": 25,
     "hope_score": 26,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-15",
+    "filename": "036570_NC/2026-10-15_NC_036570.html",
+    "company": "NC",
+    "ticker": "036570",
+    "score": 74,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 5,
+      "threat": 22
+    },
+    "reality_score": 47,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
