@@ -232,11 +232,11 @@
     "company": "SK스퀘어",
     "sector": "반도체",
     "updated": "2026-10-15",
-    "score": 77,
+    "score": 78,
     "breakdown": {
       "strength": 25,
       "weakness": 22,
-      "opportunity": 10,
+      "opportunity": 11,
       "threat": 20
     },
     "sector_max": {
@@ -263,7 +263,7 @@
     },
     "reality_hope": {
       "reality_score": 47,
-      "hope_score": 28,
+      "hope_score": 29,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -309,11 +309,11 @@
     "company": "이오테크닉스",
     "sector": "반도체",
     "updated": "2026-10-15",
-    "score": 62,
+    "score": 63,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 13,
+      "opportunity": 14,
       "threat": 6
     },
     "sector_max": {
@@ -340,7 +340,7 @@
     },
     "reality_hope": {
       "reality_score": 39,
-      "hope_score": 21,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -384,11 +384,11 @@
     "company": "리노공업",
     "sector": "반도체",
     "updated": "2026-10-15",
-    "score": 70,
+    "score": 68,
     "breakdown": {
       "strength": 25,
       "weakness": 22,
-      "opportunity": 8,
+      "opportunity": 6,
       "threat": 15
     },
     "sector_max": {
@@ -415,7 +415,7 @@
     },
     "reality_hope": {
       "reality_score": 44,
-      "hope_score": 24,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -459,11 +459,11 @@
     "company": "파두",
     "sector": "반도체",
     "updated": "2026-10-15",
-    "score": 59,
+    "score": 58,
     "breakdown": {
       "strength": 16,
       "weakness": 8,
-      "opportunity": 12,
+      "opportunity": 11,
       "threat": 23
     },
     "sector_max": {
@@ -490,8 +490,8 @@
     },
     "reality_hope": {
       "reality_score": 25,
-      "hope_score": 36,
-      "quadrant": "기대 중심 (현실 약함)  🟠"
+      "hope_score": 34,
+      "quadrant": "현실·기대 중립  🔵"
     },
     "extra": null,
     "valuation": {
@@ -1747,11 +1747,11 @@
     "company": "LG",
     "sector": "지주사",
     "updated": "2026-10-15",
-    "score": 67,
+    "score": 68,
     "breakdown": {
       "strength": 24,
       "weakness": 19,
-      "opportunity": 9,
+      "opportunity": 10,
       "threat": 15
     },
     "sector_max": {
@@ -1778,7 +1778,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 23,
+      "hope_score": 24,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2287,11 +2287,11 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-10-15",
-    "score": 60,
+    "score": 61,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 10,
+      "opportunity": 11,
       "threat": 7
     },
     "sector_max": {
@@ -2318,7 +2318,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 18,
+      "hope_score": 19,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -2564,11 +2564,11 @@
     "company": "포스코인터내셔널",
     "sector": "기타",
     "updated": "2026-10-15",
-    "score": 53,
+    "score": 52,
     "breakdown": {
       "strength": 13,
       "weakness": 12,
-      "opportunity": 7,
+      "opportunity": 6,
       "threat": 21
     },
     "sector_max": {
@@ -2595,7 +2595,7 @@
     },
     "reality_hope": {
       "reality_score": 26,
-      "hope_score": 27,
+      "hope_score": 26,
       "quadrant": "현실·기대 중립  🔵"
     },
     "extra": null,
