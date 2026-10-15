@@ -4076,7 +4076,7 @@
   },
   "005380": {
     "company": "현대자동차",
-    "updated": "2026-10-13",
+    "updated": "2026-10-15",
     "score": 45,
     "sector": "자동차",
     "breakdown": {
@@ -4114,38 +4114,38 @@
       "exec_count": 12
     },
     "valuation": {
-      "per": 9.88,
+      "per": 9.61,
       "per_txt": "저평가",
-      "pbr": 0.65,
+      "pbr": 0.63,
       "pbr_txt": "적정",
-      "psr": 0.33,
+      "psr": 0.32,
       "psr_txt": "저평가",
       "peg": null,
       "peg_txt": "",
-      "tgt": 582000.0,
-      "upside": 91.9,
+      "tgt": 568000.0,
+      "upside": 92.5,
       "consensus_n": 5,
       "roe": 6.8
     },
     "valuation_engine": {
-      "fair_value": 1023080.0,
+      "fair_value": 1080954.0,
       "band_low": 182402.0,
-      "band_high": 1328451.0,
+      "band_high": 1392756.0,
       "confidence": "LOW",
-      "method_spread": 4.799,
+      "method_spread": 4.946,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 4.799배"
+        "방법 간 편차 4.946배"
       ],
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (30점 < 기준 32점), 존과 무관하게 회피",
-      "srim_mid": 1023079.5580055199,
+      "srim_mid": 1080954.2429609015,
       "per_band_mid": 260655.0,
-      "pbr_roe_fair_value": 1250957.0,
+      "pbr_roe_fair_value": 1289287.0,
       "nav_sotp_mid": null
     }
   },
