@@ -50858,5 +50858,54 @@
         }
       }
     ]
+  },
+  "066970": {
+    "company_name": "엘앤에프",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 25,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 8,
+          "opportunity": 8,
+          "threat": 3
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 16,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 1,
+          "opportunity": 8,
+          "threat": 3
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 31,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 8,
+          "opportunity": 8,
+          "threat": 3
+        }
+      },
+      {
+        "date": "2026-10-16",
+        "total_score": 34,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 17,
+          "opportunity": 8,
+          "threat": 3
+        }
+      }
+    ]
   }
 }
