@@ -9151,5 +9151,23 @@
     "reality_score": 14,
     "hope_score": 16,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-10-15",
+    "filename": "035720_카카오/2026-10-15_카카오_035720.html",
+    "company": "카카오",
+    "ticker": "035720",
+    "score": 48,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 14,
+      "opportunity": 7,
+      "threat": 15
+    },
+    "reality_score": 32,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
