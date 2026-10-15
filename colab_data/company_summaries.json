@@ -14318,5 +14318,74 @@
       "pbr_roe_fair_value": 289.0,
       "nav_sotp_mid": null
     }
+  },
+  "066970": {
+    "company": "엘앤에프",
+    "updated": "2026-10-16",
+    "score": 34,
+    "sector": "전기장비/전력",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 17,
+      "opportunity": 8,
+      "threat": 3
+    },
+    "sector_max": {
+      "strength": 26,
+      "weakness": 24,
+      "opportunity": 28,
+      "threat": 22
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": 117.2,
+      "rev_yoy_pct": 70.2,
+      "momentum_score": 7.0,
+      "correction_pts": 5
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "valuation": {
+      "per": null,
+      "per_txt": "",
+      "pbr": 5.32,
+      "pbr_txt": "",
+      "psr": 1.47,
+      "psr_txt": "적정",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": 180000.0,
+      "upside": 71.9,
+      "consensus_n": 5,
+      "roe": -41.48
+    },
+    "valuation_engine": {
+      "fair_value": 124476.0,
+      "band_low": 69263.0,
+      "band_high": 499598.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "평가 방법 1개 — 교차 검증 불가"
+      ],
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (23점 < 기준 30점), 존과 무관하게 회피",
+      "srim_mid": null,
+      "per_band_mid": null,
+      "pbr_roe_fair_value": null,
+      "nav_sotp_mid": null
+    }
   }
 }
