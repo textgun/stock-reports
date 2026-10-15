@@ -9277,5 +9277,23 @@
     "reality_score": 45,
     "hope_score": 11,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-10-15",
+    "filename": "096770_SK이노베이션/2026-10-15_SK이노베이션_096770.html",
+    "company": "SK이노베이션",
+    "ticker": "096770",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 17,
+      "opportunity": 11,
+      "threat": 24
+    },
+    "reality_score": 33,
+    "hope_score": 33,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
