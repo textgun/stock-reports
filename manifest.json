@@ -12535,5 +12535,23 @@
     "reality_score": 7,
     "hope_score": 28,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "373220_LG에너지솔루션/2026-10-17_LG에너지솔루션_373220.html",
+    "company": "LG에너지솔루션",
+    "ticker": "373220",
+    "score": 36,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 7/20)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 5,
+      "opportunity": 10,
+      "threat": 19
+    },
+    "reality_score": 10,
+    "hope_score": 19,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
