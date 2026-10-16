@@ -8992,24 +8992,6 @@
   },
   {
     "date": "2026-10-16",
-    "filename": "078600_대주전자재료/2026-10-16_대주전자재료_078600.html",
-    "company": "대주전자재료",
-    "ticker": "078600",
-    "score": 44,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
-    "breakdown": {
-      "strength": 10,
-      "weakness": 10,
-      "opportunity": 7,
-      "threat": 17
-    },
-    "reality_score": 18,
-    "hope_score": 27,
-    "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-10-16",
     "filename": "108490_로보티즈/2026-10-16_로보티즈_108490.html",
     "company": "로보티즈",
     "ticker": "108490",
@@ -9511,5 +9493,23 @@
     "reality_score": 41,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-16",
+    "filename": "078600_대주전자재료/2026-10-16_대주전자재료_078600.html",
+    "company": "대주전자재료",
+    "ticker": "078600",
+    "score": 41,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 10,
+      "opportunity": 7,
+      "threat": 14
+    },
+    "reality_score": 18,
+    "hope_score": 23,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
