@@ -5445,14 +5445,14 @@
   },
   "108490": {
     "company": "로보티즈",
-    "updated": "2026-09-18",
+    "updated": "2026-10-16",
     "score": 54,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 19,
       "weakness": 17,
-      "opportunity": 13,
-      "threat": 5
+      "opportunity": 17,
+      "threat": 1
     },
     "sector_max": {
       "strength": 26,
@@ -5479,21 +5479,21 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 12.43,
+      "pbr": 9.38,
       "pbr_txt": "",
-      "psr": 93.24,
+      "psr": 70.35,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 325333.3333333333,
-      "upside": 6.5,
+      "upside": 40.8,
       "consensus_n": 3,
       "roe": -0.94
     },
     "valuation_engine": {
-      "fair_value": 42508.0,
-      "band_low": 30749.0,
-      "band_high": 126780.0,
+      "fair_value": 43046.0,
+      "band_low": 31162.0,
+      "band_high": 192975.0,
       "confidence": "LOW",
       "method_spread": null,
       "position_scale": 1.0,
@@ -5503,7 +5503,7 @@
         "평가 방법 1개 — 교차 검증 불가"
       ],
       "zone": "OVERHEATED",
-      "gap_pct": 618.7,
+      "gap_pct": 436.6,
       "quality_gate_passed": true,
       "action_label": "PSR 단독 평가 · OVERHEATED 참고용 — 자동 매수·매도 보류",
       "srim_mid": null,
