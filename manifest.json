@@ -10771,5 +10771,23 @@
     "reality_score": 37,
     "hope_score": 30,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "074610_이엔플러스/2026-10-17_이엔플러스_074610.html",
+    "company": "이엔플러스",
+    "ticker": "074610",
+    "score": 31,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 12,
+      "opportunity": 3,
+      "threat": 16
+    },
+    "reality_score": 14,
+    "hope_score": 19,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
