@@ -9493,5 +9493,23 @@
     "reality_score": 45,
     "hope_score": 18,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "007530_와이엠/2026-10-17_와이엠_007530.html",
+    "company": "와이엠",
+    "ticker": "007530",
+    "score": 36,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/32)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 11,
+      "opportunity": 4,
+      "threat": 17
+    },
+    "reality_score": 16,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
