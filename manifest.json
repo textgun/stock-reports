@@ -9385,5 +9385,23 @@
     "reality_score": 36,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-16",
+    "filename": "056190_에스에프에이/2026-10-16_에스에프에이_056190.html",
+    "company": "에스에프에이",
+    "ticker": "056190",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 16,
+      "opportunity": 16,
+      "threat": 19
+    },
+    "reality_score": 32,
+    "hope_score": 34,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
