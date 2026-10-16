@@ -11257,5 +11257,23 @@
     "reality_score": 45,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "103590_일진전기/2026-10-17_일진전기_103590.html",
+    "company": "일진전기",
+    "ticker": "103590",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 21,
+      "opportunity": 7,
+      "threat": 18
+    },
+    "reality_score": 45,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   }
 ]
