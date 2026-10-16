@@ -9259,5 +9259,23 @@
     "reality_score": 40,
     "hope_score": 18,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-16",
+    "filename": "047050_포스코인터내셔널/2026-10-16_포스코인터내셔널_047050.html",
+    "company": "포스코인터내셔널",
+    "ticker": "047050",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 12,
+      "opportunity": 6,
+      "threat": 21
+    },
+    "reality_score": 26,
+    "hope_score": 26,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
