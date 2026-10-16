@@ -11113,5 +11113,23 @@
     "reality_score": 25,
     "hope_score": 14,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "089850_유비벨록스/2026-10-17_유비벨록스_089850.html",
+    "company": "유비벨록스",
+    "ticker": "089850",
+    "score": 41,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 12,
+      "opportunity": 9,
+      "threat": 20
+    },
+    "reality_score": 15,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
