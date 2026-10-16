@@ -11635,5 +11635,23 @@
     "reality_score": 34,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "186230_그린플러스/2026-10-17_그린플러스_186230.html",
+    "company": "그린플러스",
+    "ticker": "186230",
+    "score": 52,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 22,
+      "opportunity": 2,
+      "threat": 20
+    },
+    "reality_score": 32,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
