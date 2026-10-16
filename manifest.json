@@ -10537,5 +10537,23 @@
     "reality_score": 44,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "058610_에스피지/2026-10-17_에스피지_058610.html",
+    "company": "에스피지",
+    "ticker": "058610",
+    "score": 39,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 14,
+      "opportunity": 20,
+      "threat": 0
+    },
+    "reality_score": 17,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
