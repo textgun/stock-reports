@@ -9943,5 +9943,23 @@
     "reality_score": 34,
     "hope_score": 17,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "031980_피에스케이홀딩스/2026-10-17_피에스케이홀딩스_031980.html",
+    "company": "피에스케이홀딩스",
+    "ticker": "031980",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 12,
+      "opportunity": 17,
+      "threat": 11
+    },
+    "reality_score": 35,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
