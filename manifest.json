@@ -9025,5 +9025,23 @@
     "reality_score": 25,
     "hope_score": 14,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-16",
+    "filename": "425420_티에프이/2026-10-16_티에프이_425420.html",
+    "company": "티에프이",
+    "ticker": "425420",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 10,
+      "threat": 16
+    },
+    "reality_score": 45,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
