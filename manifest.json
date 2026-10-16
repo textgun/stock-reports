@@ -12247,5 +12247,23 @@
     "reality_score": 34,
     "hope_score": 17,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "310210_보로노이/2026-10-17_보로노이_310210.html",
+    "company": "보로노이",
+    "ticker": "310210",
+    "score": 27,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/18)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 11,
+      "opportunity": 8,
+      "threat": 8
+    },
+    "reality_score": 16,
+    "hope_score": 12,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
