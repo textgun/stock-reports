@@ -9727,5 +9727,23 @@
     "reality_score": 36,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "011780_금호석유화학/2026-10-17_금호석유화학_011780.html",
+    "company": "금호석유화학",
+    "ticker": "011780",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 19,
+      "opportunity": 6,
+      "threat": 19
+    },
+    "reality_score": 42,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
