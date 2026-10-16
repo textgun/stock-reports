@@ -10087,5 +10087,23 @@
     "reality_score": 39,
     "hope_score": 30,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "035420_NAVER/2026-10-17_NAVER_035420.html",
+    "company": "NAVER",
+    "ticker": "035420",
+    "score": 43,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 12,
+      "opportunity": 7,
+      "threat": 10
+    },
+    "reality_score": 33,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
