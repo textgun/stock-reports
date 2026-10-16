@@ -12157,5 +12157,23 @@
     "reality_score": 34,
     "hope_score": 6,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "277810_레인보우로보틱스/2026-10-17_레인보우로보틱스_277810.html",
+    "company": "레인보우로보틱스",
+    "ticker": "277810",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 12,
+      "opportunity": 7,
+      "threat": 7
+    },
+    "reality_score": 18,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
