@@ -11527,5 +11527,23 @@
     "reality_score": 32,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "141080_리가켐바이오/2026-10-17_리가켐바이오_141080.html",
+    "company": "리가켐바이오",
+    "ticker": "141080",
+    "score": 30,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 6/18)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 6,
+      "opportunity": 11,
+      "threat": 13
+    },
+    "reality_score": 9,
+    "hope_score": 18,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
