@@ -11437,5 +11437,23 @@
     "reality_score": 40,
     "hope_score": 25,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "129920_대성하이텍/2026-10-17_대성하이텍_129920.html",
+    "company": "대성하이텍",
+    "ticker": "129920",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 21,
+      "opportunity": 4,
+      "threat": 9
+    },
+    "reality_score": 19,
+    "hope_score": 15,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
