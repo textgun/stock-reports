@@ -9313,5 +9313,23 @@
     "reality_score": 30,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "005380_현대자동차/2026-10-17_현대자동차_005380.html",
+    "company": "현대자동차",
+    "ticker": "005380",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 30/32)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 19,
+      "opportunity": 5,
+      "threat": 10
+    },
+    "reality_score": 27,
+    "hope_score": 13,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
