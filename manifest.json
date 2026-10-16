@@ -12301,5 +12301,23 @@
     "reality_score": 39,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "317400_자이에스앤디/2026-10-17_자이에스앤디_317400.html",
+    "company": "자이에스앤디",
+    "ticker": "317400",
+    "score": 75,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 22,
+      "opportunity": 18,
+      "threat": 25
+    },
+    "reality_score": 34,
+    "hope_score": 42,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
