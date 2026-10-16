@@ -9151,5 +9151,23 @@
     "reality_score": 35,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "000880_한화/2026-10-17_한화_000880.html",
+    "company": "한화",
+    "ticker": "000880",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 12,
+      "opportunity": 5,
+      "threat": 16
+    },
+    "reality_score": 30,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   }
 ]
