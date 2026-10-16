@@ -10483,5 +10483,23 @@
     "reality_score": 26,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "055550_신한지주/2026-10-17_신한지주_055550.html",
+    "company": "신한지주",
+    "ticker": "055550",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 15,
+      "opportunity": 8,
+      "threat": 19
+    },
+    "reality_score": 39,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
