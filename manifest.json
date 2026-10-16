@@ -12571,5 +12571,23 @@
     "reality_score": 46,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "389020_자람테크놀로지/2026-10-17_자람테크놀로지_389020.html",
+    "company": "자람테크놀로지",
+    "ticker": "389020",
+    "score": 47,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 12,
+      "opportunity": 12,
+      "threat": 12
+    },
+    "reality_score": 21,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
