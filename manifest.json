@@ -10375,5 +10375,23 @@
     "reality_score": 25,
     "hope_score": 12,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "050890_쏠리드/2026-10-17_쏠리드_050890.html",
+    "company": "쏠리드",
+    "ticker": "050890",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 9,
+      "opportunity": 5,
+      "threat": 15
+    },
+    "reality_score": 26,
+    "hope_score": 18,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
