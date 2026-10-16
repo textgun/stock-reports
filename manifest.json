@@ -10969,5 +10969,23 @@
     "reality_score": 45,
     "hope_score": 17,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "084370_유진테크/2026-10-17_유진테크_084370.html",
+    "company": "유진테크",
+    "ticker": "084370",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 22,
+      "opportunity": 6,
+      "threat": 15
+    },
+    "reality_score": 42,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
