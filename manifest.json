@@ -9979,5 +9979,23 @@
     "reality_score": 23,
     "hope_score": 24,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "033160_엠케이전자/2026-10-17_엠케이전자_033160.html",
+    "company": "엠케이전자",
+    "ticker": "033160",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 11,
+      "opportunity": 8,
+      "threat": 19
+    },
+    "reality_score": 25,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
