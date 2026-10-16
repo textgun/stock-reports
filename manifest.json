@@ -6265,24 +6265,6 @@
   },
   {
     "date": "2026-10-06",
-    "filename": "021240_코웨이/2026-10-06_코웨이_021240.html",
-    "company": "코웨이",
-    "ticker": "021240",
-    "score": 72,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 20,
-      "weakness": 19,
-      "opportunity": 11,
-      "threat": 22
-    },
-    "reality_score": 40,
-    "hope_score": 31,
-    "quadrant": "현실·기대 모두 강함  🟢🟢"
-  },
-  {
-    "date": "2026-10-06",
     "filename": "030000_제일기획/2026-10-06_제일기획_030000.html",
     "company": "제일기획",
     "ticker": "030000",
@@ -6481,24 +6463,6 @@
   },
   {
     "date": "2026-10-06",
-    "filename": "316140_우리금융지주/2026-10-06_우리금융지주_316140.html",
-    "company": "우리금융지주",
-    "ticker": "316140",
-    "score": 74,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 23,
-      "weakness": 15,
-      "opportunity": 17,
-      "threat": 19
-    },
-    "reality_score": 39,
-    "hope_score": 35,
-    "quadrant": "현실·기대 모두 강함  🟢🟢"
-  },
-  {
-    "date": "2026-10-06",
     "filename": "361610_SK아이이테크놀로지/2026-10-06_SK아이이테크놀로지_361610.html",
     "company": "SK아이이테크놀로지",
     "ticker": "361610",
@@ -6514,24 +6478,6 @@
     "reality_score": 7,
     "hope_score": 30,
     "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-10-06",
-    "filename": "443060_HD현대마린솔루션/2026-10-06_HD현대마린솔루션_443060.html",
-    "company": "HD현대마린솔루션",
-    "ticker": "443060",
-    "score": 54,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 20,
-      "weakness": 10,
-      "opportunity": 7,
-      "threat": 17
-    },
-    "reality_score": 37,
-    "hope_score": 20,
-    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-07",
@@ -6550,42 +6496,6 @@
     "reality_score": 10,
     "hope_score": 14,
     "quadrant": "현실·기대 불량  ⚫"
-  },
-  {
-    "date": "2026-10-10",
-    "filename": "420770_기가비스/2026-10-10_기가비스_420770.html",
-    "company": "기가비스",
-    "ticker": "420770",
-    "score": 72,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 22,
-      "weakness": 22,
-      "opportunity": 12,
-      "threat": 16
-    },
-    "reality_score": 41,
-    "hope_score": 30,
-    "quadrant": "현실·기대 모두 강함  🟢🟢"
-  },
-  {
-    "date": "2026-10-13",
-    "filename": "028670_팬오션/2026-10-13_팬오션_028670.html",
-    "company": "팬오션",
-    "ticker": "028670",
-    "score": 72,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 18,
-      "weakness": 22,
-      "opportunity": 7,
-      "threat": 25
-    },
-    "reality_score": 41,
-    "hope_score": 30,
-    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-10-13",
@@ -6658,24 +6568,6 @@
     "reality_score": 43,
     "hope_score": 15,
     "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-13",
-    "filename": "097950_CJ제일제당/2026-10-13_CJ제일제당_097950.html",
-    "company": "CJ제일제당",
-    "ticker": "097950",
-    "score": 42,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
-    "breakdown": {
-      "strength": 2,
-      "weakness": 21,
-      "opportunity": 5,
-      "threat": 14
-    },
-    "reality_score": 25,
-    "hope_score": 16,
-    "quadrant": "현실·기대 약함  🔴"
   },
   {
     "date": "2026-06-14",
@@ -6778,24 +6670,6 @@
   },
   {
     "date": "2026-10-13",
-    "filename": "000150_두산/2026-10-13_두산_000150.html",
-    "company": "두산",
-    "ticker": "000150",
-    "score": 41,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 20/26)",
-    "breakdown": {
-      "strength": 11,
-      "weakness": 9,
-      "opportunity": 5,
-      "threat": 16
-    },
-    "reality_score": 18,
-    "hope_score": 24,
-    "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-10-13",
     "filename": "000250_삼천당제약/2026-10-13_삼천당제약_000250.html",
     "company": "삼천당제약",
     "ticker": "000250",
@@ -6832,42 +6706,6 @@
   },
   {
     "date": "2026-10-13",
-    "filename": "001440_대한전선/2026-10-13_대한전선_001440.html",
-    "company": "대한전선",
-    "ticker": "001440",
-    "score": 49,
-    "rating": "WATCH",
-    "rating_label": "관찰",
-    "breakdown": {
-      "strength": 11,
-      "weakness": 21,
-      "opportunity": 6,
-      "threat": 11
-    },
-    "reality_score": 29,
-    "hope_score": 19,
-    "quadrant": "현실·기대 약함  🔴"
-  },
-  {
-    "date": "2026-10-13",
-    "filename": "003230_삼양식품/2026-10-13_삼양식품_003230.html",
-    "company": "삼양식품",
-    "ticker": "003230",
-    "score": 65,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 21,
-      "opportunity": 8,
-      "threat": 11
-    },
-    "reality_score": 46,
-    "hope_score": 16,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-13",
     "filename": "005090_SGC에너지/2026-10-13_SGC에너지_005090.html",
     "company": "SGC에너지",
     "ticker": "005090",
@@ -6883,60 +6721,6 @@
     "reality_score": 18,
     "hope_score": 15,
     "quadrant": "현실·기대 약함  🔴"
-  },
-  {
-    "date": "2026-10-13",
-    "filename": "006400_삼성SDI/2026-10-13_삼성SDI_006400.html",
-    "company": "삼성SDI",
-    "ticker": "006400",
-    "score": 45,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 15/20)",
-    "breakdown": {
-      "strength": 10,
-      "weakness": 5,
-      "opportunity": 10,
-      "threat": 20
-    },
-    "reality_score": 21,
-    "hope_score": 20,
-    "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-10-13",
-    "filename": "006730_서부T&D/2026-10-13_서부T&D_006730.html",
-    "company": "서부T&D",
-    "ticker": "006730",
-    "score": 74,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 26,
-      "weakness": 25,
-      "opportunity": 11,
-      "threat": 12
-    },
-    "reality_score": 42,
-    "hope_score": 27,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-13",
-    "filename": "007660_이수페타시스/2026-10-13_이수페타시스_007660.html",
-    "company": "이수페타시스",
-    "ticker": "007660",
-    "score": 70,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 22,
-      "opportunity": 15,
-      "threat": 8
-    },
-    "reality_score": 44,
-    "hope_score": 24,
-    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-13",
@@ -6972,24 +6756,6 @@
     },
     "reality_score": 30,
     "hope_score": 27,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-13",
-    "filename": "031980_피에스케이홀딩스/2026-10-13_피에스케이홀딩스_031980.html",
-    "company": "피에스케이홀딩스",
-    "ticker": "031980",
-    "score": 64,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 12,
-      "opportunity": 14,
-      "threat": 13
-    },
-    "reality_score": 35,
-    "hope_score": 29,
     "quadrant": "현실 강함  🟢"
   },
   {
@@ -7030,24 +6796,6 @@
   },
   {
     "date": "2026-10-13",
-    "filename": "042660_한화오션/2026-10-13_한화오션_042660.html",
-    "company": "한화오션",
-    "ticker": "042660",
-    "score": 50,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 19,
-      "weakness": 10,
-      "opportunity": 9,
-      "threat": 12
-    },
-    "reality_score": 39,
-    "hope_score": 13,
-    "quadrant": "현실 강함 / 기대 약함  🟡"
-  },
-  {
-    "date": "2026-10-13",
     "filename": "064290_인텍플러스/2026-10-13_인텍플러스_064290.html",
     "company": "인텍플러스",
     "ticker": "064290",
@@ -7084,24 +6832,6 @@
   },
   {
     "date": "2026-10-13",
-    "filename": "067310_하나마이크론/2026-10-13_하나마이크론_067310.html",
-    "company": "하나마이크론",
-    "ticker": "067310",
-    "score": 81,
-    "rating": "STRONG_BUY",
-    "rating_label": "적극 매수 ★★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 17,
-      "opportunity": 15,
-      "threat": 24
-    },
-    "reality_score": 42,
-    "hope_score": 39,
-    "quadrant": "현실·기대 모두 강함  🟢🟢"
-  },
-  {
-    "date": "2026-10-13",
     "filename": "068270_셀트리온/2026-10-13_셀트리온_068270.html",
     "company": "셀트리온",
     "ticker": "068270",
@@ -7134,24 +6864,6 @@
     },
     "reality_score": 38,
     "hope_score": 28,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-13",
-    "filename": "086280_현대글로비스/2026-10-13_현대글로비스_086280.html",
-    "company": "현대글로비스",
-    "ticker": "086280",
-    "score": 61,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 15,
-      "weakness": 22,
-      "opportunity": 7,
-      "threat": 17
-    },
-    "reality_score": 38,
-    "hope_score": 21,
     "quadrant": "현실 강함  🟢"
   },
   {
@@ -7192,24 +6904,6 @@
   },
   {
     "date": "2026-10-13",
-    "filename": "101490_에스앤에스텍/2026-10-13_에스앤에스텍_101490.html",
-    "company": "에스앤에스텍",
-    "ticker": "101490",
-    "score": 65,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 20,
-      "opportunity": 7,
-      "threat": 13
-    },
-    "reality_score": 44,
-    "hope_score": 19,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-13",
     "filename": "117730_티로보틱스/2026-10-13_티로보틱스_117730.html",
     "company": "티로보틱스",
     "ticker": "117730",
@@ -7246,24 +6940,6 @@
   },
   {
     "date": "2026-10-13",
-    "filename": "131290_티에스이/2026-10-13_티에스이_131290.html",
-    "company": "티에스이",
-    "ticker": "131290",
-    "score": 70,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 18,
-      "opportunity": 10,
-      "threat": 17
-    },
-    "reality_score": 42,
-    "hope_score": 27,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-13",
     "filename": "139480_이마트/2026-10-13_이마트_139480.html",
     "company": "이마트",
     "ticker": "139480",
@@ -7277,24 +6953,6 @@
       "threat": 21
     },
     "reality_score": 15,
-    "hope_score": 24,
-    "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-10-14",
-    "filename": "066570_LG전자/2026-10-14_LG전자_066570.html",
-    "company": "LG전자",
-    "ticker": "066570",
-    "score": 50,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
-    "breakdown": {
-      "strength": 11,
-      "weakness": 14,
-      "opportunity": 11,
-      "threat": 14
-    },
-    "reality_score": 25,
     "hope_score": 24,
     "quadrant": "현실·기대 중립  🔵"
   },
@@ -7390,24 +7048,6 @@
   },
   {
     "date": "2026-10-14",
-    "filename": "011200_HMM/2026-10-14_HMM_011200.html",
-    "company": "HMM",
-    "ticker": "011200",
-    "score": 64,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 17,
-      "weakness": 19,
-      "opportunity": 9,
-      "threat": 19
-    },
-    "reality_score": 36,
-    "hope_score": 27,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-14",
     "filename": "140860_파크시스템스/2026-10-14_파크시스템스_140860.html",
     "company": "파크시스템스",
     "ticker": "140860",
@@ -7459,24 +7099,6 @@
     "reality_score": 33,
     "hope_score": 34,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
-  },
-  {
-    "date": "2026-10-14",
-    "filename": "196170_알테오젠/2026-10-14_알테오젠_196170.html",
-    "company": "알테오젠",
-    "ticker": "196170",
-    "score": 58,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 18,
-      "weakness": 9,
-      "opportunity": 23,
-      "threat": 8
-    },
-    "reality_score": 45,
-    "hope_score": 22,
-    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-14",
@@ -7570,24 +7192,6 @@
   },
   {
     "date": "2026-10-14",
-    "filename": "298040_효성중공업/2026-10-14_효성중공업_298040.html",
-    "company": "효성중공업",
-    "ticker": "298040",
-    "score": 50,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 22,
-      "weakness": 9,
-      "opportunity": 6,
-      "threat": 13
-    },
-    "reality_score": 31,
-    "hope_score": 19,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-14",
     "filename": "310210_보로노이/2026-10-14_보로노이_310210.html",
     "company": "보로노이",
     "ticker": "310210",
@@ -7639,24 +7243,6 @@
     "reality_score": 44,
     "hope_score": 33,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
-  },
-  {
-    "date": "2026-10-14",
-    "filename": "373220_LG에너지솔루션/2026-10-14_LG에너지솔루션_373220.html",
-    "company": "LG에너지솔루션",
-    "ticker": "373220",
-    "score": 36,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 7/20)",
-    "breakdown": {
-      "strength": 2,
-      "weakness": 5,
-      "opportunity": 10,
-      "threat": 19
-    },
-    "reality_score": 10,
-    "hope_score": 19,
-    "quadrant": "현실·기대 불량  ⚫"
   },
   {
     "date": "2026-10-14",
@@ -7750,24 +7336,6 @@
   },
   {
     "date": "2026-10-14",
-    "filename": "056190_에스에프에이/2026-10-14_에스에프에이_056190.html",
-    "company": "에스에프에이",
-    "ticker": "056190",
-    "score": 64,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 14,
-      "weakness": 16,
-      "opportunity": 15,
-      "threat": 19
-    },
-    "reality_score": 32,
-    "hope_score": 33,
-    "quadrant": "현실·기대 모두 강함  🟢🟢"
-  },
-  {
-    "date": "2026-10-14",
     "filename": "078930_GS/2026-10-14_GS_078930.html",
     "company": "GS",
     "ticker": "078930",
@@ -7781,24 +7349,6 @@
       "threat": 17
     },
     "reality_score": 47,
-    "hope_score": 27,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-14",
-    "filename": "084370_유진테크/2026-10-14_유진테크_084370.html",
-    "company": "유진테크",
-    "ticker": "084370",
-    "score": 70,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 23,
-      "weakness": 22,
-      "opportunity": 10,
-      "threat": 15
-    },
-    "reality_score": 42,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
   },
@@ -7873,24 +7423,6 @@
     "reality_score": 35,
     "hope_score": 13,
     "quadrant": "현실 강함 / 기대 약함  🟡"
-  },
-  {
-    "date": "2026-10-14",
-    "filename": "307950_현대오토에버/2026-10-14_현대오토에버_307950.html",
-    "company": "현대오토에버",
-    "ticker": "307950",
-    "score": 47,
-    "rating": "WATCH",
-    "rating_label": "관찰",
-    "breakdown": {
-      "strength": 14,
-      "weakness": 13,
-      "opportunity": 11,
-      "threat": 9
-    },
-    "reality_score": 34,
-    "hope_score": 17,
-    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-10-14",
@@ -8110,24 +7642,6 @@
   },
   {
     "date": "2026-10-15",
-    "filename": "003490_대한항공/2026-10-15_대한항공_003490.html",
-    "company": "대한항공",
-    "ticker": "003490",
-    "score": 50,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
-    "breakdown": {
-      "strength": 0,
-      "weakness": 12,
-      "opportunity": 16,
-      "threat": 22
-    },
-    "reality_score": 15,
-    "hope_score": 37,
-    "quadrant": "기대 중심 (현실 약함)  🟠"
-  },
-  {
-    "date": "2026-10-15",
     "filename": "004020_현대제철/2026-10-15_현대제철_004020.html",
     "company": "현대제철",
     "ticker": "004020",
@@ -8164,24 +7678,6 @@
   },
   {
     "date": "2026-10-15",
-    "filename": "005940_NH투자증권/2026-10-15_NH투자증권_005940.html",
-    "company": "NH투자증권",
-    "ticker": "005940",
-    "score": 68,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 28,
-      "weakness": 15,
-      "opportunity": 6,
-      "threat": 19
-    },
-    "reality_score": 44,
-    "hope_score": 24,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-15",
     "filename": "006800_미래에셋증권/2026-10-15_미래에셋증권_006800.html",
     "company": "미래에셋증권",
     "ticker": "006800",
@@ -8196,24 +7692,6 @@
     },
     "reality_score": 45,
     "hope_score": 16,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-15",
-    "filename": "016360_삼성증권/2026-10-15_삼성증권_016360.html",
-    "company": "삼성증권",
-    "ticker": "016360",
-    "score": 70,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 30,
-      "weakness": 15,
-      "opportunity": 6,
-      "threat": 19
-    },
-    "reality_score": 45,
-    "hope_score": 24,
     "quadrant": "현실 강함  🟢"
   },
   {
