@@ -9619,5 +9619,23 @@
     "reality_score": 23,
     "hope_score": 33,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "010060_OCI홀딩스/2026-10-17_OCI홀딩스_010060.html",
+    "company": "OCI홀딩스",
+    "ticker": "010060",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 15,
+      "opportunity": 4,
+      "threat": 17
+    },
+    "reality_score": 34,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   }
 ]
