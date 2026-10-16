@@ -10717,5 +10717,23 @@
     "reality_score": 43,
     "hope_score": 25,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "069960_현대백화점/2026-10-17_현대백화점_069960.html",
+    "company": "현대백화점",
+    "ticker": "069960",
+    "score": 47,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 14,
+      "opportunity": 10,
+      "threat": 17
+    },
+    "reality_score": 23,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
