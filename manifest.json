@@ -11779,5 +11779,23 @@
     "reality_score": 25,
     "hope_score": 31,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "213420_덕산네오룩스/2026-10-17_덕산네오룩스_213420.html",
+    "company": "덕산네오룩스",
+    "ticker": "213420",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 18,
+      "opportunity": 9,
+      "threat": 12
+    },
+    "reality_score": 39,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
