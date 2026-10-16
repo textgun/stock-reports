@@ -10987,5 +10987,23 @@
     "reality_score": 42,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "084730_팅크웨어/2026-10-17_팅크웨어_084730.html",
+    "company": "팅크웨어",
+    "ticker": "084730",
+    "score": 37,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/30)",
+    "breakdown": {
+      "strength": 3,
+      "weakness": 8,
+      "opportunity": 6,
+      "threat": 20
+    },
+    "reality_score": 15,
+    "hope_score": 23,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
