@@ -10465,5 +10465,23 @@
     "reality_score": 22,
     "hope_score": 24,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "053700_삼보모터스/2026-10-17_삼보모터스_053700.html",
+    "company": "삼보모터스",
+    "ticker": "053700",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/32)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 24,
+      "opportunity": 1,
+      "threat": 18
+    },
+    "reality_score": 26,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
