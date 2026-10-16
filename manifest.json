@@ -10015,5 +10015,23 @@
     "reality_score": 41,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "034020_두산에너빌리티/2026-10-17_두산에너빌리티_034020.html",
+    "company": "두산에너빌리티",
+    "ticker": "034020",
+    "score": 30,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 10,
+      "opportunity": 6,
+      "threat": 5
+    },
+    "reality_score": 17,
+    "hope_score": 12,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
