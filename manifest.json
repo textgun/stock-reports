@@ -10285,5 +10285,23 @@
     "reality_score": 43,
     "hope_score": 8,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "043260_성호전자/2026-10-17_성호전자_043260.html",
+    "company": "성호전자",
+    "ticker": "043260",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 8
+    },
+    "reality_score": 41,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
