@@ -11815,5 +11815,23 @@
     "reality_score": 45,
     "hope_score": 34,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "222800_심텍/2026-10-17_심텍_222800.html",
+    "company": "심텍",
+    "ticker": "222800",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 22,
+      "opportunity": 23,
+      "threat": 7
+    },
+    "reality_score": 35,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
