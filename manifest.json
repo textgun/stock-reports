@@ -9313,5 +9313,23 @@
     "reality_score": 38,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-16",
+    "filename": "097950_CJ제일제당/2026-10-16_CJ제일제당_097950.html",
+    "company": "CJ제일제당",
+    "ticker": "097950",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 21,
+      "opportunity": 10,
+      "threat": 19
+    },
+    "reality_score": 25,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
