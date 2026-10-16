@@ -12553,5 +12553,23 @@
     "reality_score": 10,
     "hope_score": 19,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "376300_디어유/2026-10-17_디어유_376300.html",
+    "company": "디어유",
+    "ticker": "376300",
+    "score": 76,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 8,
+      "threat": 21
+    },
+    "reality_score": 46,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
