@@ -9529,5 +9529,23 @@
     "reality_score": 45,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "008260_NI스틸/2026-10-17_NI스틸_008260.html",
+    "company": "NI스틸",
+    "ticker": "008260",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 12,
+      "opportunity": 1,
+      "threat": 17
+    },
+    "reality_score": 30,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
