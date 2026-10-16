@@ -11383,5 +11383,23 @@
     "reality_score": 31,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "126700_하이비젼시스템/2026-10-17_하이비젼시스템_126700.html",
+    "company": "하이비젼시스템",
+    "ticker": "126700",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 22,
+      "opportunity": 7,
+      "threat": 20
+    },
+    "reality_score": 33,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
