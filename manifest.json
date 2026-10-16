@@ -9043,5 +9043,23 @@
     "reality_score": 45,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "000150_두산/2026-10-17_두산_000150.html",
+    "company": "두산",
+    "ticker": "000150",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/26)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 9,
+      "opportunity": 5,
+      "threat": 17
+    },
+    "reality_score": 19,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
