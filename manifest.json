@@ -11401,5 +11401,23 @@
     "reality_score": 33,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "127120_제이에스링크/2026-10-17_제이에스링크_127120.html",
+    "company": "제이에스링크",
+    "ticker": "127120",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/18)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 11,
+      "opportunity": 15,
+      "threat": 14
+    },
+    "reality_score": 24,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
