@@ -12265,5 +12265,23 @@
     "reality_score": 16,
     "hope_score": 12,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "315640_딥노이드/2026-10-17_딥노이드_315640.html",
+    "company": "딥노이드",
+    "ticker": "315640",
+    "score": 21,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 7/22)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 7,
+      "opportunity": 5,
+      "threat": 9
+    },
+    "reality_score": 9,
+    "hope_score": 12,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
