@@ -9169,5 +9169,23 @@
     "reality_score": 46,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-16",
+    "filename": "006400_삼성SDI/2026-10-16_삼성SDI_006400.html",
+    "company": "삼성SDI",
+    "ticker": "006400",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/20)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 5,
+      "opportunity": 10,
+      "threat": 26
+    },
+    "reality_score": 21,
+    "hope_score": 25,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
