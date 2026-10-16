@@ -10573,5 +10573,23 @@
     "reality_score": 45,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "064290_인텍플러스/2026-10-17_인텍플러스_064290.html",
+    "company": "인텍플러스",
+    "ticker": "064290",
+    "score": 56,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 22,
+      "opportunity": 24,
+      "threat": 10
+    },
+    "reality_score": 23,
+    "hope_score": 34,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
