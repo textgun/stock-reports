@@ -10123,5 +10123,23 @@
     "reality_score": 32,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "036460_한국가스공사/2026-10-17_한국가스공사_036460.html",
+    "company": "한국가스공사",
+    "ticker": "036460",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 13,
+      "opportunity": 8,
+      "threat": 20
+    },
+    "reality_score": 25,
+    "hope_score": 26,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
