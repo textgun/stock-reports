@@ -10627,5 +10627,23 @@
     "reality_score": 39,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "064760_티씨케이/2026-10-17_티씨케이_064760.html",
+    "company": "티씨케이",
+    "ticker": "064760",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 14,
+      "threat": 10
+    },
+    "reality_score": 40,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
