@@ -12715,5 +12715,23 @@
     "reality_score": 31,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "454910_두산로보틱스/2026-10-17_두산로보틱스_454910.html",
+    "company": "두산로보틱스",
+    "ticker": "454910",
+    "score": 39,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 17,
+      "opportunity": 6,
+      "threat": 8
+    },
+    "reality_score": 23,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
