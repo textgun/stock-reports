@@ -9817,5 +9817,23 @@
     "reality_score": 45,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "017670_SK텔레콤/2026-10-17_SK텔레콤_017670.html",
+    "company": "SK텔레콤",
+    "ticker": "017670",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 14,
+      "opportunity": 13,
+      "threat": 16
+    },
+    "reality_score": 32,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
