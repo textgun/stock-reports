@@ -10105,5 +10105,23 @@
     "reality_score": 33,
     "hope_score": 12,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "035720_카카오/2026-10-17_카카오_035720.html",
+    "company": "카카오",
+    "ticker": "035720",
+    "score": 51,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 14,
+      "opportunity": 7,
+      "threat": 18
+    },
+    "reality_score": 32,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
