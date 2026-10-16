@@ -10357,5 +10357,23 @@
     "reality_score": 15,
     "hope_score": 14,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "047810_한국항공우주/2026-10-17_한국항공우주_047810.html",
+    "company": "한국항공우주",
+    "ticker": "047810",
+    "score": 37,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/28)",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 20,
+      "opportunity": 6,
+      "threat": 6
+    },
+    "reality_score": 25,
+    "hope_score": 12,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
