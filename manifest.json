@@ -9169,5 +9169,23 @@
     "reality_score": 30,
     "hope_score": 18,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "001440_대한전선/2026-10-17_대한전선_001440.html",
+    "company": "대한전선",
+    "ticker": "001440",
+    "score": 46,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 8
+    },
+    "reality_score": 29,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
