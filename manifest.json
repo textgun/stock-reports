@@ -9529,5 +9529,23 @@
     "reality_score": 15,
     "hope_score": 29,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-16",
+    "filename": "005940_NH투자증권/2026-10-16_NH투자증권_005940.html",
+    "company": "NH투자증권",
+    "ticker": "005940",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 28,
+      "weakness": 15,
+      "opportunity": 6,
+      "threat": 19
+    },
+    "reality_score": 44,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
