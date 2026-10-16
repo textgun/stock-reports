@@ -9781,5 +9781,23 @@
     "reality_score": 36,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-17",
+    "filename": "012690_모나리자/2026-10-17_모나리자_012690.html",
+    "company": "모나리자",
+    "ticker": "012690",
+    "score": 51,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 21,
+      "opportunity": 1,
+      "threat": 16
+    },
+    "reality_score": 32,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   }
 ]
