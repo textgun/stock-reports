@@ -10519,5 +10519,23 @@
     "reality_score": 41,
     "hope_score": 14,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-10-19",
+    "filename": "089030_테크윙/2026-10-19_테크윙_089030.html",
+    "company": "테크윙",
+    "ticker": "089030",
+    "score": 38,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 11,
+      "opportunity": 7,
+      "threat": 3
+    },
+    "reality_score": 25,
+    "hope_score": 11,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
