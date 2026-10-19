@@ -10213,5 +10213,23 @@
     "reality_score": 39,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-19",
+    "filename": "101490_에스앤에스텍/2026-10-19_에스앤에스텍_101490.html",
+    "company": "에스앤에스텍",
+    "ticker": "101490",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 6,
+      "threat": 20
+    },
+    "reality_score": 44,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
