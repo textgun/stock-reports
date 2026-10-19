@@ -10051,5 +10051,23 @@
     "reality_score": 27,
     "hope_score": 33,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-19",
+    "filename": "003490_대한항공/2026-10-19_대한항공_003490.html",
+    "company": "대한항공",
+    "ticker": "003490",
+    "score": 44,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 12,
+      "opportunity": 12,
+      "threat": 20
+    },
+    "reality_score": 15,
+    "hope_score": 30,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
