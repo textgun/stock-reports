@@ -10159,5 +10159,23 @@
     "reality_score": 14,
     "hope_score": 19,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-10-19",
+    "filename": "042660_한화오션/2026-10-19_한화오션_042660.html",
+    "company": "한화오션",
+    "ticker": "042660",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 10,
+      "opportunity": 9,
+      "threat": 24
+    },
+    "reality_score": 39,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
