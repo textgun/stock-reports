@@ -10123,5 +10123,23 @@
     "reality_score": 44,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-19",
+    "filename": "440110_파두/2026-10-19_파두_440110.html",
+    "company": "파두",
+    "ticker": "440110",
+    "score": 56,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 8,
+      "opportunity": 9,
+      "threat": 23
+    },
+    "reality_score": 25,
+    "hope_score": 32,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
