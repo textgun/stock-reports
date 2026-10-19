@@ -10051,5 +10051,23 @@
     "reality_score": 45,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-19",
+    "filename": "236200_슈프리마/2026-10-19_슈프리마_236200.html",
+    "company": "슈프리마",
+    "ticker": "236200",
+    "score": 74,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 16,
+      "threat": 15
+    },
+    "reality_score": 43,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
