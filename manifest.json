@@ -10159,5 +10159,23 @@
     "reality_score": 45,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-19",
+    "filename": "079550_LIG디펜스앤에어로스페이스/2026-10-19_LIG디펜스앤에어로스페이스_079550.html",
+    "company": "LIG디펜스앤에어로스페이스",
+    "ticker": "079550",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 20,
+      "opportunity": 6,
+      "threat": 17
+    },
+    "reality_score": 37,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
