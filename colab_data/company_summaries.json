@@ -311,12 +311,12 @@
     "company": "이오테크닉스",
     "sector": "반도체",
     "updated": "2026-10-19",
-    "score": 67,
+    "score": 66,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 13,
-      "threat": 11
+      "opportunity": 14,
+      "threat": 9
     },
     "sector_max": {
       "strength": 25,
@@ -342,7 +342,7 @@
     },
     "reality_hope": {
       "reality_score": 39,
-      "hope_score": 27,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -461,12 +461,12 @@
     "company": "파두",
     "sector": "반도체",
     "updated": "2026-10-19",
-    "score": 56,
+    "score": 53,
     "breakdown": {
       "strength": 16,
       "weakness": 8,
       "opportunity": 9,
-      "threat": 23
+      "threat": 20
     },
     "sector_max": {
       "strength": 25,
@@ -492,7 +492,7 @@
     },
     "reality_hope": {
       "reality_score": 25,
-      "hope_score": 32,
+      "hope_score": 29,
       "quadrant": "현실·기대 중립  🔵"
     },
     "extra": null,
@@ -2316,11 +2316,11 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-10-19",
-    "score": 62,
+    "score": 63,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 10,
+      "opportunity": 11,
       "threat": 9
     },
     "sector_max": {
@@ -2347,7 +2347,7 @@
     },
     "reality_hope": {
       "reality_score": 42,
-      "hope_score": 18,
+      "hope_score": 19,
       "quadrant": "현실 강함  🟢"
     },
     "extra": null,
@@ -5335,11 +5335,11 @@
     "company": "파마리서치",
     "sector": "기타",
     "updated": "2026-10-19",
-    "score": 81,
+    "score": 80,
     "breakdown": {
       "strength": 25,
       "weakness": 20,
-      "opportunity": 22,
+      "opportunity": 21,
       "threat": 14
     },
     "sector_max": {
@@ -5366,7 +5366,7 @@
     },
     "reality_hope": {
       "reality_score": 45,
-      "hope_score": 36,
+      "hope_score": 34,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": null,
