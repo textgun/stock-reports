@@ -10303,5 +10303,23 @@
     "reality_score": 31,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-19",
+    "filename": "298040_효성중공업/2026-10-19_효성중공업_298040.html",
+    "company": "효성중공업",
+    "ticker": "298040",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 9,
+      "opportunity": 6,
+      "threat": 13
+    },
+    "reality_score": 31,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
