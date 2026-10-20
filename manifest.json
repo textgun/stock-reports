@@ -10465,5 +10465,23 @@
     "reality_score": 45,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "064400_LG씨엔에스/2026-10-20_LG씨엔에스_064400.html",
+    "company": "LG씨엔에스",
+    "ticker": "064400",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 13,
+      "opportunity": 14,
+      "threat": 16
+    },
+    "reality_score": 39,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
