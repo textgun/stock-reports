@@ -10231,5 +10231,23 @@
     "reality_score": 25,
     "hope_score": 16,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "061090_세나테크놀로지/2026-10-20_세나테크놀로지_061090.html",
+    "company": "세나테크놀로지",
+    "ticker": "061090",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 15,
+      "opportunity": 9,
+      "threat": 14
+    },
+    "reality_score": 39,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
