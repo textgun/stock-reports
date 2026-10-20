@@ -10036,24 +10036,6 @@
   },
   {
     "date": "2026-10-20",
-    "filename": "005930_삼성전자/2026-10-20_삼성전자_005930.html",
-    "company": "삼성전자",
-    "ticker": "005930",
-    "score": 67,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 20,
-      "opportunity": 7,
-      "threat": 15
-    },
-    "reality_score": 45,
-    "hope_score": 24,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-20",
     "filename": "089030_테크윙/2026-10-20_테크윙_089030.html",
     "company": "테크윙",
     "ticker": "089030",
@@ -10572,6 +10554,24 @@
     },
     "reality_score": 46,
     "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "005930_삼성전자/2026-10-20_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 20,
+      "opportunity": 7,
+      "threat": 12
+    },
+    "reality_score": 45,
+    "hope_score": 21,
     "quadrant": "현실 강함  🟢"
   }
 ]
