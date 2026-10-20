@@ -10339,5 +10339,23 @@
     "reality_score": 47,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "039030_이오테크닉스/2026-10-20_이오테크닉스_039030.html",
+    "company": "이오테크닉스",
+    "ticker": "039030",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 14,
+      "threat": 9
+    },
+    "reality_score": 39,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
