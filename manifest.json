@@ -10285,5 +10285,23 @@
     "reality_score": 43,
     "hope_score": 8,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "067310_하나마이크론/2026-10-20_하나마이크론_067310.html",
+    "company": "하나마이크론",
+    "ticker": "067310",
+    "score": 74,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 17,
+      "opportunity": 11,
+      "threat": 21
+    },
+    "reality_score": 42,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
