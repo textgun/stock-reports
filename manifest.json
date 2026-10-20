@@ -10159,5 +10159,23 @@
     "reality_score": 26,
     "hope_score": 32,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "064350_현대로템/2026-10-20_현대로템_064350.html",
+    "company": "현대로템",
+    "ticker": "064350",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 20,
+      "opportunity": 6,
+      "threat": 15
+    },
+    "reality_score": 41,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   }
 ]
