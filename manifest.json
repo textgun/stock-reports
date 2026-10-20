@@ -10036,24 +10036,6 @@
   },
   {
     "date": "2026-10-20",
-    "filename": "089030_테크윙/2026-10-20_테크윙_089030.html",
-    "company": "테크윙",
-    "ticker": "089030",
-    "score": 39,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
-    "breakdown": {
-      "strength": 18,
-      "weakness": 11,
-      "opportunity": 7,
-      "threat": 3
-    },
-    "reality_score": 26,
-    "hope_score": 11,
-    "quadrant": "현실·기대 약함  🔴"
-  },
-  {
-    "date": "2026-10-20",
     "filename": "000500_가온전선/2026-10-20_가온전선_000500.html",
     "company": "가온전선",
     "ticker": "000500",
@@ -10735,5 +10717,23 @@
     "reality_score": 41,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "089030_테크윙/2026-10-20_테크윙_089030.html",
+    "company": "테크윙",
+    "ticker": "089030",
+    "score": 39,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 11,
+      "opportunity": 7,
+      "threat": 3
+    },
+    "reality_score": 26,
+    "hope_score": 11,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
