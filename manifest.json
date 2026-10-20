@@ -10645,5 +10645,23 @@
     "reality_score": 39,
     "hope_score": 25,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "012330_현대모비스/2026-10-20_현대모비스_012330.html",
+    "company": "현대모비스",
+    "ticker": "012330",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 19,
+      "opportunity": 5,
+      "threat": 18
+    },
+    "reality_score": 33,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
