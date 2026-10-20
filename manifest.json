@@ -10393,5 +10393,23 @@
     "reality_score": 31,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "140860_파크시스템스/2026-10-20_파크시스템스_140860.html",
+    "company": "파크시스템스",
+    "ticker": "140860",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 22,
+      "opportunity": 9,
+      "threat": 12
+    },
+    "reality_score": 33,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
