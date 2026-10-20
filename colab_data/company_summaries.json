@@ -14921,5 +14921,457 @@
       "pbr_roe_fair_value": 34409.0,
       "nav_sotp_mid": null
     }
+  },
+  "002320": {
+    "company": "한진",
+    "updated": "2026-10-20",
+    "score": 53,
+    "sector": "기타",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 22,
+      "opportunity": 8,
+      "threat": 16
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "accelerating",
+      "yoy_pct": 5.8,
+      "rev_yoy_pct": 11.3,
+      "momentum_score": 10.0,
+      "correction_pts": 5
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "한진칼 30.20%",
+      "ceo": "노삼석",
+      "exec_count": 24
+    },
+    "valuation": {
+      "per": null,
+      "per_txt": "",
+      "pbr": 0.18,
+      "pbr_txt": "",
+      "psr": 0.08,
+      "psr_txt": "저평가",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": 26000.0,
+      "upside": 53.8,
+      "consensus_n": 5,
+      "roe": -0.66
+    },
+    "valuation_engine": {
+      "fair_value": 569.0,
+      "band_low": 189.0,
+      "band_high": 28493.0,
+      "confidence": "LOW",
+      "method_spread": 56.907,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 56.907배",
+        "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
+      ],
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (29점 < 기준 30점), 존과 무관하게 회피",
+      "srim_mid": 377.5621840662934,
+      "per_band_mid": null,
+      "pbr_roe_fair_value": 569.0,
+      "nav_sotp_mid": null
+    }
+  },
+  "012750": {
+    "company": "에스원",
+    "updated": "2026-10-20",
+    "score": 55,
+    "sector": "기타",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 22,
+      "opportunity": 4,
+      "threat": 14
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "improving",
+      "yoy_pct": 5.3,
+      "rev_yoy_pct": 2.6,
+      "momentum_score": 8.0,
+      "correction_pts": 2
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "SECOM CO., LTD. 25.65%",
+      "ceo": "남궁범·하나오카\n타쿠로",
+      "exec_count": 37
+    },
+    "valuation": {
+      "per": 24.1,
+      "per_txt": "적정",
+      "pbr": 1.91,
+      "pbr_txt": "고평가 주의",
+      "psr": 1.28,
+      "psr_txt": "적정",
+      "peg": 4.55,
+      "peg_txt": "고평가 주의",
+      "tgt": 97200.0,
+      "upside": 0.3,
+      "consensus_n": 5,
+      "roe": 8.89
+    },
+    "valuation_engine": {
+      "fair_value": 83991.0,
+      "band_low": 61423.0,
+      "band_high": 100593.0,
+      "confidence": "HIGH",
+      "method_spread": 1.339,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [],
+      "zone": "FAIR",
+      "gap_pct": 15.4,
+      "quality_gate_passed": true,
+      "action_label": "보유 (신규 매수 없음)",
+      "srim_mid": 83990.9264364655,
+      "per_band_mid": 73502.0,
+      "pbr_roe_fair_value": 98444.0,
+      "nav_sotp_mid": null
+    }
+  },
+  "050110": {
+    "company": "캠시스",
+    "updated": "2026-10-20",
+    "score": 41,
+    "sector": "기타",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 12,
+      "opportunity": 2,
+      "threat": 17
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "recovering",
+      "yoy_pct": 324.9,
+      "rev_yoy_pct": 38.0,
+      "momentum_score": 10.0,
+      "correction_pts": 8
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "권현진 18.88%",
+      "ceo": null,
+      "exec_count": 15
+    },
+    "valuation": {
+      "per": null,
+      "per_txt": "",
+      "pbr": 0.36,
+      "pbr_txt": "",
+      "psr": 0.06,
+      "psr_txt": "저평가",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": -1.98
+    },
+    "valuation_engine": {
+      "fair_value": 25164.0,
+      "band_low": 19279.0,
+      "band_high": 38935.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "평가 방법 1개 — 교차 검증 불가"
+      ],
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (22점 < 기준 30점) / 이자보상배율 미달 (1.5배 < 기준 2.0배), 존과 무관하게 회피",
+      "srim_mid": null,
+      "per_band_mid": null,
+      "pbr_roe_fair_value": null,
+      "nav_sotp_mid": null
+    }
+  },
+  "061090": {
+    "company": "세나테크놀로지",
+    "updated": "2026-10-20",
+    "score": 61,
+    "sector": "반도체",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 15,
+      "opportunity": 9,
+      "threat": 14
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": -10.1,
+      "rev_yoy_pct": 14.2,
+      "momentum_score": 5.5,
+      "correction_pts": 1
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "케이오일호투자(유) 33.60%",
+      "ceo": null,
+      "exec_count": 7
+    },
+    "valuation": {
+      "per": 6.92,
+      "per_txt": "저평가",
+      "pbr": 0.84,
+      "pbr_txt": "적정",
+      "psr": 0.82,
+      "psr_txt": "저평가",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": 70000.0,
+      "upside": 133.7,
+      "consensus_n": 3,
+      "roe": 11.92
+    },
+    "valuation_engine": {
+      "fair_value": 43319.0,
+      "band_low": 33134.0,
+      "band_high": 59285.0,
+      "confidence": "LOW",
+      "method_spread": 1.451,
+      "position_scale": 0.5,
+      "buy_signal_allowed": true,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "PER 유효 표본 0.6년 — 결측·적자 제외 후 4년 미만",
+        "연간 ROE 이력 3개년 미만"
+      ],
+      "zone": "VALUE",
+      "gap_pct": -30.9,
+      "quality_gate_passed": true,
+      "action_label": "2차 매수 존 (목표비중 67%까지) · ⚠️ 신뢰도 LOW(편차 1.5배) → 목표비중 50%로 축소 매수",
+      "srim_mid": 43318.807709252986,
+      "per_band_mid": 40850.0,
+      "pbr_roe_fair_value": 59285.0,
+      "nav_sotp_mid": null
+    }
+  },
+  "004310": {
+    "company": "현대약품",
+    "updated": "2026-10-20",
+    "score": 39,
+    "sector": "바이오",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 5,
+      "opportunity": 18,
+      "threat": 12
+    },
+    "sector_max": {
+      "strength": 18,
+      "weakness": 12,
+      "opportunity": 38,
+      "threat": 32
+    },
+    "earnings": {
+      "qoq_trend": "recovering",
+      "yoy_pct": -30.6,
+      "rev_yoy_pct": 9.2,
+      "momentum_score": 4.5,
+      "correction_pts": 1
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "이한구 17.88%",
+      "ceo": null,
+      "exec_count": 22
+    },
+    "valuation": {
+      "per": 66.9,
+      "per_txt": "고평가 주의",
+      "pbr": 1.62,
+      "pbr_txt": "고평가 주의",
+      "psr": 1.2,
+      "psr_txt": "적정",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": 3.26
+    },
+    "valuation_engine": {
+      "fair_value": 2976.0,
+      "band_low": 144.0,
+      "band_high": 7533.0,
+      "confidence": "LOW",
+      "method_spread": 20.557,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 20.557배",
+        "PER 유효 표본 2.1년 — 결측·적자 제외 후 4년 미만",
+        "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
+      ],
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (9점 < 기준 18점) / 이자보상배율 미달 (1.0배 < 기준 2.0배), 존과 무관하게 회피",
+      "srim_mid": 272.9990617161061,
+      "per_band_mid": 5325.0,
+      "pbr_roe_fair_value": 627.0,
+      "nav_sotp_mid": null
+    }
+  },
+  "007690": {
+    "company": "국도화학",
+    "updated": "2026-10-20",
+    "score": 47,
+    "sector": "에너지/화학",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 13,
+      "opportunity": 4,
+      "threat": 22
+    },
+    "sector_max": {
+      "strength": 26,
+      "weakness": 24,
+      "opportunity": 22,
+      "threat": 28
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": -55.4,
+      "rev_yoy_pct": 24.1,
+      "momentum_score": 4.5,
+      "correction_pts": -1
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "국도코퍼레이션㈜ 29.44%",
+      "ceo": "이시창·황문성",
+      "exec_count": 41
+    },
+    "valuation": {
+      "per": 5.4,
+      "per_txt": "저평가",
+      "pbr": 0.29,
+      "pbr_txt": "저평가",
+      "psr": 0.17,
+      "psr_txt": "저평가",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": 45600.0,
+      "upside": 48.1,
+      "consensus_n": 5,
+      "roe": 5.7
+    },
+    "valuation_engine": {
+      "fair_value": 14517.0,
+      "band_low": 7180.0,
+      "band_high": 87095.0,
+      "confidence": "LOW",
+      "method_spread": 3.029,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 3.029배"
+      ],
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (21점 < 기준 30점), 존과 무관하게 회피",
+      "srim_mid": 11020.250268515898,
+      "per_band_mid": 33377.0,
+      "pbr_roe_fair_value": 14517.0,
+      "nav_sotp_mid": null
+    }
   }
 }
