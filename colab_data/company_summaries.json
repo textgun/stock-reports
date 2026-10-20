@@ -5336,7 +5336,7 @@
   },
   "009150": {
     "company": "삼성전기",
-    "updated": "2026-10-17",
+    "updated": "2026-10-20",
     "score": 62,
     "sector": "반도체",
     "breakdown": {
@@ -5368,39 +5368,45 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 91.19,
+      "per": 91.11,
       "per_txt": "고평가 주의",
       "pbr": 8.74,
       "pbr_txt": "고평가 주의",
-      "psr": 7.1,
+      "psr": 7.09,
       "psr_txt": "고평가 주의",
       "peg": 0.85,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 2660000.0,
-      "upside": 124.7,
+      "tgt": 2310000.0,
+      "upside": 95.3,
       "consensus_n": 5,
       "roe": 9.82
     },
     "valuation_engine": {
-      "fair_value": 111662.0,
-      "band_low": 34715.0,
-      "band_high": 261167.0,
+      "fair_value": 107981.0,
+      "band_low": 20523.0,
+      "band_high": 261333.0,
       "confidence": "LOW",
-      "method_spread": 2.651,
+      "method_spread": 3.044,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 2.651배"
+        "방법 간 편차 3.044배"
       ],
       "zone": "OVERHEATED",
-      "gap_pct": 960.3,
+      "gap_pct": 995.6,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · OVERHEATED 참고용 — 밸류에이션 자동 매도 보류",
-      "srim_mid": 69429.31596431216,
-      "per_band_mid": 184078.0,
-      "pbr_roe_fair_value": 111662.0,
+      "srim_mid": 60616.77901227628,
+      "per_band_mid": 184527.0,
+      "pbr_roe_fair_value": 107981.0,
       "nav_sotp_mid": null
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "삼성전자(주) 23.69%",
+      "ceo": null,
+      "exec_count": 7
     }
   },
   "131970": {
