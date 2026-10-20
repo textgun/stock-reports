@@ -3,12 +3,12 @@
     "company": "삼성전자",
     "sector": "반도체",
     "updated": "2026-10-20",
-    "score": 67,
+    "score": 64,
     "breakdown": {
       "strength": 25,
       "weakness": 20,
       "opportunity": 7,
-      "threat": 15
+      "threat": 12
     },
     "sector_max": {
       "strength": 25,
@@ -44,16 +44,16 @@
       "exec_count": 9
     },
     "valuation": {
-      "per": 9.52,
+      "per": 9.38,
       "per_txt": "저평가",
-      "pbr": 2.47,
+      "pbr": 2.43,
       "pbr_txt": "적정",
-      "psr": 2.56,
+      "psr": 2.52,
       "psr_txt": "적정",
       "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
       "tgt": 507500.0,
-      "upside": 140.0,
+      "upside": 142.8,
       "consensus_n": 4,
       "roe": 26.02
     },
@@ -70,7 +70,7 @@
         "방법 간 편차 2.036배"
       ],
       "zone": "FAIR",
-      "gap_pct": 78.5,
+      "gap_pct": 76.4,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 76975.45643388307,
@@ -82,12 +82,12 @@
   "062040": {
     "company": "산일전기",
     "sector": "전기장비/전력",
-    "updated": "2026-10-19",
-    "score": 63,
+    "updated": "2026-10-20",
+    "score": 62,
     "breakdown": {
       "strength": 26,
       "weakness": 19,
-      "opportunity": 7,
+      "opportunity": 6,
       "threat": 11
     },
     "sector_max": {
@@ -124,21 +124,21 @@
       "exec_count": 19
     },
     "valuation": {
-      "per": 32.26,
+      "per": 29.07,
       "per_txt": "고평가 주의",
-      "pbr": 8.78,
+      "pbr": 7.91,
       "pbr_txt": "고평가 주의",
-      "psr": 9.91,
+      "psr": 8.93,
       "psr_txt": "고평가 주의",
-      "peg": 0.94,
+      "peg": 0.85,
       "peg_txt": "저평가(성장대비)",
       "tgt": 310000.0,
-      "upside": 62.6,
+      "upside": 80.4,
       "consensus_n": 5,
       "roe": 27.18
     },
     "valuation_engine": {
-      "fair_value": 198100.0,
+      "fair_value": 197150.0,
       "band_low": 123376.0,
       "band_high": 217100.0,
       "confidence": "LOW",
@@ -151,11 +151,11 @@
         "연간 ROE 이력 3개년 미만"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -3.8,
+      "gap_pct": -12.9,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 1.5배) → 목표비중 50%로 축소 매수",
       "srim_mid": 145384.26726514834,
-      "per_band_mid": 198100.0,
+      "per_band_mid": 197150.0,
       "pbr_roe_fair_value": 217100.0,
       "nav_sotp_mid": null
     }
@@ -164,12 +164,12 @@
     "company": "슈프리마",
     "sector": "반도체",
     "updated": "2026-10-20",
-    "score": 74,
+    "score": 76,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 16,
-      "threat": 15
+      "opportunity": 15,
+      "threat": 18
     },
     "sector_max": {
       "strength": 25,
@@ -205,22 +205,22 @@
       "exec_count": 10
     },
     "valuation": {
-      "per": 7.72,
+      "per": 7.55,
       "per_txt": "저평가",
-      "pbr": 1.31,
+      "pbr": 1.29,
       "pbr_txt": "적정",
-      "psr": 2.68,
+      "psr": 2.62,
       "psr_txt": "적정",
-      "peg": 0.23,
+      "peg": 0.22,
       "peg_txt": "저평가(성장대비)",
       "tgt": 68500.0,
-      "upside": 21.0,
+      "upside": 23.6,
       "consensus_n": 2,
       "roe": 17.73
     },
     "valuation_engine": {
       "fair_value": 112235.0,
-      "band_low": 33956.0,
+      "band_low": 33957.0,
       "band_high": 218530.0,
       "confidence": "LOW",
       "method_spread": 5.831,
@@ -231,7 +231,7 @@
         "방법 간 편차 5.831배"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -49.6,
+      "gap_pct": -50.6,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 5.8배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
       "srim_mid": 112234.707786927,
@@ -285,39 +285,39 @@
       "exec_count": 6
     },
     "valuation": {
-      "per": 3.23,
+      "per": 2.92,
       "per_txt": "저평가",
-      "pbr": 1.93,
+      "pbr": 1.74,
       "pbr_txt": "저평가",
-      "psr": 79.03,
+      "psr": 71.34,
       "psr_txt": "고평가 주의",
       "peg": 0.0,
       "peg_txt": "저평가(성장대비)",
       "tgt": 2004000.0,
-      "upside": 149.9,
+      "upside": 176.8,
       "consensus_n": 5,
       "roe": 59.67
     },
     "valuation_engine": {
       "fair_value": 943560.0,
-      "band_low": 745873.0,
+      "band_low": 743471.0,
       "band_high": 2149367.0,
       "confidence": "LOW",
-      "method_spread": 2.882,
+      "method_spread": 2.891,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 2.882배",
+        "방법 간 편차 2.891배",
         "PER 유효 표본 1.5년 — 결측·적자 제외 후 4년 미만",
         "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
       ],
-      "zone": "ACCUMULATE",
-      "gap_pct": -15.0,
+      "zone": "VALUE",
+      "gap_pct": -23.3,
       "quality_gate_passed": true,
-      "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.9배) → 목표비중 50%로 축소 매수",
+      "action_label": "2차 매수 존 (목표비중 67%까지) · ⚠️ 신뢰도 LOW(편차 2.9배) → 목표비중 50%로 축소 매수",
       "srim_mid": 943560.3870760347,
-      "per_band_mid": 745873.0,
+      "per_band_mid": 743471.0,
       "pbr_roe_fair_value": 2149367.0,
       "nav_sotp_mid": null
     }
@@ -326,12 +326,12 @@
     "company": "이오테크닉스",
     "sector": "반도체",
     "updated": "2026-10-20",
-    "score": 69,
+    "score": 66,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
       "opportunity": 14,
-      "threat": 12
+      "threat": 9
     },
     "sector_max": {
       "strength": 25,
@@ -367,23 +367,23 @@
       "exec_count": 5
     },
     "valuation": {
-      "per": 50.98,
+      "per": 47.0,
       "per_txt": "고평가 주의",
-      "pbr": 7.39,
+      "pbr": 6.82,
       "pbr_txt": "고평가 주의",
-      "psr": 12.44,
+      "psr": 11.47,
       "psr_txt": "고평가 주의",
-      "peg": 0.99,
+      "peg": 0.92,
       "peg_txt": "저평가(성장대비)",
       "tgt": 532500.0,
-      "upside": 18.6,
+      "upside": 28.6,
       "consensus_n": 4,
       "roe": 14.5
     },
     "valuation_engine": {
       "fair_value": 72076.0,
       "band_low": 22261.0,
-      "band_high": 291591.0,
+      "band_high": 291958.0,
       "confidence": "LOW",
       "method_spread": 3.415,
       "position_scale": 0.5,
@@ -393,7 +393,7 @@
         "방법 간 편차 3.415배"
       ],
       "zone": "OVERHEATED",
-      "gap_pct": 523.0,
+      "gap_pct": 474.4,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · OVERHEATED 참고용 — 밸류에이션 자동 매도 보류",
       "srim_mid": 44237.409228638695,
@@ -447,37 +447,37 @@
       "exec_count": 11
     },
     "valuation": {
-      "per": 29.09,
+      "per": 26.98,
       "per_txt": "고평가 주의",
-      "pbr": 7.01,
+      "pbr": 6.5,
       "pbr_txt": "고평가 주의",
-      "psr": 12.87,
+      "psr": 11.94,
       "psr_txt": "고평가 주의",
-      "peg": 0.77,
+      "peg": 0.72,
       "peg_txt": "저평가(성장대비)",
       "tgt": 118750.0,
-      "upside": 65.6,
+      "upside": 78.6,
       "consensus_n": 4,
       "roe": 24.18
     },
     "valuation_engine": {
       "fair_value": 59228.0,
-      "band_low": 8506.0,
+      "band_low": 8507.0,
       "band_high": 102350.0,
       "confidence": "LOW",
-      "method_spread": 9.17,
+      "method_spread": 9.165,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 9.170배"
+        "방법 간 편차 9.165배"
       ],
       "zone": "FAIR",
-      "gap_pct": 21.1,
+      "gap_pct": 12.3,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 59228.00699820034,
-      "per_band_mid": 11162.0,
+      "per_band_mid": 11168.0,
       "pbr_roe_fair_value": 102350.0,
       "nav_sotp_mid": null
     }
@@ -486,12 +486,12 @@
     "company": "파두",
     "sector": "반도체",
     "updated": "2026-10-20",
-    "score": 58,
+    "score": 55,
     "breakdown": {
       "strength": 18,
       "weakness": 8,
       "opportunity": 9,
-      "threat": 23
+      "threat": 20
     },
     "sector_max": {
       "strength": 25,
@@ -529,14 +529,14 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 40.94,
+      "pbr": 39.61,
       "pbr_txt": "",
-      "psr": 14.35,
+      "psr": 13.89,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 113333.33333333333,
-      "upside": 117.1,
+      "upside": 124.4,
       "consensus_n": 3,
       "roe": -153.82
     },
@@ -567,11 +567,11 @@
     "company": "한국금융지주",
     "sector": "금융",
     "updated": "2026-10-20",
-    "score": 68,
+    "score": 70,
     "breakdown": {
       "strength": 30,
       "weakness": 15,
-      "opportunity": 8,
+      "opportunity": 10,
       "threat": 15
     },
     "sector_max": {
@@ -608,38 +608,38 @@
       "exec_count": 22
     },
     "valuation": {
-      "per": 3.3,
+      "per": 3.16,
       "per_txt": "저평가",
-      "pbr": 0.67,
+      "pbr": 0.64,
       "pbr_txt": "저평가",
-      "psr": 2.0,
+      "psr": 1.92,
       "psr_txt": "적정",
-      "peg": 0.03,
+      "peg": 0.02,
       "peg_txt": "저평가(성장대비)",
       "tgt": 309000.0,
-      "upside": 96.8,
+      "upside": 105.3,
       "consensus_n": 5,
       "roe": 21.28
     },
     "valuation_engine": {
       "fair_value": 675203.0,
-      "band_low": 216250.0,
+      "band_low": 216000.0,
       "band_high": 1047807.0,
       "confidence": "LOW",
-      "method_spread": 4.845,
+      "method_spread": 4.851,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 4.845배",
-        "PER 유효 표본 0.5년 — 결측·적자 제외 후 4년 미만"
+        "방법 간 편차 4.851배",
+        "PER 유효 표본 0.6년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (1.8배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": 675203.0250559025,
-      "per_band_mid": 216250.0,
+      "per_band_mid": 216000.0,
       "pbr_roe_fair_value": 1047807.0,
       "nav_sotp_mid": null
     }
@@ -689,22 +689,22 @@
       "exec_count": 50
     },
     "valuation": {
-      "per": 45.46,
+      "per": 41.62,
       "per_txt": "고평가 주의",
-      "pbr": 8.11,
+      "pbr": 7.42,
       "pbr_txt": "고평가 주의",
-      "psr": 2.75,
+      "psr": 2.52,
       "psr_txt": "적정",
-      "peg": 1.26,
+      "peg": 1.15,
       "peg_txt": "적정",
-      "tgt": 1142000.0,
-      "upside": 92.9,
+      "tgt": 1058000.0,
+      "upside": 95.2,
       "consensus_n": 5,
       "roe": 16.31
     },
     "valuation_engine": {
       "fair_value": 342431.0,
-      "band_low": 189087.0,
+      "band_low": 189101.0,
       "band_high": 729090.0,
       "confidence": "LOW",
       "method_spread": 2.603,
@@ -715,7 +715,7 @@
         "방법 간 편차 2.603배"
       ],
       "zone": "FAIR",
-      "gap_pct": 72.9,
+      "gap_pct": 58.3,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 342430.5610301943,
@@ -728,12 +728,12 @@
     "company": "SK하이닉스",
     "sector": "반도체",
     "updated": "2026-10-20",
-    "score": 74,
+    "score": 71,
     "breakdown": {
       "strength": 25,
       "weakness": 21,
       "opportunity": 13,
-      "threat": 15
+      "threat": 12
     },
     "sector_max": {
       "strength": 25,
@@ -769,16 +769,16 @@
       "exec_count": 9
     },
     "valuation": {
-      "per": 5.81,
+      "per": 5.31,
       "per_txt": "저평가",
-      "pbr": 3.53,
+      "pbr": 3.22,
       "pbr_txt": "저평가",
-      "psr": 5.04,
+      "psr": 4.6,
       "psr_txt": "고평가 주의",
       "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
       "tgt": 3680000.0,
-      "upside": 182.2,
+      "upside": 209.2,
       "consensus_n": 5,
       "roe": 61.71
     },
@@ -797,7 +797,7 @@
         "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
       ],
       "zone": "FAIR",
-      "gap_pct": 16.0,
+      "gap_pct": 5.8,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 960655.0422540072,
@@ -851,16 +851,16 @@
       "exec_count": 20
     },
     "valuation": {
-      "per": 8.28,
+      "per": 8.19,
       "per_txt": "저평가",
-      "pbr": 0.72,
+      "pbr": 0.71,
       "pbr_txt": "적정",
-      "psr": 1.53,
+      "psr": 1.52,
       "psr_txt": "적정",
       "peg": 0.36,
       "peg_txt": "저평가(성장대비)",
       "tgt": 133250.0,
-      "upside": 44.1,
+      "upside": 45.6,
       "consensus_n": 4,
       "roe": 8.77
     },
@@ -869,12 +869,12 @@
       "band_low": 69962.0,
       "band_high": 206837.0,
       "confidence": "LOW",
-      "method_spread": 2.748,
+      "method_spread": 2.742,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 2.748배",
+        "방법 간 편차 2.742배",
         "PER 유효 표본 2.5년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "AVOID",
@@ -882,7 +882,7 @@
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (0.6배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": 121147.40041019455,
-      "per_band_mid": 75267.0,
+      "per_band_mid": 75441.0,
       "pbr_roe_fair_value": 206837.0,
       "nav_sotp_mid": null
     }
@@ -1008,7 +1008,7 @@
       "exec_count": 33
     },
     "valuation": {
-      "per": 8.29,
+      "per": 8.3,
       "per_txt": "저평가",
       "pbr": 0.7,
       "pbr_txt": "적정",
@@ -1017,21 +1017,21 @@
       "peg": 1.22,
       "peg_txt": "적정",
       "tgt": 165000.0,
-      "upside": 35.1,
+      "upside": 34.9,
       "consensus_n": 5,
       "roe": 8.57
     },
     "valuation_engine": {
       "fair_value": 206454.0,
-      "band_low": 91211.0,
+      "band_low": 91266.0,
       "band_high": 389729.0,
       "confidence": "LOW",
-      "method_spread": 4.273,
+      "method_spread": 4.27,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 4.273배",
+        "방법 간 편차 4.270배",
         "PER 유효 표본 2.5년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "AVOID",
@@ -1039,7 +1039,7 @@
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (0.5배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": 206454.16595337226,
-      "per_band_mid": 91211.0,
+      "per_band_mid": 91266.0,
       "pbr_roe_fair_value": 389729.0,
       "nav_sotp_mid": null
     }
@@ -1089,30 +1089,30 @@
       "exec_count": 32
     },
     "valuation": {
-      "per": 9.6,
+      "per": 9.64,
       "per_txt": "저평가",
-      "pbr": 0.93,
+      "pbr": 0.94,
       "pbr_txt": "적정",
-      "psr": 1.95,
+      "psr": 1.96,
       "psr_txt": "적정",
       "peg": 0.35,
       "peg_txt": "저평가(성장대비)",
       "tgt": 217800.0,
-      "upside": 35.5,
+      "upside": 34.9,
       "consensus_n": 5,
       "roe": 10.08
     },
     "valuation_engine": {
       "fair_value": 233775.0,
-      "band_low": 131416.0,
+      "band_low": 131488.0,
       "band_high": 431424.0,
       "confidence": "LOW",
-      "method_spread": 3.283,
+      "method_spread": 3.281,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 3.283배",
+        "방법 간 편차 3.281배",
         "PER 유효 표본 2.5년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "AVOID",
@@ -1120,7 +1120,7 @@
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (0.6배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": 233775.02516585047,
-      "per_band_mid": 131416.0,
+      "per_band_mid": 131488.0,
       "pbr_roe_fair_value": 431424.0,
       "nav_sotp_mid": null
     }
@@ -1628,38 +1628,38 @@
       "exec_count": 9
     },
     "valuation": {
-      "per": 28.59,
+      "per": 26.46,
       "per_txt": "고평가 주의",
-      "pbr": 19.04,
+      "pbr": 17.62,
       "pbr_txt": "고평가 주의",
-      "psr": 5.38,
+      "psr": 4.98,
       "psr_txt": "고평가 주의",
-      "peg": 0.23,
+      "peg": 0.21,
       "peg_txt": "저평가(성장대비)",
       "tgt": 530000.0,
-      "upside": 60.8,
+      "upside": 73.8,
       "consensus_n": 5,
       "roe": 66.69
     },
     "valuation_engine": {
       "fair_value": 173090.0,
       "band_low": 119073.0,
-      "band_high": 337069.0,
+      "band_high": 336534.0,
       "confidence": "LOW",
-      "method_spread": 2.831,
+      "method_spread": 2.826,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 2.831배",
+        "방법 간 편차 2.826배",
         "PER 유효 표본 2.6년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "FAIR",
-      "gap_pct": 90.4,
+      "gap_pct": 76.2,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 119073.24868263528,
-      "per_band_mid": 337069.0,
+      "per_band_mid": 336534.0,
       "pbr_roe_fair_value": 173090.0,
       "nav_sotp_mid": null
     }
@@ -1709,23 +1709,23 @@
       "exec_count": 18
     },
     "valuation": {
-      "per": 4.6,
+      "per": 4.23,
       "per_txt": "저평가",
-      "pbr": 0.92,
+      "pbr": 0.85,
       "pbr_txt": "저평가",
-      "psr": 0.16,
+      "psr": 0.15,
       "psr_txt": "저평가",
       "peg": 0.02,
       "peg_txt": "저평가(성장대비)",
       "tgt": 347000.0,
-      "upside": 118.1,
+      "upside": 137.2,
       "consensus_n": 5,
       "roe": 21.82
     },
     "valuation_engine": {
       "fair_value": 159551.0,
       "band_low": 79589.0,
-      "band_high": 247974.0,
+      "band_high": 247949.0,
       "confidence": "LOW",
       "method_spread": 1.731,
       "position_scale": 0.5,
@@ -1735,11 +1735,11 @@
         "PER 유효 표본 3.5년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -0.3,
+      "gap_pct": -8.3,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 1.7배) → 목표비중 50%로 축소 매수",
       "srim_mid": null,
-      "per_band_mid": 247974.0,
+      "per_band_mid": 247949.0,
       "pbr_roe_fair_value": 159551.0,
       "nav_sotp_mid": null
     }
@@ -1789,38 +1789,38 @@
       "exec_count": 65
     },
     "valuation": {
-      "per": 13.59,
+      "per": 13.75,
       "per_txt": "적정",
-      "pbr": 0.7,
+      "pbr": 0.71,
       "pbr_txt": "적정",
-      "psr": 1.07,
+      "psr": 1.08,
       "psr_txt": "적정",
-      "peg": 1.49,
+      "peg": 1.51,
       "peg_txt": "적정",
       "tgt": 818000.0,
-      "upside": 36.8,
+      "upside": 35.2,
       "consensus_n": 5,
       "roe": 5.93
     },
     "valuation_engine": {
       "fair_value": 1114783.0,
-      "band_low": 432231.0,
+      "band_low": 432304.0,
       "band_high": 3161651.0,
       "confidence": "LOW",
-      "method_spread": 7.315,
+      "method_spread": 7.313,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 7.315배",
+        "방법 간 편차 7.313배",
         "PER 유효 표본 2.5년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -46.4,
+      "gap_pct": -45.7,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 7.3배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
       "srim_mid": 1114783.498558008,
-      "per_band_mid": 432231.0,
+      "per_band_mid": 432304.0,
       "pbr_roe_fair_value": 3161651.0,
       "nav_sotp_mid": null
     }
@@ -1829,12 +1829,12 @@
     "company": "LG",
     "sector": "지주사",
     "updated": "2026-10-20",
-    "score": 67,
+    "score": 64,
     "breakdown": {
       "strength": 24,
       "weakness": 19,
       "opportunity": 9,
-      "threat": 15
+      "threat": 12
     },
     "sector_max": {
       "strength": 28,
@@ -1870,23 +1870,23 @@
       "exec_count": 24
     },
     "valuation": {
-      "per": 21.67,
+      "per": 21.25,
       "per_txt": "적정",
-      "pbr": 0.52,
+      "pbr": 0.51,
       "pbr_txt": "고평가 주의",
-      "psr": 2.11,
+      "psr": 2.07,
       "psr_txt": "적정",
       "peg": 0.23,
       "peg_txt": "저평가(성장대비)",
       "tgt": 138000.0,
-      "upside": 32.3,
+      "upside": 34.9,
       "consensus_n": 5,
       "roe": 3.24
     },
     "valuation_engine": {
       "fair_value": 56018.0,
       "band_low": 35839.0,
-      "band_high": 155352.0,
+      "band_high": 147437.0,
       "confidence": "LOW",
       "method_spread": 1.909,
       "position_scale": 0.5,
@@ -1896,13 +1896,13 @@
         "방법 간 편차 1.909배"
       ],
       "zone": "FAIR",
-      "gap_pct": 86.2,
+      "gap_pct": 82.6,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 43827.93098302584,
       "per_band_mid": null,
       "pbr_roe_fair_value": 56018.0,
-      "nav_sotp_mid": 155352.0
+      "nav_sotp_mid": 147437.0
     }
   },
   "084730": {
@@ -2444,16 +2444,16 @@
       "exec_count": 22
     },
     "valuation": {
-      "per": 30.1,
+      "per": 27.48,
       "per_txt": "고평가 주의",
-      "pbr": 6.11,
+      "pbr": 5.58,
       "pbr_txt": "고평가 주의",
-      "psr": 6.59,
+      "psr": 6.01,
       "psr_txt": "고평가 주의",
-      "peg": 0.21,
+      "peg": 0.19,
       "peg_txt": "저평가(성장대비)",
       "tgt": 162000.0,
-      "upside": 24.8,
+      "upside": 36.7,
       "consensus_n": 5,
       "roe": 20.32
     },
@@ -2471,7 +2471,7 @@
         "PER 유효 표본 3.1년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "FAIR",
-      "gap_pct": 72.4,
+      "gap_pct": 57.4,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 75300.91830184966,
@@ -2733,22 +2733,22 @@
       "exec_count": 8
     },
     "valuation": {
-      "per": 12.15,
-      "per_txt": "적정",
-      "pbr": 1.39,
+      "per": 11.7,
+      "per_txt": "저평가",
+      "pbr": 1.34,
       "pbr_txt": "적정",
-      "psr": 0.29,
+      "psr": 0.28,
       "psr_txt": "저평가",
-      "peg": 0.33,
+      "peg": 0.32,
       "peg_txt": "저평가(성장대비)",
       "tgt": 91800.0,
-      "upside": 60.5,
+      "upside": 66.6,
       "consensus_n": 5,
       "roe": 11.33
     },
     "valuation_engine": {
       "fair_value": 57232.0,
-      "band_low": 29425.0,
+      "band_low": 29438.0,
       "band_high": 76097.0,
       "confidence": "HIGH",
       "method_spread": 1.741,
@@ -3840,11 +3840,11 @@
     "company": "펄어비스",
     "sector": "기타",
     "updated": "2026-10-20",
-    "score": 64,
+    "score": 66,
     "breakdown": {
       "strength": 25,
       "weakness": 19,
-      "opportunity": 7,
+      "opportunity": 9,
       "threat": 13
     },
     "sector_max": {
@@ -3881,34 +3881,34 @@
       "exec_count": 7
     },
     "valuation": {
-      "per": 8.08,
+      "per": 8.04,
       "per_txt": "저평가",
-      "pbr": 1.99,
+      "pbr": 1.98,
       "pbr_txt": "적정",
-      "psr": 2.79,
+      "psr": 2.78,
       "psr_txt": "적정",
       "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
       "tgt": 51000.0,
-      "upside": 49.3,
+      "upside": 50.0,
       "consensus_n": 4,
       "roe": 22.98
     },
     "valuation_engine": {
       "fair_value": 2034.0,
       "band_low": 518.0,
-      "band_high": 53273.0,
+      "band_high": 53271.0,
       "confidence": "LOW",
-      "method_spread": 40.618,
+      "method_spread": 40.604,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 40.618배",
+        "방법 간 편차 40.604배",
         "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
       ],
       "zone": "FAIR",
-      "gap_pct": 1579.0,
+      "gap_pct": 1571.6,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 1035.6751063282736,
@@ -4172,16 +4172,16 @@
       "exec_count": 96
     },
     "valuation": {
-      "per": 9.13,
+      "per": 8.67,
       "per_txt": "저평가",
-      "pbr": 0.62,
+      "pbr": 0.59,
       "pbr_txt": "적정",
-      "psr": 0.52,
+      "psr": 0.5,
       "psr_txt": "저평가",
-      "peg": 0.75,
+      "peg": 0.72,
       "peg_txt": "저평가(성장대비)",
       "tgt": 672000.0,
-      "upside": 84.6,
+      "upside": 94.5,
       "consensus_n": 5,
       "roe": 7.05
     },
@@ -4198,7 +4198,7 @@
         "방법 간 편차 2.610배"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -25.2,
+      "gap_pct": -29.0,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.6배) → 목표비중 50%로 축소 매수",
       "srim_mid": 486702.86740400316,
@@ -4671,9 +4671,9 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 6.92,
+      "pbr": 6.66,
       "pbr_txt": "",
-      "psr": 8.16,
+      "psr": 7.85,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
@@ -5523,35 +5523,35 @@
       "exec_count": 16
     },
     "valuation": {
-      "per": 17.35,
+      "per": 16.38,
       "per_txt": "적정",
-      "pbr": 4.27,
+      "pbr": 4.04,
       "pbr_txt": "고평가 주의",
-      "psr": 4.79,
+      "psr": 4.53,
       "psr_txt": "고평가 주의",
-      "peg": 0.91,
+      "peg": 0.86,
       "peg_txt": "저평가(성장대비)",
       "tgt": 546000.0,
-      "upside": 96.1,
+      "upside": 107.6,
       "consensus_n": 5,
       "roe": 24.74
     },
     "valuation_engine": {
       "fair_value": 388840.0,
-      "band_low": 260672.0,
+      "band_low": 260908.0,
       "band_high": 591680.0,
       "confidence": "HIGH",
-      "method_spread": 1.575,
+      "method_spread": 1.576,
       "position_scale": 1.0,
       "buy_signal_allowed": true,
       "sell_signal_allowed": false,
       "confidence_reasons": [],
       "zone": "ACCUMULATE",
-      "gap_pct": -28.4,
+      "gap_pct": -32.4,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지)",
       "srim_mid": 388839.6306797571,
-      "per_band_mid": 375599.0,
+      "per_band_mid": 375550.0,
       "pbr_roe_fair_value": 591680.0,
       "nav_sotp_mid": null
     }
@@ -6574,16 +6574,16 @@
       "exec_count": 9
     },
     "valuation": {
-      "per": 6.37,
+      "per": 6.17,
       "per_txt": "저평가",
-      "pbr": 0.69,
+      "pbr": 0.67,
       "pbr_txt": "저평가",
-      "psr": 0.37,
+      "psr": 0.36,
       "psr_txt": "저평가",
       "peg": null,
       "peg_txt": "",
       "tgt": 188000.0,
-      "upside": 64.0,
+      "upside": 69.2,
       "consensus_n": 5,
       "roe": 10.9
     },
@@ -6592,19 +6592,19 @@
       "band_low": 88219.0,
       "band_high": 983575.0,
       "confidence": "LOW",
-      "method_spread": 8.3,
+      "method_spread": 8.308,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 8.300배"
+        "방법 간 편차 8.308배"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -82.1,
+      "gap_pct": -82.7,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 8.3배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
       "srim_mid": 640718.7310140777,
-      "per_band_mid": 118505.0,
+      "per_band_mid": 118388.0,
       "pbr_roe_fair_value": 983575.0,
       "nav_sotp_mid": null
     }
@@ -7032,13 +7032,13 @@
   },
   "041510": {
     "company": "에스엠",
-    "updated": "2026-10-19",
-    "score": 58,
+    "updated": "2026-10-20",
+    "score": 59,
     "sector": "엔터미디어",
     "breakdown": {
       "strength": 22,
       "weakness": 19,
-      "opportunity": 10,
+      "opportunity": 11,
       "threat": 7
     },
     "sector_max": {
@@ -7064,35 +7064,35 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 15.08,
+      "per": 14.73,
       "per_txt": "적정",
-      "pbr": 1.92,
+      "pbr": 1.88,
       "pbr_txt": "고평가 주의",
-      "psr": 1.56,
+      "psr": 1.53,
       "psr_txt": "적정",
-      "peg": 1.36,
+      "peg": 1.33,
       "peg_txt": "적정",
       "tgt": 112000.0,
-      "upside": 29.2,
+      "upside": 32.2,
       "consensus_n": 5,
       "roe": 10.22
     },
     "valuation_engine": {
       "fair_value": 236542.0,
       "band_low": 170732.0,
-      "band_high": 1911488.0,
+      "band_high": 1909581.0,
       "confidence": "HIGH",
-      "method_spread": 1.676,
+      "method_spread": 1.675,
       "position_scale": 1.0,
       "buy_signal_allowed": true,
       "sell_signal_allowed": false,
       "confidence_reasons": [],
       "zone": "DEEP_VALUE",
-      "gap_pct": -63.3,
+      "gap_pct": -64.2,
       "quality_gate_passed": true,
       "action_label": "3차 매수 존 (목표비중 100%까지)",
       "srim_mid": 200284.86396320816,
-      "per_band_mid": 335618.0,
+      "per_band_mid": 335574.0,
       "pbr_roe_fair_value": 236542.0,
       "nav_sotp_mid": null
     },
@@ -8719,12 +8719,12 @@
     "company": "한화에어로스페이스",
     "sector": "방산",
     "updated": "2026-10-20",
-    "score": 58,
+    "score": 55,
     "breakdown": {
       "strength": 23,
       "weakness": 11,
       "opportunity": 7,
-      "threat": 17
+      "threat": 14
     },
     "sector_max": {
       "strength": 24,
@@ -8760,33 +8760,33 @@
       "exec_count": 111
     },
     "valuation": {
-      "per": 22.24,
+      "per": 19.75,
       "per_txt": "적정",
-      "pbr": 3.82,
+      "pbr": 3.4,
       "pbr_txt": "고평가 주의",
-      "psr": 1.54,
+      "psr": 1.36,
       "psr_txt": "적정",
-      "peg": 0.38,
+      "peg": 0.34,
       "peg_txt": "저평가(성장대비)",
       "tgt": 1705000.0,
-      "upside": 91.1,
+      "upside": 115.3,
       "consensus_n": 4,
       "roe": 16.5
     },
     "valuation_engine": {
       "fair_value": 1197230.0,
       "band_low": 288754.0,
-      "band_high": 1863417.0,
+      "band_high": 1863071.0,
       "confidence": "LOW",
-      "method_spread": 2.675,
+      "method_spread": 2.672,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 2.675배"
+        "방법 간 편차 2.672배"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -25.5,
+      "gap_pct": -33.8,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.7배) → 목표비중 50%로 축소 매수",
       "srim_mid": 1197229.9317478328,
@@ -9747,37 +9747,37 @@
       "exec_count": 33
     },
     "valuation": {
-      "per": 22.33,
+      "per": 20.4,
       "per_txt": "적정",
-      "pbr": 8.41,
+      "pbr": 7.69,
       "pbr_txt": "고평가 주의",
-      "psr": 4.38,
+      "psr": 4.0,
       "psr_txt": "고평가 주의",
-      "peg": 0.6,
+      "peg": 0.55,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 1087000.0,
-      "upside": 106.3,
+      "tgt": 1013000.0,
+      "upside": 110.4,
       "consensus_n": 5,
       "roe": 37.65
     },
     "valuation_engine": {
       "fair_value": 626510.0,
       "band_low": 563661.0,
-      "band_high": 752845.0,
+      "band_high": 752000.0,
       "confidence": "LOW",
-      "method_spread": 1.336,
+      "method_spread": 1.334,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "sell_signal_allowed": false,
       "confidence_reasons": [
         "PER 유효 표본 3.5년 — 결측·적자 제외 후 4년 미만"
       ],
-      "zone": "VALUE",
-      "gap_pct": -15.9,
+      "zone": "DEEP_VALUE",
+      "gap_pct": -23.1,
       "quality_gate_passed": true,
-      "action_label": "2차 매수 존 (목표비중 67%까지) · ⚠️ 신뢰도 LOW(편차 1.3배) → 목표비중 50%로 축소 매수",
+      "action_label": "3차 매수 존 (목표비중 100%까지) · ⚠️ 신뢰도 LOW(편차 1.3배) → 목표비중 50%로 축소 매수",
       "srim_mid": 563660.5434624539,
-      "per_band_mid": 752845.0,
+      "per_band_mid": 752000.0,
       "pbr_roe_fair_value": 626510.0,
       "nav_sotp_mid": null
     }
@@ -11014,37 +11014,37 @@
       "exec_count": 9
     },
     "valuation": {
-      "per": 17.46,
+      "per": 16.46,
       "per_txt": "적정",
-      "pbr": 0.45,
+      "pbr": 0.42,
       "pbr_txt": "적정",
-      "psr": 1.08,
+      "psr": 1.02,
       "psr_txt": "적정",
-      "peg": 0.47,
+      "peg": 0.44,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 510000.0,
-      "upside": 76.8,
+      "tgt": 528000.0,
+      "upside": 94.1,
       "consensus_n": 5,
       "roe": 3.91
     },
     "valuation_engine": {
-      "fair_value": 173667.0,
+      "fair_value": 173777.0,
       "band_low": 116696.0,
-      "band_high": 273417.0,
+      "band_high": 273223.0,
       "confidence": "LOW",
-      "method_spread": 1.881,
+      "method_spread": 1.879,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 1.881배"
+        "방법 간 편차 1.879배"
       ],
-      "zone": "EXPENSIVE",
-      "gap_pct": 66.1,
+      "zone": "FAIR",
+      "gap_pct": 56.5,
       "quality_gate_passed": true,
-      "action_label": "⚠️ 신뢰도 LOW · EXPENSIVE 참고용 — 밸류에이션 자동 매도 보류",
+      "action_label": "보유 (신규 매수 없음)",
       "srim_mid": null,
-      "per_band_mid": 173667.0,
+      "per_band_mid": 173777.0,
       "pbr_roe_fair_value": 266279.0,
       "nav_sotp_mid": null
     }
