@@ -17200,6 +17200,17 @@
           "opportunity": 11,
           "threat": 14
         }
+      },
+      {
+        "date": "2026-10-20",
+        "total_score": 50,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 8,
+          "weakness": 14,
+          "opportunity": 11,
+          "threat": 17
+        }
       }
     ]
   },
@@ -27765,6 +27776,17 @@
       },
       {
         "date": "2026-10-17",
+        "total_score": 64,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 8,
+          "opportunity": 12,
+          "threat": 26
+        }
+      },
+      {
+        "date": "2026-10-20",
         "total_score": 64,
         "rating_code": "HOLD",
         "breakdown": {
@@ -41235,6 +41257,17 @@
           "opportunity": 7,
           "threat": 3
         }
+      },
+      {
+        "date": "2026-10-20",
+        "total_score": 39,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 11,
+          "opportunity": 7,
+          "threat": 3
+        }
       }
     ]
   },
@@ -46583,6 +46616,17 @@
           "opportunity": 10,
           "threat": 19
         }
+      },
+      {
+        "date": "2026-10-20",
+        "total_score": 42,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 7,
+          "weakness": 5,
+          "opportunity": 11,
+          "threat": 19
+        }
       }
     ]
   },
@@ -47880,6 +47924,17 @@
           "strength": 17,
           "weakness": 13,
           "opportunity": 20,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2026-10-20",
+        "total_score": 59,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 17,
+          "weakness": 13,
+          "opportunity": 18,
           "threat": 11
         }
       }
@@ -53010,6 +53065,17 @@
       },
       {
         "date": "2026-10-19",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 19,
+          "weakness": 20,
+          "opportunity": 6,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-10-20",
         "total_score": 60,
         "rating_code": "HOLD",
         "breakdown": {
