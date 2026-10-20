@@ -10177,5 +10177,23 @@
     "reality_score": 41,
     "hope_score": 18,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "002320_한진/2026-10-20_한진_002320.html",
+    "company": "한진",
+    "ticker": "002320",
+    "score": 53,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 22,
+      "opportunity": 8,
+      "threat": 16
+    },
+    "reality_score": 30,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
