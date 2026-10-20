@@ -10285,5 +10285,23 @@
     "reality_score": 24,
     "hope_score": 23,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "062040_산일전기/2026-10-20_산일전기_062040.html",
+    "company": "산일전기",
+    "ticker": "062040",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 19,
+      "opportunity": 6,
+      "threat": 11
+    },
+    "reality_score": 45,
+    "hope_score": 15,
+    "quadrant": "현실 강함  🟢"
   }
 ]
