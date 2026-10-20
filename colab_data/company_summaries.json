@@ -326,11 +326,11 @@
     "company": "이오테크닉스",
     "sector": "반도체",
     "updated": "2026-10-20",
-    "score": 68,
+    "score": 69,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 13,
+      "opportunity": 14,
       "threat": 12
     },
     "sector_max": {
@@ -357,7 +357,7 @@
     },
     "reality_hope": {
       "reality_score": 39,
-      "hope_score": 28,
+      "hope_score": 29,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -2403,11 +2403,11 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-10-20",
-    "score": 62,
+    "score": 63,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 10,
+      "opportunity": 11,
       "threat": 9
     },
     "sector_max": {
@@ -2434,7 +2434,7 @@
     },
     "reality_hope": {
       "reality_score": 42,
-      "hope_score": 18,
+      "hope_score": 19,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
