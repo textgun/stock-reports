@@ -9676,24 +9676,6 @@
   },
   {
     "date": "2026-10-20",
-    "filename": "061090_세나테크놀로지/2026-10-20_세나테크놀로지_061090.html",
-    "company": "세나테크놀로지",
-    "ticker": "061090",
-    "score": 61,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 23,
-      "weakness": 15,
-      "opportunity": 9,
-      "threat": 14
-    },
-    "reality_score": 39,
-    "hope_score": 20,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-20",
     "filename": "004310_현대약품/2026-10-20_현대약품_004310.html",
     "company": "현대약품",
     "ticker": "004310",
@@ -10518,6 +10500,24 @@
     },
     "reality_score": 31,
     "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "061090_세나테크놀로지/2026-10-20_세나테크놀로지_061090.html",
+    "company": "세나테크놀로지",
+    "ticker": "061090",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 15,
+      "opportunity": 9,
+      "threat": 14
+    },
+    "reality_score": 39,
+    "hope_score": 20,
     "quadrant": "현실 강함  🟢"
   }
 ]
