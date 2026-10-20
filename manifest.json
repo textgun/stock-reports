@@ -10144,24 +10144,6 @@
   },
   {
     "date": "2026-10-20",
-    "filename": "440110_파두/2026-10-20_파두_440110.html",
-    "company": "파두",
-    "ticker": "440110",
-    "score": 58,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)",
-    "breakdown": {
-      "strength": 18,
-      "weakness": 8,
-      "opportunity": 9,
-      "threat": 23
-    },
-    "reality_score": 26,
-    "hope_score": 32,
-    "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-10-20",
     "filename": "064350_현대로템/2026-10-20_현대로템_064350.html",
     "company": "현대로템",
     "ticker": "064350",
@@ -10375,5 +10357,23 @@
     "reality_score": 44,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "440110_파두/2026-10-20_파두_440110.html",
+    "company": "파두",
+    "ticker": "440110",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 8,
+      "opportunity": 9,
+      "threat": 20
+    },
+    "reality_score": 26,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
