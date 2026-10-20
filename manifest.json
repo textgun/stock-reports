@@ -10231,5 +10231,23 @@
     "reality_score": 26,
     "hope_score": 11,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "006730_서부T&D/2026-10-20_서부T&D_006730.html",
+    "company": "서부T&D",
+    "ticker": "006730",
+    "score": 75,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 25,
+      "opportunity": 11,
+      "threat": 13
+    },
+    "reality_score": 42,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
