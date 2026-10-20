@@ -10249,5 +10249,23 @@
     "reality_score": 39,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-20",
+    "filename": "004310_현대약품/2026-10-20_현대약품_004310.html",
+    "company": "현대약품",
+    "ticker": "004310",
+    "score": 39,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 9/18)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 5,
+      "opportunity": 18,
+      "threat": 12
+    },
+    "reality_score": 13,
+    "hope_score": 23,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
