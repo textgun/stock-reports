@@ -15573,11 +15573,11 @@
       "exec_count": 6
     },
     "valuation": {
-      "per": 34.05,
+      "per": 34.08,
       "per_txt": "고평가 주의",
-      "pbr": 10.05,
+      "pbr": 10.06,
       "pbr_txt": "고평가 주의",
-      "psr": 5.43,
+      "psr": 5.44,
       "psr_txt": "고평가 주의",
       "peg": 0.16,
       "peg_txt": "저평가(성장대비)",
@@ -15599,7 +15599,7 @@
         "PER 유효 표본 1.5년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "VALUE",
-      "gap_pct": -54.5,
+      "gap_pct": -54.4,
       "quality_gate_passed": true,
       "action_label": "2차 매수 존 (목표비중 67%까지) · ⚠️ 신뢰도 LOW(편차 1.0배) → 목표비중 50%로 축소 매수",
       "srim_mid": null,
