@@ -55600,5 +55600,103 @@
         }
       }
     ]
+  },
+  "300080": {
+    "company_name": "플리토",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 67,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 22,
+          "opportunity": 6,
+          "threat": 14
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 15,
+          "opportunity": 6,
+          "threat": 14
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 64,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 22,
+          "opportunity": 6,
+          "threat": 14
+        }
+      },
+      {
+        "date": "2026-10-21",
+        "total_score": 67,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 22,
+          "opportunity": 6,
+          "threat": 14
+        }
+      }
+    ]
+  },
+  "229640": {
+    "company_name": "LS에코에너지",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 56,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 23,
+          "weakness": 16,
+          "opportunity": 6,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 59,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 23,
+          "weakness": 19,
+          "opportunity": 6,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 59,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 23,
+          "weakness": 19,
+          "opportunity": 6,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2026-10-21",
+        "total_score": 59,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 23,
+          "weakness": 19,
+          "opportunity": 6,
+          "threat": 11
+        }
+      }
+    ]
   }
 }
