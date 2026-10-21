@@ -3023,26 +3023,41 @@ function openEtfTrend(code){
   m.style.display = 'flex';
 }
 const LTHEME = {};
+// 기준 칩 [최근 20일 | 장기추세 6개월] (hugusk 2026-10-20) — 6개월 기준만 보면 급락장에서 덜 빠진 방어 업종이 1위로 보이는 착시
+let LT_BASIS = 'r20';
 async function renderLeadTheme(hostId, file){
   const host = document.getElementById(hostId);
   if (LTHEME[file] === undefined){ try { const r = await fetch(file, {cache:'no-cache'}); LTHEME[file] = r.ok ? await r.json() : false; } catch(e){ LTHEME[file] = false; } }
-  const L = LTHEME[file];
-  if (!L || !L.themes || !L.themes.length){ host.style.display = 'none'; return; }
+  const L0 = LTHEME[file];
+  if (!L0 || !L0.themes || !L0.themes.length){ host.style.display = 'none'; return; }
   host.style.display = '';
+  const B = L0.bases ? (L0.bases[LT_BASIS] || L0.bases.r20) : null;     // 옛 파일(기준 없음)은 그대로 그린다
+  const L = B ? Object.assign({}, L0, B) : L0;
+  const bchips = L0.bases ? '<div class="chips" style="margin:2px 0 4px">'+[['r20','최근 20일','20D'],['ms','장기추세 6개월','Mansfield']].map(([k,l,e]) =>
+      '<span class="chip'+((L0.bases[LT_BASIS]?LT_BASIS:'r20')===k?' on':'')+'" data-lb="'+k+'">'+l+' <small style="opacity:.7">'+e+'</small></span>').join('')+'</div>' : '';
+  const bind = () => host.querySelectorAll('[data-lb]').forEach(ch => ch.onclick = () => { LT_BASIS = ch.dataset.lb; renderLeadTheme(hostId, file); });
+  if (!L.themes || !L.themes.length){ host.innerHTML = bchips+'<div class="sec-note">이 기준에서 초과 겹침이 있는 테마가 없습니다.</div>'; bind(); return; }
+  const r20 = x => x.r20 == null ? '' : ' · 20일 등락 '+(x.r20 > 0 ? '<b style="color:var(--up-text)">+'+x.r20.toFixed(1)+'%</b>' : '<b style="color:var(--down-text)">'+x.r20.toFixed(1)+'%</b>')+
+      (x.r20 < 0 ? ' '+weakTag('순위는 높지만 실제로는 최근 20일 동안 내렸다 — 시장보다 덜 빠져서 앞선 것')
+       : x.r20 > 0 && (x.d5 == null || x.d5 > 0) ? ' '+strongTag('최근 20일 실제로 올랐고'+(x.d5 == null ? '' : ' 지난주보다 겹침도 늘었다')) : '');
   const mx = Math.max(...L.themes.map(x => x.excess)) || 1, dd = s => s.slice(4,6)+'/'+s.slice(6);
   const d5 = v => v == null ? '<span class="mut">—</span>' : v > 0 ? '<b style="color:var(--up-text)">▲'+v.toFixed(1)+'</b>' : v < 0 ? '<span style="color:var(--down-text)">▼'+(-v).toFixed(1)+'</span>' : '<span class="mut">0</span>';
   const stock = s => '<span style="cursor:pointer" onclick="openStock(\''+s.code+'\')">'+esc(s.name)+'</span>';
   host.innerHTML = '<h3 style="margin:0 0 4px;font-size:14px">주도 테마 <span class="mut" style="font-weight:400;font-size:12px">'+
-      '장기추세(Mansfield) 상위 30개 국내 주식 ETF의 비중 상위 10종목이 얼마나 겹치나 — 평소 출현율을 빼고 업종별로 · ETF 기준 '+dd(L.day)+' · 구성 '+dd(L.snap)+'</span></h3>'+
+      (!L0.bases ? '장기추세(Mansfield)' : LT_BASIS==='ms' ? '6개월 추세(Mansfield)' : '최근 20일 KODEX 200 대비 수익률')+
+      ' 상위 30개 국내 주식 ETF의 비중 상위 10종목이 어느 '+(L0.bases ? '테마' : '업종')+'에 몰렸나 — 평소 출현율을 빼고 · ETF 기준 '+dd(L.day)+' · 구성 '+dd(L.snap)+'</span></h3>'+bchips+
     '<div style="display:grid;gap:6px;margin-top:6px">'+L.themes.map(x =>
       '<div style="display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:start;font-size:12.5px">'+
         '<div><b>'+esc(x.ind)+'</b>'+
           '<div style="height:6px;border-radius:3px;background:var(--up);opacity:.75;margin-top:4px;width:'+Math.max(6, x.excess/mx*100)+'%"></div></div>'+
-        '<div>초과 겹침 <b>+'+x.excess.toFixed(1)+'</b> <span class="mut">(관측 '+x.obs+' · 평소 '+x.exp+' · ×'+x.lift+')</span> · 지난주 대비 '+d5(x.d5)+
+        '<div>초과 겹침 <b>+'+x.excess.toFixed(1)+'</b> <span class="mut">(관측 '+x.obs+' · 평소 '+x.exp+' · ×'+x.lift+')</span>'+r20(x)+' · 지난주 대비 '+d5(x.d5)+
           '<br><span class="mut">종목</span> '+x.stocks.map(stock).join(' · ')+
           (x.etfs && x.etfs.length ? '<br><span class="mut">ETF</span> '+x.etfs.map(e =>
             '<a href="#" onclick="openEtfTrend(\''+e.code+'\');return false" style="color:inherit" title="구성종목 추이 열기">'+esc(e.name)+'</a> <span class="mut">'+e.share+'%</span>').join(' · ') : '')+'</div></div>').join('')+'</div>'+
-    '<p class="sec-note" style="margin:6px 0 0">종목 = 그 업종 종목 중 초과 겹침(관측 − 평소) 큰 순 · ETF = 상위 10종목 비중 중 그 업종이 30% 이상인 ETF, 그 비중(%) 큰 순 — 누르면 구성종목 추이 · 관측 = 상위 30 ETF 안에서 그 업종 종목이 나온 횟수 · 평소 = 전체 ETF('+L.n_pool+'개)에서의 출현율 × 30 — SK하이닉스·삼성전자처럼 원래 많은 ETF에 있는 대형주는 평소 값도 커서 보정된다. 지수 이름(예: 코스닥 통신)이 실제 사업과 다를 때 구성 종목으로 바로잡는 용도. 유사상품(60일 수익률 상관 0.9 이상)·레버리지·인버스·커버드콜은 뺀다.</p>';
+    '<p class="sec-note" style="margin:6px 0 0">테마 = 네이버 테마(약 260개)를 큰 테마로 묶은 것(이차전지·반도체 전공정/후공정·원전·방산 …, 전공정·후공정은 FnGuide 지수 구성으로 가름), 종목마다 가장 많이 걸린 테마 하나 — 묶음표는 원본(hugusk)이 공개하지 않아 이 사이트가 정했다 · '+
+      '20일 등락 = 그 테마 전체 종목의 시총 가중 최근 1개월 수익률 — <b style="color:#FF9800">약화</b> = 순위는 높지만 실제로는 내린 테마(급락장에서 덜 빠져 앞선 것) · <b style="color:#22C55E">강화</b> = 실제로 올랐고 지난주보다 겹침도 늘어난 테마(지난주 기록이 쌓이기 전엔 오른 것만 봄) · '+
+      '종목 = 초과 겹침(관측 − 평소) 큰 순 · ETF = 상위 10종목 비중 중 그 테마가 30% 이상, 누르면 구성종목 추이 · 관측 = 상위 30 ETF 안에서 그 테마 종목이 나온 횟수 · 평소 = 전체 ETF('+L.n_pool+'개)에서의 출현율 × 30 — 원래 많은 ETF에 있는 대형주는 평소 값도 커서 보정된다. 유사상품(60일 수익률 상관 0.9 이상)·레버리지·인버스·커버드콜은 뺀다.</p>';
+  bind();
 }
 async function loadSector(){
   if (SEC !== null) return SEC;
