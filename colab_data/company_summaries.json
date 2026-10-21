@@ -15532,5 +15532,156 @@
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
+  },
+  "300080": {
+    "company": "플리토",
+    "updated": "2026-10-21",
+    "score": 67,
+    "sector": "기타",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 6,
+      "threat": 14
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "improving",
+      "yoy_pct": 218.0,
+      "rev_yoy_pct": 51.1,
+      "momentum_score": 10.0,
+      "correction_pts": 3
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "이정수 24.20%",
+      "ceo": null,
+      "exec_count": 6
+    },
+    "valuation": {
+      "per": 34.05,
+      "per_txt": "고평가 주의",
+      "pbr": 10.05,
+      "pbr_txt": "고평가 주의",
+      "psr": 5.43,
+      "psr_txt": "고평가 주의",
+      "peg": 0.16,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": 29.55
+    },
+    "valuation_engine": {
+      "fair_value": 25492.0,
+      "band_low": 12323.0,
+      "band_high": 44016.0,
+      "confidence": "LOW",
+      "method_spread": 1.033,
+      "position_scale": 0.5,
+      "buy_signal_allowed": true,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "PER 유효 표본 1.5년 — 결측·적자 제외 후 4년 미만"
+      ],
+      "zone": "VALUE",
+      "gap_pct": -54.5,
+      "quality_gate_passed": true,
+      "action_label": "2차 매수 존 (목표비중 67%까지) · ⚠️ 신뢰도 LOW(편차 1.0배) → 목표비중 50%로 축소 매수",
+      "srim_mid": null,
+      "per_band_mid": 25906.0,
+      "pbr_roe_fair_value": null,
+      "nav_sotp_mid": null
+    }
+  },
+  "229640": {
+    "company": "LS에코에너지",
+    "updated": "2026-10-21",
+    "score": 59,
+    "sector": "전기장비/전력",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 19,
+      "opportunity": 6,
+      "threat": 11
+    },
+    "sector_max": {
+      "strength": 26,
+      "weakness": 24,
+      "opportunity": 28,
+      "threat": 22
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": 50.3,
+      "rev_yoy_pct": 51.0,
+      "momentum_score": 8.5,
+      "correction_pts": 7
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "엘에스전선(주) 63.35%",
+      "ceo": "이상호",
+      "exec_count": 5
+    },
+    "valuation": {
+      "per": 37.46,
+      "per_txt": "고평가 주의",
+      "pbr": 6.61,
+      "pbr_txt": "고평가 주의",
+      "psr": 1.49,
+      "psr_txt": "적정",
+      "peg": 0.74,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 65600.0,
+      "upside": 21.0,
+      "consensus_n": 5,
+      "roe": 18.98
+    },
+    "valuation_engine": {
+      "fair_value": 36713.0,
+      "band_low": 21735.0,
+      "band_high": 48025.0,
+      "confidence": "LOW",
+      "method_spread": 1.836,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 1.836배",
+        "PER 유효 표본 4.1년 — 결측·적자 제외 후 4년 미만"
+      ],
+      "zone": "EXPENSIVE",
+      "gap_pct": 47.6,
+      "quality_gate_passed": true,
+      "action_label": "⚠️ 신뢰도 LOW · EXPENSIVE 참고용 — 밸류에이션 자동 매도 보류",
+      "srim_mid": 26154.883939946856,
+      "per_band_mid": 48025.0,
+      "pbr_roe_fair_value": 36713.0,
+      "nav_sotp_mid": null
+    }
   }
 }
