@@ -204,6 +204,26 @@ a.tk:hover { text-decoration:underline; }
 /* embed 모드(ETF 트래커 iframe 임베드) — KR 자체 헤더 숨김, 이중 헤더 방지 */
 body.embed header.page { display:none; }
 body.embed .wrap { padding-top:8px; }
+/* 약화·강화 네온 배지 (hugusk 2026-10-20 업종지수 RS 카드) — 주황 = 순위는 높은데 실제로 내림, 초록 = 오르면서 순위도 오름 */
+.fgtag{display:inline-block;padding:1px 9px;margin-left:6px;border-radius:11px;
+  font-size:11px;font-weight:800;letter-spacing:.6px;border:1px solid currentColor;
+  vertical-align:middle;line-height:1.6}
+.fgtag.prov{color:#FF9800;background:rgba(255,152,0,.12);
+  text-shadow:0 0 6px rgba(255,152,0,.9);
+  box-shadow:0 0 6px rgba(255,152,0,.55),inset 0 0 6px rgba(255,152,0,.2)}
+.fgtag.conf{color:#22C55E;background:rgba(34,197,94,.12);
+  text-shadow:0 0 6px rgba(34,197,94,.9);
+  box-shadow:0 0 6px rgba(34,197,94,.55),inset 0 0 6px rgba(34,197,94,.2)}
+@media (prefers-reduced-motion:no-preference){
+  .fgtag.prov{animation:fgpulse 2.4s ease-in-out infinite}
+  .fgtag.conf.pulse{animation:fgpulseG 2.4s ease-in-out infinite}
+}
+@keyframes fgpulseG{
+  0%,100%{box-shadow:0 0 6px rgba(34,197,94,.55),inset 0 0 6px rgba(34,197,94,.2)}
+  50%{box-shadow:0 0 13px rgba(34,197,94,.95),inset 0 0 9px rgba(34,197,94,.3)}}
+@keyframes fgpulse{
+  0%,100%{box-shadow:0 0 6px rgba(255,152,0,.55),inset 0 0 6px rgba(255,152,0,.2)}
+  50%{box-shadow:0 0 13px rgba(255,152,0,.95),inset 0 0 9px rgba(255,152,0,.3)}}
 </style>
 </head>
 <body>
@@ -260,7 +280,7 @@ body.embed .wrap { padding-top:8px; }
       <h3 style="margin:0 0 8px;font-size:14px">RS 상위 <span id="krRsCnt"></span> <span class="mut" style="font-weight:400;font-size:12px" id="krRsNote"></span></h3>
       <div class="chips" id="krRsKey">
         <span style="font-size:11px;color:var(--ink-3);align-self:center">기준</span>
-        <span class="chip on" data-k="apex" title="최근강세 순위와 장기추세 순위의 평균">종합주도 <small style="opacity:.65">Apex</small></span><span class="chip" data-k="rs_adj">최근강세 <small style="opacity:.65">Pulse</small></span><span class="chip" data-k="ms">장기추세 <small style="opacity:.65">Mansfield</small></span>
+        <span class="chip on" data-k="apex" title="최근강세 순위와 장기추세 순위의 평균">종합주도 <small style="opacity:.65">Apex</small></span><span class="chip" data-k="rs_adj">최근강세 <small style="opacity:.65">Pulse</small></span><span class="chip" data-k="ms">장기추세 <small style="opacity:.65">Mansfield</small></span><span class="chip" data-k="sortino" title="최근 6개월 평균 수익 ÷ 떨어진 날의 흔들림 — 시장과 비교하지 않음">상대강세 <small style="opacity:.65">Sortino</small></span><span class="chip" data-k="r20x" title="최근 20거래일 수익률 − 벤치 20일 수익률">최근 20일 <small style="opacity:.65">20D</small></span>
       </div>
       <div style="font-size:13px;color:var(--ink-2);margin:6px 0 0;line-height:1.5" id="krRsDesc"></div>
       <div class="chips" id="krRsChips" style="margin-top:6px">
@@ -275,7 +295,7 @@ body.embed .wrap { padding-top:8px; }
       </div>
       <div class="rank" id="krRsList" style="margin-top:8px;max-height:560px;overflow-y:auto;overscroll-behavior:contain"></div>
       <p class="sec-note" style="margin:6px 0 0"><b>종합주도</b> <small>Apex</small> = 최근강세 순위와 장기추세 순위의 평균(0~100, 이 목록 안 상대 순위 — 둘 다 0 이상만 '전체'에 표시) · <b>최근강세</b> <small>Pulse</small> = (KOSPI, 코스닥 업종·코스닥150은 KOSDAQ 대비) 20·60·120·200일 이평 가중 이격 차이 ÷ 하루 변동폭 — 1.0 이상만 '전체'에 표시 ·
-        <b>장기추세</b> <small>Mansfield</small> = (KOSPI, 코스닥 업종·코스닥150은 KOSDAQ 대비 상대강도 ÷ 그 126일 평균 − 1) × 100 — 0 이상(최근 6개월 평균보다 강해지는 중)만 '전체'에 표시 · 필터 칩은 상위 20<br><b>🔥 가격 과열</b> = 30일선 대비 이격이 최근 1년 상위 3% · <b>🟢 가격 눌림</b> = 어제 가격 F&amp;G가 5일 최저·EMA20 아래였고 오늘 반등 · <b>⚠️ 수급 이탈</b> = 값은 올랐는데 외국인+기관 수급 F&amp;G가 사흘 연속 내려 5일 고점보다 10점 이상 빠짐</p>
+        <b>장기추세</b> <small>Mansfield</small> = (KOSPI, 코스닥 업종·코스닥150은 KOSDAQ 대비 상대강도 ÷ 그 126일 평균 − 1) × 100 — 0 이상(최근 6개월 평균보다 강해지는 중)만 '전체'에 표시 · <b>상대강세</b> <small>Sortino</small> = 최근 6개월(126일) 평균 수익 ÷ 떨어진 날의 흔들림(연율화) — 이름과 달리 시장과 비교하지 않는 '자기 자신 기준' 강세, 0 이상만 '전체'에 · <b>최근 20일</b> <small>20D</small> = 최근 20거래일 수익률 − 벤치 20일 수익률(%p), 0 이상만 '전체'에 · 필터 칩은 상위 20<br><b style="color:#FF9800">약화</b> = 고른 기준에선 앞서지만 최근 20일 실제로는 내린 업종(급락장에서 덜 빠져 순위가 오른 것) · <b style="color:#22C55E">강화</b> = 최근 20일 실제로 올랐고 순위도 5일 전보다 오른 업종 · <b>순위 변동</b> = 같은 기준·같은 대표 지수끼리 날짜별 순위(5일 전 → 지금, 작은 선은 최근 11거래일) · <b>🔥 가격 과열</b> = 30일선 대비 이격이 최근 1년 상위 3% · <b>🟢 가격 눌림</b> = 어제 가격 F&amp;G가 5일 최저·EMA20 아래였고 오늘 반등 · <b>⚠️ 수급 이탈</b> = 값은 올랐는데 외국인+기관 수급 F&amp;G가 사흘 연속 내려 5일 고점보다 10점 이상 빠짐</p>
     </div>
     <div class="card" id="secChartCard">
       <div id="secHead" style="font-size:13.5px;margin-bottom:6px"></div>
@@ -365,6 +385,10 @@ body.embed .wrap { padding-top:8px; }
         <input type="number" id="fPeMax" placeholder="PER 이하">
         <input type="number" id="fPbMax" placeholder="PBR 이하" step="0.1">
         <input type="number" id="fDivMin" placeholder="배당% 이상" step="0.5">
+        <select id="fSo" title="외국인+기관 수급 오실레이터 — 그 종목 자신의 최근 77거래일 중 위치">
+          <option value="">수급 오실 전체</option><option value="10">수급 오실 상위 10%</option>
+          <option value="25">수급 오실 상위 25%</option>
+        </select>
         <button class="clear" id="fClear">초기화</button>
         <span class="count" id="count"></span>
       </div>
@@ -977,7 +1001,21 @@ const COLS = [
   {k:'rsi', l:'RSI', f:v=>v==null?'—':v.toFixed(1)},
   {k:'hi52d', l:'52주고가比', f:fmtPct1},
   {k:'amt', l:'거래대금', dim:true, f:v=>v==null?'—':fmtCap(v)},
+  {k:'so_x', l:'수급오실', f:v=>v==null?'—':(v>=1?'<b style="color:var(--up)">':'<span>')+v.toFixed(2)+'배'+(v>=1?'</b>':'</span>')},
 ];
+/* 수급 오실레이터 위치 (hugusk 2026-10-17) — supply_osc.json (kr_screener_client.build_supply_osc).
+   so_x = 현재값 ÷ 자기 77일 상위 10% 기준선(1배 이상이면 상위 10%) */
+let SOSC = null;
+async function loadSosc(){
+  if (SOSC !== null) return SOSC;
+  try { const r = await fetch('supply_osc.json'); SOSC = r.ok ? await r.json() : false; } catch(e){ SOSC = false; }
+  if (SOSC && SOSC.rows) Object.values(DATA.markets).forEach(m => m.stocks.forEach(s => {
+    const r = SOSC.rows[s.code]; if (!r) return;
+    s.so = r[0]; s.so90 = r[1]; s.so75 = r[2]; s.so_rank = r[3];
+    s.so_x = r[1] > 0 ? r[0] / r[1] : null;      // 기준선이 음수면(수급이 계속 빠지는 종목) 배수 의미 없음
+  }));
+  return SOSC;
+}
 let sortKey = 'cap', sortDir = -1, page = 1;
 const PAGE_SIZE = 100;
 
@@ -987,7 +1025,9 @@ function filtered(){
   const sec = val('fSector'), ind = val('fInd');
   const mcap = +val('fMcap'), sign = val('fSign'), rsiF = val('fRsi');
   const peMax = parseFloat(val('fPeMax')), pbMax = parseFloat(val('fPbMax')), divMin = parseFloat(val('fDivMin'));
+  const soF = val('fSo');
   return st.filter(s =>
+    (!soF || (s.so != null && s.so > 0 && s.so >= (soF === '10' ? s.so90 : s.so75))) &&
     (!q || s.name.toLowerCase().includes(q) || s.code.includes(q)) &&
     (!sec || s.sector === sec) && (!ind || s.industry === ind) &&
     (!mcap || (s.cap||0) >= mcap) &&
@@ -1058,9 +1098,14 @@ function initFilters(){
 }
 ['fSearch','fSector','fInd','fMcap','fSign','fRsi','fPeMax','fPbMax','fDivMin'].forEach(id =>
   document.getElementById(id).addEventListener('input', () => { page = 1; renderTable(); }));
+document.getElementById('fSo').addEventListener('input', async ev => {
+  await loadSosc();
+  if (ev.target.value) { sortKey = 'so_x'; sortDir = -1; }
+  page = 1; renderTable();
+});
 document.getElementById('fClear').onclick = () => {
   ['fSearch','fPeMax','fPbMax','fDivMin'].forEach(id => document.getElementById(id).value = '');
-  ['fSector','fInd','fSign','fRsi'].forEach(id => document.getElementById(id).value = '');
+  ['fSector','fInd','fSign','fRsi','fSo'].forEach(id => document.getElementById(id).value = '');
   document.getElementById('fMcap').value = '0';
   page = 1; renderTable();
 };
@@ -2856,11 +2901,41 @@ document.addEventListener('keydown', ev => { if (ev.key==='Escape') closeStock()
 /* ── 업종·테마 지수 (2026-09-30) — 데이터 sector_idx.json (data_collector/sector_index_client) ── */
 let SEC = null, SEC_GRP = '전체', SEC_SORT = {k:'chg', d:-1}, SEC_SEL = null, SEC_CHART = null;
 const RSC = {krRs:{k:'apex', f:'all', dup:true}};   // hugusk는 usRs(미국 업종 ETF)도 있다 — 범위에서 뺐다
-// 기준 이름 (hugusk 2026-10-21) — 한글 이름 + 작은 영문: 종합주도(Apex)·최근강세(Pulse)·장기추세(Mansfield)
+// 기준 이름 (hugusk 2026-10-20) — 한글 이름 + 작은 영문: 종합주도(Apex)·최근강세(Pulse)·장기추세(Mansfield)·상대강세(Sortino)·최근 20일(20D)
 const RS_DESC = {apex:'종합주도 Apex — 최근강세와 장기추세 순위의 평균. 꾸준히 주도하면서 요즘 더 치고 나가는 업종',
                  rs_adj:'최근강세 Pulse — 이평선 이격을 시장과 비교해 하루 변동폭으로 나눈 값. 막 살아나는 업종을 빨리 잡을 때',
-                 ms:'장기추세 Mansfield — 시장 대비 상대강도가 최근 6개월 평균보다 얼마나 높은가. 주도 업종을 꾸준히 확인할 때'};
-const RS_NAME = {apex:'종합주도', rs_adj:'최근강세', ms:'장기추세'};
+                 ms:'장기추세 Mansfield — 시장 대비 상대강도가 최근 6개월 평균보다 얼마나 높은가. 주도 업종을 꾸준히 확인할 때',
+                 sortino:'상대강세 Sortino — 시장과 비교하지 않고, 지난 6개월 덜 빠지며 꾸준히 오른 업종(종합주도 계산엔 넣지 않음)',
+                 r20x:'최근 20일 20D — 최근 20거래일 수익률에서 시장(벤치) 수익률을 뺀 값. 6개월 기준이 놓치는 최근 반등을 볼 때'};
+const RS_NAME = {apex:'종합주도', rs_adj:'최근강세', ms:'장기추세', sortino:'상대강세', r20x:'최근 20일'};
+const RS_HK = {rs_adj:'p', ms:'m', sortino:'s', r20x:'x'};
+// 약화 = 순위는 높은데 실제로 내린 것(주황) · 강화 = 실제로 오르면서 순위도 올라가는 것(초록) — hugusk 2026-10-20
+const weakTag = tip => '<span class="fgtag prov" style="font-size:11px;padding:0 7px" title="'+tip+'">약화</span>';
+const strongTag = tip => '<span class="fgtag conf pulse" style="font-size:11px;padding:0 7px" title="'+tip+'">강화</span>';
+// 순위 이력(서버 hv: 오래된 날→오늘 11칸) — 같은 대표 지수끼리 날짜별 순위. 종합주도는 그날 p·m 순위 평균으로 다시 매긴다
+function rankHist(rows, K){
+  const ok = rows.filter(r => r.hv), out = {};
+  if (!ok.length) return out;
+  const L = ok[0].hv.p.length;
+  ok.forEach(r => out[r.code] = new Array(L).fill(null));
+  for (let j = 0; j < L; j++){
+    let sc;
+    if (K === 'apex'){
+      const both = ok.filter(r => r.hv.p[j] != null && r.hv.m[j] != null), n = both.length, pr = {};
+      ['p','m'].forEach(h => [...both].sort((a,b) => a.hv[h][j] - b.hv[h][j]).forEach((r,i) => pr[r.code] = (pr[r.code]||0) + (i+1)/n/2));
+      sc = both.map(r => [r.code, pr[r.code]]);
+    } else { const h = RS_HK[K]; sc = ok.filter(r => r.hv[h] && r.hv[h][j] != null).map(r => [r.code, r.hv[h][j]]); }
+    sc.sort((a,b) => b[1] - a[1]).forEach(([c],i) => out[c][j] = i+1);
+  }
+  return out;
+}
+function rankTrail(h){                // 작은 선: 위로 갈수록 순위가 오름
+  const v = h.filter(x => x != null); if (v.length < 2) return '';
+  const mx = Math.max(...v), mn = Math.min(...v), W = 54, H = 14, n = h.length;
+  const pts = h.map((x,i) => x == null ? null : [i/(n-1)*W, mx === mn ? H/2 : (x-mn)/(mx-mn)*H]).filter(Boolean);
+  const up = h[h.length-1] <= v[0];
+  return '<svg width="'+W+'" height="'+(H+2)+'" style="vertical-align:middle;margin-left:4px" aria-hidden="true"><polyline fill="none" stroke="'+(up?'var(--up-text)':'var(--down-text)')+'" stroke-width="1.5" points="'+pts.map(p => p[0].toFixed(1)+','+(p[1]+1).toFixed(1)).join(' ')+'"/></svg>';
+}
 function addApex(rows){            // Pulse·Mansfield 순위(%)의 평균 × 100 — 둘 다 있는 지수만
   const ok = rows.filter(r => r.rs_adj != null && r.ms != null), n = ok.length;
   const pr = k => { const m = {}; [...ok].sort((a,b) => a[k] - b[k]).forEach((r,i) => m[r.code] = (i+1)/n); return m; };
@@ -2884,7 +2959,7 @@ function renderRsCard(pid, rows, sel, onPick){
   }
   addApex(rows);
   document.getElementById(pid+'Desc').textContent = RS_DESC[st.k];
-  const K = st.k, KN = RS_NAME[K], MIN = K === 'ms' ? 0 : K === 'apex' ? 0 : 1.0;
+  const K = st.k, KN = RS_NAME[K], MIN = K === 'rs_adj' ? 1.0 : 0;
   const base = rows.filter(r => r[K] != null && (!st.dup || !r.dup));
   let rs = K === 'apex' ? base.filter(r => r.rs_adj >= 0 && r.ms >= 0) : base.filter(r => r[K] >= MIN);
   const jump = st.f === 'jump';
@@ -2893,21 +2968,34 @@ function renderRsCard(pid, rows, sel, onPick){
   else rs.sort((a,b) => b[K] - a[K]);
   document.getElementById(pid+'Cnt').innerHTML = jump ? '' :
     '<b>'+rs.length+'</b>개 <span class="mut" style="font-weight:400;font-size:12px">('+(K === 'apex' ? '최근강세·장기추세 둘 다 0 이상' : KN+' ≥ '+MIN.toFixed(1))+' · 대표 '+base.length+'개 중)</span>';
-  const fmt = v => K === 'apex' ? v.toFixed(0) : (v>0?'+':'')+v.toFixed(K === 'ms' ? 1 : 2);
+  const RH = rankHist(base, K), hd = (SEC||{}).hd || [];
+  const fmt = v => K === 'apex' ? v.toFixed(0) : (v>0?'+':'')+v.toFixed(K === 'ms' ? 1 : 2)+(K === 'r20x' ? '%p' : '');
   const sg = (v, d) => (v>0?'+':'')+v.toFixed(d);   // 지금 기준이 아닌 쪽만 괄호에 (hugusk 10-21)
-  const both = r => [K !== 'rs_adj' && r.rs_adj != null ? '최근강세 '+sg(r.rs_adj,2) : '', K !== 'ms' && r.ms != null ? '장기추세 '+sg(r.ms,1) : ''].filter(Boolean).join(' · ');
+  const both = r => [K !== 'rs_adj' && r.rs_adj != null ? '최근강세 '+sg(r.rs_adj,2) : '', K !== 'ms' && r.ms != null ? '장기추세 '+sg(r.ms,1) : '',
+    K !== 'sortino' && r.sortino != null ? '상대강세 '+r.sortino.toFixed(2) : ''].filter(Boolean).join(' · ');
+  const r20 = r => r.r20 == null ? '' : ' · 20일 <b style="color:var(--'+(r.r20>0?'up':r.r20<0?'down':'ink-3')+'-text)">'+sg(r.r20,1)+'%</b>';
+  const shield = r => { const h = RH[r.code], up5 = h && h[h.length-1] != null && h[h.length-6] != null ? h[h.length-6] - h[h.length-1] : null;
+    if (K !== 'r20x' && r[K] != null && r[K] > 0 && r.r20 != null && r.r20 < 0)
+      return weakTag('순위는 높지만 최근 20일 실제로는 '+r.r20.toFixed(1)+'% 내렸다 — 시장보다 덜 빠져서 앞선 것');
+    if (r.r20 != null && r.r20 > 0 && up5 != null && up5 > 0)
+      return strongTag('최근 20일 '+r.r20.toFixed(1)+'% 올랐고 순위도 5일 전보다 '+up5+'계단 올랐다');
+    return ''; };
+  const rkh = r => { const h = RH[r.code]; if (!h) return ''; const now = h[h.length-1], p5 = h[h.length-6];
+    if (now == null || p5 == null) return '';
+    const d = p5 - now, arrow = d > 0 ? '<b style="color:var(--up-text)">▲'+d+'</b>' : d < 0 ? '<b style="color:var(--down-text)">▼'+(-d)+'</b>' : '<span class="mut">–</span>';
+    return '<div class="mut" style="font-size:11.5px;margin-top:2px" title="'+(hd.length ? hd[0].slice(4,6)+'/'+hd[0].slice(6)+'~'+hd[hd.length-1].slice(4,6)+'/'+hd[hd.length-1].slice(6)+' 날짜별 순위: ' : '')+h.map(x => x ?? '—').join(' → ')+'">'+
+      '5일 전 '+p5+'위 → 지금 '+now+'위 '+arrow+rankTrail(h)+'</div>'; };
   const host = document.getElementById(pid+'List');
   host.innerHTML = (st.f === 'all' ? rs : rs.slice(0,20)).map((r,i) => {
     const f = (r.fs && r.fs.length ? r.fs : r.f) || [];
     return '<div class="row" style="grid-template-columns:22px 1fr auto;cursor:pointer'+(sel===r.code?';background:var(--hover-wash)':'')+'" data-c="'+r.code+'">'+
       '<span class="n">'+(i+1)+'</span>'+
       '<span class="nm"><b>'+esc(r.name)+'</b>'+(st.dup && r.sim ? ' <span class="mut" style="font-size:11px">+'+r.sim+' 유사</span>' : '')+
-        ' <span class="mut" style="font-size:11px">'+esc(r.grp)+'</span> '+leadBadge(r.badge, r)+'</span>'+
+        ' <span class="mut" style="font-size:11px">'+esc(r.grp)+'</span> '+leadBadge(r.badge, r)+shield(r)+rkh(r)+'</span>'+
       '<span class="v" style="font-size:12px;white-space:nowrap">'+
         (jump ? '⚡ <b style="color:var(--up-text)">'+(r.rs_dchg>0?'+':'')+r.rs_dchg.toFixed(2)+'</b> <span class="mut">(최근강세 '+(r.rs_adj??0).toFixed(2)+')</span>'
               : KN+' <b style="color:var(--'+(r[K]>0?'up':'down')+'-text)">'+fmt(r[K])+'</b>'+
-                ' <span class="mut">('+both(r)+')</span>')+
-        (r.rs != null ? ' · 초과 '+(r.rs>0?'+':'')+r.rs.toFixed(1)+'%' : '')+
+                ' <span class="mut">('+both(r)+')</span>')+r20(r)+
         ' · '+(r.rs_streak ? r.rs_streak+(r.rs_streak>=15?'일+':'일')+' 연속' : '연속 —')+
         ' · F&G'+(r.fs && r.fs.length ? '(수급) ' : ' ')+(f.length ? f[f.length-1].toFixed(1) : '<span class="mut">—</span>')+
       '</span></div>'; }).join('') || '<div class="sec-note">'+(jump ? '전일 값이 쌓이면 표시됩니다.' : '조건에 맞는 지수가 없습니다 — 주도 업종이 없는 장.')+'</div>';
@@ -2980,7 +3068,7 @@ async function renderSector(){
   const k = SEC_SORT.k, dir = SEC_SORT.d;
   rows.sort((a,b) => k === 'name' ? dir * a.name.localeCompare(b.name) : dir * ((a[k] ?? -1e9) - (b[k] ?? -1e9)));
   note.textContent = rows.length + '개 · 기준 ' + d.asof + (rows.some(r => r.prov) ? ' · 장중 잠정(현재가)' : '');
-  const cols = [['name','지수','l'],['grp','분류','l'],['c','현재'],['chg','등락'],['r5','1주'],['r20','1개월'],['r60','3개월'],['rs_adj','최근강세'],['ms','장기추세'],['fsl','F&G(수급)'],['gap','EMA20 괴리']];
+  const cols = [['name','지수','l'],['grp','분류','l'],['c','현재'],['chg','등락'],['r5','1주'],['r20','1개월'],['r60','3개월'],['rs_adj','최근강세'],['ms','장기추세'],['r20x','20일 초과'],['fsl','F&G(수급)'],['gap','EMA20 괴리']];
   const pc = v => v == null ? '—' : '<span style="color:var(--'+(v>0?'up':v<0?'down':'ink-3')+'-text)">'+fmtPct(v)+'</span>';
   tb.innerHTML = '<thead><tr>' + cols.map(([c,l,al]) => '<th class="'+(al||'')+'" data-k="'+c+'">'+l+(SEC_SORT.k===c?(SEC_SORT.d>0?' ▲':' ▼'):'')+'</th>').join('') + '</tr></thead><tbody>' +
     rows.map(r => '<tr style="cursor:pointer'+(SEC_SEL===r.code?';background:var(--hover-wash)':'')+'" data-c="'+r.code+'">'+
@@ -2988,6 +3076,7 @@ async function renderSector(){
       '<td>'+fmtNum(r.c)+'</td><td>'+pc(r.chg)+'</td><td>'+pc(r.r5)+'</td><td>'+pc(r.r20)+'</td><td>'+pc(r.r60)+'</td>'+
       '<td>'+(r.rs_adj==null?'—':'<span style="color:var(--'+(r.rs_adj>0?'up':'down')+'-text)">'+r.rs_adj.toFixed(2)+'</span>')+'</td>'+
       '<td>'+(r.ms==null?'—':'<span style="color:var(--'+(r.ms>0?'up':'down')+'-text)">'+(r.ms>0?'+':'')+r.ms.toFixed(1)+'</span>')+'</td>'+
+      '<td>'+pc(r.r20x)+'</td>'+
       '<td>'+(r.fsl==null?'<span style="color:var(--ink-3);font-size:11px" title="구성 종목 수급 이력이 시총 70%·5종목 미만">수급 데이터 부족</span>':'<b>'+r.fsl.toFixed(1)+'</b>')+'</td>'+
       '<td>'+(r.gap==null?'—':pc(r.gap))+'</td></tr>').join('') + '</tbody>';
   tb.querySelectorAll('th').forEach(th => th.onclick = () => {
@@ -3080,7 +3169,7 @@ function renderAll(){
   if (VIEW === 'rs') renderRs();
   if (VIEW === 'eps') renderEps();
   if (VIEW === 'valuation') renderValuation();
-  if (VIEW === 'screener') renderTable();
+  if (VIEW === 'screener') { renderTable(); if (SOSC === null) loadSosc().then(() => VIEW === 'screener' && renderTable()); }
 }
 let rsz;
 addEventListener('resize', () => { clearTimeout(rsz); rsz = setTimeout(() => { if (VIEW==='heatmap') renderHeatmap(); }, 200); });
