@@ -1128,12 +1128,12 @@
   "196170": {
     "company": "알테오젠",
     "sector": "바이오",
-    "updated": "2026-10-17",
-    "score": 62,
+    "updated": "2026-10-21",
+    "score": 60,
     "breakdown": {
       "strength": 18,
       "weakness": 9,
-      "opportunity": 23,
+      "opportunity": 21,
       "threat": 12
     },
     "sector_max": {
@@ -1163,41 +1163,46 @@
       "hope_score": 16,
       "quadrant": "현실 강함  🟢"
     },
-    "extra": null,
+    "extra": {
+      "employees": null,
+      "top_shareholder": "박순재 19.10%",
+      "ceo": "전태연\n주1)",
+      "exec_count": 14
+    },
     "valuation": {
-      "per": 85.59,
+      "per": 88.51,
       "per_txt": "고평가 주의",
-      "pbr": 30.6,
+      "pbr": 31.65,
       "pbr_txt": "고평가 주의",
-      "psr": 64.17,
+      "psr": 66.36,
       "psr_txt": "고평가 주의",
       "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
       "tgt": 455000.0,
-      "upside": 94.4,
+      "upside": 88.0,
       "consensus_n": 4,
       "roe": 36.14
     },
     "valuation_engine": {
-      "fair_value": 173137.0,
+      "fair_value": 173050.0,
       "band_low": 29207.0,
-      "band_high": 650115.0,
+      "band_high": 648810.0,
       "confidence": "LOW",
-      "method_spread": 19.094,
+      "method_spread": 19.056,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 19.094배",
+        "방법 간 편차 19.056배",
         "PER 유효 표본 1.5년 — 결측·적자 제외 후 4년 미만",
         "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
       ],
       "zone": "FAIR",
-      "gap_pct": 35.2,
+      "gap_pct": 39.8,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 34047.580568301506,
-      "per_band_mid": 650115.0,
+      "per_band_mid": 648810.0,
       "pbr_roe_fair_value": 46861.0,
       "nav_sotp_mid": null
     }
