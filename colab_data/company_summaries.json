@@ -5856,13 +5856,13 @@
   },
   "043260": {
     "company": "성호전자",
-    "updated": "2026-10-17",
-    "score": 56,
+    "updated": "2026-10-21",
+    "score": 53,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 21,
       "weakness": 21,
-      "opportunity": 6,
+      "opportunity": 3,
       "threat": 8
     },
     "sector_max": {
@@ -5888,11 +5888,11 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 5.38,
+      "per": 5.55,
       "per_txt": "저평가",
-      "pbr": 4.74,
+      "pbr": 4.89,
       "pbr_txt": "저평가",
-      "psr": 7.74,
+      "psr": 7.98,
       "psr_txt": "고평가 주의",
       "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
@@ -5902,7 +5902,7 @@
       "roe": 85.9
     },
     "valuation_engine": {
-      "fair_value": 19528.0,
+      "fair_value": 19690.0,
       "band_low": 16129.0,
       "band_high": 35394.0,
       "confidence": "LOW",
@@ -5915,13 +5915,19 @@
         "PER 유효 표본 3.5년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "FAIR",
-      "gap_pct": 40.3,
+      "gap_pct": 43.5,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 18801.926488298675,
-      "per_band_mid": 19528.0,
+      "per_band_mid": 19690.0,
       "pbr_roe_fair_value": 35394.0,
       "nav_sotp_mid": null
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "서룡전자㈜ 38.35%",
+      "ceo": null,
+      "exec_count": 4
     }
   },
   "241710": {
