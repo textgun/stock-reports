@@ -564,9 +564,10 @@ function renderRsView() {
   const host = document.getElementById('rs-host');
   host.innerHTML = '';
   const div = document.createElement('div'); div.className='card';
-  let exLev = true, grpSim = true, maSeg = 'all', seg = 'all', today = false, aumSeg = 'all';
+  let exLev = true, grpSim = true, maSeg = 'all', seg = 'all', today = false, aumSeg = 'all', basis = 'pulse', rankTbl = false;
   const isLev = e => /레버리지|인버스|2X|3X|선물/i.test(e.name);
-  div.innerHTML = `<h3>최근강세 상위 ETF <small style="font-weight:400;opacity:.65">Pulse RS</small> <span class="mut" style="font-weight:400">최근강세(Pulse RS) 기반 자체 종합점수 · 전체=종합점수 상위30 · 이평선/정배열 필터는 그 조건을 만족하는 상위 목록 · 파킹형 제외</span>
+  div.innerHTML = `<div class="chips" style="margin-bottom:8px"><span class="chip on" data-sub="pulse" style="font-size:13.5px;padding:5px 14px">최근강세 <small style="font-weight:400;opacity:.65">Pulse</small></span><span class="chip" data-sub="sortino" style="font-size:13.5px;padding:5px 14px">상대강세 <small style="font-weight:400;opacity:.65">Sortino</small></span></div>
+    <h3><span class="rs-title" style="white-space:nowrap">최근강세 상위 ETF</span> <span class="mut rs-sub" style="font-weight:400;font-size:13px"></span>
       <span class="chips" style="margin-left:auto">
         <span class="chip on" data-seg="all">전체</span>
         <span class="chip" data-seg="kr">국내주식중심</span>
@@ -582,12 +583,72 @@ function renderRsView() {
         <span class="chip on" data-aum="all">AUM 전체</span>
         <span class="chip" data-aum="up" title="당일 AUM 증가(전일 대비) — 자금유입·가격상승으로 순자산 증가">AUM 증가</span>
         <span class="chip" data-aum="down" title="당일 AUM 감소(전일 대비) — 자금유출·가격하락으로 순자산 감소">AUM 감소</span>
+        <span class="chip" data-aum="streak" title="AUM이 며칠 연속 늘고 있는 순 — 연속일이 같으면 위 기준(최근강세·상대강세) 순">AUM 연속증가 순</span>
         <span class="chip on" data-lev="1">레버리지 제외</span>
         <span class="chip on" data-sim="1">유사상품 묶기</span>
         <span class="chip" data-today="1" title="전일 대비 상대강도가 급등한 ETF — 정렬 기준을 오늘의 변화량으로 전환">⚡당일 급등</span>
+        <span class="chip" data-rtbl="1" title="최근 10거래일 날짜별 상대강세(Sortino) 순위 — 지금 상위 20개가 열흘 동안 몇 위였는지">10일 순위표</span>
       </span></h3>
     <p class="note" style="margin:4px 0 8px">σ = 시장 내 상대강도 표준편차 단위 · 회전 = 5일 평균 거래대금÷AUM · 유입 = 당일 자금유입÷AUM · N일 = 벤치마크 초과 지속. 행 클릭 → 구성종목 추이</p>
-    <div class="rslist"></div>`;
+    <div class="rslist"></div><div class="rstbl"></div>`;
+  const renderList = rows => {
+    // 역배열은 약한 순 목록이라 rs_z가 전부 음수 — 그대로면 막대가 모두 0이 된다. 세기(절대값)로 그린다.
+    const barVal = e => basis === 'sortino' ? Math.max(e.sortino ?? 0, 0) : today ? Math.max(e.rs_dchg_z ?? e.rs_dchg ?? 0, 0)
+         : maSeg === 'inverse' ? Math.abs(e.rs_z ?? 0) : Math.max(e.rs_z ?? 0, 0);
+    const max = rows.length ? Math.max(...rows.map(barVal), 0.1) : 1;
+    const aumTag = e => e.aum_streak && Math.abs(e.aum_streak) >= 2
+            ? ` · <b style="color:var(--${e.aum_streak>0?'up':'down'})">AUM ${Math.abs(e.aum_streak)}일 ${e.aum_streak>0?'증가':'감소'}</b>` : '';
+    div.querySelector('.rslist').innerHTML = rows.map((e,i) => {
+      const main = basis === 'sortino' ? '상대강세 '+fmt(e.sortino,2) : today
+        ? (e.rs_dchg_z!=null ? (e.rs_dchg_z>0?'+':'')+fmt(e.rs_dchg_z,1)+'σ' : (e.rs_dchg>0?'+':'')+fmt(e.rs_dchg,1))
+        : (e.rs_z!=null ? (e.rs_z>0?'+':'')+fmt(e.rs_z,1)+'σ' : '');
+      const sub = basis === 'sortino'
+        ? (e.rs_z!=null ? '최근강세 '+(e.rs_z>0?'+':'')+fmt(e.rs_z,1)+'σ' : '') + ' · RS ' + (e.rs_pct ?? '–') + aumTag(e)
+        : today
+        ? '누적 ' + (e.rs_z!=null ? (e.rs_z>0?'+':'')+fmt(e.rs_z,1)+'σ' : '–') + ' · RS ' + (e.rs_pct ?? '–')
+        : 'RS ' + (e.rs_pct ?? '–') +
+          (e.rs_to!=null ? ' · 회전'+fmt(e.rs_to,1)+'%' : '') +
+          (e.rs_ni!=null ? ' · 유입'+fmt(e.rs_ni,2)+'%' : '') +
+          (aumSeg!=='all' && e.flow && e.flow.w1!=null ? ' · 주간AUM'+(e.flow.w1>=0?'+':'−')+fmtAum(Math.abs(e.flow.w1)) : '') +
+          (e.rs_streak ? ' · '+e.rs_streak+'일' : '') +
+          // AUM 연속 증감 — 1일 연속은 노이즈라 2일 이상만 표시(강의 기준: 4~5일 연속 증가가 주도,
+          // 정배열인데 3일 이상 감소는 위험 신호). 부호로 방향, 색으로 강조.
+          aumTag(e);
+      return `<div class="rsrow" onclick="gotoTrend('${e.code}')">
+        <div class="r1"><span class="n">${i+1}</span><b>${esc(e.name)}</b>${
+          grpSim && e.rs_sim ? ` <span class="mut" style="font-size:10.5px; border:1px solid var(--border); border-radius:8px; padding:0 5px">유사 +${e.rs_sim}</span>` : ''}
+          <span class="${(e.chg||0)>=0?'up':'down'}">${fmtPct(e.chg,1)}</span>
+          <span class="mut" style="font-size:11.5px">${esc(e.issuer||'')} · AUM ${fmtAum(e.aum)}</span></div>
+        <div class="r2">
+          <span class="bar"><i style="width:${barVal(e)/max*100}%; background:var(--up); opacity:.75"></i></span>
+          <span class="v"><b>${main}</b><span class="mut"> ${sub}</span></span>
+        </div>
+      </div>`;
+    }).join('') || '<div class="note">조건에 맞는 ETF 없음 (' + (today ? '당일 급등 데이터 없음 — 다음 수집부터 채워질 수 있음' : '선택한 필터 기준') + ')</div>';
+    renderRankTbl();
+  };
+  // 10일 순위표 (hugusk 2026-10-16) — 서버가 날짜별 상대강세 상위 60개(이평 조건별)를 내보내고, 여기서 같은 거르기(레버리지·유사상품·국내/해외)를 적용
+  const renderRankTbl = () => {
+    const box = div.querySelector('.rstbl');
+    if (!rankTbl) { box.innerHTML = ''; return; }
+    const key = ['ma10','ma20','ma50'].includes(maSeg) ? maSeg : 'all';
+    const R = (DATA.sortino_rank || {})[key] || [];
+    if (!R.length) { box.innerHTML = '<div class="note">순위 자료 없음</div>'; return; }
+    const byCode = {}; DATA.etfs.forEach(e => byCode[e.code] = e);
+    const segOk2 = e => seg === 'all' || (seg === 'kr' && e.mkt_class === '국내') || (seg === 'fo' && e.mkt_class === '해외');
+    const pass = c => { const e = byCode[c]; return e && segOk2(e) && (!exLev || !isLev(e)) && (!grpSim || !e.rs_dup); };
+    const days = R.map(([d, list]) => { const m = {}; list.filter(pass).slice(0, 20).forEach((c, i) => m[c] = i + 1); return [d, m]; });
+    const top = Object.entries(days[days.length-1][1]).sort((a,b) => a[1]-b[1]).map(x => x[0]);
+    const lbl = {all:'전체', ma10:'10일선 위', ma20:'20일선 위', ma50:'10주선(50일) 위'}[key];
+    box.innerHTML = '<h4 style="margin:14px 0 4px">10일 순위표 — 상대강세 Sortino 6개월 · '+lbl+' (마지막 날 상위 20)</h4>'+
+      '<div style="overflow-x:auto"><table class="tbl" style="font-size:12px"><thead><tr><th style="text-align:left">ETF</th>'+
+      days.map(([d]) => '<th>'+d.slice(5).replace('-','/')+'</th>').join('')+'</tr></thead><tbody>'+
+      top.map(c => '<tr style="cursor:pointer" onclick="gotoTrend(\''+c+'\')"><td style="text-align:left;white-space:nowrap">'+esc(byCode[c].name)+'</td>'+
+        days.map(([d, m], i) => { const r = m[c], pr = i ? days[i-1][1][c] : null;
+          const col = r == null ? 'var(--ink-3)' : (i && pr == null) ? 'var(--up)' : 'var(--ink-1)';
+          return '<td style="text-align:center;color:'+col+(r!=null&&r<=5?';font-weight:700':'')+'">'+(r ?? '–')+'</td>'; }).join('')+'</tr>').join('')+
+      '</tbody></table></div><p class="note" style="margin-top:4px">숫자 = 그날 순위(20위 밖 –) · 빨강 = 그날 새로 20위 안에 들어옴 · 국내/해외·레버리지·유사상품 거르기는 위 칩과 같게 · 각 날짜까지의 126거래일로 다시 계산</p>';
+  };
   const render = () => {
     const segOk = e => seg === 'all'
       || (seg === 'kr' && e.mkt_class === '국내' && e.asset_class === '주식')
@@ -596,7 +657,10 @@ function renderRsView() {
     // 변경 — 원본과 기준이 달라 같은 칩인데 후보가 83 vs 167종목으로 갈렸다(2026-09-18 실측).
     const aumOk = e => aumSeg === 'all'
       || (aumSeg === 'up' && (e.aum_streak ?? 0) > 0)
-      || (aumSeg === 'down' && (e.aum_streak ?? 0) < 0);
+      || (aumSeg === 'down' && (e.aum_streak ?? 0) < 0)
+      || (aumSeg === 'streak' && (e.aum_streak ?? 0) > 0);
+    // AUM 연속증가 순 — 연속일 긴 순, 같으면 기존 순서(정렬이 안정적이라 앞선 기준이 유지된다)
+    const byStreak = rs => aumSeg === 'streak' ? rs.sort((a,b) => (b.aum_streak ?? 0) - (a.aum_streak ?? 0)) : rs;
     // 당일 급등 예외 — RS가 게이트 미만이어도 오늘 상대강도가 급등(≥1.5σ)한 ETF는 목록에 포함
     // (조정장에서도 시장 변화를 빠르게 포착하기 위함)
     const dchgSurge = e => e.rs_dchg_z != null && e.rs_dchg_z >= 1.5;
@@ -619,6 +683,14 @@ function renderRsView() {
         && (!exLev || !isLev(e))
         && (!grpSim || !e.rs_dup));
     const hasDchg = rows.some(e => e.rs_dchg != null);
+    if (basis === 'sortino') {                     // 상대강세 6개월 — 이평 조건만 쓰고 종합점수 게이트(≥70)는 쓰지 않는다
+      const sMa = {ma10:0, ma20:1, ma50:2};
+      rows = DATA.etfs.filter(e => e.sortino != null && segOk(e) && aumOk(e)
+        && (maSeg !== 'rise' || (e.chg != null && e.chg > 0))
+        && (maSeg in sMa ? (e.sortino_ma || [])[sMa[maSeg]] === true : maOk(e))
+        && (!exLev || !isLev(e)) && (!grpSim || !e.rs_dup)).sort((a,b) => b.sortino - a.sortino);
+      return renderList(byStreak(rows).slice(0, 30));
+    }
     rows = today
       ? (hasDchg
           ? rows.filter(e => e.rs_dchg != null).sort((a,b) => (b.rs_dchg_z ?? b.rs_dchg) - (a.rs_dchg_z ?? a.rs_dchg))
@@ -626,37 +698,7 @@ function renderRsView() {
       : maSeg === 'inverse'
         ? rows.sort((a,b) => (a.rs_adj ?? 0) - (b.rs_adj ?? 0))   // 역배열: 가장 약한 순
         : rows.sort((a,b) => (b.rs_score ?? b.rs_adj) - (a.rs_score ?? a.rs_adj));
-    rows = rows.slice(0, 30);
-    // 역배열은 약한 순 목록이라 rs_z가 전부 음수 — 그대로면 막대가 모두 0이 된다. 세기(절대값)로 그린다.
-    const barVal = e => today ? Math.max(e.rs_dchg_z ?? e.rs_dchg ?? 0, 0)
-         : maSeg === 'inverse' ? Math.abs(e.rs_z ?? 0) : Math.max(e.rs_z ?? 0, 0);
-    const max = rows.length ? Math.max(...rows.map(barVal), 0.1) : 1;
-    div.querySelector('.rslist').innerHTML = rows.map((e,i) => {
-      const main = today
-        ? (e.rs_dchg_z!=null ? (e.rs_dchg_z>0?'+':'')+fmt(e.rs_dchg_z,1)+'σ' : (e.rs_dchg>0?'+':'')+fmt(e.rs_dchg,1))
-        : (e.rs_z!=null ? (e.rs_z>0?'+':'')+fmt(e.rs_z,1)+'σ' : '');
-      const sub = today
-        ? '누적 ' + (e.rs_z!=null ? (e.rs_z>0?'+':'')+fmt(e.rs_z,1)+'σ' : '–') + ' · RS ' + (e.rs_pct ?? '–')
-        : 'RS ' + (e.rs_pct ?? '–') +
-          (e.rs_to!=null ? ' · 회전'+fmt(e.rs_to,1)+'%' : '') +
-          (e.rs_ni!=null ? ' · 유입'+fmt(e.rs_ni,2)+'%' : '') +
-          (aumSeg!=='all' && e.flow && e.flow.w1!=null ? ' · 주간AUM'+(e.flow.w1>=0?'+':'−')+fmtAum(Math.abs(e.flow.w1)) : '') +
-          (e.rs_streak ? ' · '+e.rs_streak+'일' : '') +
-          // AUM 연속 증감 — 1일 연속은 노이즈라 2일 이상만 표시(강의 기준: 4~5일 연속 증가가 주도,
-          // 정배열인데 3일 이상 감소는 위험 신호). 부호로 방향, 색으로 강조.
-          (e.aum_streak && Math.abs(e.aum_streak) >= 2
-            ? ` · <b style="color:var(--${e.aum_streak>0?'up':'down'})">AUM ${Math.abs(e.aum_streak)}일 ${e.aum_streak>0?'증가':'감소'}</b>` : '');
-      return `<div class="rsrow" onclick="gotoTrend('${e.code}')">
-        <div class="r1"><span class="n">${i+1}</span><b>${esc(e.name)}</b>${
-          grpSim && e.rs_sim ? ` <span class="mut" style="font-size:10.5px; border:1px solid var(--border); border-radius:8px; padding:0 5px">유사 +${e.rs_sim}</span>` : ''}
-          <span class="${(e.chg||0)>=0?'up':'down'}">${fmtPct(e.chg,1)}</span>
-          <span class="mut" style="font-size:11.5px">${esc(e.issuer||'')} · AUM ${fmtAum(e.aum)}</span></div>
-        <div class="r2">
-          <span class="bar"><i style="width:${barVal(e)/max*100}%; background:var(--up); opacity:.75"></i></span>
-          <span class="v"><b>${main}</b><span class="mut"> ${sub}</span></span>
-        </div>
-      </div>`;
-    }).join('') || '<div class="note">조건에 맞는 ETF 없음 (' + (today ? '당일 급등 데이터 없음 — 다음 수집부터 채워질 수 있음' : '선택한 필터 기준') + ')</div>';
+    renderList(byStreak(rows).slice(0, 30));
   };
   div.querySelectorAll('.chip[data-seg]').forEach(ch => ch.onclick = () => {
     seg = ch.dataset.seg;
@@ -682,7 +724,22 @@ function renderRsView() {
   div.querySelector('.chip[data-today]').onclick = ev => {
     today = !today; ev.target.classList.toggle('on', today); render();
   };
-  render();
+  // 하위 탭 최근강세 / 상대강세 (hugusk 2026-10-16) — 같은 필터 칩을 그대로 쓰고 순위 기준만 바꾼다
+  const SUB = {pulse:['최근강세 상위 ETF','최근강세 Pulse — 이평선 이격을 시장과 비교해 하루 변동폭으로 나눈 값, 막 살아나는 ETF를 빨리 잡을 때 · 이를 바탕으로 한 자체 종합점수 · 전체=종합점수 상위30 · 이평선/정배열 필터는 그 조건을 만족하는 상위 목록 · 파킹형 제외'],
+               sortino:['상대강세 상위 ETF','상대강세 Sortino — 이름과 달리 시장과 비교하지 않는 자기 기준 강세: 최근 6개월(126거래일) 평균 수익 ÷ 떨어진 날의 흔들림(연율화) · 주식형만(파킹형 제외) · 전 거래일 종가 기준']};
+  const setSub = k => { basis = k;
+    div.querySelectorAll('.chip[data-sub]').forEach(x => x.classList.toggle('on', x.dataset.sub === k));
+    div.querySelector('.rs-title').textContent = SUB[k][0]; div.querySelector('.rs-sub').textContent = SUB[k][1];
+    const rt = div.querySelector('.chip[data-rtbl]'); rt.style.display = k === 'sortino' ? '' : 'none';
+    if (k !== 'sortino' && rankTbl) { rankTbl = false; rt.classList.remove('on'); }
+    const tc = div.querySelector('.chip[data-today]'); tc.style.display = k === 'sortino' ? 'none' : '';   // 당일 급등은 최근강세 전용
+    if (k === 'sortino' && today) { today = false; tc.classList.remove('on'); }
+    render(); };
+  div.querySelectorAll('.chip[data-sub]').forEach(ch => ch.onclick = () => setSub(ch.dataset.sub));
+  div.querySelector('.chip[data-rtbl]').onclick = ev => {
+    rankTbl = !rankTbl; ev.target.classList.toggle('on', rankTbl); render();
+  };
+  setSub('pulse');
   host.appendChild(div);
 }
 /* 매매동향 데이터 출처 배지 — pdf=전체 구성종목 / n10=네이버 상위10 기준(리밸런싱 순증감) */
