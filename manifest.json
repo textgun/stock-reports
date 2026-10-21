@@ -10411,5 +10411,23 @@
     "reality_score": 25,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-21",
+    "filename": "128940_한미약품/2026-10-21_한미약품_128940.html",
+    "company": "한미약품",
+    "ticker": "128940",
+    "score": 52,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 9,
+      "opportunity": 8,
+      "threat": 17
+    },
+    "reality_score": 40,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
