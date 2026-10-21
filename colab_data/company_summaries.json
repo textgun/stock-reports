@@ -15456,5 +15456,81 @@
       "pbr_roe_fair_value": 14517.0,
       "nav_sotp_mid": null
     }
+  },
+  "003670": {
+    "company": "포스코퓨처엠",
+    "updated": "2026-10-21",
+    "score": 35,
+    "sector": "2차전지",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 13,
+      "opportunity": 10,
+      "threat": 7
+    },
+    "sector_max": {
+      "strength": 20,
+      "weakness": 15,
+      "opportunity": 35,
+      "threat": 30
+    },
+    "earnings": {
+      "qoq_trend": "improving",
+      "yoy_pct": 3366.2,
+      "rev_yoy_pct": 2.8,
+      "momentum_score": 8.5,
+      "correction_pts": 3
+    },
+    "trade": {
+      "export_yoy": 15.19,
+      "import_yoy": 8.73,
+      "hs_code": "3811",
+      "base_month": "202609",
+      "status": null,
+      "trade_score": 6,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "포스코홀딩스(주) 58.20%",
+      "ceo": "엄기천",
+      "exec_count": 7
+    },
+    "valuation": {
+      "per": 356.52,
+      "per_txt": "고평가 주의",
+      "pbr": 3.82,
+      "pbr_txt": "고평가 주의",
+      "psr": 5.59,
+      "psr_txt": "고평가 주의",
+      "peg": 0.11,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 255400.0,
+      "upside": 41.6,
+      "consensus_n": 5,
+      "roe": 1.15
+    },
+    "valuation_engine": {
+      "fair_value": 111189.0,
+      "band_low": 34778.0,
+      "band_high": 279079.0,
+      "confidence": "LOW",
+      "method_spread": 5.394,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 5.394배",
+        "PER 유효 표본 1.5년 — 결측·적자 제외 후 4년 미만"
+      ],
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (18점 < 기준 20점), 존과 무관하게 회피",
+      "srim_mid": null,
+      "per_band_mid": 34778.0,
+      "pbr_roe_fair_value": null,
+      "nav_sotp_mid": null
+    }
   }
 }
