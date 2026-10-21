@@ -55551,5 +55551,54 @@
         }
       }
     ]
+  },
+  "003670": {
+    "company_name": "포스코퓨처엠",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 36,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 6,
+          "weakness": 13,
+          "opportunity": 10,
+          "threat": 7
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 37,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 5,
+          "weakness": 15,
+          "opportunity": 10,
+          "threat": 7
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 34,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 13,
+          "opportunity": 10,
+          "threat": 7
+        }
+      },
+      {
+        "date": "2026-10-21",
+        "total_score": 35,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 5,
+          "weakness": 13,
+          "opportunity": 10,
+          "threat": 7
+        }
+      }
+    ]
   }
 }
