@@ -10465,5 +10465,23 @@
     "reality_score": 45,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-21",
+    "filename": "475150_SK이터닉스/2026-10-21_SK이터닉스_475150.html",
+    "company": "SK이터닉스",
+    "ticker": "475150",
+    "score": 31,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 17,
+      "opportunity": 10,
+      "threat": 2
+    },
+    "reality_score": 18,
+    "hope_score": 13,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
