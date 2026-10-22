@@ -10339,5 +10339,23 @@
     "reality_score": 25,
     "hope_score": 23,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-22",
+    "filename": "060370_LS마린솔루션/2026-10-22_LS마린솔루션_060370.html",
+    "company": "LS마린솔루션",
+    "ticker": "060370",
+    "score": 42,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 16,
+      "opportunity": 4,
+      "threat": 7
+    },
+    "reality_score": 28,
+    "hope_score": 12,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
