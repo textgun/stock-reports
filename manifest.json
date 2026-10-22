@@ -9874,24 +9874,6 @@
   },
   {
     "date": "2026-10-22",
-    "filename": "001500_현대차증권/2026-10-22_현대차증권_001500.html",
-    "company": "현대차증권",
-    "ticker": "001500",
-    "score": 54,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 18,
-      "weakness": 15,
-      "opportunity": 6,
-      "threat": 15
-    },
-    "reality_score": 35,
-    "hope_score": 19,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-22",
     "filename": "005090_SGC에너지/2026-10-22_SGC에너지_005090.html",
     "company": "SGC에너지",
     "ticker": "005090",
@@ -10284,6 +10266,24 @@
     },
     "reality_score": 39,
     "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-22",
+    "filename": "001500_현대차증권/2026-10-22_현대차증권_001500.html",
+    "company": "현대차증권",
+    "ticker": "001500",
+    "score": 52,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 15,
+      "opportunity": 6,
+      "threat": 15
+    },
+    "reality_score": 33,
+    "hope_score": 19,
     "quadrant": "현실 강함  🟢"
   }
 ]
