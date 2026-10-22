@@ -10000,24 +10000,6 @@
   },
   {
     "date": "2026-10-22",
-    "filename": "034220_LG디스플레이/2026-10-22_LG디스플레이_034220.html",
-    "company": "LG디스플레이",
-    "ticker": "034220",
-    "score": 29,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 11/30)",
-    "breakdown": {
-      "strength": 0,
-      "weakness": 11,
-      "opportunity": 5,
-      "threat": 13
-    },
-    "reality_score": 14,
-    "hope_score": 16,
-    "quadrant": "현실·기대 불량  ⚫"
-  },
-  {
-    "date": "2026-10-22",
     "filename": "251270_넷마블/2026-10-22_넷마블_251270.html",
     "company": "넷마블",
     "ticker": "251270",
@@ -10285,5 +10267,23 @@
     "reality_score": 41,
     "hope_score": 37,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-22",
+    "filename": "034220_LG디스플레이/2026-10-22_LG디스플레이_034220.html",
+    "company": "LG디스플레이",
+    "ticker": "034220",
+    "score": 29,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 11,
+      "opportunity": 5,
+      "threat": 13
+    },
+    "reality_score": 14,
+    "hope_score": 16,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
