@@ -9874,24 +9874,6 @@
   },
   {
     "date": "2026-10-22",
-    "filename": "005090_SGC에너지/2026-10-22_SGC에너지_005090.html",
-    "company": "SGC에너지",
-    "ticker": "005090",
-    "score": 36,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
-    "breakdown": {
-      "strength": 9,
-      "weakness": 12,
-      "opportunity": 4,
-      "threat": 11
-    },
-    "reality_score": 20,
-    "hope_score": 15,
-    "quadrant": "현실·기대 약함  🔴"
-  },
-  {
-    "date": "2026-10-22",
     "filename": "028050_삼성E&A/2026-10-22_삼성E&A_028050.html",
     "company": "삼성E&A",
     "ticker": "028050",
@@ -10285,5 +10267,23 @@
     "reality_score": 33,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-22",
+    "filename": "005090_SGC에너지/2026-10-22_SGC에너지_005090.html",
+    "company": "SGC에너지",
+    "ticker": "005090",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 12,
+      "opportunity": 4,
+      "threat": 11
+    },
+    "reality_score": 19,
+    "hope_score": 15,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
