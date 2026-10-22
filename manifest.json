@@ -10285,5 +10285,23 @@
     "reality_score": 14,
     "hope_score": 16,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-10-22",
+    "filename": "003850_보령/2026-10-22_보령_003850.html",
+    "company": "보령",
+    "ticker": "003850",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 6,
+      "opportunity": 11,
+      "threat": 24
+    },
+    "reality_score": 31,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
