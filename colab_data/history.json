@@ -49418,10 +49418,10 @@
       },
       {
         "date": "2026-10-22",
-        "total_score": 54,
+        "total_score": 52,
         "rating_code": "HOLD",
         "breakdown": {
-          "strength": 18,
+          "strength": 16,
           "weakness": 15,
           "opportunity": 6,
           "threat": 15
@@ -50936,10 +50936,10 @@
       },
       {
         "date": "2026-10-22",
-        "total_score": 36,
+        "total_score": 35,
         "rating_code": "AVOID",
         "breakdown": {
-          "strength": 9,
+          "strength": 8,
           "weakness": 12,
           "opportunity": 4,
           "threat": 11
@@ -56564,6 +56564,349 @@
           "weakness": 19,
           "opportunity": 6,
           "threat": 13
+        }
+      }
+    ]
+  },
+  "003850": {
+    "company_name": "보령",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 56,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 9,
+          "opportunity": 11,
+          "threat": 24
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 49,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 4,
+          "opportunity": 11,
+          "threat": 24
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 53,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 6,
+          "opportunity": 11,
+          "threat": 24
+        }
+      },
+      {
+        "date": "2026-10-22",
+        "total_score": 53,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 6,
+          "opportunity": 11,
+          "threat": 24
+        }
+      }
+    ]
+  },
+  "014830": {
+    "company_name": "유니드",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 59,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 20,
+          "opportunity": 4,
+          "threat": 25
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 55,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 16,
+          "opportunity": 4,
+          "threat": 25
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 58,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 19,
+          "opportunity": 4,
+          "threat": 25
+        }
+      },
+      {
+        "date": "2026-10-22",
+        "total_score": 59,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 20,
+          "opportunity": 4,
+          "threat": 25
+        }
+      }
+    ]
+  },
+  "016250": {
+    "company_name": "SGC E&C",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 48,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 0,
+          "weakness": 22,
+          "opportunity": 6,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 41,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 0,
+          "weakness": 15,
+          "opportunity": 6,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 49,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 1,
+          "weakness": 22,
+          "opportunity": 6,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-10-22",
+        "total_score": 49,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 1,
+          "weakness": 22,
+          "opportunity": 6,
+          "threat": 20
+        }
+      }
+    ]
+  },
+  "060370": {
+    "company_name": "LS마린솔루션",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 39,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 16,
+          "opportunity": 4,
+          "threat": 7
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 48,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 25,
+          "opportunity": 4,
+          "threat": 7
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 42,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 15,
+          "weakness": 16,
+          "opportunity": 4,
+          "threat": 7
+        }
+      },
+      {
+        "date": "2026-10-22",
+        "total_score": 42,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 15,
+          "weakness": 16,
+          "opportunity": 4,
+          "threat": 7
+        }
+      }
+    ]
+  },
+  "064850": {
+    "company_name": "에프앤가이드",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 13,
+          "opportunity": 2,
+          "threat": 25
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 62,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 15,
+          "opportunity": 2,
+          "threat": 25
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 13,
+          "opportunity": 2,
+          "threat": 25
+        }
+      },
+      {
+        "date": "2026-10-22",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 13,
+          "opportunity": 2,
+          "threat": 25
+        }
+      }
+    ]
+  },
+  "067280": {
+    "company_name": "멀티캠퍼스",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 70,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 22,
+          "opportunity": 8,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 73,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 25,
+          "opportunity": 8,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 58,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 17,
+          "weakness": 13,
+          "opportunity": 8,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-10-22",
+        "total_score": 70,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 22,
+          "opportunity": 8,
+          "threat": 20
+        }
+      }
+    ]
+  },
+  "294870": {
+    "company_name": "IPARK현대산업개발",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 48,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 14,
+          "weakness": 12,
+          "opportunity": 5,
+          "threat": 17
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 48,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 11,
+          "weakness": 15,
+          "opportunity": 5,
+          "threat": 17
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 48,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 14,
+          "weakness": 12,
+          "opportunity": 5,
+          "threat": 17
+        }
+      },
+      {
+        "date": "2026-10-22",
+        "total_score": 54,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 17,
+          "weakness": 15,
+          "opportunity": 5,
+          "threat": 17
         }
       }
     ]
