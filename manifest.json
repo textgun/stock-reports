@@ -10501,5 +10501,23 @@
     "reality_score": 14,
     "hope_score": 16,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-10-22",
+    "filename": "251270_넷마블/2026-10-22_넷마블_251270.html",
+    "company": "넷마블",
+    "ticker": "251270",
+    "score": 54,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 12,
+      "opportunity": 9,
+      "threat": 17
+    },
+    "reality_score": 30,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
