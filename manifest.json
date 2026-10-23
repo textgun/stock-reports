@@ -12229,5 +12229,23 @@
     "reality_score": 22,
     "hope_score": 26,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-24",
+    "filename": "066970_엘앤에프/2026-10-24_엘앤에프_066970.html",
+    "company": "엘앤에프",
+    "ticker": "066970",
+    "score": 33,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 17,
+      "opportunity": 7,
+      "threat": 3
+    },
+    "reality_score": 21,
+    "hope_score": 10,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
