@@ -11131,5 +11131,23 @@
     "reality_score": 35,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-24",
+    "filename": "011070_LG이노텍/2026-10-24_LG이노텍_011070.html",
+    "company": "LG이노텍",
+    "ticker": "011070",
+    "score": 56,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 15,
+      "opportunity": 5,
+      "threat": 22
+    },
+    "reality_score": 31,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
