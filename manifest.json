@@ -11149,5 +11149,23 @@
     "reality_score": 31,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-24",
+    "filename": "011200_HMM/2026-10-24_HMM_011200.html",
+    "company": "HMM",
+    "ticker": "011200",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 19,
+      "opportunity": 8,
+      "threat": 19
+    },
+    "reality_score": 36,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
