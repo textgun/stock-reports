@@ -11365,5 +11365,23 @@
     "reality_score": 40,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-24",
+    "filename": "028050_삼성E&A/2026-10-24_삼성E&A_028050.html",
+    "company": "삼성E&A",
+    "ticker": "028050",
+    "score": 80,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 19,
+      "opportunity": 15,
+      "threat": 24
+    },
+    "reality_score": 41,
+    "hope_score": 39,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
