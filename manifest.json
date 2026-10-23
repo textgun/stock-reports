@@ -10897,5 +10897,23 @@
     "reality_score": 41,
     "hope_score": 14,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-10-23",
+    "filename": "000500_가온전선/2026-10-23_가온전선_000500.html",
+    "company": "가온전선",
+    "ticker": "000500",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 13,
+      "opportunity": 15,
+      "threat": 5
+    },
+    "reality_score": 27,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
