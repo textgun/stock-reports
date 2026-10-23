@@ -13849,5 +13849,23 @@
     "reality_score": 46,
     "hope_score": 33,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-24",
+    "filename": "306620_지아이에스/2026-10-24_지아이에스_306620.html",
+    "company": "지아이에스",
+    "ticker": "306620",
+    "score": 37,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 7,
+      "opportunity": 3,
+      "threat": 17
+    },
+    "reality_score": 20,
+    "hope_score": 17,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
