@@ -10429,5 +10429,23 @@
     "reality_score": 45,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-23",
+    "filename": "018260_삼성에스디에스/2026-10-23_삼성에스디에스_018260.html",
+    "company": "삼성에스디에스",
+    "ticker": "018260",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 11,
+      "opportunity": 21,
+      "threat": 15
+    },
+    "reality_score": 32,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
