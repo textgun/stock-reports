@@ -5205,6 +5205,17 @@
           "opportunity": 6,
           "threat": 10
         }
+      },
+      {
+        "date": "2026-10-23",
+        "total_score": 61,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 26,
+          "weakness": 19,
+          "opportunity": 6,
+          "threat": 10
+        }
       }
     ]
   },
@@ -11871,12 +11882,12 @@
       },
       {
         "date": "2026-10-23",
-        "total_score": 65,
-        "rating_code": "BUY",
+        "total_score": 63,
+        "rating_code": "HOLD",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
-          "opportunity": 13,
+          "opportunity": 11,
           "threat": 9
         }
       }
@@ -26325,13 +26336,13 @@
       },
       {
         "date": "2026-10-23",
-        "total_score": 64,
+        "total_score": 63,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 23,
           "weakness": 15,
           "opportunity": 7,
-          "threat": 19
+          "threat": 18
         }
       }
     ]
@@ -42335,6 +42346,17 @@
           "opportunity": 7,
           "threat": 3
         }
+      },
+      {
+        "date": "2026-10-23",
+        "total_score": 35,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 11,
+          "opportunity": 3,
+          "threat": 3
+        }
       }
     ]
   },
@@ -46998,6 +47020,17 @@
           "opportunity": 10,
           "threat": 7
         }
+      },
+      {
+        "date": "2026-10-23",
+        "total_score": 58,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 19,
+          "opportunity": 10,
+          "threat": 7
+        }
       }
     ]
   },
@@ -49194,6 +49227,17 @@
       },
       {
         "date": "2026-10-22",
+        "total_score": 50,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 17,
+          "weakness": 13,
+          "opportunity": 15,
+          "threat": 5
+        }
+      },
+      {
+        "date": "2026-10-23",
         "total_score": 50,
         "rating_code": "HOLD",
         "breakdown": {
