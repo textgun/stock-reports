@@ -13201,5 +13201,23 @@
     "reality_score": 37,
     "hope_score": 30,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-24",
+    "filename": "183300_코미코/2026-10-24_코미코_183300.html",
+    "company": "코미코",
+    "ticker": "183300",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 15,
+      "opportunity": 15,
+      "threat": 13
+    },
+    "reality_score": 34,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
