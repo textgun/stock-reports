@@ -13165,5 +13165,23 @@
     "reality_score": 20,
     "hope_score": 9,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-24",
+    "filename": "161580_필옵틱스/2026-10-24_필옵틱스_161580.html",
+    "company": "필옵틱스",
+    "ticker": "161580",
+    "score": 31,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 17,
+      "opportunity": 6,
+      "threat": 8
+    },
+    "reality_score": 15,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
