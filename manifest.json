@@ -11257,5 +11257,23 @@
     "reality_score": 36,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-24",
+    "filename": "014830_유니드/2026-10-24_유니드_014830.html",
+    "company": "유니드",
+    "ticker": "014830",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 20,
+      "opportunity": 4,
+      "threat": 25
+    },
+    "reality_score": 32,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   }
 ]
