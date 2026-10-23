@@ -10465,5 +10465,23 @@
     "reality_score": 41,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-23",
+    "filename": "034230_파라다이스/2026-10-23_파라다이스_034230.html",
+    "company": "파라다이스",
+    "ticker": "034230",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 25,
+      "opportunity": 4,
+      "threat": 16
+    },
+    "reality_score": 35,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   }
 ]
