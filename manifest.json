@@ -14101,5 +14101,23 @@
     "reality_score": 44,
     "hope_score": 30,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-24",
+    "filename": "355150_코스텍시스/2026-10-24_코스텍시스_355150.html",
+    "company": "코스텍시스",
+    "ticker": "355150",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 14,
+      "opportunity": 1,
+      "threat": 17
+    },
+    "reality_score": 37,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
