@@ -10447,5 +10447,23 @@
     "reality_score": 41,
     "hope_score": 17,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-26",
+    "filename": "003000_부광약품/2026-10-26_부광약품_003000.html",
+    "company": "부광약품",
+    "ticker": "003000",
+    "score": 39,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 16/18)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 6,
+      "opportunity": 8,
+      "threat": 15
+    },
+    "reality_score": 23,
+    "hope_score": 17,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
