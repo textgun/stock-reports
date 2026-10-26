@@ -10987,5 +10987,23 @@
     "reality_score": 43,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-26",
+    "filename": "012450_한화에어로스페이스/2026-10-26_한화에어로스페이스_012450.html",
+    "company": "한화에어로스페이스",
+    "ticker": "012450",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 5,
+      "opportunity": 7,
+      "threat": 14
+    },
+    "reality_score": 30,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
