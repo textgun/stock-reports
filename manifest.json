@@ -10501,5 +10501,23 @@
     "reality_score": 48,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-26",
+    "filename": "006220_제주은행/2026-10-26_제주은행_006220.html",
+    "company": "제주은행",
+    "ticker": "006220",
+    "score": 48,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 18,
+      "opportunity": 3,
+      "threat": 11
+    },
+    "reality_score": 32,
+    "hope_score": 16,
+    "quadrant": "현실 강함  🟢"
   }
 ]
