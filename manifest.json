@@ -10663,5 +10663,23 @@
     "reality_score": 24,
     "hope_score": 29,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-26",
+    "filename": "071050_한국금융지주/2026-10-26_한국금융지주_071050.html",
+    "company": "한국금융지주",
+    "ticker": "071050",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 30,
+      "weakness": 18,
+      "opportunity": 8,
+      "threat": 15
+    },
+    "reality_score": 48,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
