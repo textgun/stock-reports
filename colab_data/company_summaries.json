@@ -2078,13 +2078,13 @@
   },
   "328130": {
     "company": "루닛",
-    "updated": "2026-10-24",
-    "score": 32,
+    "updated": "2026-10-26",
+    "score": 26,
     "sector": "기타",
     "breakdown": {
       "strength": 6,
-      "weakness": 12,
-      "opportunity": 3,
+      "weakness": 5,
+      "opportunity": 4,
       "threat": 11
     },
     "sector_max": {
@@ -2112,9 +2112,9 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 2.52,
+      "pbr": 3.3,
       "pbr_txt": "",
-      "psr": 9.11,
+      "psr": 11.91,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
@@ -2124,9 +2124,9 @@
       "roe": -16.79
     },
     "valuation_engine": {
-      "fair_value": 65136.0,
-      "band_low": 65136.0,
-      "band_high": 65136.0,
+      "fair_value": 65097.0,
+      "band_low": 65097.0,
+      "band_high": 65097.0,
       "confidence": "LOW",
       "method_spread": null,
       "position_scale": 1.0,
@@ -2139,7 +2139,7 @@
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
-      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (18점 < 기준 30점) / 이자보상배율 미달 (-1.0배 < 기준 2.0배) / 만성 영업적자 (연간 -70.5% · 2026Q2 영업이익 -153.7억), 존과 무관하게 회피",
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (11점 < 기준 30점) / 이자보상배율 미달 (-1.0배 < 기준 2.0배) / 만성 영업적자 (연간 -70.5% · 2026Q2 영업이익 -153.7억), 존과 무관하게 회피",
       "srim_mid": null,
       "per_band_mid": null,
       "pbr_roe_fair_value": null,
