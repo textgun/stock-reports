@@ -28453,10 +28453,10 @@
       },
       {
         "date": "2026-10-26",
-        "total_score": 64,
-        "rating_code": "HOLD",
+        "total_score": 65,
+        "rating_code": "BUY",
         "breakdown": {
-          "strength": 22,
+          "strength": 23,
           "weakness": 18,
           "opportunity": 6,
           "threat": 18
@@ -55611,6 +55611,17 @@
           "opportunity": 6,
           "threat": 19
         }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 72,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 29,
+          "weakness": 18,
+          "opportunity": 6,
+          "threat": 19
+        }
       }
     ]
   },
@@ -58384,6 +58395,17 @@
           "opportunity": 13,
           "threat": 19
         }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 76,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 26,
+          "weakness": 18,
+          "opportunity": 13,
+          "threat": 19
+        }
       }
     ]
   },
@@ -58546,6 +58568,17 @@
           "strength": 20,
           "weakness": 10,
           "opportunity": 10,
+          "threat": 14
+        }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 49,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 10,
+          "opportunity": 7,
           "threat": 14
         }
       }
@@ -60289,6 +60322,398 @@
           "weakness": 11,
           "opportunity": 13,
           "threat": 4
+        }
+      }
+    ]
+  },
+  "118000": {
+    "company_name": "메타케어",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 44,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 9,
+          "weakness": 9,
+          "opportunity": 3,
+          "threat": 23
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 45,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 9,
+          "weakness": 7,
+          "opportunity": 3,
+          "threat": 26
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 48,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 7,
+          "opportunity": 3,
+          "threat": 26
+        }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 46,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 7,
+          "opportunity": 3,
+          "threat": 26
+        }
+      }
+    ]
+  },
+  "267270": {
+    "company_name": "HD건설기계",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 53,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 18,
+          "opportunity": 6,
+          "threat": 13
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 49,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 18,
+          "opportunity": 6,
+          "threat": 13
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 53,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 18,
+          "opportunity": 6,
+          "threat": 13
+        }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 59,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 18,
+          "opportunity": 6,
+          "threat": 13
+        }
+      }
+    ]
+  },
+  "003000": {
+    "company_name": "부광약품",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 34,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 1,
+          "opportunity": 8,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 41,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 6,
+          "opportunity": 8,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 41,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 6,
+          "opportunity": 8,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 39,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 6,
+          "opportunity": 8,
+          "threat": 15
+        }
+      }
+    ]
+  },
+  "067990": {
+    "company_name": "도이치모터스",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 50,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 7,
+          "weakness": 24,
+          "opportunity": 6,
+          "threat": 13
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 47,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 7,
+          "weakness": 21,
+          "opportunity": 6,
+          "threat": 13
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 47,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 7,
+          "weakness": 21,
+          "opportunity": 6,
+          "threat": 13
+        }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 47,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 7,
+          "weakness": 21,
+          "opportunity": 6,
+          "threat": 13
+        }
+      }
+    ]
+  },
+  "114810": {
+    "company_name": "한솔아이원스",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 66,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 13,
+          "opportunity": 11,
+          "threat": 17
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 78,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 25,
+          "opportunity": 11,
+          "threat": 17
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 78,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 25,
+          "opportunity": 11,
+          "threat": 17
+        }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 76,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 23,
+          "weakness": 25,
+          "opportunity": 11,
+          "threat": 17
+        }
+      }
+    ]
+  },
+  "006220": {
+    "company_name": "제주은행",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 43,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 13,
+          "opportunity": 3,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 46,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 20,
+          "opportunity": 3,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 46,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 12,
+          "weakness": 20,
+          "opportunity": 3,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 48,
+        "rating_code": "WATCH",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 18,
+          "opportunity": 3,
+          "threat": 11
+        }
+      }
+    ]
+  },
+  "004710": {
+    "company_name": "한솔테크닉스",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 73,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 13,
+          "weakness": 25,
+          "opportunity": 18,
+          "threat": 17
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 62,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 5,
+          "weakness": 22,
+          "opportunity": 18,
+          "threat": 17
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 61,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 22,
+          "opportunity": 18,
+          "threat": 17
+        }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 61,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 22,
+          "opportunity": 18,
+          "threat": 17
+        }
+      }
+    ]
+  },
+  "138930": {
+    "company_name": "BNK금융지주",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 51,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 17,
+          "weakness": 13,
+          "opportunity": 6,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 53,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 14,
+          "weakness": 18,
+          "opportunity": 6,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 53,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 14,
+          "weakness": 18,
+          "opportunity": 6,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 50,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 14,
+          "weakness": 15,
+          "opportunity": 6,
+          "threat": 15
         }
       }
     ]
