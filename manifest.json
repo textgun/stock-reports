@@ -10303,5 +10303,23 @@
     "reality_score": 19,
     "hope_score": 24,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-26",
+    "filename": "328130_루닛/2026-10-26_루닛_328130.html",
+    "company": "루닛",
+    "ticker": "328130",
+    "score": 26,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/30)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 5,
+      "opportunity": 4,
+      "threat": 11
+    },
+    "reality_score": 10,
+    "hope_score": 17,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
