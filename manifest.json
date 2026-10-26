@@ -10591,5 +10591,23 @@
     "reality_score": 43,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-26",
+    "filename": "402340_SK스퀘어/2026-10-26_SK스퀘어_402340.html",
+    "company": "SK스퀘어",
+    "ticker": "402340",
+    "score": 81,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 11,
+      "threat": 20
+    },
+    "reality_score": 50,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
