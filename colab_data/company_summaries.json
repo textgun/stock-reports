@@ -17010,5 +17010,82 @@
       "pbr_roe_fair_value": 19353.0,
       "nav_sotp_mid": null
     }
+  },
+  "327260": {
+    "company": "RF머트리얼즈",
+    "updated": "2026-10-26",
+    "score": 53,
+    "sector": "기타",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 11,
+      "opportunity": 13,
+      "threat": 4
+    },
+    "sector_max": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 25,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "accelerating",
+      "yoy_pct": 182.9,
+      "rev_yoy_pct": 51.3,
+      "momentum_score": 10.0,
+      "correction_pts": 3
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "알에프에이치아이씨㈜ 41.85%",
+      "ceo": null,
+      "exec_count": 9
+    },
+    "valuation": {
+      "per": 53.97,
+      "per_txt": "고평가 주의",
+      "pbr": 7.78,
+      "pbr_txt": "고평가 주의",
+      "psr": 8.31,
+      "psr_txt": "고평가 주의",
+      "peg": 0.3,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 125000.0,
+      "upside": 233.8,
+      "consensus_n": 3,
+      "roe": 12.99
+    },
+    "valuation_engine": {
+      "fair_value": 642.0,
+      "band_low": 131.0,
+      "band_high": 12578.0,
+      "confidence": "LOW",
+      "method_spread": 48.073,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 48.073배",
+        "PER 유효 표본 1.6년 — 결측·적자 제외 후 4년 미만",
+        "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
+      ],
+      "zone": "OVERHEATED",
+      "gap_pct": 5733.3,
+      "quality_gate_passed": true,
+      "action_label": "⚠️ 신뢰도 LOW · OVERHEATED 참고용 — 밸류에이션 자동 매도 보류",
+      "srim_mid": 261.6439683256758,
+      "per_band_mid": 12578.0,
+      "pbr_roe_fair_value": 642.0,
+      "nav_sotp_mid": null
+    }
   }
 }
