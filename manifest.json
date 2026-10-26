@@ -10411,5 +10411,23 @@
     "reality_score": 35,
     "hope_score": 17,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-26",
+    "filename": "118000_메타케어/2026-10-26_메타케어_118000.html",
+    "company": "메타케어",
+    "ticker": "118000",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/18)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 7,
+      "opportunity": 3,
+      "threat": 26
+    },
+    "reality_score": 31,
+    "hope_score": 16,
+    "quadrant": "현실 강함  🟢"
   }
 ]
