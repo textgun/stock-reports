@@ -60243,5 +60243,54 @@
         }
       }
     ]
+  },
+  "327260": {
+    "company_name": "RF머트리얼즈",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 57,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 19,
+          "weakness": 21,
+          "opportunity": 13,
+          "threat": 4
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 53,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 11,
+          "opportunity": 13,
+          "threat": 4
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 53,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 11,
+          "opportunity": 13,
+          "threat": 4
+        }
+      },
+      {
+        "date": "2026-10-26",
+        "total_score": 53,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 11,
+          "opportunity": 13,
+          "threat": 4
+        }
+      }
+    ]
   }
 }
