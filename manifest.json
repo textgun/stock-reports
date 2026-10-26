@@ -10573,5 +10573,23 @@
     "reality_score": 24,
     "hope_score": 23,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-26",
+    "filename": "016360_삼성증권/2026-10-26_삼성증권_016360.html",
+    "company": "삼성증권",
+    "ticker": "016360",
+    "score": 73,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 30,
+      "weakness": 18,
+      "opportunity": 6,
+      "threat": 19
+    },
+    "reality_score": 48,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
