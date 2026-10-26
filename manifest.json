@@ -10393,5 +10393,23 @@
     "reality_score": 42,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-26",
+    "filename": "443060_HD현대마린솔루션/2026-10-26_HD현대마린솔루션_443060.html",
+    "company": "HD현대마린솔루션",
+    "ticker": "443060",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 10,
+      "opportunity": 7,
+      "threat": 14
+    },
+    "reality_score": 35,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
