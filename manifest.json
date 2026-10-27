@@ -11257,5 +11257,23 @@
     "reality_score": 39,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-27",
+    "filename": "267270_HD건설기계/2026-10-27_HD건설기계_267270.html",
+    "company": "HD건설기계",
+    "ticker": "267270",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 18,
+      "opportunity": 8,
+      "threat": 13
+    },
+    "reality_score": 41,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
