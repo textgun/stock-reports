@@ -11203,5 +11203,23 @@
     "reality_score": 30,
     "hope_score": 15,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-27",
+    "filename": "119850_지엔씨에너지/2026-10-27_지엔씨에너지_119850.html",
+    "company": "지엔씨에너지",
+    "ticker": "119850",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 13,
+      "opportunity": 26,
+      "threat": 10
+    },
+    "reality_score": 35,
+    "hope_score": 34,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
