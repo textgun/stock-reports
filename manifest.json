@@ -10753,5 +10753,23 @@
     "reality_score": 43,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-27",
+    "filename": "322000_HD현대에너지솔루션/2026-10-27_HD현대에너지솔루션_322000.html",
+    "company": "HD현대에너지솔루션",
+    "ticker": "322000",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 9,
+      "opportunity": 11,
+      "threat": 15
+    },
+    "reality_score": 36,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
