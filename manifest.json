@@ -10915,5 +10915,23 @@
     "reality_score": 39,
     "hope_score": 44,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-27",
+    "filename": "056190_에스에프에이/2026-10-27_에스에프에이_056190.html",
+    "company": "에스에프에이",
+    "ticker": "056190",
+    "score": 60,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 11,
+      "opportunity": 20,
+      "threat": 15
+    },
+    "reality_score": 27,
+    "hope_score": 33,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
