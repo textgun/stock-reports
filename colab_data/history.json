@@ -3343,6 +3343,17 @@
           "opportunity": 9,
           "threat": 24
         }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 59,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 8,
+          "opportunity": 9,
+          "threat": 24
+        }
       }
     ]
   },
@@ -3972,6 +3983,17 @@
           "strength": 25,
           "weakness": 21,
           "opportunity": 10,
+          "threat": 14
+        }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 74,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 24,
+          "opportunity": 11,
           "threat": 14
         }
       }
@@ -29610,6 +29632,17 @@
           "opportunity": 15,
           "threat": 26
         }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 61,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 18,
+          "weakness": 5,
+          "opportunity": 12,
+          "threat": 26
+        }
       }
     ]
   },
@@ -49801,6 +49834,17 @@
           "opportunity": 14,
           "threat": 17
         }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 53,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 16,
+          "weakness": 5,
+          "opportunity": 15,
+          "threat": 17
+        }
       }
     ]
   },
@@ -52173,6 +52217,17 @@
       },
       {
         "date": "2026-10-26",
+        "total_score": 61,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 26,
+          "weakness": 9,
+          "opportunity": 11,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-10-27",
         "total_score": 61,
         "rating_code": "HOLD",
         "breakdown": {
@@ -60851,6 +60906,17 @@
           "opportunity": 13,
           "threat": 4
         }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 51,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 11,
+          "opportunity": 11,
+          "threat": 4
+        }
       }
     ]
   },
@@ -61242,6 +61308,398 @@
           "weakness": 15,
           "opportunity": 6,
           "threat": 15
+        }
+      }
+    ]
+  },
+  "000640": {
+    "company_name": "동아쏘시오홀딩스",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 53,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 9,
+          "weakness": 8,
+          "opportunity": 14,
+          "threat": 22
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 52,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 9,
+          "weakness": 7,
+          "opportunity": 14,
+          "threat": 22
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 52,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 9,
+          "weakness": 7,
+          "opportunity": 14,
+          "threat": 22
+        }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 53,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 9,
+          "weakness": 8,
+          "opportunity": 14,
+          "threat": 22
+        }
+      }
+    ]
+  },
+  "024110": {
+    "company_name": "기업은행",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 56,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 10,
+          "opportunity": 6,
+          "threat": 18
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 61,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 15,
+          "opportunity": 6,
+          "threat": 18
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 61,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 15,
+          "opportunity": 6,
+          "threat": 18
+        }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 61,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 15,
+          "opportunity": 6,
+          "threat": 18
+        }
+      }
+    ]
+  },
+  "029780": {
+    "company_name": "삼성카드",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 54,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 13,
+          "weakness": 16,
+          "opportunity": 5,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 54,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 13,
+          "weakness": 16,
+          "opportunity": 5,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 54,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 13,
+          "weakness": 16,
+          "opportunity": 5,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 54,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 13,
+          "weakness": 16,
+          "opportunity": 5,
+          "threat": 20
+        }
+      }
+    ]
+  },
+  "047040": {
+    "company_name": "대우건설",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 23,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 5,
+          "opportunity": 7,
+          "threat": 7
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 25,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 3,
+          "weakness": 8,
+          "opportunity": 7,
+          "threat": 7
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 36,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 12,
+          "opportunity": 7,
+          "threat": 7
+        }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 36,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 10,
+          "weakness": 12,
+          "opportunity": 7,
+          "threat": 7
+        }
+      }
+    ]
+  },
+  "094360": {
+    "company_name": "칩스앤미디어",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 66,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 19,
+          "opportunity": 7,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 70,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 23,
+          "weakness": 25,
+          "opportunity": 7,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 51,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 14,
+          "weakness": 15,
+          "opportunity": 7,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 67,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 23,
+          "weakness": 22,
+          "opportunity": 7,
+          "threat": 15
+        }
+      }
+    ]
+  },
+  "218410": {
+    "company_name": "RFHIC",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 65,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 20,
+          "weakness": 20,
+          "opportunity": 7,
+          "threat": 18
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 57,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 24,
+          "weakness": 8,
+          "opportunity": 7,
+          "threat": 18
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 56,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 24,
+          "weakness": 7,
+          "opportunity": 7,
+          "threat": 18
+        }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 60,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 10,
+          "opportunity": 7,
+          "threat": 18
+        }
+      }
+    ]
+  },
+  "252990": {
+    "company_name": "샘씨엔에스",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 73,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 24,
+          "weakness": 14,
+          "opportunity": 15,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 73,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 22,
+          "weakness": 16,
+          "opportunity": 15,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 79,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 19,
+          "opportunity": 15,
+          "threat": 20
+        }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 78,
+        "rating_code": "BUY",
+        "breakdown": {
+          "strength": 25,
+          "weakness": 18,
+          "opportunity": 15,
+          "threat": 20
+        }
+      }
+    ]
+  },
+  "474610": {
+    "company_name": "RF시스템즈",
+    "records": [
+      {
+        "date": "2025-09-30",
+        "total_score": 55,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 14,
+          "weakness": 18,
+          "opportunity": 7,
+          "threat": 16
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "total_score": 62,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 24,
+          "weakness": 15,
+          "opportunity": 7,
+          "threat": 16
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 62,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 24,
+          "weakness": 15,
+          "opportunity": 7,
+          "threat": 16
+        }
+      },
+      {
+        "date": "2026-10-27",
+        "total_score": 62,
+        "rating_code": "HOLD",
+        "breakdown": {
+          "strength": 24,
+          "weakness": 15,
+          "opportunity": 7,
+          "threat": 16
         }
       }
     ]
