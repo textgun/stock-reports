@@ -1335,12 +1335,12 @@
       },
       {
         "date": "2026-10-27",
-        "total_score": 76,
+        "total_score": 75,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 18,
-          "opportunity": 15,
+          "opportunity": 14,
           "threat": 18
         }
       }
@@ -2715,12 +2715,12 @@
       },
       {
         "date": "2026-10-27",
-        "total_score": 71,
+        "total_score": 72,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 23,
-          "opportunity": 11,
+          "opportunity": 12,
           "threat": 12
         }
       }
@@ -8176,13 +8176,13 @@
       },
       {
         "date": "2026-10-27",
-        "total_score": 53,
+        "total_score": 55,
         "rating_code": "AVOID",
         "breakdown": {
           "strength": 13,
           "weakness": 15,
           "opportunity": 5,
-          "threat": 20
+          "threat": 22
         }
       }
     ]
@@ -12366,12 +12366,12 @@
       },
       {
         "date": "2026-10-27",
-        "total_score": 69,
+        "total_score": 70,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 21,
-          "opportunity": 14,
+          "opportunity": 15,
           "threat": 9
         }
       }
@@ -14761,12 +14761,12 @@
       },
       {
         "date": "2026-10-27",
-        "total_score": 79,
-        "rating_code": "BUY",
+        "total_score": 80,
+        "rating_code": "STRONG_BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 25,
-          "opportunity": 9,
+          "opportunity": 10,
           "threat": 20
         }
       }
@@ -22752,12 +22752,12 @@
       },
       {
         "date": "2026-10-27",
-        "total_score": 67,
+        "total_score": 70,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 15,
-          "opportunity": 17,
+          "opportunity": 20,
           "threat": 10
         }
       }
