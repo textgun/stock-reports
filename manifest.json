@@ -11077,5 +11077,23 @@
     "reality_score": 46,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-27",
+    "filename": "214450_파마리서치/2026-10-27_파마리서치_214450.html",
+    "company": "파마리서치",
+    "ticker": "214450",
+    "score": 75,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 17,
+      "opportunity": 19,
+      "threat": 14
+    },
+    "reality_score": 42,
+    "hope_score": 32,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
