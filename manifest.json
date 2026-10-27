@@ -11239,5 +11239,23 @@
     "reality_score": 43,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-27",
+    "filename": "012450_한화에어로스페이스/2026-10-27_한화에어로스페이스_012450.html",
+    "company": "한화에어로스페이스",
+    "ticker": "012450",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 5,
+      "opportunity": 7,
+      "threat": 15
+    },
+    "reality_score": 31,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
