@@ -10789,5 +10789,23 @@
     "reality_score": 36,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-27",
+    "filename": "003230_삼양식품/2026-10-27_삼양식품_003230.html",
+    "company": "삼양식품",
+    "ticker": "003230",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 21,
+      "opportunity": 5,
+      "threat": 16
+    },
+    "reality_score": 46,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   }
 ]
