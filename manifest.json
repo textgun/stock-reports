@@ -10537,5 +10537,23 @@
     "reality_score": 39,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-27",
+    "filename": "000640_동아쏘시오홀딩스/2026-10-27_동아쏘시오홀딩스_000640.html",
+    "company": "동아쏘시오홀딩스",
+    "ticker": "000640",
+    "score": 53,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/18)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 8,
+      "opportunity": 14,
+      "threat": 22
+    },
+    "reality_score": 31,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
