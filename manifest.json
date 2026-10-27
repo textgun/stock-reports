@@ -11221,5 +11221,23 @@
     "reality_score": 33,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-27",
+    "filename": "086790_하나금융지주/2026-10-27_하나금융지주_086790.html",
+    "company": "하나금융지주",
+    "ticker": "086790",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 18,
+      "opportunity": 7,
+      "threat": 15
+    },
+    "reality_score": 42,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
