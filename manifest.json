@@ -11149,5 +11149,23 @@
     "reality_score": 41,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-27",
+    "filename": "000270_기아/2026-10-27_기아_000270.html",
+    "company": "기아",
+    "ticker": "000270",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 25,
+      "opportunity": 6,
+      "threat": 15
+    },
+    "reality_score": 41,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
