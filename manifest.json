@@ -11113,5 +11113,23 @@
     "reality_score": 34,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-27",
+    "filename": "034220_LG디스플레이/2026-10-27_LG디스플레이_034220.html",
+    "company": "LG디스플레이",
+    "ticker": "034220",
+    "score": 29,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 8/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 8,
+      "opportunity": 5,
+      "threat": 16
+    },
+    "reality_score": 11,
+    "hope_score": 19,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
