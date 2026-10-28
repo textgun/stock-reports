@@ -11059,5 +11059,23 @@
     "reality_score": 35,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-28",
+    "filename": "047040_대우건설/2026-10-28_대우건설_047040.html",
+    "company": "대우건설",
+    "ticker": "047040",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 12,
+      "opportunity": 6,
+      "threat": 7
+    },
+    "reality_score": 24,
+    "hope_score": 10,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
