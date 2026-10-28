@@ -11185,5 +11185,23 @@
     "reality_score": 31,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-28",
+    "filename": "272210_한화시스템/2026-10-28_한화시스템_272210.html",
+    "company": "한화시스템",
+    "ticker": "272210",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 19,
+      "opportunity": 6,
+      "threat": 11
+    },
+    "reality_score": 30,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
