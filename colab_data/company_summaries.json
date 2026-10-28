@@ -18146,13 +18146,13 @@
   },
   "252990": {
     "company": "샘씨엔에스",
-    "updated": "2026-10-27",
-    "score": 78,
+    "updated": "2026-10-28",
+    "score": 75,
     "sector": "반도체",
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 15,
+      "opportunity": 12,
       "threat": 20
     },
     "sector_max": {
@@ -18184,39 +18184,39 @@
       "exec_count": 14
     },
     "valuation": {
-      "per": 31.73,
+      "per": 35.37,
       "per_txt": "고평가 주의",
-      "pbr": 4.92,
+      "pbr": 5.48,
       "pbr_txt": "고평가 주의",
-      "psr": 9.43,
+      "psr": 10.51,
       "psr_txt": "고평가 주의",
-      "peg": 0.3,
+      "peg": 0.33,
       "peg_txt": "저평가(성장대비)",
       "tgt": 22500.0,
-      "upside": 41.0,
+      "upside": 26.5,
       "consensus_n": 0,
       "roe": 15.26
     },
     "valuation_engine": {
       "fair_value": 1254.0,
       "band_low": 357.0,
-      "band_high": 6181.0,
+      "band_high": 6186.0,
       "confidence": "LOW",
-      "method_spread": 8.657,
+      "method_spread": 8.664,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 8.657배",
+        "방법 간 편차 8.664배",
         "PER 유효 표본 3.6년 — 결측·적자 제외 후 4년 미만",
         "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
       ],
       "zone": "OVERHEATED",
-      "gap_pct": 1172.7,
+      "gap_pct": 1318.7,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · OVERHEATED 참고용 — 밸류에이션 자동 매도 보류",
       "srim_mid": 714.000117998235,
-      "per_band_mid": 6181.0,
+      "per_band_mid": 6186.0,
       "pbr_roe_fair_value": 1254.0,
       "nav_sotp_mid": null
     }
