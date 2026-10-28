@@ -10843,5 +10843,23 @@
     "reality_score": 37,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-28",
+    "filename": "058470_리노공업/2026-10-28_리노공업_058470.html",
+    "company": "리노공업",
+    "ticker": "058470",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 19,
+      "opportunity": 5,
+      "threat": 18
+    },
+    "reality_score": 41,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
