@@ -1253,6 +1253,7 @@ function paintMarketFng(){             // 카드 HTML을 넣고, MDD 뷰면 그 
   if (!fh) return;
   fh.innerHTML = marketFngCard();
   if (MFNG_VIEW === 'mdd') drawMfngMdd();
+  else if (MFNG_VIEW === 'crd') drawMfngCredit();
 }
 function marketFngCard(){
   const j = MFLOW; if (!j || !j.fng) return '';
@@ -1263,7 +1264,7 @@ function marketFngCard(){
   if ((MFNG_VIEW === 'adr' && !hasAdr) || (MFNG_VIEW === 'sma' && !hasSma) || (MFNG_VIEW === 'cap' && !hasCap)) MFNG_VIEW = 'fg';   // 구버전 JSON이면 F&G로
   // 칩 순서는 hugusk와 같게(F&G · SuperMA · ADR · 개인 수급 산점도). 그쪽의 Elder Impulse·TD Setup은 산식 비공개라 없다.
   const views = [['fg','F&amp;G + EMA20']].concat(hasSma ? [['sma','SuperMA 이격']] : [], hasAdr ? [['adr','ADR (등락비율)']] : [],
-                                               hasCap ? [['cap','개인 수급 산점도 ('+MARKET+')']] : [], [['mdd','MDD']]);
+                                               hasCap ? [['cap','개인 수급 산점도 ('+MARKET+')']] : [], [['mdd','MDD'], ['crd','신용잔고']]);
   const viewChips = views.length > 1 ? '<span class="chips hdr-chips" style="float:right;font-weight:400">'+
     views.map(([k,l]) =>
       '<span class="chip'+(MFNG_VIEW===k?' on':'')+'" onclick="setMfngView(\''+k+'\')">'+l+'</span>').join('')+
@@ -1272,6 +1273,7 @@ function marketFngCard(){
   if (MFNG_VIEW === 'sma') return marketSmaCard(m, viewChips);
   if (MFNG_VIEW === 'cap') return capitulationCard(viewChips);
   if (MFNG_VIEW === 'mdd') return marketMddCard(viewChips);
+  if (MFNG_VIEW === 'crd') return marketCreditCard(viewChips);
   // viewBox 폭은 아래 트리맵 카드의 실제 내부 폭(.wrap 1320 − 여백 40 − 카드 패딩 36 ≒ 1244)에
   // 맞춘다 — max-width를 빼고 width:100%로 늘리기만 하면 폰트·선까지 1.6배로 확대돼 뭉개진다.
   // 이 폭에서 1:1로 그려지므로 font-size 10은 화면에서도 10px다. 좁은 화면에선 비율대로 줄어든다.
@@ -1340,14 +1342,16 @@ function imddSeries(){
   }
   return {c, t, mx, dd};
 }
+function imddLoad(){                  // 처음 한 번만 받는다 — 받은 뒤 다시 그린다(MDD·신용잔고 보기 공용)
+  if (IMDD !== null) return;
+  IMDD = 'loading';
+  fetch('index_mdd.json').then(r => r.ok ? r.json() : false).catch(() => false)
+    .then(j => { IMDD = j; if (MFNG_VIEW === 'mdd' || MFNG_VIEW === 'crd') paintMarketFng(); });
+}
 function marketMddCard(viewChips){
   const head = sub => '<div class="card" style="margin-bottom:16px"><h3 style="font-size:14px;font-weight:650;margin:0 0 12px">'+
     '🌡️ 시장 F&amp;G <span class="mut" style="font-weight:400;font-size:11.5px">'+MARKET+' · '+sub+'</span>'+viewChips+'</h3>';
-  if (IMDD === null){                  // 처음 한 번만 받는다 — 받은 뒤 다시 그린다
-    IMDD = 'loading';
-    fetch('index_mdd.json').then(r => r.ok ? r.json() : false).catch(() => false)
-      .then(j => { IMDD = j; if (MFNG_VIEW === 'mdd') paintMarketFng(); });
-  }
+  imddLoad();
   if (IMDD === 'loading') return head('MDD')+'<div class="sec-note">불러오는 중…</div></div>';
   const S = imddSeries();
   if (!S) return head('MDD')+'<div class="sec-note">'+MARKET+' MDD 데이터 없음 (다음 갱신 때 생성)</div></div>';
@@ -1380,6 +1384,96 @@ function drawMfngMdd(){
   dS.createPriceLine({price:0, color:cssVar('--ink-3'), lineWidth:1, lineStyle:2, axisLabelVisible:false});
   ser(S.mx, {color:'#e9c46a', lineWidth:1.3, priceScaleId:'left', title:''});
   ser(S.c, {color:'#4ea3ff', lineWidth:1.8, priceScaleId:'left', title:''});
+  chart.timeScale().fitContent();
+}
+/* 시장 신용잔고 (hugusk 2026-10-22·23) — 시장 전체 신용거래융자 잔고 market_credit.json(금융투자협회 FreeSIS,
+   2000~, 조원, 하루 늦게). 보기 [잔고 | MDD 60·120·250일], 시장 [코스피 | 코스닥 | 합계], 기간 [1년 | 3년 | 전체].
+   지수 선·지수 MDD는 index_mdd.json(2015~ 종가)이라 2015년 전 구간엔 지수 선이 없다(그쪽은 market_fng.json). */
+let MCR = null, MCR_MK = null, MCR_RANGE = 1, MCR_VIEW = 'lvl', MCR_WIN = 120, MFNG_CR_CHART = null;
+const ymdT = d => d.slice(0,4)+'-'+d.slice(4,6)+'-'+d.slice(6);
+function mcrSeries(){
+  if (!MCR || MCR === 'loading' || !MCR.d) return null;
+  const mk = MCR_MK || MARKET.toLowerCase(), D = MCR.d;
+  const V = mk === 'sum' ? D.map((_, i) => (MCR.kospi[i]||0) + (MCR.kosdaq[i]||0)) : MCR[mk];
+  const N = MCR_WIN, mx = [], dd = [];
+  for (let i = 0; i < V.length; i++){
+    let h = -Infinity; for (let j = Math.max(0, i - N + 1); j <= i; j++) if (V[j] != null && V[j] > h) h = V[j];
+    mx.push(h > 0 ? h : null); dd.push(V[i] != null && h > 0 ? (V[i] / h - 1) * 100 : null);
+  }
+  const L = V.length - 1;
+  const from = MCR_RANGE ? (+D[L].slice(0,4) - MCR_RANGE) + D[L].slice(4) : '0';
+  const im = IMDD && IMDD.markets && IMDD.markets[mk === 'kosdaq' ? 'KOSDAQ' : 'KOSPI'];
+  return {mk, D, V, mx, dd, L, from, im};
+}
+function marketCreditCard(viewChips){
+  const head = sub => '<div class="card" style="margin-bottom:16px"><h3 style="font-size:14px;font-weight:650;margin:0 0 12px">'+
+    '🌡️ 시장 F&amp;G <span class="mut" style="font-weight:400;font-size:11.5px">'+sub+'</span>'+viewChips+'</h3>';
+  if (MCR === null){
+    MCR = 'loading';
+    fetch('market_credit.json', {cache:'no-cache'}).then(r => r.ok ? r.json() : false).catch(() => false)
+      .then(j => { MCR = j; if (MFNG_VIEW === 'crd') paintMarketFng(); });
+  }
+  imddLoad();
+  if (MCR === 'loading') return head('신용잔고')+'<div class="sec-note">불러오는 중…</div></div>';
+  const S = mcrSeries();
+  if (!S) return head('신용잔고')+'<div class="sec-note">시장 신용잔고 자료를 받지 못했습니다 (다음 갱신 때 생성)</div></div>';
+  const {mk, D, V, mx, dd, L} = S, nm = {kospi:'코스피', kosdaq:'코스닥', sum:'코스피+코스닥'}[mk];
+  const pc = v => v == null ? '—' : '<b style="color:'+(v >= 0 ? '#ea580c' : '#2563eb')+'">'+(v >= 0 ? '+' : '')+v.toFixed(1)+'%</b>';
+  const chip = (on, js, l) => '<span class="chip'+(on ? ' on' : '')+'" onclick="'+js+';paintMarketFng()">'+l+'</span>';
+  const bar = '<div class="chips" style="margin:0 0 6px">'+
+    [['kospi','코스피'],['kosdaq','코스닥'],['sum','합계']].map(([k,l]) => chip(k === mk, "MCR_MK='"+k+"'", l)).join('')+
+    '<span style="font-size:11px;color:var(--ink-3);align-self:center;margin-left:8px">기간</span>'+
+    [[1,'1년'],[3,'3년'],[0,'전체']].map(([k,l]) => chip(k === MCR_RANGE, 'MCR_RANGE='+k, l)).join('')+
+    '<span style="font-size:11px;color:var(--ink-3);align-self:center;margin-left:8px">보기</span>'+
+    [['lvl','잔고'],['mdd','MDD']].map(([k,l]) => chip(k === MCR_VIEW, "MCR_VIEW='"+k+"'", l)).join('')+
+    (MCR_VIEW === 'mdd' ? [60, 120, 250].map(n => chip(n === MCR_WIN, 'MCR_WIN='+n, n+'일')).join('') : '')+'</div>';
+  let st, note;
+  if (MCR_VIEW === 'mdd'){
+    const N = MCR_WIN, today = dd[L], vals = dd.filter(v => v != null);
+    let wi = L; dd.forEach((v, i) => { if (v != null && v < dd[wi]) wi = i; });
+    const pct = vals.filter(v => v <= today).length / vals.length * 100;
+    // 같은 기간 지수 MDD — 신용이 지수보다 깊게 빠지면 반대매매·강제 청산 쪽, 덜 빠지면 버티는 빚
+    let idxDD = null;
+    if (S.im && S.im.c){ const c = S.im.c, k = c.length - 1; let h = -Infinity;
+      for (let j = Math.max(0, k - N + 1); j <= k; j++) if (c[j] > h) h = c[j]; idxDD = (c[k] / h - 1) * 100; }
+    st = nm+' 신용잔고 '+N+'D MDD · 기준 '+ymdT(D[L])+' · 잔고 <b>'+V[L].toFixed(2)+'조</b> · '+N+'일 최고 '+mx[L].toFixed(2)+'조 · '+
+      '<b style="color:#f08c2e">오늘 MDD '+today.toFixed(2)+'%</b>'+(idxDD != null ? ' (지수 '+idxDD.toFixed(2)+'%)' : '')+
+      ' · 2000년 이후 최악 '+dd[wi].toFixed(2)+'% ('+ymdT(D[wi])+') · 오늘보다 깊었던 날 '+pct.toFixed(1)+'%';
+    note = '<b style="color:#f08c2e">신용잔고 MDD</b> = 오늘 잔고 ÷ 최근 N거래일 최고 잔고 − 1 · 빚이 고점에서 얼마나 줄었는지(반대매매·상환) · '+
+      '파랑 = 잔고, 노랑 = N일 최고 잔고(왼쪽 축, 조원), 주황 = MDD %(오른쪽 축), 점선 = 오늘 MDD · '+
+      '지수 MDD보다 깊으면 빚이 지수보다 빨리 빠지는 중(강제 청산 가능성) · 금융투자협회 통계(2000년부터, 하루 늦게)';
+  } else {
+    const ago = n => L - n >= 0 && V[L-n] ? (V[L] / V[L-n] - 1) * 100 : null;
+    const y1 = V.slice(Math.max(0, L - 250)).filter(v => v != null), hi = Math.max(...y1), lo = Math.min(...y1);
+    const tot = (MCR.kospi[L]||0) + (MCR.kosdaq[L]||0), dep = MCR.dep[L];
+    st = nm+' 신용거래융자 잔고 · 기준 '+ymdT(D[L])+' · <b style="color:#ea580c">'+V[L].toFixed(2)+'조원</b> · 5일 '+pc(ago(5))+
+      ' · 20일 '+pc(ago(20))+' · 60일 '+pc(ago(60))+' · 1년 최고 대비 '+pc((V[L] / hi - 1) * 100)+' (1년 범위 '+lo.toFixed(1)+'~'+hi.toFixed(1)+'조)'+
+      ' · 예탁금 대비 <b>'+(dep ? (tot / dep * 100).toFixed(1)+'%' : '—')+'</b>';
+    note = '<b style="color:#ea580c">신용거래융자 잔고</b> = 빚내서 산 주식 금액(시장 전체) · 늘면 주황, 줄면 파랑 · 회색 선 = 지수(왼쪽 축, 2015년부터) · '+
+      '예탁금 대비 = 코스피+코스닥 신용잔고 ÷ 투자자예탁금(높을수록 빚 비중 큼) · 금융투자협회 통계(2000년부터, 하루 늦게 나옴)';
+  }
+  return head(nm+' · 신용잔고')+'<div style="font-size:12px;color:var(--ink-2);margin:2px 0 6px">'+st+'</div>'+bar+
+    '<div id="mfngCrChart" style="height:300px"></div><div class="sec-note" style="margin-top:6px">'+note+'</div></div>';
+}
+function drawMfngCredit(){
+  if (MFNG_CR_CHART){ try { MFNG_CR_CHART.remove(); } catch(e){} MFNG_CR_CHART = null; }
+  const el = document.getElementById('mfngCrChart'), S = mcrSeries();
+  if (!el || !S) return;
+  const chart = MFNG_CR_CHART = LWC.createChart(el, Object.assign(smChartOpts(), {
+    leftPriceScale:{visible:true, borderColor:cssVar('--grid')}, rightPriceScale:{visible:true, borderColor:cssVar('--grid')}}));
+  chart.applyOptions({timeScale:{minBarSpacing:0.02}});   // 2000~ 약 6,800일이 한 화면에 들어가게
+  const ser = (dates, vals, opts) => { const s = chart.addSeries(LWC.LineSeries, Object.assign({priceLineVisible:false, lastValueVisible:true, title:''}, opts));
+    s.setData(dates.map((d, i) => [d, vals[i]]).filter(p => p[0] >= S.from && p[1] != null).map(p => ({time:ymdT(p[0]), value:+p[1].toFixed(2)}))); return s; };
+  if (MCR_VIEW === 'mdd'){
+    const dS = ser(S.D, S.dd, {color:'#f08c2e', lineWidth:1.4, priceScaleId:'right'});
+    dS.createPriceLine({price:+S.dd[S.L].toFixed(2), color:'#f08c2e', lineWidth:1, lineStyle:2, axisLabelVisible:false, title:''});
+    dS.createPriceLine({price:0, color:cssVar('--ink-3'), lineWidth:1, lineStyle:2, axisLabelVisible:false});
+    ser(S.D, S.mx, {color:'#e9c46a', lineWidth:1.3, priceScaleId:'left'});
+    ser(S.D, S.V, {color:'#4ea3ff', lineWidth:1.8, priceScaleId:'left'});
+  } else {
+    ser(S.D, S.V, {color:'#ea580c', lineWidth:2, priceScaleId:'right'});
+    if (S.im && S.im.d) ser(S.im.d, S.im.c, {color:cssVar('--ink-3'), lineWidth:1, priceScaleId:'left', lastValueVisible:false});
+  }
   chart.timeScale().fitContent();
 }
 /* SuperMA 이격 (hugusk 2026-10-04) — SuperMA = 20·60·120·200일 이평의 평균(장단기 추세를 하나로 합친 선),
@@ -2367,6 +2461,12 @@ function renderSmInd(){
   });
 }
 
+// 종목 팝업 신용잔고 (hugusk 2026-10-22) — credit_map.json(전 종목 {코드: [잔고율, 5·10·20일 증감%]}, 처음 열 때 한 번 받는다)
+let CRMAP = null;
+function loadCrMap(){
+  if (CRMAP === null) CRMAP = fetch('credit_map.json', {cache:'no-cache'}).then(r => r.ok ? r.json() : false).catch(() => false);
+  return CRMAP;
+}
 async function openStock(code){
   let s=null;
   for (const m of Object.keys(DATA.markets)){
@@ -2386,12 +2486,19 @@ async function openStock(code){
     M('PBR', s.pbr==null?'—':s.pbr.toFixed(2)) + M('ROE', s.roe==null?'—':s.roe.toFixed(1)+'%') +
     M('배당률', s.dy==null?'—':s.dy.toFixed(2)+'%') + M('RSI', s.rsi==null?'—':s.rsi.toFixed(1)) +
     M('최근강세 Pulse', (s.rs_pct??'—') + (s.rs_ts?' · 대금 ×'+s.rs_ts.toFixed(1):'')) +
+    M('신용잔고율', '<span id="sm-cr-rate" title="신용거래융자 잔고 ÷ 상장주식수(한국투자증권, 2~3거래일 늦게 나옴)">—</span>') +
+    M('신용 5일 증감', '<span id="sm-cr-c5" title="신용거래융자 잔고 주식 수의 5거래일 전 대비 변화">—</span>') +
     M('선행 PSR', '<span id="sm-mf-psr" title="현재 시가총액 ÷ 추정연도 매출 예상치">—</span>') +
     M('선행 PER', '<span id="sm-mf-per" title="현재 시가총액 ÷ 추정연도 순이익 예상치">—</span>') +
     M('선행 POR', '<span id="sm-mf-por" title="현재 시가총액 ÷ 추정연도 영업이익 예상치">—</span>');
   document.getElementById('sm-note').textContent = isServed ? '' :
     '공개 페이지는 최근 130거래일(약 6개월) 봉 데이터입니다 — 전체 기간은 로컬 서버에서.';
   document.getElementById('smodal').classList.add('on');
+  loadCrMap().then(m => { const x = m && m.m && m.m[code];       // 신용잔고 (hugusk 2026-10-22)
+    const r = document.getElementById('sm-cr-rate'), c = document.getElementById('sm-cr-c5');
+    if (r) r.textContent = x && x[0] != null ? x[0].toFixed(2) + '%' : '—';
+    if (c) c.innerHTML = x && x[1] != null ? '<span style="color:' + (x[1] >= 0 ? '#ea580c' : '#2563eb') + '">' + fmtPct1(x[1]) + '</span>'
+                                            : (x && x[0] != null && x[0] < 0.05 ? '<span title="잔고가 적어 증감률 생략">—</span>' : '—'); });
   renderSmFlow(code);
   renderSmRs(code, s);
   renderSmCons(code, s ? s.price : null);
