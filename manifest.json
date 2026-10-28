@@ -11203,5 +11203,23 @@
     "reality_score": 30,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-28",
+    "filename": "420770_기가비스/2026-10-28_기가비스_420770.html",
+    "company": "기가비스",
+    "ticker": "420770",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 11,
+      "threat": 18
+    },
+    "reality_score": 39,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
