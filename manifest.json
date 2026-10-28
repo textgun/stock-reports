@@ -10756,24 +10756,6 @@
   },
   {
     "date": "2026-10-28",
-    "filename": "252990_샘씨엔에스/2026-10-28_샘씨엔에스_252990.html",
-    "company": "샘씨엔에스",
-    "ticker": "252990",
-    "score": 75,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 18,
-      "opportunity": 12,
-      "threat": 20
-    },
-    "reality_score": 42,
-    "hope_score": 32,
-    "quadrant": "현실·기대 모두 강함  🟢🟢"
-  },
-  {
-    "date": "2026-10-28",
     "filename": "062040_산일전기/2026-10-28_산일전기_062040.html",
     "company": "산일전기",
     "ticker": "062040",
@@ -11311,5 +11293,23 @@
     "reality_score": 20,
     "hope_score": 10,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-28",
+    "filename": "252990_샘씨엔에스/2026-10-28_샘씨엔에스_252990.html",
+    "company": "샘씨엔에스",
+    "ticker": "252990",
+    "score": 78,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 12,
+      "threat": 23
+    },
+    "reality_score": 42,
+    "hope_score": 36,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
