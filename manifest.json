@@ -10879,5 +10879,23 @@
     "reality_score": 37,
     "hope_score": 17,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-28",
+    "filename": "307950_현대오토에버/2026-10-28_현대오토에버_307950.html",
+    "company": "현대오토에버",
+    "ticker": "307950",
+    "score": 52,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 15,
+      "opportunity": 11,
+      "threat": 12
+    },
+    "reality_score": 36,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
