@@ -11131,5 +11131,23 @@
     "reality_score": 41,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-28",
+    "filename": "028260_삼성물산/2026-10-28_삼성물산_028260.html",
+    "company": "삼성물산",
+    "ticker": "028260",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 26,
+      "opportunity": 8,
+      "threat": 14
+    },
+    "reality_score": 38,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
