@@ -10969,5 +10969,23 @@
     "reality_score": 41,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-28",
+    "filename": "011070_LG이노텍/2026-10-28_LG이노텍_011070.html",
+    "company": "LG이노텍",
+    "ticker": "011070",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 18,
+      "opportunity": 5,
+      "threat": 17
+    },
+    "reality_score": 36,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
