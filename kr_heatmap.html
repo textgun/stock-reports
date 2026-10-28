@@ -243,6 +243,7 @@ body.embed .wrap { padding-top:8px; }
 
   <div class="view" id="view-heatmap">
     <div id="macroBox" style="display:none"></div>
+    <div id="derivBox" style="display:none"></div>
     <div id="hmMain">
     <!-- 시장 F&G — 지수 단위라 대시보드(종목 수급 카드 묶음)가 아니라 이 탭에 둔다 (hugusk 배치와 동일).
          데이터(market_flow.json)가 없으면 renderHeatmap()이 비워두므로 빈 상자가 남지 않는다. -->
@@ -749,11 +750,13 @@ function renderTabs(){
     b.onclick = () => { MARKET = m; US_HM = null; renderAll(); };
     mt.appendChild(b);
   });
-  if (VIEW === 'heatmap'){                      // 미국 매크로 — 히트맵 탭에만 (hugusk 2026-10-04, 미국 지수 히트맵은 범위 밖)
-    const b = document.createElement('button');
-    b.textContent = 'Macro'; b.className = US_HM === 'MACRO' ? 'on' : '';
-    b.onclick = () => { US_HM = 'MACRO'; renderAll(); };
-    mt.appendChild(b);
+  if (VIEW === 'heatmap'){                      // 미국 매크로·외국인 파생 포지션 — 히트맵 탭에만 (hugusk 10-04·10-22, 미국 지수 히트맵은 범위 밖)
+    [['MACRO','Macro'],['DERIV','파생포지션']].forEach(([k, nm]) => {
+      const b = document.createElement('button');
+      b.textContent = nm; b.className = US_HM === k ? 'on' : '';
+      b.onclick = () => { US_HM = k; renderAll(); };
+      mt.appendChild(b);
+    });
   }
   const vt = document.getElementById('viewTabs');
   vt.innerHTML = '';
@@ -1720,6 +1723,11 @@ function drawUsLiqChart(q, pre){
   const row = q.summary.find(r => r[0] === LIQ_SEL) || [];
   const hd = document.getElementById(pre+'DetHead');
   hd.innerHTML = '<b>'+esc(LIQ_SEL)+'</b> <span class="mut" style="font-size:12px">'+esc(row[1]||'')+'</span>';
+  if (el.dataset.h0 === undefined) el.dataset.h0 = el.style.height;
+  el.style.height = el.dataset.h0;
+  if (LIQ_SEL === DV_NAME && pre !== 'macro'){ dvMini(el);          // 대시보드: 만기 손익선(가로축 = 지수) — Macro는 아래 단계 이력
+    if (host) host.querySelectorAll('tr[data-liq]').forEach(r => r.style.background = r.dataset.liq === LIQ_SEL ? 'var(--hover-wash)' : '');
+    return; }
   const ch = LIQ_CH[pre] = LWC.createChart(el, Object.assign(smChartOpts(), {leftPriceScale:{visible:true, borderColor:cssVar('--grid')}}));
   const pal = ['#1e88e5', '#F57C00', '#8e44ad', '#16a34a'];
   let first = null;
@@ -1736,8 +1744,106 @@ function drawUsLiqChart(q, pre){
   ch.timeScale().fitContent();
   if (host) host.querySelectorAll('tr[data-liq]').forEach(r => r.style.background = r.dataset.liq === LIQ_SEL ? 'var(--hover-wash)' : '');
 }
-// 히트맵 탭 'Macro' — 신호등 이력표·세부 내용·미국 ETF 유출입 주간·월간 누적 (미국 지수 히트맵은 범위 밖이라 Macro 버튼만)
+// 히트맵 탭 'Macro' — 신호등 이력표·세부 내용·미국 ETF 유출입 주간·월간 누적 (미국 지수 히트맵은 범위 밖이라 Macro·파생포지션 버튼만)
 let US_HM = null;
+/* ── 외국인 파생 포지션 (hugusk 2026-10-22) — deriv_pos.json (data_collector/foreign_deriv_client, 선물 부분) ──
+   히트맵 탭 '파생포지션' 전체 화면 + 대시보드 유동성 카드 '외국인 파생 포지션' 줄 클릭 시 만기 손익선·읽는 법.
+   옵션 행사가별 외국인 포지션(그쪽은 키움 OpenAPI+)은 원천이 없어 선물만 그린다. */
+let DERIV = null;
+const DV_NAME = '외국인 파생 포지션';
+const DV_C = {fut:'#2563eb', spot:'#ef4444', up:'#16a34a', dn:'#dc2626'};
+async function loadDeriv(){
+  if (DERIV !== null) return DERIV;
+  try { const r = await fetch('deriv_pos.json', {cache:'no-cache'}); DERIV = r.ok ? await r.json() : false; } catch(e){ DERIV = false; }
+  return DERIV;
+}
+const dvF = (v, d=0) => v == null ? '—' : (v > 0 ? '+' : '') + Number(v).toLocaleString('ko-KR', {minimumFractionDigits:d, maximumFractionDigits:d});
+const dvD = s => s ? s.slice(4,6)+'/'+s.slice(6) : '—';
+function dvSvg(tag, at, p){ const e = document.createElementNS('http://www.w3.org/2000/svg', tag); for (const k in at) e.setAttribute(k, at[k]); p.appendChild(e); return e; }
+function dvLegend(){
+  return '<div style="display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--ink-2);margin:4px 0">'+
+    [['fut','외국인 선물'],['spot','현재 지수']].map(([k, n]) =>
+      '<span><i style="display:inline-block;width:14px;height:'+(k==='fut'?4:2)+'px;background:'+DV_C[k]+';vertical-align:middle;margin-right:4px"></i>'+n+'</span>').join('')+
+    '<span><i style="display:inline-block;width:14px;border-top:2px dotted var(--ink-2);vertical-align:middle;margin-right:4px"></i>손익분기</span></div>';
+}
+// 만기 손익선 — 가로축 = 옵션 만기일 코스피200, 세로축 = 억원
+function dvDrawPnl(svg, P){
+  svg.innerHTML = '';
+  const G = P.grid, W = 1000, H = +svg.getAttribute('viewBox').split(' ')[3], L = 56, R = 16, T = 12, B = 30;
+  const all = [...P.fut, 0], lo = Math.min(...all), hi = Math.max(...all), pad = (hi - lo) * 0.08 || 10, y0 = lo - pad, y1 = hi + pad;
+  const x = v => L + (v - G[0]) / (G[G.length-1] - G[0]) * (W - L - R), y = v => T + (1 - (v - y0) / (y1 - y0)) * (H - T - B);
+  const ink3 = cssVar('--ink-3'), grid = cssVar('--grid'), ink2 = cssVar('--ink-2');
+  const step = (y1 - y0) > 1200 ? 400 : (y1 - y0) > 400 ? 100 : (y1 - y0) > 120 ? 40 : 20;
+  for (let v = Math.ceil(y0/step)*step; v <= y1; v += step){
+    dvSvg('line', {x1:L, x2:W-R, y1:y(v), y2:y(v), stroke:v === 0 ? ink3 : grid, 'stroke-width':v === 0 ? 1.2 : 1}, svg);
+    dvSvg('text', {x:L-6, y:y(v)+4, 'text-anchor':'end', 'font-size':12, fill:ink3}, svg).textContent = v; }
+  for (let v = Math.ceil(G[0]/20)*20; v <= G[G.length-1]; v += 20) dvSvg('text', {x:x(v), y:H-10, 'text-anchor':'middle', 'font-size':12, fill:ink3}, svg).textContent = v;
+  const vl = (v, col, dash, lab, row, left) => { if (v < G[0] || v > G[G.length-1]) return;
+    dvSvg('line', {x1:x(v), x2:x(v), y1:T, y2:H-B, stroke:col, 'stroke-width':1.4, 'stroke-dasharray':dash}, svg);
+    dvSvg('text', {x:x(v)+(left?-4:4), y:T+12+row*16, 'text-anchor':left?'end':'start', 'font-size':12, fill:col}, svg).textContent = lab; };
+  vl(P.spot, DV_C.spot, '', '현재 '+P.spot.toFixed(1), 0, true);
+  P.be.forEach(b => vl(b, ink2, '2 4', '손익분기 '+b.toFixed(1), 1, false));
+  dvSvg('path', {d:P.fut.map((v, i) => (i?'L':'M')+x(G[i]).toFixed(1)+' '+y(v).toFixed(1)).join(''), fill:'none', stroke:DV_C.fut, 'stroke-width':3}, svg);
+  dvSvg('circle', {cx:x(P.spot), cy:y(P.pnl_now), r:5, fill:DV_C.fut}, svg);
+}
+// 읽는 법 — 짧게(대시보드) / 길게(파생포지션 화면)
+function dvRead(P, short){
+  const be = P.be.length ? P.be.map(b => b.toFixed(1)).join(' · ') : '없음';
+  const side = P.lv >= 4 ? '지수가 <b>오를수록</b> 외국인 이익이 커지는 구조' : P.lv <= 2 ? '지수가 <b>내릴수록</b> 외국인 이익이 커지는 구조' : '위아래 어느 쪽도 크게 기울지 않은 구조';
+  let s = '외국인은 선물 <b>'+dvF(P.fut_pos)+'계약</b>(평균 '+(P.fut_avg == null ? '—' : P.fut_avg.toFixed(1))+')을 들고 있습니다. '+
+    side+'입니다 — 지수 3% 상승 시 <b>'+dvF(P.up)+'억</b>, 3% 하락 시 <b>'+dvF(P.dn)+'억</b>. 손익분기 <b>'+be+'</b>.';
+  if (short) return s;
+  return s+' 손익분기 근처에서는 외국인이 지수를 자기에게 유리한 쪽(손익분기 '+(P.lv >= 3 ? '위' : '아래')+')으로 끌고 가려는 힘이 있다고 볼 수 있습니다.'+
+    ' 옵션 포지션(콜·풋 행사가별)은 넣지 않았습니다 — 행사가별 외국인 자료가 키움 윈도우 프로그램(OpenAPI+)에서만 나옵니다.';
+}
+// 대시보드 줄 클릭 — LWC 차트 자리에 손익선 + 읽는 법 요약
+function dvMini(el){
+  loadDeriv().then(D => {
+    const P = D && D.pos;
+    if (!P){ el.innerHTML = '<div class="sec-note">파생 포지션 자료가 아직 없습니다.</div>'; return; }
+    el.style.height = 'auto';
+    el.innerHTML = '<div style="font-size:12.5px;line-height:1.7;color:var(--ink-1);margin:2px 0 4px">'+dvRead(P, true)+'</div>'+dvLegend()+
+      '<svg id="dvMiniSvg" viewBox="0 0 1000 300" style="width:100%;height:auto;display:block" role="img" aria-label="외국인 선물 만기 손익선"></svg>'+
+      '<div class="sec-note" style="margin:4px 0 0">외국인 선물(한국투자증권 일별 순매수, '+dvD(P.fut_from)+' 만기 다음 날부터 누적) · 기준 '+dvD(P.asof)+
+      ' · 신호등: 오를수록 이익이면 초록, 내릴수록 이익이면 빨강 · 자세히는 <a href="#" onclick="gotoDeriv();return false">히트맵 → 파생포지션</a> · 단계 이력은 히트맵 → Macro</div>';
+    dvDrawPnl(document.getElementById('dvMiniSvg'), P);
+  });
+}
+function gotoDeriv(){ VIEW = 'heatmap'; US_HM = 'DERIV'; renderAll(); }
+async function renderDeriv(){
+  const box = document.getElementById('derivBox');
+  const D = await loadDeriv(), P = D && D.pos;
+  if (!P){ box.innerHTML = '<div class="card"><div class="sec-note">파생 포지션 자료가 아직 없습니다.</div></div>'; return; }
+  const W = D.wk || [], last = W[W.length-1];
+  const kp = [['신호등', '<span style="color:'+LIQ_LV[P.lv-1]+'">●</span> '+esc(D.word[P.lv]), '오를 때−내릴 때(±3%) '+dvF(P.tilt, 1)+'억'],
+    ['선물 포지션(추정)', dvF(P.fut_pos)+'계약', '평균 진입가 '+(P.fut_avg == null ? '—' : P.fut_avg.toFixed(2))],
+    ['손익분기', P.be.length ? P.be.map(b => b.toFixed(1)).join(' · ') : '없음', '지금 지수와 '+(P.be.length ? dvF(P.be[0]-P.spot, 1)+'p' : '—')],
+    ['지금 지수에서 손익', dvF(P.pnl_now, 1)+'억', '만기 '+dvD(P.opt_exp)+' 기준'],
+    ['그날 옵션 순매수(참고)', last ? '콜 '+dvF(last[1])+' / 풋 '+dvF(last[2]) : '—', last ? dvD(last[0])+' 정규 월물 전체 · 계약' : '']];
+  box.innerHTML = '<div class="card"><h3 style="margin:0 0 4px;font-size:15px">외국인 파생 포지션 <span style="font-weight:400;font-size:12px;color:var(--ink-3)">기준 '+dvD(P.asof)+' 장 마감 · 코스피200 '+P.spot.toFixed(2)+'</span></h3>'+
+    '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:8px 0">'+kp.map(k =>
+      '<div style="border:1px solid var(--grid);border-radius:8px;padding:8px 10px"><div style="font-size:11.5px;color:var(--ink-3)">'+k[0]+'</div>'+
+      '<div style="font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--ink-1)">'+k[1]+'</div><div style="font-size:11.5px;color:var(--ink-3)">'+k[2]+'</div></div>').join('')+'</div>'+
+    '<div style="font-size:13.5px;line-height:1.75;color:var(--ink-1)"><b>읽는 법.</b> '+dvRead(P, false)+'</div></div>'+
+    '<div class="card"><h3 style="margin:0;font-size:14px">외국인 선물 만기 손익선 — 지수가 어디서 끝나면 얼마를 버나</h3>'+dvLegend()+
+      '<svg id="dvPnl" viewBox="0 0 1000 380" style="width:100%;height:auto;display:block" role="img" aria-label="외국인 선물 만기 손익선"></svg>'+
+      '<div class="sec-note" style="margin:4px 0 0">선물 = 외국인 추정 포지션('+dvD(P.fut_from)+' 선물 만기 다음 날부터 매일 순매수를 누적 · 평균 진입가 = 그날 순매수 금액 ÷ 계약, 한국투자증권) · 단위 억원 · '+
+      '가로축 = 옵션 만기일('+dvD(P.opt_exp)+') 코스피200 · 선물 가격 = 지수 + 베이시스 '+(P.basis.b == null ? '—' : P.basis.b.toFixed(2))+'(지금 '+(P.basis.now == null ? '—' : P.basis.now.toFixed(2))+'를 '+dvD(P.fut_exp)+' 선물 만기까지 남은 날수로 줄임) · '+
+      '신호등: 지수 3% 오를 때와 3% 내릴 때 손익 차이 — +300억 이상 초록 · +60억 이상 연두 · ±60억 안 노랑 · −60억 이하 주황 · −300억 이하 빨강</div></div>'+
+    (W.length ? '<div class="card"><h3 style="margin:0 0 6px;font-size:14px">참고 · 외국인 상품별 순매수 (최근 '+W.length+'거래일, 계약)</h3>'+
+      '<div style="overflow-x:auto"><table class="data" style="font-size:12.5px"><thead><tr><th class="l">날짜</th>'+
+      '<th>정규 콜</th><th>정규 풋</th><th>위클리 콜</th><th>위클리 풋</th><th>미니 콜</th><th>미니 풋</th><th>선물</th><th>미니 선물</th></tr></thead><tbody>'+
+      W.slice().reverse().map(r => '<tr><td class="l">'+dvD(r[0])+'</td>'+r.slice(1).map(v =>
+        '<td style="color:'+(v > 0 ? DV_C.up : v < 0 ? DV_C.dn : 'var(--ink-3)')+'">'+dvF(v)+'</td>').join('')+'</tr>').join('')+
+      '</tbody></table></div><div class="sec-note" style="margin:4px 0 0">한국투자증권 시장별 투자자매매동향(일별) · 위클리 = 목요일+월요일 만기 합 · 미니는 계약 크기 1/5 · '+
+      '<b>참고용</b> — 신호등은 선물만 봅니다</div></div>' : '')+
+    '<div class="card"><h3 style="margin:0 0 6px;font-size:14px">날짜별 변화</h3><div style="overflow-x:auto"><table class="data" style="font-size:12.5px"><thead><tr>'+
+      '<th class="l">날짜</th><th>신호등</th><th>코스피200</th><th>선물 포지션(추정)</th><th>평균 진입가</th><th>±3% 손익 차</th></tr></thead><tbody>'+
+      P.hist.slice().reverse().map(h => '<tr><td class="l">'+dvD(h.d)+'</td><td><span style="color:'+LIQ_LV[h.lv-1]+'">●</span> '+esc(D.word[h.lv])+'</td><td>'+h.S.toFixed(2)+'</td>'+
+        '<td>'+dvF(h.f_pos)+'</td><td>'+(h.f_avg == null ? '—' : h.f_avg.toFixed(2))+'</td><td>'+dvF(h.tilt, 1)+'억</td></tr>').join('')+
+      '</tbody></table></div><div class="sec-note" style="margin:4px 0 0">그날까지의 순매수로 다시 만든 값 · 손익 차 = 그날 종가에서 지수가 3% 오를 때와 내릴 때의 선물 손익 차</div></div>';
+  dvDrawPnl(document.getElementById('dvPnl'), P);
+}
 function gotoMacro(){ VIEW = 'heatmap'; US_HM = 'MACRO'; renderAll(); }
 async function renderMacro(){
   const box = document.getElementById('macroBox');
@@ -3283,10 +3389,12 @@ function renderAll(){
   renderKpis();
   initFilters();
   if (VIEW === 'heatmap'){
-    const mac = US_HM === 'MACRO';
+    const mac = US_HM === 'MACRO', der = US_HM === 'DERIV';
     document.getElementById('macroBox').style.display = mac ? '' : 'none';
-    document.getElementById('hmMain').style.display = mac ? 'none' : '';
+    document.getElementById('derivBox').style.display = der ? '' : 'none';
+    document.getElementById('hmMain').style.display = (mac || der) ? 'none' : '';
     if (mac){ document.getElementById('kpis').style.display = 'none'; renderMacro(); }
+    else if (der){ document.getElementById('kpis').style.display = 'none'; renderDeriv(); }
     else { renderHeatmap(); renderPerf(); renderSpectrum(); }
   }
   if (VIEW === 'rs') renderRs();
