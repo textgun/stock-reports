@@ -11635,5 +11635,23 @@
     "reality_score": 36,
     "hope_score": 32,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-29",
+    "filename": "229640_LS에코에너지/2026-10-29_LS에코에너지_229640.html",
+    "company": "LS에코에너지",
+    "ticker": "229640",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 19,
+      "opportunity": 7,
+      "threat": 14
+    },
+    "reality_score": 39,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
