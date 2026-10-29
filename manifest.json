@@ -10720,24 +10720,6 @@
   },
   {
     "date": "2026-10-29",
-    "filename": "000660_SK하이닉스/2026-10-29_SK하이닉스_000660.html",
-    "company": "SK하이닉스",
-    "ticker": "000660",
-    "score": 64,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 14,
-      "opportunity": 10,
-      "threat": 15
-    },
-    "reality_score": 39,
-    "hope_score": 28,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-29",
     "filename": "001430_세아베스틸지주/2026-10-29_세아베스틸지주_001430.html",
     "company": "세아베스틸지주",
     "ticker": "001430",
@@ -11779,5 +11761,23 @@
     "reality_score": 42,
     "hope_score": 32,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-29",
+    "filename": "000660_SK하이닉스/2026-10-29_SK하이닉스_000660.html",
+    "company": "SK하이닉스",
+    "ticker": "000660",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 14,
+      "opportunity": 10,
+      "threat": 15
+    },
+    "reality_score": 39,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
