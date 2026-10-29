@@ -11455,5 +11455,23 @@
     "reality_score": 16,
     "hope_score": 12,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-29",
+    "filename": "456040_OCI/2026-10-29_OCI_456040.html",
+    "company": "OCI",
+    "ticker": "456040",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 5,
+      "opportunity": 6,
+      "threat": 19
+    },
+    "reality_score": 23,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
