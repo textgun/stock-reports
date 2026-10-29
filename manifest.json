@@ -11131,5 +11131,23 @@
     "reality_score": 35,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-29",
+    "filename": "053800_안랩/2026-10-29_안랩_053800.html",
+    "company": "안랩",
+    "ticker": "053800",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 13,
+      "opportunity": 21,
+      "threat": 15
+    },
+    "reality_score": 40,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
