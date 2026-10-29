@@ -11329,5 +11329,23 @@
     "reality_score": 36,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-29",
+    "filename": "195940_HK이노엔/2026-10-29_HK이노엔_195940.html",
+    "company": "HK이노엔",
+    "ticker": "195940",
+    "score": 52,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 8,
+      "opportunity": 11,
+      "threat": 22
+    },
+    "reality_score": 34,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
