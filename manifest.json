@@ -11440,24 +11440,6 @@
   },
   {
     "date": "2026-10-29",
-    "filename": "005930_삼성전자/2026-10-29_삼성전자_005930.html",
-    "company": "삼성전자",
-    "ticker": "005930",
-    "score": 71,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 23,
-      "opportunity": 11,
-      "threat": 12
-    },
-    "reality_score": 48,
-    "hope_score": 26,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-29",
     "filename": "066570_LG전자/2026-10-29_LG전자_066570.html",
     "company": "LG전자",
     "ticker": "066570",
@@ -11778,6 +11760,24 @@
     },
     "reality_score": 39,
     "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-29",
+    "filename": "005930_삼성전자/2026-10-29_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 23,
+      "opportunity": 11,
+      "threat": 12
+    },
+    "reality_score": 48,
+    "hope_score": 26,
     "quadrant": "현실 강함  🟢"
   }
 ]
