@@ -18298,5 +18298,80 @@
       "pbr_roe_fair_value": 473.0,
       "nav_sotp_mid": null
     }
+  },
+  "093320": {
+    "company": "케이아이엔엑스",
+    "updated": "2026-10-29",
+    "score": 70,
+    "sector": "IT서비스",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 15,
+      "opportunity": 18,
+      "threat": 18
+    },
+    "sector_max": {
+      "strength": 20,
+      "weakness": 15,
+      "opportunity": 40,
+      "threat": 25
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": 51.3,
+      "rev_yoy_pct": 8.6,
+      "momentum_score": 7.0,
+      "correction_pts": 2
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "(주)가비아 36.30%",
+      "ceo": "김지욱",
+      "exec_count": 10
+    },
+    "valuation": {
+      "per": 36.1,
+      "per_txt": "고평가 주의",
+      "pbr": 4.05,
+      "pbr_txt": "고평가 주의",
+      "psr": 5.26,
+      "psr_txt": "고평가 주의",
+      "peg": 0.7,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": 10.39
+    },
+    "valuation_engine": {
+      "fair_value": 87317.0,
+      "band_low": 49528.0,
+      "band_high": 126494.0,
+      "confidence": "LOW",
+      "method_spread": 1.807,
+      "position_scale": 0.5,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 1.807배"
+      ],
+      "zone": "OVERHEATED",
+      "gap_pct": 104.5,
+      "quality_gate_passed": true,
+      "action_label": "⚠️ 신뢰도 LOW · OVERHEATED 참고용 — 밸류에이션 자동 매도 보류",
+      "srim_mid": 70147.56434860798,
+      "per_band_mid": 60945.0,
+      "pbr_roe_fair_value": 110123.0,
+      "nav_sotp_mid": null
+    }
   }
 }
