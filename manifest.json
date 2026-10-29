@@ -11203,5 +11203,23 @@
     "reality_score": 46,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-29",
+    "filename": "099320_쎄트렉아이/2026-10-29_쎄트렉아이_099320.html",
+    "company": "쎄트렉아이",
+    "ticker": "099320",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 10,
+      "opportunity": 5,
+      "threat": 9
+    },
+    "reality_score": 19,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
