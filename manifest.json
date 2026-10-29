@@ -11419,5 +11419,23 @@
     "reality_score": 5,
     "hope_score": 15,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-10-29",
+    "filename": "361610_SK아이이테크놀로지/2026-10-29_SK아이이테크놀로지_361610.html",
+    "company": "SK아이이테크놀로지",
+    "ticker": "361610",
+    "score": 28,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 4/30)",
+    "breakdown": {
+      "strength": 3,
+      "weakness": 1,
+      "opportunity": 6,
+      "threat": 18
+    },
+    "reality_score": 4,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
