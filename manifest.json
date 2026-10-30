@@ -15415,5 +15415,23 @@
     "reality_score": 40,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "175330_JB금융지주/2026-10-31_JB금융지주_175330.html",
+    "company": "JB금융지주",
+    "ticker": "175330",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 8,
+      "threat": 19
+    },
+    "reality_score": 41,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
