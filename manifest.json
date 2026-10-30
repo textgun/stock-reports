@@ -16099,5 +16099,23 @@
     "reality_score": 41,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "272110_케이엔제이/2026-10-31_케이엔제이_272110.html",
+    "company": "케이엔제이",
+    "ticker": "272110",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 21,
+      "opportunity": 2,
+      "threat": 20
+    },
+    "reality_score": 44,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
