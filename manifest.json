@@ -12607,5 +12607,23 @@
     "reality_score": 18,
     "hope_score": 26,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "007660_이수페타시스/2026-10-31_이수페타시스_007660.html",
+    "company": "이수페타시스",
+    "ticker": "007660",
+    "score": 73,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 13,
+      "threat": 10
+    },
+    "reality_score": 48,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
