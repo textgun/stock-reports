@@ -12157,5 +12157,23 @@
     "reality_score": 42,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-30",
+    "filename": "080220_제주반도체/2026-10-30_제주반도체_080220.html",
+    "company": "제주반도체",
+    "ticker": "080220",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 7,
+      "threat": 7
+    },
+    "reality_score": 41,
+    "hope_score": 10,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
