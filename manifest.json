@@ -15883,5 +15883,23 @@
     "reality_score": 36,
     "hope_score": 17,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "241560_두산밥캣/2026-10-31_두산밥캣_241560.html",
+    "company": "두산밥캣",
+    "ticker": "241560",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 12,
+      "opportunity": 6,
+      "threat": 18
+    },
+    "reality_score": 33,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
