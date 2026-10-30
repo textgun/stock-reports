@@ -12193,5 +12193,23 @@
     "reality_score": 45,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "003670_포스코퓨처엠/2026-10-31_포스코퓨처엠_003670.html",
+    "company": "포스코퓨처엠",
+    "ticker": "003670",
+    "score": 37,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 15,
+      "opportunity": 10,
+      "threat": 7
+    },
+    "reality_score": 29,
+    "hope_score": 12,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
