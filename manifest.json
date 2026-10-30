@@ -14569,5 +14569,23 @@
     "reality_score": 45,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "083450_GST/2026-10-31_GST_083450.html",
+    "company": "GST",
+    "ticker": "083450",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 14,
+      "opportunity": 9,
+      "threat": 24
+    },
+    "reality_score": 35,
+    "hope_score": 32,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
