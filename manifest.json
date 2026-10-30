@@ -11599,5 +11599,23 @@
     "reality_score": 44,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-30",
+    "filename": "472850_폰드그룹/2026-10-30_폰드그룹_472850.html",
+    "company": "폰드그룹",
+    "ticker": "472850",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 5,
+      "threat": 20
+    },
+    "reality_score": 41,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
