@@ -14713,5 +14713,23 @@
     "reality_score": 35,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "089010_켐트로닉스/2026-10-31_켐트로닉스_089010.html",
+    "company": "켐트로닉스",
+    "ticker": "089010",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 25,
+      "opportunity": 12,
+      "threat": 11
+    },
+    "reality_score": 36,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
