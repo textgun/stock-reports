@@ -15235,5 +15235,23 @@
     "reality_score": 32,
     "hope_score": 12,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "137950_제이씨케미칼/2026-10-31_제이씨케미칼_137950.html",
+    "company": "제이씨케미칼",
+    "ticker": "137950",
+    "score": 43,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 9,
+      "opportunity": 4,
+      "threat": 16
+    },
+    "reality_score": 25,
+    "hope_score": 15,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
