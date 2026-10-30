@@ -15919,5 +15919,23 @@
     "reality_score": 44,
     "hope_score": 38,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "247540_에코프로비엠/2026-10-31_에코프로비엠_247540.html",
+    "company": "에코프로비엠",
+    "ticker": "247540",
+    "score": 20,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 7/20)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 7,
+      "opportunity": 7,
+      "threat": 6
+    },
+    "reality_score": 10,
+    "hope_score": 8,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
