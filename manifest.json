@@ -12463,5 +12463,23 @@
     "reality_score": 44,
     "hope_score": 30,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "005930_삼성전자/2026-10-31_삼성전자_005930.html",
+    "company": "삼성전자",
+    "ticker": "005930",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 23,
+      "opportunity": 7,
+      "threat": 12
+    },
+    "reality_score": 48,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
