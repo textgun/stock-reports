@@ -15793,5 +15793,23 @@
     "reality_score": 39,
     "hope_score": 18,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "234340_헥토파이낸셜/2026-10-31_헥토파이낸셜_234340.html",
+    "company": "헥토파이낸셜",
+    "ticker": "234340",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 13,
+      "opportunity": 19,
+      "threat": 13
+    },
+    "reality_score": 32,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
