@@ -15847,5 +15847,23 @@
     "reality_score": 31,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "237820_플레이디/2026-10-31_플레이디_237820.html",
+    "company": "플레이디",
+    "ticker": "237820",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 19,
+      "opportunity": 3,
+      "threat": 20
+    },
+    "reality_score": 32,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
