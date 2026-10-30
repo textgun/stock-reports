@@ -13435,5 +13435,23 @@
     "reality_score": 37,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "034730_SK/2026-10-31_SK_034730.html",
+    "company": "SK",
+    "ticker": "034730",
+    "score": 79,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 27,
+      "weakness": 13,
+      "opportunity": 15,
+      "threat": 24
+    },
+    "reality_score": 41,
+    "hope_score": 38,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
