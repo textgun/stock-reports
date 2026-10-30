@@ -15829,5 +15829,23 @@
     "reality_score": 43,
     "hope_score": 30,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "237690_에스티팜/2026-10-31_에스티팜_237690.html",
+    "company": "에스티팜",
+    "ticker": "237690",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 5,
+      "opportunity": 14,
+      "threat": 14
+    },
+    "reality_score": 31,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
