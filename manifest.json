@@ -15757,5 +15757,23 @@
     "reality_score": 14,
     "hope_score": 11,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "229000_젠큐릭스/2026-10-31_젠큐릭스_229000.html",
+    "company": "젠큐릭스",
+    "ticker": "229000",
+    "score": 26,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 5,
+      "opportunity": 5,
+      "threat": 9
+    },
+    "reality_score": 11,
+    "hope_score": 16,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
