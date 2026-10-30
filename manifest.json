@@ -11905,5 +11905,23 @@
     "reality_score": 18,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-30",
+    "filename": "066130_하츠/2026-10-30_하츠_066130.html",
+    "company": "하츠",
+    "ticker": "066130",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 15,
+      "opportunity": 5,
+      "threat": 20
+    },
+    "reality_score": 27,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
