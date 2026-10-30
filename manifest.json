@@ -11977,5 +11977,23 @@
     "reality_score": 27,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "000810_삼성화재해상보험/2026-10-31_삼성화재해상보험_000810.html",
+    "company": "삼성화재해상보험",
+    "ticker": "000810",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 18,
+      "opportunity": 15,
+      "threat": 18
+    },
+    "reality_score": 36,
+    "hope_score": 33,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
