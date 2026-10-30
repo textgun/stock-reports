@@ -12355,5 +12355,23 @@
     "reality_score": 20,
     "hope_score": 24,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "005300_롯데칠성음료/2026-10-31_롯데칠성음료_005300.html",
+    "company": "롯데칠성음료",
+    "ticker": "005300",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 19,
+      "opportunity": 10,
+      "threat": 20
+    },
+    "reality_score": 27,
+    "hope_score": 28,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
