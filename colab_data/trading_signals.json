@@ -2,7 +2,7 @@
   "date": "2026-10-30",
   "year": 2026,
   "quarter": 2,
-  "generated_at": "2026-10-30T14:31:16.976654",
+  "generated_at": "2026-10-30T15:15:57.333626",
   "config": {
     "buy_threshold": 65,
     "max_positions": 3,
@@ -12,7 +12,7 @@
     "stop_loss": -0.05,
     "market_halt_pct": -2.0
   },
-  "market_change_pct": -4.05,
+  "market_change_pct": -4.09,
   "market_halted": true,
   "vix_level": 16.91,
   "vix_halted": false,
@@ -56,10 +56,10 @@
       "quadrant": "현실 강함  🟢",
       "position_pct": 12.97,
       "amount_krw": 3891000,
-      "rsi": 48.49,
-      "rsi_label": "중립 (48.5)",
+      "rsi": 47.55,
+      "rsi_label": "중립 (47.5)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-5.56%) — 필터 미적용",
+      "adr_desc": "하락 (-6.82%) — 필터 미적용",
       "adr_factor": 0.5,
       "momentum_3m": -14.68,
       "momentum_6m": -11.76,
@@ -78,7 +78,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:18.788810",
+      "generated_at": "2026-10-30T15:15:13.773904",
       "consecutive_drops": 0,
       "bear_entry_blocked": true,
       "rebound_signal": false,
@@ -112,10 +112,10 @@
       "quadrant": "현실 강함  🟢",
       "position_pct": 11.11,
       "amount_krw": 3333000,
-      "rsi": 58.5,
-      "rsi_label": "중립 (58.5)",
+      "rsi": 58.21,
+      "rsi_label": "중립 (58.2)",
       "adr_signal": "ok",
-      "adr_desc": "ADR 소진율 46% — 진입 여력 있음 (↑1.9% / ADR 4.1%)",
+      "adr_desc": "ADR 소진율 43% — 진입 여력 있음 (↑1.7% / ADR 4.1%)",
       "adr_factor": 0.5,
       "momentum_3m": 2.66,
       "momentum_6m": -40.6,
@@ -134,7 +134,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:42.766916",
+      "generated_at": "2026-10-30T15:15:35.312681",
       "consecutive_drops": 0,
       "bear_entry_blocked": true,
       "rebound_signal": false,
@@ -169,10 +169,10 @@
       "quadrant": "현실 강함  🟢",
       "position_pct": 12.97,
       "amount_krw": 3891000,
-      "rsi": 48.49,
-      "rsi_label": "중립 (48.5)",
+      "rsi": 47.55,
+      "rsi_label": "중립 (47.5)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-5.56%) — 필터 미적용",
+      "adr_desc": "하락 (-6.82%) — 필터 미적용",
       "adr_factor": 0.5,
       "momentum_3m": -14.68,
       "momentum_6m": -11.76,
@@ -191,7 +191,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:18.788810",
+      "generated_at": "2026-10-30T15:15:13.773904",
       "consecutive_drops": 0,
       "bear_entry_blocked": true,
       "rebound_signal": false,
@@ -225,10 +225,10 @@
       "quadrant": "현실·기대 모두 강함  🟢🟢",
       "position_pct": 11.86,
       "amount_krw": 3558000,
-      "rsi": 14.74,
-      "rsi_label": "과매도 (14.7)",
+      "rsi": 14.88,
+      "rsi_label": "과매도 (14.9)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-5.41%) — 필터 미적용",
+      "adr_desc": "하락 (-4.95%) — 필터 미적용",
       "adr_factor": 0.5,
       "momentum_3m": -42.88,
       "momentum_6m": -37.32,
@@ -247,7 +247,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:44.890855",
+      "generated_at": "2026-10-30T15:15:37.175292",
       "consecutive_drops": 0,
       "bear_entry_blocked": true,
       "rebound_signal": false,
@@ -280,10 +280,10 @@
       "quadrant": "현실 강함  🟢",
       "position_pct": 11.49,
       "amount_krw": 3447000,
-      "rsi": 39.31,
-      "rsi_label": "중립 (39.3)",
+      "rsi": 39.45,
+      "rsi_label": "중립 (39.5)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-6.10%) — 필터 미적용",
+      "adr_desc": "하락 (-5.97%) — 필터 미적용",
       "adr_factor": 0.5,
       "momentum_3m": -25.24,
       "momentum_6m": -43.82,
@@ -302,7 +302,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:26.994601",
+      "generated_at": "2026-10-30T15:15:21.236302",
       "consecutive_drops": 0,
       "bear_entry_blocked": true,
       "rebound_signal": false,
@@ -335,10 +335,10 @@
       "quadrant": "현실 강함  🟢",
       "position_pct": 11.3,
       "amount_krw": 3390000,
-      "rsi": 34.97,
-      "rsi_label": "중립 (35.0)",
+      "rsi": 35.14,
+      "rsi_label": "중립 (35.1)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-8.63%) — 필터 미적용",
+      "adr_desc": "하락 (-8.33%) — 필터 미적용",
       "adr_factor": 0.5,
       "momentum_3m": -15.58,
       "momentum_6m": -18.84,
@@ -357,7 +357,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:16.649593",
+      "generated_at": "2026-10-30T15:15:11.851960",
       "consecutive_drops": 0,
       "bear_entry_blocked": true,
       "rebound_signal": false,
@@ -390,10 +390,10 @@
       "quadrant": "현실 강함  🟢",
       "position_pct": 11.11,
       "amount_krw": 3333000,
-      "rsi": 58.5,
-      "rsi_label": "중립 (58.5)",
+      "rsi": 58.21,
+      "rsi_label": "중립 (58.2)",
       "adr_signal": "ok",
-      "adr_desc": "ADR 소진율 46% — 진입 여력 있음 (↑1.9% / ADR 4.1%)",
+      "adr_desc": "ADR 소진율 43% — 진입 여력 있음 (↑1.7% / ADR 4.1%)",
       "adr_factor": 0.5,
       "momentum_3m": 2.66,
       "momentum_6m": -40.6,
@@ -412,7 +412,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:42.766916",
+      "generated_at": "2026-10-30T15:15:35.312681",
       "consecutive_drops": 0,
       "bear_entry_blocked": true,
       "rebound_signal": false,
@@ -445,10 +445,10 @@
       "quadrant": "현실 강함  🟢",
       "position_pct": 11.11,
       "amount_krw": 3333000,
-      "rsi": 44.02,
-      "rsi_label": "중립 (44.0)",
+      "rsi": 44.54,
+      "rsi_label": "중립 (44.5)",
       "adr_signal": "skip",
-      "adr_desc": "하락 (-3.47%) — 필터 미적용",
+      "adr_desc": "하락 (-2.82%) — 필터 미적용",
       "adr_factor": 0.5,
       "momentum_3m": -9.19,
       "momentum_6m": -6.45,
@@ -467,7 +467,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:47.610349",
+      "generated_at": "2026-10-30T15:15:39.292929",
       "consecutive_drops": 0,
       "bear_entry_blocked": true,
       "rebound_signal": false,
@@ -522,7 +522,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:39.133054",
+      "generated_at": "2026-10-30T15:15:32.427969",
       "consecutive_drops": 0
     },
     {
@@ -571,7 +571,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:50.121086",
+      "generated_at": "2026-10-30T15:15:41.470619",
       "consecutive_drops": 0
     },
     {
@@ -620,7 +620,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:22.806408",
+      "generated_at": "2026-10-30T15:15:17.385603",
       "consecutive_drops": 0
     },
     {
@@ -669,7 +669,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:37.167289",
+      "generated_at": "2026-10-30T15:15:30.628762",
       "consecutive_drops": 0
     },
     {
@@ -718,7 +718,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:48.910809",
+      "generated_at": "2026-10-30T15:15:40.394875",
       "consecutive_drops": 0
     },
     {
@@ -767,7 +767,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:51.233169",
+      "generated_at": "2026-10-30T15:15:42.559131",
       "consecutive_drops": 0
     },
     {
@@ -816,7 +816,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:20.797011",
+      "generated_at": "2026-10-30T15:15:15.606755",
       "consecutive_drops": 0
     },
     {
@@ -865,7 +865,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:54.782481",
+      "generated_at": "2026-10-30T15:15:45.767717",
       "consecutive_drops": 1
     },
     {
@@ -914,7 +914,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:35.197505",
+      "generated_at": "2026-10-30T15:15:28.544178",
       "consecutive_drops": 1
     },
     {
@@ -963,7 +963,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:46.127093",
+      "generated_at": "2026-10-30T15:15:38.246933",
       "consecutive_drops": 0
     },
     {
@@ -1012,7 +1012,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:33.211413",
+      "generated_at": "2026-10-30T15:15:26.673310",
       "consecutive_drops": 0
     },
     {
@@ -1061,7 +1061,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:55.882296",
+      "generated_at": "2026-10-30T15:15:46.861789",
       "consecutive_drops": 0
     },
     {
@@ -1092,7 +1092,7 @@
       "rsi_label": "N/A",
       "adr_signal": "skip",
       "adr_desc": "",
-      "adr_factor": 0.525,
+      "adr_factor": 0.519,
       "momentum_3m": -14.12,
       "momentum_6m": -10.0,
       "obv": {
@@ -1110,7 +1110,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:52.376061",
+      "generated_at": "2026-10-30T15:15:43.597184",
       "consecutive_drops": 0
     },
     {
@@ -1159,7 +1159,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:28.997879",
+      "generated_at": "2026-10-30T15:15:23.070500",
       "consecutive_drops": 0
     },
     {
@@ -1208,7 +1208,7 @@
         "obv_breakdown": false
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:53.646469",
+      "generated_at": "2026-10-30T15:15:44.687677",
       "consecutive_drops": 0
     },
     {
@@ -1257,7 +1257,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:31.167501",
+      "generated_at": "2026-10-30T15:15:24.836105",
       "consecutive_drops": 0
     },
     {
@@ -1306,7 +1306,7 @@
         "obv_breakdown": true
       },
       "vix_downgraded": false,
-      "generated_at": "2026-10-30T14:30:57.131732",
+      "generated_at": "2026-10-30T15:15:47.946957",
       "consecutive_drops": 0
     }
   ],
@@ -1327,7 +1327,7 @@
       "rating": "BUY",
       "financial_ok": true,
       "zone": "ACCUMULATE",
-      "gap_pct": -25.9,
+      "gap_pct": -26.0,
       "accumulate_step": 1,
       "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 1.5배) → 목표비중 50%로 축소 매수",
       "fair_value": 195150.0,
@@ -1344,7 +1344,7 @@
       "rsi": null,
       "momentum_3m": 0.89,
       "momentum_6m": -55.95,
-      "generated_at": "2026-10-30T14:31:05.579595"
+      "generated_at": "2026-10-30T15:15:56.302481"
     },
     {
       "ticker": "041510",
@@ -1372,7 +1372,7 @@
       "rsi": null,
       "momentum_3m": 5.87,
       "momentum_6m": -21.69,
-      "generated_at": "2026-10-30T14:31:05.579614"
+      "generated_at": "2026-10-30T15:15:56.302502"
     }
   ],
   "valuation_watchlist": [],
