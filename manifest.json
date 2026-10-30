@@ -11815,5 +11815,23 @@
     "reality_score": 31,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-30",
+    "filename": "105560_KB금융/2026-10-30_KB금융_105560.html",
+    "company": "KB금융",
+    "ticker": "105560",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 15,
+      "opportunity": 6,
+      "threat": 19
+    },
+    "reality_score": 40,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
