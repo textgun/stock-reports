@@ -12103,5 +12103,23 @@
     "reality_score": 25,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "002790_아모레퍼시픽홀딩스/2026-10-31_아모레퍼시픽홀딩스_002790.html",
+    "company": "아모레퍼시픽홀딩스",
+    "ticker": "002790",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 24,
+      "opportunity": 9,
+      "threat": 15
+    },
+    "reality_score": 36,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
