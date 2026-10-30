@@ -12823,5 +12823,23 @@
     "reality_score": 29,
     "hope_score": 14,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "010120_엘에스일렉트릭/2026-10-31_엘에스일렉트릭_010120.html",
+    "company": "엘에스일렉트릭",
+    "ticker": "010120",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 22,
+      "opportunity": 6,
+      "threat": 9
+    },
+    "reality_score": 45,
+    "hope_score": 16,
+    "quadrant": "현실 강함  🟢"
   }
 ]
