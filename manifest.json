@@ -13057,5 +13057,23 @@
     "reality_score": 39,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "013990_아가방컴퍼니/2026-10-31_아가방컴퍼니_013990.html",
+    "company": "아가방컴퍼니",
+    "ticker": "013990",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 22,
+      "opportunity": 4,
+      "threat": 14
+    },
+    "reality_score": 46,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
