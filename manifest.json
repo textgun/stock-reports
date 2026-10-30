@@ -11401,5 +11401,23 @@
     "reality_score": 46,
     "hope_score": 14,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-10-30",
+    "filename": "396470_워트/2026-10-30_워트_396470.html",
+    "company": "워트",
+    "ticker": "396470",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 4,
+      "threat": 15
+    },
+    "reality_score": 39,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   }
 ]
