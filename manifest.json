@@ -15289,5 +15289,23 @@
     "reality_score": 39,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "139480_이마트/2026-10-31_이마트_139480.html",
+    "company": "이마트",
+    "ticker": "139480",
+    "score": 44,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 15,
+      "opportunity": 5,
+      "threat": 24
+    },
+    "reality_score": 17,
+    "hope_score": 28,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
