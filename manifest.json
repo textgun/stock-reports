@@ -15217,5 +15217,23 @@
     "reality_score": 40,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "131970_두산테스나/2026-10-31_두산테스나_131970.html",
+    "company": "두산테스나",
+    "ticker": "131970",
+    "score": 46,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 16,
+      "opportunity": 8,
+      "threat": 4
+    },
+    "reality_score": 32,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
