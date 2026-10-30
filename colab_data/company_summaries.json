@@ -21605,5 +21605,80 @@
       "pbr_roe_fair_value": 33009.0,
       "nav_sotp_mid": null
     }
+  },
+  "241560": {
+    "company": "두산밥캣",
+    "updated": "2026-10-30",
+    "score": 55,
+    "sector": "전기장비/전력",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 12,
+      "opportunity": 6,
+      "threat": 18
+    },
+    "sector_max": {
+      "strength": 26,
+      "weakness": 24,
+      "opportunity": 28,
+      "threat": 22
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": 22.8,
+      "rev_yoy_pct": 15.3,
+      "momentum_score": 7.5,
+      "correction_pts": 4
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "두산에너빌리티㈜ 48.17%",
+      "ceo": "스캇성철박·조덕제",
+      "exec_count": 21
+    },
+    "valuation": {
+      "per": 9.26,
+      "per_txt": "저평가",
+      "pbr": 0.59,
+      "pbr_txt": "적정",
+      "psr": 0.47,
+      "psr_txt": "저평가",
+      "peg": 0.41,
+      "peg_txt": "저평가(성장대비)",
+      "tgt": 85600.0,
+      "upside": 77.8,
+      "consensus_n": 5,
+      "roe": 6.69
+    },
+    "valuation_engine": {
+      "fair_value": 74443.0,
+      "band_low": 27201.0,
+      "band_high": 108460.0,
+      "confidence": "LOW",
+      "method_spread": 2.857,
+      "position_scale": 0.5,
+      "buy_signal_allowed": true,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 2.857배"
+      ],
+      "zone": "ACCUMULATE",
+      "gap_pct": -35.3,
+      "quality_gate_passed": true,
+      "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.9배) → 목표비중 50%로 축소 매수",
+      "srim_mid": 74442.86586996964,
+      "per_band_mid": 37959.0,
+      "pbr_roe_fair_value": 108460.0,
+      "nav_sotp_mid": null
+    }
   }
 }
