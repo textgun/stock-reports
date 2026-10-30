@@ -15937,5 +15937,23 @@
     "reality_score": 10,
     "hope_score": 8,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "251270_넷마블/2026-10-31_넷마블_251270.html",
+    "company": "넷마블",
+    "ticker": "251270",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 15,
+      "opportunity": 9,
+      "threat": 17
+    },
+    "reality_score": 33,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
