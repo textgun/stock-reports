@@ -11959,5 +11959,23 @@
     "reality_score": 39,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "000720_현대건설/2026-10-31_현대건설_000720.html",
+    "company": "현대건설",
+    "ticker": "000720",
+    "score": 47,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 19,
+      "opportunity": 13,
+      "threat": 7
+    },
+    "reality_score": 27,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
