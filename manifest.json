@@ -11869,5 +11869,23 @@
     "reality_score": 16,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "000250_삼천당제약/2026-10-31_삼천당제약_000250.html",
+    "company": "삼천당제약",
+    "ticker": "000250",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 12,
+      "opportunity": 2,
+      "threat": 10
+    },
+    "reality_score": 31,
+    "hope_score": 9,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
