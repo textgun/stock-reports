@@ -14767,5 +14767,23 @@
     "reality_score": 18,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "089970_브이엠/2026-10-31_브이엠_089970.html",
+    "company": "브이엠",
+    "ticker": "089970",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 11,
+      "opportunity": 21,
+      "threat": 12
+    },
+    "reality_score": 37,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
