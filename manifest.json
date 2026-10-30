@@ -11995,5 +11995,23 @@
     "reality_score": 36,
     "hope_score": 33,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "000880_한화/2026-10-31_한화_000880.html",
+    "company": "한화",
+    "ticker": "000880",
+    "score": 44,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/26)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 7,
+      "opportunity": 5,
+      "threat": 16
+    },
+    "reality_score": 25,
+    "hope_score": 18,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
