@@ -15433,5 +15433,23 @@
     "reality_score": 41,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "178920_PI첨단소재/2026-10-31_PI첨단소재_178920.html",
+    "company": "PI첨단소재",
+    "ticker": "178920",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 19,
+      "opportunity": 4,
+      "threat": 19
+    },
+    "reality_score": 42,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
