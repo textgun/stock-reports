@@ -13039,5 +13039,23 @@
     "reality_score": 35,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "012750_에스원/2026-10-31_에스원_012750.html",
+    "company": "에스원",
+    "ticker": "012750",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 25,
+      "opportunity": 7,
+      "threat": 20
+    },
+    "reality_score": 39,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
