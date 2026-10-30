@@ -15451,5 +15451,23 @@
     "reality_score": 42,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "183300_코미코/2026-10-31_코미코_183300.html",
+    "company": "코미코",
+    "ticker": "183300",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 8,
+      "opportunity": 15,
+      "threat": 13
+    },
+    "reality_score": 27,
+    "hope_score": 28,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
