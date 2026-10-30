@@ -15595,5 +15595,23 @@
     "reality_score": 37,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "204270_제이앤티씨/2026-10-31_제이앤티씨_204270.html",
+    "company": "제이앤티씨",
+    "ticker": "204270",
+    "score": 29,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 5/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 5,
+      "opportunity": 14,
+      "threat": 10
+    },
+    "reality_score": 8,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
