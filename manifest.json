@@ -11833,5 +11833,23 @@
     "reality_score": 33,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "000100_유한양행/2026-10-31_유한양행_000100.html",
+    "company": "유한양행",
+    "ticker": "000100",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 11,
+      "opportunity": 14,
+      "threat": 19
+    },
+    "reality_score": 39,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
