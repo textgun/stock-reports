@@ -11638,24 +11638,6 @@
   },
   {
     "date": "2026-10-30",
-    "filename": "000270_기아/2026-10-30_기아_000270.html",
-    "company": "기아",
-    "ticker": "000270",
-    "score": 64,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 19,
-      "weakness": 25,
-      "opportunity": 5,
-      "threat": 15
-    },
-    "reality_score": 40,
-    "hope_score": 20,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-10-30",
     "filename": "460860_동국제강/2026-10-30_동국제강_460860.html",
     "company": "동국제강",
     "ticker": "460860",
@@ -12318,6 +12300,24 @@
     },
     "reality_score": 40,
     "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-30",
+    "filename": "000270_기아/2026-10-30_기아_000270.html",
+    "company": "기아",
+    "ticker": "000270",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 25,
+      "opportunity": 5,
+      "threat": 15
+    },
+    "reality_score": 40,
+    "hope_score": 20,
     "quadrant": "현실 강함  🟢"
   }
 ]
