@@ -15109,5 +15109,23 @@
     "reality_score": 36,
     "hope_score": 32,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "122870_와이지엔터테인먼트/2026-10-31_와이지엔터테인먼트_122870.html",
+    "company": "와이지엔터테인먼트",
+    "ticker": "122870",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 9,
+      "opportunity": 7,
+      "threat": 19
+    },
+    "reality_score": 25,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
