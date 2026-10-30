@@ -16351,5 +16351,23 @@
     "reality_score": 45,
     "hope_score": 34,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "317400_자이에스앤디/2026-10-31_자이에스앤디_317400.html",
+    "company": "자이에스앤디",
+    "ticker": "317400",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 19,
+      "opportunity": 17,
+      "threat": 15
+    },
+    "reality_score": 33,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
