@@ -14551,5 +14551,23 @@
     "reality_score": 42,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "082920_비츠로셀/2026-10-31_비츠로셀_082920.html",
+    "company": "비츠로셀",
+    "ticker": "082920",
+    "score": 70,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 20,
+      "opportunity": 10,
+      "threat": 14
+    },
+    "reality_score": 45,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
