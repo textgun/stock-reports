@@ -15019,5 +15019,23 @@
     "reality_score": 30,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "114810_한솔아이원스/2026-10-31_한솔아이원스_114810.html",
+    "company": "한솔아이원스",
+    "ticker": "114810",
+    "score": 75,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 25,
+      "opportunity": 12,
+      "threat": 15
+    },
+    "reality_score": 48,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
