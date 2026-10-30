@@ -12283,5 +12283,23 @@
     "reality_score": 13,
     "hope_score": 20,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "004430_송원산업/2026-10-31_송원산업_004430.html",
+    "company": "송원산업",
+    "ticker": "004430",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 17,
+      "opportunity": 4,
+      "threat": 22
+    },
+    "reality_score": 39,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
