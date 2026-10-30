@@ -12679,5 +12679,23 @@
     "reality_score": 24,
     "hope_score": 13,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "008930_한미사이언스/2026-10-31_한미사이언스_008930.html",
+    "company": "한미사이언스",
+    "ticker": "008930",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 12,
+      "opportunity": 20,
+      "threat": 15
+    },
+    "reality_score": 39,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   }
 ]
