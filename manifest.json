@@ -15631,5 +15631,23 @@
     "reality_score": 45,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "207940_삼성바이오로직스/2026-10-31_삼성바이오로직스_207940.html",
+    "company": "삼성바이오로직스",
+    "ticker": "207940",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 9,
+      "opportunity": 11,
+      "threat": 22
+    },
+    "reality_score": 45,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
