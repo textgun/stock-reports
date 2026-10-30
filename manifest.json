@@ -14857,5 +14857,23 @@
     "reality_score": 49,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "095610_테스/2026-10-31_테스_095610.html",
+    "company": "테스",
+    "ticker": "095610",
+    "score": 73,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 17,
+      "opportunity": 21,
+      "threat": 10
+    },
+    "reality_score": 41,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
