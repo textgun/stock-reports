@@ -12301,5 +12301,23 @@
     "reality_score": 25,
     "hope_score": 13,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-10-30",
+    "filename": "009830_한화솔루션/2026-10-30_한화솔루션_009830.html",
+    "company": "한화솔루션",
+    "ticker": "009830",
+    "score": 43,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 9,
+      "opportunity": 4,
+      "threat": 19
+    },
+    "reality_score": 23,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
