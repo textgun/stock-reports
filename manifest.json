@@ -14911,5 +14911,23 @@
     "reality_score": 28,
     "hope_score": 23,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "098460_고영/2026-10-31_고영_098460.html",
+    "company": "고영",
+    "ticker": "098460",
+    "score": 77,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 17,
+      "opportunity": 17,
+      "threat": 18
+    },
+    "reality_score": 39,
+    "hope_score": 38,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
