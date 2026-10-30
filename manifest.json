@@ -13093,5 +13093,23 @@
     "reality_score": 29,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-10-31",
+    "filename": "016250_SGC E&C/2026-10-31_SGC E&C_016250.html",
+    "company": "SGC E&C",
+    "ticker": "016250",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 16/30)",
+    "breakdown": {
+      "strength": 1,
+      "weakness": 15,
+      "opportunity": 6,
+      "threat": 20
+    },
+    "reality_score": 19,
+    "hope_score": 23,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
