@@ -2,7 +2,7 @@
   "005930": {
     "company": "삼성전자",
     "sector": "반도체",
-    "updated": "2026-10-31",
+    "updated": "2026-11-01",
     "score": 67,
     "breakdown": {
       "strength": 25,
@@ -52,9 +52,9 @@
       "psr_txt": "적정",
       "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 507500.0,
-      "upside": 130.2,
-      "consensus_n": 4,
+      "tgt": 520000.0,
+      "upside": 135.8,
+      "consensus_n": 5,
       "roe": 26.02
     },
     "valuation_engine": {
