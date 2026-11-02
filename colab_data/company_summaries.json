@@ -3967,11 +3967,11 @@
     "company": "펄어비스",
     "sector": "기타",
     "updated": "2026-11-02",
-    "score": 69,
+    "score": 68,
     "breakdown": {
       "strength": 25,
       "weakness": 22,
-      "opportunity": 10,
+      "opportunity": 9,
       "threat": 12
     },
     "sector_max": {
@@ -3998,7 +3998,7 @@
     },
     "reality_hope": {
       "reality_score": 45,
-      "hope_score": 21,
+      "hope_score": 20,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
