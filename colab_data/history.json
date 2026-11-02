@@ -45641,12 +45641,12 @@
       },
       {
         "date": "2026-11-02",
-        "total_score": 69,
+        "total_score": 68,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 22,
-          "opportunity": 10,
+          "opportunity": 9,
           "threat": 12
         }
       }
