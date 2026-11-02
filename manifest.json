@@ -16837,5 +16837,23 @@
     "reality_score": 34,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-02",
+    "filename": "005490_POSCO홀딩스/2026-11-02_POSCO홀딩스_005490.html",
+    "company": "POSCO홀딩스",
+    "ticker": "005490",
+    "score": 47,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 12,
+      "opportunity": 4,
+      "threat": 22
+    },
+    "reality_score": 24,
+    "hope_score": 23,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
