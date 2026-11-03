@@ -82,7 +82,7 @@
   "062040": {
     "company": "산일전기",
     "sector": "전기장비/전력",
-    "updated": "2026-11-02",
+    "updated": "2026-11-03",
     "score": 66,
     "breakdown": {
       "strength": 26,
@@ -124,21 +124,21 @@
       "exec_count": 19
     },
     "valuation": {
-      "per": 26.62,
-      "per_txt": "고평가 주의",
-      "pbr": 7.25,
+      "per": 24.81,
+      "per_txt": "적정",
+      "pbr": 6.75,
       "pbr_txt": "고평가 주의",
-      "psr": 8.18,
+      "psr": 7.62,
       "psr_txt": "고평가 주의",
-      "peg": 0.78,
+      "peg": 0.72,
       "peg_txt": "저평가(성장대비)",
       "tgt": 294000.0,
-      "upside": 86.9,
+      "upside": 100.5,
       "consensus_n": 5,
       "roe": 27.18
     },
     "valuation_engine": {
-      "fair_value": 194700.0,
+      "fair_value": 194500.0,
       "band_low": 123376.0,
       "band_high": 217100.0,
       "confidence": "LOW",
@@ -151,11 +151,11 @@
         "연간 ROE 이력 3개년 미만"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -19.2,
+      "gap_pct": -24.6,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 1.5배) → 목표비중 50%로 축소 매수",
       "srim_mid": 145384.26726514834,
-      "per_band_mid": 194700.0,
+      "per_band_mid": 194500.0,
       "pbr_roe_fair_value": 217100.0,
       "nav_sotp_mid": null
     }
