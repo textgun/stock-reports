@@ -16909,5 +16909,23 @@
     "reality_score": 39,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-03",
+    "filename": "108490_로보티즈/2026-11-03_로보티즈_108490.html",
+    "company": "로보티즈",
+    "ticker": "108490",
+    "score": 46,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 14,
+      "opportunity": 10,
+      "threat": 3
+    },
+    "reality_score": 30,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
