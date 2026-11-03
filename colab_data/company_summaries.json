@@ -14976,13 +14976,13 @@
   },
   "316140": {
     "company": "우리금융지주",
-    "updated": "2026-10-31",
-    "score": 79,
+    "updated": "2026-11-03",
+    "score": 71,
     "sector": "금융",
     "breakdown": {
       "strength": 26,
       "weakness": 18,
-      "opportunity": 16,
+      "opportunity": 8,
       "threat": 19
     },
     "sector_max": {
@@ -15008,30 +15008,30 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 7.11,
+      "per": 7.04,
       "per_txt": "저평가",
-      "pbr": 0.58,
+      "pbr": 0.57,
       "pbr_txt": "적정",
-      "psr": 2.47,
+      "psr": 2.44,
       "psr_txt": "적정",
       "peg": 0.16,
       "peg_txt": "저평가(성장대비)",
       "tgt": 42400.0,
-      "upside": 37.9,
+      "upside": 39.2,
       "consensus_n": 5,
       "roe": 8.07
     },
     "valuation_engine": {
       "fair_value": 56967.0,
-      "band_low": 29031.0,
+      "band_low": 29040.0,
       "band_high": 92448.0,
       "confidence": "LOW",
-      "method_spread": 3.184,
+      "method_spread": 3.183,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 3.184배",
+        "방법 간 편차 3.183배",
         "PER 유효 표본 1.6년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "AVOID",
@@ -15039,7 +15039,7 @@
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (0.4배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": 56966.517439132134,
-      "per_band_mid": 29031.0,
+      "per_band_mid": 29040.0,
       "pbr_roe_fair_value": 92448.0,
       "nav_sotp_mid": null
     },
