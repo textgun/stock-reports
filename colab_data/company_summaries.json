@@ -566,7 +566,7 @@
   "071050": {
     "company": "한국금융지주",
     "sector": "금융",
-    "updated": "2026-11-02",
+    "updated": "2026-11-03",
     "score": 71,
     "breakdown": {
       "strength": 30,
@@ -608,30 +608,30 @@
       "exec_count": 22
     },
     "valuation": {
-      "per": 3.18,
+      "per": 3.15,
       "per_txt": "저평가",
-      "pbr": 0.65,
+      "pbr": 0.64,
       "pbr_txt": "저평가",
-      "psr": 1.94,
+      "psr": 1.92,
       "psr_txt": "적정",
       "peg": 0.02,
       "peg_txt": "저평가(성장대비)",
       "tgt": 309000.0,
-      "upside": 103.8,
+      "upside": 106.0,
       "consensus_n": 5,
       "roe": 21.28
     },
     "valuation_engine": {
       "fair_value": 675203.0,
-      "band_low": 213250.0,
+      "band_low": 213000.0,
       "band_high": 1047807.0,
       "confidence": "LOW",
-      "method_spread": 4.914,
+      "method_spread": 4.919,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 4.914배",
+        "방법 간 편차 4.919배",
         "PER 유효 표본 0.6년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "AVOID",
@@ -639,7 +639,7 @@
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (1.8배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": 675203.0250559025,
-      "per_band_mid": 213250.0,
+      "per_band_mid": 213000.0,
       "pbr_roe_fair_value": 1047807.0,
       "nav_sotp_mid": null
     }
