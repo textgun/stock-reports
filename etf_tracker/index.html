@@ -366,6 +366,7 @@ footer a { color:var(--ink-3); }
     <div id="chart"><div id="chart-legend"></div></div>
     <div class="card fng-card" id="m-fng-card" style="display:none">
       <h3>F&amp;G 지표 <span class="fng-now" id="m-fng-now"></span></h3>
+      <div id="m-fng-pos"></div>
       <div class="fng-sum" id="m-fng-sum"></div>
       <p class="fng-note" id="m-fng-note"></p>
     </div>
@@ -1042,6 +1043,32 @@ async function getCandles(code, count=2000) {
 
 /* ── 지표 계산 ─────────────────────────────────── */
 
+/* 현재 수급 위치 막대 (hugusk 2026-11-02·03) — 최근 60거래일 F&G 최저=0·최고=100 안에서 지금 값의 위치.
+   파랑→빨강, 양 끝 15%는 과매도·과매수 칸, 검은 세로선 = 지금, 점선 = 최근 평균. ETF 팝업용
+   (KR 셸에 같은 함수가 한 벌 더 있다). vals = F&G 값 배열(오래된 것부터). 10개 미만이면 ''. */
+function fngPosBar(vals, n){
+  n = n || 60;
+  const xs = (vals||[]).filter(v => v != null && isFinite(v)).slice(-n);
+  if (xs.length < 10) return '';
+  const cur = xs[xs.length-1], lo = Math.min(...xs), hi = Math.max(...xs), avg = xs.reduce((a,b)=>a+b,0)/xs.length;
+  const sc = v => hi > lo ? (v-lo)/(hi-lo)*100 : 50, p = sc(cur), pa = sc(avg);
+  return '<div class="fpos" style="margin:8px 0 14px;max-width:680px">'+
+    '<div style="font-size:15px;font-weight:800;margin-bottom:30px">현재 수급 위치 '+
+      '<span style="font-weight:600;font-size:12px;opacity:.8">(최근 '+xs.length+'거래일 범위 기준)</span></div>'+
+    '<div style="position:relative;height:22px;border-radius:5px;border:2px solid currentColor;'+
+      'background:linear-gradient(90deg,#1e3a8a 0%,#1e3a8a 15%,#60a5fa 15%,#bfdbfe 40%,#e5e7eb 50%,#fecaca 60%,#f87171 85%,#991b1b 85%,#991b1b 100%)">'+
+      '<span style="position:absolute;left:0;width:15%;top:0;bottom:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:800">과매도</span>'+
+      '<span style="position:absolute;right:0;width:15%;top:0;bottom:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:800">과매수</span>'+
+      '<div style="position:absolute;top:0;bottom:0;left:'+pa.toFixed(1)+'%;border-left:2px dashed #374151"></div>'+
+      '<span style="position:absolute;top:30px;left:'+pa.toFixed(1)+'%;transform:translateX(-50%);font-size:11px;opacity:.7;white-space:nowrap">평균</span>'+
+      '<div style="position:absolute;top:-8px;bottom:-8px;left:calc('+p.toFixed(1)+'% - 2px);width:4px;background:#111;border-radius:2px;box-shadow:0 0 0 2px #fff"></div>'+
+      '<b style="position:absolute;top:-30px;left:'+p.toFixed(1)+'%;transform:translateX(-50%);font-size:16px">'+p.toFixed(0)+'</b></div>'+
+    '<div style="position:relative;height:18px;font-size:13px;font-weight:700;margin-top:3px"><span style="position:absolute;left:0">0</span>'+
+      '<span style="position:absolute;left:15%;transform:translateX(-50%);font-size:11px;opacity:.8">15</span>'+
+      '<span style="position:absolute;left:85%;transform:translateX(-50%);font-size:11px;opacity:.8">85</span>'+
+      '<span style="position:absolute;right:0">100</span></div>'+
+    '<div style="font-size:12px;opacity:.8;margin-top:8px">F&amp;G 현재 '+cur.toFixed(0)+' · 최근 평균 '+avg.toFixed(0)+' · 최저 '+lo.toFixed(0)+' / 최고 '+hi.toFixed(0)+'</div></div>';
+}
 /* F&G 음영 밴드 (hugusk 2026-09-30, 종목·ETF 팝업 공용) — EMA20 ± (F&G−EMA20) 상·하위 k일 평균, k=10(표시 70일 기준).
    이격은 표시 구간 전체로 계산한다. pts = [{time, value}] (표시 구간 F&G). 반환 [{time, hi, lo}] 또는 null. */
 function fngEmaBand(pts, kMax){
@@ -1602,6 +1629,7 @@ async function renderEtfFng(code) {
   if (!pts.length) return;
   const last = pts[pts.length-1], [zl, zc] = fngZone(last.value);
   const em = emaPts(pts,20), ev = em[em.length-1].value, gap = ev ? (last.value-ev)/ev*100 : null;
+  $('#m-fng-pos').innerHTML = fngPosBar(pts.map(p => p.value));
   const now = $('#m-fng-now');
   now.textContent = last.value.toFixed(1) + ' · ' + zl; now.style.color = zc;
   const chg5 = pts.length > 5 ? last.value - pts[pts.length-6].value : null;
