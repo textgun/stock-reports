@@ -17617,7 +17617,7 @@
   },
   "138930": {
     "company": "BNK금융지주",
-    "updated": "2026-10-31",
+    "updated": "2026-11-03",
     "score": 53,
     "sector": "금융",
     "breakdown": {
@@ -17655,16 +17655,16 @@
       "exec_count": 16
     },
     "valuation": {
-      "per": 5.49,
+      "per": 5.43,
       "per_txt": "저평가",
       "pbr": 0.37,
       "pbr_txt": "저평가",
-      "psr": 0.63,
+      "psr": 0.62,
       "psr_txt": "저평가",
       "peg": null,
       "peg_txt": "",
       "tgt": 19200.0,
-      "upside": 45.7,
+      "upside": 47.2,
       "consensus_n": 5,
       "roe": 6.75
     },
@@ -17673,12 +17673,12 @@
       "band_low": 8417.0,
       "band_high": 29439.0,
       "confidence": "LOW",
-      "method_spread": 1.943,
+      "method_spread": 1.944,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 1.943배",
+        "방법 간 편차 1.944배",
         "PER 유효 표본 2.6년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "AVOID",
@@ -17686,7 +17686,7 @@
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 이자보상배율 미달 (0.2배 < 기준 2.0배), 존과 무관하게 회피",
       "srim_mid": 18784.895737620132,
-      "per_band_mid": 15150.0,
+      "per_band_mid": 15140.0,
       "pbr_roe_fair_value": 29439.0,
       "nav_sotp_mid": null
     }
