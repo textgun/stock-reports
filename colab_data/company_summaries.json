@@ -17766,7 +17766,7 @@
   },
   "024110": {
     "company": "기업은행",
-    "updated": "2026-10-31",
+    "updated": "2026-11-03",
     "score": 61,
     "sector": "금융",
     "breakdown": {
@@ -17804,16 +17804,16 @@
       "exec_count": 22
     },
     "valuation": {
-      "per": 5.79,
+      "per": 5.72,
       "per_txt": "저평가",
-      "pbr": 0.41,
+      "pbr": 0.4,
       "pbr_txt": "저평가",
-      "psr": 0.86,
+      "psr": 0.85,
       "psr_txt": "저평가",
-      "peg": 1.03,
+      "peg": 1.02,
       "peg_txt": "적정",
       "tgt": 26900.0,
-      "upside": 40.4,
+      "upside": 42.0,
       "consensus_n": 5,
       "roe": 6.99
     },
