@@ -17215,5 +17215,23 @@
     "reality_score": 25,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-03",
+    "filename": "010950_S-Oil/2026-11-03_S-Oil_010950.html",
+    "company": "S-Oil",
+    "ticker": "010950",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 13,
+      "opportunity": 13,
+      "threat": 19
+    },
+    "reality_score": 37,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
