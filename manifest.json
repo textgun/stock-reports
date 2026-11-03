@@ -17431,5 +17431,23 @@
     "reality_score": 36,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-03",
+    "filename": "298020_효성티앤씨/2026-11-03_효성티앤씨_298020.html",
+    "company": "효성티앤씨",
+    "ticker": "298020",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 18,
+      "opportunity": 7,
+      "threat": 14
+    },
+    "reality_score": 35,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   }
 ]
