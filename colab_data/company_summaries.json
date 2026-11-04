@@ -1768,11 +1768,11 @@
     "company": "삼성화재해상보험",
     "sector": "금융",
     "updated": "2026-11-04",
-    "score": 66,
+    "score": 65,
     "breakdown": {
       "strength": 18,
       "weakness": 18,
-      "opportunity": 12,
+      "opportunity": 11,
       "threat": 18
     },
     "sector_max": {
@@ -1799,8 +1799,8 @@
     },
     "reality_hope": {
       "reality_score": 36,
-      "hope_score": 30,
-      "quadrant": "현실·기대 모두 강함  🟢🟢"
+      "hope_score": 29,
+      "quadrant": "현실 강함  🟢"
     },
     "extra": {
       "employees": null,
