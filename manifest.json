@@ -17431,5 +17431,23 @@
     "reality_score": 35,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-05",
+    "filename": "298050_HS효성첨단소재/2026-11-05_HS효성첨단소재_298050.html",
+    "company": "HS효성첨단소재",
+    "ticker": "298050",
+    "score": 51,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 16,
+      "opportunity": 4,
+      "threat": 16
+    },
+    "reality_score": 33,
+    "hope_score": 15,
+    "quadrant": "현실 강함  🟢"
   }
 ]
