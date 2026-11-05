@@ -16963,5 +16963,23 @@
     "reality_score": 45,
     "hope_score": 25,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-05",
+    "filename": "319660_피에스케이/2026-11-05_피에스케이_319660.html",
+    "company": "피에스케이",
+    "ticker": "319660",
+    "score": 73,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 21,
+      "opportunity": 18,
+      "threat": 9
+    },
+    "reality_score": 45,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
