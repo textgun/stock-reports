@@ -17161,5 +17161,23 @@
     "reality_score": 50,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-05",
+    "filename": "094360_칩스앤미디어/2026-11-05_칩스앤미디어_094360.html",
+    "company": "칩스앤미디어",
+    "ticker": "094360",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 22,
+      "opportunity": 5,
+      "threat": 15
+    },
+    "reality_score": 42,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
