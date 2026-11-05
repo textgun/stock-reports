@@ -16963,5 +16963,23 @@
     "reality_score": 40,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-05",
+    "filename": "077360_덕산하이메탈/2026-11-05_덕산하이메탈_077360.html",
+    "company": "덕산하이메탈",
+    "ticker": "077360",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 15,
+      "opportunity": 13,
+      "threat": 15
+    },
+    "reality_score": 35,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
