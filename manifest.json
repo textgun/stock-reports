@@ -19303,5 +19303,23 @@
     "reality_score": 35,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "078600_대주전자재료/2026-11-07_대주전자재료_078600.html",
+    "company": "대주전자재료",
+    "ticker": "078600",
+    "score": 37,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 13,
+      "opportunity": 6,
+      "threat": 8
+    },
+    "reality_score": 21,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
