@@ -21427,5 +21427,23 @@
     "reality_score": 15,
     "hope_score": 9,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "353200_대덕전자/2026-11-07_대덕전자_353200.html",
+    "company": "대덕전자",
+    "ticker": "353200",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 17,
+      "opportunity": 11,
+      "threat": 14
+    },
+    "reality_score": 42,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
