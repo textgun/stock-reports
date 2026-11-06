@@ -18835,5 +18835,23 @@
     "reality_score": 36,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "056190_SFA/2026-11-07_SFA_056190.html",
+    "company": "SFA",
+    "ticker": "056190",
+    "score": 56,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 11,
+      "opportunity": 16,
+      "threat": 15
+    },
+    "reality_score": 27,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
