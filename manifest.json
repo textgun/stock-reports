@@ -20347,5 +20347,23 @@
     "reality_score": 28,
     "hope_score": 28,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "186230_그린플러스/2026-11-07_그린플러스_186230.html",
+    "company": "그린플러스",
+    "ticker": "186230",
+    "score": 47,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 16,
+      "opportunity": 6,
+      "threat": 17
+    },
+    "reality_score": 26,
+    "hope_score": 20,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
