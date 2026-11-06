@@ -21607,5 +21607,23 @@
     "reality_score": 13,
     "hope_score": 11,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "402340_SK스퀘어/2026-11-07_SK스퀘어_402340.html",
+    "company": "SK스퀘어",
+    "ticker": "402340",
+    "score": 79,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 7,
+      "threat": 22
+    },
+    "reality_score": 50,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
