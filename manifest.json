@@ -17827,5 +17827,23 @@
     "reality_score": 41,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "011790_SKC/2026-11-07_SKC_011790.html",
+    "company": "SKC",
+    "ticker": "011790",
+    "score": 26,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 8,
+      "opportunity": 4,
+      "threat": 10
+    },
+    "reality_score": 14,
+    "hope_score": 12,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
