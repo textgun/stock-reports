@@ -20995,5 +20995,23 @@
     "reality_score": 44,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "272210_한화시스템/2026-11-07_한화시스템_272210.html",
+    "company": "한화시스템",
+    "ticker": "272210",
+    "score": 47,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 19,
+      "opportunity": 5,
+      "threat": 9
+    },
+    "reality_score": 31,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
