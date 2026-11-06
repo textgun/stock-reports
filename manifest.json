@@ -16963,5 +16963,23 @@
     "reality_score": 32,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-06",
+    "filename": "263750_펄어비스/2026-11-06_펄어비스_263750.html",
+    "company": "펄어비스",
+    "ticker": "263750",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 12,
+      "threat": 12
+    },
+    "reality_score": 45,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
