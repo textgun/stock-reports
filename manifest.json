@@ -16783,5 +16783,23 @@
     "reality_score": 24,
     "hope_score": 20,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "000640_동아제약/2026-11-07_동아제약_000640.html",
+    "company": "동아제약",
+    "ticker": "000640",
+    "score": 56,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/18)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 8,
+      "opportunity": 17,
+      "threat": 22
+    },
+    "reality_score": 31,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   }
 ]
