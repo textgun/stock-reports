@@ -17431,5 +17431,23 @@
     "reality_score": 39,
     "hope_score": 30,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "006800_미래에셋증권/2026-11-07_미래에셋증권_006800.html",
+    "company": "미래에셋증권",
+    "ticker": "006800",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 30,
+      "weakness": 13,
+      "opportunity": 8,
+      "threat": 15
+    },
+    "reality_score": 44,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
