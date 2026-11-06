@@ -17557,5 +17557,23 @@
     "reality_score": 36,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "009150_삼성전기/2026-11-07_삼성전기_009150.html",
+    "company": "삼성전기",
+    "ticker": "009150",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 18,
+      "opportunity": 11,
+      "threat": 13
+    },
+    "reality_score": 37,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
