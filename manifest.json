@@ -21391,5 +21391,23 @@
     "reality_score": 42,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "336260_두산퓨얼셀/2026-11-07_두산퓨얼셀_336260.html",
+    "company": "두산퓨얼셀",
+    "ticker": "336260",
+    "score": 13,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 4/30)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 0,
+      "opportunity": 8,
+      "threat": 1
+    },
+    "reality_score": 4,
+    "hope_score": 11,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
