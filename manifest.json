@@ -19105,5 +19105,23 @@
     "reality_score": 17,
     "hope_score": 7,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "067280_멀티캠퍼스/2026-11-07_멀티캠퍼스_067280.html",
+    "company": "멀티캠퍼스",
+    "ticker": "067280",
+    "score": 74,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 25,
+      "opportunity": 9,
+      "threat": 20
+    },
+    "reality_score": 45,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
