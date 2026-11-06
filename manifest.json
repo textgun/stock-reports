@@ -20743,5 +20743,23 @@
     "reality_score": 32,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "240810_원익IPS/2026-11-07_원익IPS_240810.html",
+    "company": "원익IPS",
+    "ticker": "240810",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 18,
+      "opportunity": 13,
+      "threat": 10
+    },
+    "reality_score": 37,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
