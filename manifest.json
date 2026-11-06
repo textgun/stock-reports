@@ -18403,5 +18403,23 @@
     "reality_score": 34,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "036930_주성엔지니어링/2026-11-07_주성엔지니어링_036930.html",
+    "company": "주성엔지니어링",
+    "ticker": "036930",
+    "score": 19,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 10/30)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 6,
+      "opportunity": 6,
+      "threat": 3
+    },
+    "reality_score": 9,
+    "hope_score": 10,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
