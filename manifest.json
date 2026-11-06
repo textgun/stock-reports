@@ -20581,5 +20581,23 @@
     "reality_score": 42,
     "hope_score": 33,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "218410_RFHIC/2026-11-07_RFHIC_218410.html",
+    "company": "RFHIC",
+    "ticker": "218410",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 10,
+      "opportunity": 5,
+      "threat": 17
+    },
+    "reality_score": 35,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
