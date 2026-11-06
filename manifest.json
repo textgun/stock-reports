@@ -17233,5 +17233,23 @@
     "reality_score": 26,
     "hope_score": 31,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "005380_현대자동차/2026-11-07_현대자동차_005380.html",
+    "company": "현대자동차",
+    "ticker": "005380",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 23,
+      "opportunity": 5,
+      "threat": 14
+    },
+    "reality_score": 34,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
