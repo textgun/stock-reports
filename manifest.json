@@ -17629,5 +17629,23 @@
     "reality_score": 44,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "009540_HD한국조선해양/2026-11-07_HD한국조선해양_009540.html",
+    "company": "HD한국조선해양",
+    "ticker": "009540",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 10,
+      "opportunity": 10,
+      "threat": 24
+    },
+    "reality_score": 39,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
