@@ -20887,5 +20887,23 @@
     "reality_score": 40,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "259960_크래프톤/2026-11-07_크래프톤_259960.html",
+    "company": "크래프톤",
+    "ticker": "259960",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 19,
+      "opportunity": 8,
+      "threat": 17
+    },
+    "reality_score": 45,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
