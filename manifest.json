@@ -16819,5 +16819,23 @@
     "reality_score": 44,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-06",
+    "filename": "095340_ISC/2026-11-06_ISC_095340.html",
+    "company": "ISC",
+    "ticker": "095340",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 24,
+      "opportunity": 7,
+      "threat": 11
+    },
+    "reality_score": 49,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   }
 ]
