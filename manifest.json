@@ -20869,5 +20869,23 @@
     "reality_score": 43,
     "hope_score": 34,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "257720_실리콘투/2026-11-07_실리콘투_257720.html",
+    "company": "실리콘투",
+    "ticker": "257720",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 9,
+      "opportunity": 10,
+      "threat": 16
+    },
+    "reality_score": 40,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
