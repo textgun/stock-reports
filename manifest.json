@@ -17251,5 +17251,23 @@
     "reality_score": 34,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "005420_코스모화학/2026-11-07_코스모화학_005420.html",
+    "company": "코스모화학",
+    "ticker": "005420",
+    "score": 44,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 24,
+      "opportunity": 4,
+      "threat": 9
+    },
+    "reality_score": 33,
+    "hope_score": 8,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
