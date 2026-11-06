@@ -17989,5 +17989,23 @@
     "reality_score": 48,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "016580_환인제약/2026-11-07_환인제약_016580.html",
+    "company": "환인제약",
+    "ticker": "016580",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 9,
+      "opportunity": 18,
+      "threat": 26
+    },
+    "reality_score": 37,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
