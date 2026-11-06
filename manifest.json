@@ -16873,5 +16873,23 @@
     "reality_score": 27,
     "hope_score": 22,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "001430_세아베스틸지주/2026-11-07_세아베스틸지주_001430.html",
+    "company": "세아베스틸지주",
+    "ticker": "001430",
+    "score": 38,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 16,
+      "opportunity": 7,
+      "threat": 11
+    },
+    "reality_score": 23,
+    "hope_score": 14,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
