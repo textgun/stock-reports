@@ -17053,5 +17053,23 @@
     "reality_score": 40,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-06",
+    "filename": "000660_SK하이닉스/2026-11-06_SK하이닉스_000660.html",
+    "company": "SK하이닉스",
+    "ticker": "000660",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 14,
+      "opportunity": 6,
+      "threat": 15
+    },
+    "reality_score": 39,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
