@@ -19519,5 +19519,23 @@
     "reality_score": 44,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "086450_동국제약/2026-11-07_동국제약_086450.html",
+    "company": "동국제약",
+    "ticker": "086450",
+    "score": 75,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 10,
+      "opportunity": 23,
+      "threat": 27
+    },
+    "reality_score": 41,
+    "hope_score": 34,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
