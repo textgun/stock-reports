@@ -19393,5 +19393,23 @@
     "reality_score": 41,
     "hope_score": 8,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "081660_미스토홀딩스/2026-11-07_미스토홀딩스_081660.html",
+    "company": "미스토홀딩스",
+    "ticker": "081660",
+    "score": 70,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 18,
+      "opportunity": 9,
+      "threat": 20
+    },
+    "reality_score": 42,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
