@@ -19231,5 +19231,23 @@
     "reality_score": 46,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "073240_금호타이어/2026-11-07_금호타이어_073240.html",
+    "company": "금호타이어",
+    "ticker": "073240",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 13,
+      "opportunity": 10,
+      "threat": 15
+    },
+    "reality_score": 35,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
