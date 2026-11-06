@@ -21319,5 +21319,23 @@
     "reality_score": 36,
     "hope_score": 6,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "326030_에스케이바이오팜/2026-11-07_에스케이바이오팜_326030.html",
+    "company": "에스케이바이오팜",
+    "ticker": "326030",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 9,
+      "opportunity": 9,
+      "threat": 26
+    },
+    "reality_score": 43,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
