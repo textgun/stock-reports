@@ -20275,5 +20275,23 @@
     "reality_score": 9,
     "hope_score": 9,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "161890_한국콜마/2026-11-07_한국콜마_161890.html",
+    "company": "한국콜마",
+    "ticker": "161890",
+    "score": 74,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 20,
+      "opportunity": 13,
+      "threat": 19
+    },
+    "reality_score": 42,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
