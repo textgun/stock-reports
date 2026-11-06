@@ -16945,5 +16945,23 @@
     "reality_score": 45,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-06",
+    "filename": "047050_포스코인터내셔널/2026-11-06_포스코인터내셔널_047050.html",
+    "company": "포스코인터내셔널",
+    "ticker": "047050",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 15,
+      "opportunity": 7,
+      "threat": 20
+    },
+    "reality_score": 32,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
