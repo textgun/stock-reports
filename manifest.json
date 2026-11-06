@@ -21805,5 +21805,23 @@
     "reality_score": 41,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "474610_RF시스템즈/2026-11-07_RF시스템즈_474610.html",
+    "company": "RF시스템즈",
+    "ticker": "474610",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 15,
+      "opportunity": 5,
+      "threat": 20
+    },
+    "reality_score": 40,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
