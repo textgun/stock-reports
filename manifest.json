@@ -19447,5 +19447,23 @@
     "reality_score": 36,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "083650_비에이치아이/2026-11-07_비에이치아이_083650.html",
+    "company": "비에이치아이",
+    "ticker": "083650",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 14,
+      "opportunity": 13,
+      "threat": 17
+    },
+    "reality_score": 40,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
