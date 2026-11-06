@@ -17377,5 +17377,23 @@
     "reality_score": 32,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "006400_삼성SDI/2026-11-07_삼성SDI_006400.html",
+    "company": "삼성SDI",
+    "ticker": "006400",
+    "score": 47,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 7,
+      "opportunity": 8,
+      "threat": 19
+    },
+    "reality_score": 29,
+    "hope_score": 17,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
