@@ -17035,5 +17035,23 @@
     "reality_score": 42,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-06",
+    "filename": "105560_KB금융/2026-11-06_KB금융_105560.html",
+    "company": "KB금융",
+    "ticker": "105560",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 15,
+      "opportunity": 10,
+      "threat": 19
+    },
+    "reality_score": 40,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
