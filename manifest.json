@@ -21589,5 +21589,23 @@
     "reality_score": 15,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "399720_가온칩스/2026-11-07_가온칩스_399720.html",
+    "company": "가온칩스",
+    "ticker": "399720",
+    "score": 24,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 13/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 5,
+      "opportunity": 1,
+      "threat": 10
+    },
+    "reality_score": 13,
+    "hope_score": 11,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
