@@ -21535,5 +21535,23 @@
     "reality_score": 14,
     "hope_score": 17,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "375500_DL이앤씨/2026-11-07_DL이앤씨_375500.html",
+    "company": "DL이앤씨",
+    "ticker": "375500",
+    "score": 46,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 18,
+      "opportunity": 5,
+      "threat": 11
+    },
+    "reality_score": 32,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
