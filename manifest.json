@@ -21841,5 +21841,23 @@
     "reality_score": 15,
     "hope_score": 17,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-07",
+    "filename": "475960_토모큐브/2026-11-07_토모큐브_475960.html",
+    "company": "토모큐브",
+    "ticker": "475960",
+    "score": 30,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 10/18)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 1,
+      "opportunity": 8,
+      "threat": 12
+    },
+    "reality_score": 14,
+    "hope_score": 15,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
