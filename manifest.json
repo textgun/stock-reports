@@ -17593,5 +17593,23 @@
     "reality_score": 47,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "234690_녹십자웰빙/2026-11-09_녹십자웰빙_234690.html",
+    "company": "녹십자웰빙",
+    "ticker": "234690",
+    "score": 49,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/18)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 6,
+      "opportunity": 14,
+      "threat": 20
+    },
+    "reality_score": 29,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
