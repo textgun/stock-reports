@@ -2612,14 +2612,14 @@
   },
   "247540": {
     "company": "에코프로비엠",
-    "updated": "2026-11-07",
-    "score": 20,
+    "updated": "2026-11-09",
+    "score": 21,
     "sector": "2차전지",
     "breakdown": {
       "strength": 0,
       "weakness": 7,
       "opportunity": 7,
-      "threat": 6
+      "threat": 7
     },
     "sector_max": {
       "strength": 20,
@@ -2644,30 +2644,30 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 189.04,
+      "per": 169.57,
       "per_txt": "고평가 주의",
-      "pbr": 4.6,
+      "pbr": 4.13,
       "pbr_txt": "고평가 주의",
-      "psr": 3.95,
+      "psr": 3.54,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
-      "tgt": 166000.0,
-      "upside": 96.4,
+      "tgt": 130000.0,
+      "upside": 71.5,
       "consensus_n": 5,
       "roe": 3.77
     },
     "valuation_engine": {
-      "fair_value": 80723.0,
-      "band_low": 30840.0,
-      "band_high": 197415.0,
+      "fair_value": 80754.0,
+      "band_low": 30909.0,
+      "band_high": 197413.0,
       "confidence": "LOW",
-      "method_spread": 4.235,
+      "method_spread": 4.225,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 4.235배",
+        "방법 간 편차 4.225배",
         "PER 유효 표본 3.1년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "AVOID",
@@ -2675,7 +2675,7 @@
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (7점 < 기준 20점), 존과 무관하게 회피",
       "srim_mid": null,
-      "per_band_mid": 30840.0,
+      "per_band_mid": 30909.0,
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     },
@@ -3661,7 +3661,7 @@
   },
   "042660": {
     "company": "한화오션",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 62,
     "sector": "조선",
     "breakdown": {
@@ -3693,38 +3693,38 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 7.04,
+      "per": 6.66,
       "per_txt": "저평가",
-      "pbr": 1.94,
-      "pbr_txt": "적정",
-      "psr": 0.97,
+      "pbr": 1.84,
+      "pbr_txt": "저평가",
+      "psr": 0.92,
       "psr_txt": "저평가",
       "peg": 0.1,
       "peg_txt": "저평가(성장대비)",
       "tgt": 96400.0,
-      "upside": 102.3,
+      "upside": 113.7,
       "consensus_n": 5,
       "roe": 27.55
     },
     "valuation_engine": {
       "fair_value": 96020.0,
       "band_low": 51005.0,
-      "band_high": 172856.0,
+      "band_high": 172720.0,
       "confidence": "LOW",
-      "method_spread": 2.679,
+      "method_spread": 2.68,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 2.679배",
+        "방법 간 편차 2.680배",
         "PER 유효 표본 3.1년 — 결측·적자 제외 후 4년 미만"
       ],
-      "zone": "VALUE",
-      "gap_pct": -50.4,
+      "zone": "DEEP_VALUE",
+      "gap_pct": -53.0,
       "quality_gate_passed": true,
-      "action_label": "2차 매수 존 (목표비중 67%까지) · ⚠️ 신뢰도 LOW(편차 2.7배) → 목표비중 50%로 축소 매수",
+      "action_label": "3차 매수 존 (목표비중 100%까지) · ⚠️ 신뢰도 LOW(편차 2.7배) → 목표비중 50%로 축소 매수",
       "srim_mid": null,
-      "per_band_mid": 172856.0,
+      "per_band_mid": 172720.0,
       "pbr_roe_fair_value": 96020.0,
       "nav_sotp_mid": null
     },
@@ -4122,11 +4122,11 @@
   },
   "234340": {
     "company": "헥토파이낸셜",
-    "updated": "2026-11-07",
-    "score": 57,
+    "updated": "2026-11-09",
+    "score": 58,
     "sector": "IT서비스",
     "breakdown": {
-      "strength": 9,
+      "strength": 10,
       "weakness": 13,
       "opportunity": 24,
       "threat": 11
@@ -4141,8 +4141,8 @@
       "qoq_trend": "flat",
       "yoy_pct": 20.1,
       "rev_yoy_pct": 12.6,
-      "momentum_score": 6.0,
-      "correction_pts": 2
+      "momentum_score": 7.5,
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": null,
@@ -4154,37 +4154,37 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 15.04,
+      "per": 14.64,
       "per_txt": "적정",
-      "pbr": 1.24,
+      "pbr": 1.21,
       "pbr_txt": "고평가 주의",
-      "psr": 1.11,
+      "psr": 1.08,
       "psr_txt": "적정",
-      "peg": 0.75,
+      "peg": 0.73,
       "peg_txt": "저평가(성장대비)",
       "tgt": 38000.0,
-      "upside": 134.6,
+      "upside": 141.0,
       "consensus_n": 3,
       "roe": 7.42
     },
     "valuation_engine": {
-      "fair_value": 7266.0,
+      "fair_value": 7268.0,
       "band_low": 2981.0,
       "band_high": 27864.0,
       "confidence": "LOW",
-      "method_spread": 3.656,
+      "method_spread": 3.653,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 3.656배"
+        "방법 간 편차 3.653배"
       ],
       "zone": "FAIR",
-      "gap_pct": 123.0,
+      "gap_pct": 117.0,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 5425.869652131753,
-      "per_band_mid": 6274.0,
+      "per_band_mid": 6276.0,
       "pbr_roe_fair_value": 8259.0,
       "nav_sotp_mid": null
     },
@@ -5935,14 +5935,14 @@
   },
   "108490": {
     "company": "로보티즈",
-    "updated": "2026-11-07",
-    "score": 45,
+    "updated": "2026-11-09",
+    "score": 47,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 19,
       "weakness": 14,
       "opportunity": 8,
-      "threat": 4
+      "threat": 6
     },
     "sector_max": {
       "strength": 26,
@@ -5969,21 +5969,21 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 9.24,
+      "pbr": 8.26,
       "pbr_txt": "",
-      "psr": 69.3,
+      "psr": 61.97,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 323200.0,
-      "upside": 42.4,
+      "upside": 59.2,
       "consensus_n": 5,
       "roe": -0.94
     },
     "valuation_engine": {
-      "fair_value": 43417.0,
-      "band_low": 31579.0,
-      "band_high": 214923.0,
+      "fair_value": 43420.0,
+      "band_low": 31585.0,
+      "band_high": 214346.0,
       "confidence": "LOW",
       "method_spread": null,
       "position_scale": 1.0,
@@ -5992,10 +5992,10 @@
       "confidence_reasons": [
         "평가 방법 1개 — 교차 검증 불가"
       ],
-      "zone": "EXPENSIVE",
-      "gap_pct": 422.8,
+      "zone": "FAIR",
+      "gap_pct": 367.5,
       "quality_gate_passed": true,
-      "action_label": "PSR 단독 평가 · EXPENSIVE 참고용 — 자동 매수·매도 보류",
+      "action_label": "PSR 단독 평가 · FAIR 참고용 — 자동 매수·매도 보류",
       "srim_mid": null,
       "per_band_mid": null,
       "pbr_roe_fair_value": null,
@@ -6161,14 +6161,14 @@
   },
   "241710": {
     "company": "코스메카코리아",
-    "updated": "2026-11-07",
-    "score": 79,
+    "updated": "2026-11-09",
+    "score": 76,
     "sector": "기타",
     "breakdown": {
       "strength": 25,
       "weakness": 20,
-      "opportunity": 13,
-      "threat": 21
+      "opportunity": 15,
+      "threat": 16
     },
     "sector_max": {
       "strength": 25,
@@ -6193,37 +6193,37 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 16.15,
+      "per": 14.32,
       "per_txt": "적정",
-      "pbr": 3.76,
+      "pbr": 3.34,
       "pbr_txt": "고평가 주의",
-      "psr": 1.33,
+      "psr": 1.18,
       "psr_txt": "적정",
-      "peg": 0.41,
+      "peg": 0.36,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 145000.0,
-      "upside": 50.3,
-      "consensus_n": 4,
+      "tgt": 145600.0,
+      "upside": 70.1,
+      "consensus_n": 5,
       "roe": 23.23
     },
     "valuation_engine": {
       "fair_value": 123599.0,
-      "band_low": 59317.0,
+      "band_low": 59381.0,
       "band_high": 256168.0,
       "confidence": "LOW",
-      "method_spread": 2.077,
+      "method_spread": 2.078,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 2.077배"
+        "방법 간 편차 2.078배"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -21.9,
+      "gap_pct": -30.7,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.1배) → 목표비중 50%로 축소 매수",
       "srim_mid": 123599.00375565229,
-      "per_band_mid": 93928.0,
+      "per_band_mid": 93900.0,
       "pbr_roe_fair_value": 195080.0,
       "nav_sotp_mid": null
     },
@@ -8415,14 +8415,14 @@
   },
   "119850": {
     "company": "지엔씨에너지",
-    "updated": "2026-11-07",
-    "score": 70,
+    "updated": "2026-11-09",
+    "score": 72,
     "sector": "전기장비/전력",
     "breakdown": {
       "strength": 22,
       "weakness": 13,
       "opportunity": 24,
-      "threat": 11
+      "threat": 13
     },
     "sector_max": {
       "strength": 26,
@@ -8447,22 +8447,22 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 13.27,
+      "per": 13.78,
       "per_txt": "적정",
-      "pbr": 2.33,
+      "pbr": 2.42,
       "pbr_txt": "고평가 주의",
-      "psr": 2.25,
+      "psr": 2.34,
       "psr_txt": "적정",
       "peg": null,
       "peg_txt": "",
       "tgt": 70000.0,
-      "upside": 98.6,
+      "upside": 91.3,
       "consensus_n": 2,
       "roe": 17.66
     },
     "valuation_engine": {
       "fair_value": 70962.0,
-      "band_low": 39948.0,
+      "band_low": 39946.0,
       "band_high": 92066.0,
       "confidence": "LOW",
       "method_spread": 2.305,
@@ -8473,12 +8473,12 @@
         "방법 간 편차 2.305배",
         "PER 유효 표본 2.1년 — 결측·적자 제외 후 4년 미만"
       ],
-      "zone": "DEEP_VALUE",
-      "gap_pct": -50.3,
+      "zone": "VALUE",
+      "gap_pct": -48.4,
       "quality_gate_passed": true,
-      "action_label": "3차 매수 존 (목표비중 100%까지) · ⚠️ 신뢰도 LOW(편차 2.3배) → 목표비중 50%로 축소 매수",
+      "action_label": "2차 매수 존 (목표비중 67%까지) · ⚠️ 신뢰도 LOW(편차 2.3배) → 목표비중 50%로 축소 매수",
       "srim_mid": 70962.0011988053,
-      "per_band_mid": 39948.0,
+      "per_band_mid": 39946.0,
       "pbr_roe_fair_value": 92066.0,
       "nav_sotp_mid": null
     },
@@ -9092,7 +9092,7 @@
   },
   "011780": {
     "company": "금호석유화학",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 65,
     "sector": "에너지/화학",
     "breakdown": {
@@ -9124,23 +9124,23 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 5.35,
+      "per": 5.48,
       "per_txt": "저평가",
-      "pbr": 0.35,
+      "pbr": 0.36,
       "pbr_txt": "저평가",
-      "psr": 0.32,
+      "psr": 0.33,
       "psr_txt": "저평가",
       "peg": 0.01,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 177400.0,
-      "upside": 89.9,
+      "tgt": 165400.0,
+      "upside": 72.8,
       "consensus_n": 5,
       "roe": 7.49
     },
     "valuation_engine": {
       "fair_value": 84413.0,
-      "band_low": 27478.0,
-      "band_high": 144897.0,
+      "band_low": 28806.0,
+      "band_high": 144876.0,
       "confidence": "HIGH",
       "method_spread": 1.511,
       "position_scale": 1.0,
@@ -9148,7 +9148,7 @@
       "sell_signal_allowed": false,
       "confidence_reasons": [],
       "zone": "FAIR",
-      "gap_pct": 10.6,
+      "gap_pct": 13.4,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": null,
@@ -9166,7 +9166,7 @@
   "012450": {
     "company": "한화에어로스페이스",
     "sector": "방산",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 54,
     "breakdown": {
       "strength": 24,
@@ -9208,33 +9208,33 @@
       "exec_count": 111
     },
     "valuation": {
-      "per": 16.43,
+      "per": 15.91,
       "per_txt": "적정",
-      "pbr": 2.83,
+      "pbr": 2.74,
       "pbr_txt": "고평가 주의",
-      "psr": 1.13,
+      "psr": 1.1,
       "psr_txt": "적정",
-      "peg": 0.28,
+      "peg": 0.27,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 1374000.0,
-      "upside": 108.5,
+      "tgt": 1364000.0,
+      "upside": 113.8,
       "consensus_n": 5,
       "roe": 16.5
     },
     "valuation_engine": {
       "fair_value": 1197230.0,
       "band_low": 298082.0,
-      "band_high": 1861039.0,
+      "band_high": 1859353.0,
       "confidence": "LOW",
-      "method_spread": 2.612,
+      "method_spread": 2.62,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 2.612배"
+        "방법 간 편차 2.620배"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -45.0,
+      "gap_pct": -46.7,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 2.6배) → 목표비중 50%로 축소 매수",
       "srim_mid": 1197229.9317478328,
@@ -11817,11 +11817,11 @@
   },
   "052690": {
     "company": "한전기술",
-    "updated": "2026-11-07",
-    "score": 49,
+    "updated": "2026-11-09",
+    "score": 53,
     "sector": "전기장비/전력",
     "breakdown": {
-      "strength": 10,
+      "strength": 14,
       "weakness": 21,
       "opportunity": 13,
       "threat": 5
@@ -11836,8 +11836,8 @@
       "qoq_trend": "declining",
       "yoy_pct": 167.5,
       "rev_yoy_pct": 1.0,
-      "momentum_score": 5.5,
-      "correction_pts": 0
+      "momentum_score": 7.0,
+      "correction_pts": 3
     },
     "trade": {
       "export_yoy": null,
@@ -11849,37 +11849,37 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 78.85,
+      "per": 75.98,
       "per_txt": "고평가 주의",
-      "pbr": 4.76,
+      "pbr": 4.59,
       "pbr_txt": "고평가 주의",
-      "psr": 5.36,
+      "psr": 5.16,
       "psr_txt": "고평가 주의",
-      "peg": 0.47,
+      "peg": 0.45,
       "peg_txt": "저평가(성장대비)",
       "tgt": 185000.0,
-      "upside": 149.3,
+      "upside": 158.7,
       "consensus_n": 4,
       "roe": 6.07
     },
     "valuation_engine": {
       "fair_value": 34661.0,
       "band_low": 24370.0,
-      "band_high": 337381.0,
+      "band_high": 337316.0,
       "confidence": "LOW",
-      "method_spread": 7.729,
+      "method_spread": 7.717,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 7.729배"
+        "방법 간 편차 7.717배"
       ],
       "zone": "FAIR",
-      "gap_pct": 114.1,
+      "gap_pct": 106.3,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 30458.691380470555,
-      "per_band_mid": 235416.0,
+      "per_band_mid": 235051.0,
       "pbr_roe_fair_value": 34661.0,
       "nav_sotp_mid": null
     },
@@ -12346,11 +12346,11 @@
   },
   "005300": {
     "company": "롯데칠성음료",
-    "updated": "2026-11-07",
-    "score": 57,
+    "updated": "2026-11-09",
+    "score": 59,
     "sector": "기타",
     "breakdown": {
-      "strength": 6,
+      "strength": 8,
       "weakness": 19,
       "opportunity": 11,
       "threat": 21
@@ -12365,8 +12365,8 @@
       "qoq_trend": "improving",
       "yoy_pct": -10.4,
       "rev_yoy_pct": 2.4,
-      "momentum_score": 5.5,
-      "correction_pts": 0
+      "momentum_score": 7.0,
+      "correction_pts": 2
     },
     "trade": {
       "export_yoy": null,
@@ -12378,7 +12378,7 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 16.81,
+      "per": 16.88,
       "per_txt": "적정",
       "pbr": 0.71,
       "pbr_txt": "고평가 주의",
@@ -12387,16 +12387,16 @@
       "peg": null,
       "peg_txt": "",
       "tgt": 133000.0,
-      "upside": 21.7,
+      "upside": 21.1,
       "consensus_n": 5,
       "roe": 4.37
     },
     "valuation_engine": {
       "fair_value": 72514.0,
-      "band_low": 39406.0,
+      "band_low": 39429.0,
       "band_high": 96929.0,
       "confidence": "HIGH",
-      "method_spread": 1.496,
+      "method_spread": 1.495,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
@@ -12404,9 +12404,9 @@
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
-      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (25점 < 기준 30점), 존과 무관하게 회피",
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (27점 < 기준 30점), 존과 무관하게 회피",
       "srim_mid": 72514.19566860425,
-      "per_band_mid": 57488.0,
+      "per_band_mid": 57526.0,
       "pbr_roe_fair_value": 86022.0,
       "nav_sotp_mid": null
     },
@@ -12945,7 +12945,7 @@
   },
   "021240": {
     "company": "코웨이",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 75,
     "sector": "기타",
     "breakdown": {
@@ -12977,22 +12977,22 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 11.07,
+      "per": 10.61,
       "per_txt": "저평가",
-      "pbr": 1.94,
+      "pbr": 1.86,
       "pbr_txt": "적정",
-      "psr": 1.41,
+      "psr": 1.35,
       "psr_txt": "적정",
-      "peg": 2.57,
+      "peg": 2.47,
       "peg_txt": "고평가 주의",
-      "tgt": 146250.0,
-      "upside": 38.1,
-      "consensus_n": 4,
+      "tgt": 143000.0,
+      "upside": 40.9,
+      "consensus_n": 5,
       "roe": 17.89
     },
     "valuation_engine": {
       "fair_value": 262079.0,
-      "band_low": 73833.0,
+      "band_low": 73844.0,
       "band_high": 544880.0,
       "confidence": "LOW",
       "method_spread": 6.299,
@@ -13003,7 +13003,7 @@
         "방법 간 편차 6.299배"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -59.6,
+      "gap_pct": -61.3,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 6.3배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
       "srim_mid": 262079.2099793343,
@@ -13472,7 +13472,7 @@
   },
   "035720": {
     "company": "카카오",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 63,
     "sector": "플랫폼",
     "breakdown": {
@@ -13510,34 +13510,34 @@
       "exec_count": 8
     },
     "valuation": {
-      "per": 40.87,
+      "per": 40.61,
       "per_txt": "고평가 주의",
-      "pbr": 1.2,
+      "pbr": 1.19,
       "pbr_txt": "고평가 주의",
-      "psr": 1.67,
+      "psr": 1.66,
       "psr_txt": "적정",
       "peg": 0.83,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 45800.0,
-      "upside": 43.1,
+      "tgt": 46000.0,
+      "upside": 44.7,
       "consensus_n": 5,
       "roe": 3.66
     },
     "valuation_engine": {
-      "fair_value": 30395.0,
+      "fair_value": 30388.0,
       "band_low": 173.0,
-      "band_high": 87260.0,
+      "band_high": 87233.0,
       "confidence": "LOW",
-      "method_spread": 350.387,
+      "method_spread": 350.301,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 350.387배",
+        "방법 간 편차 350.301배",
         "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
       ],
       "zone": "FAIR",
-      "gap_pct": 5.3,
+      "gap_pct": 4.6,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": null,
@@ -13775,14 +13775,14 @@
   },
   "051600": {
     "company": "한전KPS",
-    "updated": "2026-11-07",
-    "score": 59,
+    "updated": "2026-11-09",
+    "score": 54,
     "sector": "전기장비/전력",
     "breakdown": {
-      "strength": 14,
+      "strength": 11,
       "weakness": 24,
       "opportunity": 10,
-      "threat": 11
+      "threat": 9
     },
     "sector_max": {
       "strength": 26,
@@ -13794,8 +13794,8 @@
       "qoq_trend": "improving",
       "yoy_pct": -33.6,
       "rev_yoy_pct": -3.5,
-      "momentum_score": 4.5,
-      "correction_pts": 0
+      "momentum_score": 6.0,
+      "correction_pts": -2
     },
     "trade": {
       "export_yoy": null,
@@ -13807,22 +13807,22 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 14.32,
+      "per": 13.54,
       "per_txt": "적정",
-      "pbr": 1.38,
+      "pbr": 1.3,
       "pbr_txt": "고평가 주의",
-      "psr": 1.14,
+      "psr": 1.08,
       "psr_txt": "적정",
       "peg": null,
       "peg_txt": "",
       "tgt": 63800.0,
-      "upside": 54.5,
+      "upside": 63.4,
       "consensus_n": 5,
       "roe": 9.64
     },
     "valuation_engine": {
       "fair_value": 54074.0,
-      "band_low": 34230.0,
+      "band_low": 34236.0,
       "band_high": 64979.0,
       "confidence": "HIGH",
       "method_spread": 1.541,
@@ -13831,7 +13831,7 @@
       "sell_signal_allowed": false,
       "confidence_reasons": [],
       "zone": "ACCUMULATE",
-      "gap_pct": -23.6,
+      "gap_pct": -27.8,
       "quality_gate_passed": true,
       "action_label": "1차 매수 존 (목표비중 33%까지)",
       "srim_mid": 54074.301213293584,
@@ -13921,7 +13921,7 @@
   },
   "069960": {
     "company": "현대백화점",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 58,
     "sector": "기타",
     "breakdown": {
@@ -13953,30 +13953,30 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 8.19,
+      "per": 7.97,
       "per_txt": "저평가",
-      "pbr": 0.39,
+      "pbr": 0.38,
       "pbr_txt": "고평가 주의",
-      "psr": 0.45,
+      "psr": 0.44,
       "psr_txt": "저평가",
       "peg": null,
       "peg_txt": "",
       "tgt": 127600.0,
-      "upside": 51.0,
+      "upside": 55.0,
       "consensus_n": 5,
       "roe": 1.96
     },
     "valuation_engine": {
       "fair_value": 13468.0,
       "band_low": 1373.0,
-      "band_high": 79114.0,
+      "band_high": 79125.0,
       "confidence": "LOW",
-      "method_spread": 10.875,
+      "method_spread": 10.876,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 10.875배",
+        "방법 간 편차 10.876배",
         "PER 유효 표본 3.1년 — 결측·적자 제외 후 4년 미만",
         "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
       ],
@@ -13985,7 +13985,7 @@
       "quality_gate_passed": false,
       "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (24점 < 기준 30점), 존과 무관하게 회피",
       "srim_mid": 7275.104001606291,
-      "per_band_mid": 79114.0,
+      "per_band_mid": 79125.0,
       "pbr_roe_fair_value": 13468.0,
       "nav_sotp_mid": null
     },
@@ -14372,13 +14372,13 @@
   },
   "122870": {
     "company": "와이지엔터테인먼트",
-    "updated": "2026-11-07",
-    "score": 56,
+    "updated": "2026-11-09",
+    "score": 57,
     "sector": "엔터미디어",
     "breakdown": {
-      "strength": 15,
+      "strength": 17,
       "weakness": 9,
-      "opportunity": 12,
+      "opportunity": 11,
       "threat": 20
     },
     "sector_max": {
@@ -14391,8 +14391,8 @@
       "qoq_trend": "deteriorating",
       "yoy_pct": 31.2,
       "rev_yoy_pct": 27.2,
-      "momentum_score": 4.5,
-      "correction_pts": 2
+      "momentum_score": 6.0,
+      "correction_pts": 4
     },
     "trade": {
       "export_yoy": null,
@@ -14404,38 +14404,38 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 23.68,
+      "per": 22.43,
       "per_txt": "적정",
-      "pbr": 1.53,
+      "pbr": 1.45,
       "pbr_txt": "고평가 주의",
-      "psr": 1.29,
+      "psr": 1.23,
       "psr_txt": "적정",
-      "peg": 0.76,
+      "peg": 0.72,
       "peg_txt": "저평가(성장대비)",
       "tgt": 59600.0,
-      "upside": 38.9,
+      "upside": 46.6,
       "consensus_n": 5,
       "roe": 7.47
     },
     "valuation_engine": {
       "fair_value": 21532.0,
       "band_low": 2326.0,
-      "band_high": 52527.0,
+      "band_high": 52254.0,
       "confidence": "LOW",
-      "method_spread": 4.329,
+      "method_spread": 4.306,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 4.329배",
+        "방법 간 편차 4.306배",
         "PER 유효 표본 1.6년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "AVOID",
       "gap_pct": null,
       "quality_gate_passed": false,
-      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (24점 < 기준 30점), 존과 무관하게 회피",
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (26점 < 기준 30점), 존과 무관하게 회피",
       "srim_mid": 12134.54056524527,
-      "per_band_mid": 52527.0,
+      "per_band_mid": 52254.0,
       "pbr_roe_fair_value": 21532.0,
       "nav_sotp_mid": null
     },
@@ -14448,13 +14448,13 @@
   },
   "128940": {
     "company": "한미약품",
-    "updated": "2026-11-07",
-    "score": 58,
+    "updated": "2026-11-09",
+    "score": 60,
     "sector": "바이오",
     "breakdown": {
       "strength": 14,
       "weakness": 10,
-      "opportunity": 15,
+      "opportunity": 17,
       "threat": 19
     },
     "sector_max": {
@@ -14480,37 +14480,37 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 27.48,
+      "per": 28.24,
       "per_txt": "고평가 주의",
-      "pbr": 4.21,
+      "pbr": 4.33,
       "pbr_txt": "고평가 주의",
-      "psr": 3.6,
+      "psr": 3.7,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
-      "tgt": 672000.0,
-      "upside": 44.4,
+      "tgt": 676000.0,
+      "upside": 41.3,
       "consensus_n": 5,
       "roe": 14.77
     },
     "valuation_engine": {
-      "fair_value": 461476.0,
+      "fair_value": 461568.0,
       "band_low": 243796.0,
-      "band_high": 698682.0,
+      "band_high": 698503.0,
       "confidence": "LOW",
-      "method_spread": 1.91,
+      "method_spread": 1.909,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 1.910배"
+        "방법 간 편차 1.909배"
       ],
       "zone": "FAIR",
-      "gap_pct": 0.9,
+      "gap_pct": 3.7,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 308126.58472034824,
-      "per_band_mid": 588376.0,
+      "per_band_mid": 588096.0,
       "pbr_roe_fair_value": 570427.0,
       "nav_sotp_mid": null
     },
@@ -14824,13 +14824,13 @@
   },
   "251270": {
     "company": "넷마블",
-    "updated": "2026-11-07",
-    "score": 53,
+    "updated": "2026-11-09",
+    "score": 54,
     "sector": "기타",
     "breakdown": {
       "strength": 14,
       "weakness": 15,
-      "opportunity": 8,
+      "opportunity": 9,
       "threat": 16
     },
     "sector_max": {
@@ -14856,16 +14856,16 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 7.39,
+      "per": 7.28,
       "per_txt": "저평가",
-      "pbr": 0.47,
+      "pbr": 0.46,
       "pbr_txt": "저평가",
-      "psr": 1.0,
+      "psr": 0.98,
       "psr_txt": "저평가",
       "peg": null,
       "peg_txt": "",
-      "tgt": 43800.0,
-      "upside": 26.2,
+      "tgt": 45600.0,
+      "upside": 33.3,
       "consensus_n": 5,
       "roe": 6.73
     },
@@ -15279,7 +15279,7 @@
   },
   "420770": {
     "company": "기가비스",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 67,
     "sector": "반도체",
     "breakdown": {
@@ -15311,38 +15311,38 @@
       "correction_pts": 0
     },
     "valuation": {
-      "per": 38.79,
+      "per": 37.95,
       "per_txt": "고평가 주의",
-      "pbr": 3.92,
+      "pbr": 3.84,
       "pbr_txt": "고평가 주의",
-      "psr": 12.11,
+      "psr": 11.84,
       "psr_txt": "고평가 주의",
       "peg": 0.17,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 153750.0,
-      "upside": 139.5,
+      "tgt": 163750.0,
+      "upside": 160.7,
       "consensus_n": 4,
       "roe": 10.11
     },
     "valuation_engine": {
       "fair_value": 14071.0,
       "band_low": 9947.0,
-      "band_high": 110436.0,
+      "band_high": 110300.0,
       "confidence": "LOW",
-      "method_spread": 9.107,
+      "method_spread": 9.095,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 9.107배",
+        "방법 간 편차 9.095배",
         "PER 유효 표본 2.6년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "FAIR",
-      "gap_pct": 356.3,
+      "gap_pct": 346.3,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 12127.071435656479,
-      "per_band_mid": 110436.0,
+      "per_band_mid": 110300.0,
       "pbr_roe_fair_value": 14071.0,
       "nav_sotp_mid": null
     },
@@ -15657,7 +15657,7 @@
   },
   "066970": {
     "company": "엘앤에프",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 26,
     "sector": "전기장비/전력",
     "breakdown": {
@@ -15691,21 +15691,21 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 3.88,
+      "pbr": 3.55,
       "pbr_txt": "",
-      "psr": 1.07,
-      "psr_txt": "적정",
+      "psr": 0.98,
+      "psr_txt": "저평가",
       "peg": null,
       "peg_txt": "",
-      "tgt": 174000.0,
-      "upside": 128.0,
+      "tgt": 165000.0,
+      "upside": 136.1,
       "consensus_n": 5,
       "roe": -41.48
     },
     "valuation_engine": {
-      "fair_value": 121147.0,
-      "band_low": 69295.0,
-      "band_high": 493738.0,
+      "fair_value": 120994.0,
+      "band_low": 69313.0,
+      "band_high": 493560.0,
       "confidence": "LOW",
       "method_spread": null,
       "position_scale": 1.0,
@@ -16335,7 +16335,7 @@
   },
   "300080": {
     "company": "플리토",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 71,
     "sector": "기타",
     "breakdown": {
@@ -16373,11 +16373,11 @@
       "exec_count": 6
     },
     "valuation": {
-      "per": 22.43,
+      "per": 21.64,
       "per_txt": "적정",
-      "pbr": 6.62,
+      "pbr": 6.39,
       "pbr_txt": "고평가 주의",
-      "psr": 3.58,
+      "psr": 3.45,
       "psr_txt": "고평가 주의",
       "peg": 0.1,
       "peg_txt": "저평가(성장대비)",
@@ -16387,11 +16387,11 @@
       "roe": 29.55
     },
     "valuation_engine": {
-      "fair_value": 24623.0,
-      "band_low": 12126.0,
-      "band_high": 43976.0,
+      "fair_value": 24409.0,
+      "band_low": 12119.0,
+      "band_high": 43936.0,
       "confidence": "LOW",
-      "method_spread": 1.007,
+      "method_spread": 1.022,
       "position_scale": 0.5,
       "buy_signal_allowed": true,
       "sell_signal_allowed": false,
@@ -16399,18 +16399,18 @@
         "PER 유효 표본 1.6년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "DEEP_VALUE",
-      "gap_pct": -68.9,
+      "gap_pct": -69.8,
       "quality_gate_passed": true,
       "action_label": "3차 매수 존 (목표비중 100%까지) · ⚠️ 신뢰도 LOW(편차 1.0배) → 목표비중 50%로 축소 매수",
       "srim_mid": null,
-      "per_band_mid": 24541.0,
+      "per_band_mid": 24144.0,
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
   },
   "229640": {
     "company": "LS에코에너지",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 63,
     "sector": "전기장비/전력",
     "breakdown": {
@@ -16448,38 +16448,38 @@
       "exec_count": 5
     },
     "valuation": {
-      "per": 26.74,
+      "per": 25.22,
       "per_txt": "고평가 주의",
-      "pbr": 4.72,
+      "pbr": 4.45,
       "pbr_txt": "고평가 주의",
-      "psr": 1.06,
-      "psr_txt": "적정",
-      "peg": 0.53,
+      "psr": 1.0,
+      "psr_txt": "저평가",
+      "peg": 0.5,
       "peg_txt": "저평가(성장대비)",
       "tgt": 65600.0,
-      "upside": 69.5,
+      "upside": 79.7,
       "consensus_n": 5,
       "roe": 18.98
     },
     "valuation_engine": {
       "fair_value": 36713.0,
       "band_low": 21735.0,
-      "band_high": 48049.0,
+      "band_high": 48025.0,
       "confidence": "LOW",
-      "method_spread": 1.837,
+      "method_spread": 1.836,
       "position_scale": 0.5,
-      "buy_signal_allowed": false,
+      "buy_signal_allowed": true,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 1.837배",
+        "방법 간 편차 1.836배",
         "PER 유효 표본 4.1년 — 결측·적자 제외 후 4년 미만"
       ],
-      "zone": "FAIR",
-      "gap_pct": 5.4,
+      "zone": "ACCUMULATE",
+      "gap_pct": -0.6,
       "quality_gate_passed": true,
-      "action_label": "보유 (신규 매수 없음)",
+      "action_label": "1차 매수 존 (목표비중 33%까지) · ⚠️ 신뢰도 LOW(편차 1.8배) → 목표비중 50%로 축소 매수",
       "srim_mid": 26154.883939946856,
-      "per_band_mid": 48049.0,
+      "per_band_mid": 48025.0,
       "pbr_roe_fair_value": 36713.0,
       "nav_sotp_mid": null
     }
@@ -18823,13 +18823,13 @@
   },
   "008930": {
     "company": "한미사이언스",
-    "updated": "2026-11-07",
-    "score": 62,
+    "updated": "2026-11-09",
+    "score": 63,
     "sector": "바이오",
     "breakdown": {
       "strength": 12,
       "weakness": 12,
-      "opportunity": 23,
+      "opportunity": 24,
       "threat": 15
     },
     "sector_max": {
@@ -18861,17 +18861,17 @@
       "exec_count": 23
     },
     "valuation": {
-      "per": 24.33,
-      "per_txt": "적정",
-      "pbr": 3.43,
+      "per": 26.33,
+      "per_txt": "고평가 주의",
+      "pbr": 3.71,
       "pbr_txt": "고평가 주의",
-      "psr": 2.61,
+      "psr": 2.82,
       "psr_txt": "적정",
       "peg": null,
       "peg_txt": "",
-      "tgt": 122250.0,
-      "upside": 127.7,
-      "consensus_n": 4,
+      "tgt": 116333.33333333333,
+      "upside": 100.2,
+      "consensus_n": 3,
       "roe": 14.22
     },
     "valuation_engine": {
@@ -18879,19 +18879,19 @@
       "band_low": 23132.0,
       "band_high": 100938.0,
       "confidence": "LOW",
-      "method_spread": 2.293,
+      "method_spread": 2.291,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 2.293배"
+        "방법 간 편차 2.291배"
       ],
       "zone": "FAIR",
-      "gap_pct": 15.6,
+      "gap_pct": 25.1,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 30903.61900414792,
-      "per_band_mid": 70872.0,
+      "per_band_mid": 70785.0,
       "pbr_roe_fair_value": 48757.0,
       "nav_sotp_mid": null
     }
@@ -18973,7 +18973,7 @@
   },
   "009420": {
     "company": "한올바이오파마",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 52,
     "sector": "바이오",
     "breakdown": {
@@ -19013,21 +19013,21 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 11.41,
+      "pbr": 11.91,
       "pbr_txt": "",
-      "psr": 11.64,
+      "psr": 12.16,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 95000.0,
-      "upside": 162.1,
+      "upside": 151.0,
       "consensus_n": 3,
       "roe": -15.41
     },
     "valuation_engine": {
-      "fair_value": 37087.0,
+      "fair_value": 37131.0,
       "band_low": 28182.0,
-      "band_high": 49219.0,
+      "band_high": 49200.0,
       "confidence": "LOW",
       "method_spread": null,
       "position_scale": 1.0,
@@ -19036,10 +19036,10 @@
       "confidence_reasons": [
         "평가 방법 1개 — 교차 검증 불가"
       ],
-      "zone": "ACCUMULATE",
-      "gap_pct": -2.3,
+      "zone": "FAIR",
+      "gap_pct": 1.9,
       "quality_gate_passed": true,
-      "action_label": "PSR 단독 평가 · ACCUMULATE 참고용 — 자동 매수·매도 보류",
+      "action_label": "PSR 단독 평가 · FAIR 참고용 — 자동 매수·매도 보류",
       "srim_mid": null,
       "per_band_mid": null,
       "pbr_roe_fair_value": null,
@@ -19797,7 +19797,7 @@
   },
   "178920": {
     "company": "PI첨단소재",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 64,
     "sector": "에너지/화학",
     "breakdown": {
@@ -19835,7 +19835,7 @@
       "exec_count": 14
     },
     "valuation": {
-      "per": 10.07,
+      "per": 10.06,
       "per_txt": "저평가",
       "pbr": 1.1,
       "pbr_txt": "적정",
@@ -19843,30 +19843,30 @@
       "psr_txt": "적정",
       "peg": 1.31,
       "peg_txt": "적정",
-      "tgt": 28000.0,
-      "upside": 99.9,
-      "consensus_n": 4,
+      "tgt": 26800.0,
+      "upside": 91.4,
+      "consensus_n": 5,
       "roe": 10.95
     },
     "valuation_engine": {
       "fair_value": 8704.0,
       "band_low": 3387.0,
-      "band_high": 24614.0,
+      "band_high": 24611.0,
       "confidence": "LOW",
-      "method_spread": 3.584,
+      "method_spread": 3.582,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 3.584배",
+        "방법 간 편차 3.582배",
         "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
       ],
       "zone": "FAIR",
-      "gap_pct": 61.0,
+      "gap_pct": 60.8,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 5837.6107604930985,
-      "per_band_mid": 20921.0,
+      "per_band_mid": 20910.0,
       "pbr_roe_fair_value": 8704.0,
       "nav_sotp_mid": null
     }
@@ -20555,14 +20555,14 @@
   },
   "195870": {
     "company": "해성디에스",
-    "updated": "2026-11-07",
-    "score": 59,
+    "updated": "2026-11-09",
+    "score": 62,
     "sector": "반도체",
     "breakdown": {
       "strength": 22,
       "weakness": 15,
       "opportunity": 5,
-      "threat": 17
+      "threat": 20
     },
     "sector_max": {
       "strength": 25,
@@ -20593,22 +20593,22 @@
       "exec_count": 7
     },
     "valuation": {
-      "per": 11.2,
+      "per": 11.02,
       "per_txt": "저평가",
-      "pbr": 1.04,
+      "pbr": 1.02,
       "pbr_txt": "적정",
-      "psr": 0.79,
+      "psr": 0.78,
       "psr_txt": "저평가",
       "peg": 0.1,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 78000.0,
-      "upside": 121.0,
+      "tgt": 73000.0,
+      "upside": 110.1,
       "consensus_n": 5,
       "roe": 9.27
     },
     "valuation_engine": {
       "fair_value": 33363.0,
-      "band_low": 8029.0,
+      "band_low": 8031.0,
       "band_high": 40462.0,
       "confidence": "LOW",
       "method_spread": 3.034,
@@ -20619,7 +20619,7 @@
         "방법 간 편차 3.034배"
       ],
       "zone": "FAIR",
-      "gap_pct": 5.8,
+      "gap_pct": 4.2,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 33363.39478156576,
@@ -20705,7 +20705,7 @@
   },
   "054950": {
     "company": "제이브이엠",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "score": 76,
     "sector": "기타",
     "breakdown": {
@@ -20743,22 +20743,22 @@
       "exec_count": 13
     },
     "valuation": {
-      "per": 9.58,
+      "per": 9.53,
       "per_txt": "저평가",
-      "pbr": 1.15,
+      "pbr": 1.14,
       "pbr_txt": "적정",
-      "psr": 1.66,
+      "psr": 1.65,
       "psr_txt": "적정",
-      "peg": 0.32,
+      "peg": 0.31,
       "peg_txt": "저평가(성장대비)",
-      "tgt": 34000.0,
-      "upside": 39.1,
-      "consensus_n": 2,
+      "tgt": 34333.333333333336,
+      "upside": 41.3,
+      "consensus_n": 3,
       "roe": 12.55
     },
     "valuation_engine": {
       "fair_value": 65143.0,
-      "band_low": 23753.0,
+      "band_low": 23757.0,
       "band_high": 121678.0,
       "confidence": "LOW",
       "method_spread": 3.718,
@@ -20769,7 +20769,7 @@
         "방법 간 편차 3.718배"
       ],
       "zone": "ACCUMULATE",
-      "gap_pct": -62.5,
+      "gap_pct": -62.7,
       "quality_gate_passed": true,
       "action_label": "⚠️ 신뢰도 LOW · 방법 간 편차 3.7배 — 매수 보류 (ACCUMULATE 참고용, 기준 3.0배 초과)",
       "srim_mid": 65142.68571254621,
