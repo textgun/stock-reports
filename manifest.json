@@ -17107,5 +17107,23 @@
     "reality_score": 19,
     "hope_score": 12,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "005290_동진쎄미켐/2026-11-09_동진쎄미켐_005290.html",
+    "company": "동진쎄미켐",
+    "ticker": "005290",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 23,
+      "opportunity": 3,
+      "threat": 17
+    },
+    "reality_score": 46,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
