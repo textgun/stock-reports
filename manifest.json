@@ -17017,5 +17017,23 @@
     "reality_score": 23,
     "hope_score": 23,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "002900_TYM/2026-11-09_TYM_002900.html",
+    "company": "TYM",
+    "ticker": "002900",
+    "score": 68,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 18,
+      "opportunity": 6,
+      "threat": 18
+    },
+    "reality_score": 45,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
