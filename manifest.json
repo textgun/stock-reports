@@ -16264,24 +16264,6 @@
   },
   {
     "date": "2026-11-09",
-    "filename": "079160_CJ CGV/2026-11-09_CJ CGV_079160.html",
-    "company": "CJ CGV",
-    "ticker": "079160",
-    "score": 51,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
-    "breakdown": {
-      "strength": 8,
-      "weakness": 12,
-      "opportunity": 14,
-      "threat": 17
-    },
-    "reality_score": 23,
-    "hope_score": 29,
-    "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-11-09",
     "filename": "089030_테크윙/2026-11-09_테크윙_089030.html",
     "company": "테크윙",
     "ticker": "089030",
@@ -17395,5 +17377,23 @@
     "reality_score": 37,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "079160_CJ CGV/2026-11-09_CJ CGV_079160.html",
+    "company": "CJ CGV",
+    "ticker": "079160",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 12,
+      "opportunity": 14,
+      "threat": 17
+    },
+    "reality_score": 23,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
