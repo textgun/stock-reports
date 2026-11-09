@@ -17683,5 +17683,23 @@
     "reality_score": 32,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "290650_엘앤씨바이오/2026-11-09_엘앤씨바이오_290650.html",
+    "company": "엘앤씨바이오",
+    "ticker": "290650",
+    "score": 51,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 18,
+      "opportunity": 7,
+      "threat": 4
+    },
+    "reality_score": 37,
+    "hope_score": 11,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
