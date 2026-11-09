@@ -16858,24 +16858,6 @@
   },
   {
     "date": "2026-11-09",
-    "filename": "298050_HS효성첨단소재/2026-11-09_HS효성첨단소재_298050.html",
-    "company": "HS효성첨단소재",
-    "ticker": "298050",
-    "score": 52,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 14,
-      "weakness": 16,
-      "opportunity": 6,
-      "threat": 16
-    },
-    "reality_score": 32,
-    "hope_score": 18,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-09",
     "filename": "326030_에스케이바이오팜/2026-11-09_에스케이바이오팜_326030.html",
     "company": "에스케이바이오팜",
     "ticker": "326030",
@@ -17664,6 +17646,24 @@
     },
     "reality_score": 34,
     "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "298050_HS효성첨단소재/2026-11-09_HS효성첨단소재_298050.html",
+    "company": "HS효성첨단소재",
+    "ticker": "298050",
+    "score": 52,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 16,
+      "opportunity": 6,
+      "threat": 16
+    },
+    "reality_score": 32,
+    "hope_score": 18,
     "quadrant": "현실 강함  🟢"
   }
 ]
