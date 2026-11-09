@@ -17467,5 +17467,23 @@
     "reality_score": 22,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "100120_뷰웍스/2026-11-09_뷰웍스_100120.html",
+    "company": "뷰웍스",
+    "ticker": "100120",
+    "score": 83,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 13,
+      "threat": 20
+    },
+    "reality_score": 50,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
