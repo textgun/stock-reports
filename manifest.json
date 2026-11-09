@@ -17611,5 +17611,23 @@
     "reality_score": 29,
     "hope_score": 22,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "253450_스튜디오드래곤/2026-11-09_스튜디오드래곤_253450.html",
+    "company": "스튜디오드래곤",
+    "ticker": "253450",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 19,
+      "opportunity": 8,
+      "threat": 20
+    },
+    "reality_score": 37,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
