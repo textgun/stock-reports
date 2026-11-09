@@ -17773,5 +17773,23 @@
     "reality_score": 29,
     "hope_score": 20,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "499790_GS피앤엘/2026-11-09_GS피앤엘_499790.html",
+    "company": "GS피앤엘",
+    "ticker": "499790",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 36/38)",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 13,
+      "opportunity": 4,
+      "threat": 11
+    },
+    "reality_score": 32,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
