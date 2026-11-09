@@ -17755,5 +17755,23 @@
     "reality_score": 34,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "487570_HS효성/2026-11-09_HS효성_487570.html",
+    "company": "HS효성",
+    "ticker": "487570",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 9,
+      "opportunity": 3,
+      "threat": 19
+    },
+    "reality_score": 29,
+    "hope_score": 20,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
