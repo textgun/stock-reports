@@ -16858,24 +16858,6 @@
   },
   {
     "date": "2026-11-09",
-    "filename": "298020_효성티앤씨/2026-11-09_효성티앤씨_298020.html",
-    "company": "효성티앤씨",
-    "ticker": "298020",
-    "score": 55,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 14,
-      "weakness": 18,
-      "opportunity": 6,
-      "threat": 17
-    },
-    "reality_score": 34,
-    "hope_score": 20,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-09",
     "filename": "298050_HS효성첨단소재/2026-11-09_HS효성첨단소재_298050.html",
     "company": "HS효성첨단소재",
     "ticker": "298050",
@@ -17665,5 +17647,23 @@
     "reality_score": 36,
     "hope_score": 33,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "298020_효성티앤씨/2026-11-09_효성티앤씨_298020.html",
+    "company": "효성티앤씨",
+    "ticker": "298020",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 18,
+      "opportunity": 6,
+      "threat": 17
+    },
+    "reality_score": 34,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
