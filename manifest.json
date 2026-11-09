@@ -17737,5 +17737,23 @@
     "reality_score": 35,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "439580_블루엠텍/2026-11-09_블루엠텍_439580.html",
+    "company": "블루엠텍",
+    "ticker": "439580",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 19,
+      "opportunity": 10,
+      "threat": 19
+    },
+    "reality_score": 34,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
