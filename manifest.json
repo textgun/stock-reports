@@ -17179,5 +17179,23 @@
     "reality_score": 45,
     "hope_score": 10,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "011930_신성이엔지/2026-11-09_신성이엔지_011930.html",
+    "company": "신성이엔지",
+    "ticker": "011930",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 25,
+      "opportunity": 5,
+      "threat": 14
+    },
+    "reality_score": 33,
+    "hope_score": 16,
+    "quadrant": "현실 강함  🟢"
   }
 ]
