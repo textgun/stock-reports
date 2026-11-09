@@ -17719,5 +17719,23 @@
     "reality_score": 25,
     "hope_score": 11,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "311320_지오엘리먼트/2026-11-09_지오엘리먼트_311320.html",
+    "company": "지오엘리먼트",
+    "ticker": "311320",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 13,
+      "opportunity": 3,
+      "threat": 17
+    },
+    "reality_score": 35,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
