@@ -16678,24 +16678,6 @@
   },
   {
     "date": "2026-11-09",
-    "filename": "017670_SK텔레콤/2026-11-09_SK텔레콤_017670.html",
-    "company": "SK텔레콤",
-    "ticker": "017670",
-    "score": 60,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 12,
-      "weakness": 16,
-      "opportunity": 11,
-      "threat": 21
-    },
-    "reality_score": 36,
-    "hope_score": 25,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-09",
     "filename": "028670_팬오션/2026-11-09_팬오션_028670.html",
     "company": "팬오션",
     "ticker": "028670",
@@ -17485,5 +17467,23 @@
     "reality_score": 24,
     "hope_score": 18,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "017670_SK텔레콤/2026-11-09_SK텔레콤_017670.html",
+    "company": "SK텔레콤",
+    "ticker": "017670",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 16,
+      "opportunity": 11,
+      "threat": 21
+    },
+    "reality_score": 36,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   }
 ]
