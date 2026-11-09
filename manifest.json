@@ -16693,5 +16693,23 @@
     "reality_score": 36,
     "hope_score": 25,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "028670_팬오션/2026-11-09_팬오션_028670.html",
+    "company": "팬오션",
+    "ticker": "028670",
+    "score": 72,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 22,
+      "opportunity": 13,
+      "threat": 17
+    },
+    "reality_score": 43,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
