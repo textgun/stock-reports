@@ -17125,5 +17125,23 @@
     "reality_score": 37,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "051600_한전KPS/2026-11-09_한전KPS_051600.html",
+    "company": "한전KPS",
+    "ticker": "051600",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 24,
+      "opportunity": 10,
+      "threat": 9
+    },
+    "reality_score": 35,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
