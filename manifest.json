@@ -17557,5 +17557,23 @@
     "reality_score": 33,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-09",
+    "filename": "214430_아이쓰리시스템/2026-11-09_아이쓰리시스템_214430.html",
+    "company": "아이쓰리시스템",
+    "ticker": "214430",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 9,
+      "threat": 17
+    },
+    "reality_score": 42,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
