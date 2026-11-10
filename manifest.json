@@ -862,5 +862,23 @@
     "reality_score": 35,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-10",
+    "filename": "030000_제일기획/2026-11-10_제일기획_030000.html",
+    "company": "제일기획",
+    "ticker": "030000",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 22,
+      "opportunity": 6,
+      "threat": 13
+    },
+    "reality_score": 35,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
