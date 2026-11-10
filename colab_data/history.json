@@ -28878,12 +28878,12 @@
       },
       {
         "date": "2026-11-10",
-        "total_score": 45,
+        "total_score": 47,
         "rating_code": "AVOID",
         "breakdown": {
           "strength": 18,
           "weakness": 5,
-          "opportunity": 8,
+          "opportunity": 10,
           "threat": 14
         }
       }
