@@ -142,5 +142,23 @@
     "reality_score": 41,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-10",
+    "filename": "278470_에이피알/2026-11-10_에이피알_278470.html",
+    "company": "에이피알",
+    "ticker": "278470",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 13,
+      "opportunity": 8,
+      "threat": 10
+    },
+    "reality_score": 38,
+    "hope_score": 16,
+    "quadrant": "현실 강함  🟢"
   }
 ]
