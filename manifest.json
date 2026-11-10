@@ -952,5 +952,23 @@
     "reality_score": 43,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-10",
+    "filename": "064850_에프앤가이드/2026-11-10_에프앤가이드_064850.html",
+    "company": "에프앤가이드",
+    "ticker": "064850",
+    "score": 70,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 15,
+      "opportunity": 13,
+      "threat": 22
+    },
+    "reality_score": 50,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   }
 ]
