@@ -55,24 +55,6 @@
   },
   {
     "date": "2026-11-10",
-    "filename": "034230_파라다이스/2026-11-10_파라다이스_034230.html",
-    "company": "파라다이스",
-    "ticker": "034230",
-    "score": 68,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 15,
-      "weakness": 28,
-      "opportunity": 7,
-      "threat": 18
-    },
-    "reality_score": 37,
-    "hope_score": 32,
-    "quadrant": "현실·기대 모두 강함  🟢🟢"
-  },
-  {
-    "date": "2026-11-10",
     "filename": "043260_성호전자/2026-11-10_성호전자_043260.html",
     "company": "성호전자",
     "ticker": "043260",
@@ -286,24 +268,6 @@
     "reality_score": 28,
     "hope_score": 31,
     "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-11-10",
-    "filename": "009420_한올바이오파마/2026-11-10_한올바이오파마_009420.html",
-    "company": "한올바이오파마",
-    "ticker": "009420",
-    "score": 55,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 14,
-      "weakness": 9,
-      "opportunity": 20,
-      "threat": 12
-    },
-    "reality_score": 33,
-    "hope_score": 25,
-    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-11-10",
