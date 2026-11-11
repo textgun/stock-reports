@@ -1744,5 +1744,23 @@
     "reality_score": 43,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-11",
+    "filename": "032640_LG유플러스/2026-11-11_LG유플러스_032640.html",
+    "company": "LG유플러스",
+    "ticker": "032640",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 16,
+      "opportunity": 13,
+      "threat": 22
+    },
+    "reality_score": 36,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
