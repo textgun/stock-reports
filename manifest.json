@@ -1636,5 +1636,23 @@
     "reality_score": 17,
     "hope_score": 28,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-11",
+    "filename": "192820_코스맥스/2026-11-11_코스맥스_192820.html",
+    "company": "코스맥스",
+    "ticker": "192820",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 14,
+      "opportunity": 12,
+      "threat": 21
+    },
+    "reality_score": 35,
+    "hope_score": 32,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
