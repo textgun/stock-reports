@@ -1834,5 +1834,23 @@
     "reality_score": 10,
     "hope_score": 11,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-11",
+    "filename": "251970_펌텍코리아/2026-11-11_펌텍코리아_251970.html",
+    "company": "펌텍코리아",
+    "ticker": "251970",
+    "score": 77,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 12,
+      "threat": 18
+    },
+    "reality_score": 46,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
