@@ -2122,5 +2122,23 @@
     "reality_score": 10,
     "hope_score": 7,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "069960_현대백화점/2026-11-12_현대백화점_069960.html",
+    "company": "현대백화점",
+    "ticker": "069960",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 17,
+      "opportunity": 8,
+      "threat": 25
+    },
+    "reality_score": 34,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
