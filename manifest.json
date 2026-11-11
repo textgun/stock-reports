@@ -2248,5 +2248,23 @@
     "reality_score": 17,
     "hope_score": 28,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "145020_휴젤/2026-11-12_휴젤_145020.html",
+    "company": "휴젤",
+    "ticker": "145020",
+    "score": 70,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 12,
+      "opportunity": 15,
+      "threat": 27
+    },
+    "reality_score": 46,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
