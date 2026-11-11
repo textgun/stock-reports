@@ -1214,13 +1214,13 @@
   "035420": {
     "company": "NAVER",
     "sector": "플랫폼",
-    "updated": "2026-11-07",
-    "score": 56,
+    "updated": "2026-11-12",
+    "score": 61,
     "breakdown": {
-      "strength": 14,
+      "strength": 15,
       "weakness": 14,
-      "opportunity": 15,
-      "threat": 13
+      "opportunity": 17,
+      "threat": 15
     },
     "sector_max": {
       "strength": 22,
@@ -1232,8 +1232,8 @@
       "qoq_trend": "declining",
       "yoy_pct": -0.2,
       "rev_yoy_pct": 16.2,
-      "momentum_score": 2.5,
-      "correction_pts": 0
+      "momentum_score": 4.0,
+      "correction_pts": 1
     },
     "trade": {
       "export_yoy": null,
@@ -1256,38 +1256,38 @@
       "exec_count": 7
     },
     "valuation": {
-      "per": 14.64,
+      "per": 15.08,
       "per_txt": "적정",
-      "pbr": 0.96,
+      "pbr": 0.99,
       "pbr_txt": "고평가 주의",
-      "psr": 2.21,
+      "psr": 2.28,
       "psr_txt": "적정",
       "peg": null,
       "peg_txt": "",
       "tgt": 352500.0,
-      "upside": 86.9,
+      "upside": 81.4,
       "consensus_n": 4,
       "roe": 6.1
     },
     "valuation_engine": {
-      "fair_value": 177596.0,
+      "fair_value": 177262.0,
       "band_low": 906.0,
-      "band_high": 376712.0,
+      "band_high": 373358.0,
       "confidence": "LOW",
-      "method_spread": 4.651,
+      "method_spread": 4.649,
       "position_scale": 0.5,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 4.651배",
+        "방법 간 편차 4.649배",
         "PER 유효 표본 1.6년 — 결측·적자 제외 후 4년 미만"
       ],
       "zone": "FAIR",
-      "gap_pct": 6.2,
+      "gap_pct": 9.6,
       "quality_gate_passed": true,
       "action_label": "보유 (신규 매수 없음)",
       "srim_mid": 60848.44820174716,
-      "per_band_mid": 225829.0,
+      "per_band_mid": 225159.0,
       "pbr_roe_fair_value": 129364.0,
       "nav_sotp_mid": null
     }
