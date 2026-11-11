@@ -2032,5 +2032,23 @@
     "reality_score": 50,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "041510_에스엠/2026-11-12_에스엠_041510.html",
+    "company": "에스엠",
+    "ticker": "041510",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 16,
+      "opportunity": 7,
+      "threat": 10
+    },
+    "reality_score": 33,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
