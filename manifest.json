@@ -2410,5 +2410,23 @@
     "reality_score": 39,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "298040_효성중공업/2026-11-12_효성중공업_298040.html",
+    "company": "효성중공업",
+    "ticker": "298040",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 9,
+      "opportunity": 6,
+      "threat": 13
+    },
+    "reality_score": 30,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
