@@ -1456,5 +1456,23 @@
     "reality_score": 50,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-11",
+    "filename": "039490_키움증권/2026-11-11_키움증권_039490.html",
+    "company": "키움증권",
+    "ticker": "039490",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 10,
+      "opportunity": 6,
+      "threat": 18
+    },
+    "reality_score": 32,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
