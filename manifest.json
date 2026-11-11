@@ -2050,5 +2050,23 @@
     "reality_score": 33,
     "hope_score": 14,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "047810_한국항공우주/2026-11-12_한국항공우주_047810.html",
+    "company": "한국항공우주",
+    "ticker": "047810",
+    "score": 51,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 23,
+      "opportunity": 8,
+      "threat": 8
+    },
+    "reality_score": 35,
+    "hope_score": 16,
+    "quadrant": "현실 강함  🟢"
   }
 ]
