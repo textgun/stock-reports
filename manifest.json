@@ -1870,5 +1870,23 @@
     "reality_score": 40,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-11",
+    "filename": "009420_한올바이오파마/2026-11-11_한올바이오파마_009420.html",
+    "company": "한올바이오파마",
+    "ticker": "009420",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 9,
+      "opportunity": 18,
+      "threat": 15
+    },
+    "reality_score": 33,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
