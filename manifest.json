@@ -2626,5 +2626,23 @@
     "reality_score": 23,
     "hope_score": 25,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "039570_HDC랩스/2026-11-12_HDC랩스_039570.html",
+    "company": "HDC랩스",
+    "ticker": "039570",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 22,
+      "opportunity": 7,
+      "threat": 20
+    },
+    "reality_score": 35,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
