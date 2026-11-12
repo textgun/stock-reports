@@ -164,11 +164,11 @@
     "company": "슈프리마",
     "sector": "반도체",
     "updated": "2026-11-12",
-    "score": 76,
+    "score": 75,
     "breakdown": {
       "strength": 25,
       "weakness": 18,
-      "opportunity": 19,
+      "opportunity": 18,
       "threat": 14
     },
     "sector_max": {
@@ -195,7 +195,7 @@
     },
     "reality_hope": {
       "reality_score": 43,
-      "hope_score": 34,
+      "hope_score": 33,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": {
@@ -326,11 +326,11 @@
     "company": "이오테크닉스",
     "sector": "반도체",
     "updated": "2026-11-12",
-    "score": 61,
+    "score": 62,
     "breakdown": {
       "strength": 25,
       "weakness": 15,
-      "opportunity": 9,
+      "opportunity": 10,
       "threat": 12
     },
     "sector_max": {
@@ -357,7 +357,7 @@
     },
     "reality_hope": {
       "reality_score": 37,
-      "hope_score": 22,
+      "hope_score": 23,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
