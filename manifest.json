@@ -2608,5 +2608,23 @@
     "reality_score": 37,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "032830_삼성생명/2026-11-12_삼성생명_032830.html",
+    "company": "삼성생명",
+    "ticker": "032830",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/24)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 18,
+      "opportunity": 7,
+      "threat": 19
+    },
+    "reality_score": 23,
+    "hope_score": 25,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
