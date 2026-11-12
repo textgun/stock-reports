@@ -2896,5 +2896,23 @@
     "reality_score": 27,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "003160_디아이/2026-11-12_디아이_003160.html",
+    "company": "디아이",
+    "ticker": "003160",
+    "score": 70,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 13,
+      "threat": 17
+    },
+    "reality_score": 41,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
