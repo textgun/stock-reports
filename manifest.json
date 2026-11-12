@@ -3346,5 +3346,23 @@
     "reality_score": 19,
     "hope_score": 17,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "336370_솔루스첨단소재/2026-11-13_솔루스첨단소재_336370.html",
+    "company": "솔루스첨단소재",
+    "ticker": "336370",
+    "score": 18,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 5/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 5,
+      "opportunity": 5,
+      "threat": 8
+    },
+    "reality_score": 9,
+    "hope_score": 9,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
