@@ -3220,5 +3220,23 @@
     "reality_score": 35,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "054450_텔레칩스/2026-11-13_텔레칩스_054450.html",
+    "company": "텔레칩스",
+    "ticker": "054450",
+    "score": 48,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 13,
+      "opportunity": 5,
+      "threat": 20
+    },
+    "reality_score": 25,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
