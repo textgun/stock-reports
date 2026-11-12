@@ -3220,5 +3220,23 @@
     "reality_score": 35,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "489790_한화비전/2026-11-12_한화비전_489790.html",
+    "company": "한화비전",
+    "ticker": "489790",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 11,
+      "opportunity": 7,
+      "threat": 18
+    },
+    "reality_score": 32,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
