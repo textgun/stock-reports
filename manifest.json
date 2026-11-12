@@ -2089,24 +2089,6 @@
   },
   {
     "date": "2026-11-12",
-    "filename": "062040_산일전기/2026-11-12_산일전기_062040.html",
-    "company": "산일전기",
-    "ticker": "062040",
-    "score": 64,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 26,
-      "weakness": 22,
-      "opportunity": 12,
-      "threat": 4
-    },
-    "reality_score": 48,
-    "hope_score": 17,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-12",
     "filename": "066970_엘앤에프/2026-11-12_엘앤에프_066970.html",
     "company": "엘앤에프",
     "ticker": "066970",
@@ -2518,5 +2500,23 @@
     "reality_score": 8,
     "hope_score": 22,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "062040_산일전기/2026-11-12_산일전기_062040.html",
+    "company": "산일전기",
+    "ticker": "062040",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 22,
+      "opportunity": 12,
+      "threat": 4
+    },
+    "reality_score": 48,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
