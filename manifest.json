@@ -3400,5 +3400,23 @@
     "reality_score": 44,
     "hope_score": 9,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "950140_잉글우드랩/2026-11-13_잉글우드랩_950140.html",
+    "company": "잉글우드랩",
+    "ticker": "950140",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 16,
+      "opportunity": 7,
+      "threat": 17
+    },
+    "reality_score": 35,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
