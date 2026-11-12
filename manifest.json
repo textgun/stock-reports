@@ -3094,5 +3094,23 @@
     "reality_score": 13,
     "hope_score": 11,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "000990_DB하이텍/2026-11-13_DB하이텍_000990.html",
+    "company": "DB하이텍",
+    "ticker": "000990",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 19,
+      "opportunity": 5,
+      "threat": 8
+    },
+    "reality_score": 45,
+    "hope_score": 9,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
