@@ -3166,5 +3166,23 @@
     "reality_score": 17,
     "hope_score": 15,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "012030_DB/2026-11-13_DB_012030.html",
+    "company": "DB",
+    "ticker": "012030",
+    "score": 60,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/22)",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 8,
+      "opportunity": 14,
+      "threat": 25
+    },
+    "reality_score": 32,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
