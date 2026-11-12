@@ -3328,5 +3328,23 @@
     "reality_score": 45,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "243070_휴온스/2026-11-13_휴온스_243070.html",
+    "company": "휴온스",
+    "ticker": "243070",
+    "score": 38,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 8/18)",
+    "breakdown": {
+      "strength": 1,
+      "weakness": 7,
+      "opportunity": 8,
+      "threat": 22
+    },
+    "reality_score": 19,
+    "hope_score": 17,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
