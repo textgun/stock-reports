@@ -3256,5 +3256,23 @@
     "reality_score": 25,
     "hope_score": 17,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "192080_더블유게임즈/2026-11-13_더블유게임즈_192080.html",
+    "company": "더블유게임즈",
+    "ticker": "192080",
+    "score": 78,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 25,
+      "opportunity": 12,
+      "threat": 17
+    },
+    "reality_score": 49,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
