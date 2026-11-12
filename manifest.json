@@ -2125,24 +2125,6 @@
   },
   {
     "date": "2026-11-12",
-    "filename": "079550_LIG디펜스앤에어로스페이스/2026-11-12_LIG디펜스앤에어로스페이스_079550.html",
-    "company": "LIG디펜스앤에어로스페이스",
-    "ticker": "079550",
-    "score": 58,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 10,
-      "weakness": 20,
-      "opportunity": 14,
-      "threat": 14
-    },
-    "reality_score": 32,
-    "hope_score": 26,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-12",
     "filename": "079940_가비아/2026-11-12_가비아_079940.html",
     "company": "가비아",
     "ticker": "079940",
@@ -2589,6 +2571,24 @@
     },
     "reality_score": 46,
     "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "079550_LIG디펜스앤에어로스페이스/2026-11-12_LIG디펜스앤에어로스페이스_079550.html",
+    "company": "LIG디펜스앤에어로스페이스",
+    "ticker": "079550",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 20,
+      "opportunity": 14,
+      "threat": 12
+    },
+    "reality_score": 32,
+    "hope_score": 24,
     "quadrant": "현실 강함  🟢"
   }
 ]
