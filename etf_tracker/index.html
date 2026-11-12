@@ -146,6 +146,7 @@ table.tbl tbody tr:hover { background:var(--hover-wash); }
 .fintbl th.l, .fintbl td.l { text-align:left; color:var(--ink-2); }
 .fintbl th { color:var(--ink-3); font-weight:500; font-size:11px; }
 .fintbl td.est { color:var(--ink-3); font-style:italic; }
+.fintbl td.prov { text-decoration:underline dotted var(--ink-3); text-underline-offset:3px; }   /* 잠정실적 칸 — 실적 모양 + 출처 툴팁 */
 
 /* 차트 모달 */
 #modal { display:none; position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:50; }
@@ -2006,14 +2007,17 @@ async function fetchFinancials(code){
 }
 function finTableHtml(block){
   if (!block || !block.rows) return '<div class="note">데이터 없음</div>';
-  const cols = block.periods.map((p,i) => p + (block.est[i] ? 'E' : ''));
+  const prov = block.prov || [], provRows = block.prov_rows || [];
+  const cols = block.periods.map((p,i) => p + (prov[i] ? ' 잠정' : block.est[i] ? 'E' : ''));
+  // 잠정 열은 회사가 공시한 칸(prov_rows)만 실적 모양, 같은 열의 나머지는 추정(E) 모양
+  const cls = (row,i) => (prov[i] && provRows.includes(row)) ? 'prov' : (block.est[i] ? 'est' : '');
   let html = '<table class="fintbl"><thead><tr><th class="l">항목</th>' +
     cols.map(c=>'<th>'+esc(c)+'</th>').join('') + '</tr></thead><tbody>';
   FIN_ROWS.forEach(row => {
     const vals = block.rows[row];
     if (!vals) return;
     html += '<tr><td class="l">' + row + ' <span class="mut" style="font-size:10.5px">(' + (FIN_UNIT[row]||'') + ')</span></td>' +
-      vals.map((v,i) => '<td class="' + (block.est[i]?'est':'') + '">' +
+      vals.map((v,i) => '<td class="' + cls(row,i) + '"' + (cls(row,i)==='prov' ? ' title="회사 잠정실적 공시 '+(block.prov_date||'')+'"' : '') + '>' +
         (v==null ? '–' : fmt(v, Number.isInteger(v)?0:2)) + '</td>').join('') + '</tr>';
   });
   return html + '</tbody></table>';
@@ -2032,7 +2036,9 @@ function renderSmFinBody(fin){
         '<span class="chip ' + (FIN_PERIOD==='quarter'?'on':'') + '" data-p="quarter">분기</span>' +
       '</span></div>' +
     '<div class="tblwrap" id="finTblWrap"></div>' +
-    '<p class="note" style="margin:4px 0 0">E = 증권사 컨센서스(예상치) · 출처: Naver 금융</p>';
+    '<p class="note" style="margin:4px 0 0">E = 증권사 컨센서스(예상치)' +
+    ((fin.quarter && (fin.quarter.prov||[]).includes(true)) ? ' · 잠정 = 회사 잠정실적 공시(매출액·영업이익 — 같은 열의 나머지 칸은 E)' : '') +
+    ' · 출처: Naver 금융</p>';
   document.getElementById('finTblWrap').innerHTML = finTableHtml(fin[FIN_PERIOD]);
   document.querySelectorAll('#finChips .chip').forEach(ch => ch.onclick = () => {
     FIN_PERIOD = ch.dataset.p;
