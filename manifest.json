@@ -3040,5 +3040,23 @@
     "reality_score": 28,
     "hope_score": 25,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "035420_NAVER/2026-11-13_NAVER_035420.html",
+    "company": "NAVER",
+    "ticker": "035420",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 14,
+      "opportunity": 15,
+      "threat": 13
+    },
+    "reality_score": 32,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
