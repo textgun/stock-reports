@@ -2233,24 +2233,6 @@
   },
   {
     "date": "2026-11-12",
-    "filename": "214450_파마리서치/2026-11-12_파마리서치_214450.html",
-    "company": "파마리서치",
-    "ticker": "214450",
-    "score": 72,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 17,
-      "opportunity": 14,
-      "threat": 16
-    },
-    "reality_score": 42,
-    "hope_score": 29,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-12",
     "filename": "234340_헥토파이낸셜/2026-11-12_헥토파이낸셜_234340.html",
     "company": "헥토파이낸셜",
     "ticker": "234340",
@@ -2715,6 +2697,24 @@
     },
     "reality_score": 45,
     "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "214450_파마리서치/2026-11-12_파마리서치_214450.html",
+    "company": "파마리서치",
+    "ticker": "214450",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 17,
+      "opportunity": 11,
+      "threat": 16
+    },
+    "reality_score": 42,
+    "hope_score": 26,
     "quadrant": "현실 강함  🟢"
   }
 ]
