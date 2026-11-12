@@ -2035,24 +2035,6 @@
   },
   {
     "date": "2026-11-12",
-    "filename": "041510_에스엠/2026-11-12_에스엠_041510.html",
-    "company": "에스엠",
-    "ticker": "041510",
-    "score": 49,
-    "rating": "WATCH",
-    "rating_label": "관찰",
-    "breakdown": {
-      "strength": 16,
-      "weakness": 16,
-      "opportunity": 7,
-      "threat": 10
-    },
-    "reality_score": 33,
-    "hope_score": 14,
-    "quadrant": "현실 강함 / 기대 약함  🟡"
-  },
-  {
-    "date": "2026-11-12",
     "filename": "047810_한국항공우주/2026-11-12_한국항공우주_047810.html",
     "company": "한국항공우주",
     "ticker": "047810",
@@ -2895,6 +2877,24 @@
     },
     "reality_score": 45,
     "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-12",
+    "filename": "041510_에스엠/2026-11-12_에스엠_041510.html",
+    "company": "에스엠",
+    "ticker": "041510",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 16,
+      "opportunity": 8,
+      "threat": 10
+    },
+    "reality_score": 33,
+    "hope_score": 16,
     "quadrant": "현실 강함  🟢"
   }
 ]
