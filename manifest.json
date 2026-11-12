@@ -3274,5 +3274,23 @@
     "reality_score": 49,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "214150_클래시스/2026-11-13_클래시스_214150.html",
+    "company": "클래시스",
+    "ticker": "214150",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 17,
+      "opportunity": 5,
+      "threat": 17
+    },
+    "reality_score": 40,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
