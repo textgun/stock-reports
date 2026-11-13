@@ -8242,5 +8242,23 @@
     "reality_score": 35,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "035250_강원랜드/2026-11-14_강원랜드_035250.html",
+    "company": "강원랜드",
+    "ticker": "035250",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 28,
+      "opportunity": 6,
+      "threat": 9
+    },
+    "reality_score": 42,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   }
 ]
