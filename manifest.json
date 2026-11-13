@@ -10870,5 +10870,23 @@
     "reality_score": 22,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "131290_티에스이/2026-11-14_티에스이_131290.html",
+    "company": "티에스이",
+    "ticker": "131290",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 9,
+      "threat": 12
+    },
+    "reality_score": 39,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
