@@ -7000,5 +7000,23 @@
     "reality_score": 35,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "009240_한샘/2026-11-14_한샘_009240.html",
+    "company": "한샘",
+    "ticker": "009240",
+    "score": 43,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 19,
+      "opportunity": 10,
+      "threat": 14
+    },
+    "reality_score": 17,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
