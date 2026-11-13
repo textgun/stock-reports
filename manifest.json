@@ -7018,5 +7018,23 @@
     "reality_score": 17,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "009290_광동제약/2026-11-14_광동제약_009290.html",
+    "company": "광동제약",
+    "ticker": "009290",
+    "score": 33,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 8/18)",
+    "breakdown": {
+      "strength": 3,
+      "weakness": 5,
+      "opportunity": 5,
+      "threat": 20
+    },
+    "reality_score": 17,
+    "hope_score": 15,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
