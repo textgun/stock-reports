@@ -3616,5 +3616,23 @@
     "reality_score": 30,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "323410_카카오뱅크/2026-11-13_카카오뱅크_323410.html",
+    "company": "카카오뱅크",
+    "ticker": "323410",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 13,
+      "threat": 9
+    },
+    "reality_score": 40,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
