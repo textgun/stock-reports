@@ -8458,5 +8458,23 @@
     "reality_score": 40,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "038390_레드캡투어/2026-11-14_레드캡투어_038390.html",
+    "company": "레드캡투어",
+    "ticker": "038390",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 19,
+      "opportunity": 7,
+      "threat": 20
+    },
+    "reality_score": 35,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
