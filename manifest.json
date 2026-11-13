@@ -10132,5 +10132,23 @@
     "reality_score": 47,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "093320_케이아이엔엑스/2026-11-14_케이아이엔엑스_093320.html",
+    "company": "케이아이엔엑스",
+    "ticker": "093320",
+    "score": 73,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 15,
+      "opportunity": 18,
+      "threat": 20
+    },
+    "reality_score": 44,
+    "hope_score": 32,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
