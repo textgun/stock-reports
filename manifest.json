@@ -9988,5 +9988,23 @@
     "reality_score": 18,
     "hope_score": 12,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "089600_KT나스미디어/2026-11-14_KT나스미디어_089600.html",
+    "company": "KT나스미디어",
+    "ticker": "089600",
+    "score": 72,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 15,
+      "opportunity": 14,
+      "threat": 22
+    },
+    "reality_score": 37,
+    "hope_score": 34,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
