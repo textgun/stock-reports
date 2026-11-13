@@ -8386,5 +8386,23 @@
     "reality_score": 50,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "036710_심텍홀딩스/2026-11-14_심텍홀딩스_036710.html",
+    "company": "심텍홀딩스",
+    "ticker": "036710",
+    "score": 76,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 25,
+      "opportunity": 17,
+      "threat": 20
+    },
+    "reality_score": 40,
+    "hope_score": 36,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
