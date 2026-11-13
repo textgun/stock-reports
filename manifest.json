@@ -3832,5 +3832,23 @@
     "reality_score": 48,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "018670_SK가스/2026-11-13_SK가스_018670.html",
+    "company": "SK가스",
+    "ticker": "018670",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 15,
+      "opportunity": 11,
+      "threat": 14
+    },
+    "reality_score": 27,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
