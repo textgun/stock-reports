@@ -5902,5 +5902,23 @@
     "reality_score": 23,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "001250_GS글로벌/2026-11-14_GS글로벌_001250.html",
+    "company": "GS글로벌",
+    "ticker": "001250",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 25,
+      "opportunity": 5,
+      "threat": 21
+    },
+    "reality_score": 26,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
