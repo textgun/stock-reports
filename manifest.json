@@ -4480,5 +4480,23 @@
     "reality_score": 32,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "458870_씨어스/2026-11-13_씨어스_458870.html",
+    "company": "씨어스",
+    "ticker": "458870",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 15,
+      "opportunity": 12,
+      "threat": 17
+    },
+    "reality_score": 35,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
