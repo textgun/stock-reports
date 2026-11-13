@@ -7522,5 +7522,23 @@
     "reality_score": 26,
     "hope_score": 29,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "014820_동원시스템즈/2026-11-14_동원시스템즈_014820.html",
+    "company": "동원시스템즈",
+    "ticker": "014820",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 17,
+      "opportunity": 11,
+      "threat": 20
+    },
+    "reality_score": 33,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
