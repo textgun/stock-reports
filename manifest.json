@@ -3940,5 +3940,23 @@
     "reality_score": 15,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "020150_롯데에너지머티리얼즈/2026-11-13_롯데에너지머티리얼즈_020150.html",
+    "company": "롯데에너지머티리얼즈",
+    "ticker": "020150",
+    "score": 24,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 1,
+      "opportunity": 11,
+      "threat": 1
+    },
+    "reality_score": 11,
+    "hope_score": 13,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
