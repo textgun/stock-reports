@@ -7774,5 +7774,23 @@
     "reality_score": 11,
     "hope_score": 16,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "021240_코웨이/2026-11-14_코웨이_021240.html",
+    "company": "코웨이",
+    "ticker": "021240",
+    "score": 76,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 22,
+      "opportunity": 12,
+      "threat": 20
+    },
+    "reality_score": 45,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
