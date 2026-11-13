@@ -4462,5 +4462,23 @@
     "reality_score": 28,
     "hope_score": 26,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "036530_SNT홀딩스/2026-11-13_SNT홀딩스_036530.html",
+    "company": "SNT홀딩스",
+    "ticker": "036530",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 21,
+      "opportunity": 2,
+      "threat": 15
+    },
+    "reality_score": 32,
+    "hope_score": 16,
+    "quadrant": "현실 강함  🟢"
   }
 ]
