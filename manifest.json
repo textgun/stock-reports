@@ -9826,5 +9826,23 @@
     "reality_score": 17,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "086280_현대글로비스/2026-11-14_현대글로비스_086280.html",
+    "company": "현대글로비스",
+    "ticker": "086280",
+    "score": 73,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 25,
+      "opportunity": 8,
+      "threat": 22
+    },
+    "reality_score": 44,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
