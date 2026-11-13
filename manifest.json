@@ -9448,5 +9448,23 @@
     "reality_score": 43,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "069960_현대백화점/2026-11-14_현대백화점_069960.html",
+    "company": "현대백화점",
+    "ticker": "069960",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 17,
+      "opportunity": 6,
+      "threat": 25
+    },
+    "reality_score": 34,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
