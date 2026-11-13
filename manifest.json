@@ -3724,5 +3724,23 @@
     "reality_score": 32,
     "hope_score": 17,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "302440_SK바이오사이언스/2026-11-13_SK바이오사이언스_302440.html",
+    "company": "SK바이오사이언스",
+    "ticker": "302440",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/18)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 7,
+      "opportunity": 21,
+      "threat": 17
+    },
+    "reality_score": 26,
+    "hope_score": 28,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
