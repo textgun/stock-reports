@@ -10384,5 +10384,23 @@
     "reality_score": 30,
     "hope_score": 18,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "101490_에스앤에스텍/2026-11-14_에스앤에스텍_101490.html",
+    "company": "에스앤에스텍",
+    "ticker": "101490",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 17,
+      "opportunity": 5,
+      "threat": 13
+    },
+    "reality_score": 42,
+    "hope_score": 16,
+    "quadrant": "현실 강함  🟢"
   }
 ]
