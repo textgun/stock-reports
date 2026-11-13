@@ -3598,5 +3598,23 @@
     "reality_score": 13,
     "hope_score": 23,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "030200_케이티/2026-11-13_케이티_030200.html",
+    "company": "케이티",
+    "ticker": "030200",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/25)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 14,
+      "opportunity": 10,
+      "threat": 19
+    },
+    "reality_score": 30,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
