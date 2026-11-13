@@ -6208,5 +6208,23 @@
     "reality_score": 32,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "003550_LG/2026-11-14_LG_003550.html",
+    "company": "LG",
+    "ticker": "003550",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 22,
+      "opportunity": 11,
+      "threat": 15
+    },
+    "reality_score": 37,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   }
 ]
