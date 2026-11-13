@@ -6190,5 +6190,23 @@
     "reality_score": 10,
     "hope_score": 46,
     "quadrant": "기대 중심 (현실 약함)  🟠"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "003540_대신증권/2026-11-14_대신증권_003540.html",
+    "company": "대신증권",
+    "ticker": "003540",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 13,
+      "opportunity": 8,
+      "threat": 15
+    },
+    "reality_score": 32,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
