@@ -3454,5 +3454,23 @@
     "reality_score": 26,
     "hope_score": 30,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "074600_원익QnC/2026-11-13_원익QnC_074600.html",
+    "company": "원익QnC",
+    "ticker": "074600",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 21,
+      "opportunity": 9,
+      "threat": 22
+    },
+    "reality_score": 41,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
