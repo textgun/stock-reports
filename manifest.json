@@ -7630,5 +7630,23 @@
     "reality_score": 48,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "016380_KG스틸/2026-11-14_KG스틸_016380.html",
+    "company": "KG스틸",
+    "ticker": "016380",
+    "score": 48,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 13,
+      "opportunity": 13,
+      "threat": 15
+    },
+    "reality_score": 23,
+    "hope_score": 26,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
