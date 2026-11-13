@@ -6892,5 +6892,23 @@
     "reality_score": 49,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "007690_국도화학/2026-11-14_국도화학_007690.html",
+    "company": "국도화학",
+    "ticker": "007690",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 13,
+      "opportunity": 8,
+      "threat": 22
+    },
+    "reality_score": 24,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
