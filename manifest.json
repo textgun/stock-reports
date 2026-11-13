@@ -7162,5 +7162,23 @@
     "reality_score": 45,
     "hope_score": 18,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "010130_고려아연/2026-11-14_고려아연_010130.html",
+    "company": "고려아연",
+    "ticker": "010130",
+    "score": 40,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 12,
+      "opportunity": 5,
+      "threat": 13
+    },
+    "reality_score": 21,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
