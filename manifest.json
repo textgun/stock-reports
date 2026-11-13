@@ -8836,5 +8836,23 @@
     "reality_score": 33,
     "hope_score": 14,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "051900_LG생활건강/2026-11-14_LG생활건강_051900.html",
+    "company": "LG생활건강",
+    "ticker": "051900",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 23,
+      "opportunity": 11,
+      "threat": 12
+    },
+    "reality_score": 35,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
