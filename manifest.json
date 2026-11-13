@@ -6838,5 +6838,23 @@
     "reality_score": 36,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "007070_GS리테일/2026-11-14_GS리테일_007070.html",
+    "company": "GS리테일",
+    "ticker": "007070",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 19,
+      "opportunity": 6,
+      "threat": 19
+    },
+    "reality_score": 28,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
