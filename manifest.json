@@ -5236,5 +5236,23 @@
     "reality_score": 47,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "006650_대한유화/2026-11-13_대한유화_006650.html",
+    "company": "대한유화",
+    "ticker": "006650",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 11,
+      "opportunity": 6,
+      "threat": 25
+    },
+    "reality_score": 24,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
