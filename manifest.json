@@ -8566,5 +8566,23 @@
     "reality_score": 33,
     "hope_score": 18,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "041830_인바디/2026-11-14_인바디_041830.html",
+    "company": "인바디",
+    "ticker": "041830",
+    "score": 76,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 23,
+      "opportunity": 11,
+      "threat": 17
+    },
+    "reality_score": 48,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
