@@ -4084,5 +4084,23 @@
     "reality_score": 35,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "439260_대한조선/2026-11-13_대한조선_439260.html",
+    "company": "대한조선",
+    "ticker": "439260",
+    "score": 54,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 9,
+      "opportunity": 7,
+      "threat": 18
+    },
+    "reality_score": 40,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
