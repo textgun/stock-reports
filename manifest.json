@@ -8098,5 +8098,23 @@
     "reality_score": 28,
     "hope_score": 25,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "033050_제이엠아이/2026-11-14_제이엠아이_033050.html",
+    "company": "제이엠아이",
+    "ticker": "033050",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 21,
+      "opportunity": 3,
+      "threat": 20
+    },
+    "reality_score": 44,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
