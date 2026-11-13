@@ -4066,5 +4066,23 @@
     "reality_score": 24,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "006040_동원산업/2026-11-13_동원산업_006040.html",
+    "company": "동원산업",
+    "ticker": "006040",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 17,
+      "opportunity": 9,
+      "threat": 17
+    },
+    "reality_score": 35,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
