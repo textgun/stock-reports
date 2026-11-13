@@ -8224,5 +8224,23 @@
     "reality_score": 41,
     "hope_score": 39,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "035000_HS애드/2026-11-14_HS애드_035000.html",
+    "company": "HS애드",
+    "ticker": "035000",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 22,
+      "opportunity": 7,
+      "threat": 20
+    },
+    "reality_score": 35,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
