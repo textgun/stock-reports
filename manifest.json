@@ -4426,5 +4426,23 @@
     "reality_score": 33,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "023160_태광/2026-11-13_태광_023160.html",
+    "company": "태광",
+    "ticker": "023160",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 18,
+      "opportunity": 8,
+      "threat": 14
+    },
+    "reality_score": 35,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
