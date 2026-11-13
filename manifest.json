@@ -8548,5 +8548,23 @@
     "reality_score": 35,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "041510_에스엠/2026-11-14_에스엠_041510.html",
+    "company": "에스엠",
+    "ticker": "041510",
+    "score": 52,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 16,
+      "opportunity": 10,
+      "threat": 10
+    },
+    "reality_score": 33,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   }
 ]
