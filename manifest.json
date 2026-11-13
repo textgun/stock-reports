@@ -4912,5 +4912,23 @@
     "reality_score": 34,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "388210_씨엠티엑스/2026-11-13_씨엠티엑스_388210.html",
+    "company": "씨엠티엑스",
+    "ticker": "388210",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 18,
+      "opportunity": 9,
+      "threat": 15
+    },
+    "reality_score": 43,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
