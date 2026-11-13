@@ -5038,5 +5038,23 @@
     "reality_score": 29,
     "hope_score": 26,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "306200_세아제강/2026-11-13_세아제강_306200.html",
+    "company": "세아제강",
+    "ticker": "306200",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 9,
+      "opportunity": 9,
+      "threat": 17
+    },
+    "reality_score": 26,
+    "hope_score": 23,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
