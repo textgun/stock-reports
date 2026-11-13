@@ -8440,5 +8440,23 @@
     "reality_score": 18,
     "hope_score": 12,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "037950_엘컴텍/2026-11-14_엘컴텍_037950.html",
+    "company": "엘컴텍",
+    "ticker": "037950",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 19,
+      "opportunity": 10,
+      "threat": 17
+    },
+    "reality_score": 40,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
