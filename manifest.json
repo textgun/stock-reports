@@ -6316,5 +6316,23 @@
     "reality_score": 16,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "004170_신세계/2026-11-14_신세계_004170.html",
+    "company": "신세계",
+    "ticker": "004170",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 23,
+      "opportunity": 5,
+      "threat": 25
+    },
+    "reality_score": 34,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
