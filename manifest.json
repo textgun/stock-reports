@@ -4192,5 +4192,23 @@
     "reality_score": 16,
     "hope_score": 24,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "120110_코오롱인더/2026-11-13_코오롱인더_120110.html",
+    "company": "코오롱인더",
+    "ticker": "120110",
+    "score": 58,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 14,
+      "opportunity": 13,
+      "threat": 17
+    },
+    "reality_score": 30,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
