@@ -10114,5 +10114,23 @@
     "reality_score": 23,
     "hope_score": 14,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "092730_네오팜/2026-11-14_네오팜_092730.html",
+    "company": "네오팜",
+    "ticker": "092730",
+    "score": 80,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 22,
+      "opportunity": 11,
+      "threat": 22
+    },
+    "reality_score": 47,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
