@@ -4156,5 +4156,23 @@
     "reality_score": 36,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "096530_씨젠/2026-11-13_씨젠_096530.html",
+    "company": "씨젠",
+    "ticker": "096530",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 11,
+      "opportunity": 20,
+      "threat": 20
+    },
+    "reality_score": 40,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
