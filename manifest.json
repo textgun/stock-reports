@@ -9502,5 +9502,23 @@
     "reality_score": 26,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "071970_HD현대마린엔진/2026-11-14_HD현대마린엔진_071970.html",
+    "company": "HD현대마린엔진",
+    "ticker": "071970",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 14,
+      "opportunity": 17,
+      "threat": 18
+    },
+    "reality_score": 46,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
