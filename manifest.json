@@ -7252,5 +7252,23 @@
     "reality_score": 15,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "011200_HMM/2026-11-14_HMM_011200.html",
+    "company": "HMM",
+    "ticker": "011200",
+    "score": 57,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 12,
+      "opportunity": 11,
+      "threat": 17
+    },
+    "reality_score": 31,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
