@@ -10600,5 +10600,23 @@
     "reality_score": 48,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "115180_큐리언트/2026-11-14_큐리언트_115180.html",
+    "company": "큐리언트",
+    "ticker": "115180",
+    "score": 25,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 9/18)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 9,
+      "opportunity": 8,
+      "threat": 8
+    },
+    "reality_score": 13,
+    "hope_score": 12,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
