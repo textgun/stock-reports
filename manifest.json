@@ -5272,5 +5272,23 @@
     "reality_score": 49,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "009180_한솔로지스틱스/2026-11-13_한솔로지스틱스_009180.html",
+    "company": "한솔로지스틱스",
+    "ticker": "009180",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 22,
+      "opportunity": 3,
+      "threat": 17
+    },
+    "reality_score": 35,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
