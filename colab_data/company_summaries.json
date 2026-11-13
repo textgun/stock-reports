@@ -7066,14 +7066,14 @@
   },
   "006400": {
     "company": "삼성SDI",
-    "updated": "2026-11-07",
+    "updated": "2026-11-13",
     "score": 47,
     "sector": "2차전지",
     "breakdown": {
       "strength": 13,
       "weakness": 7,
-      "opportunity": 8,
-      "threat": 19
+      "opportunity": 14,
+      "threat": 13
     },
     "sector_max": {
       "strength": 20,
@@ -7089,13 +7089,13 @@
       "correction_pts": 8
     },
     "trade": {
-      "export_yoy": 17.29,
-      "import_yoy": -48.85,
+      "export_yoy": 82.76,
+      "import_yoy": 99.3,
       "hs_code": "8507",
-      "base_month": "202609",
+      "base_month": "202610",
       "status": null,
-      "trade_score": 6,
-      "correction_pts": 0
+      "trade_score": 10,
+      "correction_pts": 1
     },
     "extra": {
       "employees": null,
@@ -7104,30 +7104,30 @@
       "exec_count": 7
     },
     "valuation": {
-      "per": 1036.03,
+      "per": 1053.49,
       "per_txt": "고평가 주의",
-      "pbr": 1.54,
+      "pbr": 1.56,
       "pbr_txt": "고평가 주의",
-      "psr": 2.68,
+      "psr": 2.73,
       "psr_txt": "적정",
-      "peg": 6.13,
+      "peg": 6.23,
       "peg_txt": "고평가 주의",
       "tgt": 768000.0,
-      "upside": 61.9,
+      "upside": 59.2,
       "consensus_n": 5,
       "roe": 0.19
     },
     "valuation_engine": {
       "fair_value": 6955.0,
       "band_low": 2046.0,
-      "band_high": 589378.0,
+      "band_high": 587529.0,
       "confidence": "LOW",
-      "method_spread": 92.67,
+      "method_spread": 92.986,
       "position_scale": 1.0,
       "buy_signal_allowed": false,
       "sell_signal_allowed": false,
       "confidence_reasons": [
-        "방법 간 편차 92.670배",
+        "방법 간 편차 92.986배",
         "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
       ],
       "zone": "AVOID",
