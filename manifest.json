@@ -9304,5 +9304,23 @@
     "reality_score": 10,
     "hope_score": 7,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "067160_SOOP/2026-11-14_SOOP_067160.html",
+    "company": "SOOP",
+    "ticker": "067160",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 22,
+      "opportunity": 6,
+      "threat": 19
+    },
+    "reality_score": 39,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
