@@ -3760,5 +3760,23 @@
     "reality_score": 42,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "006360_GS건설/2026-11-13_GS건설_006360.html",
+    "company": "GS건설",
+    "ticker": "006360",
+    "score": 40,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/30)",
+    "breakdown": {
+      "strength": 1,
+      "weakness": 14,
+      "opportunity": 12,
+      "threat": 13
+    },
+    "reality_score": 18,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
