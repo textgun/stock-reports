@@ -3976,5 +3976,23 @@
     "reality_score": 25,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "112610_씨에스윈드/2026-11-13_씨에스윈드_112610.html",
+    "company": "씨에스윈드",
+    "ticker": "112610",
+    "score": 36,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 5,
+      "opportunity": 8,
+      "threat": 11
+    },
+    "reality_score": 19,
+    "hope_score": 17,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
