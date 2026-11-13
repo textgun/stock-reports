@@ -4012,5 +4012,23 @@
     "reality_score": 28,
     "hope_score": 22,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "204320_HL만도/2026-11-13_HL만도_204320.html",
+    "company": "HL만도",
+    "ticker": "204320",
+    "score": 40,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/32)",
+    "breakdown": {
+      "strength": 3,
+      "weakness": 19,
+      "opportunity": 8,
+      "threat": 10
+    },
+    "reality_score": 22,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
