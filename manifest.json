@@ -4372,5 +4372,23 @@
     "reality_score": 20,
     "hope_score": 15,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "064960_SNT모티브/2026-11-13_SNT모티브_064960.html",
+    "company": "SNT모티브",
+    "ticker": "064960",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 16,
+      "opportunity": 6,
+      "threat": 15
+    },
+    "reality_score": 32,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
