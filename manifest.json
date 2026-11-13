@@ -3544,5 +3544,23 @@
     "reality_score": 35,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "138040_메리츠금융지주/2026-11-13_메리츠금융지주_138040.html",
+    "company": "메리츠금융지주",
+    "ticker": "138040",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 18,
+      "opportunity": 13,
+      "threat": 12
+    },
+    "reality_score": 43,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
