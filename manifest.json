@@ -4498,5 +4498,23 @@
     "reality_score": 35,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "014620_성광벤드/2026-11-13_성광벤드_014620.html",
+    "company": "성광벤드",
+    "ticker": "014620",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 13,
+      "opportunity": 16,
+      "threat": 15
+    },
+    "reality_score": 26,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
