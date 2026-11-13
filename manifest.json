@@ -4120,5 +4120,23 @@
     "reality_score": 12,
     "hope_score": 30,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "069620_대웅제약/2026-11-13_대웅제약_069620.html",
+    "company": "대웅제약",
+    "ticker": "069620",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 11,
+      "opportunity": 9,
+      "threat": 26
+    },
+    "reality_score": 43,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
