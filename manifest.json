@@ -6712,5 +6712,23 @@
     "reality_score": 32,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "006280_녹십자/2026-11-14_녹십자_006280.html",
+    "company": "녹십자",
+    "ticker": "006280",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 9/18)",
+    "breakdown": {
+      "strength": 7,
+      "weakness": 2,
+      "opportunity": 20,
+      "threat": 26
+    },
+    "reality_score": 17,
+    "hope_score": 32,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
