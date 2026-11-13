@@ -5182,5 +5182,23 @@
     "reality_score": 39,
     "hope_score": 30,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "004710_한솔테크닉스/2026-11-13_한솔테크닉스_004710.html",
+    "company": "한솔테크닉스",
+    "ticker": "004710",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 22,
+      "opportunity": 5,
+      "threat": 19
+    },
+    "reality_score": 28,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
