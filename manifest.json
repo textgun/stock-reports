@@ -4390,5 +4390,23 @@
     "reality_score": 32,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "317450_명인제약/2026-11-13_명인제약_317450.html",
+    "company": "명인제약",
+    "ticker": "317450",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 10,
+      "opportunity": 6,
+      "threat": 26
+    },
+    "reality_score": 47,
+    "hope_score": 18,
+    "quadrant": "현실 강함  🟢"
   }
 ]
