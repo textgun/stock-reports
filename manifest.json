@@ -7954,5 +7954,23 @@
     "reality_score": 45,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "029780_삼성카드/2026-11-14_삼성카드_029780.html",
+    "company": "삼성카드",
+    "ticker": "029780",
+    "score": 56,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 16,
+      "opportunity": 7,
+      "threat": 20
+    },
+    "reality_score": 31,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
