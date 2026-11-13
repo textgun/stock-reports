@@ -4786,5 +4786,23 @@
     "reality_score": 39,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "249420_일동제약/2026-11-13_일동제약_249420.html",
+    "company": "일동제약",
+    "ticker": "249420",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 11,
+      "opportunity": 14,
+      "threat": 18
+    },
+    "reality_score": 37,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
