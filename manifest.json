@@ -3850,5 +3850,23 @@
     "reality_score": 27,
     "hope_score": 22,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "023530_롯데쇼핑/2026-11-13_롯데쇼핑_023530.html",
+    "company": "롯데쇼핑",
+    "ticker": "023530",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 14,
+      "opportunity": 5,
+      "threat": 17
+    },
+    "reality_score": 25,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
