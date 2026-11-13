@@ -4966,5 +4966,23 @@
     "reality_score": 27,
     "hope_score": 16,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "200470_에이팩트/2026-11-13_에이팩트_200470.html",
+    "company": "에이팩트",
+    "ticker": "200470",
+    "score": 44,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 5,
+      "opportunity": 13,
+      "threat": 12
+    },
+    "reality_score": 22,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
