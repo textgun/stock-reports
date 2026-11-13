@@ -7738,5 +7738,23 @@
     "reality_score": 32,
     "hope_score": 17,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "020000_한섬/2026-11-14_한섬_020000.html",
+    "company": "한섬",
+    "ticker": "020000",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 25,
+      "opportunity": 9,
+      "threat": 17
+    },
+    "reality_score": 37,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
