@@ -10564,5 +10564,23 @@
     "reality_score": 19,
     "hope_score": 13,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "114090_GKL/2026-11-14_GKL_114090.html",
+    "company": "GKL",
+    "ticker": "114090",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 28,
+      "opportunity": 4,
+      "threat": 14
+    },
+    "reality_score": 41,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
