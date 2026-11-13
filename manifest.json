@@ -6280,5 +6280,23 @@
     "reality_score": 30,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "004000_롯데정밀화학/2026-11-14_롯데정밀화학_004000.html",
+    "company": "롯데정밀화학",
+    "ticker": "004000",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 19,
+      "opportunity": 6,
+      "threat": 19
+    },
+    "reality_score": 36,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
