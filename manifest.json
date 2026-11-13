@@ -8296,5 +8296,23 @@
     "reality_score": 37,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "035760_CJ ENM/2026-11-14_CJ ENM_035760.html",
+    "company": "CJ ENM",
+    "ticker": "035760",
+    "score": 44,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 14/30)",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 9,
+      "opportunity": 11,
+      "threat": 19
+    },
+    "reality_score": 16,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
