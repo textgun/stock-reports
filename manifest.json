@@ -9070,5 +9070,23 @@
     "reality_score": 39,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "060370_LS마린솔루션/2026-11-14_LS마린솔루션_060370.html",
+    "company": "LS마린솔루션",
+    "ticker": "060370",
+    "score": 42,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 19,
+      "opportunity": 2,
+      "threat": 6
+    },
+    "reality_score": 31,
+    "hope_score": 9,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
