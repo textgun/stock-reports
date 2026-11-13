@@ -5128,5 +5128,23 @@
     "reality_score": 31,
     "hope_score": 12,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "002320_한진/2026-11-13_한진_002320.html",
+    "company": "한진",
+    "ticker": "002320",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 25,
+      "opportunity": 11,
+      "threat": 19
+    },
+    "reality_score": 32,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
