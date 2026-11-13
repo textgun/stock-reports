@@ -6462,14 +6462,14 @@
   },
   "064290": {
     "company": "인텍플러스",
-    "updated": "2026-11-07",
-    "score": 58,
+    "updated": "2026-11-13",
+    "score": 56,
     "sector": "반도체",
     "breakdown": {
       "strength": 0,
       "weakness": 25,
-      "opportunity": 20,
-      "threat": 13
+      "opportunity": 13,
+      "threat": 18
     },
     "sector_max": {
       "strength": 25,
@@ -6496,21 +6496,21 @@
     "valuation": {
       "per": null,
       "per_txt": "",
-      "pbr": 11.3,
+      "pbr": 16.01,
       "pbr_txt": "",
-      "psr": 6.97,
+      "psr": 9.87,
       "psr_txt": "고평가 주의",
       "peg": null,
       "peg_txt": "",
       "tgt": 84000.0,
-      "upside": 117.9,
+      "upside": 53.8,
       "consensus_n": 1,
       "roe": -16.19
     },
     "valuation_engine": {
-      "fair_value": 18884.0,
+      "fair_value": 18911.0,
       "band_low": 12528.0,
-      "band_high": 33162.0,
+      "band_high": 33321.0,
       "confidence": "LOW",
       "method_spread": null,
       "position_scale": 1.0,
