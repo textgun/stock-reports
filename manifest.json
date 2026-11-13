@@ -8584,5 +8584,23 @@
     "reality_score": 48,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "042000_카페24/2026-11-14_카페24_042000.html",
+    "company": "카페24",
+    "ticker": "042000",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 13,
+      "opportunity": 8,
+      "threat": 25
+    },
+    "reality_score": 34,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
