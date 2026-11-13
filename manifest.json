@@ -5776,5 +5776,23 @@
     "reality_score": 31,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "252990_샘씨엔에스/2026-11-13_샘씨엔에스_252990.html",
+    "company": "샘씨엔에스",
+    "ticker": "252990",
+    "score": 80,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 18,
+      "opportunity": 14,
+      "threat": 23
+    },
+    "reality_score": 42,
+    "hope_score": 38,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
