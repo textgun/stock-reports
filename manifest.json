@@ -8818,5 +8818,23 @@
     "reality_score": 39,
     "hope_score": 39,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "051600_한전KPS/2026-11-14_한전KPS_051600.html",
+    "company": "한전KPS",
+    "ticker": "051600",
+    "score": 48,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 24,
+      "opportunity": 7,
+      "threat": 9
+    },
+    "reality_score": 33,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
