@@ -10456,5 +10456,23 @@
     "reality_score": 46,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "104830_원익머트리얼즈/2026-11-14_원익머트리얼즈_104830.html",
+    "company": "원익머트리얼즈",
+    "ticker": "104830",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 17,
+      "opportunity": 6,
+      "threat": 22
+    },
+    "reality_score": 42,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   }
 ]
