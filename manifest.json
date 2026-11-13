@@ -5074,5 +5074,23 @@
     "reality_score": 26,
     "hope_score": 24,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "272290_이녹스첨단소재/2026-11-13_이녹스첨단소재_272290.html",
+    "company": "이녹스첨단소재",
+    "ticker": "272290",
+    "score": 48,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 25,
+      "opportunity": 5,
+      "threat": 13
+    },
+    "reality_score": 32,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
