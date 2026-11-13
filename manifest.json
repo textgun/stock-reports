@@ -8008,5 +8008,23 @@
     "reality_score": 30,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "031310_아이즈비전/2026-11-14_아이즈비전_031310.html",
+    "company": "아이즈비전",
+    "ticker": "031310",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 8,
+      "opportunity": 2,
+      "threat": 20
+    },
+    "reality_score": 23,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
