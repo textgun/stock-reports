@@ -9646,5 +9646,23 @@
     "reality_score": 50,
     "hope_score": 32,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "079160_CJ CGV/2026-11-14_CJ CGV_079160.html",
+    "company": "CJ CGV",
+    "ticker": "079160",
+    "score": 48,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 12,
+      "opportunity": 13,
+      "threat": 15
+    },
+    "reality_score": 18,
+    "hope_score": 31,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
