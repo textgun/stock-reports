@@ -6298,5 +6298,23 @@
     "reality_score": 36,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "004020_현대제철/2026-11-14_현대제철_004020.html",
+    "company": "현대제철",
+    "ticker": "004020",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 14/30)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 8,
+      "opportunity": 7,
+      "threat": 21
+    },
+    "reality_score": 16,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
