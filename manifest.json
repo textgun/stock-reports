@@ -5866,5 +5866,23 @@
     "reality_score": 32,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "377300_카카오페이/2026-11-13_카카오페이_377300.html",
+    "company": "카카오페이",
+    "ticker": "377300",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 15,
+      "opportunity": 11,
+      "threat": 13
+    },
+    "reality_score": 38,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
