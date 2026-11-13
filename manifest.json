@@ -5668,5 +5668,23 @@
     "reality_score": 24,
     "hope_score": 22,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "000150_두산/2026-11-14_두산_000150.html",
+    "company": "두산",
+    "ticker": "000150",
+    "score": 41,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/26)",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 6,
+      "opportunity": 9,
+      "threat": 13
+    },
+    "reality_score": 21,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
