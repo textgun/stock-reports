@@ -9934,5 +9934,23 @@
     "reality_score": 34,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "088350_한화생명/2026-11-14_한화생명_088350.html",
+    "company": "한화생명",
+    "ticker": "088350",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 20,
+      "opportunity": 7,
+      "threat": 15
+    },
+    "reality_score": 35,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
