@@ -6028,5 +6028,23 @@
     "reality_score": 28,
     "hope_score": 24,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "002780_진흥기업/2026-11-14_진흥기업_002780.html",
+    "company": "진흥기업",
+    "ticker": "002780",
+    "score": 41,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 13,
+      "opportunity": 5,
+      "threat": 14
+    },
+    "reality_score": 25,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
