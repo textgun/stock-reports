@@ -6532,5 +6532,23 @@
     "reality_score": 33,
     "hope_score": 8,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "005430_한국공항/2026-11-14_한국공항_005430.html",
+    "company": "한국공항",
+    "ticker": "005430",
+    "score": 74,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 22,
+      "opportunity": 13,
+      "threat": 20
+    },
+    "reality_score": 42,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
