@@ -7540,5 +7540,23 @@
     "reality_score": 33,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "014830_유니드/2026-11-14_유니드_014830.html",
+    "company": "유니드",
+    "ticker": "014830",
+    "score": 53,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 17,
+      "opportunity": 5,
+      "threat": 21
+    },
+    "reality_score": 29,
+    "hope_score": 23,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
