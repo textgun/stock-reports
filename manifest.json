@@ -5686,5 +5686,23 @@
     "reality_score": 21,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "000210_DL/2026-11-14_DL_000210.html",
+    "company": "DL",
+    "ticker": "000210",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 11,
+      "opportunity": 4,
+      "threat": 22
+    },
+    "reality_score": 28,
+    "hope_score": 23,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
