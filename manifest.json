@@ -8656,5 +8656,23 @@
     "reality_score": 39,
     "hope_score": 11,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "046890_서울반도체/2026-11-14_서울반도체_046890.html",
+    "company": "서울반도체",
+    "ticker": "046890",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 12,
+      "opportunity": 1,
+      "threat": 9
+    },
+    "reality_score": 22,
+    "hope_score": 11,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
