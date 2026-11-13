@@ -6586,5 +6586,23 @@
     "reality_score": 23,
     "hope_score": 23,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "005690_파미셀/2026-11-14_파미셀_005690.html",
+    "company": "파미셀",
+    "ticker": "005690",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 14,
+      "opportunity": 8,
+      "threat": 12
+    },
+    "reality_score": 41,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
