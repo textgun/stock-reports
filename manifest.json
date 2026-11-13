@@ -3922,5 +3922,23 @@
     "reality_score": 32,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "011170_롯데케미칼/2026-11-13_롯데케미칼_011170.html",
+    "company": "롯데케미칼",
+    "ticker": "011170",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 10,
+      "opportunity": 4,
+      "threat": 19
+    },
+    "reality_score": 15,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
