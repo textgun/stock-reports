@@ -4804,5 +4804,23 @@
     "reality_score": 37,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "108320_LX세미콘/2026-11-13_LX세미콘_108320.html",
+    "company": "LX세미콘",
+    "ticker": "108320",
+    "score": 49,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 14,
+      "opportunity": 5,
+      "threat": 20
+    },
+    "reality_score": 26,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
