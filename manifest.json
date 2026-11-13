@@ -10960,5 +10960,23 @@
     "reality_score": 43,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "138930_BNK금융지주/2026-11-14_BNK금융지주_138930.html",
+    "company": "BNK금융지주",
+    "ticker": "138930",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 15,
+      "opportunity": 8,
+      "threat": 19
+    },
+    "reality_score": 31,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
