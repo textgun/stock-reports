@@ -9268,5 +9268,23 @@
     "reality_score": 27,
     "hope_score": 22,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-14",
+    "filename": "066570_LG전자/2026-11-14_LG전자_066570.html",
+    "company": "LG전자",
+    "ticker": "066570",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 17,
+      "opportunity": 7,
+      "threat": 14
+    },
+    "reality_score": 25,
+    "hope_score": 18,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
