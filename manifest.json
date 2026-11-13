@@ -5308,5 +5308,23 @@
     "reality_score": 38,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "010060_OCI홀딩스/2026-11-13_OCI홀딩스_010060.html",
+    "company": "OCI홀딩스",
+    "ticker": "010060",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 10,
+      "opportunity": 5,
+      "threat": 17
+    },
+    "reality_score": 29,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
