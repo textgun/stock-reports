@@ -4588,5 +4588,23 @@
     "reality_score": 33,
     "hope_score": 13,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-13",
+    "filename": "122640_예스티/2026-11-13_예스티_122640.html",
+    "company": "예스티",
+    "ticker": "122640",
+    "score": 56,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 7,
+      "opportunity": 14,
+      "threat": 14
+    },
+    "reality_score": 29,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
