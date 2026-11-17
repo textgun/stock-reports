@@ -13534,5 +13534,23 @@
     "reality_score": 33,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-17",
+    "filename": "011780_금호석유화학/2026-11-17_금호석유화학_011780.html",
+    "company": "금호석유화학",
+    "ticker": "011780",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 15/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 7,
+      "opportunity": 8,
+      "threat": 19
+    },
+    "reality_score": 18,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
