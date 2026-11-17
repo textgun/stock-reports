@@ -567,9 +567,9 @@
     "company": "한국금융지주",
     "sector": "금융",
     "updated": "2026-11-17",
-    "score": 67,
+    "score": 63,
     "breakdown": {
-      "strength": 28,
+      "strength": 24,
       "weakness": 18,
       "opportunity": 6,
       "threat": 15
@@ -583,9 +583,9 @@
     "earnings": {
       "qoq_trend": "flat",
       "yoy_pct": -64.6,
-      "rev_yoy_pct": 86.7,
+      "rev_yoy_pct": null,
       "momentum_score": 4.5,
-      "correction_pts": 0
+      "correction_pts": -3
     },
     "trade": {
       "export_yoy": null,
@@ -597,7 +597,7 @@
       "correction_pts": 0
     },
     "reality_hope": {
-      "reality_score": 46,
+      "reality_score": 43,
       "hope_score": 19,
       "quadrant": "현실 강함  🟢"
     },
@@ -971,11 +971,11 @@
     "company": "하나금융지주",
     "sector": "금융",
     "updated": "2026-11-17",
-    "score": 71,
+    "score": 69,
     "breakdown": {
       "strength": 23,
       "weakness": 18,
-      "opportunity": 12,
+      "opportunity": 10,
       "threat": 18
     },
     "sector_max": {
@@ -1002,7 +1002,7 @@
     },
     "reality_hope": {
       "reality_score": 42,
-      "hope_score": 28,
+      "hope_score": 26,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
