@@ -13516,5 +13516,23 @@
     "reality_score": 45,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-17",
+    "filename": "011760_현대코퍼레이션/2026-11-17_현대코퍼레이션_011760.html",
+    "company": "현대코퍼레이션",
+    "ticker": "011760",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 16,
+      "opportunity": 7,
+      "threat": 20
+    },
+    "reality_score": 33,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
