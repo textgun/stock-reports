@@ -15010,5 +15010,23 @@
     "reality_score": 25,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-17",
+    "filename": "008770_호텔신라/2026-11-17_호텔신라_008770.html",
+    "company": "호텔신라",
+    "ticker": "008770",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 15,
+      "opportunity": 9,
+      "threat": 11
+    },
+    "reality_score": 26,
+    "hope_score": 18,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
