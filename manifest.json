@@ -15244,5 +15244,23 @@
     "reality_score": 30,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-17",
+    "filename": "298050_HS효성첨단소재/2026-11-17_HS효성첨단소재_298050.html",
+    "company": "HS효성첨단소재",
+    "ticker": "298050",
+    "score": 49,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 13,
+      "opportunity": 6,
+      "threat": 16
+    },
+    "reality_score": 29,
+    "hope_score": 18,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
