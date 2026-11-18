@@ -12868,5 +12868,23 @@
     "reality_score": 12,
     "hope_score": 18,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-18",
+    "filename": "023160_태광/2026-11-18_태광_023160.html",
+    "company": "태광",
+    "ticker": "023160",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 18,
+      "opportunity": 9,
+      "threat": 14
+    },
+    "reality_score": 31,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
