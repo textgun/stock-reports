@@ -13336,5 +13336,23 @@
     "reality_score": 32,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-18",
+    "filename": "042000_카페24/2026-11-18_카페24_042000.html",
+    "company": "카페24",
+    "ticker": "042000",
+    "score": 56,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/22)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 11,
+      "opportunity": 11,
+      "threat": 25
+    },
+    "reality_score": 31,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
