@@ -12922,5 +12922,23 @@
     "reality_score": 34,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-18",
+    "filename": "029460_케이씨/2026-11-18_케이씨_029460.html",
+    "company": "케이씨",
+    "ticker": "029460",
+    "score": 83,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 25,
+      "opportunity": 12,
+      "threat": 22
+    },
+    "reality_score": 49,
+    "hope_score": 32,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
