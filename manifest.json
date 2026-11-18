@@ -13498,5 +13498,23 @@
     "reality_score": 43,
     "hope_score": 36,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-18",
+    "filename": "279570_케이뱅크/2026-11-18_케이뱅크_279570.html",
+    "company": "케이뱅크",
+    "ticker": "279570",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 15,
+      "opportunity": 15,
+      "threat": 17
+    },
+    "reality_score": 34,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
