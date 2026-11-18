@@ -13282,5 +13282,23 @@
     "reality_score": 37,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-18",
+    "filename": "041510_에스엠/2026-11-18_에스엠_041510.html",
+    "company": "에스엠",
+    "ticker": "041510",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 10,
+      "opportunity": 12,
+      "threat": 15
+    },
+    "reality_score": 25,
+    "hope_score": 26,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
