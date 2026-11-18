@@ -13444,5 +13444,23 @@
     "reality_score": 33,
     "hope_score": 30,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-18",
+    "filename": "103140_풍산/2026-11-18_풍산_103140.html",
+    "company": "풍산",
+    "ticker": "103140",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 18,
+      "opportunity": 10,
+      "threat": 17
+    },
+    "reality_score": 35,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
