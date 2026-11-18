@@ -12832,5 +12832,23 @@
     "reality_score": 32,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-18",
+    "filename": "018670_SK가스/2026-11-18_SK가스_018670.html",
+    "company": "SK가스",
+    "ticker": "018670",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 16,
+      "opportunity": 11,
+      "threat": 14
+    },
+    "reality_score": 32,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
