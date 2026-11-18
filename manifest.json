@@ -13516,5 +13516,23 @@
     "reality_score": 34,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-18",
+    "filename": "294870_IPARK현대산업개발/2026-11-18_IPARK현대산업개발_294870.html",
+    "company": "IPARK현대산업개발",
+    "ticker": "294870",
+    "score": 76,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 21,
+      "opportunity": 13,
+      "threat": 25
+    },
+    "reality_score": 39,
+    "hope_score": 37,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
