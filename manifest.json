@@ -13174,5 +13174,23 @@
     "reality_score": 42,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-18",
+    "filename": "035420_NAVER/2026-11-18_NAVER_035420.html",
+    "company": "NAVER",
+    "ticker": "035420",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/25)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 12,
+      "opportunity": 18,
+      "threat": 10
+    },
+    "reality_score": 30,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
