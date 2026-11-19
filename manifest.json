@@ -12598,5 +12598,23 @@
     "reality_score": 29,
     "hope_score": 23,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-19",
+    "filename": "263750_펄어비스/2026-11-19_펄어비스_263750.html",
+    "company": "펄어비스",
+    "ticker": "263750",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 11,
+      "threat": 13
+    },
+    "reality_score": 40,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
