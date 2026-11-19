@@ -2456,12 +2456,12 @@
     "company": "피에스케이",
     "sector": "반도체",
     "updated": "2026-11-19",
-    "score": 72,
+    "score": 74,
     "breakdown": {
       "strength": 25,
       "weakness": 21,
       "opportunity": 18,
-      "threat": 8
+      "threat": 10
     },
     "sector_max": {
       "strength": 25,
@@ -2487,7 +2487,7 @@
     },
     "reality_hope": {
       "reality_score": 45,
-      "hope_score": 24,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -11662,11 +11662,11 @@
     "company": "SK텔레콤",
     "sector": "플랫폼",
     "updated": "2026-11-19",
-    "score": 64,
+    "score": 63,
     "breakdown": {
       "strength": 15,
       "weakness": 14,
-      "opportunity": 14,
+      "opportunity": 13,
       "threat": 21
     },
     "sector_max": {
@@ -11693,7 +11693,7 @@
     },
     "reality_hope": {
       "reality_score": 37,
-      "hope_score": 28,
+      "hope_score": 27,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
