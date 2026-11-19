@@ -12454,5 +12454,23 @@
     "reality_score": 37,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-19",
+    "filename": "050110_캠시스/2026-11-19_캠시스_050110.html",
+    "company": "캠시스",
+    "ticker": "050110",
+    "score": 43,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 9,
+      "opportunity": 5,
+      "threat": 14
+    },
+    "reality_score": 26,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
