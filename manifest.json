@@ -12778,5 +12778,23 @@
     "reality_score": 37,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-19",
+    "filename": "267260_HD현대일렉트릭/2026-11-19_HD현대일렉트릭_267260.html",
+    "company": "HD현대일렉트릭",
+    "ticker": "267260",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 14,
+      "opportunity": 11,
+      "threat": 11
+    },
+    "reality_score": 40,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
