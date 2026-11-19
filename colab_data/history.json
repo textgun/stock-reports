@@ -15314,13 +15314,13 @@
       },
       {
         "date": "2026-11-19",
-        "total_score": 72,
+        "total_score": 74,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 25,
           "weakness": 21,
           "opportunity": 18,
-          "threat": 8
+          "threat": 10
         }
       }
     ]
@@ -68221,12 +68221,12 @@
       },
       {
         "date": "2026-11-19",
-        "total_score": 64,
+        "total_score": 63,
         "rating_code": "HOLD",
         "breakdown": {
           "strength": 15,
           "weakness": 14,
-          "opportunity": 14,
+          "opportunity": 13,
           "threat": 21
         }
       }
