@@ -12958,5 +12958,23 @@
     "reality_score": 26,
     "hope_score": 14,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-19",
+    "filename": "096770_SK이노베이션/2026-11-19_SK이노베이션_096770.html",
+    "company": "SK이노베이션",
+    "ticker": "096770",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 14,
+      "opportunity": 13,
+      "threat": 17
+    },
+    "reality_score": 33,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
