@@ -12418,5 +12418,23 @@
     "reality_score": 22,
     "hope_score": 8,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-19",
+    "filename": "046970_우리로/2026-11-19_우리로_046970.html",
+    "company": "우리로",
+    "ticker": "046970",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 21,
+      "opportunity": 5,
+      "threat": 6
+    },
+    "reality_score": 35,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
