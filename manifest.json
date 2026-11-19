@@ -12544,5 +12544,23 @@
     "reality_score": 32,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-19",
+    "filename": "053160_프리엠스/2026-11-19_프리엠스_053160.html",
+    "company": "프리엠스",
+    "ticker": "053160",
+    "score": 40,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 14/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 14,
+      "opportunity": 10,
+      "threat": 16
+    },
+    "reality_score": 15,
+    "hope_score": 26,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
