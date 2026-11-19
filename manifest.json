@@ -12652,5 +12652,23 @@
     "reality_score": 13,
     "hope_score": 14,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-19",
+    "filename": "063160_종근당바이오/2026-11-19_종근당바이오_063160.html",
+    "company": "종근당바이오",
+    "ticker": "063160",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 3/18)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 3,
+      "opportunity": 9,
+      "threat": 22
+    },
+    "reality_score": 11,
+    "hope_score": 18,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
