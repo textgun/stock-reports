@@ -12076,5 +12076,23 @@
     "reality_score": 28,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-20",
+    "filename": "060250_NHN KCP/2026-11-20_NHN KCP_060250.html",
+    "company": "NHN KCP",
+    "ticker": "060250",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 15,
+      "opportunity": 10,
+      "threat": 22
+    },
+    "reality_score": 39,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
