@@ -12418,5 +12418,23 @@
     "reality_score": 28,
     "hope_score": 16,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "004800_효성/2026-11-21_효성_004800.html",
+    "company": "효성",
+    "ticker": "004800",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 28,
+      "weakness": 7,
+      "opportunity": 5,
+      "threat": 19
+    },
+    "reality_score": 36,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
