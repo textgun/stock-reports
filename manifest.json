@@ -12040,5 +12040,23 @@
     "reality_score": 33,
     "hope_score": 15,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-20",
+    "filename": "012630_HDC/2026-11-20_HDC_012630.html",
+    "company": "HDC",
+    "ticker": "012630",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 18,
+      "opportunity": 11,
+      "threat": 17
+    },
+    "reality_score": 39,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
