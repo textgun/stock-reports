@@ -14740,5 +14740,23 @@
     "reality_score": 29,
     "hope_score": 23,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "047560_이스트소프트/2026-11-21_이스트소프트_047560.html",
+    "company": "이스트소프트",
+    "ticker": "047560",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/22)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 9,
+      "opportunity": 2,
+      "threat": 22
+    },
+    "reality_score": 20,
+    "hope_score": 16,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
