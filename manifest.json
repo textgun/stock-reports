@@ -12112,5 +12112,23 @@
     "reality_score": 35,
     "hope_score": 18,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-20",
+    "filename": "078340_컴투스/2026-11-20_컴투스_078340.html",
+    "company": "컴투스",
+    "ticker": "078340",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 16,
+      "opportunity": 11,
+      "threat": 17
+    },
+    "reality_score": 34,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
