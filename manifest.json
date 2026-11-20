@@ -16090,5 +16090,23 @@
     "reality_score": 39,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "090460_비에이치/2026-11-21_비에이치_090460.html",
+    "company": "비에이치",
+    "ticker": "090460",
+    "score": 46,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 21,
+      "opportunity": 7,
+      "threat": 8
+    },
+    "reality_score": 33,
+    "hope_score": 11,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
