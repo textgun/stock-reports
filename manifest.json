@@ -14632,5 +14632,23 @@
     "reality_score": 35,
     "hope_score": 13,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "042700_한미반도체/2026-11-21_한미반도체_042700.html",
+    "company": "한미반도체",
+    "ticker": "042700",
+    "score": 46,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 4,
+      "threat": 2
+    },
+    "reality_score": 36,
+    "hope_score": 7,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
