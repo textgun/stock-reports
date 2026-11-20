@@ -12292,5 +12292,23 @@
     "reality_score": 24,
     "hope_score": 29,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "004000_롯데정밀화학/2026-11-21_롯데정밀화학_004000.html",
+    "company": "롯데정밀화학",
+    "ticker": "004000",
+    "score": 53,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 19,
+      "opportunity": 6,
+      "threat": 19
+    },
+    "reality_score": 30,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
