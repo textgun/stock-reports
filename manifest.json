@@ -11716,5 +11716,23 @@
     "reality_score": 35,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "000240_한국앤컴퍼니/2026-11-21_한국앤컴퍼니_000240.html",
+    "company": "한국앤컴퍼니",
+    "ticker": "000240",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 18,
+      "opportunity": 6,
+      "threat": 12
+    },
+    "reality_score": 33,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
