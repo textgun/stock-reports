@@ -1296,11 +1296,11 @@
     "company": "셀트리온",
     "sector": "바이오",
     "updated": "2026-11-20",
-    "score": 69,
+    "score": 68,
     "breakdown": {
       "strength": 18,
       "weakness": 4,
-      "opportunity": 21,
+      "opportunity": 20,
       "threat": 26
     },
     "sector_max": {
@@ -1327,7 +1327,7 @@
     },
     "reality_hope": {
       "reality_score": 37,
-      "hope_score": 35,
+      "hope_score": 34,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": {
@@ -1688,11 +1688,11 @@
     "company": "HD현대",
     "sector": "조선",
     "updated": "2026-11-20",
-    "score": 67,
+    "score": 64,
     "breakdown": {
       "strength": 19,
       "weakness": 17,
-      "opportunity": 13,
+      "opportunity": 10,
       "threat": 18
     },
     "sector_max": {
@@ -1719,7 +1719,7 @@
     },
     "reality_hope": {
       "reality_score": 49,
-      "hope_score": 22,
+      "hope_score": 20,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
