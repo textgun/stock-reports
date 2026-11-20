@@ -12454,5 +12454,23 @@
     "reality_score": 18,
     "hope_score": 10,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "005090_SGC에너지/2026-11-21_SGC에너지_005090.html",
+    "company": "SGC에너지",
+    "ticker": "005090",
+    "score": 41,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 18/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 10,
+      "opportunity": 5,
+      "threat": 18
+    },
+    "reality_score": 20,
+    "hope_score": 20,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
