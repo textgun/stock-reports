@@ -13804,5 +13804,23 @@
     "reality_score": 47,
     "hope_score": 30,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "022100_포스코DX/2026-11-21_포스코DX_022100.html",
+    "company": "포스코DX",
+    "ticker": "022100",
+    "score": 47,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 11,
+      "opportunity": 16,
+      "threat": 9
+    },
+    "reality_score": 28,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
