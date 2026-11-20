@@ -13588,5 +13588,23 @@
     "reality_score": 17,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "015760_한국전력공사/2026-11-21_한국전력공사_015760.html",
+    "company": "한국전력공사",
+    "ticker": "015760",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 14,
+      "opportunity": 7,
+      "threat": 19
+    },
+    "reality_score": 23,
+    "hope_score": 25,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
