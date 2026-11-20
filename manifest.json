@@ -11986,5 +11986,23 @@
     "reality_score": 35,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "001740_SK네트웍스/2026-11-21_SK네트웍스_001740.html",
+    "company": "SK네트웍스",
+    "ticker": "001740",
+    "score": 28,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 8/26)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 6,
+      "opportunity": 9,
+      "threat": 11
+    },
+    "reality_score": 11,
+    "hope_score": 17,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
