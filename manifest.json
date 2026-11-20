@@ -15928,5 +15928,23 @@
     "reality_score": 42,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "086900_메디톡스/2026-11-21_메디톡스_086900.html",
+    "company": "메디톡스",
+    "ticker": "086900",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 12,
+      "opportunity": 18,
+      "threat": 17
+    },
+    "reality_score": 47,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
