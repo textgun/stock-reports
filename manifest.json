@@ -12094,5 +12094,23 @@
     "reality_score": 45,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "003000_부광약품/2026-11-21_부광약품_003000.html",
+    "company": "부광약품",
+    "ticker": "003000",
+    "score": 45,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 6,
+      "opportunity": 12,
+      "threat": 15
+    },
+    "reality_score": 26,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
