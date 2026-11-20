@@ -15406,5 +15406,23 @@
     "reality_score": 37,
     "hope_score": 34,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "068760_셀트리온제약/2026-11-21_셀트리온제약_068760.html",
+    "company": "셀트리온제약",
+    "ticker": "068760",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 11,
+      "opportunity": 12,
+      "threat": 22
+    },
+    "reality_score": 40,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   }
 ]
