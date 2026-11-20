@@ -16342,5 +16342,23 @@
     "reality_score": 29,
     "hope_score": 22,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "100090_SK오션플랜트/2026-11-21_SK오션플랜트_100090.html",
+    "company": "SK오션플랜트",
+    "ticker": "100090",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 14,
+      "opportunity": 4,
+      "threat": 13
+    },
+    "reality_score": 30,
+    "hope_score": 14,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
