@@ -12238,5 +12238,23 @@
     "reality_score": 34,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "003570_SNT다이내믹스/2026-11-21_SNT다이내믹스_003570.html",
+    "company": "SNT다이내믹스",
+    "ticker": "003570",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/32)",
+    "breakdown": {
+      "strength": 3,
+      "weakness": 9,
+      "opportunity": 6,
+      "threat": 16
+    },
+    "reality_score": 13,
+    "hope_score": 23,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
