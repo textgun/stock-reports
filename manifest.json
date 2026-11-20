@@ -15100,5 +15100,23 @@
     "reality_score": 26,
     "hope_score": 16,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "061090_세나테크놀로지/2026-11-21_세나테크놀로지_061090.html",
+    "company": "세나테크놀로지",
+    "ticker": "061090",
+    "score": 49,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 11,
+      "opportunity": 6,
+      "threat": 16
+    },
+    "reality_score": 29,
+    "hope_score": 19,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
