@@ -12364,5 +12364,23 @@
     "reality_score": 39,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-20",
+    "filename": "092190_서울바이오시스/2026-11-20_서울바이오시스_092190.html",
+    "company": "서울바이오시스",
+    "ticker": "092190",
+    "score": 44,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/30)",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 5,
+      "opportunity": 1,
+      "threat": 17
+    },
+    "reality_score": 28,
+    "hope_score": 14,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
