@@ -16072,5 +16072,23 @@
     "reality_score": 34,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "090430_아모레퍼시픽/2026-11-21_아모레퍼시픽_090430.html",
+    "company": "아모레퍼시픽",
+    "ticker": "090430",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 24,
+      "opportunity": 14,
+      "threat": 13
+    },
+    "reality_score": 39,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
