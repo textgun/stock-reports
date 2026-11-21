@@ -17548,5 +17548,23 @@
     "reality_score": 36,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "214320_이노션/2026-11-21_이노션_214320.html",
+    "company": "이노션",
+    "ticker": "214320",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 22,
+      "opportunity": 9,
+      "threat": 17
+    },
+    "reality_score": 37,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
