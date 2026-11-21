@@ -18214,5 +18214,23 @@
     "reality_score": 20,
     "hope_score": 39,
     "quadrant": "기대 중심 (현실 약함)  🟠"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "274090_켄코아에어로스페이스/2026-11-21_켄코아에어로스페이스_274090.html",
+    "company": "켄코아에어로스페이스",
+    "ticker": "274090",
+    "score": 49,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 25,
+      "opportunity": 8,
+      "threat": 6
+    },
+    "reality_score": 35,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
