@@ -18322,5 +18322,23 @@
     "reality_score": 41,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "282330_BGF리테일/2026-11-21_BGF리테일_282330.html",
+    "company": "BGF리테일",
+    "ticker": "282330",
+    "score": 73,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 25,
+      "opportunity": 11,
+      "threat": 22
+    },
+    "reality_score": 41,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
