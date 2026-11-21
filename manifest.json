@@ -18772,5 +18772,23 @@
     "reality_score": 40,
     "hope_score": 25,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "327260_RF머트리얼즈/2026-11-21_RF머트리얼즈_327260.html",
+    "company": "RF머트리얼즈",
+    "ticker": "327260",
+    "score": 46,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 5,
+      "opportunity": 9,
+      "threat": 7
+    },
+    "reality_score": 28,
+    "hope_score": 17,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
