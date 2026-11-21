@@ -18880,5 +18880,23 @@
     "reality_score": 10,
     "hope_score": 11,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "344820_케이씨씨글라스/2026-11-21_케이씨씨글라스_344820.html",
+    "company": "케이씨씨글라스",
+    "ticker": "344820",
+    "score": 58,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 18,
+      "opportunity": 11,
+      "threat": 20
+    },
+    "reality_score": 29,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
