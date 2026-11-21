@@ -17368,5 +17368,23 @@
     "reality_score": 24,
     "hope_score": 28,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "196170_알테오젠/2026-11-21_알테오젠_196170.html",
+    "company": "알테오젠",
+    "ticker": "196170",
+    "score": 53,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 7,
+      "opportunity": 20,
+      "threat": 8
+    },
+    "reality_score": 42,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
