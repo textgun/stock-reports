@@ -16738,5 +16738,23 @@
     "reality_score": 27,
     "hope_score": 26,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "122640_예스티/2026-11-21_예스티_122640.html",
+    "company": "예스티",
+    "ticker": "122640",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 16,
+      "opportunity": 9,
+      "threat": 15
+    },
+    "reality_score": 42,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
