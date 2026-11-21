@@ -17314,5 +17314,23 @@
     "reality_score": 36,
     "hope_score": 32,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "194370_제이에스코퍼레이션/2026-11-21_제이에스코퍼레이션_194370.html",
+    "company": "제이에스코퍼레이션",
+    "ticker": "194370",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 11,
+      "opportunity": 13,
+      "threat": 17
+    },
+    "reality_score": 34,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
