@@ -18016,5 +18016,23 @@
     "reality_score": 42,
     "hope_score": 34,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "253450_스튜디오드래곤/2026-11-21_스튜디오드래곤_253450.html",
+    "company": "스튜디오드래곤",
+    "ticker": "253450",
+    "score": 61,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 13,
+      "opportunity": 11,
+      "threat": 21
+    },
+    "reality_score": 27,
+    "hope_score": 34,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
