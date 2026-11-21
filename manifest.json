@@ -17620,5 +17620,23 @@
     "reality_score": 50,
     "hope_score": 37,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "216050_인크로스/2026-11-21_인크로스_216050.html",
+    "company": "인크로스",
+    "ticker": "216050",
+    "score": 75,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 25,
+      "opportunity": 8,
+      "threat": 20
+    },
+    "reality_score": 47,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
