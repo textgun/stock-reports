@@ -17404,5 +17404,23 @@
     "reality_score": 26,
     "hope_score": 22,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "203650_드림시큐리티/2026-11-21_드림시큐리티_203650.html",
+    "company": "드림시큐리티",
+    "ticker": "203650",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 25,
+      "opportunity": 1,
+      "threat": 10
+    },
+    "reality_score": 39,
+    "hope_score": 8,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
