@@ -18934,5 +18934,23 @@
     "reality_score": 29,
     "hope_score": 29,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "353200_대덕전자/2026-11-21_대덕전자_353200.html",
+    "company": "대덕전자",
+    "ticker": "353200",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 11,
+      "opportunity": 7,
+      "threat": 14
+    },
+    "reality_score": 36,
+    "hope_score": 19,
+    "quadrant": "현실 강함  🟢"
   }
 ]
