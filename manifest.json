@@ -16774,5 +16774,23 @@
     "reality_score": 18,
     "hope_score": 36,
     "quadrant": "기대 중심 (현실 약함)  🟠"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "122900_아이마켓코리아/2026-11-21_아이마켓코리아_122900.html",
+    "company": "아이마켓코리아",
+    "ticker": "122900",
+    "score": 80,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 25,
+      "opportunity": 17,
+      "threat": 22
+    },
+    "reality_score": 42,
+    "hope_score": 38,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
