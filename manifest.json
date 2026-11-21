@@ -16540,5 +16540,23 @@
     "reality_score": 9,
     "hope_score": 20,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "112040_위메이드/2026-11-21_위메이드_112040.html",
+    "company": "위메이드",
+    "ticker": "112040",
+    "score": 42,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 7,
+      "opportunity": 10,
+      "threat": 13
+    },
+    "reality_score": 22,
+    "hope_score": 20,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
