@@ -17872,5 +17872,23 @@
     "reality_score": 43,
     "hope_score": 14,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "241560_두산밥캣/2026-11-21_두산밥캣_241560.html",
+    "company": "두산밥캣",
+    "ticker": "241560",
+    "score": 50,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 9,
+      "opportunity": 7,
+      "threat": 19
+    },
+    "reality_score": 26,
+    "hope_score": 25,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
