@@ -18970,5 +18970,23 @@
     "reality_score": 25,
     "hope_score": 22,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "356860_티엘비/2026-11-21_티엘비_356860.html",
+    "company": "티엘비",
+    "ticker": "356860",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 14,
+      "opportunity": 9,
+      "threat": 18
+    },
+    "reality_score": 38,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
