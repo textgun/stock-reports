@@ -18484,5 +18484,23 @@
     "reality_score": 29,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "300080_플리토/2026-11-21_플리토_300080.html",
+    "company": "플리토",
+    "ticker": "300080",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 15,
+      "opportunity": 9,
+      "threat": 15
+    },
+    "reality_score": 41,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
