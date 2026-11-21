@@ -18286,5 +18286,23 @@
     "reality_score": 34,
     "hope_score": 31,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-21",
+    "filename": "280360_롯데웰푸드/2026-11-21_롯데웰푸드_280360.html",
+    "company": "롯데웰푸드",
+    "ticker": "280360",
+    "score": 70,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 23,
+      "opportunity": 13,
+      "threat": 22
+    },
+    "reality_score": 36,
+    "hope_score": 33,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
