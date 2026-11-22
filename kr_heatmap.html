@@ -2003,6 +2003,19 @@ async function renderDeriv(){
       '<div class="sec-note" style="margin:4px 0 0">선물 = 외국인 추정 포지션('+dvD(P.fut_from)+' 선물 만기 다음 날부터 매일 순매수를 누적 · 평균 진입가 = 그날 순매수 금액 ÷ 계약, 한국투자증권) · 단위 억원 · '+
       '가로축 = 옵션 만기일('+dvD(P.opt_exp)+') 코스피200 · 선물 가격 = 지수 + 베이시스 '+(P.basis.b == null ? '—' : P.basis.b.toFixed(2))+'(지금 '+(P.basis.now == null ? '—' : P.basis.now.toFixed(2))+'를 '+dvD(P.fut_exp)+' 선물 만기까지 남은 날수로 줄임) · '+
       '신호등: 지수 3% 오를 때와 3% 내릴 때 손익 차이 — +300억 이상 초록 · +60억 이상 연두 · ±60억 안 노랑 · −60억 이하 주황 · −300억 이하 빨강</div></div>'+
+    // 옵션 순매수 금액 + 오늘 장중 합계 (hugusk 11-17) — 그쪽은 KRX 원자료, 우리는 같은 집계의 KIS 값(백만원 단위)
+    (D.wka && D.wka.length ? '<div class="card"><h3 style="margin:0 0 6px;font-size:14px">외국인 옵션 순매수 금액 (최근 '+D.wka.length+'거래일, 억원)</h3>'+
+      (D.live ? (() => { const L = D.live, big = L.big || [], c = v => '<b style="color:'+(v > 0 ? DV_C.up : DV_C.dn)+'">'+dvF(v, 0)+'억</b>';
+        return '<div style="font-size:13px;margin:0 0 8px;padding:8px 10px;border-radius:8px;background:var(--surface-2,rgba(127,127,127,.08))">'+(big.length ? '⚠️ ' : '')+
+          '오늘 '+(L.slot === 'close' ? '마감' : '장중 '+L.slot.slice(0,2)+':'+L.slot.slice(2))+' 기준(실시간 합계) — 콜 '+c(L.C[0])+' ('+dvF(L.C[1])+'계약) · 풋 '+c(L.P[0])+' ('+dvF(L.P[1])+'계약)'+
+          (L.prev ? ' · 직전 갱신('+(L.prev_slot === 'close' ? '마감' : L.prev_slot.slice(0,2)+':'+L.prev_slot.slice(2))+') 대비 콜 '+dvF(L.C[0]-L.prev.C[0], 0)+'억 · 풋 '+dvF(L.P[0]-L.prev.P[0], 0)+'억' : '')+
+          '<span class="mut"> · 경고 기준 콜·풋 각각 '+dvF(L.q95.C, 0)+'억 이상</span></div>'; })() : '')+
+      '<div style="overflow-x:auto"><table class="data" style="font-size:12.5px"><thead><tr><th class="l">날짜</th>'+
+      '<th>정규 콜</th><th>정규 풋</th><th>위클리 콜</th><th>위클리 풋</th><th>미니 콜</th><th>미니 풋</th></tr></thead><tbody>'+
+      D.wka.slice().reverse().map(r => '<tr><td class="l">'+dvD(r[0])+'</td>'+r.slice(1).map(v =>
+        '<td style="color:'+(v > 0 ? DV_C.up : v < 0 ? DV_C.dn : 'var(--ink-3)')+'">'+dvF(v, 1)+'</td>').join('')+'</tr>').join('')+
+      '</tbody></table></div><div class="sec-note">한국투자증권 시장별 투자자매매동향(일별) — KRX 투자자별 거래실적과 같은 집계(백만원 단위라 ±0.1억 다를 수 있다) · '+
+      '정규 = 모든 월물 합계 — HTS \'투자자매매동향\'의 콜옵션·풋옵션 금액과 같은 숫자 · 위 손익선은 <b>선물</b> 순매수만으로 만든 추정치라 옵션 쪽 움직임은 이 표로 본다</div></div>' : '')+
     (W.length ? '<div class="card"><h3 style="margin:0 0 6px;font-size:14px">참고 · 외국인 상품별 순매수 (최근 '+W.length+'거래일, 계약)</h3>'+
       '<div style="overflow-x:auto"><table class="data" style="font-size:12.5px"><thead><tr><th class="l">날짜</th>'+
       '<th>정규 콜</th><th>정규 풋</th><th>위클리 콜</th><th>위클리 풋</th><th>미니 콜</th><th>미니 풋</th><th>선물</th><th>미니 선물</th></tr></thead><tbody>'+
@@ -2052,9 +2065,10 @@ async function renderDashboard(){
     host.appendChild(supplyCard(d, 'pe'));                     // 수급 카드 (헤더에 로컬 필터)
     host.appendChild(supplyCard(d, 'trust'));
     host.appendChild(supplyCard(d, 'pension'));
+    if (d.flows.etc) host.appendChild(supplyCard(d, 'etc'));   // 기타법인 — 연기금과 신용융자 사이 (hugusk 11-18). 옛 파일엔 키가 없다
   } else {
     host.insertAdjacentHTML('beforeend',
-      '<div class="dcard wide"><div class="sec-note">기관 수급(사모·투신·연기금) 미수집 — 장 마감 후 슬롯에서 채워집니다.</div></div>');
+      '<div class="dcard wide"><div class="sec-note">기관 수급(사모·투신·연기금·기타법인) 미수집 — 장 마감 후 슬롯에서 채워집니다.</div></div>');
   }
   // 신용융자·공매도는 수급 카드 바로 뒤 — 같은 '누가 사고 파는가' 묶음 (hugusk 배치).
   // KIS에서 따로 받으므로 KRX 기관 수급이 비는 날에도 그린다. 파일이 없으면 카드만 생략.
@@ -2290,9 +2304,9 @@ function investorFlowCard(d){
     '<div class="sec-note" style="margin:10px 0 0">오른쪽 빨강=매수 우위 · 왼쪽 파랑=매도 우위 · 옆=직전 거래일 순매수(빨강)/순매도(파랑), 억원</div></div>';
 }
 
-/* 주체별 수급 카드 (사모/투신/연기금) — 시총 대비 / 총매수 대비 2열 */
+/* 주체별 수급 카드 (사모/투신/연기금/기타법인) — 시총 대비 / 총매수 대비 2열 */
 function supplyCard(d, invKey){
-  const lab = ({pe:'사모', trust:'투신', pension:'연기금'})[invKey];
+  const lab = ({pe:'사모', trust:'투신', pension:'연기금', etc:'기타법인'})[invKey];
   const div = document.createElement('div'); div.className = 'dcard wide';
   let mkt = MARKET, ma = 'all';
   const render = () => {
