@@ -8008,5 +8008,23 @@
     "reality_score": 35,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-23",
+    "filename": "000210_DL/2026-11-23_DL_000210.html",
+    "company": "DL",
+    "ticker": "000210",
+    "score": 64,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 16,
+      "opportunity": 8,
+      "threat": 22
+    },
+    "reality_score": 35,
+    "hope_score": 27,
+    "quadrant": "현실 강함  🟢"
   }
 ]
