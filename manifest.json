@@ -8260,5 +8260,23 @@
     "reality_score": 45,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-23",
+    "filename": "215200_메가스터디교육/2026-11-23_메가스터디교육_215200.html",
+    "company": "메가스터디교육",
+    "ticker": "215200",
+    "score": 85,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 25,
+      "opportunity": 10,
+      "threat": 25
+    },
+    "reality_score": 50,
+    "hope_score": 33,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
