@@ -8206,5 +8206,23 @@
     "reality_score": 27,
     "hope_score": 11,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-23",
+    "filename": "143540_영우디에스피/2026-11-23_영우디에스피_143540.html",
+    "company": "영우디에스피",
+    "ticker": "143540",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 17,
+      "opportunity": 3,
+      "threat": 14
+    },
+    "reality_score": 43,
+    "hope_score": 13,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
