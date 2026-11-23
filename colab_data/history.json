@@ -1588,12 +1588,12 @@
       },
       {
         "date": "2026-11-23",
-        "total_score": 76,
+        "total_score": 75,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 20,
           "weakness": 18,
-          "opportunity": 16,
+          "opportunity": 15,
           "threat": 22
         }
       }
@@ -22116,12 +22116,12 @@
       },
       {
         "date": "2026-11-23",
-        "total_score": 70,
+        "total_score": 69,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 24,
           "weakness": 15,
-          "opportunity": 13,
+          "opportunity": 12,
           "threat": 18
         }
       }
@@ -37093,12 +37093,12 @@
       },
       {
         "date": "2026-11-23",
-        "total_score": 69,
+        "total_score": 68,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 18,
           "weakness": 4,
-          "opportunity": 21,
+          "opportunity": 20,
           "threat": 26
         }
       }
