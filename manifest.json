@@ -8224,5 +8224,23 @@
     "reality_score": 20,
     "hope_score": 31,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-24",
+    "filename": "051600_한전KPS/2026-11-24_한전KPS_051600.html",
+    "company": "한전KPS",
+    "ticker": "051600",
+    "score": 47,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 24,
+      "opportunity": 8,
+      "threat": 10
+    },
+    "reality_score": 31,
+    "hope_score": 15,
+    "quadrant": "현실 강함  🟢"
   }
 ]
