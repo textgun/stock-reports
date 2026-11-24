@@ -1599,12 +1599,12 @@
       },
       {
         "date": "2026-11-24",
-        "total_score": 75,
+        "total_score": 76,
         "rating_code": "BUY",
         "breakdown": {
           "strength": 20,
           "weakness": 18,
-          "opportunity": 15,
+          "opportunity": 16,
           "threat": 22
         }
       }
