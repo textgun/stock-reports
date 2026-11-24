@@ -8386,5 +8386,23 @@
     "reality_score": 41,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-24",
+    "filename": "332570_PS일렉트로닉스/2026-11-24_PS일렉트로닉스_332570.html",
+    "company": "PS일렉트로닉스",
+    "ticker": "332570",
+    "score": 47,
+    "rating": "WATCH",
+    "rating_label": "관찰",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 8,
+      "opportunity": 1,
+      "threat": 13
+    },
+    "reality_score": 35,
+    "hope_score": 10,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
