@@ -8440,5 +8440,23 @@
     "reality_score": 37,
     "hope_score": 36,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-24",
+    "filename": "064290_인텍플러스/2026-11-24_인텍플러스_064290.html",
+    "company": "인텍플러스",
+    "ticker": "064290",
+    "score": 61,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 25,
+      "opportunity": 12,
+      "threat": 11
+    },
+    "reality_score": 39,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
