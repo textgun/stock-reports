@@ -8026,5 +8026,23 @@
     "reality_score": 35,
     "hope_score": 19,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-24",
+    "filename": "000120_CJ대한통운/2026-11-24_CJ대한통운_000120.html",
+    "company": "CJ대한통운",
+    "ticker": "000120",
+    "score": 46,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 15,
+      "opportunity": 12,
+      "threat": 17
+    },
+    "reality_score": 20,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
