@@ -8368,5 +8368,23 @@
     "reality_score": 31,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-24",
+    "filename": "329180_HD현대중공업/2026-11-24_HD현대중공업_329180.html",
+    "company": "HD현대중공업",
+    "ticker": "329180",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 10,
+      "opportunity": 12,
+      "threat": 16
+    },
+    "reality_score": 41,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
