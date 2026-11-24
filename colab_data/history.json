@@ -103461,5 +103461,54 @@
         }
       }
     ]
+  },
+  "457190": {
+    "company_name": "이수스페셜티케미컬",
+    "records": [
+      {
+        "date": "2025-12-31",
+        "total_score": 20,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 2,
+          "weakness": 3,
+          "opportunity": 4,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 18,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 0,
+          "weakness": 3,
+          "opportunity": 4,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2026-06-30",
+        "total_score": 26,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 7,
+          "opportunity": 4,
+          "threat": 11
+        }
+      },
+      {
+        "date": "2026-11-24",
+        "total_score": 18,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 0,
+          "weakness": 3,
+          "opportunity": 4,
+          "threat": 11
+        }
+      }
+    ]
   }
 }
