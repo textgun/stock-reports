@@ -8314,5 +8314,23 @@
     "reality_score": 22,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-24",
+    "filename": "195870_해성디에스/2026-11-24_해성디에스_195870.html",
+    "company": "해성디에스",
+    "ticker": "195870",
+    "score": 69,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 17,
+      "opportunity": 5,
+      "threat": 25
+    },
+    "reality_score": 40,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
