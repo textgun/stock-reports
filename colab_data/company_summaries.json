@@ -33701,5 +33701,82 @@
       "pbr_roe_fair_value": null,
       "nav_sotp_mid": null
     }
+  },
+  "457190": {
+    "company": "이수스페셜티케미컬",
+    "updated": "2026-11-24",
+    "score": 18,
+    "sector": "에너지/화학",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 3,
+      "opportunity": 4,
+      "threat": 11
+    },
+    "sector_max": {
+      "strength": 26,
+      "weakness": 24,
+      "opportunity": 22,
+      "threat": 28
+    },
+    "earnings": {
+      "qoq_trend": "flat",
+      "yoy_pct": -207.5,
+      "rev_yoy_pct": -11.5,
+      "momentum_score": 3.0,
+      "correction_pts": -2
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "㈜이수 25.04%",
+      "ceo": "류승호",
+      "exec_count": 14
+    },
+    "valuation": {
+      "per": 3224.0,
+      "per_txt": "고평가 주의",
+      "pbr": 17.59,
+      "pbr_txt": "고평가 주의",
+      "psr": 5.83,
+      "psr_txt": "고평가 주의",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": 3.38
+    },
+    "valuation_engine": {
+      "fair_value": 474.0,
+      "band_low": 156.0,
+      "band_high": 6500.0,
+      "confidence": "LOW",
+      "method_spread": 20.828,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "방법 간 편차 20.828배",
+        "PER 유효 표본 1.6년 — 결측·적자 제외 후 4년 미만",
+        "연간 ROE 흑자·적자 혼재 — 역사적 평균을 정상 수익으로 단정 불가"
+      ],
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (3점 < 기준 30점) / 이자보상배율 미달 (-0.9배 < 기준 2.0배) / 만성 영업적자 (연간 -4.9% · 2026Q3 영업이익 -44.9억), 존과 무관하게 회피",
+      "srim_mid": 312.0724664108038,
+      "per_band_mid": 6500.0,
+      "pbr_roe_fair_value": 474.0,
+      "nav_sotp_mid": null
+    }
   }
 }
