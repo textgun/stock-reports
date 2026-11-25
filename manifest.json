@@ -1,24 +1,6 @@
 [
   {
     "date": "2026-11-21",
-    "filename": "000100_유한양행/2026-11-21_유한양행_000100.html",
-    "company": "유한양행",
-    "ticker": "000100",
-    "score": 48,
-    "rating": "WATCH",
-    "rating_label": "관찰",
-    "breakdown": {
-      "strength": 13,
-      "weakness": 7,
-      "opportunity": 14,
-      "threat": 14
-    },
-    "reality_score": 29,
-    "hope_score": 22,
-    "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-11-21",
     "filename": "000150_두산/2026-11-21_두산_000150.html",
     "company": "두산",
     "ticker": "000150",
@@ -159,24 +141,6 @@
     },
     "reality_score": 25,
     "hope_score": 26,
-    "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-11-21",
-    "filename": "001250_GS글로벌/2026-11-21_GS글로벌_001250.html",
-    "company": "GS글로벌",
-    "ticker": "001250",
-    "score": 56,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 25/30)",
-    "breakdown": {
-      "strength": 0,
-      "weakness": 25,
-      "opportunity": 9,
-      "threat": 22
-    },
-    "reality_score": 27,
-    "hope_score": 29,
     "quadrant": "현실·기대 중립  🔵"
   },
   {
@@ -1027,24 +991,6 @@
   },
   {
     "date": "2026-11-21",
-    "filename": "007660_이수페타시스/2026-11-21_이수페타시스_007660.html",
-    "company": "이수페타시스",
-    "ticker": "007660",
-    "score": 70,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 25,
-      "opportunity": 5,
-      "threat": 15
-    },
-    "reality_score": 49,
-    "hope_score": 18,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-21",
     "filename": "007690_국도화학/2026-11-21_국도화학_007690.html",
     "company": "국도화학",
     "ticker": "007690",
@@ -1275,24 +1221,6 @@
     },
     "reality_score": 45,
     "hope_score": 18,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-21",
-    "filename": "010140_삼성중공업/2026-11-21_삼성중공업_010140.html",
-    "company": "삼성중공업",
-    "ticker": "010140",
-    "score": 60,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 19,
-      "weakness": 11,
-      "opportunity": 17,
-      "threat": 13
-    },
-    "reality_score": 41,
-    "hope_score": 26,
     "quadrant": "현실 강함  🟢"
   },
   {
@@ -2917,24 +2845,6 @@
   },
   {
     "date": "2026-11-21",
-    "filename": "064760_티씨케이/2026-11-21_티씨케이_064760.html",
-    "company": "티씨케이",
-    "ticker": "064760",
-    "score": 71,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 18,
-      "opportunity": 17,
-      "threat": 11
-    },
-    "reality_score": 43,
-    "hope_score": 27,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-21",
     "filename": "064850_에프앤가이드/2026-11-21_에프앤가이드_064850.html",
     "company": "에프앤가이드",
     "ticker": "064850",
@@ -3148,24 +3058,6 @@
     "reality_score": 41,
     "hope_score": 22,
     "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-21",
-    "filename": "071320_지역난방공사/2026-11-21_지역난방공사_071320.html",
-    "company": "지역난방공사",
-    "ticker": "071320",
-    "score": 51,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
-    "breakdown": {
-      "strength": 1,
-      "weakness": 19,
-      "opportunity": 11,
-      "threat": 20
-    },
-    "reality_score": 23,
-    "hope_score": 29,
-    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-11-21",
@@ -3475,42 +3367,6 @@
   },
   {
     "date": "2026-11-21",
-    "filename": "086670_비엠티/2026-11-21_비엠티_086670.html",
-    "company": "비엠티",
-    "ticker": "086670",
-    "score": 61,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 23,
-      "weakness": 18,
-      "opportunity": 7,
-      "threat": 13
-    },
-    "reality_score": 42,
-    "hope_score": 18,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-21",
-    "filename": "088350_한화생명/2026-11-21_한화생명_088350.html",
-    "company": "한화생명",
-    "ticker": "088350",
-    "score": 52,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 7,
-      "weakness": 20,
-      "opportunity": 10,
-      "threat": 15
-    },
-    "reality_score": 29,
-    "hope_score": 23,
-    "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-11-21",
     "filename": "089010_켐트로닉스/2026-11-21_켐트로닉스_089010.html",
     "company": "켐트로닉스",
     "ticker": "089010",
@@ -3691,24 +3547,6 @@
   },
   {
     "date": "2026-11-21",
-    "filename": "095340_ISC/2026-11-21_ISC_095340.html",
-    "company": "ISC",
-    "ticker": "095340",
-    "score": 68,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 17,
-      "opportunity": 5,
-      "threat": 21
-    },
-    "reality_score": 42,
-    "hope_score": 28,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-21",
     "filename": "095610_테스/2026-11-21_테스_095610.html",
     "company": "테스",
     "ticker": "095610",
@@ -3760,24 +3598,6 @@
     "reality_score": 30,
     "hope_score": 25,
     "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-21",
-    "filename": "097950_CJ제일제당/2026-11-21_CJ제일제당_097950.html",
-    "company": "CJ제일제당",
-    "ticker": "097950",
-    "score": 51,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 19/30)",
-    "breakdown": {
-      "strength": 4,
-      "weakness": 15,
-      "opportunity": 12,
-      "threat": 20
-    },
-    "reality_score": 22,
-    "hope_score": 30,
-    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-11-21",
@@ -4069,24 +3889,6 @@
   },
   {
     "date": "2026-11-21",
-    "filename": "117730_티로보틱스/2026-11-21_티로보틱스_117730.html",
-    "company": "티로보틱스",
-    "ticker": "117730",
-    "score": 14,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 9/30)",
-    "breakdown": {
-      "strength": 4,
-      "weakness": 5,
-      "opportunity": 2,
-      "threat": 3
-    },
-    "reality_score": 8,
-    "hope_score": 5,
-    "quadrant": "현실·기대 불량  ⚫"
-  },
-  {
-    "date": "2026-11-21",
     "filename": "118000_메타케어/2026-11-21_메타케어_118000.html",
     "company": "메타케어",
     "ticker": "118000",
@@ -4118,24 +3920,6 @@
       "threat": 12
     },
     "reality_score": 22,
-    "hope_score": 27,
-    "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-11-21",
-    "filename": "120110_코오롱인더/2026-11-21_코오롱인더_120110.html",
-    "company": "코오롱인더",
-    "ticker": "120110",
-    "score": 52,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 22/30)",
-    "breakdown": {
-      "strength": 10,
-      "weakness": 12,
-      "opportunity": 13,
-      "threat": 17
-    },
-    "reality_score": 25,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
   },
@@ -4429,24 +4213,6 @@
   },
   {
     "date": "2026-11-21",
-    "filename": "141080_리가켐바이오/2026-11-21_리가켐바이오_141080.html",
-    "company": "리가켐바이오",
-    "ticker": "141080",
-    "score": 30,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 3/18)",
-    "breakdown": {
-      "strength": 1,
-      "weakness": 2,
-      "opportunity": 14,
-      "threat": 13
-    },
-    "reality_score": 4,
-    "hope_score": 21,
-    "quadrant": "현실·기대 중립  🔵"
-  },
-  {
-    "date": "2026-11-21",
     "filename": "145020_휴젤/2026-11-21_휴젤_145020.html",
     "company": "휴젤",
     "ticker": "145020",
@@ -4462,24 +4228,6 @@
     "reality_score": 33,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-21",
-    "filename": "145720_덴티움/2026-11-21_덴티움_145720.html",
-    "company": "덴티움",
-    "ticker": "145720",
-    "score": 51,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
-    "breakdown": {
-      "strength": 16,
-      "weakness": 5,
-      "opportunity": 8,
-      "threat": 22
-    },
-    "reality_score": 24,
-    "hope_score": 28,
-    "quadrant": "현실·기대 중립  🔵"
   },
   {
     "date": "2026-11-21",
@@ -4642,24 +4390,6 @@
     "reality_score": 41,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-21",
-    "filename": "192820_코스맥스/2026-11-21_코스맥스_192820.html",
-    "company": "코스맥스",
-    "ticker": "192820",
-    "score": 69,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 22,
-      "weakness": 14,
-      "opportunity": 12,
-      "threat": 21
-    },
-    "reality_score": 36,
-    "hope_score": 32,
-    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-11-21",
@@ -5131,24 +4861,6 @@
   },
   {
     "date": "2026-11-21",
-    "filename": "241710_코스메카코리아/2026-11-21_코스메카코리아_241710.html",
-    "company": "코스메카코리아",
-    "ticker": "241710",
-    "score": 71,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 22,
-      "weakness": 14,
-      "opportunity": 11,
-      "threat": 24
-    },
-    "reality_score": 36,
-    "hope_score": 34,
-    "quadrant": "현실·기대 모두 강함  🟢🟢"
-  },
-  {
-    "date": "2026-11-21",
     "filename": "243070_휴온스/2026-11-21_휴온스_243070.html",
     "company": "휴온스",
     "ticker": "243070",
@@ -5362,24 +5074,6 @@
     "reality_score": 29,
     "hope_score": 14,
     "quadrant": "현실·기대 약함  🔴"
-  },
-  {
-    "date": "2026-11-21",
-    "filename": "272450_진에어/2026-11-21_진에어_272450.html",
-    "company": "진에어",
-    "ticker": "272450",
-    "score": 57,
-    "rating": "AVOID",
-    "rating_label": "회피 ✗ (재무 필터 미통과 17/30)",
-    "breakdown": {
-      "strength": 8,
-      "weakness": 9,
-      "opportunity": 15,
-      "threat": 25
-    },
-    "reality_score": 20,
-    "hope_score": 39,
-    "quadrant": "기대 중심 (현실 약함)  🟠"
   },
   {
     "date": "2026-11-21",
@@ -5923,24 +5617,6 @@
   },
   {
     "date": "2026-11-21",
-    "filename": "357780_솔브레인/2026-11-21_솔브레인_357780.html",
-    "company": "솔브레인",
-    "ticker": "357780",
-    "score": 68,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 20,
-      "opportunity": 6,
-      "threat": 17
-    },
-    "reality_score": 45,
-    "hope_score": 20,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-21",
     "filename": "361610_SK아이이테크놀로지/2026-11-21_SK아이이테크놀로지_361610.html",
     "company": "SK아이이테크놀로지",
     "ticker": "361610",
@@ -5992,24 +5668,6 @@
     "reality_score": 23,
     "hope_score": 16,
     "quadrant": "현실·기대 약함  🔴"
-  },
-  {
-    "date": "2026-11-21",
-    "filename": "376300_디어유/2026-11-21_디어유_376300.html",
-    "company": "디어유",
-    "ticker": "376300",
-    "score": 64,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 18,
-      "weakness": 12,
-      "opportunity": 10,
-      "threat": 24
-    },
-    "reality_score": 31,
-    "hope_score": 33,
-    "quadrant": "현실·기대 모두 강함  🟢🟢"
   },
   {
     "date": "2026-11-21",
@@ -6391,24 +6049,6 @@
   },
   {
     "date": "2026-11-21",
-    "filename": "483650_달바글로벌/2026-11-21_달바글로벌_483650.html",
-    "company": "달바글로벌",
-    "ticker": "483650",
-    "score": 52,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 12,
-      "opportunity": 7,
-      "threat": 8
-    },
-    "reality_score": 38,
-    "hope_score": 11,
-    "quadrant": "현실 강함 / 기대 약함  🟡"
-  },
-  {
-    "date": "2026-11-21",
     "filename": "487570_HS효성/2026-11-21_HS효성_487570.html",
     "company": "HS효성",
     "ticker": "487570",
@@ -6463,24 +6103,6 @@
   },
   {
     "date": "2026-11-23",
-    "filename": "000210_DL/2026-11-23_DL_000210.html",
-    "company": "DL",
-    "ticker": "000210",
-    "score": 64,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 18,
-      "weakness": 16,
-      "opportunity": 8,
-      "threat": 22
-    },
-    "reality_score": 35,
-    "hope_score": 27,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-23",
     "filename": "005070_코스모신소재/2026-11-23_코스모신소재_005070.html",
     "company": "코스모신소재",
     "ticker": "005070",
@@ -6499,24 +6121,6 @@
   },
   {
     "date": "2026-11-23",
-    "filename": "018260_삼성에스디에스/2026-11-23_삼성에스디에스_018260.html",
-    "company": "삼성에스디에스",
-    "ticker": "018260",
-    "score": 56,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 14,
-      "weakness": 11,
-      "opportunity": 14,
-      "threat": 17
-    },
-    "reality_score": 35,
-    "hope_score": 23,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-23",
     "filename": "034230_파라다이스/2026-11-23_파라다이스_034230.html",
     "company": "파라다이스",
     "ticker": "034230",
@@ -6531,24 +6135,6 @@
     },
     "reality_score": 42,
     "hope_score": 26,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-23",
-    "filename": "035720_카카오/2026-11-23_카카오_035720.html",
-    "company": "카카오",
-    "ticker": "035720",
-    "score": 53,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 11,
-      "weakness": 14,
-      "opportunity": 10,
-      "threat": 18
-    },
-    "reality_score": 31,
-    "hope_score": 23,
     "quadrant": "현실 강함  🟢"
   },
   {
@@ -6640,60 +6226,6 @@
     "reality_score": 27,
     "hope_score": 11,
     "quadrant": "현실·기대 약함  🔴"
-  },
-  {
-    "date": "2026-11-23",
-    "filename": "196170_알테오젠/2026-11-23_알테오젠_196170.html",
-    "company": "알테오젠",
-    "ticker": "196170",
-    "score": 54,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 18,
-      "weakness": 7,
-      "opportunity": 17,
-      "threat": 12
-    },
-    "reality_score": 42,
-    "hope_score": 22,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-23",
-    "filename": "214430_아이쓰리시스템/2026-11-23_아이쓰리시스템_214430.html",
-    "company": "아이쓰리시스템",
-    "ticker": "214430",
-    "score": 70,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 21,
-      "opportunity": 7,
-      "threat": 17
-    },
-    "reality_score": 45,
-    "hope_score": 23,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-23",
-    "filename": "281820_케이씨텍/2026-11-23_케이씨텍_281820.html",
-    "company": "케이씨텍",
-    "ticker": "281820",
-    "score": 70,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 16,
-      "opportunity": 8,
-      "threat": 21
-    },
-    "reality_score": 41,
-    "hope_score": 28,
-    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-11-23",
@@ -6967,24 +6499,6 @@
   },
   {
     "date": "2026-11-24",
-    "filename": "077360_덕산하이메탈/2026-11-24_덕산하이메탈_077360.html",
-    "company": "덕산하이메탈",
-    "ticker": "077360",
-    "score": 58,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 18,
-      "weakness": 15,
-      "opportunity": 13,
-      "threat": 12
-    },
-    "reality_score": 35,
-    "hope_score": 22,
-    "quadrant": "현실 강함  🟢"
-  },
-  {
-    "date": "2026-11-24",
     "filename": "090460_비에이치/2026-11-24_비에이치_090460.html",
     "company": "비에이치",
     "ticker": "090460",
@@ -7036,24 +6550,6 @@
     "reality_score": 22,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
-  },
-  {
-    "date": "2026-11-24",
-    "filename": "195870_해성디에스/2026-11-24_해성디에스_195870.html",
-    "company": "해성디에스",
-    "ticker": "195870",
-    "score": 69,
-    "rating": "BUY",
-    "rating_label": "매수 ★★",
-    "breakdown": {
-      "strength": 22,
-      "weakness": 17,
-      "opportunity": 5,
-      "threat": 25
-    },
-    "reality_score": 40,
-    "hope_score": 28,
-    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-11-24",
@@ -7111,24 +6607,6 @@
   },
   {
     "date": "2026-11-24",
-    "filename": "332570_PS일렉트로닉스/2026-11-24_PS일렉트로닉스_332570.html",
-    "company": "PS일렉트로닉스",
-    "ticker": "332570",
-    "score": 47,
-    "rating": "WATCH",
-    "rating_label": "관찰",
-    "breakdown": {
-      "strength": 25,
-      "weakness": 8,
-      "opportunity": 1,
-      "threat": 13
-    },
-    "reality_score": 35,
-    "hope_score": 10,
-    "quadrant": "현실 강함 / 기대 약함  🟡"
-  },
-  {
-    "date": "2026-11-24",
     "filename": "377740_바이오노트/2026-11-24_바이오노트_377740.html",
     "company": "바이오노트",
     "ticker": "377740",
@@ -7162,24 +6640,6 @@
     "reality_score": 37,
     "hope_score": 36,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
-  },
-  {
-    "date": "2026-11-24",
-    "filename": "064290_인텍플러스/2026-11-24_인텍플러스_064290.html",
-    "company": "인텍플러스",
-    "ticker": "064290",
-    "score": 61,
-    "rating": "HOLD",
-    "rating_label": "보유 ★",
-    "breakdown": {
-      "strength": 13,
-      "weakness": 25,
-      "opportunity": 12,
-      "threat": 11
-    },
-    "reality_score": 39,
-    "hope_score": 20,
-    "quadrant": "현실 강함  🟢"
   },
   {
     "date": "2026-11-24",
