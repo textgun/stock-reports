@@ -8674,5 +8674,23 @@
     "reality_score": 35,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-25",
+    "filename": "121600_나노신소재/2026-11-25_나노신소재_121600.html",
+    "company": "나노신소재",
+    "ticker": "121600",
+    "score": 51,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 5,
+      "opportunity": 8,
+      "threat": 13
+    },
+    "reality_score": 28,
+    "hope_score": 23,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
