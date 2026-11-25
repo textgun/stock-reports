@@ -474,7 +474,7 @@ header.page h1 .sep{color:var(--ink-3);font-weight:400}
   </div>
 
   <div class="view" id="view-eps">
-    <h2 class="sec">EPS 추정치 변동 이력 <span style="font-weight:400;font-size:12px;color:var(--ink-3)">최근 20거래일 · 직전 거래일 대비 컨센서스(Fwd EPS) 상향/하향 · 연속 변동 표시</span></h2>
+    <h2 class="sec" id="epsTitle">EPS 추정치 변동 이력 <span style="font-weight:400;font-size:12px;color:var(--ink-3)">최근 20거래일 · 직전 거래일 대비 컨센서스(Fwd EPS) 상향/하향 · 연속 변동 표시</span></h2>
     <div class="card"><div id="epsHost"></div></div>
   </div>
 
@@ -914,8 +914,8 @@ function renderTabs(){
   mt.innerHTML = '';
   Object.keys(DATA.markets).forEach(m => {
     const b = document.createElement('button');
-    b.textContent = m; b.className = (m === MARKET && !(VIEW === 'heatmap' && US_HM)) ? 'on' : '';
-    b.onclick = () => { MARKET = m; US_HM = null; renderAll(); };
+    b.textContent = m; b.className = (m === MARKET && !(VIEW === 'heatmap' && US_HM) && !(VIEW === 'eps' && EPS_TAB)) ? 'on' : '';
+    b.onclick = () => { MARKET = m; US_HM = null; EPS_TAB = null; renderAll(); };
     mt.appendChild(b);
   });
   if (VIEW === 'heatmap'){                      // 미국 매크로·외국인 파생 포지션 — 히트맵 탭에만 (hugusk 10-04·10-22, 미국 지수 히트맵은 범위 밖)
@@ -923,6 +923,14 @@ function renderTabs(){
       const b = document.createElement('button');
       b.textContent = nm; b.className = US_HM === k ? 'on' : '';
       b.onclick = () => { US_HM = k; renderAll(); };
+      mt.appendChild(b);
+    });
+  }
+  if (VIEW === 'eps'){                          // EPS변동 탭에만 — 주간 EPS·OPM 상향 기업 (hugusk 11-24, 2026-11-25 옮김)
+    [['eps','EPS'],['opm','OPM']].forEach(([k, nm]) => {
+      const b = document.createElement('button');
+      b.textContent = nm; b.className = EPS_TAB === k ? 'on' : '';
+      b.onclick = () => { EPS_TAB = k; renderAll(); };
       mt.appendChild(b);
     });
   }
@@ -1843,7 +1851,10 @@ function macroPanel(q){
       '<div class="mut" style="font-size:11px">막대 = 그 주(달) 유출입 합계 · 선 = 1년 누적(오른쪽 축) · 한국 주식을 담은 미국 ETF(iShares 11개 + 라운드힐 DRAM)의 설정·환매 × 한국 비중 · 근사치라 모든 금액 앞에 \'약\' · '+
       '일별 숫자는 이미 일어난 일을 따라가는 후행 지표(코스피 전날 수익률과 상관 +0.12, 다음날 −0.06)라 몇 주~몇 달 흐름으로만 본다 · 신호등 = 최근 4주 누적의 1년 내 위치</div></details>'+
     det('갑작스러운 금융충격 감시',
-      '<ul style="margin:4px 0;padding-left:18px">'+q.shock_signals.map(li).join('')+'</ul>'+esc(q.shock_context))+
+      '<ul style="margin:4px 0;padding-left:18px">'+q.shock_signals.map(li).join('')+'</ul>'+esc(q.shock_context)+
+      (q.ccc && q.ccc.y != null ? '<br>CCC 이하 하이일드 실효수익률 <b>'+q.ccc.y+'%</b> ('+esc(q.ccc.date)+' · 4주 '+n(q.ccc.chg4w,'%p',1)+' · 1년 최저 '+q.ccc.lo1y+'%'+
+        (q.ccc.oas != null ? ' · 국채 대비 '+q.ccc.oas+'%p' : '')+')'+
+        '<br><span class="mut">CCC 이하 = 신용등급이 가장 낮은 회사채(ICE BofA, FRED BAMLH0A3HYCEY · 최근 3년치만 공개). 단계: 16% 이상 빨강 · 14% 주황 · 12% 노랑 · 10% 연두 · 그 아래 초록, 4주 +1.5%p 이상 급등이면 한 단계 더 나쁘게 · 참고 고점: 2020-03 코로나 약 20% · 2025-04 관세 충격 15.2%</span>' : ''))+
     '<div class="sec-note" style="margin-top:6px">판정 규칙은 원본(hugusk)이 공개한 53주 신호등 이력으로 역산했다 — FRED 지표 12줄은 이력 전부 일치, Put/Call·유출입 줄은 이력 길이 차로 일부 다름(펼침 항목에 단계 표기) · 대통령 지지율 줄은 산업데이터 정치 위험 탭과 같은 판정 — 매매 권유가 아닌 참고 지표</div></div>';
 }
 let US_FLOW_AGG = null, US_FLOW_P = 'w';
@@ -2347,8 +2358,11 @@ function interCard(d){
 
 /* EPS 추정 변동 — investor_flows.json의 eps_upgrades/eps_downgrades (KRX 무관, 차단 중에도 갱신됨).
    ▲상향/▼하향 토글 — 전망이 꺾이는 신호도 상향만큼 중요해 양방향을 같은 카드에서 본다. */
-/* EPS변동 탭 — eps_change_history.json (run_kr_market._eps_change_history, eps_estimates 일별 이력) */
-let EPS_HIST = null, EPS_DIR = 'up';
+/* EPS변동 탭 — eps_change_history.json (run_kr_market._eps_change_history, eps_estimates 일별 이력) — KOSPI·KOSDAQ 탭.
+   EPS·OPM 탭 (hugusk 11-24, 2026-11-25 옮김): growth_cross.json (data_collector/growth_cross.py) — 금요일 16시 KR 슬롯에 한 주 판정.
+   ✅ 상향 기업(신규·이탈) · 📈 기울기 · 🔄 변화 + 어닝 서프라이즈·수주잔고 교집합. 행 클릭 → 종목 팝업 */
+let EPS_HIST = null, EPS_DIR = 'up', EPS_TAB = null;
+const EPS_TITLE0 = 'EPS 추정치 변동 이력 <span style="font-weight:400;font-size:12px;color:var(--ink-3)">최근 20거래일 · 직전 거래일 대비 컨센서스(Fwd EPS) 상향/하향 · 연속 변동 표시</span>';
 async function loadEpsHist(){
   if (EPS_HIST !== null) return EPS_HIST;
   try { const r = await fetch('eps_change_history.json'); EPS_HIST = r.ok ? await r.json() : false; }
@@ -2357,8 +2371,14 @@ async function loadEpsHist(){
 }
 function setEpsDir(dir){ EPS_DIR = dir; renderEps(); }
 async function renderEps(){
-  const host = document.getElementById('epsHost');
+  const host = document.getElementById('epsHost'), ttl = document.getElementById('epsTitle');
   host.innerHTML = '<div class="sec-note">불러오는 중...</div>';
+  if (EPS_TAB){
+    if (ttl) ttl.innerHTML = (EPS_TAB === 'opm' ? '영업이익률(OPM) 추정치 상향 기업' : 'EPS 추정치 상향 기업')+
+      ' <span style="font-weight:400;font-size:12px;color:var(--ink-3)">주 1회(금요일 16시 갱신) 신규·이탈 · 기울기 · 어닝 서프라이즈 · 수주잔고 교집합</span>';
+    return renderGx(host);
+  }
+  if (ttl) ttl.innerHTML = EPS_TITLE0;
   const h = await loadEpsHist();
   if (!h || !h.dates || !h.dates.length){ host.innerHTML = '<div class="sec-note">EPS 변동 이력이 아직 없습니다 (오늘부터 누적됩니다).</div>'; return; }
   const up = EPS_DIR === 'up', col = up ? 'up' : 'down';
@@ -2387,6 +2407,105 @@ async function renderEps(){
       '<div class="rank">'+(rows||'<div class="sec-note">'+(up?'상향':'하향')+' 없음</div>')+'</div></div>';
   }).join('');
   host.innerHTML = chips + body;
+}
+
+let GX = null, GX_VIEW = 'wk', GX_MKT = 'ALL';
+const GX_F0 = () => ({wk:{slope:false, sp:false, yoy:false, qoq:false, th:0}, slope:{up:false, sp:false, yoy:false, qoq:false, th:0}});
+const GX_F = {eps: GX_F0(), opm: GX_F0()};
+const GXN = {eps:{nm:'EPS', slope:'EPS 성장률 기울기'}, opm:{nm:'OPM', slope:'OPM 기울기'}};
+async function loadGx(){
+  if (GX !== null) return GX;
+  try { const r = await fetch('growth_cross.json'); GX = r.ok ? await r.json() : false; } catch(e){ GX = false; }
+  return GX;
+}
+function gxSet(k, v){
+  if (k === 'view'){ GX_VIEW = v; return renderEps(); }
+  if (k === 'mkt'){ GX_MKT = v; return renderEps(); }
+  const f = GX_F[EPS_TAB][GX_VIEW]; if (k === 'th') f.th = v; else f[k] = !f[k]; renderEps();
+}
+function gxRule(N){
+  return '신규 = 그 주 내년 '+N+' 추정치가 직전 판정 때보다 상향 · 이탈 = 최근 3번 연속 하향, 최근 1개월 하향 5번 이상, 최근 3개월 증권사 리포트 없음, 3개월 넘게 컨센서스 없음 · 이탈 조건에 걸리면 그 주 상향이어도 신규로 넣지 않음 · 0.1% 미만 변화는 상향·하향으로 세지 않음';
+}
+function gxLog(M){
+  const N = GXN[EPS_TAB].nm;
+  const nm = x => '<span style="cursor:pointer;font-weight:600" onclick="openStock(\''+x.code+'\')">'+x.name+'</span>';
+  const mk = c => { for (const m of ['KOSPI','KOSDAQ']){ const s = (DATA.markets[m]||{}).stocks||[]; if (s.some(t => t.code === c)) return m; } return ''; };
+  const ok = x => GX_MKT === 'ALL' || mk(x.code) === GX_MKT;
+  const lg = M.log || [];
+  const wk = [...lg].reverse().map((l, i) => {
+    const ins = l.in.filter(ok), outs = l.out.filter(ok), first = i === lg.length - 1;
+    const li = (x, c) => '<div class="row" style="grid-template-columns:1fr;cursor:default">'+
+      '<span class="nm" style="white-space:normal">'+nm(x)+' <span style="color:var(--'+c+'-text);font-size:11.5px">'+x.why+'</span>'+
+      (x.since?' <span style="color:var(--ink-3);font-size:11px">· '+fmtDD(x.since)+' 신규</span>':'')+'</span></div>';
+    return '<div style="margin-bottom:18px"><div class="sec" style="font-size:13.5px;font-weight:600;margin:2px 0 6px">'+fmtDD(l.week)+
+      (first ? ' 첫 판정' : ' 주')+' <span style="font-weight:400;color:var(--ink-3);font-size:11.5px">'+
+      (first ? '10월 말 값 대비 · ' : (l.prev ? fmtDD(l.prev)+' 대비 · ' : ''))+'신규 '+ins.length+' · 이탈 '+outs.length+'</span></div>'+
+      '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px">'+
+      '<div><div style="font-size:12px;color:var(--up-text);margin-bottom:4px">▲ 신규</div><div class="rank">'+(ins.map(x=>li(x,'up')).join('')||'<div class="sec-note">없음</div>')+'</div></div>'+
+      '<div><div style="font-size:12px;color:var(--down-text);margin-bottom:4px">▼ 이탈</div><div class="rank">'+(outs.map(x=>li(x,'down')).join('')||'<div class="sec-note">없음</div>')+'</div></div></div></div>';
+  }).join('');
+  return '<div class="sec-note" style="margin-bottom:10px">매주 금요일 16시 갱신 때 판정 · '+gxRule(N)+'</div>'+(wk || '<div class="sec-note">아직 판정 기록이 없습니다.</div>');
+}
+async function renderGx(host){
+  const d = await loadGx(), K = EPS_TAB, M = d && d.m ? d.m[K] : null, N = GXN[K].nm, SL = GXN[K].slope, opm = K === 'opm';
+  const chip = (on, l, js) => '<span class="chip'+(on?' on':'')+'" onclick="'+js+'">'+l+'</span>';
+  const vbar = '<div class="chips" style="margin-bottom:12px">'+chip(GX_VIEW==='wk','✅ '+N+' 상향 기업',"gxSet('view','wk')")+
+    chip(GX_VIEW==='slope','📈 '+SL,"gxSet('view','slope')")+chip(GX_VIEW==='log','🔄 변화',"gxSet('view','log')")+'</div>';
+  if (!M || !M.rows){ host.innerHTML = vbar+'<div class="sec-note">데이터가 아직 없습니다.</div>'; return; }
+  const mbar = chip(GX_MKT==='ALL','전체',"gxSet('mkt','ALL')")+chip(GX_MKT==='KOSPI','코스피',"gxSet('mkt','KOSPI')")+chip(GX_MKT==='KOSDAQ','코스닥',"gxSet('mkt','KOSDAQ')");
+  if (GX_VIEW === 'log'){ host.innerHTML = vbar+'<div class="chips" style="margin:-4px 0 10px">'+mbar+'</div>'+gxLog(M); return; }
+  const wkV = GX_VIEW === 'wk', f = GX_F[K][GX_VIEW], Y = M.year || d.year || new Date().getFullYear();
+  const yy = n => String(n).slice(2), Q = M.quarter || d.quarter || '';
+  const bar = mbar+'<span class="sep"></span>'+
+    (wkV ? chip(f.slope, '＋ '+SL, "gxSet('slope')") : chip(f.up, '＋ '+N+' 상향 기업', "gxSet('up')"))+
+    chip(f.sp, '＋ 어닝 서프라이즈('+Q+')', "gxSet('sp')")+
+    (f.sp ? chip(f.th===10,'괴리율 10%↑',"gxSet('th',"+(f.th===10?0:10)+")")+chip(f.th===30,'30%↑',"gxSet('th',"+(f.th===30?0:30)+")") : '')+
+    chip(f.yoy,'＋ 수주잔고 YoY↑('+Q+')',"gxSet('yoy')")+chip(f.qoq,'＋ 수주잔고 QoQ↑',"gxSet('qoq')");
+  const spTurn = r => r.sp_est != null && r.sp_est <= 0 && r.sp_op > 0;
+  let rows = M.rows.filter(r => GX_MKT === 'ALL' || r.mkt === GX_MKT);
+  rows = rows.filter(r => wkV ? r.up : r.tp);
+  if (wkV && f.slope) rows = rows.filter(r => r.tp);
+  if (!wkV && f.up) rows = rows.filter(r => r.up);
+  if (f.sp) rows = rows.filter(r => r.sp != null && r.sp > 0 && (!f.th || r.sp >= f.th || spTurn(r)));
+  if (f.yoy) rows = rows.filter(r => r.bl_yoy != null && r.bl_yoy > 0);
+  if (f.qoq) rows = rows.filter(r => r.bl_qoq != null && r.bl_qoq > 0);
+  const tpKey = r => r.tp === 'turn1' ? 2e9 : r.tp === 'turn0' ? 1e9 + (r.g_next||0) : (r.slope ?? -1e9);
+  rows.sort(wkV ? (a,b) => (b.since||'').localeCompare(a.since||'') || ((b.ipct??1e9) - (a.ipct??1e9)) : (a,b) => tpKey(b) - tpKey(a));
+  const pc = v => v == null ? '—' : '<span style="color:var(--'+(v>=0?'up':'down')+'-text)">'+(v>0?'+':'')+v.toFixed(1)+'%</span>';
+  const pp = v => v == null ? '—' : '<span style="color:var(--'+(v>=0?'up':'down')+'-text)">'+(v>0?'+':'')+v.toFixed(2)+'%p</span>';
+  const dash = '<span style="color:var(--ink-3)">—</span>';
+  const mg = v => v == null ? '—' : v.toFixed(1)+'%';
+  const grow = r => !r.tp ? dash
+    : r.tp === 'turn1' ? '<b style="color:var(--up-text)">'+yy(Y+1)+'년 흑자전환</b>'+(opm && r.v ? ' <span style="color:var(--ink-3);font-size:11px">'+yy(Y+1)+'E '+mg(r.v[2])+'</span>' : '')
+    : r.tp === 'turn0' ? '<b style="color:var(--up-text)">'+yy(Y)+'년 흑자전환</b> → '+(opm ? yy(Y+1)+'E '+mg(r.v[2])+' ('+pp(r.g_next)+')' : pc(r.g_next))
+    : opm ? mg(r.v[0])+' → '+mg(r.v[1])+' → '+mg(r.v[2])+' <span style="font-size:11px">(개선 '+pp(r.g_now)+' → '+pp(r.g_next)+')</span>'
+    : pc(r.g_now)+' → '+pc(r.g_next)+' <b style="color:#952F54">(+'+r.slope.toFixed(1)+'%p)</b>';
+  const sp = r => r.sp == null ? dash
+    : (spTurn(r) ? '<b style="color:var(--up-text)">흑자전환</b>' : '<b style="color:var(--'+(r.sp>=0?'up':'down')+'-text)">'+(r.sp>0?'+':'')+r.sp.toFixed(1)+'%</b>')+
+      ' <span style="color:var(--ink-3);font-size:11px">'+fmtInt(r.sp_op)+' vs '+fmtInt(r.sp_est)+'억</span>';
+  const bl = r => r.bl_q == null ? dash : 'YoY '+pc(r.bl_yoy)+' · QoQ '+pc(r.bl_qoq);
+  const dv = opm ? pp : pc;
+  const upc = r => !r.up ? dash : '<span style="font-size:11.5px">'+fmtDD(r.since)+' 신규</span>'+
+    (r.ipct!=null?' <span style="color:var(--ink-3);font-size:11px">(그 주 '+dv(r.ipct)+')</span>':'')+
+    (r.cum?' · 이후 '+dv(r.cum):'')+
+    (opm && r.cur!=null?' <span style="color:var(--ink-3);font-size:11px">· 지금 '+r.cur.toFixed(2)+'%</span>':'');
+  const tr = rows.map(r => '<tr style="cursor:pointer" onclick="openStock(\''+r.code+'\')">'+
+    '<td class="l"><b>'+r.name+'</b> <span style="color:var(--ink-3);font-size:11px">'+(r.mkt==='KOSPI'?'코스피':'코스닥')+'</span></td>'+
+    '<td class="l" style="color:var(--ink-3)">'+(r.sec||'')+'</td><td>'+fmtCap(r.cap)+'</td>'+
+    '<td>'+upc(r)+'</td><td>'+grow(r)+'</td><td>'+sp(r)+'</td><td>'+bl(r)+'</td></tr>').join('');
+  const note = wkV
+    ? '내년('+(d.fy||'')+') '+(opm ? '영업이익률(영업이익 추정치 ÷ 매출액 추정치)' : 'EPS')+' 추정치가 상향돼 신규로 들어온 뒤 아직 이탈하지 않은 기업 · 매주 금요일 16시 갱신 때 판정 (마지막 '+fmtDD(M.week||'')+') · 최근 신규 순'
+      +(opm ? ' · 매출 추정치는 11/25부터 받아 첫 판정은 10월 말 값 대비' : '')+'<br>'+gxRule(N)
+    : (opm ? '컨센서스로 '+yy(Y)+'년 영업이익률 개선 폭보다 '+yy(Y+1)+'년 개선 폭이 큰 기업'
+           : '컨센서스 EPS로 '+yy(Y)+'년 성장률보다 '+yy(Y+1)+'년 성장률이 커지는 기업')+
+      ' · '+yy(Y)+'년 흑자전환·'+yy(Y+1)+'년 흑자전환 포함(맨 앞) · 주 1회 갱신 ('+(M.slope_at||'')+')';
+  const gh = opm ? '영업이익률 '+yy(Y-1)+' → '+yy(Y)+'E → '+yy(Y+1)+'E (개선 폭)' : 'EPS 성장률 '+yy(Y)+'E → '+yy(Y+1)+'E (기울기)';
+  host.innerHTML = vbar+'<div class="chips" style="margin:-4px 0 10px">'+bar+'</div>'+
+    '<div class="sec-note" style="margin-bottom:8px">'+note+'<br>어닝 서프라이즈(WiseReport 잠정치 vs 컨센서스)·수주잔고는 분기보고서 제출 기한이 지난 '+Q+' 기준 · <b>'+rows.length+'종목</b> · 이름을 누르면 차트 팝업</div>'+
+    '<div style="overflow-x:auto"><table class="fintbl" style="width:100%;font-size:12.5px;font-variant-numeric:tabular-nums">'+
+    '<thead><tr><th class="l">기업</th><th class="l">업종</th><th>시총</th><th>'+N+' 상향</th><th>'+gh+'</th>'+
+    '<th>'+Q+' 영업이익 괴리율</th><th>'+Q+' 수주잔고</th></tr></thead><tbody>'+
+    (tr || '<tr><td colspan="7" class="l" style="color:var(--ink-3)">조건에 맞는 기업이 없습니다.</td></tr>')+'</tbody></table></div>';
 }
 let EPS_CARD_DIR = 'up';
 function setEpsCardDir(dir){
