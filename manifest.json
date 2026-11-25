@@ -8476,5 +8476,23 @@
     "reality_score": 45,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-25",
+    "filename": "281820_케이씨텍/2026-11-25_케이씨텍_281820.html",
+    "company": "케이씨텍",
+    "ticker": "281820",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 16,
+      "opportunity": 8,
+      "threat": 18
+    },
+    "reality_score": 41,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
