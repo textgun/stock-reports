@@ -8116,5 +8116,23 @@
     "reality_score": 43,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-25",
+    "filename": "071320_지역난방공사/2026-11-25_지역난방공사_071320.html",
+    "company": "지역난방공사",
+    "ticker": "071320",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 1,
+      "weakness": 19,
+      "opportunity": 11,
+      "threat": 20
+    },
+    "reality_score": 23,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
