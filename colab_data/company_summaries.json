@@ -164,11 +164,11 @@
     "company": "슈프리마",
     "sector": "반도체",
     "updated": "2026-11-26",
-    "score": 73,
+    "score": 72,
     "breakdown": {
       "strength": 20,
       "weakness": 18,
-      "opportunity": 16,
+      "opportunity": 15,
       "threat": 19
     },
     "sector_max": {
@@ -195,7 +195,7 @@
     },
     "reality_hope": {
       "reality_score": 38,
-      "hope_score": 37,
+      "hope_score": 36,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": {
@@ -1607,11 +1607,11 @@
     "company": "에이피알",
     "sector": "기타",
     "updated": "2026-11-26",
-    "score": 62,
+    "score": 63,
     "breakdown": {
       "strength": 25,
       "weakness": 13,
-      "opportunity": 8,
+      "opportunity": 9,
       "threat": 16
     },
     "sector_max": {
@@ -1638,7 +1638,7 @@
     },
     "reality_hope": {
       "reality_score": 38,
-      "hope_score": 22,
+      "hope_score": 23,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
@@ -11660,12 +11660,12 @@
     "company": "SK텔레콤",
     "sector": "플랫폼",
     "updated": "2026-11-26",
-    "score": 59,
+    "score": 57,
     "breakdown": {
       "strength": 15,
       "weakness": 14,
       "opportunity": 8,
-      "threat": 22
+      "threat": 20
     },
     "sector_max": {
       "strength": 22,
@@ -11691,7 +11691,7 @@
     },
     "reality_hope": {
       "reality_score": 38,
-      "hope_score": 23,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
