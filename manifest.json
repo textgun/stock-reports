@@ -8098,5 +8098,23 @@
     "reality_score": 32,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-26",
+    "filename": "035900_JYP Ent./2026-11-26_JYP Ent._035900.html",
+    "company": "JYP Ent.",
+    "ticker": "035900",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 10,
+      "opportunity": 7,
+      "threat": 18
+    },
+    "reality_score": 35,
+    "hope_score": 23,
+    "quadrant": "현실 강함  🟢"
   }
 ]
