@@ -12940,5 +12940,23 @@
     "reality_score": 25,
     "hope_score": 22,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "108490_로보티즈/2026-11-28_로보티즈_108490.html",
+    "company": "로보티즈",
+    "ticker": "108490",
+    "score": 25,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 10/30)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 4,
+      "opportunity": 6,
+      "threat": 9
+    },
+    "reality_score": 9,
+    "hope_score": 17,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
