@@ -12796,5 +12796,23 @@
     "reality_score": 50,
     "hope_score": 33,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "100840_SNT에너지/2026-11-28_SNT에너지_100840.html",
+    "company": "SNT에너지",
+    "ticker": "100840",
+    "score": 47,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 5,
+      "opportunity": 5,
+      "threat": 21
+    },
+    "reality_score": 24,
+    "hope_score": 23,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
