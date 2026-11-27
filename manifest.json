@@ -8134,5 +8134,23 @@
     "reality_score": 26,
     "hope_score": 20,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-27",
+    "filename": "009450_경동나비엔/2026-11-27_경동나비엔_009450.html",
+    "company": "경동나비엔",
+    "ticker": "009450",
+    "score": 65,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 11,
+      "opportunity": 17,
+      "threat": 14
+    },
+    "reality_score": 35,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
