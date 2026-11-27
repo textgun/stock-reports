@@ -8296,5 +8296,23 @@
     "reality_score": 45,
     "hope_score": 12,
     "quadrant": "현실 강함 / 기대 약함  🟡"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "001120_LX인터내셔널/2026-11-28_LX인터내셔널_001120.html",
+    "company": "LX인터내셔널",
+    "ticker": "001120",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 10,
+      "opportunity": 11,
+      "threat": 17
+    },
+    "reality_score": 25,
+    "hope_score": 26,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
