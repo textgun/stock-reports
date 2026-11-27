@@ -9826,5 +9826,23 @@
     "reality_score": 33,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "012450_한화에어로스페이스/2026-11-28_한화에어로스페이스_012450.html",
+    "company": "한화에어로스페이스",
+    "ticker": "012450",
+    "score": 32,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 9/28)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 1,
+      "opportunity": 6,
+      "threat": 17
+    },
+    "reality_score": 12,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
