@@ -486,11 +486,11 @@
     "company": "파두",
     "sector": "반도체",
     "updated": "2026-11-27",
-    "score": 56,
+    "score": 53,
     "breakdown": {
       "strength": 17,
       "weakness": 12,
-      "opportunity": 12,
+      "opportunity": 9,
       "threat": 15
     },
     "sector_max": {
@@ -517,7 +517,7 @@
     },
     "reality_hope": {
       "reality_score": 31,
-      "hope_score": 24,
+      "hope_score": 21,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
