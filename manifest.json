@@ -10852,5 +10852,23 @@
     "reality_score": 25,
     "hope_score": 26,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "036930_주성엔지니어링/2026-11-28_주성엔지니어링_036930.html",
+    "company": "주성엔지니어링",
+    "ticker": "036930",
+    "score": 50,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 15,
+      "opportunity": 4,
+      "threat": 7
+    },
+    "reality_score": 35,
+    "hope_score": 12,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
