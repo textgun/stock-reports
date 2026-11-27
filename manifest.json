@@ -11806,5 +11806,23 @@
     "reality_score": 21,
     "hope_score": 33,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "068270_셀트리온/2026-11-28_셀트리온_068270.html",
+    "company": "셀트리온",
+    "ticker": "068270",
+    "score": 74,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 4,
+      "opportunity": 26,
+      "threat": 26
+    },
+    "reality_score": 37,
+    "hope_score": 40,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
