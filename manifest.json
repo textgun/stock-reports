@@ -10474,5 +10474,23 @@
     "reality_score": 34,
     "hope_score": 20,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "032620_GC메디아이/2026-11-28_GC메디아이_032620.html",
+    "company": "GC메디아이",
+    "ticker": "032620",
+    "score": 57,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 19,
+      "opportunity": 8,
+      "threat": 12
+    },
+    "reality_score": 34,
+    "hope_score": 22,
+    "quadrant": "현실 강함  🟢"
   }
 ]
