@@ -12292,5 +12292,23 @@
     "reality_score": 30,
     "hope_score": 35,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "086520_에코프로/2026-11-28_에코프로_086520.html",
+    "company": "에코프로",
+    "ticker": "086520",
+    "score": 27,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 11,
+      "opportunity": 5,
+      "threat": 11
+    },
+    "reality_score": 10,
+    "hope_score": 18,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
