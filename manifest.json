@@ -8836,5 +8836,23 @@
     "reality_score": 36,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "005070_코스모신소재/2026-11-28_코스모신소재_005070.html",
+    "company": "코스모신소재",
+    "ticker": "005070",
+    "score": 33,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 20/30)",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 8,
+      "opportunity": 6,
+      "threat": 7
+    },
+    "reality_score": 18,
+    "hope_score": 14,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
