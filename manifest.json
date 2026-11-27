@@ -8368,5 +8368,23 @@
     "reality_score": 28,
     "hope_score": 12,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "001500_현대차증권/2026-11-28_현대차증권_001500.html",
+    "company": "현대차증권",
+    "ticker": "001500",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 18,
+      "opportunity": 8,
+      "threat": 19
+    },
+    "reality_score": 34,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
