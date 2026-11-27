@@ -105875,5 +105875,54 @@
         }
       }
     ]
+  },
+  "011330": {
+    "company_name": "유니켐",
+    "records": [
+      {
+        "date": "2025-12-31",
+        "total_score": 36,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 3,
+          "weakness": 5,
+          "opportunity": 13,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "total_score": 36,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 3,
+          "weakness": 5,
+          "opportunity": 13,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-06-30",
+        "total_score": 32,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 3,
+          "weakness": 1,
+          "opportunity": 13,
+          "threat": 15
+        }
+      },
+      {
+        "date": "2026-11-27",
+        "total_score": 32,
+        "rating_code": "AVOID",
+        "breakdown": {
+          "strength": 4,
+          "weakness": 0,
+          "opportunity": 13,
+          "threat": 15
+        }
+      }
+    ]
   }
 }
