@@ -1296,11 +1296,11 @@
     "company": "셀트리온",
     "sector": "바이오",
     "updated": "2026-11-27",
-    "score": 69,
+    "score": 71,
     "breakdown": {
       "strength": 18,
       "weakness": 4,
-      "opportunity": 21,
+      "opportunity": 23,
       "threat": 26
     },
     "sector_max": {
@@ -1327,7 +1327,7 @@
     },
     "reality_hope": {
       "reality_score": 37,
-      "hope_score": 35,
+      "hope_score": 37,
       "quadrant": "현실·기대 모두 강함  🟢🟢"
     },
     "extra": {
@@ -3967,12 +3967,12 @@
     "company": "펄어비스",
     "sector": "기타",
     "updated": "2026-11-27",
-    "score": 66,
+    "score": 64,
     "breakdown": {
       "strength": 25,
       "weakness": 15,
       "opportunity": 11,
-      "threat": 15
+      "threat": 13
     },
     "sector_max": {
       "strength": 25,
@@ -3998,7 +3998,7 @@
     },
     "reality_hope": {
       "reality_score": 40,
-      "hope_score": 24,
+      "hope_score": 22,
       "quadrant": "현실 강함  🟢"
     },
     "extra": {
