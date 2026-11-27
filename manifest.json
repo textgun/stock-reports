@@ -9700,5 +9700,23 @@
     "reality_score": 29,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "011330_유니켐/2026-11-28_유니켐_011330.html",
+    "company": "유니켐",
+    "ticker": "011330",
+    "score": 32,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 4/32)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 0,
+      "opportunity": 13,
+      "threat": 15
+    },
+    "reality_score": 8,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
