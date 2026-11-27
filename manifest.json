@@ -12616,5 +12616,23 @@
     "reality_score": 41,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "095610_테스/2026-11-28_테스_095610.html",
+    "company": "테스",
+    "ticker": "095610",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 11,
+      "opportunity": 11,
+      "threat": 16
+    },
+    "reality_score": 36,
+    "hope_score": 26,
+    "quadrant": "현실 강함  🟢"
   }
 ]
