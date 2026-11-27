@@ -12310,5 +12310,23 @@
     "reality_score": 10,
     "hope_score": 18,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "086670_비엠티/2026-11-28_비엠티_086670.html",
+    "company": "비엠티",
+    "ticker": "086670",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 23,
+      "weakness": 18,
+      "opportunity": 7,
+      "threat": 15
+    },
+    "reality_score": 42,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
