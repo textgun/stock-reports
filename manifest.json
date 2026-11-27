@@ -9484,5 +9484,23 @@
     "reality_score": 35,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "009520_포스코엠텍/2026-11-28_포스코엠텍_009520.html",
+    "company": "포스코엠텍",
+    "ticker": "009520",
+    "score": 58,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 20,
+      "weakness": 25,
+      "opportunity": 1,
+      "threat": 12
+    },
+    "reality_score": 42,
+    "hope_score": 13,
+    "quadrant": "현실 강함 / 기대 약함  🟡"
   }
 ]
