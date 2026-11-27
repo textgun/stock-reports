@@ -9034,5 +9034,23 @@
     "reality_score": 41,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "005830_DB손해보험/2026-11-28_DB손해보험_005830.html",
+    "company": "DB손해보험",
+    "ticker": "005830",
+    "score": 72,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 20,
+      "opportunity": 15,
+      "threat": 15
+    },
+    "reality_score": 43,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
