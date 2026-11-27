@@ -11788,5 +11788,23 @@
     "reality_score": 40,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "067990_도이치모터스/2026-11-28_도이치모터스_067990.html",
+    "company": "도이치모터스",
+    "ticker": "067990",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 25/32)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 21,
+      "opportunity": 13,
+      "threat": 13
+    },
+    "reality_score": 21,
+    "hope_score": 33,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
