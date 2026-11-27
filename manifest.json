@@ -10510,5 +10510,23 @@
     "reality_score": 33,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "032830_삼성생명/2026-11-28_삼성생명_032830.html",
+    "company": "삼성생명",
+    "ticker": "032830",
+    "score": 55,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 18,
+      "opportunity": 6,
+      "threat": 19
+    },
+    "reality_score": 32,
+    "hope_score": 24,
+    "quadrant": "현실 강함  🟢"
   }
 ]
