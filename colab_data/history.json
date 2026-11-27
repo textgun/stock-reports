@@ -32794,12 +32794,12 @@
       },
       {
         "date": "2026-11-27",
-        "total_score": 56,
+        "total_score": 53,
         "rating_code": "AVOID",
         "breakdown": {
           "strength": 17,
           "weakness": 12,
-          "opportunity": 12,
+          "opportunity": 9,
           "threat": 15
         }
       }
