@@ -8782,5 +8782,23 @@
     "reality_score": 31,
     "hope_score": 32,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "004560_현대비앤지스틸/2026-11-28_현대비앤지스틸_004560.html",
+    "company": "현대비앤지스틸",
+    "ticker": "004560",
+    "score": 30,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 6/30)",
+    "breakdown": {
+      "strength": 1,
+      "weakness": 5,
+      "opportunity": 7,
+      "threat": 17
+    },
+    "reality_score": 10,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
