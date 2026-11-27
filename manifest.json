@@ -10780,5 +10780,23 @@
     "reality_score": 29,
     "hope_score": 33,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "036530_SNT홀딩스/2026-11-28_SNT홀딩스_036530.html",
+    "company": "SNT홀딩스",
+    "ticker": "036530",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 30/32)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 15
+    },
+    "reality_score": 29,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
