@@ -11230,5 +11230,23 @@
     "reality_score": 26,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "051160_지어소프트/2026-11-28_지어소프트_051160.html",
+    "company": "지어소프트",
+    "ticker": "051160",
+    "score": 83,
+    "rating": "STRONG_BUY",
+    "rating_label": "적극 매수 ★★★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 25,
+      "opportunity": 21,
+      "threat": 21
+    },
+    "reality_score": 41,
+    "hope_score": 42,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
