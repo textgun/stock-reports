@@ -11284,5 +11284,23 @@
     "reality_score": 32,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "051910_LG화학/2026-11-28_LG화학_051910.html",
+    "company": "LG화학",
+    "ticker": "051910",
+    "score": 37,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 16/30)",
+    "breakdown": {
+      "strength": 5,
+      "weakness": 11,
+      "opportunity": 6,
+      "threat": 15
+    },
+    "reality_score": 16,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
