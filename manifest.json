@@ -11104,5 +11104,23 @@
     "reality_score": 22,
     "hope_score": 7,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "046970_우리로/2026-11-28_우리로_046970.html",
+    "company": "우리로",
+    "ticker": "046970",
+    "score": 62,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 16,
+      "weakness": 21,
+      "opportunity": 19,
+      "threat": 6
+    },
+    "reality_score": 34,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
