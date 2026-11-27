@@ -12454,5 +12454,23 @@
     "reality_score": 18,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "089860_롯데렌탈/2026-11-28_롯데렌탈_089860.html",
+    "company": "롯데렌탈",
+    "ticker": "089860",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 16,
+      "opportunity": 11,
+      "threat": 24
+    },
+    "reality_score": 32,
+    "hope_score": 34,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
