@@ -8512,5 +8512,23 @@
     "reality_score": 24,
     "hope_score": 26,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "003030_세아제강지주/2026-11-28_세아제강지주_003030.html",
+    "company": "세아제강지주",
+    "ticker": "003030",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
+    "breakdown": {
+      "strength": 12,
+      "weakness": 9,
+      "opportunity": 11,
+      "threat": 20
+    },
+    "reality_score": 24,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
