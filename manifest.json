@@ -8062,5 +8062,23 @@
     "reality_score": 30,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-27",
+    "filename": "003850_보령/2026-11-27_보령_003850.html",
+    "company": "보령",
+    "ticker": "003850",
+    "score": 56,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/18)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 2,
+      "opportunity": 17,
+      "threat": 28
+    },
+    "reality_score": 23,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
