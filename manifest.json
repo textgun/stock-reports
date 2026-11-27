@@ -11662,5 +11662,23 @@
     "reality_score": 50,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "064960_SNT모티브/2026-11-28_SNT모티브_064960.html",
+    "company": "SNT모티브",
+    "ticker": "064960",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 26/32)",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 11,
+      "opportunity": 7,
+      "threat": 19
+    },
+    "reality_score": 26,
+    "hope_score": 28,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
