@@ -8764,5 +8764,23 @@
     "reality_score": 13,
     "hope_score": 26,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "004430_송원산업/2026-11-28_송원산업_004430.html",
+    "company": "송원산업",
+    "ticker": "004430",
+    "score": 64,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 11,
+      "opportunity": 10,
+      "threat": 25
+    },
+    "reality_score": 31,
+    "hope_score": 32,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
