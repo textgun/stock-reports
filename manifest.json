@@ -11500,5 +11500,23 @@
     "reality_score": 39,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "060370_LS마린솔루션/2026-11-28_LS마린솔루션_060370.html",
+    "company": "LS마린솔루션",
+    "ticker": "060370",
+    "score": 40,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 28/30)",
+    "breakdown": {
+      "strength": 13,
+      "weakness": 15,
+      "opportunity": 3,
+      "threat": 9
+    },
+    "reality_score": 25,
+    "hope_score": 13,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
