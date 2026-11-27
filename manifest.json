@@ -9142,5 +9142,23 @@
     "reality_score": 27,
     "hope_score": 32,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "006340_대원전선/2026-11-28_대원전선_006340.html",
+    "company": "대원전선",
+    "ticker": "006340",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 15,
+      "weakness": 24,
+      "opportunity": 17,
+      "threat": 3
+    },
+    "reality_score": 35,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
