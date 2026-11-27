@@ -12994,5 +12994,23 @@
     "reality_score": 19,
     "hope_score": 24,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "114090_GKL/2026-11-28_GKL_114090.html",
+    "company": "GKL",
+    "ticker": "114090",
+    "score": 51,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 31/38)",
+    "breakdown": {
+      "strength": 10,
+      "weakness": 21,
+      "opportunity": 6,
+      "threat": 14
+    },
+    "reality_score": 28,
+    "hope_score": 25,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
