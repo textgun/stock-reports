@@ -9592,5 +9592,23 @@
     "reality_score": 21,
     "hope_score": 20,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "010140_삼성중공업/2026-11-28_삼성중공업_010140.html",
+    "company": "삼성중공업",
+    "ticker": "010140",
+    "score": 59,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 11,
+      "opportunity": 16,
+      "threat": 13
+    },
+    "reality_score": 41,
+    "hope_score": 25,
+    "quadrant": "현실 강함  🟢"
   }
 ]
