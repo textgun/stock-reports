@@ -8422,5 +8422,23 @@
     "reality_score": 31,
     "hope_score": 34,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "002350_넥센타이어/2026-11-28_넥센타이어_002350.html",
+    "company": "넥센타이어",
+    "ticker": "002350",
+    "score": 53,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/32)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 27,
+      "opportunity": 8,
+      "threat": 18
+    },
+    "reality_score": 27,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
