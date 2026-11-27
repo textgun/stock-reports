@@ -12652,5 +12652,23 @@
     "reality_score": 22,
     "hope_score": 27,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "096530_씨젠/2026-11-28_씨젠_096530.html",
+    "company": "씨젠",
+    "ticker": "096530",
+    "score": 60,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/18)",
+    "breakdown": {
+      "strength": 11,
+      "weakness": 6,
+      "opportunity": 17,
+      "threat": 26
+    },
+    "reality_score": 29,
+    "hope_score": 29,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
