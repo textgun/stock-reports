@@ -12742,5 +12742,23 @@
     "reality_score": 18,
     "hope_score": 23,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "099320_쎄트렉아이/2026-11-28_쎄트렉아이_099320.html",
+    "company": "쎄트렉아이",
+    "ticker": "099320",
+    "score": 51,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 17,
+      "weakness": 14,
+      "opportunity": 6,
+      "threat": 14
+    },
+    "reality_score": 28,
+    "hope_score": 22,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
