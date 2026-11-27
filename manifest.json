@@ -10564,5 +10564,23 @@
     "reality_score": 22,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "033780_케이티앤지/2026-11-28_케이티앤지_033780.html",
+    "company": "케이티앤지",
+    "ticker": "033780",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 18,
+      "opportunity": 11,
+      "threat": 18
+    },
+    "reality_score": 41,
+    "hope_score": 29,
+    "quadrant": "현실 강함  🟢"
   }
 ]
