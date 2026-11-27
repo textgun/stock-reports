@@ -33775,5 +33775,80 @@
       "pbr_roe_fair_value": 474.0,
       "nav_sotp_mid": null
     }
+  },
+  "011330": {
+    "company": "유니켐",
+    "updated": "2026-11-27",
+    "score": 32,
+    "sector": "자동차",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 0,
+      "opportunity": 13,
+      "threat": 15
+    },
+    "sector_max": {
+      "strength": 28,
+      "weakness": 27,
+      "opportunity": 23,
+      "threat": 22
+    },
+    "earnings": {
+      "qoq_trend": "recovering",
+      "yoy_pct": 32.7,
+      "rev_yoy_pct": -15.6,
+      "momentum_score": 7.5,
+      "correction_pts": 0
+    },
+    "trade": {
+      "export_yoy": null,
+      "import_yoy": null,
+      "hs_code": null,
+      "base_month": null,
+      "status": null,
+      "trade_score": 5,
+      "correction_pts": 0
+    },
+    "extra": {
+      "employees": null,
+      "top_shareholder": "(주)제이에이치사람들 20.54%",
+      "ceo": null,
+      "exec_count": 16
+    },
+    "valuation": {
+      "per": null,
+      "per_txt": "",
+      "pbr": 0.44,
+      "pbr_txt": "",
+      "psr": 0.57,
+      "psr_txt": "저평가",
+      "peg": null,
+      "peg_txt": "",
+      "tgt": null,
+      "upside": null,
+      "consensus_n": 0,
+      "roe": -12.91
+    },
+    "valuation_engine": {
+      "fair_value": 13236.0,
+      "band_low": 10164.0,
+      "band_high": 18702.0,
+      "confidence": "LOW",
+      "method_spread": null,
+      "position_scale": 1.0,
+      "buy_signal_allowed": false,
+      "sell_signal_allowed": false,
+      "confidence_reasons": [
+        "평가 방법 1개 — 교차 검증 불가"
+      ],
+      "zone": "AVOID",
+      "gap_pct": null,
+      "quality_gate_passed": false,
+      "action_label": "가치함정 주의 — 재무(S+W) 필터 미달 (4점 < 기준 32점) / 이자보상배율 미달 (0.3배 < 기준 2.0배), 존과 무관하게 회피",
+      "srim_mid": null,
+      "per_band_mid": null,
+      "pbr_roe_fair_value": null,
+      "nav_sotp_mid": null
+    }
   }
 }
