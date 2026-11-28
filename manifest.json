@@ -13768,5 +13768,23 @@
     "reality_score": 40,
     "hope_score": 28,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "195940_HK이노엔/2026-11-28_HK이노엔_195940.html",
+    "company": "HK이노엔",
+    "ticker": "195940",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/18)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 6,
+      "opportunity": 12,
+      "threat": 31
+    },
+    "reality_score": 23,
+    "hope_score": 28,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
