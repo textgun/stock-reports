@@ -14362,5 +14362,23 @@
     "reality_score": 10,
     "hope_score": 15,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "249420_일동제약/2026-11-28_일동제약_249420.html",
+    "company": "일동제약",
+    "ticker": "249420",
+    "score": 55,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 17/18)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 11,
+      "opportunity": 21,
+      "threat": 17
+    },
+    "reality_score": 26,
+    "hope_score": 28,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
