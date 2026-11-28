@@ -16018,5 +16018,23 @@
     "reality_score": 37,
     "hope_score": 17,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "487570_HS효성/2026-11-28_HS효성_487570.html",
+    "company": "HS효성",
+    "ticker": "487570",
+    "score": 51,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 6,
+      "opportunity": 7,
+      "threat": 16
+    },
+    "reality_score": 30,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
