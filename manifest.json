@@ -14974,5 +14974,23 @@
     "reality_score": 9,
     "hope_score": 18,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "307180_아이엘/2026-11-28_아이엘_307180.html",
+    "company": "아이엘",
+    "ticker": "307180",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
+    "breakdown": {
+      "strength": 6,
+      "weakness": 15,
+      "opportunity": 5,
+      "threat": 9
+    },
+    "reality_score": 22,
+    "hope_score": 12,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
