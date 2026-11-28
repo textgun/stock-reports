@@ -15892,5 +15892,23 @@
     "reality_score": 3,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "458870_씨어스/2026-11-28_씨어스_458870.html",
+    "company": "씨어스",
+    "ticker": "458870",
+    "score": 56,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 9,
+      "weakness": 14,
+      "opportunity": 14,
+      "threat": 19
+    },
+    "reality_score": 25,
+    "hope_score": 32,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
