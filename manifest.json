@@ -13912,5 +13912,23 @@
     "reality_score": 42,
     "hope_score": 27,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "208710_포톤/2026-11-28_포톤_208710.html",
+    "company": "포톤",
+    "ticker": "208710",
+    "score": 30,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 11/30)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 9,
+      "opportunity": 3,
+      "threat": 16
+    },
+    "reality_score": 11,
+    "hope_score": 20,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
