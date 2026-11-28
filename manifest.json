@@ -13876,5 +13876,23 @@
     "reality_score": 17,
     "hope_score": 19,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "204620_글로벌텍스프리/2026-11-28_글로벌텍스프리_204620.html",
+    "company": "글로벌텍스프리",
+    "ticker": "204620",
+    "score": 79,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 21,
+      "weakness": 22,
+      "opportunity": 20,
+      "threat": 16
+    },
+    "reality_score": 43,
+    "hope_score": 36,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
