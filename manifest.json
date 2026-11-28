@@ -16054,5 +16054,23 @@
     "reality_score": 35,
     "hope_score": 26,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "499790_GS피앤엘/2026-11-28_GS피앤엘_499790.html",
+    "company": "GS피앤엘",
+    "ticker": "499790",
+    "score": 60,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 28,
+      "weakness": 13,
+      "opportunity": 8,
+      "threat": 11
+    },
+    "reality_score": 35,
+    "hope_score": 21,
+    "quadrant": "현실 강함  🟢"
   }
 ]
