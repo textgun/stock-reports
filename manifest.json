@@ -15064,5 +15064,23 @@
     "reality_score": 4,
     "hope_score": 14,
     "quadrant": "현실·기대 불량  ⚫"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "316140_우리금융지주/2026-11-28_우리금융지주_316140.html",
+    "company": "우리금융지주",
+    "ticker": "316140",
+    "score": 73,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 18,
+      "opportunity": 12,
+      "threat": 19
+    },
+    "reality_score": 43,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
