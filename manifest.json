@@ -15190,5 +15190,23 @@
     "reality_score": 40,
     "hope_score": 30,
     "quadrant": "현실·기대 모두 강함  🟢🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "327260_RF머트리얼즈/2026-11-28_RF머트리얼즈_327260.html",
+    "company": "RF머트리얼즈",
+    "ticker": "327260",
+    "score": 43,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 24,
+      "weakness": 5,
+      "opportunity": 9,
+      "threat": 5
+    },
+    "reality_score": 27,
+    "hope_score": 14,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
