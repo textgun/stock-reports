@@ -15334,5 +15334,23 @@
     "reality_score": 15,
     "hope_score": 17,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "352820_하이브/2026-11-28_하이브_352820.html",
+    "company": "하이브",
+    "ticker": "352820",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 13,
+      "opportunity": 10,
+      "threat": 15
+    },
+    "reality_score": 29,
+    "hope_score": 27,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
