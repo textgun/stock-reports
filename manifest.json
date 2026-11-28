@@ -15802,5 +15802,23 @@
     "reality_score": 16,
     "hope_score": 11,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "452430_사피엔반도체/2026-11-28_사피엔반도체_452430.html",
+    "company": "사피엔반도체",
+    "ticker": "452430",
+    "score": 35,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 8,
+      "weakness": 16,
+      "opportunity": 6,
+      "threat": 5
+    },
+    "reality_score": 23,
+    "hope_score": 11,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
