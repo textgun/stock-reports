@@ -16072,5 +16072,23 @@
     "reality_score": 35,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "950140_잉글우드랩/2026-11-28_잉글우드랩_950140.html",
+    "company": "잉글우드랩",
+    "ticker": "950140",
+    "score": 48,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 21/30)",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 7,
+      "opportunity": 7,
+      "threat": 20
+    },
+    "reality_score": 24,
+    "hope_score": 24,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
