@@ -14596,5 +14596,23 @@
     "reality_score": 27,
     "hope_score": 17,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "272290_이녹스첨단소재/2026-11-28_이녹스첨단소재_272290.html",
+    "company": "이녹스첨단소재",
+    "ticker": "272290",
+    "score": 45,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 27/30)",
+    "breakdown": {
+      "strength": 2,
+      "weakness": 25,
+      "opportunity": 5,
+      "threat": 13
+    },
+    "reality_score": 29,
+    "hope_score": 14,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
