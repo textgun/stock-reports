@@ -14506,5 +14506,23 @@
     "reality_score": 39,
     "hope_score": 24,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "267250_HD현대/2026-11-28_HD현대_267250.html",
+    "company": "HD현대",
+    "ticker": "267250",
+    "score": 63,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 17,
+      "opportunity": 10,
+      "threat": 18
+    },
+    "reality_score": 48,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
