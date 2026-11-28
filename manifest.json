@@ -15874,5 +15874,23 @@
     "reality_score": 15,
     "hope_score": 21,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "457190_이수스페셜티케미컬/2026-11-28_이수스페셜티케미컬_457190.html",
+    "company": "이수스페셜티케미컬",
+    "ticker": "457190",
+    "score": 22,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 3/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 3,
+      "opportunity": 8,
+      "threat": 11
+    },
+    "reality_score": 3,
+    "hope_score": 21,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
