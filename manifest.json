@@ -15370,5 +15370,23 @@
     "reality_score": 36,
     "hope_score": 29,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "355150_코스텍시스/2026-11-28_코스텍시스_355150.html",
+    "company": "코스텍시스",
+    "ticker": "355150",
+    "score": 43,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 23/30)",
+    "breakdown": {
+      "strength": 18,
+      "weakness": 5,
+      "opportunity": 5,
+      "threat": 15
+    },
+    "reality_score": 25,
+    "hope_score": 17,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
