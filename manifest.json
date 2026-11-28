@@ -14812,5 +14812,23 @@
     "reality_score": 35,
     "hope_score": 16,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "293490_카카오게임즈/2026-11-28_카카오게임즈_293490.html",
+    "company": "카카오게임즈",
+    "ticker": "293490",
+    "score": 36,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 12/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 12,
+      "opportunity": 12,
+      "threat": 12
+    },
+    "reality_score": 12,
+    "hope_score": 26,
+    "quadrant": "현실·기대 중립  🔵"
   }
 ]
