@@ -13534,5 +13534,23 @@
     "reality_score": 24,
     "hope_score": 31,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "160190_하이젠알앤엠/2026-11-28_하이젠알앤엠_160190.html",
+    "company": "하이젠알앤엠",
+    "ticker": "160190",
+    "score": 32,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 24/30)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 20,
+      "opportunity": 3,
+      "threat": 5
+    },
+    "reality_score": 22,
+    "hope_score": 9,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
