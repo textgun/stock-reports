@@ -15136,5 +15136,23 @@
     "reality_score": 45,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "322000_HD현대에너지솔루션/2026-11-28_HD현대에너지솔루션_322000.html",
+    "company": "HD현대에너지솔루션",
+    "ticker": "322000",
+    "score": 52,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 29/30)",
+    "breakdown": {
+      "strength": 26,
+      "weakness": 3,
+      "opportunity": 11,
+      "threat": 12
+    },
+    "reality_score": 31,
+    "hope_score": 20,
+    "quadrant": "현실 강함  🟢"
   }
 ]
