@@ -15820,5 +15820,23 @@
     "reality_score": 23,
     "hope_score": 11,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "453340_현대그린푸드/2026-11-28_현대그린푸드_453340.html",
+    "company": "현대그린푸드",
+    "ticker": "453340",
+    "score": 71,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 19,
+      "weakness": 19,
+      "opportunity": 11,
+      "threat": 22
+    },
+    "reality_score": 39,
+    "hope_score": 31,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
