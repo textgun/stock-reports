@@ -13642,5 +13642,23 @@
     "reality_score": 41,
     "hope_score": 23,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "181710_NHN/2026-11-28_NHN_181710.html",
+    "company": "NHN",
+    "ticker": "181710",
+    "score": 66,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 14,
+      "weakness": 15,
+      "opportunity": 16,
+      "threat": 21
+    },
+    "reality_score": 41,
+    "hope_score": 28,
+    "quadrant": "현실 강함  🟢"
   }
 ]
