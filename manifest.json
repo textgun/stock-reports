@@ -14092,5 +14092,23 @@
     "reality_score": 41,
     "hope_score": 21,
     "quadrant": "현실 강함  🟢"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "225570_넥슨게임즈/2026-11-28_넥슨게임즈_225570.html",
+    "company": "넥슨게임즈",
+    "ticker": "225570",
+    "score": 25,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 5/30)",
+    "breakdown": {
+      "strength": 0,
+      "weakness": 5,
+      "opportunity": 11,
+      "threat": 9
+    },
+    "reality_score": 7,
+    "hope_score": 19,
+    "quadrant": "현실·기대 불량  ⚫"
   }
 ]
