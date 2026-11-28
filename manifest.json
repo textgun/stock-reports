@@ -16000,5 +16000,23 @@
     "reality_score": 10,
     "hope_score": 25,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "483650_달바글로벌/2026-11-28_달바글로벌_483650.html",
+    "company": "달바글로벌",
+    "ticker": "483650",
+    "score": 56,
+    "rating": "HOLD",
+    "rating_label": "보유 ★",
+    "breakdown": {
+      "strength": 25,
+      "weakness": 12,
+      "opportunity": 7,
+      "threat": 12
+    },
+    "reality_score": 37,
+    "hope_score": 17,
+    "quadrant": "현실 강함  🟢"
   }
 ]
