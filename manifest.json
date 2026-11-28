@@ -14308,5 +14308,23 @@
     "reality_score": 26,
     "hope_score": 26,
     "quadrant": "현실·기대 중립  🔵"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "241710_코스메카코리아/2026-11-28_코스메카코리아_241710.html",
+    "company": "코스메카코리아",
+    "ticker": "241710",
+    "score": 67,
+    "rating": "BUY",
+    "rating_label": "매수 ★★",
+    "breakdown": {
+      "strength": 22,
+      "weakness": 14,
+      "opportunity": 10,
+      "threat": 21
+    },
+    "reality_score": 36,
+    "hope_score": 30,
+    "quadrant": "현실·기대 모두 강함  🟢🟢"
   }
 ]
