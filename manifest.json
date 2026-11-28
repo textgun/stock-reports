@@ -13336,5 +13336,23 @@
     "reality_score": 27,
     "hope_score": 11,
     "quadrant": "현실·기대 약함  🔴"
+  },
+  {
+    "date": "2026-11-28",
+    "filename": "137400_피엔티/2026-11-28_피엔티_137400.html",
+    "company": "피엔티",
+    "ticker": "137400",
+    "score": 34,
+    "rating": "AVOID",
+    "rating_label": "회피 ✗ (재무 필터 미통과 14/30)",
+    "breakdown": {
+      "strength": 4,
+      "weakness": 10,
+      "opportunity": 6,
+      "threat": 14
+    },
+    "reality_score": 17,
+    "hope_score": 18,
+    "quadrant": "현실·기대 약함  🔴"
   }
 ]
